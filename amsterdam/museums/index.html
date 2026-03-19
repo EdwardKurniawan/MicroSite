@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amsterdam Museums & Art Guide 2026 — Rijksmuseum, Van Gogh & More</title>
+  <meta name="description" content="The complete guide to Amsterdam's museums — Rijksmuseum, Van Gogh, Stedelijk, Moco, Rembrandthuis and more. Booking tips, opening hours, and skip-the-line tickets." />
+  <link rel="canonical" href="https://yourdomain.com/museums/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Amsterdam Museums & Art Guide 2026 — Rijksmuseum, Van Gogh & More" />
+  <meta property="og:description" content="The complete guide to Amsterdam's museums — Rijksmuseum, Van Gogh, Stedelijk, Moco, Rembrandthuis and more. Booking tips, opening hours, and skip-the-line tickets." />
+  <meta property="og:url" content="https://yourdomain.com/museums/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent:#E8601C;--accent-dark:#c44f14;--accent-light:#fff3ee;
+      --ink:#1a1a1a;--ink-muted:#555;--surface:#fff;--surface-2:#f8f7f5;
+      --border:#e5e3df;--radius-sm:6px;--radius-md:12px;--radius-lg:20px;
+      --shadow-sm:0 1px 3px rgba(0,0,0,.08);--shadow-md:0 4px 16px rgba(0,0,0,.10);
+      --font-display:'Playfair Display',Georgia,serif;
+      --font-body:'Inter',system-ui,sans-serif;
+      --max-w:760px;--max-w-wide:1160px;
+      --canal:#1a3a5c;--flag-red:#AE1C28;--flag-blue:#21468B;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:var(--font-body);color:var(--ink);background:var(--surface);line-height:1.7;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;height:auto;display:block}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--max-w-wide);margin:0 auto;padding:0 24px}
+    .content-wrap{max-width:var(--max-w);margin:0 auto}
+    .site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    .site-header::before{content:'';display:block;height:4px;background:linear-gradient(to right,var(--flag-red) 0%,var(--flag-red) 33.33%,#fff 33.33%,#fff 66.66%,var(--flag-blue) 66.66%,var(--flag-blue) 100%)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:60px}
+    .nav-logo{font-family:var(--font-display);font-size:1.1rem;font-weight:800;color:var(--ink);letter-spacing:-.02em;white-space:nowrap}
+    .nav-logo span{color:var(--accent)}
+    .nav-links{display:flex;gap:28px;list-style:none}
+    .nav-links a{font-size:.875rem;font-weight:500;color:var(--ink-muted);transition:color .2s}
+    .nav-links a:hover,.nav-links a.active{color:var(--accent);text-decoration:none}
+    .nav-cta{background:var(--accent);color:#fff;padding:8px 18px;border-radius:40px;font-size:.875rem;font-weight:600;transition:background .2s}
+    .nav-cta:hover{background:var(--accent-dark);text-decoration:none}
+    .nav-hamburger{display:none;cursor:pointer;background:none;border:none;padding:4px}
+    .nav-hamburger span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;border-radius:2px}
+    .breadcrumb{padding:14px 0 0;font-size:.8rem;color:var(--ink-muted)}
+    .breadcrumb a{color:var(--ink-muted)}
+    .breadcrumb a:hover{color:var(--accent);text-decoration:none}
+    .breadcrumb span{margin:0 6px}
+    .page-hero{background:linear-gradient(135deg,#1a2744 0%,#2d4a7a 60%,#1f3560 100%);border-radius:var(--radius-lg);margin:12px 0 0;min-height:320px;position:relative;overflow:hidden;display:flex;align-items:flex-end}
+    .page-hero-img{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;opacity:.5}
+    .page-hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,.1) 60%,transparent 100%)}
+    .page-hero-content{position:relative;z-index:2;padding:32px 40px 40px;max-width:680px}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;border-radius:40px;margin-bottom:14px}
+    .page-hero h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.6rem);font-weight:800;line-height:1.2;color:#fff;margin-bottom:12px;letter-spacing:-.02em}
+    .page-hero-meta{display:flex;flex-wrap:wrap;gap:14px;color:rgba(255,255,255,.8);font-size:.84rem}
+    .intro{margin-bottom:36px}
+    .intro p{font-size:1.02rem;color:var(--ink-muted);margin-bottom:16px}
+    .intro strong{color:var(--ink)}
+    .section-heading{font-family:var(--font-display);font-size:1.7rem;font-weight:800;letter-spacing:-.02em;margin:44px 0 18px;padding-top:20px}
+    .section-heading::after{content:'';display:block;width:44px;height:3px;background:var(--accent);border-radius:2px;margin-top:8px}
+    .attractions{list-style:none}
+    .attraction{display:grid;grid-template-columns:1fr;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;box-shadow:var(--shadow-sm);transition:box-shadow .25s,transform .2s}
+    .attraction:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+    .attraction-img-wrap{position:relative;overflow:hidden;height:260px;background:var(--surface-2)}
+    .attraction-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .attraction:hover .attraction-img-wrap img{transform:scale(1.04)}
+    .attraction-rank{position:absolute;top:16px;left:16px;background:var(--accent);color:#fff;font-family:var(--font-display);font-size:1.1rem;font-weight:800;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+    .attraction-badge{position:absolute;top:16px;right:16px;background:rgba(0,0,0,.65);backdrop-filter:blur(4px);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:40px}
+    .attraction-badge.must-see{background:var(--accent)}
+    .attraction-body{padding:26px 30px}
+    .attraction-cat{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+    .attraction h2{font-family:var(--font-display);font-size:1.5rem;font-weight:800;line-height:1.2;margin-bottom:10px;letter-spacing:-.02em}
+    .attraction-meta{display:flex;flex-wrap:wrap;gap:12px;font-size:.8rem;color:var(--ink-muted);margin-bottom:14px}
+    .attraction p{color:var(--ink-muted);margin-bottom:14px}
+    .story-hook{font-size:.9rem;font-style:italic;color:var(--canal);border-left:3px solid var(--canal);padding:10px 14px;margin-bottom:16px;background:rgba(26,58,92,.04);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+    .star-badge{display:inline-flex;align-items:center;gap:4px;color:#f59e0b;font-weight:700;font-size:.82rem}
+    .star-badge .rc{color:var(--ink-muted);font-weight:400;font-size:.78rem}
+    .tip-box{background:var(--accent-light);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:12px 16px;margin:14px 0;font-size:.875rem}
+    .tip-box strong{color:var(--accent)}
+    .book-cta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 20px;margin-top:18px}
+    .book-cta-left{flex:1}
+    .book-cta-label{font-size:.78rem;color:var(--ink-muted);margin-bottom:2px}
+    .book-cta-price{font-weight:700;font-size:1rem}
+    .book-cta-price span{font-size:.8rem;font-weight:400;color:var(--ink-muted)}
+    .book-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.875rem;font-weight:700;padding:12px 22px;border-radius:40px;transition:background .2s,transform .15s;white-space:nowrap;text-decoration:none}
+    .book-btn:hover{background:var(--accent-dark);transform:translateY(-1px);text-decoration:none;color:#fff}
+    .book-btn svg{width:16px;height:16px}
+    .cta-banner{background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);border-radius:var(--radius-lg);padding:44px 36px;text-align:center;margin:44px 0;position:relative;overflow:hidden}
+    .cta-banner::before{content:'';position:absolute;top:-60px;right:-60px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.08)}
+    .cta-banner h3{font-family:var(--font-display);font-size:1.7rem;color:#fff;margin-bottom:10px;font-weight:800}
+    .cta-banner p{color:rgba(255,255,255,.85);margin-bottom:26px}
+    .cta-form{display:flex;gap:10px;max-width:420px;margin:0 auto}
+    .cta-form input{flex:1;padding:12px 16px;border-radius:40px;border:none;font-size:.9rem;outline:none}
+    .cta-form button{background:var(--ink);color:#fff;border:none;padding:12px 22px;border-radius:40px;font-weight:700;cursor:pointer;font-size:.9rem;white-space:nowrap;transition:opacity .2s}
+    .cta-form button:hover{opacity:.88}
+    .site-footer{background:var(--ink);color:rgba(255,255,255,.6);padding:44px 0 22px;margin-top:72px;font-size:.85rem}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:36px}
+    .footer-brand .nav-logo{color:#fff}
+    .footer-brand p{margin-top:10px;color:rgba(255,255,255,.5);font-size:.82rem;line-height:1.6}
+    .footer-col h4{color:#fff;font-weight:600;margin-bottom:12px;font-size:.875rem}
+    .footer-col ul{list-style:none}
+    .footer-col ul li{margin-bottom:7px}
+    .footer-col ul a{color:rgba(255,255,255,.55);transition:color .2s}
+    .footer-col ul a:hover{color:#fff;text-decoration:none}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+    .scroll-top{position:fixed;bottom:26px;right:26px;z-index:200;width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);opacity:0;pointer-events:none;transition:opacity .3s,transform .2s;font-size:1.1rem}
+    .scroll-top.visible{opacity:1;pointer-events:all}
+    @media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:640px){.page-hero{min-height:260px;border-radius:var(--radius-md)}.page-hero-content{padding:22px 22px 28px}.attraction-body{padding:18px 18px}.book-cta{flex-direction:column;align-items:flex-start}.nav-links,.nav-cta{display:none}.nav-hamburger{display:block}.footer-grid{grid-template-columns:1fr}.cta-form{flex-direction:column}}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+        <ul class="nav-links">
+          <li><a href="/museums/" class="active">Museums</a></li>
+          <li><a href="/canal-cruises/">Canal Cruises</a></li>
+          <li><a href="/experiences/">Experiences</a></li>
+          <li><a href="/nature-day-trips/">Day Trips</a></li>
+        </ul>
+        <a href="#tickets" class="nav-cta">🎟 Buy Tickets</a>
+        <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a><span>&#x203A;</span><span>Museums &amp; Art</span>
+      </div>
+      <section class="page-hero" aria-label="Museums &amp; Art">
+        <img class="page-hero-img"
+          src="https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80"
+          alt="Rijksmuseum on Museumplein Amsterdam" loading="eager" width="1200" height="500" />
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+          <div class="hero-eyebrow">🇳🇱 Amsterdam Museums Guide</div>
+          <h1>Amsterdam Museums &amp; Art (2026 Guide)</h1>
+          <div class="page-hero-meta">
+            <span>📍 Amsterdam, Netherlands</span>
+            <span>🕐 Updated March 2026</span>
+            <span>✍️ By <a href="/authors/sarah-mitchell/" style="color:rgba(255,255,255,.9)">Sarah Mitchell</a></span>
+          </div>
+        </div>
+      </section>
+      <div class="content-wrap">
+        <div class="intro" style="margin-top:28px">
+      <p>Amsterdam has more museums per square kilometre than almost any city on earth — and the concentration of masterpieces on a single square (Museumplein) is genuinely extraordinary. <strong>The Rijksmuseum, Van Gogh Museum, and Stedelijk are all within a 5-minute walk of each other.</strong></p>
+      <p>This guide covers the six best museums in the city, with honest advice on which to prioritise, when to book, and what to see once you're inside. The Rijksmuseum and Van Gogh both require advance booking — the others are generally available on shorter notice.</p>
+    </div>
+        <h2 class="section-heading">Museums &amp; Art</h2>
+        <ol class="attractions" aria-label="Museums &amp; Art in Amsterdam">
+          <li class="attraction" id="rijksmuseum">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=900&auto=format&fit=crop&q=75"
+                alt="Rijksmuseum Amsterdam Museumplein" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">1</div>
+              <div class="attraction-badge must-see">Must See</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Art</div>
+              <h2 id="rijksmuseum-h">Rijksmuseum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.7 <span class="rc">(94,000 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Museumplein</span>
+                <span class="attraction-meta-item">&#128336; Daily 9am&#x2013;5pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;22.50</span>
+              </div>
+              <p class="story-hook">Rembrandt was paid 1,600 guilders to paint the Night Watch &#x2014; roughly two years&#x2019; wages for a skilled craftsman. It now hangs in a museum that draws 2.7 million visitors a year.</p>
+              <p>The Rijksmuseum is the largest museum in the Netherlands and one of the great art museums of the world. Its permanent collection spans 8,000 objects across 80 rooms, covering Dutch and Flemish Golden Age art from the 15th to 19th centuries.</p>
+              <p>The Gallery of Honour leads directly to the Night Watch &#x2014; Rembrandt&#x2019;s monumental group portrait painted in 1642. Arrive at opening (9am) to see it without the crowds. Allow at least 2.5 hours for the permanent collection.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The Rijksmuseum garden (entry free) is one of the best picnic spots in the city in summer.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Timed entry &#xB7; Skip the queue</div>
+                  <div class="book-cta-price">From &#x20AC;22.50 <span>&#x2014; online booking only</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Timed Entry">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Timed Entry
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="van-gogh">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1634228011564-0b1ad7b8dc2e?w=900&auto=format&fit=crop&q=75"
+                alt="Van Gogh Museum Amsterdam interior paintings" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">2</div>
+              <div class="attraction-badge must-see">Must See</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Art</div>
+              <h2 id="van-gogh-h">Van Gogh Museum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(82,000 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Museumplein</span>
+                <span class="attraction-meta-item">&#128336; Daily 9am&#x2013;5pm (Fri to 9pm)</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;22</span>
+              </div>
+              <p class="story-hook">Van Gogh sold exactly one painting during his lifetime. Today, a single work sells for over $100 million. Amsterdam holds more of his paintings than anywhere else on earth.</p>
+              <p>The Van Gogh Museum holds the world&#x2019;s largest collection of Van Gogh&#x2019;s work &#x2014; 200 paintings and 500 drawings, arranged chronologically. The layout follows the arc of his life from the dark Dutch period through Paris and Arles to his final years in Saint-R&#xe9;my.</p>
+              <p>Walk-up tickets are not sold at the door. You must book online in advance &#x2014; the museum sells out daily. Book at least one week ahead in summer, and earlier for school holidays.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Friday evening sessions (6pm&#x2013;9pm) are significantly quieter than daytime slots.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Walk-ups not accepted &#xB7; Online booking only</div>
+                  <div class="book-cta-price">From &#x20AC;22 <span>&#x2014; timed entry</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Van Gogh Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Van Gogh Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="stedelijk">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=900&auto=format&fit=crop&q=75"
+                alt="Stedelijk Museum Amsterdam modern art bathtub annex" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">3</div>
+              <div class="attraction-badge">Worth Visiting</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Art</div>
+              <h2 id="stedelijk-h">Stedelijk Museum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.5 <span class="rc">(8,200 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Museumplein</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;6pm (Fri to 10pm)</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;22.50</span>
+              </div>
+              <p class="story-hook">The Stedelijk&#x2019;s white &#x201C;bathtub&#x201D; annex caused a city-wide uproar when it opened in 2012. It was called ugly, brilliant, and un-Dutch in equal measure. It&#x2019;s now considered a landmark.</p>
+              <p>The Stedelijk is Amsterdam&#x2019;s museum of modern and contemporary art and design, covering everything from Mondrian and Matisse to Dutch Design and street photography. The collection is shown in rotating thematic exhibitions &#x2014; it never looks the same twice.</p>
+              <p>Unlike the Rijksmuseum or Van Gogh, the Stedelijk rarely sells out, making it a good option on short notice. Friday evenings until 10pm are quiet and atmospheric.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Modern &amp; design art &#xB7; 5 floors</div>
+                  <div class="book-cta-price">From &#x20AC;22.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Stedelijk Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Stedelijk Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="nemo">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75"
+                alt="NEMO Science Museum Amsterdam ship bow building" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">4</div>
+              <div class="attraction-badge">Great for Families</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Science</div>
+              <h2 id="nemo-h">NEMO Science Museum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.4 <span class="rc">(18,700 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Oosterdok Kade 2</span>
+                <span class="attraction-meta-item">&#128336; Tue&#x2013;Sun 10am&#x2013;5:30pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;17.50</span>
+              </div>
+              <p class="story-hook">The building is shaped like the bow of a ship emerging from the water &#x2014; because it&#x2019;s built directly over the entrance to the IJ Tunnel, 25 metres below street level.</p>
+              <p>NEMO is a five-floor science and technology museum with hands-on experiments covering energy, light, chemistry, and the human body. The roof terrace &#x2014; with views across the IJ waterway &#x2014; is free to access, even without a museum ticket.</p>
+              <p>For adults without children, skip the museum interior and spend an hour on the roof with coffee from the caf&#xe9;. The views east towards the Eastern Docklands are among the best in the city.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The rooftop is free even without a museum ticket &#x2014; walk up the external staircase on the right side of the building.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">5 floors of exhibits &#xB7; Rooftop always free</div>
+                  <div class="book-cta-price">From &#x20AC;17.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book NEMO Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book NEMO Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="moco">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=900&auto=format&fit=crop&q=75"
+                alt="Moco Museum Amsterdam Banksy contemporary art villa" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">5</div>
+              <div class="attraction-badge">Hidden Gem</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Art</div>
+              <h2 id="moco-h">Moco Museum Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.6 <span class="rc">(14,200 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Honthorststraat 20</span>
+                <span class="attraction-meta-item">&#128336; Daily 9am&#x2013;7pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;20</span>
+              </div>
+              <p class="story-hook">The Moco opened in a 1904 villa on Museumplein in 2016. Its founders paid Banksy an undisclosed sum for a permanent collection &#x2014; making Amsterdam the only city with a dedicated Banksy museum.</p>
+              <p>The Museum of Contemporary Art (Moco) splits its space between a permanent Banksy collection &#x2014; including <em>Girl with Balloon</em>, <em>Trolley Hunters</em>, and <em>Laugh Now</em> &#x2014; and rotating shows of international contemporary artists.</p>
+              <p>The Moco is compact (plan 1&#x2013;1.5 hours) and often bookable last-minute compared to the Rijksmuseum or Van Gogh. It&#x2019;s on the same square, making it an easy addition to a Museumplein day.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Banksy + contemporary art &#xB7; Book online</div>
+                  <div class="book-cta-price">From &#x20AC;20</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Moco Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Moco Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="rembrandthuis">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75"
+                alt="Museum Rembrandthuis Amsterdam Jodenbreestraat canal house" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">6</div>
+              <div class="attraction-badge">Hidden Gem</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; History</div>
+              <h2 id="rembrandthuis-h">Museum Het Rembrandthuis</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.5 <span class="rc">(7,400 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Jodenbreestraat 4</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;6pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;16</span>
+              </div>
+              <p class="story-hook">Rembrandt lived in this house for 20 years &#x2014; from 1639, when he was at the peak of his fame, to 1656, when he was declared bankrupt. The inventory drawn up by his creditors listed every object in the house. The museum is a recreation built from that list.</p>
+              <p>The Rembrandthuis is a 17th-century merchant&#x2019;s house reconstructed to exactly how it appeared during Rembrandt&#x2019;s lifetime. The studio where he painted is intact, including his grinding stones and brushes.</p>
+              <p>Far less crowded than the Rijksmuseum but just as fascinating for anyone interested in the Golden Age. The Jewish Quarter neighbourhood around it &#x2014; Jodenbreestraat &#x2014; is also worth a slow walk.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Historic house museum &#xB7; Allow 1.5 hours</div>
+                  <div class="book-cta-price">From &#x20AC;16</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Rembrandthuis">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Rembrandthuis
+                </a>
+              </div>
+            </div>
+          </li>
+        
+          <li class="attraction" id="wereldmuseum">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75"
+                alt="Wereldmuseum Amsterdam tropical world cultures" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">7</div>
+              <div class="attraction-badge">World Cultures</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Culture</div>
+              <h2 id="wereldmuseum-h">Wereldmuseum Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.4 <span class="rc">(6,800 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Linnaeusstraat 2, Oosterpark</span>
+                <span class="attraction-meta-item">&#128336; Tue&#x2013;Sun 10am&#x2013;5pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;17.50</span>
+              </div>
+              <p class="story-hook">The building was originally the Colonial Museum, opened in 1926 to showcase the Dutch empire&#x2019;s tropical possessions. It has spent the last decade deliberately reexamining that history.</p>
+              <p>The Wereldmuseum (formerly the Tropenmuseum) holds one of the largest collections of non-Western art and artefacts in Europe &#x2014; accumulated during the colonial era and now presented with an increasingly critical eye. The collection covers Africa, Asia, the Americas, and Oceania.</p>
+              <p>The permanent collection includes 400,000 objects and photographs. The rotating exhibitions tackle questions of colonialism, migration, and cultural exchange head-on. Located in the Oosterpark neighbourhood, away from the tourist centre &#x2014; worth the 15-minute tram ride.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Tram 9 from Dam Square stops directly at the museum. Combine with a walk through the Oosterpark neighbourhood.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">World cultures &#xB7; Allow 2 hours</div>
+                  <div class="book-cta-price">From &#x20AC;17.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Wereldmuseum Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Wereldmuseum Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="attraction" id="straat-museum">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=900&auto=format&fit=crop&q=75"
+                alt="STRAAT Museum Amsterdam NDSM street art museum" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">8</div>
+              <div class="attraction-badge">Hidden Gem</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Art</div>
+              <h2 id="straat-museum-h">STRAAT Museum Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(11,200 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; NDSM-plein 1, Amsterdam Noord</span>
+                <span class="attraction-meta-item">&#128336; Tue&#x2013;Sun 11am&#x2013;6pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;18</span>
+              </div>
+              <p class="story-hook">STRAAT is the world&#x2019;s largest street art museum &#x2014; 8,800 square metres of murals inside a former shipyard, painted by 150 artists from 35 countries. It opened in 2020 and is already the fourth most-visited museum in Amsterdam.</p>
+              <p>STRAAT occupies a vast NDSM shipyard building in Amsterdam Noord &#x2014; reached by free GVB ferry in 5 minutes from Centraal Station. The permanent collection consists of large-scale murals painted directly onto the interior walls and ceilings by internationally recognised street artists.</p>
+              <p>Unlike most street art, STRAAT is explicitly a museum &#x2014; the artists were commissioned, the works are permanent, and the curation is thoughtful. It is completely unlike anywhere else in Amsterdam. Combine with the A&#x27;DAM Lookout and THIS IS HOLLAND for a full Noord day.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The NDSM flea market (last Sunday of each month) is one of the largest in the Netherlands. If your visit falls on that Sunday, arrive early &#x2014; the market alone is worth the ferry trip.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Street art museum &#xB7; World&#x2019;s largest</div>
+                  <div class="book-cta-price">From &#x20AC;18</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book STRAAT Museum">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book STRAAT Museum
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="attraction" id="foam">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75"
+                alt="Foam Photography Museum Amsterdam Keizersgracht canal house" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">9</div>
+              <div class="attraction-badge">Hidden Gem</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; Photography</div>
+              <h2 id="foam-h">Foam Photography Museum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.7 <span class="rc">(4,900 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Keizersgracht 609</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;6pm (Fri to 9pm)</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;14</span>
+              </div>
+              <p class="story-hook">Foam opened in 2001 in a 19th-century canal house on the Keizersgracht. In 20 years it has become one of the most respected photography museums in the world, despite having just four floors and no permanent collection.</p>
+              <p>Foam runs four to five rotating exhibitions simultaneously, featuring a mix of established masters (Diane Arbus, Richard Avedon, Annie Leibovitz have all been shown) and emerging photographers from its Foam Talent platform.</p>
+              <p>The canal house setting &#x2014; narrow staircases, high ceilings, views over the Keizersgracht &#x2014; adds to the atmosphere. It is small enough to do in 1.5 hours and rarely crowded. The museum shop has one of the best curated photography book selections in Amsterdam.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Friday evenings until 9pm are particularly atmospheric. The museum is directly on the canal ring &#x2014; easy to fold into a canal ring walk.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Photography &#xB7; Rotating exhibitions &#xB7; Allow 1.5 hrs</div>
+                  <div class="book-cta-price">From &#x20AC;14</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Foam Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Foam Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+        </ol>
+        <div class="cta-banner" role="complementary" aria-label="Newsletter signup">
+          <h3>Know Amsterdam Before You Arrive</h3>
+          <p>One email, once a week. What to book this month, what to skip, and the things locals notice that tourists miss.</p>
+          <form class="cta-form" action="#" method="post" novalidate>
+            <input type="email" placeholder="Your email address" aria-label="Email address" required />
+            <button type="submit">Send Me the Tips</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+          <p>An independent Amsterdam travel guide written by someone who lives here. Skip-the-line tickets, honest reviews, and genuine local knowledge — no filler.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore Amsterdam</h4>
+          <ul>
+            <li><a href="/museums/">Museums &amp; Art</a></li>
+            <li><a href="/history-heritage/">History &amp; Heritage</a></li>
+            <li><a href="/canal-cruises/">Canal Cruises</a></li>
+            <li><a href="/nature-day-trips/">Nature &amp; Day Trips</a></li>
+            <li><a href="/experiences/">Experiences</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Plan Your Visit</h4>
+          <ul>
+            <li><a href="/#itinerary">3-Day Itinerary</a></li>
+            <li><a href="/#best-time">Best Time to Visit</a></li>
+            <li><a href="/#free-things">Free Things To Do</a></li>
+            <li><a href="/#getting-around">Getting Around</a></li>
+            <li><a href="/#faq">Amsterdam FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="/authors/sarah-mitchell/">Sarah Mitchell</a></li>
+            <li><a href="/about/">About This Guide</a></li>
+            <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Amsterdam Insider · Independent Amsterdam travel guide</span>
+        <span>🔖 We may earn a commission on ticket bookings — at no extra cost to you.</span>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  <script>
+    document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false')});if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true')}})});
+    const scrollBtn=document.getElementById('scrollTop');
+    window.addEventListener('scroll',()=>scrollBtn.classList.toggle('visible',window.scrollY>400));
+    scrollBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+    const hamburger=document.querySelector('.nav-hamburger');
+    hamburger&&hamburger.addEventListener('click',()=>{const links=document.querySelector('.nav-links');if(links){links.style.display=links.style.display==='flex'?'none':'flex';links.style.flexDirection='column';links.style.position='absolute';links.style.top='60px';links.style.left='0';links.style.right='0';links.style.background='#fff';links.style.padding='20px 24px';links.style.borderBottom='1px solid #e5e3df';links.style.boxShadow='0 4px 16px rgba(0,0,0,.10)'}});
+  </script>
+</body>
+</html>

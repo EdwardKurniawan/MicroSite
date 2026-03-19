@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amsterdam Experiences & Entertainment 2026 — Beyond the Museums</title>
+  <meta name="description" content="Heineken Experience, A'DAM Lookout, THIS IS HOLLAND, Fabrique des Lumieres and more — the best Amsterdam experiences beyond the main museums. Booking tips included." />
+  <link rel="canonical" href="https://yourdomain.com/experiences/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Amsterdam Experiences & Entertainment 2026 — Beyond the Museums" />
+  <meta property="og:description" content="Heineken Experience, A'DAM Lookout, THIS IS HOLLAND, Fabrique des Lumieres and more — the best Amsterdam experiences beyond the main museums. Booking tips included." />
+  <meta property="og:url" content="https://yourdomain.com/experiences/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent:#E8601C;--accent-dark:#c44f14;--accent-light:#fff3ee;
+      --ink:#1a1a1a;--ink-muted:#555;--surface:#fff;--surface-2:#f8f7f5;
+      --border:#e5e3df;--radius-sm:6px;--radius-md:12px;--radius-lg:20px;
+      --shadow-sm:0 1px 3px rgba(0,0,0,.08);--shadow-md:0 4px 16px rgba(0,0,0,.10);
+      --font-display:'Playfair Display',Georgia,serif;
+      --font-body:'Inter',system-ui,sans-serif;
+      --max-w:760px;--max-w-wide:1160px;
+      --canal:#1a3a5c;--flag-red:#AE1C28;--flag-blue:#21468B;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:var(--font-body);color:var(--ink);background:var(--surface);line-height:1.7;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;height:auto;display:block}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--max-w-wide);margin:0 auto;padding:0 24px}
+    .content-wrap{max-width:var(--max-w);margin:0 auto}
+    .site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    .site-header::before{content:'';display:block;height:4px;background:linear-gradient(to right,var(--flag-red) 0%,var(--flag-red) 33.33%,#fff 33.33%,#fff 66.66%,var(--flag-blue) 66.66%,var(--flag-blue) 100%)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:60px}
+    .nav-logo{font-family:var(--font-display);font-size:1.1rem;font-weight:800;color:var(--ink);letter-spacing:-.02em;white-space:nowrap}
+    .nav-logo span{color:var(--accent)}
+    .nav-links{display:flex;gap:28px;list-style:none}
+    .nav-links a{font-size:.875rem;font-weight:500;color:var(--ink-muted);transition:color .2s}
+    .nav-links a:hover,.nav-links a.active{color:var(--accent);text-decoration:none}
+    .nav-cta{background:var(--accent);color:#fff;padding:8px 18px;border-radius:40px;font-size:.875rem;font-weight:600;transition:background .2s}
+    .nav-cta:hover{background:var(--accent-dark);text-decoration:none}
+    .nav-hamburger{display:none;cursor:pointer;background:none;border:none;padding:4px}
+    .nav-hamburger span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;border-radius:2px}
+    .breadcrumb{padding:14px 0 0;font-size:.8rem;color:var(--ink-muted)}
+    .breadcrumb a{color:var(--ink-muted)}
+    .breadcrumb a:hover{color:var(--accent);text-decoration:none}
+    .breadcrumb span{margin:0 6px}
+    .page-hero{background:linear-gradient(135deg,#1a2744 0%,#2d4a7a 60%,#1f3560 100%);border-radius:var(--radius-lg);margin:12px 0 0;min-height:320px;position:relative;overflow:hidden;display:flex;align-items:flex-end}
+    .page-hero-img{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;opacity:.5}
+    .page-hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,.1) 60%,transparent 100%)}
+    .page-hero-content{position:relative;z-index:2;padding:32px 40px 40px;max-width:680px}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;border-radius:40px;margin-bottom:14px}
+    .page-hero h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.6rem);font-weight:800;line-height:1.2;color:#fff;margin-bottom:12px;letter-spacing:-.02em}
+    .page-hero-meta{display:flex;flex-wrap:wrap;gap:14px;color:rgba(255,255,255,.8);font-size:.84rem}
+    .intro{margin-bottom:36px}
+    .intro p{font-size:1.02rem;color:var(--ink-muted);margin-bottom:16px}
+    .intro strong{color:var(--ink)}
+    .section-heading{font-family:var(--font-display);font-size:1.7rem;font-weight:800;letter-spacing:-.02em;margin:44px 0 18px;padding-top:20px}
+    .section-heading::after{content:'';display:block;width:44px;height:3px;background:var(--accent);border-radius:2px;margin-top:8px}
+    .attractions{list-style:none}
+    .attraction{display:grid;grid-template-columns:1fr;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;box-shadow:var(--shadow-sm);transition:box-shadow .25s,transform .2s}
+    .attraction:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+    .attraction-img-wrap{position:relative;overflow:hidden;height:260px;background:var(--surface-2)}
+    .attraction-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .attraction:hover .attraction-img-wrap img{transform:scale(1.04)}
+    .attraction-rank{position:absolute;top:16px;left:16px;background:var(--accent);color:#fff;font-family:var(--font-display);font-size:1.1rem;font-weight:800;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+    .attraction-badge{position:absolute;top:16px;right:16px;background:rgba(0,0,0,.65);backdrop-filter:blur(4px);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:40px}
+    .attraction-badge.must-see{background:var(--accent)}
+    .attraction-body{padding:26px 30px}
+    .attraction-cat{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+    .attraction h2{font-family:var(--font-display);font-size:1.5rem;font-weight:800;line-height:1.2;margin-bottom:10px;letter-spacing:-.02em}
+    .attraction-meta{display:flex;flex-wrap:wrap;gap:12px;font-size:.8rem;color:var(--ink-muted);margin-bottom:14px}
+    .attraction p{color:var(--ink-muted);margin-bottom:14px}
+    .story-hook{font-size:.9rem;font-style:italic;color:var(--canal);border-left:3px solid var(--canal);padding:10px 14px;margin-bottom:16px;background:rgba(26,58,92,.04);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+    .star-badge{display:inline-flex;align-items:center;gap:4px;color:#f59e0b;font-weight:700;font-size:.82rem}
+    .star-badge .rc{color:var(--ink-muted);font-weight:400;font-size:.78rem}
+    .tip-box{background:var(--accent-light);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:12px 16px;margin:14px 0;font-size:.875rem}
+    .tip-box strong{color:var(--accent)}
+    .book-cta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 20px;margin-top:18px}
+    .book-cta-left{flex:1}
+    .book-cta-label{font-size:.78rem;color:var(--ink-muted);margin-bottom:2px}
+    .book-cta-price{font-weight:700;font-size:1rem}
+    .book-cta-price span{font-size:.8rem;font-weight:400;color:var(--ink-muted)}
+    .book-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.875rem;font-weight:700;padding:12px 22px;border-radius:40px;transition:background .2s,transform .15s;white-space:nowrap;text-decoration:none}
+    .book-btn:hover{background:var(--accent-dark);transform:translateY(-1px);text-decoration:none;color:#fff}
+    .book-btn svg{width:16px;height:16px}
+    .cta-banner{background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);border-radius:var(--radius-lg);padding:44px 36px;text-align:center;margin:44px 0;position:relative;overflow:hidden}
+    .cta-banner::before{content:'';position:absolute;top:-60px;right:-60px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.08)}
+    .cta-banner h3{font-family:var(--font-display);font-size:1.7rem;color:#fff;margin-bottom:10px;font-weight:800}
+    .cta-banner p{color:rgba(255,255,255,.85);margin-bottom:26px}
+    .cta-form{display:flex;gap:10px;max-width:420px;margin:0 auto}
+    .cta-form input{flex:1;padding:12px 16px;border-radius:40px;border:none;font-size:.9rem;outline:none}
+    .cta-form button{background:var(--ink);color:#fff;border:none;padding:12px 22px;border-radius:40px;font-weight:700;cursor:pointer;font-size:.9rem;white-space:nowrap;transition:opacity .2s}
+    .cta-form button:hover{opacity:.88}
+    .site-footer{background:var(--ink);color:rgba(255,255,255,.6);padding:44px 0 22px;margin-top:72px;font-size:.85rem}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:36px}
+    .footer-brand .nav-logo{color:#fff}
+    .footer-brand p{margin-top:10px;color:rgba(255,255,255,.5);font-size:.82rem;line-height:1.6}
+    .footer-col h4{color:#fff;font-weight:600;margin-bottom:12px;font-size:.875rem}
+    .footer-col ul{list-style:none}
+    .footer-col ul li{margin-bottom:7px}
+    .footer-col ul a{color:rgba(255,255,255,.55);transition:color .2s}
+    .footer-col ul a:hover{color:#fff;text-decoration:none}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+    .scroll-top{position:fixed;bottom:26px;right:26px;z-index:200;width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);opacity:0;pointer-events:none;transition:opacity .3s,transform .2s;font-size:1.1rem}
+    .scroll-top.visible{opacity:1;pointer-events:all}
+    @media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:640px){.page-hero{min-height:260px;border-radius:var(--radius-md)}.page-hero-content{padding:22px 22px 28px}.attraction-body{padding:18px 18px}.book-cta{flex-direction:column;align-items:flex-start}.nav-links,.nav-cta{display:none}.nav-hamburger{display:block}.footer-grid{grid-template-columns:1fr}.cta-form{flex-direction:column}}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+        <ul class="nav-links">
+          <li><a href="/museums/">Museums</a></li>
+          <li><a href="/canal-cruises/">Canal Cruises</a></li>
+          <li><a href="/experiences/" class="active">Experiences</a></li>
+          <li><a href="/nature-day-trips/">Day Trips</a></li>
+        </ul>
+        <a href="#tickets" class="nav-cta">🎟 Buy Tickets</a>
+        <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a><span>&#x203A;</span><span>Experiences &amp; Entertainment</span>
+      </div>
+      <section class="page-hero" aria-label="Experiences &amp; Entertainment">
+        <img class="page-hero-img"
+          src="https://images.unsplash.com/photo-1608270586620-248524c67de9?w=1200&auto=format&fit=crop&q=80"
+          alt="Heineken Experience Amsterdam brewery self-guided tour" loading="eager" width="1200" height="500" />
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+          <div class="hero-eyebrow">🇳🇱 Amsterdam Experiences</div>
+          <h1>Amsterdam Experiences &amp; Entertainment (2026)</h1>
+          <div class="page-hero-meta">
+            <span>📍 Amsterdam, Netherlands</span>
+            <span>🕐 Updated March 2026</span>
+            <span>✍️ By <a href="/authors/sarah-mitchell/" style="color:rgba(255,255,255,.9)">Sarah Mitchell</a></span>
+          </div>
+        </div>
+      </section>
+      <div class="content-wrap">
+        <div class="intro" style="margin-top:28px">
+      <p>Not every great afternoon in Amsterdam involves a 17th-century painting. The experiences below are the non-museum bucket list &#x2014; things to do that are genuinely worth your time but are not about art history or WWII.</p>
+      <p><strong>The Heineken Experience and A'DAM Lookout are the two most popular</strong>, and for good reason &#x2014; both deliver exactly what they promise. The others are more niche but excellent for the right visitor. All are bookable online in advance.</p>
+    </div>
+        <h2 class="section-heading">Experiences &amp; Entertainment</h2>
+        <ol class="attractions" aria-label="Experiences &amp; Entertainment in Amsterdam">
+          <li class="attraction" id="heineken">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1608270586620-248524c67de9?w=900&auto=format&fit=crop&q=75"
+                alt="Heineken Experience Amsterdam original brewery De Pijp" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">1</div>
+              <div class="attraction-badge">Classic Experience</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Experience</div>
+              <h2 id="heineken-h">Heineken Experience</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.6 <span class="rc">(42,100 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Stadhouderskade 78, De Pijp</span>
+                <span class="attraction-meta-item">&#128336; Daily 10:30am&#x2013;7:30pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;21</span>
+              </div>
+              <p class="story-hook">Heineken was brewed in this building for over a century &#x2014; from 1867 to 1988. Production moved out of the city when the brewery could no longer keep up with global demand.</p>
+              <p>The Heineken Experience is a self-guided tour through the original Heineken brewery &#x2014; a 19th-century brick complex in De Pijp. The 2-hour tour covers the history of the brewery, the brewing process, and includes two free beers at the rooftop bar.</p>
+              <p>Book the late afternoon slot (4&#x2013;5pm) and head to the Albert Cuyp Market and De Pijp neighbourhood afterwards. That is the most natural flow for an evening in Amsterdam.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The rooftop bar views across De Pijp are excellent at sunset. Book the 4pm slot for the best light.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Self-guided &#xB7; Includes 2 beers</div>
+                  <div class="book-cta-price">From &#x20AC;21 <span>&#x2014; includes 2 complimentary beers</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Heineken + 2 Beers">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Heineken + 2 Beers
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="adam-lookout">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75"
+                alt="ADAM Lookout tower Amsterdam Noord panoramic view observation deck" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">2</div>
+              <div class="attraction-badge">Unmissable Views</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Experience &amp; Views</div>
+              <h2 id="adam-lookout-h">A'DAM Lookout</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.7 <span class="rc">(24,300 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Overhoeksplein 5, Amsterdam Noord</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;10pm (midnight weekends)</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;15.50</span>
+              </div>
+              <p class="story-hook">The A'DAM tower was built in the 1960s as Royal Dutch Shell's Amsterdam headquarters. Oil executives had private dining floors at the top. Now anyone can swing out over the edge for &#x20AC;5 extra.</p>
+              <p>The A'DAM Lookout is a 360&#xB0; observation deck on the 20th floor of the A'DAM tower in Amsterdam Noord, reached by free GVB ferry from behind Centraal Station (5-minute crossing). The views across the IJ waterway and into the historic city centre are the best elevated views available in Amsterdam.</p>
+              <p>The Over the Edge swing &#x2014; a giant swing mounted on the roof that swings users out over the side of the building, 100 metres above the ground &#x2014; can be added for &#x20AC;5. It is genuinely terrifying. Worth it.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The free GVB ferry from behind Centraal takes 5 minutes to Noord. The ferry itself offers excellent views of the IJ waterway.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">360&#xB0; views &#xB7; Add the swing for &#x20AC;5 extra</div>
+                  <div class="book-cta-price">From &#x20AC;15.50 <span>&#x2014; swing &#x20AC;5 extra</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book the Lookout">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book the Lookout
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="this-is-holland">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75"
+                alt="THIS IS HOLLAND flying experience Amsterdam Noord aerial Netherlands" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">3</div>
+              <div class="attraction-badge">Unique Experience</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Experience</div>
+              <h2 id="this-is-holland-h">THIS IS HOLLAND</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.5 <span class="rc">(8,700 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Overhoeksplein 51, Amsterdam Noord</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;10pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;18.50</span>
+              </div>
+              <p class="story-hook">THIS IS HOLLAND uses a motion simulator combined with a 4D flying film to take visitors on a six-minute flight over the Netherlands &#x2014; tulip fields, windmills, Rotterdam&#x2019;s port, and the Amsterdam canal ring from the air.</p>
+              <p>Located in Amsterdam Noord next to the A&#x2019;DAM Lookout, THIS IS HOLLAND is a cinematic flying experience &#x2014; you lie horizontal in a cinema-style rig and fly over the Netherlands at low altitude, with wind, mist, and scent effects.</p>
+              <p>Best experienced as a pairing with the A'DAM Lookout &#x2014; both are in the same complex in Noord, reachable by the same free ferry from Centraal. Do THIS IS HOLLAND first, then the observation deck. Total time: around 2 hours.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">6-min flying experience &#xB7; All ages</div>
+                  <div class="book-cta-price">From &#x20AC;18.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book THIS IS HOLLAND">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book THIS IS HOLLAND
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="body-worlds">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75"
+                alt="Body Worlds Amsterdam Happiness Project human anatomy exhibition" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">4</div>
+              <div class="attraction-badge">Thought-Provoking</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Exhibition &amp; Experience</div>
+              <h2 id="body-worlds-h">BODY WORLDS Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.3 <span class="rc">(7,200 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Damrak 66</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;8pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;24.50</span>
+              </div>
+              <p class="story-hook">Gunther von Hagens invented plastination in 1977. His Body Worlds exhibitions have been seen by 50 million people across 140 cities. The Amsterdam version &#x2014; The Happiness Project &#x2014; focuses on the neuroscience of wellbeing.</p>
+              <p>BODY WORLDS Amsterdam displays real preserved human bodies and body parts, exploring anatomy, health, and the science of happiness and the brain. The presentation is respectful and scientifically framed.</p>
+              <p>Not for the faint-hearted &#x2014; the exhibits include full human cadavers in dynamic poses. Best for adults and older teenagers with an interest in biology or medicine. Allow 1.5 hours.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Human anatomy exhibition &#xB7; 18+ recommended</div>
+                  <div class="book-cta-price">From &#x20AC;24.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Body Worlds Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Body Worlds Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="upside-down">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=900&auto=format&fit=crop&q=75"
+                alt="The Upside Down Amsterdam interactive optical illusion exhibition" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">5</div>
+              <div class="attraction-badge">Instagram Favourite</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Interactive Experience</div>
+              <h2 id="upside-down-h">The Upside Down Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.1 <span class="rc">(5,600 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Johan Huizingalaan 400</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;8pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;19.50</span>
+              </div>
+              <p class="story-hook">The Upside Down Amsterdam has 16 rooms of optical illusions and perspective tricks &#x2014; rooms where the ceiling is the floor, infinity mirror tunnels, and forced-perspective installations designed for photography.</p>
+              <p>An immersive, interactive exhibition built on optical illusions &#x2014; best for groups and couples rather than solo visitors. Allow 1.5 hours.</p>
+              <p>The best Amsterdam option for a rainy afternoon that does not require any prior interest in art or history. Arrive early to avoid queues.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Interactive illusions &#xB7; Best for groups</div>
+                  <div class="book-cta-price">From &#x20AC;19.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book The Upside Down">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book The Upside Down
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="fabrique-lumieres">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=900&auto=format&fit=crop&q=75"
+                alt="Fabrique des Lumieres Amsterdam immersive digital art projection gas factory" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">6</div>
+              <div class="attraction-badge">Immersive Art</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Immersive Experience</div>
+              <h2 id="fabrique-lumieres-h">Fabrique des Lumi&#xe8;res</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.6 <span class="rc">(9,800 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Oostenburgergracht 75</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;6pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;18</span>
+              </div>
+              <p class="story-hook">Fabrique des Lumi&#xe8;res is a converted 19th-century gas factory &#x2014; 3,000 square metres of projections on walls, floors, and ceilings 10 metres high.</p>
+              <p>Amsterdam&#x2019;s answer to Paris&#x2019;s Atelier des Lumi&#xe8;res &#x2014; a vast industrial space filled floor-to-ceiling with moving digital projections synchronised to music. Each show dedicates the space to a single artist (Van Gogh, Klimt, Monet, and others have all been featured).</p>
+              <p>Shows last approximately 45 minutes and run on a loop. Arrive at the start of a cycle for the full experience. The space is in the Eastern Docklands &#x2014; combine with NEMO Science Museum (10-minute walk) for a full morning.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Immersive art &#xB7; Check current show before booking</div>
+                  <div class="book-cta-price">From &#x20AC;18</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Fabrique Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Fabrique Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+        
+          <li class="attraction" id="ripleys">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=900&auto=format&fit=crop&q=75"
+                alt="Ripleys Believe It or Not Amsterdam Dam Square attraction" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">7</div>
+              <div class="attraction-badge">Rainy Day Option</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Experience</div>
+              <h2 id="ripleys-h">Ripley's Believe It or Not! Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.0 <span class="rc">(5,300 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Dam Square 1A</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;8pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;19.50</span>
+              </div>
+              <p class="story-hook">Ripley's Believe It or Not! Amsterdam is one of 33 Odditoriums around the world &#x2014; the Amsterdam version is directly on Dam Square, in a building that has housed a wax museum since the 1970s.</p>
+              <p>The Amsterdam Ripley's covers five floors of unusual exhibits: shrunken heads, record-breaking objects, optical illusions, and the kind of displays that are genuinely odd without being educational. The presentation leans into spectacle over substance.</p>
+              <p>Best for families with children aged 8&#x2013;14, or for visitors who want something completely different on a rainy afternoon. Adults without children are less likely to find it worth the ticket price. It never requires advance booking &#x2014; walk-ins always available.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The location on Dam Square is extremely central &#x2014; if you're in the area and it starts raining, this is a reasonable option. Otherwise, the other experiences on this list offer better value.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Walk-ins welcome &#xB7; Good for families</div>
+                  <div class="book-cta-price">From &#x20AC;19.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Ripley's Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Ripley's Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="attraction" id="boom-chicago">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75"
+                alt="Boom Chicago comedy theater Amsterdam improv show stage" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">8</div>
+              <div class="attraction-badge">Best for Laughs</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Entertainment</div>
+              <h2 id="boom-chicago-h">Boom Chicago Improv Comedy</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(7,600 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Rozengracht 117, Jordaan</span>
+                <span class="attraction-meta-item">&#128336; Shows most evenings, check schedule</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;22</span>
+              </div>
+              <p class="story-hook">Boom Chicago opened in Amsterdam in 1993 &#x2014; started by American students who couldn't get a US work permit. In 30 years it has launched the careers of Jordan Peele, Seth Meyers, Jason Sudeikis, and Amber Tamblyn.</p>
+              <p>Boom Chicago is Amsterdam's premier English-language comedy theatre &#x2014; a 250-seat venue in the Jordaan that runs improvised and scripted shows most evenings of the week. The improv shows are the highlight: sharp, political, and genuinely funny.</p>
+              <p>This is one of the best evening activities in Amsterdam for English speakers &#x2014; particularly if you're travelling solo or want something more engaging than a bar. Shows sell out, especially on Friday and Saturday. Book at least a few days ahead.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The Rozengracht location is in the heart of the Jordaan &#x2014; have dinner at one of the neighbourhood's brown cafés beforehand and make a full Jordaan evening of it.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">English-language improv &#xB7; Book ahead</div>
+                  <div class="book-cta-price">From &#x20AC;22</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Boom Chicago">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Boom Chicago
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="attraction" id="nxt-museum">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=900&auto=format&fit=crop&q=75"
+                alt="Nxt Museum Amsterdam digital interactive new media art" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">9</div>
+              <div class="attraction-badge">Cutting Edge</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Immersive Experience</div>
+              <h2 id="nxt-museum-h">Nxt Museum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.6 <span class="rc">(4,200 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Asterweg 22, Amsterdam Noord</span>
+                <span class="attraction-meta-item">&#128336; Wed&#x2013;Sun 10am&#x2013;6pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;17.50</span>
+              </div>
+              <p class="story-hook">The Nxt Museum opened in 2021 as the Netherlands' first museum dedicated entirely to new media art &#x2014; digital, interactive, and generative works that could only exist in the age of sensors, algorithms, and live data feeds.</p>
+              <p>Nxt Museum occupies a former transformer station in Amsterdam Noord &#x2014; 3,500 square metres of industrial space turned over to works that respond to movement, generate visuals from data streams, and blur the boundary between audience and artwork.</p>
+              <p>Located in Amsterdam Noord near the NDSM wharf &#x2014; combine with STRAAT Museum for a full day in the creative quarter. Reached by free GVB ferry from Centraal Station. The museum changes its programme every few months; check the current exhibitions before visiting.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Nxt Museum is best experienced slowly &#x2014; spend time with each installation rather than moving through quickly. Some works require patience before they reveal what they're doing.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">New media art &#xB7; Amsterdam Noord</div>
+                  <div class="book-cta-price">From &#x20AC;17.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Nxt Museum">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Nxt Museum
+                </a>
+              </div>
+            </div>
+          </li>
+        </ol>
+        <div class="cta-banner" role="complementary" aria-label="Newsletter signup">
+          <h3>Know Amsterdam Before You Arrive</h3>
+          <p>One email, once a week. What to book this month, what to skip, and the things locals notice that tourists miss.</p>
+          <form class="cta-form" action="#" method="post" novalidate>
+            <input type="email" placeholder="Your email address" aria-label="Email address" required />
+            <button type="submit">Send Me the Tips</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+          <p>An independent Amsterdam travel guide written by someone who lives here. Skip-the-line tickets, honest reviews, and genuine local knowledge — no filler.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore Amsterdam</h4>
+          <ul>
+            <li><a href="/museums/">Museums &amp; Art</a></li>
+            <li><a href="/history-heritage/">History &amp; Heritage</a></li>
+            <li><a href="/canal-cruises/">Canal Cruises</a></li>
+            <li><a href="/nature-day-trips/">Nature &amp; Day Trips</a></li>
+            <li><a href="/experiences/">Experiences</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Plan Your Visit</h4>
+          <ul>
+            <li><a href="/#itinerary">3-Day Itinerary</a></li>
+            <li><a href="/#best-time">Best Time to Visit</a></li>
+            <li><a href="/#free-things">Free Things To Do</a></li>
+            <li><a href="/#getting-around">Getting Around</a></li>
+            <li><a href="/#faq">Amsterdam FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="/authors/sarah-mitchell/">Sarah Mitchell</a></li>
+            <li><a href="/about/">About This Guide</a></li>
+            <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Amsterdam Insider · Independent Amsterdam travel guide</span>
+        <span>🔖 We may earn a commission on ticket bookings — at no extra cost to you.</span>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  <script>
+    document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false')});if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true')}})});
+    const scrollBtn=document.getElementById('scrollTop');
+    window.addEventListener('scroll',()=>scrollBtn.classList.toggle('visible',window.scrollY>400));
+    scrollBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+    const hamburger=document.querySelector('.nav-hamburger');
+    hamburger&&hamburger.addEventListener('click',()=>{const links=document.querySelector('.nav-links');if(links){links.style.display=links.style.display==='flex'?'none':'flex';links.style.flexDirection='column';links.style.position='absolute';links.style.top='60px';links.style.left='0';links.style.right='0';links.style.background='#fff';links.style.padding='20px 24px';links.style.borderBottom='1px solid #e5e3df';links.style.boxShadow='0 4px 16px rgba(0,0,0,.10)'}});
+  </script>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amsterdam History & Heritage Guide 2026 — Anne Frank House & Beyond</title>
+  <meta name="description" content="Anne Frank House, the Royal Palace, Begijnhof, and hidden 17th-century churches. The complete guide to Amsterdam's historic sites — with booking tips and opening times." />
+  <link rel="canonical" href="https://yourdomain.com/history-heritage/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Amsterdam History & Heritage Guide 2026 — Anne Frank House & Beyond" />
+  <meta property="og:description" content="Anne Frank House, the Royal Palace, Begijnhof, and hidden 17th-century churches. The complete guide to Amsterdam's historic sites — with booking tips and opening times." />
+  <meta property="og:url" content="https://yourdomain.com/history-heritage/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent:#E8601C;--accent-dark:#c44f14;--accent-light:#fff3ee;
+      --ink:#1a1a1a;--ink-muted:#555;--surface:#fff;--surface-2:#f8f7f5;
+      --border:#e5e3df;--radius-sm:6px;--radius-md:12px;--radius-lg:20px;
+      --shadow-sm:0 1px 3px rgba(0,0,0,.08);--shadow-md:0 4px 16px rgba(0,0,0,.10);
+      --font-display:'Playfair Display',Georgia,serif;
+      --font-body:'Inter',system-ui,sans-serif;
+      --max-w:760px;--max-w-wide:1160px;
+      --canal:#1a3a5c;--flag-red:#AE1C28;--flag-blue:#21468B;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:var(--font-body);color:var(--ink);background:var(--surface);line-height:1.7;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;height:auto;display:block}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--max-w-wide);margin:0 auto;padding:0 24px}
+    .content-wrap{max-width:var(--max-w);margin:0 auto}
+    .site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    .site-header::before{content:'';display:block;height:4px;background:linear-gradient(to right,var(--flag-red) 0%,var(--flag-red) 33.33%,#fff 33.33%,#fff 66.66%,var(--flag-blue) 66.66%,var(--flag-blue) 100%)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:60px}
+    .nav-logo{font-family:var(--font-display);font-size:1.1rem;font-weight:800;color:var(--ink);letter-spacing:-.02em;white-space:nowrap}
+    .nav-logo span{color:var(--accent)}
+    .nav-links{display:flex;gap:28px;list-style:none}
+    .nav-links a{font-size:.875rem;font-weight:500;color:var(--ink-muted);transition:color .2s}
+    .nav-links a:hover,.nav-links a.active{color:var(--accent);text-decoration:none}
+    .nav-cta{background:var(--accent);color:#fff;padding:8px 18px;border-radius:40px;font-size:.875rem;font-weight:600;transition:background .2s}
+    .nav-cta:hover{background:var(--accent-dark);text-decoration:none}
+    .nav-hamburger{display:none;cursor:pointer;background:none;border:none;padding:4px}
+    .nav-hamburger span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;border-radius:2px}
+    .breadcrumb{padding:14px 0 0;font-size:.8rem;color:var(--ink-muted)}
+    .breadcrumb a{color:var(--ink-muted)}
+    .breadcrumb a:hover{color:var(--accent);text-decoration:none}
+    .breadcrumb span{margin:0 6px}
+    .page-hero{background:linear-gradient(135deg,#1a2744 0%,#2d4a7a 60%,#1f3560 100%);border-radius:var(--radius-lg);margin:12px 0 0;min-height:320px;position:relative;overflow:hidden;display:flex;align-items:flex-end}
+    .page-hero-img{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;opacity:.5}
+    .page-hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,.1) 60%,transparent 100%)}
+    .page-hero-content{position:relative;z-index:2;padding:32px 40px 40px;max-width:680px}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;border-radius:40px;margin-bottom:14px}
+    .page-hero h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.6rem);font-weight:800;line-height:1.2;color:#fff;margin-bottom:12px;letter-spacing:-.02em}
+    .page-hero-meta{display:flex;flex-wrap:wrap;gap:14px;color:rgba(255,255,255,.8);font-size:.84rem}
+    .intro{margin-bottom:36px}
+    .intro p{font-size:1.02rem;color:var(--ink-muted);margin-bottom:16px}
+    .intro strong{color:var(--ink)}
+    .section-heading{font-family:var(--font-display);font-size:1.7rem;font-weight:800;letter-spacing:-.02em;margin:44px 0 18px;padding-top:20px}
+    .section-heading::after{content:'';display:block;width:44px;height:3px;background:var(--accent);border-radius:2px;margin-top:8px}
+    .attractions{list-style:none}
+    .attraction{display:grid;grid-template-columns:1fr;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;box-shadow:var(--shadow-sm);transition:box-shadow .25s,transform .2s}
+    .attraction:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+    .attraction-img-wrap{position:relative;overflow:hidden;height:260px;background:var(--surface-2)}
+    .attraction-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .attraction:hover .attraction-img-wrap img{transform:scale(1.04)}
+    .attraction-rank{position:absolute;top:16px;left:16px;background:var(--accent);color:#fff;font-family:var(--font-display);font-size:1.1rem;font-weight:800;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+    .attraction-badge{position:absolute;top:16px;right:16px;background:rgba(0,0,0,.65);backdrop-filter:blur(4px);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:40px}
+    .attraction-badge.must-see{background:var(--accent)}
+    .attraction-body{padding:26px 30px}
+    .attraction-cat{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+    .attraction h2{font-family:var(--font-display);font-size:1.5rem;font-weight:800;line-height:1.2;margin-bottom:10px;letter-spacing:-.02em}
+    .attraction-meta{display:flex;flex-wrap:wrap;gap:12px;font-size:.8rem;color:var(--ink-muted);margin-bottom:14px}
+    .attraction p{color:var(--ink-muted);margin-bottom:14px}
+    .story-hook{font-size:.9rem;font-style:italic;color:var(--canal);border-left:3px solid var(--canal);padding:10px 14px;margin-bottom:16px;background:rgba(26,58,92,.04);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+    .star-badge{display:inline-flex;align-items:center;gap:4px;color:#f59e0b;font-weight:700;font-size:.82rem}
+    .star-badge .rc{color:var(--ink-muted);font-weight:400;font-size:.78rem}
+    .tip-box{background:var(--accent-light);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:12px 16px;margin:14px 0;font-size:.875rem}
+    .tip-box strong{color:var(--accent)}
+    .book-cta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 20px;margin-top:18px}
+    .book-cta-left{flex:1}
+    .book-cta-label{font-size:.78rem;color:var(--ink-muted);margin-bottom:2px}
+    .book-cta-price{font-weight:700;font-size:1rem}
+    .book-cta-price span{font-size:.8rem;font-weight:400;color:var(--ink-muted)}
+    .book-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.875rem;font-weight:700;padding:12px 22px;border-radius:40px;transition:background .2s,transform .15s;white-space:nowrap;text-decoration:none}
+    .book-btn:hover{background:var(--accent-dark);transform:translateY(-1px);text-decoration:none;color:#fff}
+    .book-btn svg{width:16px;height:16px}
+    .cta-banner{background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);border-radius:var(--radius-lg);padding:44px 36px;text-align:center;margin:44px 0;position:relative;overflow:hidden}
+    .cta-banner::before{content:'';position:absolute;top:-60px;right:-60px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.08)}
+    .cta-banner h3{font-family:var(--font-display);font-size:1.7rem;color:#fff;margin-bottom:10px;font-weight:800}
+    .cta-banner p{color:rgba(255,255,255,.85);margin-bottom:26px}
+    .cta-form{display:flex;gap:10px;max-width:420px;margin:0 auto}
+    .cta-form input{flex:1;padding:12px 16px;border-radius:40px;border:none;font-size:.9rem;outline:none}
+    .cta-form button{background:var(--ink);color:#fff;border:none;padding:12px 22px;border-radius:40px;font-weight:700;cursor:pointer;font-size:.9rem;white-space:nowrap;transition:opacity .2s}
+    .cta-form button:hover{opacity:.88}
+    .site-footer{background:var(--ink);color:rgba(255,255,255,.6);padding:44px 0 22px;margin-top:72px;font-size:.85rem}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:36px}
+    .footer-brand .nav-logo{color:#fff}
+    .footer-brand p{margin-top:10px;color:rgba(255,255,255,.5);font-size:.82rem;line-height:1.6}
+    .footer-col h4{color:#fff;font-weight:600;margin-bottom:12px;font-size:.875rem}
+    .footer-col ul{list-style:none}
+    .footer-col ul li{margin-bottom:7px}
+    .footer-col ul a{color:rgba(255,255,255,.55);transition:color .2s}
+    .footer-col ul a:hover{color:#fff;text-decoration:none}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+    .scroll-top{position:fixed;bottom:26px;right:26px;z-index:200;width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);opacity:0;pointer-events:none;transition:opacity .3s,transform .2s;font-size:1.1rem}
+    .scroll-top.visible{opacity:1;pointer-events:all}
+    @media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:640px){.page-hero{min-height:260px;border-radius:var(--radius-md)}.page-hero-content{padding:22px 22px 28px}.attraction-body{padding:18px 18px}.book-cta{flex-direction:column;align-items:flex-start}.nav-links,.nav-cta{display:none}.nav-hamburger{display:block}.footer-grid{grid-template-columns:1fr}.cta-form{flex-direction:column}}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+        <ul class="nav-links">
+          <li><a href="/museums/">Museums</a></li>
+          <li><a href="/canal-cruises/">Canal Cruises</a></li>
+          <li><a href="/experiences/">Experiences</a></li>
+          <li><a href="/nature-day-trips/">Day Trips</a></li>
+        </ul>
+        <a href="#tickets" class="nav-cta">🎟 Buy Tickets</a>
+        <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a><span>&#x203A;</span><span>History &amp; Heritage</span>
+      </div>
+      <section class="page-hero" aria-label="History &amp; Heritage">
+        <img class="page-hero-img"
+          src="https://images.unsplash.com/photo-1555921015-5532091f6026?w=1200&auto=format&fit=crop&q=80"
+          alt="Anne Frank House on Prinsengracht canal Amsterdam" loading="eager" width="1200" height="500" />
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+          <div class="hero-eyebrow">🇳🇱 Amsterdam History Guide</div>
+          <h1>History &amp; Heritage in Amsterdam (2026)</h1>
+          <div class="page-hero-meta">
+            <span>📍 Amsterdam, Netherlands</span>
+            <span>🕐 Updated March 2026</span>
+            <span>✍️ By <a href="/authors/sarah-mitchell/" style="color:rgba(255,255,255,.9)">Sarah Mitchell</a></span>
+          </div>
+        </div>
+      </section>
+      <div class="content-wrap">
+        <div class="intro" style="margin-top:28px">
+      <p>Amsterdam's history is darker and stranger than most visitors expect. This is the city of the Dutch Golden Age, the world's first stock market, and the most devastating Jewish loss in Western Europe during the Second World War. <strong>All of that history is visible, walkable, and largely bookable in minutes online.</strong></p>
+      <p>The Anne Frank House is the obvious starting point &#x2014; but it should be the beginning of a deeper exploration, not the whole story. The sites below, taken together, tell a more complete picture of what Amsterdam has been and what it&#x2019;s had to survive.</p>
+    </div>
+        <h2 class="section-heading">History &amp; Heritage</h2>
+        <ol class="attractions" aria-label="History &amp; Heritage in Amsterdam">
+          <li class="attraction" id="anne-frank">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1555921015-5532091f6026?w=900&auto=format&fit=crop&q=75"
+                alt="Anne Frank House exterior Prinsengracht canal" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">1</div>
+              <div class="attraction-badge must-see">Must See</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">History &amp; Heritage</div>
+              <h2 id="anne-frank-h">Anne Frank House</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(18,400 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Prinsengracht 263</span>
+                <span class="attraction-meta-item">&#128336; Daily 9am&#x2013;10pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;16</span>
+              </div>
+              <p class="story-hook">Anne Frank started her diary on her 13th birthday &#x2014; three weeks before her family went into hiding. The diary ran for 25 months. The hiding lasted 761 days.</p>
+              <p>The Anne Frank House is not a museum in the conventional sense &#x2014; it is the actual building where Anne Frank and seven others hid from the Nazi occupation for two years and one month. The rooms have been left largely empty, as Anne&#x2019;s father Otto Frank requested. The emptiness is the exhibit.</p>
+              <p>Booking is essential &#x2014; the Anne Frank House does not sell walk-in tickets. Time slots are released 2 months ahead on the 1st of each month and sell out in hours. Set a reminder and book the moment slots open.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Book the 9am slot if you can &#x2014; the narrow rooms feel less crowded early, and you&#x2019;ll have more time to absorb the atmosphere before the afternoon rush.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Online booking only &#xB7; No walk-ins accepted</div>
+                  <div class="book-cta-price">From &#x20AC;16 <span>&#x2014; sells out weeks in advance</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Reserve Your Time Slot">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Reserve Your Time Slot
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="koninklijk-paleis">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75"
+                alt="Royal Palace Amsterdam Dam Square Koninklijk Paleis" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">2</div>
+              <div class="attraction-badge">Worth Visiting</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">History &amp; Heritage</div>
+              <h2 id="koninklijk-paleis-h">Royal Palace Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.4 <span class="rc">(12,600 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Dam Square</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;5pm (check for closures)</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;12.50</span>
+              </div>
+              <p class="story-hook">Napoleon's brother Louis Bonaparte ruled the Netherlands from 1806 to 1810. He chose Amsterdam's Town Hall as his palace &#x2014; and the city has never fully gotten it back.</p>
+              <p>The Koninklijk Paleis was built as Amsterdam&#x2019;s Town Hall in 1655, at the height of the Golden Age. Designed to project the city&#x2019;s power to the world, it was the largest secular building in the Netherlands &#x2014; built on 13,659 wooden piles driven into marshy ground.</p>
+              <p>Today it&#x2019;s the official residence of the Dutch king for state functions. When not in official use, it opens to visitors. The interior &#x2014; particularly the Citizens&#x2019; Hall with its marble floors and inlaid world maps &#x2014; is extraordinary.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Check the palace website before visiting &#x2014; it closes for state functions with little advance notice.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Royal Palace &#xB7; Check opening dates ahead</div>
+                  <div class="book-cta-price">From &#x20AC;12.50</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Palace Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Palace Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="begijnhof">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&auto=format&fit=crop&q=75"
+                alt="Begijnhof courtyard Amsterdam historic houses hidden" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">3</div>
+              <div class="attraction-badge">Hidden Gem</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">History &amp; Heritage</div>
+              <h2 id="begijnhof-h">Begijnhof Courtyard</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.7 <span class="rc">(6,200 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Begijnensloot 29 (off Spui)</span>
+                <span class="attraction-meta-item">&#128336; Daily 9am&#x2013;5pm</span>
+                <span class="attraction-meta-item">&#128182; Free</span>
+              </div>
+              <p class="story-hook">The last Beguine, Cornelia Arens, lived in this courtyard until her death in 1971. She never allowed tourists inside during her lifetime. The door visitors use today was sealed shut for decades.</p>
+              <p>The Begijnhof is a hidden courtyard of historic houses and two churches tucked behind an unmarked door off the Spui square. It was home to the Beguines &#x2014; a lay Catholic sisterhood &#x2014; from the 14th century. The courtyard feels entirely removed from the city outside its walls.</p>
+              <p>Entry is free. The oldest wooden house in Amsterdam (built around 1420) is on the north side. Visit at opening time (9am) to have it to yourself &#x2014; by midday it fills quickly.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Enter through the small wooden door on Begijnensloot, south of the Spui. There is no signage &#x2014; that is intentional.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Free entry &#xB7; Combine with a Spui city walk</div>
+                  <div class="book-cta-price">Free admission</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Browse Amsterdam Walking Tours">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Browse Amsterdam Walking Tours
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="verzetsmuseum">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75"
+                alt="Verzetsmuseum Dutch Resistance Museum Amsterdam Plantage" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">4</div>
+              <div class="attraction-badge">Worth Visiting</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; History</div>
+              <h2 id="verzetsmuseum-h">Dutch Resistance Museum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(9,100 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Plantage Kerklaan 61</span>
+                <span class="attraction-meta-item">&#128336; Tue&#x2013;Fri 10am&#x2013;5pm, Sat&#x2013;Mon 11am&#x2013;5pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;15</span>
+              </div>
+              <p class="story-hook">During the German occupation, around 300,000 Dutch people went into hiding. Of those, roughly 80,000 were found. The Resistance Museum tells the story of those who helped them &#x2014; and those who did not.</p>
+              <p>The Verzetsmuseum chronicles Amsterdam under Nazi occupation from 1940 to 1945 &#x2014; the curfews, the food shortages, the deportations, and the underground networks of ordinary people who forged documents, hid Jewish families, and ran clandestine newspapers.</p>
+              <p>This is one of the most thoughtfully curated museums in the city. It puts the Anne Frank story into the broader context of occupation-era Amsterdam. Plan around 1.5 hours.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">War history &#xB7; Allow 1.5&#x2013;2 hours</div>
+                  <div class="book-cta-price">From &#x20AC;15</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Resistance Museum">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Resistance Museum
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="ons-lieve-heer">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75"
+                alt="Museum Ons Lieve Heer op Solder Amsterdam hidden church canal house" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">5</div>
+              <div class="attraction-badge">Hidden Gem</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">History &amp; Heritage</div>
+              <h2 id="ons-lieve-heer-h">Museum Ons&#x27; Lieve Heer op Solder</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.6 <span class="rc">(4,800 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Oudezijds Voorburgwal 38</span>
+                <span class="attraction-meta-item">&#128336; Tue&#x2013;Sun 10am&#x2013;5pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;15</span>
+              </div>
+              <p class="story-hook">In 1578, Amsterdam officially converted to Calvinism and banned Catholic worship. Catholics responded by building secret churches inside ordinary canal houses &#x2014; this is the best-preserved one that remains.</p>
+              <p>Ons&#x27; Lieve Heer op Solder (&#x201C;Our Lord in the Attic&#x201D;) is a fully intact 17th-century Catholic church hidden inside three canal houses near the Red Light District. A narrow spiral staircase leads up through three floors of domestic space to a breathtaking baroque church at the top.</p>
+              <p>One of Amsterdam&#x2019;s most surprising discoveries. The church was in active use for Catholic worship from 1663 until 1888, when the first new Catholic church was built after the Reformation. Visit early &#x2014; it is rarely crowded before 11am.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Hidden historic church &#xB7; Allow 1 hour</div>
+                  <div class="book-cta-price">From &#x20AC;15</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Museum Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Museum Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="red-light-secrets">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75"
+                alt="Red Light Secrets Museum Amsterdam De Wallen" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">6</div>
+              <div class="attraction-badge">Unique</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Museum &amp; History</div>
+              <h2 id="red-light-secrets-h">Red Light Secrets Museum</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.2 <span class="rc">(6,300 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Oudezijds Achterburgwal 60</span>
+                <span class="attraction-meta-item">&#128336; Daily 11am&#x2013;midnight</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;15</span>
+              </div>
+              <p class="story-hook">The Red Light District has existed in Amsterdam since the 14th century &#x2014; when sailors returning from long voyages created a ready market. The museum occupies a working window brothel building.</p>
+              <p>Red Light Secrets is the world&#x2019;s only museum dedicated to the history and reality of sex work in Amsterdam&#x2019;s De Wallen district. The exhibition covers the legal framework, the realities of the work, the urban history of the neighbourhood, and first-person accounts from sex workers.</p>
+              <p>The museum takes a thoughtful, non-sensational approach &#x2014; aimed at challenging assumptions rather than titillating visitors. Allow around 45 minutes.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Photography of sex workers in windows is illegal and disrespectful. Do not do it.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Historic Red Light District &#xB7; Thoughtful exhibition</div>
+                  <div class="book-cta-price">From &#x20AC;15</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Red Light Secrets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Red Light Secrets
+                </a>
+              </div>
+            </div>
+          </li>
+        
+          <li class="attraction" id="portuguese-synagogue">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75"
+                alt="Portuguese Synagogue Amsterdam Esnoga 17th century Jewish Quarter" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">7</div>
+              <div class="attraction-badge">Hidden Gem</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">History &amp; Heritage</div>
+              <h2 id="portuguese-synagogue-h">Portuguese Synagogue (Esnoga)</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.7 <span class="rc">(5,400 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Mr. Visserplein 3</span>
+                <span class="attraction-meta-item">&#128336; Sun&#x2013;Fri 10am&#x2013;5pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;17</span>
+              </div>
+              <p class="story-hook">The Portuguese Synagogue was completed in 1675 &#x2014; the same decade as the Rijksmuseum's predecessor. It is still lit entirely by candlelight. No electricity has ever been installed.</p>
+              <p>The Esnoga is one of the largest and best-preserved synagogues in the world, built by Sephardic Jews who had fled the Inquisition in Portugal and Spain. The interior is breathtaking: 72 windows, brass chandeliers holding 1,000 candles, and an ark of Brazilian jacaranda wood.</p>
+              <p>Unlike much of Amsterdam's Jewish heritage, the Esnoga survived the Nazi occupation intact &#x2014; partly because it was used for storage. It still serves as an active synagogue. The adjacent museum covers the history of Amsterdam's Sephardic Jewish community from the 16th century to the present.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The synagogue is located in the Jewish Quarter, a 10-minute walk from the Rembrandthuis and Waterlooplein market. Combine these three for a half-day in the Jodenbuurt neighbourhood.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Active synagogue &#xB7; Allow 1 hour</div>
+                  <div class="book-cta-price">From &#x20AC;17</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Synagogue Tickets">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Synagogue Tickets
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="attraction" id="nieuwe-kerk">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=900&auto=format&fit=crop&q=75"
+                alt="De Nieuwe Kerk Amsterdam Dam Square Gothic church" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">8</div>
+              <div class="attraction-badge">Worth Visiting</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">History &amp; Heritage</div>
+              <h2 id="nieuwe-kerk-h">De Nieuwe Kerk Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.3 <span class="rc">(7,100 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Dam Square</span>
+                <span class="attraction-meta-item">&#128336; Daily 10am&#x2013;5pm</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;12.50 (temporary exhibitions)</span>
+              </div>
+              <p class="story-hook">The Nieuwe Kerk is not new. It was completed around 1408. It shares Dam Square with the Royal Palace &#x2014; built within decades of each other, representing the two competing powers of medieval Amsterdam: the Church and the city government.</p>
+              <p>The Nieuwe Kerk (New Church) is a Gothic Protestant church on Dam Square that has hosted every Dutch royal coronation since 1815 &#x2014; including King Willem-Alexander in 2013. When not in use for state functions, it hosts major temporary exhibitions, typically of photography or historical artefacts.</p>
+              <p>The church itself is free to enter during exhibitions. The exhibitions are ticketed and change throughout the year. Check the programme before visiting &#x2014; the quality varies, but the space alone (108 metres long, 60 metres high at the vaulting) is worth a look.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Check the current exhibition before booking &#x2014; some are outstanding, others merely solid. The church exterior on Dam Square is free to appreciate at any time.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Gothic church &#xB7; Royal coronation venue</div>
+                  <div class="book-cta-price">From &#x20AC;12.50 <span>(exhibitions vary)</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book De Nieuwe Kerk">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book De Nieuwe Kerk
+                </a>
+              </div>
+            </div>
+          </li>
+        </ol>
+        <div class="cta-banner" role="complementary" aria-label="Newsletter signup">
+          <h3>Know Amsterdam Before You Arrive</h3>
+          <p>One email, once a week. What to book this month, what to skip, and the things locals notice that tourists miss.</p>
+          <form class="cta-form" action="#" method="post" novalidate>
+            <input type="email" placeholder="Your email address" aria-label="Email address" required />
+            <button type="submit">Send Me the Tips</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+          <p>An independent Amsterdam travel guide written by someone who lives here. Skip-the-line tickets, honest reviews, and genuine local knowledge — no filler.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore Amsterdam</h4>
+          <ul>
+            <li><a href="/museums/">Museums &amp; Art</a></li>
+            <li><a href="/history-heritage/">History &amp; Heritage</a></li>
+            <li><a href="/canal-cruises/">Canal Cruises</a></li>
+            <li><a href="/nature-day-trips/">Nature &amp; Day Trips</a></li>
+            <li><a href="/experiences/">Experiences</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Plan Your Visit</h4>
+          <ul>
+            <li><a href="/#itinerary">3-Day Itinerary</a></li>
+            <li><a href="/#best-time">Best Time to Visit</a></li>
+            <li><a href="/#free-things">Free Things To Do</a></li>
+            <li><a href="/#getting-around">Getting Around</a></li>
+            <li><a href="/#faq">Amsterdam FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="/authors/sarah-mitchell/">Sarah Mitchell</a></li>
+            <li><a href="/about/">About This Guide</a></li>
+            <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Amsterdam Insider · Independent Amsterdam travel guide</span>
+        <span>🔖 We may earn a commission on ticket bookings — at no extra cost to you.</span>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  <script>
+    document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false')});if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true')}})});
+    const scrollBtn=document.getElementById('scrollTop');
+    window.addEventListener('scroll',()=>scrollBtn.classList.toggle('visible',window.scrollY>400));
+    scrollBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+    const hamburger=document.querySelector('.nav-hamburger');
+    hamburger&&hamburger.addEventListener('click',()=>{const links=document.querySelector('.nav-links');if(links){links.style.display=links.style.display==='flex'?'none':'flex';links.style.flexDirection='column';links.style.position='absolute';links.style.top='60px';links.style.left='0';links.style.right='0';links.style.background='#fff';links.style.padding='20px 24px';links.style.borderBottom='1px solid #e5e3df';links.style.boxShadow='0 4px 16px rgba(0,0,0,.10)'}});
+  </script>
+</body>
+</html>

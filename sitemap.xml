@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Amsterdam hub -->
+  <url>
+    <loc>https://yourdomain.com/amsterdam/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Amsterdam: Things To Do — PRIMARY target page -->
+  <url>
+    <loc>https://yourdomain.com/amsterdam/things-to-do/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200</image:loc>
+      <image:title>Amsterdam canal houses at golden hour</image:title>
+      <image:caption>Amsterdam's UNESCO-listed canal ring — the heart of the city</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Amsterdam sub-pages (add as you build them) -->
+  <url>
+    <loc>https://yourdomain.com/amsterdam/tickets/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/amsterdam/tours/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/amsterdam/restaurants/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Neighbourhood pages (build these for internal linking) -->
+  <url>
+    <loc>https://yourdomain.com/amsterdam/jordaan/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/amsterdam/de-pijp/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/amsterdam/centrum/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Other city templates (add as launched) -->
+  <url>
+    <loc>https://yourdomain.com/paris/things-to-do/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/london/things-to-do/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/barcelona/things-to-do/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Static pages -->
+  <url>
+    <loc>https://yourdomain.com/about/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/affiliate-disclosure/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

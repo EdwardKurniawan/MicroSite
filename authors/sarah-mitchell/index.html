@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarah Mitchell — Amsterdam Travel Expert | Amsterdam Insider</title>
+  <meta name="description" content="Sarah Mitchell is Amsterdam Insider' Amsterdam expert — a British travel writer who has lived in the city for 6 years. Read her guides to things to do, hidden gems, and skip-the-line tickets." />
+  <link rel="canonical" href="https://yourdomain.com/authors/sarah-mitchell/" />
+
+  <meta property="og:type"        content="profile" />
+  <meta property="og:title"       content="Sarah Mitchell — Amsterdam Travel Expert | Amsterdam Insider" />
+  <meta property="og:description" content="Amsterdam-based travel writer with 6 years of local expertise. Author of Amsterdam Insider' Amsterdam city guides." />
+  <meta property="og:url"         content="https://yourdomain.com/authors/sarah-mitchell/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Author Person Schema — E-E-A-T trust signal -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://yourdomain.com/authors/sarah-mitchell/#author",
+    "name": "Sarah Mitchell",
+    "url": "https://yourdomain.com/authors/sarah-mitchell/",
+    "description": "British travel writer and Amsterdam resident of 6 years. Specialist in Dutch culture, city guides, and European travel.",
+    "jobTitle": "Travel Writer & Amsterdam Expert",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Amsterdam Insider",
+      "url": "https://yourdomain.com/"
+    },
+    "knowsAbout": ["Amsterdam", "Netherlands", "European travel", "City guides", "Museum recommendations", "Local food"],
+    "sameAs": [
+      "https://www.instagram.com/sarahmitchelltravel",
+      "https://www.pinterest.com/sarahmitchelltravel"
+    ],
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional experience",
+      "description": "6 years resident in Amsterdam; contributor to major travel publications"
+    },
+    "author": [
+      {
+        "@type": "Article",
+        "name": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
+        "url": "https://yourdomain.com/amsterdam/things-to-do/"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --accent:        #E8601C;
+      --accent-dark:   #c44f14;
+      --accent-light:  #fff3ee;
+      --ink:           #1a1a1a;
+      --ink-muted:     #555;
+      --surface:       #ffffff;
+      --surface-2:     #f8f7f5;
+      --border:        #e5e3df;
+      --radius-sm:     6px;
+      --radius-md:     12px;
+      --radius-lg:     20px;
+      --shadow-sm:     0 1px 3px rgba(0,0,0,.08);
+      --shadow-md:     0 4px 16px rgba(0,0,0,.10);
+      --font-display:  'Playfair Display', Georgia, serif;
+      --font-body:     'Inter', system-ui, sans-serif;
+      --max-w:         800px;
+      --max-w-wide:    1160px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body { font-family: var(--font-body); color: var(--ink); background: var(--surface); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: var(--max-w-wide); margin: 0 auto; padding: 0 24px; }
+    .content-wrap { max-width: var(--max-w); margin: 0 auto; }
+
+    /* NAV */
+    .site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .nav-logo { font-family: var(--font-display); font-size: 1.3rem; font-weight: 800; color: var(--ink); letter-spacing: -.02em; }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a { font-size: .875rem; font-weight: 500; color: var(--ink-muted); transition: color .2s; }
+    .nav-links a:hover { color: var(--accent); text-decoration: none; }
+    .nav-cta { background: var(--accent); color: #fff; padding: 8px 18px; border-radius: 40px; font-size: .875rem; font-weight: 600; }
+    .nav-cta:hover { background: var(--accent-dark); text-decoration: none; }
+
+    /* BREADCRUMB */
+    .breadcrumb { padding: 14px 0 0; font-size: .8rem; color: var(--ink-muted); }
+    .breadcrumb a { color: var(--ink-muted); }
+    .breadcrumb a:hover { color: var(--accent); text-decoration: none; }
+    .breadcrumb span { margin: 0 6px; }
+
+    /* AUTHOR HERO */
+    .author-hero {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 40px;
+      align-items: start;
+      padding: 56px 0 48px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 48px;
+    }
+    .author-photo-wrap {
+      width: 180px; height: 180px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-family: var(--font-display); font-size: 4rem; font-weight: 800;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-md);
+    }
+    .author-hero-title { font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+    .author-hero h1 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 800; line-height: 1.15; letter-spacing: -.02em; margin-bottom: 10px; }
+    .author-hero-sub { font-size: 1.05rem; color: var(--ink-muted); margin-bottom: 20px; }
+    .author-credentials { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+    .cred-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--surface-2); border: 1px solid var(--border);
+      padding: 6px 14px; border-radius: 40px;
+      font-size: .8rem; font-weight: 600; color: var(--ink-muted);
+    }
+    .author-stats { display: flex; gap: 32px; }
+    .stat-item { text-align: center; }
+    .stat-num { font-family: var(--font-display); font-size: 1.8rem; font-weight: 800; color: var(--accent); line-height: 1; }
+    .stat-label { font-size: .78rem; color: var(--ink-muted); margin-top: 4px; }
+
+    /* SECTION HEADING */
+    .section-heading { font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; letter-spacing: -.02em; margin-bottom: 16px; }
+    .section-heading::after { content: ''; display: block; width: 40px; height: 3px; background: var(--accent); border-radius: 2px; margin-top: 6px; }
+
+    /* BIO */
+    .bio-section { margin-bottom: 48px; }
+    .bio-section p { color: var(--ink-muted); margin-bottom: 18px; font-size: 1rem; }
+    .bio-section strong { color: var(--ink); }
+
+    /* EXPERTISE GRID */
+    .expertise-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 48px; }
+    .exp-card { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px; }
+    .exp-icon { font-size: 1.6rem; margin-bottom: 8px; }
+    .exp-title { font-weight: 700; font-size: .9rem; margin-bottom: 4px; }
+    .exp-desc { font-size: .82rem; color: var(--ink-muted); }
+
+    /* ARTICLE LIST */
+    .article-list { list-style: none; margin-bottom: 48px; }
+    .article-item {
+      display: flex; align-items: center; gap: 20px;
+      padding: 20px 0; border-bottom: 1px solid var(--border);
+    }
+    .article-item:last-child { border-bottom: none; }
+    .article-num { font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--border); min-width: 40px; }
+    .article-info { flex: 1; }
+    .article-cat { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+    .article-title { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+    .article-title a { color: var(--ink); }
+    .article-title a:hover { color: var(--accent); }
+    .article-meta { font-size: .8rem; color: var(--ink-muted); }
+
+    /* FOOTER */
+    .site-footer { background: var(--ink); color: rgba(255,255,255,.6); padding: 40px 0 24px; margin-top: 80px; font-size: .85rem; }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+
+    @media (max-width: 640px) {
+      .author-hero { grid-template-columns: 1fr; gap: 24px; }
+      .author-photo-wrap { width: 120px; height: 120px; font-size: 2.5rem; }
+      .author-stats { gap: 16px; }
+      .nav-links, .nav-cta { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+        <ul class="nav-links">
+          <li><a href="/europe/">Europe</a></li>
+          <li><a href="/amsterdam/">Amsterdam</a></li>
+          <li><a href="/amsterdam/tickets/">Tickets</a></li>
+          <li><a href="/amsterdam/tours/">Tours</a></li>
+        </ul>
+        <a href="/amsterdam/things-to-do/#tickets" class="nav-cta">🎟 Browse Tickets</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/authors/">Authors</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Sarah Mitchell</span>
+      </nav>
+
+      <div class="content-wrap">
+
+        <!-- AUTHOR HERO -->
+        <div class="author-hero">
+          <div class="author-photo-wrap" aria-label="Sarah Mitchell author photo placeholder">S</div>
+          <div>
+            <div class="author-hero-title">Amsterdam Expert &amp; Travel Writer</div>
+            <h1>Sarah Mitchell</h1>
+            <p class="author-hero-sub">Amsterdam-based travel writer specialising in Dutch culture, city guides, and skip-the-line ticket intel. Living in Amsterdam since 2020.</p>
+            <div class="author-credentials">
+              <span class="cred-badge">📍 Based in Amsterdam, NL</span>
+              <span class="cred-badge">✅ Expert verified</span>
+              <span class="cred-badge">📸 Locally photographed</span>
+              <span class="cred-badge">🗓 Writing since 2018</span>
+            </div>
+            <div class="author-stats">
+              <div class="stat-item">
+                <div class="stat-num">6</div>
+                <div class="stat-label">Years in Amsterdam</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">40+</div>
+                <div class="stat-label">Amsterdam articles</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">13</div>
+                <div class="stat-label">Attractions reviewed</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BIO -->
+        <section class="bio-section">
+          <h2 class="section-heading">About Sarah</h2>
+          <p>
+            I moved to Amsterdam from London in early 2020 — which, in retrospect, was interesting timing. Spending a pandemic lockdown in a city with no tourists turned out to be one of the best ways to actually understand a place. I walked every canal, visited every neighbourhood market, and discovered that Amsterdam is a very different city when it belongs to the people who live in it.
+          </p>
+          <p>
+            I'd been a travel writer for two years before moving — contributing to print magazines and online guides focused on European city breaks. But Amsterdam changed how I write. When you <strong>live somewhere rather than visit it</strong>, your perspective on what's worth recommending shifts completely. The standard tourist checklist starts to feel hollow. You learn which "must-see" attractions actually justify the queue and which are overrated. You discover the restaurants locals actually eat at, the market stalls worth the early morning trip, and the museum galleries your fellow visitors walk straight past.
+          </p>
+          <p>
+            My writing for Amsterdam Insider is grounded in that local knowledge. Every tip, recommendation, and booking warning in my Amsterdam guides is based on firsthand experience — not a press trip itinerary. When I say the Anne Frank House sells out 6–8 weeks ahead in summer, it's because I've watched dozens of tourists turn up without a ticket and be turned away. When I recommend the A'DAM Lookout's free ferry connection, it's because I take that ferry regularly just to feel the city from the water.
+          </p>
+          <p>
+            I'm also a <strong>trained photographer</strong>, and all images in my guides that aren't sourced from image libraries were photographed on location. I believe the visual quality of a travel guide is as important as the copy — bad photography makes a beautiful city look generic.
+          </p>
+        </section>
+
+        <!-- EXPERTISE -->
+        <section style="margin-bottom:48px;">
+          <h2 class="section-heading">Areas of Expertise</h2>
+          <div class="expertise-grid">
+            <div class="exp-card">
+              <div class="exp-icon">🏛</div>
+              <div class="exp-title">Amsterdam Museums</div>
+              <div class="exp-desc">Rijksmuseum, Van Gogh, Anne Frank House, Stedelijk — in-depth knowledge of booking, timing, and what to prioritise inside each.</div>
+            </div>
+            <div class="exp-card">
+              <div class="exp-icon">🚲</div>
+              <div class="exp-title">Amsterdam by Bike</div>
+              <div class="exp-desc">The city's cycling infrastructure, best rental shops, canal-side routes, and how to navigate Amsterdam like a local rather than a tourist.</div>
+            </div>
+            <div class="exp-card">
+              <div class="exp-icon">🍽</div>
+              <div class="exp-title">Food &amp; Markets</div>
+              <div class="exp-desc">Albert Cuyp, Noordermarkt, De Hallen — Amsterdam's market and food scene beyond the tourist-facing cafés on Leidseplein.</div>
+            </div>
+            <div class="exp-card">
+              <div class="exp-icon">🌷</div>
+              <div class="exp-title">Seasonal Amsterdam</div>
+              <div class="exp-desc">Keukenhof tulip season, King's Day, Amsterdam Light Festival, WorldPride — how each event transforms the city and what to expect.</div>
+            </div>
+            <div class="exp-card">
+              <div class="exp-icon">🏘</div>
+              <div class="exp-title">Neighbourhoods</div>
+              <div class="exp-desc">Jordaan, De Pijp, Noord, Plantage — the character, best streets, and hidden spots in each of Amsterdam's distinctive districts.</div>
+            </div>
+            <div class="exp-card">
+              <div class="exp-icon">🎟</div>
+              <div class="exp-title">Skip-the-Line Tickets</div>
+              <div class="exp-desc">Booking windows, best affiliate providers, and when advance booking genuinely saves time versus when it's not needed.</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ARTICLES -->
+        <section style="margin-bottom:48px;">
+          <h2 class="section-heading">Articles by Sarah</h2>
+          <ul class="article-list">
+            <li class="article-item">
+              <div class="article-num">01</div>
+              <div class="article-info">
+                <div class="article-cat">🏛 City Guide</div>
+                <div class="article-title"><a href="/amsterdam/things-to-do/">Top 10 Things To Do in Amsterdam (2026 Guide)</a></div>
+                <div class="article-meta">Updated March 2026 · 13 attractions · 9 min read</div>
+              </div>
+            </li>
+            <li class="article-item">
+              <div class="article-num">02</div>
+              <div class="article-info">
+                <div class="article-cat">📅 Itinerary</div>
+                <div class="article-title"><a href="/amsterdam/3-day-itinerary/">The Perfect 3-Day Amsterdam Itinerary</a></div>
+                <div class="article-meta">Coming soon</div>
+              </div>
+            </li>
+            <li class="article-item">
+              <div class="article-num">03</div>
+              <div class="article-info">
+                <div class="article-cat">🏘 Neighbourhood Guide</div>
+                <div class="article-title"><a href="/amsterdam/jordaan/">The Complete Guide to the Jordaan</a></div>
+                <div class="article-meta">Coming soon</div>
+              </div>
+            </li>
+            <li class="article-item">
+              <div class="article-num">04</div>
+              <div class="article-info">
+                <div class="article-cat">🌷 Seasonal</div>
+                <div class="article-title"><a href="/amsterdam/keukenhof/">Keukenhof 2026: Tickets, Tips &amp; Getting There</a></div>
+                <div class="article-meta">Coming soon</div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- CONTACT / PITCH -->
+        <section style="background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:36px 40px;margin-bottom:48px;">
+          <h2 class="section-heading" style="margin-bottom:12px;">Work With Sarah</h2>
+          <p style="color:var(--ink-muted);margin-bottom:20px;">Sarah is available for commissioned travel writing, Amsterdam-based photography, and expert consultation for travel brands targeting the Dutch market. She does not accept sponsored content that is not clearly disclosed.</p>
+          <a href="mailto:sarah@yourdomain.com" style="display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;padding:12px 24px;border-radius:40px;font-weight:700;font-size:.9rem;text-decoration:none;">
+            ✉ Get In Touch
+          </a>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 Amsterdam Insider. All rights reserved.</span>
+        <a href="/amsterdam/things-to-do/" style="color:rgba(255,255,255,.6);">← Back to Amsterdam Guide</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

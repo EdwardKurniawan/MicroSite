@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>City Travel Guides — Skip-the-Line Tickets & Local Tips</title>
+  <meta name="description" content="Expert city guides written by local travel writers. Skip-the-line tickets, honest reviews, and insider tips for Amsterdam, London, Rome, and more." />
+  <link rel="canonical" href="https://yourdomain.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent: #E8601C;
+      --accent-dark: #c44f14;
+      --ink: #1a1a1a;
+      --ink-muted: #555;
+      --surface: #fff;
+      --surface-2: #f8f7f5;
+      --border: #e5e3df;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --shadow-md: 0 4px 16px rgba(0,0,0,.10);
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Inter', system-ui, sans-serif;
+      --max-w: 1160px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--ink); background: var(--surface); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+
+    /* NAV */
+    .site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .nav-logo { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--ink); letter-spacing: -.02em; }
+    .nav-logo span { color: var(--accent); }
+
+    /* HERO */
+    .hero { text-align: center; padding: 80px 24px 64px; }
+    .hero h1 { font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.03em; margin-bottom: 18px; line-height: 1.15; }
+    .hero h1 span { color: var(--accent); }
+    .hero p { color: var(--ink-muted); font-size: 1.05rem; max-width: 540px; margin: 0 auto 36px; }
+
+    /* CITY GRID */
+    .cities-heading { font-family: var(--font-display); font-size: 1.6rem; font-weight: 800; margin-bottom: 28px; letter-spacing: -.02em; }
+    .city-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; margin-bottom: 72px; }
+    .city-card { border-radius: var(--radius-lg); overflow: hidden; position: relative; display: block; color: #fff; min-height: 220px; text-decoration: none; transition: transform .2s, box-shadow .2s; }
+    .city-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); text-decoration: none; }
+    .city-card-img { width: 100%; height: 220px; object-fit: cover; display: block; }
+    .city-card-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.15) 60%, transparent 100%); }
+    .city-card-body { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px 24px; }
+    .city-card-country { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; opacity: .75; margin-bottom: 4px; }
+    .city-card-name { font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 4px; }
+    .city-card-meta { font-size: .8rem; opacity: .8; }
+    .city-card-badge { position: absolute; top: 14px; left: 14px; background: var(--accent); color: #fff; font-size: .68rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: 4px 10px; border-radius: 40px; }
+    .city-card-soon { position: absolute; inset: 0; background: rgba(0,0,0,.45); display: flex; align-items: center; justify-content: center; }
+    .city-card-soon span { background: rgba(0,0,0,.6); color: #fff; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 8px 18px; border-radius: 40px; }
+
+    /* FOOTER */
+    .site-footer { background: var(--ink); color: rgba(255,255,255,.55); padding: 36px 0 20px; font-size: .85rem; }
+    .footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+    @media (max-width: 600px) { .city-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">Travel<span>Sides</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Expert guides to the<br /><span>world's best cities</span></h1>
+      <p>Skip-the-line tickets, honest reviews, and insider tips — written by people who actually live there.</p>
+    </div>
+
+    <div class="container">
+      <div class="cities-heading">Choose a City</div>
+      <div class="city-grid">
+
+        <!-- Amsterdam — LIVE -->
+        <a class="city-card" href="/amsterdam/">
+          <img class="city-card-img"
+            src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=700&auto=format&fit=crop&q=80"
+            alt="Amsterdam canal ring at golden hour" width="700" height="220" />
+          <div class="city-card-overlay"></div>
+          <div class="city-card-badge">Live</div>
+          <div class="city-card-body">
+            <div class="city-card-country">Netherlands</div>
+            <div class="city-card-name">Amsterdam</div>
+            <div class="city-card-meta">52 attractions · Canal ring · Anne Frank House</div>
+          </div>
+        </a>
+
+        <!-- Kanazawa — LIVE -->
+        <a class="city-card" href="/kanazawa/">
+          <img class="city-card-img"
+            src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=700&auto=format&fit=crop&q=80"
+            alt="Kanazawa Kenroku-en garden Japan" width="700" height="220" />
+          <div class="city-card-overlay"></div>
+          <div class="city-card-badge">Live</div>
+          <div class="city-card-body">
+            <div class="city-card-country">Japan</div>
+            <div class="city-card-name">Kanazawa</div>
+            <div class="city-card-meta">Kenroku-en · Geisha districts · Ninja Temple</div>
+          </div>
+        </a>
+
+        <!-- London — Coming Soon -->
+        <div class="city-card" style="cursor:default;">
+          <img class="city-card-img"
+            src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=700&auto=format&fit=crop&q=80"
+            alt="London Tower Bridge" width="700" height="220" />
+          <div class="city-card-overlay"></div>
+          <div class="city-card-body">
+            <div class="city-card-country">United Kingdom</div>
+            <div class="city-card-name">London</div>
+            <div class="city-card-meta">British Museum · Tower of London · Hyde Park</div>
+          </div>
+          <div class="city-card-soon"><span>Coming Soon</span></div>
+        </div>
+
+        <!-- Rome — Coming Soon -->
+        <div class="city-card" style="cursor:default;">
+          <img class="city-card-img"
+            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=700&auto=format&fit=crop&q=80"
+            alt="Rome Colosseum" width="700" height="220" />
+          <div class="city-card-overlay"></div>
+          <div class="city-card-body">
+            <div class="city-card-country">Italy</div>
+            <div class="city-card-name">Rome</div>
+            <div class="city-card-meta">Colosseum · Vatican · Trevi Fountain</div>
+          </div>
+          <div class="city-card-soon"><span>Coming Soon</span></div>
+        </div>
+
+        <!-- Berlin — Coming Soon -->
+        <div class="city-card" style="cursor:default;">
+          <img class="city-card-img"
+            src="https://images.unsplash.com/photo-1560969184-10fe8719e047?w=700&auto=format&fit=crop&q=80"
+            alt="Berlin Brandenburg Gate" width="700" height="220" />
+          <div class="city-card-overlay"></div>
+          <div class="city-card-body">
+            <div class="city-card-country">Germany</div>
+            <div class="city-card-name">Berlin</div>
+            <div class="city-card-meta">Brandenburg Gate · Reichstag · Museum Island</div>
+          </div>
+          <div class="city-card-soon"><span>Coming Soon</span></div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 TravelSides · Independent city travel guides</span>
+        <span>🔖 We may earn a commission on ticket bookings — at no extra cost to you.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

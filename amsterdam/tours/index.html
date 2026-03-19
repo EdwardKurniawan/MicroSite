@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amsterdam Tours & Neighbourhoods 2026 — Jordaan, De Pijp & More</title>
+  <meta name="description" content="The best Amsterdam walking tours, bike tours, food tours, and neighbourhood guides — Jordaan, De Pijp, Amsterdam Noord. Honest recommendations from a local." />
+  <link rel="canonical" href="https://yourdomain.com/tours/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Amsterdam Tours & Neighbourhoods 2026 — Jordaan, De Pijp & More" />
+  <meta property="og:description" content="The best Amsterdam walking tours, bike tours, food tours, and neighbourhood guides — Jordaan, De Pijp, Amsterdam Noord. Honest recommendations from a local." />
+  <meta property="og:url" content="https://yourdomain.com/tours/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent:#E8601C;--accent-dark:#c44f14;--accent-light:#fff3ee;
+      --ink:#1a1a1a;--ink-muted:#555;--surface:#fff;--surface-2:#f8f7f5;
+      --border:#e5e3df;--radius-sm:6px;--radius-md:12px;--radius-lg:20px;
+      --shadow-sm:0 1px 3px rgba(0,0,0,.08);--shadow-md:0 4px 16px rgba(0,0,0,.10);
+      --font-display:'Playfair Display',Georgia,serif;
+      --font-body:'Inter',system-ui,sans-serif;
+      --max-w:760px;--max-w-wide:1160px;
+      --canal:#1a3a5c;--flag-red:#AE1C28;--flag-blue:#21468B;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:var(--font-body);color:var(--ink);background:var(--surface);line-height:1.7;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;height:auto;display:block}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--max-w-wide);margin:0 auto;padding:0 24px}
+    .content-wrap{max-width:var(--max-w);margin:0 auto}
+    .site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    .site-header::before{content:'';display:block;height:4px;background:linear-gradient(to right,var(--flag-red) 0%,var(--flag-red) 33.33%,#fff 33.33%,#fff 66.66%,var(--flag-blue) 66.66%,var(--flag-blue) 100%)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:60px}
+    .nav-logo{font-family:var(--font-display);font-size:1.1rem;font-weight:800;color:var(--ink);letter-spacing:-.02em;white-space:nowrap}
+    .nav-logo span{color:var(--accent)}
+    .nav-links{display:flex;gap:28px;list-style:none}
+    .nav-links a{font-size:.875rem;font-weight:500;color:var(--ink-muted);transition:color .2s}
+    .nav-links a:hover,.nav-links a.active{color:var(--accent);text-decoration:none}
+    .nav-cta{background:var(--accent);color:#fff;padding:8px 18px;border-radius:40px;font-size:.875rem;font-weight:600;transition:background .2s}
+    .nav-cta:hover{background:var(--accent-dark);text-decoration:none}
+    .nav-hamburger{display:none;cursor:pointer;background:none;border:none;padding:4px}
+    .nav-hamburger span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;border-radius:2px}
+    .breadcrumb{padding:14px 0 0;font-size:.8rem;color:var(--ink-muted)}
+    .breadcrumb a{color:var(--ink-muted)}
+    .breadcrumb a:hover{color:var(--accent);text-decoration:none}
+    .breadcrumb span{margin:0 6px}
+    .page-hero{background:linear-gradient(135deg,#1a2744 0%,#2d4a7a 60%,#1f3560 100%);border-radius:var(--radius-lg);margin:12px 0 0;min-height:320px;position:relative;overflow:hidden;display:flex;align-items:flex-end}
+    .page-hero-img{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;opacity:.5}
+    .page-hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,.1) 60%,transparent 100%)}
+    .page-hero-content{position:relative;z-index:2;padding:32px 40px 40px;max-width:680px}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;border-radius:40px;margin-bottom:14px}
+    .page-hero h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.6rem);font-weight:800;line-height:1.2;color:#fff;margin-bottom:12px;letter-spacing:-.02em}
+    .page-hero-meta{display:flex;flex-wrap:wrap;gap:14px;color:rgba(255,255,255,.8);font-size:.84rem}
+    .intro{margin-bottom:36px}
+    .intro p{font-size:1.02rem;color:var(--ink-muted);margin-bottom:16px}
+    .intro strong{color:var(--ink)}
+    .section-heading{font-family:var(--font-display);font-size:1.7rem;font-weight:800;letter-spacing:-.02em;margin:44px 0 18px;padding-top:20px}
+    .section-heading::after{content:'';display:block;width:44px;height:3px;background:var(--accent);border-radius:2px;margin-top:8px}
+    .attractions{list-style:none}
+    .attraction{display:grid;grid-template-columns:1fr;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;box-shadow:var(--shadow-sm);transition:box-shadow .25s,transform .2s}
+    .attraction:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+    .attraction-img-wrap{position:relative;overflow:hidden;height:260px;background:var(--surface-2)}
+    .attraction-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .attraction:hover .attraction-img-wrap img{transform:scale(1.04)}
+    .attraction-rank{position:absolute;top:16px;left:16px;background:var(--accent);color:#fff;font-family:var(--font-display);font-size:1.1rem;font-weight:800;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+    .attraction-badge{position:absolute;top:16px;right:16px;background:rgba(0,0,0,.65);backdrop-filter:blur(4px);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:40px}
+    .attraction-badge.must-see{background:var(--accent)}
+    .attraction-body{padding:26px 30px}
+    .attraction-cat{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+    .attraction h2{font-family:var(--font-display);font-size:1.5rem;font-weight:800;line-height:1.2;margin-bottom:10px;letter-spacing:-.02em}
+    .attraction-meta{display:flex;flex-wrap:wrap;gap:12px;font-size:.8rem;color:var(--ink-muted);margin-bottom:14px}
+    .attraction p{color:var(--ink-muted);margin-bottom:14px}
+    .story-hook{font-size:.9rem;font-style:italic;color:var(--canal);border-left:3px solid var(--canal);padding:10px 14px;margin-bottom:16px;background:rgba(26,58,92,.04);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+    .star-badge{display:inline-flex;align-items:center;gap:4px;color:#f59e0b;font-weight:700;font-size:.82rem}
+    .star-badge .rc{color:var(--ink-muted);font-weight:400;font-size:.78rem}
+    .tip-box{background:var(--accent-light);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:12px 16px;margin:14px 0;font-size:.875rem}
+    .tip-box strong{color:var(--accent)}
+    .book-cta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 20px;margin-top:18px}
+    .book-cta-left{flex:1}
+    .book-cta-label{font-size:.78rem;color:var(--ink-muted);margin-bottom:2px}
+    .book-cta-price{font-weight:700;font-size:1rem}
+    .book-cta-price span{font-size:.8rem;font-weight:400;color:var(--ink-muted)}
+    .book-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:.875rem;font-weight:700;padding:12px 22px;border-radius:40px;transition:background .2s,transform .15s;white-space:nowrap;text-decoration:none}
+    .book-btn:hover{background:var(--accent-dark);transform:translateY(-1px);text-decoration:none;color:#fff}
+    .book-btn svg{width:16px;height:16px}
+    .cta-banner{background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);border-radius:var(--radius-lg);padding:44px 36px;text-align:center;margin:44px 0;position:relative;overflow:hidden}
+    .cta-banner::before{content:'';position:absolute;top:-60px;right:-60px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.08)}
+    .cta-banner h3{font-family:var(--font-display);font-size:1.7rem;color:#fff;margin-bottom:10px;font-weight:800}
+    .cta-banner p{color:rgba(255,255,255,.85);margin-bottom:26px}
+    .cta-form{display:flex;gap:10px;max-width:420px;margin:0 auto}
+    .cta-form input{flex:1;padding:12px 16px;border-radius:40px;border:none;font-size:.9rem;outline:none}
+    .cta-form button{background:var(--ink);color:#fff;border:none;padding:12px 22px;border-radius:40px;font-weight:700;cursor:pointer;font-size:.9rem;white-space:nowrap;transition:opacity .2s}
+    .cta-form button:hover{opacity:.88}
+    .site-footer{background:var(--ink);color:rgba(255,255,255,.6);padding:44px 0 22px;margin-top:72px;font-size:.85rem}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:36px}
+    .footer-brand .nav-logo{color:#fff}
+    .footer-brand p{margin-top:10px;color:rgba(255,255,255,.5);font-size:.82rem;line-height:1.6}
+    .footer-col h4{color:#fff;font-weight:600;margin-bottom:12px;font-size:.875rem}
+    .footer-col ul{list-style:none}
+    .footer-col ul li{margin-bottom:7px}
+    .footer-col ul a{color:rgba(255,255,255,.55);transition:color .2s}
+    .footer-col ul a:hover{color:#fff;text-decoration:none}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+    .scroll-top{position:fixed;bottom:26px;right:26px;z-index:200;width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);opacity:0;pointer-events:none;transition:opacity .3s,transform .2s;font-size:1.1rem}
+    .scroll-top.visible{opacity:1;pointer-events:all}
+    @media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:640px){.page-hero{min-height:260px;border-radius:var(--radius-md)}.page-hero-content{padding:22px 22px 28px}.attraction-body{padding:18px 18px}.book-cta{flex-direction:column;align-items:flex-start}.nav-links,.nav-cta{display:none}.nav-hamburger{display:block}.footer-grid{grid-template-columns:1fr}.cta-form{flex-direction:column}}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+        <ul class="nav-links">
+          <li><a href="/museums/">Museums</a></li>
+          <li><a href="/canal-cruises/">Canal Cruises</a></li>
+          <li><a href="/experiences/">Experiences</a></li>
+          <li><a href="/nature-day-trips/">Day Trips</a></li>
+        </ul>
+        <a href="#tickets" class="nav-cta">🎟 Buy Tickets</a>
+        <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a><span>&#x203A;</span><span>Neighbourhoods &amp; Tours</span>
+      </div>
+      <section class="page-hero" aria-label="Neighbourhoods &amp; Tours">
+        <img class="page-hero-img"
+          src="https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=1200&auto=format&fit=crop&q=80"
+          alt="Jordaan neighbourhood Amsterdam canal houses street boutiques" loading="eager" width="1200" height="500" />
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+          <div class="hero-eyebrow">🇳🇱 Amsterdam Tours &amp; Walks</div>
+          <h1>Amsterdam Tours &amp; Neighbourhoods (2026)</h1>
+          <div class="page-hero-meta">
+            <span>📍 Amsterdam, Netherlands</span>
+            <span>🕐 Updated March 2026</span>
+            <span>✍️ By <a href="/authors/sarah-mitchell/" style="color:rgba(255,255,255,.9)">Sarah Mitchell</a></span>
+          </div>
+        </div>
+      </section>
+      <div class="content-wrap">
+        <div class="intro" style="margin-top:28px">
+      <p>Amsterdam's neighbourhoods are distinct enough that each feels like a different city. The Jordaan is where Golden Age meets boutique shopping; De Pijp is the food capital; Noord is the creative quarter that used to be a shipyard. <strong>The best way to understand Amsterdam is on foot or on a bike, in one neighbourhood at a time.</strong></p>
+      <p>Below are the six best tour options &#x2014; from guided Jordaan walks to self-guided cycling routes and food tours through De Pijp. The canal ring walk at the end is free and, on a good day, the best thing you can do in Amsterdam.</p>
+    </div>
+        <h2 class="section-heading">Neighbourhoods &amp; Tours</h2>
+        <ol class="attractions" aria-label="Neighbourhoods &amp; Tours in Amsterdam">
+          <li class="attraction" id="jordaan-tour">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75"
+                alt="Jordaan neighbourhood Amsterdam walking tour canal houses 9 streets" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">1</div>
+              <div class="attraction-badge">Most Popular</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Walking Tour</div>
+              <h2 id="jordaan-tour-h">Jordaan Walking Tour</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.9 <span class="rc">(12,400 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Starts near Westerkerk</span>
+                <span class="attraction-meta-item">&#128336; Daily departures</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;20</span>
+              </div>
+              <p class="story-hook">The Jordaan was originally a working-class district &#x2014; its name likely comes from the French "jardin" (garden). Today it has some of the highest property prices in the Netherlands.</p>
+              <p>The Jordaan is Amsterdam&#x2019;s most charming neighbourhood &#x2014; a tightly packed grid of 17th-century canal houses, brown caf&#xe9;s, independent boutiques, and quiet courtyards (hofjes) hidden behind unmarked doors.</p>
+              <p>A guided walking tour of the Jordaan typically covers the nine streets (de 9 Straatjes), the Westerkerk, the Anne Frank House exterior, and several hidden hofjes. Small-group tours (max 12 people) last around 2 hours.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The Noordermarkt &#x2014; a Saturday morning market &#x2014; is one of the best markets in Amsterdam for local produce, vintage clothing, and antiques. Time your walk to finish here.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">2-hour walking tour &#xB7; Small groups of max 12</div>
+                  <div class="book-cta-price">From &#x20AC;20 <span>&#x2014; includes local guide</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book the Jordaan Tour">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book the Jordaan Tour
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="bike-tour">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75"
+                alt="Amsterdam guided bike tour cycling canal ring city streets" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">2</div>
+              <div class="attraction-badge">Classic Amsterdam</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Bike Tour</div>
+              <h2 id="bike-tour-h">Guided Bike Tour of Amsterdam</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(18,600 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Various starting points near Centraal</span>
+                <span class="attraction-meta-item">&#128336; Daily morning + afternoon</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;28</span>
+              </div>
+              <p class="story-hook">Amsterdam has more bicycles than people &#x2014; around 900,000 residents, approximately 1.2 million bikes. The cycling infrastructure is a genuine engineering achievement: 500km of dedicated bike lanes built over 50 years.</p>
+              <p>A guided bike tour is the most efficient way to see Amsterdam&#x2019;s key sites while experiencing the city the way locals do. Most tours cover the canal ring, the Jordaan, Vondelpark, the Eastern Docklands, and Amsterdam Noord &#x2014; 3&#x2013;4 hours at a comfortable pace.</p>
+              <p>Rental bike is included in the tour price. Group size is typically 10&#x2013;15 people. Morning tours (9am&#x2013;12pm) have the lightest traffic.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Tell your guide if you haven't cycled in a city before. Amsterdam's cycling rules will be explained at the start.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">3-hour guided tour &#xB7; Bike included</div>
+                  <div class="book-cta-price">From &#x20AC;28 <span>&#x2014; bike + guide + insurance included</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book a Guided Bike Tour">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book a Guided Bike Tour
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="de-pijp-food-tour">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75"
+                alt="De Pijp neighbourhood Amsterdam Albert Cuyp market food tour" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">3</div>
+              <div class="attraction-badge">Best for Foodies</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Food Tour</div>
+              <h2 id="de-pijp-food-tour-h">De Pijp Food &amp; Market Tour</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(6,200 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Albert Cuyp Market, De Pijp</span>
+                <span class="attraction-meta-item">&#128336; Morning departures</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;35</span>
+              </div>
+              <p class="story-hook">The Albert Cuyp Market is the largest street market in the Netherlands &#x2014; 260 stalls, 1.5km long, running Monday to Saturday since 1905. De Pijp grew up around it and still revolves around it.</p>
+              <p>The De Pijp food tour typically covers the Albert Cuyp Market (raw herring, stroopwafels, Dutch cheese, Indonesian snacks), a brown caf&#xe9; for genever (Dutch gin), a local bakery, and at least one Amsterdam-specific food stop that is not in any guidebook.</p>
+              <p>De Pijp is Amsterdam&#x2019;s most multicultural neighbourhood and its most food-rich &#x2014; the result of successive waves of migration from Suriname, Morocco, Turkey, and Indonesia. You can eat your way around the world in four city blocks.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Come on an empty stomach. These tours involve a lot of tasting and the portions add up quickly.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Albert Cuyp Market + 6 tastings included</div>
+                  <div class="book-cta-price">From &#x20AC;35 <span>&#x2014; food included</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book the De Pijp Food Tour">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book the De Pijp Food Tour
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="amsterdam-noord-tour">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75"
+                alt="Amsterdam Noord NDSM wharf street art creative quarter industrial" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">4</div>
+              <div class="attraction-badge">Off the Beaten Track</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Neighbourhood Tour</div>
+              <h2 id="amsterdam-noord-tour-h">Amsterdam Noord Tour</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.7 <span class="rc">(3,400 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Free ferry from Centraal Station</span>
+                <span class="attraction-meta-item">&#128336; Various times</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;18</span>
+              </div>
+              <p class="story-hook">Amsterdam Noord was a shipbuilding and industrial district for 200 years. When the yards closed, artists and squatters moved in. Now it is where the city&#x2019;s creative industry has relocated.</p>
+              <p>Amsterdam Noord sits across the IJ waterway from Centraal Station, reached by free GVB ferry in 5 minutes. The NDSM wharf &#x2014; a vast former shipyard &#x2014; is now Amsterdam&#x2019;s creative quarter: studios, cultural events, STRAAT Museum, and the largest flea market in the Netherlands.</p>
+              <p>A guided tour of Noord typically covers the NDSM wharf, Eye Filmmuseum, the A'DAM Lookout, and quieter residential streets. Self-guided is also easy &#x2014; Noord is compact and the street art is hard to miss.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Creative district &#xB7; Free ferry from Centraal</div>
+                  <div class="book-cta-price">From &#x20AC;18 <span>&#x2014; or self-guided for free</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Noord Walking Tour">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Noord Walking Tour
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="city-exploration-game">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75"
+                alt="Amsterdam self-guided city exploration game smartphone outdoor" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">5</div>
+              <div class="attraction-badge">Best for Groups</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">City Game</div>
+              <h2 id="city-exploration-game-h">Amsterdam Self-Guided City Game</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.5 <span class="rc">(4,900 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Self-guided, start anywhere</span>
+                <span class="attraction-meta-item">&#128336; Any time, allow 2&#x2013;3 hours</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;12 per team</span>
+              </div>
+              <p class="story-hook">Self-guided city exploration games have replaced the walking tour for many groups &#x2014; you cover the same ground, solve puzzles at key sites, and move at your own pace.</p>
+              <p>Amsterdam&#x2019;s self-guided city games work via a smartphone app that gives you clues, puzzles, and historical facts at key locations. You walk at your own pace, solve puzzles to unlock the next location, and end up at 15&#x2013;20 significant sites across 3&#x2013;4km.</p>
+              <p>Best for groups of 2&#x2013;6 people who want flexibility. Several operators run different routes: canal ring, Red Light District, Amsterdam Noord, and themed versions (WWII history, Golden Age architecture).</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Self-paced &#xB7; Works on any smartphone</div>
+                  <div class="book-cta-price">From &#x20AC;12 per team <span>&#x2014; app-based</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Amsterdam City Game">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Amsterdam City Game
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="attraction" id="canal-ring-walk">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75"
+                alt="Amsterdam Herengracht Golden Bend canal ring self-guided walk evening" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">6</div>
+              <div class="attraction-badge">Free Option</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Self-Guided Walk</div>
+              <h2 id="canal-ring-walk-h">Canal Ring Self-Guided Walk</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(2,100 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Start at Centraal Station</span>
+                <span class="attraction-meta-item">&#128336; Any time, allow 2&#x2013;3 hours</span>
+                <span class="attraction-meta-item">&#128182; Free</span>
+              </div>
+              <p class="story-hook">The Amsterdam canal ring &#x2014; Grachtengordel &#x2014; was conceived by the city engineer Hendrick Staets in 1609 and completed in 1665. It is 400 years old and still functions exactly as designed.</p>
+              <p>The canal ring walk is the best free activity in Amsterdam &#x2014; a 6km loop around the Herengracht, Keizersgracht, and Prinsengracht that passes 400 years of Golden Age architecture. No guide, no ticket, no reservation.</p>
+              <p>The classic route: start at Centraal Station, walk west along the IJ waterfront, turn south down the Brouwersgracht, then east along the Herengracht, Keizersgracht, and Prinsengracht, looping back to the Spui. The Herengracht Golden Bend (between Leidsestraat and Vijzelstraat) is the most spectacular stretch.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Pick up a free canal ring walking guide from the Amsterdam Tourist Information office at Centraal Station.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Self-guided &#xB7; Download the free route map</div>
+                  <div class="book-cta-price">Free <span>&#x2014; pick up a map at Amsterdam Centraal</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Download the Route Map">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Download the Route Map
+                </a>
+              </div>
+            </div>
+          </li>
+        
+          <li class="attraction" id="jewish-quarter-tour">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75"
+                alt="Jewish Quarter Amsterdam Jodenbuurt walking tour Waterlooplein" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">7</div>
+              <div class="attraction-badge">History Walk</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Walking Tour</div>
+              <h2 id="jewish-quarter-tour-h">Jewish Quarter Walking Tour</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.9 <span class="rc">(4,800 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Starts at Waterlooplein</span>
+                <span class="attraction-meta-item">&#128336; Various times</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;22</span>
+              </div>
+              <p class="story-hook">Before the Second World War, the Jodenbuurt (Jewish Quarter) was home to 80,000 people. Today fewer than 5,000 Jewish residents remain in Amsterdam. The neighbourhood carries that weight on every street.</p>
+              <p>The Jewish Quarter walking tour covers the Jodenbuurt neighbourhood around Waterlooplein &#x2014; the Portuguese Synagogue, the Jewish Historical Museum, the Hollandsche Schouwburg (deportation theatre), and the streets where the pre-war community lived and worked.</p>
+              <p>The best tours are small-group (8&#x2013;10 people) and run by guides with a personal connection to the history. The tour takes around 2 hours and covers approximately 2km. This is an emotionally demanding walk &#x2014; but one of the most important things you can do in Amsterdam.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> The Hollandsche Schouwburg &#x2014; a theatre converted into a deportation centre in 1942, from which 46,000 Amsterdam Jews were sent to concentration camps &#x2014; is free to enter and open daily. It should be on every itinerary.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">2-hour walking tour &#xB7; Small groups</div>
+                  <div class="book-cta-price">From &#x20AC;22</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Jewish Quarter Tour">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Jewish Quarter Tour
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="attraction" id="escape-room">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75"
+                alt="Amsterdam escape room guided city game group activity" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">8</div>
+              <div class="attraction-badge">Best for Groups</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">City Game</div>
+              <h2 id="escape-room-h">Amsterdam Guided City Escape Game</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★☆ 4.5 <span class="rc">(3,900 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Various locations across the city</span>
+                <span class="attraction-meta-item">&#128336; Multiple daily slots</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;15 per person</span>
+              </div>
+              <p class="story-hook">The guided city escape game turns Amsterdam's streets into the puzzle &#x2014; a live game master leads your group through a series of locations, solving riddles that use real buildings, real history, and real canal bridges as the set.</p>
+              <p>Unlike self-guided city games (which you complete on your phone), the guided escape game involves an actor-guide who plays a character, adapts to your group's speed, and adds live drama to the puzzle-solving. Groups of 2&#x2013;8 people, approximately 90 minutes.</p>
+              <p>Best for groups celebrating something &#x2014; birthdays, hen/stag parties, team events &#x2014; where the shared experience matters as much as the sightseeing. The canal ring route is the most popular; the WWII history route is more intense and more rewarding.</p>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Guided &#xB7; 90 min &#xB7; Groups of 2&#x2013;8</div>
+                  <div class="book-cta-price">From &#x20AC;15 per person</div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book City Escape Game">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book City Escape Game
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="attraction" id="light-festival">
+            <div class="attraction-img-wrap">
+              <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75"
+                alt="Amsterdam Light Festival canal boat tour illuminated artworks winter" loading="lazy" width="900" height="520" />
+              <div class="attraction-rank">9</div>
+              <div class="attraction-badge">Seasonal Highlight</div>
+            </div>
+            <div class="attraction-body">
+              <div class="attraction-cat">Boat Tour</div>
+              <h2 id="light-festival-h">Amsterdam Light Festival Boat Tour</h2>
+              <div class="attraction-meta">
+                <span class="star-badge">★★★★★ 4.8 <span class="rc">(8,100 reviews)</span></span>
+                <span class="attraction-meta-item">&#128205; Canal ring, city centre</span>
+                <span class="attraction-meta-item">&#128336; November &#x2013; January only</span>
+                <span class="attraction-meta-item">&#128182; From &#x20AC;22</span>
+              </div>
+              <p class="story-hook">The Amsterdam Light Festival started in 2012 as a modest winter event. It now stretches over 6km of canal routes and is one of the largest light art festivals in the world &#x2014; with 30+ large-scale commissioned works by international artists.</p>
+              <p>The Amsterdam Light Festival runs from late November to mid-January &#x2014; the darkest weeks of the Dutch year, when the canal ring is transformed by illuminated artworks suspended over the water and mounted on canal house facades.</p>
+              <p>The boat tour option covers the full 6km route on a glass-roof canal boat, with audio commentary explaining each installation. The walking route covers a shorter section through the Jordaan and canal ring. Both are worthwhile; the boat gives the most complete picture.</p>
+              <div class="tip-box"><strong>💡 Local tip:</strong> Book the boat tour early &#x2014; the festival runs evenings only (5pm&#x2013;11pm) and popular time slots sell out weeks ahead. The opening weekend in late November is particularly atmospheric.</div>
+              <div class="book-cta">
+                <div class="book-cta-left">
+                  <div class="book-cta-label">Seasonal &#xB7; Nov&#x2013;Jan only &#xB7; Boat tour</div>
+                  <div class="book-cta-price">From &#x20AC;22 <span>&#x2014; boat or walking route</span></div>
+                </div>
+                <a href="#tickets" class="book-btn" aria-label="Book Light Festival Boat Tour">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+                  Book Light Festival Boat Tour
+                </a>
+              </div>
+            </div>
+          </li>
+        </ol>
+        <div class="cta-banner" role="complementary" aria-label="Newsletter signup">
+          <h3>Know Amsterdam Before You Arrive</h3>
+          <p>One email, once a week. What to book this month, what to skip, and the things locals notice that tourists miss.</p>
+          <form class="cta-form" action="#" method="post" novalidate>
+            <input type="email" placeholder="Your email address" aria-label="Email address" required />
+            <button type="submit">Send Me the Tips</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+          <p>An independent Amsterdam travel guide written by someone who lives here. Skip-the-line tickets, honest reviews, and genuine local knowledge — no filler.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore Amsterdam</h4>
+          <ul>
+            <li><a href="/museums/">Museums &amp; Art</a></li>
+            <li><a href="/history-heritage/">History &amp; Heritage</a></li>
+            <li><a href="/canal-cruises/">Canal Cruises</a></li>
+            <li><a href="/nature-day-trips/">Nature &amp; Day Trips</a></li>
+            <li><a href="/experiences/">Experiences</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Plan Your Visit</h4>
+          <ul>
+            <li><a href="/#itinerary">3-Day Itinerary</a></li>
+            <li><a href="/#best-time">Best Time to Visit</a></li>
+            <li><a href="/#free-things">Free Things To Do</a></li>
+            <li><a href="/#getting-around">Getting Around</a></li>
+            <li><a href="/#faq">Amsterdam FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="/authors/sarah-mitchell/">Sarah Mitchell</a></li>
+            <li><a href="/about/">About This Guide</a></li>
+            <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Amsterdam Insider · Independent Amsterdam travel guide</span>
+        <span>🔖 We may earn a commission on ticket bookings — at no extra cost to you.</span>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  <script>
+    document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false')});if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true')}})});
+    const scrollBtn=document.getElementById('scrollTop');
+    window.addEventListener('scroll',()=>scrollBtn.classList.toggle('visible',window.scrollY>400));
+    scrollBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+    const hamburger=document.querySelector('.nav-hamburger');
+    hamburger&&hamburger.addEventListener('click',()=>{const links=document.querySelector('.nav-links');if(links){links.style.display=links.style.display==='flex'?'none':'flex';links.style.flexDirection='column';links.style.position='absolute';links.style.top='60px';links.style.left='0';links.style.right='0';links.style.background='#fff';links.style.padding='20px 24px';links.style.borderBottom='1px solid #e5e3df';links.style.boxShadow='0 4px 16px rgba(0,0,0,.10)'}});
+  </script>
+</body>
+</html>
