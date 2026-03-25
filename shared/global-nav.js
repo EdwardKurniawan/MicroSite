@@ -3,11 +3,10 @@
   const WP_NAV_HTML = `
     <div class="wp-nav-wrapper">
       <nav class="wp-nav">
-        <a href="/" class="wp-logo">Wonder<span>Pass</span></a>
+        <a href="/" class="wp-logo">Amsterdam<span>Insider</span></a>
         <ul class="wp-links">
-          <li><a href="/" id="nav-home">Home</a></li>
-          <li><a href="/amsterdam/" id="nav-amsterdam">Amsterdam</a></li>
-          <li><a href="/kanazawa/" id="nav-kanazawa">Kanazawa</a></li>
+          <li><a href="/" id="nav-home">Explore</a></li>
+          <li><a href="/neighbourhoods/" id="nav-nb">Neighbourhoods</a></li>
           <li><a href="/near-me/" id="nav-nearme">Near Me</a></li>
         </ul>
         <a href="#tickets" class="wp-cta">🎟 Buy Tickets</a>
@@ -28,12 +27,10 @@
     const path = window.location.pathname;
     const cityParam = new URLSearchParams(window.location.search).get('city');
     
-    if (path === '/' && !cityParam) {
+    if (path === '/' || path.includes('amsterdam') || cityParam === 'amsterdam') {
       document.getElementById('nav-home').classList.add('active');
-    } else if (path.includes('amsterdam') || cityParam === 'amsterdam') {
-      document.getElementById('nav-amsterdam').classList.add('active');
-    } else if (path.includes('kanazawa') || cityParam === 'kanazawa') {
-      document.getElementById('nav-kanazawa').classList.add('active');
+    } else if (path.includes('neighbourhoods')) {
+      document.getElementById('nav-nb').classList.add('active');
     }
   }
 

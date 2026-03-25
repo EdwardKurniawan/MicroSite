@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build": "node scripts/build.js",
     "dev:amsterdam": "cross-env PORT=3001 CITY=amsterdam node server.js",
     "dev:kanazawa": "cross-env PORT=3002 CITY=kanazawa node server.js",
     "dev:london": "cross-env PORT=3003 CITY=london node server.js",
