@@ -20,18 +20,36 @@ export default async function handler(req, res) {
     }
 
     const cityData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    
+    // Extract free gems from quick_info
+    const freeGems = (cityData.quick_info || [])
+      .filter(info => info.value.toLowerCase().includes('free'))
+      .map(info => ({ name: info.label, description: info.value, type: 'free' }));
+
     const inventory = [
-      ...(cityData.categories || []).map(c => ({ name: c.title, slug: c.url.replace(/\//g, ''), type: 'category' })),
-      ...(cityData.neighbourhoods || []).map(n => ({ name: n.name, slug: n.slug, type: 'neighbourhood' }))
+      ...(cityData.categories || []).map(c => ({ name: c.title, slug: c.url.replace(/\//g, ''), type: 'ticket' })),
+      ...(cityData.neighbourhoods || []).map(n => ({ name: n.name, slug: n.slug, type: 'neighbourhood' })),
+      ...freeGems
     ];
 
     const systemPrompt = `You are AmsterdamInsider's premium AI guide.
-Return ONLY a JSON object in this format:
+CRITICAL: You MUST return a JSON object with a "steps" array. Do NOT use an "items" array.
+Format:
 {
-  "summary": "Short, catchy summary of your suggestion",
-  "items": [{ "name": "matching-name", "slug": "matching-slug", "reason": "why this fits" }]
+  "summary": "Catchy headline",
+  "themeColor": "Hex code (e.g. #E8601C)",
+  "steps": [
+    { 
+      "time": "Morning/Afternoon/Evening",
+      "name": "Activity Name",
+      "type": "FREE or TICKET or NEIGHBOURHOOD",
+      "description": "Short narrative",
+      "slug": "matching-slug"
+    }
+  ]
 }
-Available Inventory for ${citySlug}:
+1. Create a 1-day journey.
+2. Mix FREE and TICKET items from inventory:
 ${JSON.stringify(inventory, null, 2)}`;
 
     const aiResponse = await fetch("https://openrouter.ai/api/v1/chat/completions", {
