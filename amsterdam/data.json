@@ -13,12 +13,12 @@
   "country": "Netherlands",
   "author_name": "Sarah Mitchell",
   "author_slug": "sarah-mitchell",
-  "updated_date": "March 2026",
+  "updated_date": "2026-03-18",
   "read_time": "🕐",
-  "hero_image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&auto=format&fit=crop&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1590424753858-394a1240c313?w=1200&auto=format&fit=crop&q=80",
   "hero_alt": "Amsterdam canal houses at golden hour",
   "hero_eyebrow": "🇳🇱 Amsterdam Insider Guide",
-  "hero_h1": "Top 10 Things To Do in Amsterdam (2026 Guide)",
+  "hero_h1": "10 Best Things To Do in Amsterdam",
   "hero_tagline": "The definitive local guide — 52 attractions across 6 categories, a 3-day itinerary, and skip-the-line tickets. Written by someone who actually lives here.",
   "quick_info": [
     {
@@ -82,7 +82,7 @@
   "categories": [
     {
       "url": "/museums/",
-      "image": "https://images.unsplash.com/photo-1549405610-d8869ef4904a?w=700&auto=format&fit=crop&q=75",
+      "image": "https://images.unsplash.com/photo-1767412578743-7f4e9dd5f3b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxNdXNldW1zJTIwJTI2JTIwQXJ0JTIwQW1zdGVyZGFtJTIwY2l0eSUyMHZpZXd8ZW58MHwwfHx8MTc3NDQ1NDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Museumplein Amsterdam with Rijksmuseum",
       "count": "9 museums",
       "title": "Museums & Art",
@@ -91,7 +91,7 @@
     },
     {
       "url": "/history-heritage/",
-      "image": "https://images.unsplash.com/photo-1540854486241-118cdd72b781?w=700&auto=format&fit=crop&q=75",
+      "image": "https://images.unsplash.com/photo-1759088141496-10d6cb1edc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIaXN0b3J5JTIwJTI2JTIwSGVyaXRhZ2UlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc0fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Anne Frank House on Prinsengracht canal",
       "count": "8 sites",
       "title": "History & Heritage",
@@ -100,7 +100,7 @@
     },
     {
       "url": "/canal-cruises/",
-      "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=700&auto=format&fit=crop&q=75",
+      "image": "https://images.unsplash.com/photo-1694634287698-2d73fef678c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxDYW5hbCUyMENydWlzZXMlMjAlMjYlMjBXYXRlciUyMEFtc3RlcmRhbSUyMGNpdHklMjB2aWV3fGVufDB8MHx8fDE3NzQ0NTQxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Amsterdam canal cruise at golden hour",
       "count": "8 cruise options",
       "title": "Canal Cruises & Water",
@@ -109,7 +109,7 @@
     },
     {
       "url": "/nature-day-trips/",
-      "image": "https://images.unsplash.com/photo-1617653202545-930d9bc0c410?w=700&auto=format&fit=crop&q=75",
+      "image": "https://images.unsplash.com/photo-1658414507049-7618215b8d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOYXR1cmUlMkMlMjBGbG93ZXJzJTIwJTI2JTIwRGF5JTIwVHJpcHMlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Keukenhof tulip fields in bloom near Amsterdam",
       "count": "9 options",
       "title": "Nature, Flowers & Day Trips",
@@ -118,7 +118,7 @@
     },
     {
       "url": "/experiences/",
-      "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=700&auto=format&fit=crop&q=75",
+      "image": "https://images.unsplash.com/photo-1650469332317-76d182406234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Heineken Experience Amsterdam brewery",
       "count": "9 experiences",
       "title": "Experiences & Entertainment",
@@ -127,7 +127,7 @@
     },
     {
       "url": "/tours/",
-      "image": "https://images.unsplash.com/photo-1545693006-2f0995ba1a88?w=700&auto=format&fit=crop&q=75",
+      "image": "/images/jordaan_home.png",
       "alt": "Jordaan neighbourhood Amsterdam street",
       "count": "9 tours & walks",
       "title": "Neighbourhoods & Tours",
@@ -143,38 +143,413 @@
   "neighbourhoods": [
     {
       "url": "/jordaan/",
-      "image": "https://images.unsplash.com/photo-1545693006-2f0995ba1a88?w=400&auto=format&fit=crop&q=70",
+      "image": "/images/jordaan_home.png",
       "alt": "Jordaan neighbourhood",
       "name": "Jordaan",
-      "tagline": "Brown cafés · 9 Straatjes · weekend markets"
+      "tagline": "Brown cafés · 9 Straatjes · weekend markets",
+      "slug": "jordaan",
+      "h1": "The Jordaan",
+      "title": "Jordaan Amsterdam Guide 2026 — The Best Neighbourhood in the City",
+      "desc": "Amsterdam's most charming neighbourhood — narrow canals, 17th-century houses, hidden courtyards, and brown cafés.",
+      "standfirst": "Amsterdam's most beloved neighbourhood — narrow canals, 17th-century houses, hidden courtyards, and the kind of brown cafés where you lose track of an afternoon.",
+      "facts": [
+        {
+          "icon": "🏘",
+          "label": "Character",
+          "value": "Historic, artsy, residential"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "West of the canal ring"
+        },
+        {
+          "icon": "🚶",
+          "label": "Best way",
+          "value": "On foot or by bike"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Couples, culture lovers"
+        }
+      ],
+      "intro": "The Jordaan started as a mistake. When Amsterdam expanded its canal ring in the early 17th century, the city planners drew the new residential quarter to the west — narrow streets, dense housing, no grand waterways. It was built for workers: tanners, cloth-dyers, and craftsmen who couldn't afford the canal ring. Today the Jordaan has some of the highest residential property prices in the Netherlands, yet it has absorbed its own gentrification without quite losing its character.",
+      "todos": [
+        {
+          "title": "Wander de 9 Straatjes",
+          "body": "The nine streets cross the Jordaan's three main canals and contain the best concentration of independent boutiques."
+        },
+        {
+          "title": "Find the hidden hofjes",
+          "body": "The Jordaan contains at least 20 hidden courtyards (hofjes) — former almshouses tucked behind unmarked doors."
+        },
+        {
+          "title": "Saturday Noordermarkt",
+          "body": "Every Saturday morning, the Noordermarktplein fills with an organic farmers' market and a vintage market."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚋",
+          "text": "Tram 13, 17 or 19 to Westermarkt stop."
+        },
+        {
+          "icon": "🚶",
+          "text": "20-minute walk from Amsterdam Centraal Station."
+        }
+      ]
     },
     {
       "url": "/de-pijp/",
-      "image": "https://images.unsplash.com/photo-1629837926863-71822818c30d?w=400&auto=format&fit=crop&q=70",
+      "image": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxEZSUyMFBpanAlMjBBbXN0ZXJkYW0lMjBzdHJlZXQlMjB2aWV3JTIwZGlzdHJpY3R8ZW58MHwwfHx8MTc3NDQ1NDE4Mnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "De Pijp neighbourhood",
       "name": "De Pijp",
-      "tagline": "Albert Cuyp market · craft beer · best food in the city"
+      "tagline": "Albert Cuyp market · craft beer · best food in the city",
+      "slug": "de-pijp",
+      "h1": "De Pijp",
+      "title": "De Pijp Amsterdam Guide 2026 — Food, Markets & Local Life",
+      "desc": "The city's food capital and most multicultural district, home to the famous Albert Cuyp Market.",
+      "standfirst": "Amsterdam's food capital and most multicultural neighbourhood — where the Albert Cuyp Market has run every weekday since 1905.",
+      "facts": [
+        {
+          "icon": "🌍",
+          "label": "Character",
+          "value": "Multicultural, foodie, young"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "South of the canal ring"
+        },
+        {
+          "icon": "🚶",
+          "label": "Best way",
+          "value": "On foot"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Food lovers, nightlife"
+        }
+      ],
+      "intro": "De Pijp was built fast and cheap in the late 19th century to house Amsterdam's growing working class. The streets were laid out in a rigid grid — long, narrow blocks that gave the neighbourhood its name: 'the pipe.' What makes De Pijp unusual is the specific sequence of communities that settled there — Surinamese, Moroccan, Turkish, and later, art students.",
+      "todos": [
+        {
+          "title": "Albert Cuyp Market",
+          "body": "The largest street market in the Netherlands — 260 stalls, 1.5km long, running every weekday."
+        },
+        {
+          "title": "Sarphatipark",
+          "body": "A small, beautifully maintained Victorian park in the heart of De Pijp."
+        },
+        {
+          "title": "Brouwerij Troost",
+          "body": "Craft beer in a restored 1920s swimming pool on Cornelis Troostplein."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚇",
+          "text": "Metro 52 (North-South line) to De Pijp station."
+        },
+        {
+          "icon": "🚲",
+          "text": "10-minute cycle from the Rijksmuseum."
+        }
+      ]
     },
     {
-      "url": "/centrum/",
-      "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=400&auto=format&fit=crop&q=70",
-      "alt": "Amsterdam Centrum",
-      "name": "Centrum",
-      "tagline": "Canal ring · Dam Square · historic core"
-    },
-    {
-      "url": "/noord/",
-      "image": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=400&auto=format&fit=crop&q=70",
-      "alt": "Amsterdam Noord",
-      "name": "Noord",
-      "tagline": "NDSM wharf · Eye Filmmuseum · free ferry from Centraal"
+      "name": "Amsterdam Noord",
+      "slug": "noord",
+      "h1": "Amsterdam Noord",
+      "title": "Amsterdam Noord Guide 2026 — The Creative Quarter Across the IJ",
+      "desc": "The creative quarter across the IJ waterway — street art, industrial vibes, and great views.",
+      "standfirst": "Five minutes across the IJ from Centraal Station — Amsterdam's creative quarter in a former shipyard. Street art the size of buildings and waterfront views.",
+      "facts": [
+        {
+          "icon": "🏭",
+          "label": "Character",
+          "value": "Creative, industrial, edgy"
+        },
+        {
+          "icon": "⛴",
+          "label": "Getting there",
+          "value": "Free ferry from Centraal"
+        },
+        {
+          "icon": "⏱",
+          "label": "Time to allow",
+          "value": "Half day to full day"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Art, alternative culture"
+        }
+      ],
+      "intro": "Amsterdam Noord was, for most of its history, the city Amsterdam pretended didn't exist. The IJ waterway kept it separate. Today the NDSM wharf is Amsterdam's most concentrated creative district — home to Greenpeace, MTV, and significant street art.",
+      "todos": [
+        {
+          "title": "A'DAM Lookout",
+          "body": "360° observation deck atop a 22-floor tower with Europe's highest rooftop swing."
+        },
+        {
+          "title": "STRAAT Museum",
+          "body": "The world's largest street art museum in an 8,800 square metre former shipyard building."
+        },
+        {
+          "title": "Eye Filmmuseum",
+          "body": "Iconic angular white building on the waterfront with film history exhibitions."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "⛴",
+          "text": "Free GVB ferry from behind Centraal Station."
+        },
+        {
+          "icon": "🚲",
+          "text": "Take your bike on the ferry (free) and cycle around."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1759693232636-0e21e135f802?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBOb29yZCUyMEFtc3RlcmRhbSUyMHN0cmVldCUyMHZpZXclMjBkaXN0cmljdHxlbnwwfDB8fHwxNzc0NDU0MTgzfDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80"
     },
     {
       "url": "/museumplein/",
-      "image": "https://images.unsplash.com/photo-1549405610-d8869ef4904a?w=400&auto=format&fit=crop&q=70",
+      "image": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxNdXNldW1wbGVpbiUyMEFtc3RlcmRhbSUyMHN0cmVldCUyMHZpZXclMjBkaXN0cmljdHxlbnwwfDB8fHwxNzc0NDU0MTg1fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Museumplein Amsterdam",
       "name": "Museumplein",
-      "tagline": "Rijksmuseum · Van Gogh · Stedelijk — three museums, one lawn"
+      "tagline": "Rijksmuseum · Van Gogh · Stedelijk — three museums, one lawn",
+      "slug": "museumplein",
+      "h1": "Museumplein",
+      "title": "Museumplein Amsterdam Guide 2026 — Rijksmuseum, Van Gogh & More",
+      "desc": "The cultural heart of the city, where the Rijksmuseum, Van Gogh, and Stedelijk all share one lawn.",
+      "standfirst": "Three world-class museums on one lawn — the Rijksmuseum, Van Gogh, and Stedelijk are all within a 5-minute walk of each other.",
+      "facts": [
+        {
+          "icon": "🎨",
+          "label": "Character",
+          "value": "Cultural, upscale, leafy"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "South of Leidseplein"
+        },
+        {
+          "icon": "🚶",
+          "label": "Best way",
+          "value": "On foot between museums"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Art lovers, families"
+        }
+      ],
+      "intro": "In 1877, Amsterdam set aside a large field for culture. The result — three world-class institutions sharing a single square kilometre of lawn — is unique in Europe. On a good day, you can walk from Rembrandt's Night Watch to Van Gogh's Sunflowers in fifteen minutes.",
+      "todos": [
+        {
+          "title": "Rijksmuseum",
+          "body": "8,000 objects, 80 rooms, and the Night Watch. Arrive at 9am for the quietest experience."
+        },
+        {
+          "title": "Van Gogh Museum",
+          "body": "The world's largest Van Gogh collection. Online booking is mandatory."
+        },
+        {
+          "title": "Vondelpark",
+          "body": "Amsterdam's back garden, 5 minutes west from the Rijksmuseum."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚋",
+          "text": "Tram 2 or 5 from Centraal to Hobbemastraat."
+        },
+        {
+          "icon": "🚲",
+          "text": "15-minute cycle from Centraal via the Singel."
+        }
+      ]
+    },
+    {
+      "url": "/centrum/",
+      "image": "/images/centrum.png",
+      "alt": "Amsterdam Canal Ring UNESCO Heritage",
+      "name": "Centrum / Canal Ring",
+      "tagline": "UNESCO Heritage · The Heart of the City · Dam Square",
+      "slug": "centrum",
+      "h1": "Centrum & The Canal Ring",
+      "title": "Amsterdam Centrum Guide 2026 — The UNESCO Canal Ring & Historic Core",
+      "desc": "The historic UNESCO-listed core of Amsterdam, where 17th-century wealth meets 21st-century tourism.",
+      "standfirst": "The historic UNESCO-listed core of Amsterdam, where 17th-century wealth meets 21st-century tourism. Its concentric rings of water define the city's character.",
+      "facts": [
+        {
+          "icon": "🏘",
+          "label": "Character",
+          "value": "Historic, busy, iconic"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "The very center"
+        },
+        {
+          "icon": "🚶",
+          "label": "Best way",
+          "value": "Walking"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Sightseeing, first-timers"
+        }
+      ],
+      "intro": "Amsterdam's city centre is a masterpiece of 17th-century urban planning. The 'Grachtengordel' (Canal Ring) was built as part of a massive expansion project during the Dutch Golden Age, creating four main concentric canals that still serve as the city's blueprint. While the most tourist-heavy part of Amsterdam, it remains extraordinary for its architecture alone.",
+      "todos": [
+        {
+          "title": "Dam Square",
+          "body": "The historic centre, home to the Royal Palace and the National Monument."
+        },
+        {
+          "title": "Canal Cruise",
+          "body": "The best place to start any Amsterdam trip, offering the canonical view of the city."
+        },
+        {
+          "title": "Begijnhof",
+          "body": "A medieval courtyard that feels a world away from the busy Kalverstraat shopping street."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚶",
+          "text": "The entire area is walkable from Centraal Station."
+        },
+        {
+          "icon": "🚋",
+          "text": "Trams 2, 4, 12, 13, 14, 17 all serve the center."
+        }
+      ]
+    },
+    {
+      "url": "/oud-west/",
+      "image": "/images/oud_west.png",
+      "alt": "De Hallen Amsterdam Oud-West",
+      "name": "Oud-West",
+      "tagline": "Foodhallen · craft coffee · trendy boutiques",
+      "slug": "oud-west",
+      "h1": "Oud-West",
+      "title": "Amsterdam Oud-West Guide 2026 — Foodhallen, Coffee & Local Vibes",
+      "desc": "One of Amsterdam's most lively and creative districts, where locals go for dinner and shopping.",
+      "standfirst": "One of Amsterdam's most lively and creative districts, Oud-West is where locals go for dinner and shopping when they want to avoid the tourist crowds of the centre.",
+      "facts": [
+        {
+          "icon": "🍴",
+          "label": "Character",
+          "value": "Trendy, residential, foodie"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "West of the canal ring"
+        },
+        {
+          "icon": "🚲",
+          "label": "Best way",
+          "value": "Cycling"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Local life, food halls"
+        }
+      ],
+      "intro": "Oud-West sits just outside the canal ring and has transformed from a quiet residential area into one of the city's most desirable neighbourhoods. Its heartbeat is the Ten Katemarkt and the adjacent De Hallen, a repurposed tram depot that now houses the city's best food hall, a cinema, and independent design shops.",
+      "todos": [
+        {
+          "title": "Foodhallen",
+          "body": "A converted tram depot featuring over 20 different food stalls and several bars."
+        },
+        {
+          "title": "Ten Katemarkt",
+          "body": "A local, authentic street market that's much less touristy than the Albert Cuyp."
+        },
+        {
+          "title": "Jan-Pieter Heijestraat",
+          "body": "One of the best streets for independent lifestyle shops and boutique shopping."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚋",
+          "text": "Tram 7 or 17 to Ten Katestraat."
+        },
+        {
+          "icon": "🚲",
+          "text": "5-minute ride from the Jordaan."
+        }
+      ]
+    },
+    {
+      "url": "/westerpark/",
+      "image": "/images/westerpark.png",
+      "alt": "Westergasfabriek Amsterdam Westerpark",
+      "name": "Westerpark",
+      "tagline": "Industrial culture · lush greenery · Westergasfabriek",
+      "slug": "westerpark",
+      "h1": "Westerpark",
+      "title": "Amsterdam Westerpark Guide 2026 — Culture, Parks & Industry",
+      "desc": "A sprawling green park built on the site of a former gasworks, the intersection of industrial heritage and nature.",
+      "standfirst": "A sprawling green park built on the site of a former gasworks, Westerpark is the intersection of industrial heritage, alternative culture, and wide-open green spaces.",
+      "facts": [
+        {
+          "icon": "🌳",
+          "label": "Character",
+          "value": "Industrial, cultural, spacious"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "West of Centraal"
+        },
+        {
+          "icon": "🏃",
+          "label": "Best way",
+          "value": "Walking / Picnicking"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Outdoor culture, families"
+        }
+      ],
+      "intro": "Westerpark is more than just a park; it's a cultural campus. The Westergasfabriek — a collection of stunning red-brick industrial buildings — was once the city's municipal gasworks. Today, it hosts everything from artisanal bakeries and craft breweries to world-class techno clubs and immersive art shows.",
+      "todos": [
+        {
+          "title": "Westergasfabriek",
+          "body": "Explore the repurposed industrial buildings, now home to a cinema, cafes, and creative offices."
+        },
+        {
+          "title": "Fabrique des Lumières",
+          "body": "An immersive digital art centre located inside a former gas cylinder."
+        },
+        {
+          "title": "Brouwerij Troost",
+          "body": "A local brewery with an industrial-scale terrace perfect for a sunny afternoon."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚋",
+          "text": "Tram 5 to Van Hallstraat stop."
+        },
+        {
+          "icon": "🚌",
+          "text": "Bus 21 or 22 from Centraal Station."
+        }
+      ]
     }
   ],
   "weather_intro": "Amsterdam rewards visitors in every season — but the experience varies wildly. Here's what you're actually getting month by month.",
@@ -315,5 +690,24 @@
     }
   ],
   "history_html": "<h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">1275 — A Dam on the Amstel</h3>\n          <p>Amsterdam's founding moment is unglamorous: a handful of fishermen built a dam across the Amstel river to control flooding. The settlement was called <em>Amstelredamme</em>. The Count of Holland granted it toll privileges in 1275 — the oldest written record of the city. Within a century it had a harbour, a market, and an ambition that the marshy ground beneath it couldn't contain.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">The Golden Age — 1585 to 1672</h3>\n          <p>Everything changed in 1585. The Spanish captured Antwerp — then Europe's richest trading port — and tens of thousands of Protestant merchants, skilled craftsmen, and Jewish traders fled north to Amsterdam. The city absorbed them all and turned their capital into the engine of something extraordinary.</p>\n          <p>In 1602, Amsterdam's merchants founded the <strong>VOC</strong> — the Dutch East India Company — the world's first publicly traded company. It had its own army, could wage war, negotiate treaties, and mint coins. Within decades, Dutch ships controlled the spice routes from the Moluccas to Manhattan. The wealth poured back into the city: the canal ring was dug between 1613 and 1665, 1,500 merchant houses were built along it, and painters like Rembrandt and Vermeer were kept busy recording the face of this new prosperity.</p>\n          <p>At its peak, Amsterdam was <strong>the wealthiest city on earth per capita</strong>. The Amsterdam Stock Exchange — the world's first — opened in 1602 on the Rokin. Tulip mania gripped the city in 1636–37, when a single Semper Augustus bulb sold for the price of a canal house. The canal ring was granted UNESCO World Heritage status in 2010, but it was conceived and built in a single extraordinary generation.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">Decline, Occupation, and Resilience</h3>\n          <p>The <em>Rampjaar</em> — Year of Disaster — arrived in 1672. France, England, and two German states attacked the Dutch Republic simultaneously. The Golden Age never fully recovered. By the 18th century, Amsterdam was living on inherited wealth. Napoleon occupied the city in 1795; his brother Louis Bonaparte briefly made it a capital of a puppet kingdom, sleeping in what is now the Royal Palace on Dam Square.</p>\n          <p>The Second World War left the deepest wound. The German occupation began in May 1940. Of the roughly 80,000 Jewish residents of Amsterdam, more than <strong>75% were deported and murdered</strong> — one of the highest rates of Jewish loss in Western Europe. Anne Frank hid in a canal house on the Prinsengracht for 761 days before being betrayed in August 1944. She died in Bergen-Belsen in February 1945, three months before liberation. The house is now the city's most visited site — and the most sobering.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">Amsterdam Today</h3>\n          <p>Post-war Amsterdam rebuilt itself in waves. The 1960s brought the <em>Provos</em> — anarchist activists who turned the city into a laboratory for progressive urban politics, handing out free white bicycles and demanding the city belong to its residents. The squatter movement of the 1970s and 80s secured social housing that still exists. The city legalised same-sex marriage in 2001 — the first country in the world to do so — and hosts WorldPride in 2026.</p>\n          <p>Today 900,000 people live here across 96 nationalities. Around 20 million visitors arrive each year, drawn by the same things that made this city remarkable in the 17th century: the canals, the art, and the specific Dutch genius for making something extraordinary out of very flat, very wet ground.</p>",
-  "faqs": []
+  "faqs": [
+    {
+      "q": "What is Amsterdam best known for?",
+      "a": "Amsterdam is best known for its canal network (a UNESCO World Heritage Site), world-class museums like the Rijksmuseum and Anne Frank House, vibrant cycling culture, and the historic Jordaan neighbourhood."
+    },
+    {
+      "q": "How many days do you need in Amsterdam?",
+      "a": "3 days is the sweet spot for a first visit — enough to cover the top museums, canal districts, and neighbourhoods without feeling rushed. A long weekend (4 days) lets you explore further afield."
+    },
+    {
+      "q": "What is the best time to visit Amsterdam?",
+      "a": "April–May for tulip season and mild weather, or September–October for fewer crowds and golden-hour canal light. 2026 is especially exciting with WorldPride (July 25 – Aug 8)."
+    },
+    {
+      "q": "Do I need to pre-book Amsterdam attractions?",
+      "a": "Yes, for the major ones. Anne Frank House sells out weeks in advance and does not accept walk-ins. The Van Gogh Museum requires online booking. Always book at least 1–2 weeks ahead in summer."
+    }
+  ],
+  "standfirst": "Amsterdam packs world-class museums, stunning architecture, great food, and unique canal culture into a compact, walkable city. The canal ring alone justifies the trip.",
+  "intro_text": "Amsterdam started as a 12th-century fishing village on the river Amstel. Today, it is one of the world's most iconic cities, defined by its 165 canals, 1,500 bridges, and a legacy of artistic and commercial supremacy from the Dutch Golden Age. Whether you're here for the masterpieces of Rembrandt and Van Gogh, the haunting history of the Anne Frank House, or simply to cycle along the UNESCO-listed waterways, Amsterdam is a city that rewards both the checklist-tourist and the aimless wanderer."
 }

@@ -1,0 +1,59 @@
+{
+  "title": "Oud-West",
+  "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
+  "standfirst": "One of Amsterdam's most lively and creative districts, Oud-West is where locals go for dinner and shopping when they want to avoid the tourist crowds of the centre.",
+  "hero_image": "/images/oud_west.png",
+  "intro_html": "<p class=\" mb-4\">Oud-West sits just outside the canal ring and has transformed from a quiet residential area into one of the city's most desirable neighbourhoods. Its heartbeat is the Ten Katemarkt and the adjacent De Hallen, a repurposed tram depot that now houses the city's best food hall, a cinema, and independent design shops.</p><p class=\" mb-4\">The streets are lined with craft coffee shops, trendy boutiques, and some of the best international restaurants in the city. It's a neighbourhood that feels authentic, lived-in, and continuously evolving.</p>",
+  "attractions": [],
+  "facts": [
+    {
+      "icon": "🍴",
+      "label": "Character",
+      "value": "Trendy, residential, foodie"
+    },
+    {
+      "icon": "📍",
+      "label": "Location",
+      "value": "West of the canal ring"
+    },
+    {
+      "icon": "🚲",
+      "label": "Best way",
+      "value": "Cycling"
+    },
+    {
+      "icon": "🌟",
+      "label": "Best for",
+      "value": "Local life, food halls"
+    }
+  ],
+  "todos": [
+    {
+      "num": "01",
+      "title": "Foodhallen",
+      "description": "A converted tram depot featuring over 20 different food stalls and several bars. The perfect spot for a social dinner."
+    },
+    {
+      "num": "02",
+      "title": "Ten Katemarkt",
+      "description": "A local, authentic street market that's much less touristy than the Albert Cuyp. Great for fresh produce and local snacks."
+    },
+    {
+      "num": "03",
+      "title": "Jan-Pieter Heijestraat",
+      "description": "One of the best streets for independent lifestyle shops and boutique shopping in the city."
+    }
+  ],
+  "foods": [],
+  "products": [],
+  "getting_there": [
+    {
+      "icon": "🚋",
+      "text": "Tram 7 or 17 to Ten Katestraat."
+    },
+    {
+      "icon": "🚲",
+      "text": "5-minute ride from the Jordaan."
+    }
+  ]
+}

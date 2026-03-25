@@ -1,0 +1,150 @@
+{
+  "title": "History & Heritage in Amsterdam (2026)",
+  "eyebrow": "🇳🇱 Amsterdam History Guide",
+  "standfirst": "",
+  "hero_image": "https://images.unsplash.com/photo-1555921015-5532091f6026?w=1200&auto=format&fit=crop&q=80",
+  "intro_html": "<p class=\" mb-4\">Amsterdam's history is darker and stranger than most visitors expect. This is the city of the Dutch Golden Age, the world's first stock market, and the most devastating Jewish loss in Western Europe during the Second World War. <strong>All of that history is visible, walkable, and largely bookable in minutes online.</strong></p><p class=\" mb-4\">The Anne Frank House is the obvious starting point — but it should be the beginning of a deeper exploration, not the whole story. The sites below, taken together, tell a more complete picture of what Amsterdam has been and what it’s had to survive.</p>",
+  "attractions": [
+    {
+      "id": "anne-frank",
+      "name": "Anne Frank House",
+      "category": "History & Heritage",
+      "badge": "Must See",
+      "image_url": "https://images.unsplash.com/photo-1592235948989-eebc53c04e25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbm5lJTIwRnJhbmslMjBIb3VzZSUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDIwOHww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.8 (18,400 reviews)",
+      "metas": [
+        "📍 Prinsengracht 263",
+        "🕐 Daily 9am–10pm",
+        "💶 From €16"
+      ],
+      "hook": "Anne Frank started her diary on her 13th birthday — three weeks before her family went into hiding. The diary ran for 25 months. The hiding lasted 761 days.",
+      "description": "<p class=\"mb-4\">The Anne Frank House is not a museum in the conventional sense — it is the actual building where Anne Frank and seven others hid from the Nazi occupation for two years and one month. The rooms have been left largely empty, as Anne’s father Otto Frank requested. The emptiness is the exhibit.</p><p class=\"mb-4\">Booking is essential — the Anne Frank House does not sell walk-in tickets. Time slots are released 2 months ahead on the 1st of each month and sell out in hours. Set a reminder and book the moment slots open.</p>",
+      "tip": "💡 Local tip: Book the 9am slot if you can — the narrow rooms feel less crowded early, and you’ll have more time to absorb the atmosphere before the afternoon rush.",
+      "price": "From €16 — sells out weeks in advance"
+    },
+    {
+      "id": "koninklijk-paleis",
+      "name": "Royal Palace Amsterdam",
+      "category": "History & Heritage",
+      "badge": "Worth Visiting",
+      "image_url": "https://images.unsplash.com/photo-1598795474274-1be9bc0d8758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxSb3lhbCUyMFBhbGFjZSUyMEFtc3RlcmRhbSUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDIxMHww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★☆ 4.4 (12,600 reviews)",
+      "metas": [
+        "📍 Dam Square",
+        "🕐 Daily 10am–5pm (check for closures)",
+        "💶 From €12.50"
+      ],
+      "hook": "Napoleon's brother Louis Bonaparte ruled the Netherlands from 1806 to 1810. He chose Amsterdam's Town Hall as his palace — and the city has never fully gotten it back.",
+      "description": "<p class=\"mb-4\">The Koninklijk Paleis was built as Amsterdam’s Town Hall in 1655, at the height of the Golden Age. Designed to project the city’s power to the world, it was the largest secular building in the Netherlands — built on 13,659 wooden piles driven into marshy ground.</p><p class=\"mb-4\">Today it’s the official residence of the Dutch king for state functions. When not in official use, it opens to visitors. The interior — particularly the Citizens’ Hall with its marble floors and inlaid world maps — is extraordinary.</p>",
+      "tip": "💡 Local tip: Check the palace website before visiting — it closes for state functions with little advance notice.",
+      "price": "From €12.50"
+    },
+    {
+      "id": "begijnhof",
+      "name": "Begijnhof Courtyard",
+      "category": "History & Heritage",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1759693229905-87182910a313?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxCZWdpam5ob2YlMjBDb3VydHlhcmQlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMTF8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.7 (6,200 reviews)",
+      "metas": [
+        "📍 Begijnensloot 29 (off Spui)",
+        "🕐 Daily 9am–5pm",
+        "💶 Free"
+      ],
+      "hook": "The last Beguine, Cornelia Arens, lived in this courtyard until her death in 1971. She never allowed tourists inside during her lifetime. The door visitors use today was sealed shut for decades.",
+      "description": "<p class=\"mb-4\">The Begijnhof is a hidden courtyard of historic houses and two churches tucked behind an unmarked door off the Spui square. It was home to the Beguines — a lay Catholic sisterhood — from the 14th century. The courtyard feels entirely removed from the city outside its walls.</p><p class=\"mb-4\">Entry is free. The oldest wooden house in Amsterdam (built around 1420) is on the north side. Visit at opening time (9am) to have it to yourself — by midday it fills quickly.</p>",
+      "tip": "💡 Local tip: Enter through the small wooden door on Begijnensloot, south of the Spui. There is no signage — that is intentional.",
+      "price": "Free admission"
+    },
+    {
+      "id": "verzetsmuseum",
+      "name": "Dutch Resistance Museum",
+      "category": "Museum & History",
+      "badge": "Worth Visiting",
+      "image_url": "https://images.unsplash.com/photo-1600617617967-36514daf755a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxEdXRjaCUyMFJlc2lzdGFuY2UlMjBNdXNldW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.8 (9,100 reviews)",
+      "metas": [
+        "📍 Plantage Kerklaan 61",
+        "🕐 Tue–Fri 10am–5pm, Sat–Mon 11am–5pm",
+        "💶 From €15"
+      ],
+      "hook": "During the German occupation, around 300,000 Dutch people went into hiding. Of those, roughly 80,000 were found. The Resistance Museum tells the story of those who helped them — and those who did not.",
+      "description": "<p class=\"mb-4\">The Verzetsmuseum chronicles Amsterdam under Nazi occupation from 1940 to 1945 — the curfews, the food shortages, the deportations, and the underground networks of ordinary people who forged documents, hid Jewish families, and ran clandestine newspapers.</p><p class=\"mb-4\">This is one of the most thoughtfully curated museums in the city. It puts the Anne Frank story into the broader context of occupation-era Amsterdam. Plan around 1.5 hours.</p>",
+      "tip": "",
+      "price": "From €15"
+    },
+    {
+      "id": "ons-lieve-heer",
+      "name": "Museum Ons' Lieve Heer op Solder",
+      "category": "History & Heritage",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1682142845112-7f64a20fa865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxNdXNldW0lMjBPbnMlMjclMjBMaWV2ZSUyMEhlZXIlMjBvcCUyMFNvbGRlciUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDIxNHww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.6 (4,800 reviews)",
+      "metas": [
+        "📍 Oudezijds Voorburgwal 38",
+        "🕐 Tue–Sun 10am–5pm",
+        "💶 From €15"
+      ],
+      "hook": "In 1578, Amsterdam officially converted to Calvinism and banned Catholic worship. Catholics responded by building secret churches inside ordinary canal houses — this is the best-preserved one that remains.",
+      "description": "<p class=\"mb-4\">Ons' Lieve Heer op Solder (“Our Lord in the Attic”) is a fully intact 17th-century Catholic church hidden inside three canal houses near the Red Light District. A narrow spiral staircase leads up through three floors of domestic space to a breathtaking baroque church at the top.</p><p class=\"mb-4\">One of Amsterdam’s most surprising discoveries. The church was in active use for Catholic worship from 1663 until 1888, when the first new Catholic church was built after the Reformation. Visit early — it is rarely crowded before 11am.</p>",
+      "tip": "",
+      "price": "From €15"
+    },
+    {
+      "id": "red-light-secrets",
+      "name": "Red Light Secrets Museum",
+      "category": "Museum & History",
+      "badge": "Unique",
+      "image_url": "https://images.unsplash.com/photo-1570737991807-1e1104e04a53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxSZWQlMjBMaWdodCUyMFNlY3JldHMlMjBNdXNldW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★☆ 4.2 (6,300 reviews)",
+      "metas": [
+        "📍 Oudezijds Achterburgwal 60",
+        "🕐 Daily 11am–midnight",
+        "💶 From €15"
+      ],
+      "hook": "The Red Light District has existed in Amsterdam since the 14th century — when sailors returning from long voyages created a ready market. The museum occupies a working window brothel building.",
+      "description": "<p class=\"mb-4\">Red Light Secrets is the world’s only museum dedicated to the history and reality of sex work in Amsterdam’s De Wallen district. The exhibition covers the legal framework, the realities of the work, the urban history of the neighbourhood, and first-person accounts from sex workers.</p><p class=\"mb-4\">The museum takes a thoughtful, non-sensational approach — aimed at challenging assumptions rather than titillating visitors. Allow around 45 minutes.</p>",
+      "tip": "💡 Local tip: Photography of sex workers in windows is illegal and disrespectful. Do not do it.",
+      "price": "From €15"
+    },
+    {
+      "id": "portuguese-synagogue",
+      "name": "Portuguese Synagogue (Esnoga)",
+      "category": "History & Heritage",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1585263807404-9bf8316393bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxQb3J0dWd1ZXNlJTIwU3luYWdvZ3VlJTIwJTI4RXNub2dhJTI5JTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.7 (5,400 reviews)",
+      "metas": [
+        "📍 Mr. Visserplein 3",
+        "🕐 Sun–Fri 10am–5pm",
+        "💶 From €17"
+      ],
+      "hook": "The Portuguese Synagogue was completed in 1675 — the same decade as the Rijksmuseum's predecessor. It is still lit entirely by candlelight. No electricity has ever been installed.",
+      "description": "<p class=\"mb-4\">The Esnoga is one of the largest and best-preserved synagogues in the world, built by Sephardic Jews who had fled the Inquisition in Portugal and Spain. The interior is breathtaking: 72 windows, brass chandeliers holding 1,000 candles, and an ark of Brazilian jacaranda wood.</p><p class=\"mb-4\">Unlike much of Amsterdam's Jewish heritage, the Esnoga survived the Nazi occupation intact — partly because it was used for storage. It still serves as an active synagogue. The adjacent museum covers the history of Amsterdam's Sephardic Jewish community from the 16th century to the present.</p>",
+      "tip": "💡 Local tip: The synagogue is located in the Jewish Quarter, a 10-minute walk from the Rembrandthuis and Waterlooplein market. Combine these three for a half-day in the Jodenbuurt neighbourhood.",
+      "price": "From €17"
+    },
+    {
+      "id": "nieuwe-kerk",
+      "name": "De Nieuwe Kerk Amsterdam",
+      "category": "History & Heritage",
+      "badge": "Worth Visiting",
+      "image_url": "https://images.unsplash.com/photo-1607178831485-249f56a19f17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxEZSUyME5pZXV3ZSUyMEtlcmslMjBBbXN0ZXJkYW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMTh8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★☆ 4.3 (7,100 reviews)",
+      "metas": [
+        "📍 Dam Square",
+        "🕐 Daily 10am–5pm",
+        "💶 From €12.50 (temporary exhibitions)"
+      ],
+      "hook": "The Nieuwe Kerk is not new. It was completed around 1408. It shares Dam Square with the Royal Palace — built within decades of each other, representing the two competing powers of medieval Amsterdam: the Church and the city government.",
+      "description": "<p class=\"mb-4\">The Nieuwe Kerk (New Church) is a Gothic Protestant church on Dam Square that has hosted every Dutch royal coronation since 1815 — including King Willem-Alexander in 2013. When not in use for state functions, it hosts major temporary exhibitions, typically of photography or historical artefacts.</p><p class=\"mb-4\">The church itself is free to enter during exhibitions. The exhibitions are ticketed and change throughout the year. Check the programme before visiting — the quality varies, but the space alone (108 metres long, 60 metres high at the vaulting) is worth a look.</p>",
+      "tip": "💡 Local tip: Check the current exhibition before booking — some are outstanding, others merely solid. The church exterior on Dam Square is free to appreciate at any time.",
+      "price": "From €12.50 (exhibitions vary)"
+    }
+  ],
+  "facts": [],
+  "todos": [],
+  "foods": [],
+  "products": [],
+  "getting_there": []
+}

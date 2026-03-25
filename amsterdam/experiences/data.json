@@ -1,0 +1,167 @@
+{
+  "title": "Amsterdam Experiences & Entertainment (2026)",
+  "eyebrow": "🇳🇱 Amsterdam Experiences",
+  "standfirst": "",
+  "hero_image": "https://images.unsplash.com/photo-1611355656374-dae2ee0f09df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjAlMjgyMDI2JTI5JTIwQW1zdGVyZGFtJTIwYXJjaGl0ZWN0dXJlJTIwaGlnaCUyMHF1YWxpdHl8ZW58MHwwfHx8MTc3NDQ1NDE5M3ww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+  "intro_html": "<p class=\" mb-4\">Not every great afternoon in Amsterdam involves a 17th-century painting. The experiences below are the non-museum bucket list — things to do that are genuinely worth your time but are not about art history or WWII.</p><p class=\" mb-4\"><strong>The Heineken Experience and A'DAM Lookout are the two most popular</strong>, and for good reason — both deliver exactly what they promise. The others are more niche but excellent for the right visitor. All are bookable online in advance.</p>",
+  "attractions": [
+    {
+      "id": "heineken",
+      "name": "Heineken Experience",
+      "category": "Experience",
+      "badge": "Classic Experience",
+      "image_url": "https://images.unsplash.com/photo-1665325598546-bd36dafa62b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIZWluZWtlbiUyMEV4cGVyaWVuY2UlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.6 (42,100 reviews)",
+      "metas": [
+        "📍 Stadhouderskade 78, De Pijp",
+        "🕐 Daily 10:30am–7:30pm",
+        "💶 From €21"
+      ],
+      "hook": "Heineken was brewed in this building for over a century — from 1867 to 1988. Production moved out of the city when the brewery could no longer keep up with global demand.",
+      "description": "<p class=\"mb-4\">The Heineken Experience is a self-guided tour through the original Heineken brewery — a 19th-century brick complex in De Pijp. The 2-hour tour covers the history of the brewery, the brewing process, and includes two free beers at the rooftop bar.</p><p class=\"mb-4\">Book the late afternoon slot (4–5pm) and head to the Albert Cuyp Market and De Pijp neighbourhood afterwards. That is the most natural flow for an evening in Amsterdam.</p>",
+      "tip": "💡 Local tip: The rooftop bar views across De Pijp are excellent at sunset. Book the 4pm slot for the best light.",
+      "price": "From €21 — includes 2 complimentary beers"
+    },
+    {
+      "id": "adam-lookout",
+      "name": "A'DAM Lookout",
+      "category": "Experience & Views",
+      "badge": "Unmissable Views",
+      "image_url": "https://images.unsplash.com/photo-1566904547615-5be8cd937cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBJTI3REFNJTIwTG9va291dCUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDE5Nnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.7 (24,300 reviews)",
+      "metas": [
+        "📍 Overhoeksplein 5, Amsterdam Noord",
+        "🕐 Daily 10am–10pm (midnight weekends)",
+        "💶 From €15.50"
+      ],
+      "hook": "The A'DAM tower was built in the 1960s as Royal Dutch Shell's Amsterdam headquarters. Oil executives had private dining floors at the top. Now anyone can swing out over the edge for €5 extra.",
+      "description": "<p class=\"mb-4\">The A'DAM Lookout is a 360° observation deck on the 20th floor of the A'DAM tower in Amsterdam Noord, reached by free GVB ferry from behind Centraal Station (5-minute crossing). The views across the IJ waterway and into the historic city centre are the best elevated views available in Amsterdam.</p><p class=\"mb-4\">The Over the Edge swing — a giant swing mounted on the roof that swings users out over the side of the building, 100 metres above the ground — can be added for €5. It is genuinely terrifying. Worth it.</p>",
+      "tip": "💡 Local tip: The free GVB ferry from behind Centraal takes 5 minutes to Noord. The ferry itself offers excellent views of the IJ waterway.",
+      "price": "From €15.50 — swing €5 extra"
+    },
+    {
+      "id": "this-is-holland",
+      "name": "THIS IS HOLLAND",
+      "category": "Experience",
+      "badge": "Unique Experience",
+      "image_url": "https://images.unsplash.com/photo-1762829251193-4865d8931fbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxUSElTJTIwSVMlMjBIT0xMQU5EJTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MTk3fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★☆ 4.5 (8,700 reviews)",
+      "metas": [
+        "📍 Overhoeksplein 51, Amsterdam Noord",
+        "🕐 Daily 10am–10pm",
+        "💶 From €18.50"
+      ],
+      "hook": "THIS IS HOLLAND uses a motion simulator combined with a 4D flying film to take visitors on a six-minute flight over the Netherlands — tulip fields, windmills, Rotterdam’s port, and the Amsterdam canal ring from the air.",
+      "description": "<p class=\"mb-4\">Located in Amsterdam Noord next to the A’DAM Lookout, THIS IS HOLLAND is a cinematic flying experience — you lie horizontal in a cinema-style rig and fly over the Netherlands at low altitude, with wind, mist, and scent effects.</p><p class=\"mb-4\">Best experienced as a pairing with the A'DAM Lookout — both are in the same complex in Noord, reachable by the same free ferry from Centraal. Do THIS IS HOLLAND first, then the observation deck. Total time: around 2 hours.</p>",
+      "tip": "",
+      "price": "From €18.50"
+    },
+    {
+      "id": "body-worlds",
+      "name": "BODY WORLDS Amsterdam",
+      "category": "Exhibition & Experience",
+      "badge": "Thought-Provoking",
+      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.3 (7,200 reviews)",
+      "metas": [
+        "📍 Damrak 66",
+        "🕐 Daily 10am–8pm",
+        "💶 From €24.50"
+      ],
+      "hook": "Gunther von Hagens invented plastination in 1977. His Body Worlds exhibitions have been seen by 50 million people across 140 cities. The Amsterdam version — The Happiness Project — focuses on the neuroscience of wellbeing.",
+      "description": "<p class=\"mb-4\">BODY WORLDS Amsterdam displays real preserved human bodies and body parts, exploring anatomy, health, and the science of happiness and the brain. The presentation is respectful and scientifically framed.</p><p class=\"mb-4\">Not for the faint-hearted — the exhibits include full human cadavers in dynamic poses. Best for adults and older teenagers with an interest in biology or medicine. Allow 1.5 hours.</p>",
+      "tip": "",
+      "price": "From €24.50"
+    },
+    {
+      "id": "upside-down",
+      "name": "The Upside Down Amsterdam",
+      "category": "Interactive Experience",
+      "badge": "Instagram Favourite",
+      "image_url": "https://images.unsplash.com/photo-1771759672178-f1e01a7eec71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxUaGUlMjBVcHNpZGUlMjBEb3duJTIwQW1zdGVyZGFtJTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★☆ 4.1 (5,600 reviews)",
+      "metas": [
+        "📍 Johan Huizingalaan 400",
+        "🕐 Daily 10am–8pm",
+        "💶 From €19.50"
+      ],
+      "hook": "The Upside Down Amsterdam has 16 rooms of optical illusions and perspective tricks — rooms where the ceiling is the floor, infinity mirror tunnels, and forced-perspective installations designed for photography.",
+      "description": "<p class=\"mb-4\">An immersive, interactive exhibition built on optical illusions — best for groups and couples rather than solo visitors. Allow 1.5 hours.</p><p class=\"mb-4\">The best Amsterdam option for a rainy afternoon that does not require any prior interest in art or history. Arrive early to avoid queues.</p>",
+      "tip": "",
+      "price": "From €19.50"
+    },
+    {
+      "id": "fabrique-lumieres",
+      "name": "Fabrique des Lumières",
+      "category": "Immersive Experience",
+      "badge": "Immersive Art",
+      "image_url": "https://images.unsplash.com/photo-1628785667147-99f428cf3df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxGYWJyaXF1ZSUyMGRlcyUyMEx1bWklQzMlQThyZXMlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.6 (9,800 reviews)",
+      "metas": [
+        "📍 Oostenburgergracht 75",
+        "🕐 Daily 10am–6pm",
+        "💶 From €18"
+      ],
+      "hook": "Fabrique des Lumières is a converted 19th-century gas factory — 3,000 square metres of projections on walls, floors, and ceilings 10 metres high.",
+      "description": "<p class=\"mb-4\">Amsterdam’s answer to Paris’s Atelier des Lumières — a vast industrial space filled floor-to-ceiling with moving digital projections synchronised to music. Each show dedicates the space to a single artist (Van Gogh, Klimt, Monet, and others have all been featured).</p><p class=\"mb-4\">Shows last approximately 45 minutes and run on a loop. Arrive at the start of a cycle for the full experience. The space is in the Eastern Docklands — combine with NEMO Science Museum (10-minute walk) for a full morning.</p>",
+      "tip": "",
+      "price": "From €18"
+    },
+    {
+      "id": "ripleys",
+      "name": "Ripley's Believe It or Not! Amsterdam",
+      "category": "Experience",
+      "badge": "Rainy Day Option",
+      "image_url": "https://images.unsplash.com/photo-1598997851783-b6ea4e4c2fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxSaXBsZXklMjdzJTIwQmVsaWV2ZSUyMEl0JTIwb3IlMjBOb3QlMjElMjBBbXN0ZXJkYW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDN8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★☆ 4.0 (5,300 reviews)",
+      "metas": [
+        "📍 Dam Square 1A",
+        "🕐 Daily 10am–8pm",
+        "💶 From €19.50"
+      ],
+      "hook": "Ripley's Believe It or Not! Amsterdam is one of 33 Odditoriums around the world — the Amsterdam version is directly on Dam Square, in a building that has housed a wax museum since the 1970s.",
+      "description": "<p class=\"mb-4\">The Amsterdam Ripley's covers five floors of unusual exhibits: shrunken heads, record-breaking objects, optical illusions, and the kind of displays that are genuinely odd without being educational. The presentation leans into spectacle over substance.</p><p class=\"mb-4\">Best for families with children aged 8–14, or for visitors who want something completely different on a rainy afternoon. Adults without children are less likely to find it worth the ticket price. It never requires advance booking — walk-ins always available.</p>",
+      "tip": "💡 Local tip: The location on Dam Square is extremely central — if you're in the area and it starts raining, this is a reasonable option. Otherwise, the other experiences on this list offer better value.",
+      "price": "From €19.50"
+    },
+    {
+      "id": "boom-chicago",
+      "name": "Boom Chicago Improv Comedy",
+      "category": "Entertainment",
+      "badge": "Best for Laughs",
+      "image_url": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.8 (7,600 reviews)",
+      "metas": [
+        "📍 Rozengracht 117, Jordaan",
+        "🕐 Shows most evenings, check schedule",
+        "💶 From €22"
+      ],
+      "hook": "Boom Chicago opened in Amsterdam in 1993 — started by American students who couldn't get a US work permit. In 30 years it has launched the careers of Jordan Peele, Seth Meyers, Jason Sudeikis, and Amber Tamblyn.",
+      "description": "<p class=\"mb-4\">Boom Chicago is Amsterdam's premier English-language comedy theatre — a 250-seat venue in the Jordaan that runs improvised and scripted shows most evenings of the week. The improv shows are the highlight: sharp, political, and genuinely funny.</p><p class=\"mb-4\">This is one of the best evening activities in Amsterdam for English speakers — particularly if you're travelling solo or want something more engaging than a bar. Shows sell out, especially on Friday and Saturday. Book at least a few days ahead.</p>",
+      "tip": "💡 Local tip: The Rozengracht location is in the heart of the Jordaan — have dinner at one of the neighbourhood's brown cafés beforehand and make a full Jordaan evening of it.",
+      "price": "From €22"
+    },
+    {
+      "id": "nxt-museum",
+      "name": "Nxt Museum",
+      "category": "Immersive Experience",
+      "badge": "Cutting Edge",
+      "image_url": "https://images.unsplash.com/photo-1762829161330-fe3d7c0a77d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOeHQlMjBNdXNldW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.6 (4,200 reviews)",
+      "metas": [
+        "📍 Asterweg 22, Amsterdam Noord",
+        "🕐 Wed–Sun 10am–6pm",
+        "💶 From €17.50"
+      ],
+      "hook": "The Nxt Museum opened in 2021 as the Netherlands' first museum dedicated entirely to new media art — digital, interactive, and generative works that could only exist in the age of sensors, algorithms, and live data feeds.",
+      "description": "<p class=\"mb-4\">Nxt Museum occupies a former transformer station in Amsterdam Noord — 3,500 square metres of industrial space turned over to works that respond to movement, generate visuals from data streams, and blur the boundary between audience and artwork.</p><p class=\"mb-4\">Located in Amsterdam Noord near the NDSM wharf — combine with STRAAT Museum for a full day in the creative quarter. Reached by free GVB ferry from Centraal Station. The museum changes its programme every few months; check the current exhibitions before visiting.</p>",
+      "tip": "💡 Local tip: Nxt Museum is best experienced slowly — spend time with each installation rather than moving through quickly. Some works require patience before they reveal what they're doing.",
+      "price": "From €17.50"
+    }
+  ],
+  "facts": [],
+  "todos": [],
+  "foods": [],
+  "products": [],
+  "getting_there": []
+}

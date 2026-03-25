@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{title}} - AmsterdamInsider</title>
+  <meta name="description" content="{{standfirst}}" />
+
+  <!-- Tailwind CDN for rapid styling port -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 400: '#2E5BFF', 500: '#5C84FF' },
+            gold: '#D4AF37',
+          },
+          fontFamily: {
+            display: ['Playfair Display', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            accent: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="/shared/index.css">
+  <link rel="stylesheet" href="/shared/global-nav.css">
+  <script src="/shared/global-nav.js" defer></script>
+
+</head>
+<body class="bg-[#02060D] text-[#EEF4FF] overflow-x-hidden min-h-screen">
+
+  <main class="pb-28 lg:pb-0">
+    <!-- HERO -->
+    <section class="hero-bg flex items-end justify-center pt-48 pb-20 relative min-h-[60vh]" style="background-image: url('{{hero_image}}')">
+      <div class="absolute inset-0 hero-overlay z-0"></div>
+      <div class="max-w-6xl mx-auto px-5 w-full relative z-10">
+        <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-6 block reveal d1">{{eyebrow}}</span>
+        <h1 class="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-6 reveal d2">{{title}}</h1>
+        {{#if standfirst}}
+          <p class="text-lg text-white/70 max-w-2xl reveal d3 leading-relaxed">{{standfirst}}</p>
+        {{/if}}
+      </div>
+    </section>
+
+    <div class="max-w-7xl mx-auto px-5 py-20">
+      <div class="grid lg:grid-cols-12 gap-16">
+        
+        <!-- MAIN CONTENT (Left) -->
+        <div class="lg:col-span-9 {{#unless facts}}{{#unless getting_there}}lg:col-start-2 lg:col-span-10 max-w-4xl mx-auto{{/unless}}{{/unless}}">
+          
+          {{#if intro_html}}
+          <div class="prose prose-invert prose-lg text-white/60 mb-16">
+            {{{intro_html}}}
+          </div>
+          {{/if}}
+
+          {{#if todos}}
+          <div class="mb-16">
+            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Things to Do</h2>
+            <div class="space-y-6">
+              {{#each todos}}
+              <div class="glass-card p-6 flex gap-6 rounded-3xl border border-white/5 reveal">
+                <div class="text-gold font-display text-4xl font-black">
+                  {{num}}
+                </div>
+                <div>
+                  <h3 class="font-display text-xl font-bold text-white mb-2">{{title}}</h3>
+                  <p class="text-white/60 text-sm leading-relaxed">{{description}}</p>
+                </div>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          {{/if}}
+
+          {{#if attractions}}
+          <div class="mb-16">
+            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Top Attractions</h2>
+            <div class="space-y-8">
+              {{#each attractions}}
+              <div class="glass-card rounded-[2rem] overflow-hidden border border-white/10 flex flex-col md:flex-row group reveal">
+                <div class="md:w-2/5 aspect-[4/3] md:aspect-auto overflow-hidden relative">
+                  <img src="{{image_url}}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  {{#if badge}}
+                    <span class="absolute top-4 right-4 bg-gold text-black text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full z-10">{{badge}}</span>
+                  {{/if}}
+                </div>
+                <div class="p-6 md:p-8 flex-1 flex flex-col">
+                  <span class="text-gold text-[10px] font-accent font-black tracking-widest uppercase mb-2">{{category}}</span>
+                  <h3 class="font-display text-2xl font-bold text-white mb-3">{{name}}</h3>
+                  {{#if metas}}
+                  <div class="flex flex-wrap gap-4 text-xs text-white/50 mb-4 font-medium uppercase tracking-wider">
+                    {{#each metas}}<span>{{this}}</span>{{/each}}
+                  </div>
+                  {{/if}}
+                  {{{description}}}
+                  {{#if tip}}
+                    <div class="mt-4 p-4 border-l-2 border-gold bg-gold/10 text-white/80 text-sm italic">{{tip}}</div>
+                  {{/if}}
+                  <div class="mt-8 pt-6 border-t border-white/5 flex justify-between items-center">
+                    <span class="text-white font-bold">{{price}}</span>
+                    <a href="#tickets" class="bg-gold hover:bg-yellow-400 text-black text-[10px] font-black uppercase tracking-widest px-6 py-3 rounded-full transition-all shadow-lg shrink-0">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          {{/if}}
+
+          {{#if products}}
+          <div class="mb-16">
+            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Tickets & Tours</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+              {{#each products}}
+              <a href="{{link}}" class="glass-card rounded-[2rem] overflow-hidden border border-white/10 flex flex-col group transition-all hover:-translate-y-1 hover:border-gold/30 reveal">
+                <img src="{{image_url}}" class="w-full h-48 object-cover" />
+                <div class="p-6 flex flex-col flex-1">
+                  <span class="text-gold text-[10px] uppercase tracking-widest font-black mb-2">{{category}}</span>
+                  <h3 class="font-display text-lg font-bold text-white mb-3">{{title}}</h3>
+                  <p class="text-white/60 text-sm mb-6 flex-1">{{description}}</p>
+                  <span class="inline-block bg-white/5 text-white hover:bg-gold hover:text-black py-2 px-4 rounded-full text-[10px] font-black uppercase tracking-widest text-center transition-colors">{{cta}}</span>
+                </div>
+              </a>
+              {{/each}}
+            </div>
+          </div>
+          {{/if}}
+
+          {{#if foods}}
+          <div class="mb-16">
+            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Eat & Drink</h2>
+            <div class="space-y-4">
+              {{#each foods}}
+              <div class="p-6 glass-card border border-white/5 rounded-2xl reveal">
+                <span class="inline-block bg-white/10 text-white px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest mb-3">{{tag}}</span>
+                <h3 class="font-display text-lg font-bold text-white mb-2">{{title}}</h3>
+                <p class="text-white/60 text-sm">{{description}}</p>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          {{/if}}
+
+        </div>
+
+        <!-- SIDEBAR (Right) -->
+        <div class="lg:col-span-3 space-y-8">
+          
+          {{#if facts}}
+          <div class="glass-card p-8 rounded-[2rem] border border-white/5 sticky top-24 reveal">
+            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Quick Facts</h3>
+            <div class="space-y-6">
+              {{#each facts}}
+              <div class="flex gap-4">
+                <div class="text-2xl">{{icon}}</div>
+                <div>
+                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">{{label}}</div>
+                  <div class="font-medium text-white/90 text-sm">{{value}}</div>
+                </div>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          {{/if}}
+
+          {{#if getting_there}}
+          <div class="glass-card p-8 rounded-[2rem] border border-white/5 sticky top-24 reveal">
+            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Getting There</h3>
+            <div class="space-y-6">
+              {{#each getting_there}}
+              <div class="flex gap-4 items-start">
+                <div class="text-xl mt-1">{{icon}}</div>
+                <div class="text-white/70 text-sm leading-relaxed">{{text}}</div>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          {{/if}}
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FINAL CTA -->
+    <section class="py-24 bg-[#02060D] text-center border-t border-white/10">
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-8">Ready to master<br /><span class="italic font-normal">the city?</span></h2>
+      <a href="/attractions/" class="inline-block bg-brand-500 hover:bg-brand-400 text-white text-[12px] font-black uppercase tracking-widest px-12 py-5 rounded-full transition-all shadow-xl shadow-brand-500/20 active:scale-95 border border-white/10">Explore All Attractions</a>
+    </section>
+
+  </main>
+  
+  {{> footer }}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const els = document.querySelectorAll('.reveal');
+      const io = new IntersectionObserver(
+        entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }),
+        { threshold: 0.1 }
+      );
+      els.forEach(el => io.observe(el));
+    });
+  </script>
+</body>
+</html>

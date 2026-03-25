@@ -1,0 +1,167 @@
+{
+  "title": "Nature, Flowers & Day Trips from Amsterdam (2026)",
+  "eyebrow": "🇳🇱 Amsterdam Nature & Day Trips",
+  "standfirst": "",
+  "hero_image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1200&auto=format&fit=crop&q=80",
+  "intro_html": "<p class=\" mb-4\">Amsterdam sits at the centre of one of the most compact and accessible regions in Europe. Within 35 minutes you can be walking through 7 million tulips at Keukenhof, exploring a medieval castle on the Vecht river, or standing in Rotterdam looking at architecture no other European city has the nerve to build.</p><p class=\" mb-4\"><strong>Day trips from Amsterdam are easy and usually do not require a car</strong> — trains run frequently to Rotterdam, Delft, and The Hague; a direct bus runs to Keukenhof; and even Kasteel Muiderslot is reachable by public transport.</p>",
+  "attractions": [
+    {
+      "id": "keukenhof",
+      "name": "Keukenhof Gardens",
+      "category": "Nature & Flowers",
+      "badge": "Must See (Spring)",
+      "image_url": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.8 (29,400 reviews)",
+      "metas": [
+        "📍 35km from Amsterdam (direct bus)",
+        "🕐 Mar 19 – May 10 only",
+        "💶 From €22"
+      ],
+      "hook": "Keukenhof opens for exactly 8 weeks each year. In that time, 1.5 million visitors walk through 32 hectares of tulips. The Dutch planted 7 million bulbs to make it happen.",
+      "description": "<p class=\"mb-4\">Keukenhof is the world’s largest flower garden, set in the grounds of a 15th-century estate in Lisse, 35 minutes from Amsterdam by direct bus. The gardens display 7 million tulips, daffodils, hyacinths, and other spring bulbs across 32 hectares.</p><p class=\"mb-4\">The peak bloom window is typically the second and third week of April. Check the Keukenhof Instagram for real-time bloom updates before booking. Combined bus + garden entry from Amsterdam Centraal is the easiest option — no car needed.</p>",
+      "tip": "💡 Local tip: Go on a weekday and arrive at opening time (8am). Weekend afternoons can see crowds of 30,000+ people.",
+      "price": "From €22 — combined bus + entry"
+    },
+    {
+      "id": "vondelpark",
+      "name": "Vondelpark",
+      "category": "Nature & Parks",
+      "badge": "Local Favourite",
+      "image_url": "https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.6 (28,100 reviews)",
+      "metas": [
+        "📍 5 min walk from Leidseplein",
+        "🕐 Always open",
+        "💶 Free"
+      ],
+      "hook": "In 1971, the city officially permitted camping and drug use in Vondelpark to manage the hippie influx. The policy lasted 25 years before it was quietly reversed.",
+      "description": "<p class=\"mb-4\">Vondelpark is Amsterdam’s most famous park — 47 hectares of lawns, ponds, rose gardens, and cycling paths, used by around 10 million visitors a year. The open-air theatre (free performances June to August) draws crowds to its central bandstand.</p><p class=\"mb-4\">The park is on the edge of the Museumplein district, making it a natural extension of a museum day. Enter from Leidseplein and walk through to the Oud-Zuid neighbourhood for coffee on Cornelis Schuytstraat.</p>",
+      "tip": "💡 Local tip: The open-air Vondelpark theatre runs free concerts every weekend from June to August. No booking required — just show up.",
+      "price": "Free admission"
+    },
+    {
+      "id": "artis-zoo",
+      "name": "Artis Royal Zoo",
+      "category": "Nature & Wildlife",
+      "badge": "Great for Families",
+      "image_url": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (12,800 reviews)",
+      "metas": [
+        "📍 Plantage Kerklaan 38–40",
+        "🕐 Daily 9am–5pm (6pm summer)",
+        "💶 From €27.50"
+      ],
+      "hook": "Artis was founded in 1838 — the oldest zoo in the Netherlands and one of the oldest in Europe. Its founders named it Natura Artis Magistra (Nature is the Teacher of Art) because they wanted it to feel like a museum.",
+      "description": "<p class=\"mb-4\">Artis Zoo sits in the Plantage neighbourhood, a 10-minute walk from the Rembrandthuis and Verzetsmuseum. The zoo houses around 700 species across beautifully maintained grounds that feel more like a park than a typical zoo.</p><p class=\"mb-4\">The Artis planetarium (included in zoo entry) runs shows in Dutch and English. The aquarium — one of the oldest in Europe, built in 1882 — is the architectural highlight of the grounds.</p>",
+      "tip": "",
+      "price": "From €27.50 adults / €23.50 children"
+    },
+    {
+      "id": "kasteel-muiderslot",
+      "name": "Kasteel Muiderslot",
+      "category": "Day Trip",
+      "badge": "Day Trip",
+      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.7 (6,400 reviews)",
+      "metas": [
+        "📍 20km from Amsterdam",
+        "🕐 Mon–Fri 10am–4pm, Sat–Sun 12–4pm",
+        "💶 From €14"
+      ],
+      "hook": "Muiderslot is the best-preserved medieval castle in the Netherlands, built in 1285. Count Floris V of Holland was murdered here by his own noblemen. The castle has been immaculate ever since.",
+      "description": "<p class=\"mb-4\">Kasteel Muiderslot is a perfectly circular 13th-century moated castle, 20km east of Amsterdam on the Vecht river. It looks exactly like a castle should look — four round towers, a central courtyard, a working drawbridge, and a moat.</p><p class=\"mb-4\">Take bus 320 from Amstel Station (35 minutes). Combine with a walk along the Vecht river and lunch in the village of Muiden. A comfortable half-day trip from Amsterdam.</p>",
+      "tip": "",
+      "price": "From €14 adults / €9 children"
+    },
+    {
+      "id": "rotterdam-day-trip",
+      "name": "Rotterdam Day Trip",
+      "category": "Day Trip",
+      "badge": "Full Day Trip",
+      "image_url": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.6 (5,200 reviews)",
+      "metas": [
+        "📍 75 min by train from Amsterdam Centraal",
+        "🕐 All day",
+        "💶 From €20 return train"
+      ],
+      "hook": "Rotterdam was bombed flat by the Germans in 1940. The city rebuilt itself as a laboratory for modern architecture. It now has the most ambitious skyline in northern Europe.",
+      "description": "<p class=\"mb-4\">Rotterdam is the antidote to Amsterdam — brutalist, bold, and unashamed about being a port city. The Markthal, the Cube Houses, the Erasmusbrug, and the Depot Boijmans Van Beuningen (the world’s first publicly accessible art storage facility) are all within walking distance of each other.</p><p class=\"mb-4\">Direct trains from Amsterdam Centraal to Rotterdam Centraal run every 15 minutes and take 40–75 minutes. Rotterdam is worth a full day — do not squeeze it into a half-day.</p>",
+      "tip": "",
+      "price": "From €20 return train + guided tour optional"
+    },
+    {
+      "id": "delft-day-trip",
+      "name": "Delft Day Trip",
+      "category": "Day Trip",
+      "badge": "Half Day Trip",
+      "image_url": "https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (4,800 reviews)",
+      "metas": [
+        "📍 50 min by train from Amsterdam Centraal",
+        "🕐 All day",
+        "💶 From €18 return train"
+      ],
+      "hook": "Vermeer was born in Delft in 1632 and died there in 1675 having barely left. Girl with a Pearl Earring was painted a few hundred metres from where he grew up.",
+      "description": "<p class=\"mb-4\">Delft is the most completely preserved Dutch Golden Age city — compact, walkable, and almost eerily photogenic. The Markt square, the Nieuwe Kerk (where Dutch royals are buried), the Prinsenhof museum, and the Royal Delft pottery factory are all within a 20-minute walk of the station.</p><p class=\"mb-4\">Delft pairs well with The Hague (15 minutes further by train), which has the Mauritshuis — home to <em>Girl with a Pearl Earring</em>. The Hague–Delft combination makes a comfortable full day from Amsterdam.</p>",
+      "tip": "",
+      "price": "From €18 return train"
+    },
+    {
+      "id": "zaanse-schans",
+      "name": "Zaanse Schans Windmills",
+      "category": "Day Trip",
+      "badge": "Day Trip",
+      "image_url": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.3 (18,400 reviews)",
+      "metas": [
+        "📍 20km from Amsterdam (direct train)",
+        "🕐 Always open (windmills: 9am–5pm)",
+        "💶 From €20 guided tour / free self-guided"
+      ],
+      "hook": "The Dutch Golden Age ran on wind. At its peak, the Zaan region had over 600 windmills operating simultaneously — grinding spices, sawing timber, and pressing oil for the Amsterdam trading network.",
+      "description": "<p class=\"mb-4\">Zaanse Schans is a preserved open-air museum village on the Zaan river, 20km north of Amsterdam, with working windmills, wooden houses, and craft workshops producing traditional Dutch goods (Zaan mustard, Verkade biscuits, cheese).</p><p class=\"mb-4\">Take the direct train from Amsterdam Centraal to Zaandijk Zaanse Schans (17 minutes, no change). The village is a 10-minute walk from the station. Admission to the village itself is free — individual windmills and workshops charge separately. A guided tour from Amsterdam is the most efficient option if you have limited time.</p>",
+      "tip": "💡 Local tip: Go on a weekday morning — Zaanse Schans receives around 2 million visitors a year and weekend afternoons are extremely busy. The windmills are most photogenic when the wind is up and the sails are turning.",
+      "price": "From €20 guided tour or free self-guided"
+    },
+    {
+      "id": "haarlem-day-trip",
+      "name": "Haarlem Day Trip",
+      "category": "Day Trip",
+      "badge": "Half Day Trip",
+      "image_url": "https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.7 (4,100 reviews)",
+      "metas": [
+        "📍 20 min by train from Amsterdam Centraal",
+        "🕐 All day",
+        "💶 From €9 return train"
+      ],
+      "hook": "Haarlem is what Amsterdam looked like before the tourists arrived — the same Golden Age canal houses and Reformed churches, but at a fraction of the footfall. Vermeer's teacher, Frans Hals, is buried there.",
+      "description": "<p class=\"mb-4\">Haarlem is a 20-minute train ride from Amsterdam Centraal and one of the most rewarding day trips from the city. The Grote Markt (main square with its 14th-century church) is genuinely impressive. The Frans Hals Museum holds one of the finest collections of Golden Age portraiture outside the Rijksmuseum.</p><p class=\"mb-4\">The flower fields between Haarlem and the coast — the Bollenstreek — are at their most spectacular in late April, when tulips and hyacinths fill the landscape between the city and the North Sea. Pair with a visit to the Keukenhof for a full flower day.</p>",
+      "tip": "💡 Local tip: Haarlem is particularly good in the late afternoon — the day-trippers have left and the city feels like it belongs to its residents again. Stay for dinner on the Grote Markt.",
+      "price": "From €9 return train"
+    },
+    {
+      "id": "giethoorn-day-trip",
+      "name": "Giethoorn Day Trip",
+      "category": "Day Trip",
+      "badge": "Unique Day Trip",
+      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (6,700 reviews)",
+      "metas": [
+        "📍 120km from Amsterdam (bus + boat)",
+        "🕐 All day",
+        "💶 From €35 guided tour"
+      ],
+      "hook": "Giethoorn has no roads. The village has been connected entirely by canals since it was founded in the 13th century. It has been called the Venice of the Netherlands — though it predates Venice's canal network by a century.",
+      "description": "<p class=\"mb-4\">Giethoorn is a village in the province of Overijssel where all transport is by boat, bicycle, or foot. The thatched farmhouses, connected by wooden footbridges over narrow canals, have made it one of the most photographed villages in the world.</p><p class=\"mb-4\">From Amsterdam, the easiest option is a guided coach tour (2.5 hours each way) that includes a boat trip through the village canals. Independent travel is possible but involves two train changes and a bus — viable for a long summer day. Book well ahead; Giethoorn is extremely popular in spring and summer.</p>",
+      "tip": "💡 Local tip: The inner village ('t Dorp) is the most photogenic area. Visit early in the morning — by midday the canals can be congested with tourist boats.",
+      "price": "From €35 — guided tour includes boat trip"
+    }
+  ],
+  "facts": [],
+  "todos": [],
+  "foods": [],
+  "products": [],
+  "getting_there": []
+}

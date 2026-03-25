@@ -1,0 +1,167 @@
+{
+  "title": "Amsterdam Tours & Neighbourhoods (2026)",
+  "eyebrow": "🇳🇱 Amsterdam Tours & Walks",
+  "standfirst": "",
+  "hero_image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=1200&auto=format&fit=crop&q=80",
+  "intro_html": "<p class=\" mb-4\">Amsterdam's neighbourhoods are distinct enough that each feels like a different city. The Jordaan is where Golden Age meets boutique shopping; De Pijp is the food capital; Noord is the creative quarter that used to be a shipyard. <strong>The best way to understand Amsterdam is on foot or on a bike, in one neighbourhood at a time.</strong></p><p class=\" mb-4\">Below are the six best tour options — from guided Jordaan walks to self-guided cycling routes and food tours through De Pijp. The canal ring walk at the end is free and, on a good day, the best thing you can do in Amsterdam.</p>",
+  "attractions": [
+    {
+      "id": "jordaan-tour",
+      "name": "Jordaan Walking Tour",
+      "category": "Walking Tour",
+      "badge": "Most Popular",
+      "image_url": "/images/jordaan_canal.png",
+      "rating_text": "★★★★★ 4.9 (12,400 reviews)",
+      "metas": [
+        "📍 Starts near Westerkerk",
+        "🕐 Daily departures",
+        "💶 From €20"
+      ],
+      "hook": "The Jordaan was originally a working-class district — its name likely comes from the French \"jardin\" (garden). Today it has some of the highest property prices in the Netherlands.",
+      "description": "<p class=\"mb-4\">The Jordaan is Amsterdam’s most charming neighbourhood — a tightly packed grid of 17th-century canal houses, brown cafés, independent boutiques, and quiet courtyards (hofjes) hidden behind unmarked doors.</p><p class=\"mb-4\">A guided walking tour of the Jordaan typically covers the nine streets (de 9 Straatjes), the Westerkerk, the Anne Frank House exterior, and several hidden hofjes. Small-group tours (max 12 people) last around 2 hours.</p>",
+      "tip": "💡 Local tip: The Noordermarkt — a Saturday morning market — is one of the best markets in Amsterdam for local produce, vintage clothing, and antiques. Time your walk to finish here.",
+      "price": "From €20 — includes local guide"
+    },
+    {
+      "id": "bike-tour",
+      "name": "Guided Bike Tour of Amsterdam",
+      "category": "Bike Tour",
+      "badge": "Classic Amsterdam",
+      "image_url": "/images/bike_tour.png",
+      "rating_text": "★★★★★ 4.8 (18,600 reviews)",
+      "metas": [
+        "📍 Various starting points near Centraal",
+        "🕐 Daily morning + afternoon",
+        "💶 From €28"
+      ],
+      "hook": "Amsterdam has more bicycles than people — around 900,000 residents, approximately 1.2 million bikes. The cycling infrastructure is a genuine engineering achievement: 500km of dedicated bike lanes built over 50 years.",
+      "description": "<p class=\"mb-4\">A guided bike tour is the most efficient way to see Amsterdam’s key sites while experiencing the city the way locals do. Most tours cover the canal ring, the Jordaan, Vondelpark, the Eastern Docklands, and Amsterdam Noord — 3–4 hours at a comfortable pace.</p><p class=\"mb-4\">Rental bike is included in the tour price. Group size is typically 10–15 people. Morning tours (9am–12pm) have the lightest traffic.</p>",
+      "tip": "💡 Local tip: Tell your guide if you haven't cycled in a city before. Amsterdam's cycling rules will be explained at the start.",
+      "price": "From €28 — bike + guide + insurance included"
+    },
+    {
+      "id": "de-pijp-food-tour",
+      "name": "De Pijp Food & Market Tour",
+      "category": "Food Tour",
+      "badge": "Best for Foodies",
+      "image_url": "/images/food_tour.png",
+      "rating_text": "★★★★★ 4.8 (6,200 reviews)",
+      "metas": [
+        "📍 Albert Cuyp Market, De Pijp",
+        "🕐 Morning departures",
+        "💶 From €35"
+      ],
+      "hook": "The Albert Cuyp Market is the largest street market in the Netherlands — 260 stalls, 1.5km long, running Monday to Saturday since 1905. De Pijp grew up around it and still revolves around it.",
+      "description": "<p class=\"mb-4\">The De Pijp food tour typically covers the Albert Cuyp Market (raw herring, stroopwafels, Dutch cheese, Indonesian snacks), a brown café for genever (Dutch gin), a local bakery, and at least one Amsterdam-specific food stop that is not in any guidebook.</p><p class=\"mb-4\">De Pijp is Amsterdam’s most multicultural neighbourhood and its most food-rich — the result of successive waves of migration from Suriname, Morocco, Turkey, and Indonesia. You can eat your way around the world in four city blocks.</p>",
+      "tip": "💡 Local tip: Come on an empty stomach. These tours involve a lot of tasting and the portions add up quickly.",
+      "price": "From €35 — food included"
+    },
+    {
+      "id": "amsterdam-noord-tour",
+      "name": "Amsterdam Noord Tour",
+      "category": "Neighbourhood Tour",
+      "badge": "Off the Beaten Track",
+      "image_url": "/images/noord_tour.png",
+      "rating_text": "★★★★☆ 4.7 (3,400 reviews)",
+      "metas": [
+        "📍 Free ferry from Centraal Station",
+        "🕐 Various times",
+        "💶 From €18"
+      ],
+      "hook": "Amsterdam Noord was a shipbuilding and industrial district for 200 years. When the yards closed, artists and squatters moved in. Now it is where the city’s creative industry has relocated.",
+      "description": "<p class=\"mb-4\">Amsterdam Noord sits across the IJ waterway from Centraal Station, reached by free GVB ferry in 5 minutes. The NDSM wharf — a vast former shipyard — is now Amsterdam’s creative quarter: studios, cultural events, STRAAT Museum, and the largest flea market in the Netherlands.</p><p class=\"mb-4\">A guided tour of Noord typically covers the NDSM wharf, Eye Filmmuseum, the A'DAM Lookout, and quieter residential streets. Self-guided is also easy — Noord is compact and the street art is hard to miss.</p>",
+      "tip": "",
+      "price": "From €18 — or self-guided for free"
+    },
+    {
+      "id": "city-exploration-game",
+      "name": "Amsterdam Self-Guided City Game",
+      "category": "City Game",
+      "badge": "Best for Groups",
+      "image_url": "https://images.unsplash.com/photo-1541433131766-00ea357997ce?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (4,900 reviews)",
+      "metas": [
+        "📍 Self-guided, start anywhere",
+        "🕐 Any time, allow 2–3 hours",
+        "💶 From €12 per team"
+      ],
+      "hook": "Self-guided city exploration games have replaced the walking tour for many groups — you cover the same ground, solve puzzles at key sites, and move at your own pace.",
+      "description": "<p class=\"mb-4\">Amsterdam’s self-guided city games work via a smartphone app that gives you clues, puzzles, and historical facts at key locations. You walk at your own pace, solve puzzles to unlock the next location, and end up at 15–20 significant sites across 3–4km.</p><p class=\"mb-4\">Best for groups of 2–6 people who want flexibility. Several operators run different routes: canal ring, Red Light District, Amsterdam Noord, and themed versions (WWII history, Golden Age architecture).</p>",
+      "tip": "",
+      "price": "From €12 per team — app-based"
+    },
+    {
+      "id": "canal-ring-walk",
+      "name": "Canal Ring Self-Guided Walk",
+      "category": "Self-Guided Walk",
+      "badge": "Free Option",
+      "image_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.8 (2,100 reviews)",
+      "metas": [
+        "📍 Start at Centraal Station",
+        "🕐 Any time, allow 2–3 hours",
+        "💶 Free"
+      ],
+      "hook": "The Amsterdam canal ring — Grachtengordel — was conceived by the city engineer Hendrick Staets in 1609 and completed in 1665. It is 400 years old and still functions exactly as designed.",
+      "description": "<p class=\"mb-4\">The canal ring walk is the best free activity in Amsterdam — a 6km loop around the Herengracht, Keizersgracht, and Prinsengracht that passes 400 years of Golden Age architecture. No guide, no ticket, no reservation.</p><p class=\"mb-4\">The classic route: start at Centraal Station, walk west along the IJ waterfront, turn south down the Brouwersgracht, then east along the Herengracht, Keizersgracht, and Prinsengracht, looping back to the Spui. The Herengracht Golden Bend (between Leidsestraat and Vijzelstraat) is the most spectacular stretch.</p>",
+      "tip": "💡 Local tip: Pick up a free canal ring walking guide from the Amsterdam Tourist Information office at Centraal Station.",
+      "price": "Free — pick up a map at Amsterdam Centraal"
+    },
+    {
+      "id": "jewish-quarter-tour",
+      "name": "Jewish Quarter Walking Tour",
+      "category": "Walking Tour",
+      "badge": "History Walk",
+      "image_url": "https://images.unsplash.com/photo-1589408460144-672522776c5b?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.9 (4,800 reviews)",
+      "metas": [
+        "📍 Starts at Waterlooplein",
+        "🕐 Various times",
+        "💶 From €22"
+      ],
+      "hook": "Before the Second World War, the Jodenbuurt (Jewish Quarter) was home to 80,000 people. Today fewer than 5,000 Jewish residents remain in Amsterdam. The neighbourhood carries that weight on every street.",
+      "description": "<p class=\"mb-4\">The Jewish Quarter walking tour covers the Jodenbuurt neighbourhood around Waterlooplein — the Portuguese Synagogue, the Jewish Historical Museum, the Hollandsche Schouwburg (deportation theatre), and the streets where the pre-war community lived and worked.</p><p class=\"mb-4\">The best tours are small-group (8–10 people) and run by guides with a personal connection to the history. The tour takes around 2 hours and covers approximately 2km. This is an emotionally demanding walk — but one of the most important things you can do in Amsterdam.</p>",
+      "tip": "💡 Local tip: The Hollandsche Schouwburg — a theatre converted into a deportation centre in 1942, from which 46,000 Amsterdam Jews were sent to concentration camps — is free to enter and open daily. It should be on every itinerary.",
+      "price": "From €22"
+    },
+    {
+      "id": "escape-room",
+      "name": "Amsterdam Guided City Escape Game",
+      "category": "City Game",
+      "badge": "Best for Groups",
+      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (3,900 reviews)",
+      "metas": [
+        "📍 Various locations across the city",
+        "🕐 Multiple daily slots",
+        "💶 From €15 per person"
+      ],
+      "hook": "The guided city escape game turns Amsterdam's streets into the puzzle — a live game master leads your group through a series of locations, solving riddles that use real buildings, real history, and real canal bridges as the set.",
+      "description": "<p class=\"mb-4\">Unlike self-guided city games (which you complete on your phone), the guided escape game involves an actor-guide who plays a character, adapts to your group's speed, and adds live drama to the puzzle-solving. Groups of 2–8 people, approximately 90 minutes.</p><p class=\"mb-4\">Best for groups celebrating something — birthdays, hen/stag parties, team events — where the shared experience matters as much as the sightseeing. The canal ring route is the most popular; the WWII history route is more intense and more rewarding.</p>",
+      "tip": "",
+      "price": "From €15 per person"
+    },
+    {
+      "id": "light-festival",
+      "name": "Amsterdam Light Festival Boat Tour",
+      "category": "Boat Tour",
+      "badge": "Seasonal Highlight",
+      "image_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.8 (8,100 reviews)",
+      "metas": [
+        "📍 Canal ring, city centre",
+        "🕐 November – January only",
+        "💶 From €22"
+      ],
+      "hook": "The Amsterdam Light Festival started in 2012 as a modest winter event. It now stretches over 6km of canal routes and is one of the largest light art festivals in the world — with 30+ large-scale commissioned works by international artists.",
+      "description": "<p class=\"mb-4\">The Amsterdam Light Festival runs from late November to mid-January — the darkest weeks of the Dutch year, when the canal ring is transformed by illuminated artworks suspended over the water and mounted on canal house facades.</p><p class=\"mb-4\">The boat tour option covers the full 6km route on a glass-roof canal boat, with audio commentary explaining each installation. The walking route covers a shorter section through the Jordaan and canal ring. Both are worthwhile; the boat gives the most complete picture.</p>",
+      "tip": "💡 Local tip: Book the boat tour early — the festival runs evenings only (5pm–11pm) and popular time slots sell out weeks ahead. The opening weekend in late November is particularly atmospheric.",
+      "price": "From €22 — boat or walking route"
+    }
+  ],
+  "facts": [],
+  "todos": [],
+  "foods": [],
+  "products": [],
+  "getting_there": []
+}

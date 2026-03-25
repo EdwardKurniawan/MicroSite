@@ -10,13 +10,19 @@ const DIR = __dirname;
 
 // Pre-compile handlebars template
 let masterTemplate = null;
+let categoryTemplate = null;
+
 try {
   const footerPartial = fs.readFileSync(path.join(DIR, 'shared', 'components', 'footer.hbs'), 'utf8');
   Handlebars.registerPartial('footer', footerPartial);
   
   const hbsSource = fs.readFileSync(path.join(DIR, 'templates', 'guide-master.hbs'), 'utf8');
   masterTemplate = Handlebars.compile(hbsSource);
-  console.log('[System] Master Handlebars template compiling active.');
+
+  const catHbsSource = fs.readFileSync(path.join(DIR, 'templates', 'category-master.hbs'), 'utf8');
+  categoryTemplate = Handlebars.compile(catHbsSource);
+
+  console.log('[System] Master & Category Handlebars templates compiling active.');
 } catch (e) {
   console.error('[Warning] Failed to load Handlebars templates. Data-driven routing may fail:', e.message);
 }
@@ -152,6 +158,28 @@ http.createServer(async (req, res) => {
     // Serve images from the active city's images folder
     filePath = path.join(DIR, city.slug, urlPath);
   } else {
+    // 3. Dynamic Subpage Route: Check if folder/data.json exists
+    const cleanSubPath = urlPath.replace(/^\/|\/$/g, '');
+    const subDataPath = path.join(DIR, city.slug, cleanSubPath, 'data.json');
+    
+    if (cleanSubPath && fs.existsSync(subDataPath)) {
+      try {
+        // Dev Mode: Re-read templates
+        const catHbsSource = fs.readFileSync(path.join(DIR, 'templates', 'category-master.hbs'), 'utf8');
+        const liveCatTemplate = Handlebars.compile(catHbsSource);
+        
+        const pageData = JSON.parse(fs.readFileSync(subDataPath, 'utf8'));
+        pageData.current_year = new Date().getFullYear();
+        
+        const html = liveCatTemplate(pageData);
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        res.end(html);
+        return;
+      } catch (err) {
+        console.error(`[Subpage Render Error for ${urlPath}]:`, err);
+      }
+    }
+
     filePath = path.join(DIR, city.slug, urlPath);
     if (!path.extname(filePath)) {
       filePath = path.join(filePath, 'index.html');

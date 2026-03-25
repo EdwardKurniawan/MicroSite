@@ -1,0 +1,167 @@
+{
+  "title": "Amsterdam Museums & Art (2026 Guide)",
+  "eyebrow": "🇳🇱 Amsterdam Museums Guide",
+  "standfirst": "",
+  "hero_image": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80",
+  "intro_html": "<p class=\" mb-4\">Amsterdam has more museums per square kilometre than almost any city on earth — and the concentration of masterpieces on a single square (Museumplein) is genuinely extraordinary. <strong>The Rijksmuseum, Van Gogh Museum, and Stedelijk are all within a 5-minute walk of each other.</strong></p><p class=\" mb-4\">This guide covers the six best museums in the city, with honest advice on which to prioritise, when to book, and what to see once you're inside. The Rijksmuseum and Van Gogh both require advance booking — the others are generally available on shorter notice.</p>",
+  "attractions": [
+    {
+      "id": "rijksmuseum",
+      "name": "Rijksmuseum",
+      "category": "Museum & Art",
+      "badge": "Must See",
+      "image_url": "/images/rijksmuseum.png",
+      "rating_text": "★★★★★ 4.7 (94,000 reviews)",
+      "metas": [
+        "📍 Museumplein",
+        "🕐 Daily 9am–5pm",
+        "💶 From €22.50"
+      ],
+      "hook": "Rembrandt was paid 1,600 guilders to paint the Night Watch — roughly two years’ wages for a skilled craftsman. It now hangs in a museum that draws 2.7 million visitors a year.",
+      "description": "<p class=\"mb-4\">The Rijksmuseum is the largest museum in the Netherlands and one of the great art museums of the world. Its permanent collection spans 8,000 objects across 80 rooms, covering Dutch and Flemish Golden Age art from the 15th to 19th centuries.</p><p class=\"mb-4\">The Gallery of Honour leads directly to the Night Watch — Rembrandt’s monumental group portrait painted in 1642. Arrive at opening (9am) to see it without the crowds. Allow at least 2.5 hours for the permanent collection.</p>",
+      "tip": "💡 Local tip: The Rijksmuseum garden (entry free) is one of the best picnic spots in the city in summer.",
+      "price": "From €22.50 — online booking only"
+    },
+    {
+      "id": "van-gogh",
+      "name": "Van Gogh Museum",
+      "category": "Museum & Art",
+      "badge": "Must See",
+      "image_url": "/images/van_gogh.png",
+      "rating_text": "★★★★★ 4.8 (82,000 reviews)",
+      "metas": [
+        "📍 Museumplein",
+        "🕐 Daily 9am–5pm (Fri to 9pm)",
+        "💶 From €22"
+      ],
+      "hook": "Van Gogh sold exactly one painting during his lifetime. Today, a single work sells for over $100 million. Amsterdam holds more of his paintings than anywhere else on earth.",
+      "description": "<p class=\"mb-4\">The Van Gogh Museum holds the world’s largest collection of Van Gogh’s work — 200 paintings and 500 drawings, arranged chronologically. The layout follows the arc of his life from the dark Dutch period through Paris and Arles to his final years in Saint-Rémy.</p><p class=\"mb-4\">Walk-up tickets are not sold at the door. You must book online in advance — the museum sells out daily. Book at least one week ahead in summer, and earlier for school holidays.</p>",
+      "tip": "💡 Local tip: Friday evening sessions (6pm–9pm) are significantly quieter than daytime slots.",
+      "price": "From €22 — timed entry"
+    },
+    {
+      "id": "stedelijk",
+      "name": "Stedelijk Museum",
+      "category": "Museum & Art",
+      "badge": "Worth Visiting",
+      "image_url": "https://images.unsplash.com/photo-1594904351111-a072f80b1a71?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (8,200 reviews)",
+      "metas": [
+        "📍 Museumplein",
+        "🕐 Daily 10am–6pm (Fri to 10pm)",
+        "💶 From €22.50"
+      ],
+      "hook": "The Stedelijk’s white “bathtub” annex caused a city-wide uproar when it opened in 2012. It was called ugly, brilliant, and un-Dutch in equal measure. It’s now considered a landmark.",
+      "description": "<p class=\"mb-4\">The Stedelijk is Amsterdam’s museum of modern and contemporary art and design, covering everything from Mondrian and Matisse to Dutch Design and street photography. The collection is shown in rotating thematic exhibitions — it never looks the same twice.</p><p class=\"mb-4\">Unlike the Rijksmuseum or Van Gogh, the Stedelijk rarely sells out, making it a good option on short notice. Friday evenings until 10pm are quiet and atmospheric.</p>",
+      "tip": "",
+      "price": "From €22.50"
+    },
+    {
+      "id": "nemo",
+      "name": "NEMO Science Museum",
+      "category": "Museum & Science",
+      "badge": "Great for Families",
+      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.4 (18,700 reviews)",
+      "metas": [
+        "📍 Oosterdok Kade 2",
+        "🕐 Tue–Sun 10am–5:30pm",
+        "💶 From €17.50"
+      ],
+      "hook": "The building is shaped like the bow of a ship emerging from the water — because it’s built directly over the entrance to the IJ Tunnel, 25 metres below street level.",
+      "description": "<p class=\"mb-4\">NEMO is a five-floor science and technology museum with hands-on experiments covering energy, light, chemistry, and the human body. The roof terrace — with views across the IJ waterway — is free to access, even without a museum ticket.</p><p class=\"mb-4\">For adults without children, skip the museum interior and spend an hour on the roof with coffee from the café. The views east towards the Eastern Docklands are among the best in the city.</p>",
+      "tip": "💡 Local tip: The rooftop is free even without a museum ticket — walk up the external staircase on the right side of the building.",
+      "price": "From €17.50"
+    },
+    {
+      "id": "moco",
+      "name": "Moco Museum Amsterdam",
+      "category": "Museum & Art",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.6 (14,200 reviews)",
+      "metas": [
+        "📍 Honthorststraat 20",
+        "🕐 Daily 9am–7pm",
+        "💶 From €20"
+      ],
+      "hook": "The Moco opened in a 1904 villa on Museumplein in 2016. Its founders paid Banksy an undisclosed sum for a permanent collection — making Amsterdam the only city with a dedicated Banksy museum.",
+      "description": "<p class=\"mb-4\">The Museum of Contemporary Art (Moco) splits its space between a permanent Banksy collection — including <em>Girl with Balloon</em>, <em>Trolley Hunters</em>, and <em>Laugh Now</em> — and rotating shows of international contemporary artists.</p><p class=\"mb-4\">The Moco is compact (plan 1–1.5 hours) and often bookable last-minute compared to the Rijksmuseum or Van Gogh. It’s on the same square, making it an easy addition to a Museumplein day.</p>",
+      "tip": "",
+      "price": "From €20"
+    },
+    {
+      "id": "rembrandthuis",
+      "name": "Museum Het Rembrandthuis",
+      "category": "Museum & History",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.5 (7,400 reviews)",
+      "metas": [
+        "📍 Jodenbreestraat 4",
+        "🕐 Daily 10am–6pm",
+        "💶 From €16"
+      ],
+      "hook": "Rembrandt lived in this house for 20 years — from 1639, when he was at the peak of his fame, to 1656, when he was declared bankrupt. The inventory drawn up by his creditors listed every object in the house. The museum is a recreation built from that list.",
+      "description": "<p class=\"mb-4\">The Rembrandthuis is a 17th-century merchant’s house reconstructed to exactly how it appeared during Rembrandt’s lifetime. The studio where he painted is intact, including his grinding stones and brushes.</p><p class=\"mb-4\">Far less crowded than the Rijksmuseum but just as fascinating for anyone interested in the Golden Age. The Jewish Quarter neighbourhood around it — Jodenbreestraat — is also worth a slow walk.</p>",
+      "tip": "",
+      "price": "From €16"
+    },
+    {
+      "id": "wereldmuseum",
+      "name": "Wereldmuseum Amsterdam",
+      "category": "Museum & Culture",
+      "badge": "World Cultures",
+      "image_url": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.4 (6,800 reviews)",
+      "metas": [
+        "📍 Linnaeusstraat 2, Oosterpark",
+        "🕐 Tue–Sun 10am–5pm",
+        "💶 From €17.50"
+      ],
+      "hook": "The building was originally the Colonial Museum, opened in 1926 to showcase the Dutch empire’s tropical possessions. It has spent the last decade deliberately reexamining that history.",
+      "description": "<p class=\"mb-4\">The Wereldmuseum (formerly the Tropenmuseum) holds one of the largest collections of non-Western art and artefacts in Europe — accumulated during the colonial era and now presented with an increasingly critical eye. The collection covers Africa, Asia, the Americas, and Oceania.</p><p class=\"mb-4\">The permanent collection includes 400,000 objects and photographs. The rotating exhibitions tackle questions of colonialism, migration, and cultural exchange head-on. Located in the Oosterpark neighbourhood, away from the tourist centre — worth the 15-minute tram ride.</p>",
+      "tip": "💡 Local tip: Tram 9 from Dam Square stops directly at the museum. Combine with a walk through the Oosterpark neighbourhood.",
+      "price": "From €17.50"
+    },
+    {
+      "id": "straat-museum",
+      "name": "STRAAT Museum Amsterdam",
+      "category": "Museum & Art",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1620332372374-f108c5b82e8e?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.8 (11,200 reviews)",
+      "metas": [
+        "📍 NDSM-plein 1, Amsterdam Noord",
+        "🕐 Tue–Sun 11am–6pm",
+        "💶 From €18"
+      ],
+      "hook": "STRAAT is the world’s largest street art museum — 8,800 square metres of murals inside a former shipyard, painted by 150 artists from 35 countries. It opened in 2020 and is already the fourth most-visited museum in Amsterdam.",
+      "description": "<p class=\"mb-4\">STRAAT occupies a vast NDSM shipyard building in Amsterdam Noord — reached by free GVB ferry in 5 minutes from Centraal Station. The permanent collection consists of large-scale murals painted directly onto the interior walls and ceilings by internationally recognised street artists.</p><p class=\"mb-4\">Unlike most street art, STRAAT is explicitly a museum — the artists were commissioned, the works are permanent, and the curation is thoughtful. It is completely unlike anywhere else in Amsterdam. Combine with the A'DAM Lookout and THIS IS HOLLAND for a full Noord day.</p>",
+      "tip": "💡 Local tip: The NDSM flea market (last Sunday of each month) is one of the largest in the Netherlands. If your visit falls on that Sunday, arrive early — the market alone is worth the ferry trip.",
+      "price": "From €18"
+    },
+    {
+      "id": "foam",
+      "name": "Foam Photography Museum",
+      "category": "Museum & Photography",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.7 (4,900 reviews)",
+      "metas": [
+        "📍 Keizersgracht 609",
+        "🕐 Daily 10am–6pm (Fri to 9pm)",
+        "💶 From €14"
+      ],
+      "hook": "Foam opened in 2001 in a 19th-century canal house on the Keizersgracht. In 20 years it has become one of the most respected photography museums in the world, despite having just four floors and no permanent collection.",
+      "description": "<p class=\"mb-4\">Foam runs four to five rotating exhibitions simultaneously, featuring a mix of established masters (Diane Arbus, Richard Avedon, Annie Leibovitz have all been shown) and emerging photographers from its Foam Talent platform.</p><p class=\"mb-4\">The canal house setting — narrow staircases, high ceilings, views over the Keizersgracht — adds to the atmosphere. It is small enough to do in 1.5 hours and rarely crowded. The museum shop has one of the best curated photography book selections in Amsterdam.</p>",
+      "tip": "💡 Local tip: Friday evenings until 9pm are particularly atmospheric. The museum is directly on the canal ring — easy to fold into a canal ring walk.",
+      "price": "From €14"
+    }
+  ],
+  "facts": [],
+  "todos": [],
+  "foods": [],
+  "products": [],
+  "getting_there": []
+}

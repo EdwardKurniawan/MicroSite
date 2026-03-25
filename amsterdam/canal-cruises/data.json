@@ -1,0 +1,150 @@
+{
+  "title": "Amsterdam Canal Cruises — Every Option Compared (2026)",
+  "eyebrow": "🇳🇱 Amsterdam Canal Cruises",
+  "standfirst": "",
+  "hero_image": "https://images.unsplash.com/photo-1759088141454-d65a38329db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBDYW5hbCUyMENydWlzZXMlMjAlRTIlODAlOTQlMjBFdmVyeSUyME9wdGlvbiUyMENvbXBhcmVkJTIwJTI4MjAyNiUyOSUyMEFtc3RlcmRhbSUyMGFyY2hpdGVjdHVyZSUyMGhpZ2glMjBxdWFsaXR5fGVufDB8MHx8fDE3NzQ0NTQxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+  "intro_html": "<p class=\" mb-4\">The canals are Amsterdam's defining feature — 165 of them, totalling 100km, dug by hand between 1613 and 1665. <strong>You should be on the water at least once.</strong> The question is which type of cruise makes sense for your trip.</p><p class=\" mb-4\">Below are every major canal cruise option in Amsterdam, compared honestly. Short answer: the classic 1-hour glass-roof cruise is fine for everyone; the open boat is better in summer; the evening cruise is most atmospheric; private boat hire is most memorable for groups.</p>",
+  "attractions": [
+    {
+      "id": "classic-canal-cruise",
+      "name": "Classic 1-Hour Canal Cruise",
+      "category": "Canal & Water",
+      "badge": "Most Popular",
+      "image_url": "https://images.unsplash.com/photo-1648040757355-46220ce63b92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxDbGFzc2ljJTIwMS1Ib3VyJTIwQ2FuYWwlMjBDcnVpc2UlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.7 (31,200 reviews)",
+      "metas": [
+        "📍 Multiple departure points",
+        "🕐 Daily every 30 mins",
+        "💶 From €16"
+      ],
+      "hook": "Amsterdam's canal ring was dug between 1613 and 1665 — 50 years of work that produced 165 canals totalling 100km of waterway. More canals than Venice. More bridges than Paris.",
+      "description": "<p class=\"mb-4\">The classic 1-hour canal cruise is the best way to understand Amsterdam’s layout and see the canal ring from water level. Glass-roof boats depart from several central locations every 30 minutes throughout the day.</p><p class=\"mb-4\">The best departure points are near the Anne Frank House (Prinsengracht) or from Leidseplein — both avoid the congested Centraal Station area and put you in the most scenic stretch from the first minute.</p>",
+      "tip": "💡 Local tip: Evening cruises (after 6pm) offer a completely different atmosphere — the canal houses are lit up and the water reflects the golden light.",
+      "price": "From €16 — book online for best availability"
+    },
+    {
+      "id": "open-boat",
+      "name": "Open Boat Canal Cruise",
+      "category": "Canal & Water",
+      "badge": "Best for Summer",
+      "image_url": "https://images.unsplash.com/photo-1668928486603-c9a4cce07e84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxPcGVuJTIwQm9hdCUyMENhbmFsJTIwQ3J1aXNlJTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MTU0fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.8 (8,400 reviews)",
+      "metas": [
+        "📍 Prins Hendrikkade (near Centraal)",
+        "🕐 Seasonal: Apr–Oct",
+        "💶 From €25"
+      ],
+      "hook": "Amsterdammers spend their summer evenings on the canals in small open boats with friends and a crate of beer. The open boat cruise is the closest visitors get to that experience.",
+      "description": "<p class=\"mb-4\">Open boat cruises operate on smaller, uncovered electric boats — no glass ceiling, no engine noise, just the sound of water. They are more intimate (typically 10–20 passengers), slower-paced, and better for photography.</p><p class=\"mb-4\">These run seasonally (April to October) and are weather-dependent. They are worth it on a warm day. On a rainy day, stick to the glass-roof boats.</p>",
+      "tip": "",
+      "price": "From €25"
+    },
+    {
+      "id": "evening-cruise",
+      "name": "Evening Canal Cruise",
+      "category": "Canal & Water",
+      "badge": "Best for Romance",
+      "image_url": "https://images.unsplash.com/photo-1704703704812-fbf850475154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxFdmVuaW5nJTIwQ2FuYWwlMjBDcnVpc2UlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.9 (6,800 reviews)",
+      "metas": [
+        "📍 Leidseplein area",
+        "🕐 Departures from 7pm",
+        "💶 From €22"
+      ],
+      "hook": "At dusk, the canal houses turn warm amber and their reflections stretch across the dark water. The evening cruise is the most atmospheric 75 minutes you will spend in Amsterdam.",
+      "description": "<p class=\"mb-4\">Evening cruises run from approximately 7pm and last around 75 minutes. Some include a drink; others have a live guide. The canal ring is UNESCO World Heritage-listed partly for its visual impact — and that impact is at its peak at night.</p><p class=\"mb-4\">Popular with couples and groups. Book at least 24 hours ahead — evening cruises fill faster than daytime slots, especially in summer.</p>",
+      "tip": "",
+      "price": "From €22"
+    },
+    {
+      "id": "pannenkoekenboot",
+      "name": "Pannenkoekenboot Amsterdam",
+      "category": "Canal & Water",
+      "badge": "Best for Families",
+      "image_url": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.6 (4,200 reviews)",
+      "metas": [
+        "📍 IJdok 5 (near Centraal)",
+        "🕐 Multiple daily departures",
+        "💶 From €22.50 adults, €14 children"
+      ],
+      "hook": "The Pannenkoekenboot has been sailing Amsterdam’s canals since 1973. In that time it has served approximately 4 million pancakes. It is, improbably, one of the best dining experiences in the city.",
+      "description": "<p class=\"mb-4\">The pancake boat is exactly what it sounds like: a glass-roof canal boat where you sail the IJ waterway and eastern canals for 75 minutes and eat as many Dutch pancakes as you want. Sweet (with syrup and powdered sugar) or savoury (with cheese, bacon, apples).</p><p class=\"mb-4\">Amsterdam’s best family activity — children love it, parents get a genuine canal tour, and everyone leaves full. Book at least a week ahead in summer.</p>",
+      "tip": "",
+      "price": "From €22.50 adults / €14 children"
+    },
+    {
+      "id": "canal-heineken-combo",
+      "name": "Canal Cruise + Heineken Experience",
+      "category": "Canal & Water",
+      "badge": "Great Value",
+      "image_url": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (3,100 reviews)",
+      "metas": [
+        "📍 Various departure points",
+        "🕐 Check availability",
+        "💶 From €32"
+      ],
+      "hook": "Amsterdam's two most iconic experiences — one on the water, one in the brewery — combined into a single afternoon.",
+      "description": "<p class=\"mb-4\">The combo ticket combines a 1-hour classic canal cruise with entry to the Heineken Experience, including the self-guided brewery tour and two complimentary beers. Better value than buying separately.</p><p class=\"mb-4\">Best scheduled for the afternoon: take the cruise first, then spend 2 hours at Heineken, then head to De Pijp neighbourhood for dinner. A complete afternoon without extra planning.</p>",
+      "tip": "",
+      "price": "From €32 — vs. ~€38 bought separately"
+    },
+    {
+      "id": "private-boat",
+      "name": "Private Canal Boat Hire",
+      "category": "Canal & Water",
+      "badge": "Most Memorable",
+      "image_url": "https://images.unsplash.com/photo-1648040757355-46220ce63b92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxQcml2YXRlJTIwQ2FuYWwlMjBCb2F0JTIwSGlyZSUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDE2MHww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.9 (2,300 reviews)",
+      "metas": [
+        "📍 Book online, pick up at marina",
+        "🕐 All day slots available",
+        "💶 From €99 for 2 hours"
+      ],
+      "hook": "The most 'local' thing you can do in Amsterdam is hire a small electric boat and navigate the canals yourself. No licence required. No tour guide. Just you, the water, and 165 canals to explore.",
+      "description": "<p class=\"mb-4\">Self-skipper electric boat hire lets you captain your own boat for 2, 3, or 4 hours — no boating licence required for vessels under 15m. Bring your own food and drinks, stop where you want, and go as slowly as you like.</p><p class=\"mb-4\">Best for groups of 4–8. Boats hold up to 8 passengers. Split between a group, it’s comparable in price to a group canal tour — but a fundamentally different experience. Book 1–2 weeks ahead in summer.</p>",
+      "tip": "",
+      "price": "From €99 for 2 hours (up to 8 people)"
+    },
+    {
+      "id": "rembrandt-cruise",
+      "name": "Rembrandt Canal Cruise",
+      "category": "Canal & Water",
+      "badge": "Most Scenic",
+      "image_url": "https://images.unsplash.com/photo-1759088141417-c2b38a97aa88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxSZW1icmFuZHQlMjBDYW5hbCUyMENydWlzZSUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDE2MXww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★★ 4.8 (3,700 reviews)",
+      "metas": [
+        "📍 Stationsplein, near Centraal",
+        "🕐 Multiple daily departures",
+        "💶 From €19"
+      ],
+      "hook": "The Rembrandt cruise takes a specific route through the lesser-visited eastern canals — the Entrepotdok, the Plantage waterways, and the Keizersgracht — rather than the main tourist loop most boats follow.",
+      "description": "<p class=\"mb-4\">The Rembrandt Canal Cruise is a smaller, more intimate operation than the large glass-roof fleets — boats hold around 50 passengers and cover a route that includes the Jewish Quarter, the Artis Zoo waterfront, and the 17th-century warehouse district of Entrepotdok.</p><p class=\"mb-4\">If you have already done a standard canal tour and want a second perspective — or if you want to see the parts of the canal ring that most tourists miss — this is the cruise to book. The commentary is detailed and historically accurate.</p>",
+      "tip": "💡 Local tip: The Entrepotdok — a row of 84 former warehouse buildings from the 1820s — is one of the most underrated architectural sights in Amsterdam. The Rembrandt cruise passes directly alongside it.",
+      "price": "From €19"
+    },
+    {
+      "id": "houseboat-museum",
+      "name": "Houseboat Museum (Woonbootmuseum)",
+      "category": "Canal & Water",
+      "badge": "Hidden Gem",
+      "image_url": "https://images.unsplash.com/photo-1617825369221-a28eb64c0dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIb3VzZWJvYXQlMjBNdXNldW0lMjAlMjhXb29uYm9vdG11c2V1bSUyOSUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDE2M3ww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "rating_text": "★★★★☆ 4.4 (3,200 reviews)",
+      "metas": [
+        "📍 Prinsengracht 296K (opp. Westerkerk)",
+        "🕐 Tue–Sun 11am–5pm",
+        "💶 From €6"
+      ],
+      "hook": "Around 2,500 people live on houseboats in Amsterdam — a permanent floating community that has existed since the post-war housing shortage of the 1950s, when returning soldiers claimed abandoned barges as homes.",
+      "description": "<p class=\"mb-4\">The Houseboat Museum is a genuine 1914 cargo barge — the Hendrika Maria — converted into a museum that shows exactly how Amsterdam's floating residents live. The interior gives a surprisingly honest picture: the compact kitchen, the low ceilings, the ingenious storage, the engine room turned living room.</p><p class=\"mb-4\">Entry is just €6, which makes it one of the best-value museums in the city. It takes about 30 minutes. Located directly opposite the Westerkerk on the Prinsengracht — easy to combine with the Anne Frank House (a 3-minute walk away).</p>",
+      "tip": "💡 Local tip: If you're visiting the Anne Frank House in the morning, add the Houseboat Museum before you head on — 30 minutes and €6 for a genuinely unusual Amsterdam experience.",
+      "price": "From €6"
+    }
+  ],
+  "facts": [],
+  "todos": [],
+  "foods": [],
+  "products": [],
+  "getting_there": []
+}

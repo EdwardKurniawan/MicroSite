@@ -1,0 +1,145 @@
+{
+  "title": "Nagamachi",
+  "eyebrow": "🏯 Kanazawa Neighbourhood",
+  "standfirst": "The samurai quarter — earthen walls, stone lanes, and the finest surviving samurai garden in Japan. A 10-minute walk from the castle that defined it.",
+  "hero_image": "/images/nagamachi.jpg",
+  "intro_html": "",
+  "attractions": [
+    {
+      "id": "dobei-walls",
+      "name": "1 Walk the Dobei Earthen Walls",
+      "category": "Free · Always open",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The most atmospheric part of Nagamachi is the 10-minute loop through the main earthen-walled lanes (Nagamachi 2-chome). The walls rise two to three metres on either side of the narrow stone-paved lanes, creating a sense of enclosure that separates you completely from the modern city beyond. Early morning or late afternoon, with slanting light on the ochre walls, is when it's most beautiful. Free, always open, and rarely crowded outside peak tourist weekends.</p>"
+    },
+    {
+      "id": "nomura-house",
+      "name": "2 Nomura Samurai House",
+      "category": "¥550 · Daily 8:30am–5:30pm (Oct–Mar until 5pm)",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Built in the late Edo period and relocated to its current site in the 1880s, the Nomura House is the finest accessible samurai residence in Kanazawa. The ground floor has a remarkable shoin-style reception room with carved transom windows, a coffered ceiling, and a tokonoma alcove containing a hanging scroll and an ikebana arrangement. Upstairs, the veranda overlooks the garden: a koi pond, carefully placed stone lanterns, a water basin carved from a single rock, and a 300-year-old maple that turns gold in November. Allow 40–60 minutes.</p>"
+    },
+    {
+      "id": "ashigaru-house",
+      "name": "3 Ashigaru-za Samurai Houses",
+      "category": "Free entry",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Two smaller restored ashigaru (foot soldier) residences showing how lower-ranking samurai actually lived — closer to comfortable artisan households than warrior fortresses. The contrast with the Nomura House is informative: the hierarchy of Edo-period samurai society was replicated precisely in the scale and finish of their homes. Both buildings have free entry and are staffed by volunteers who can answer questions in basic English.</p>"
+    },
+    {
+      "id": "water-channels",
+      "name": "4 Water Channel Network",
+      "category": "Free · Koi visible year-round",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The narrow channels (nagare) running through the district are part of a water management system built in the Edo period. Koi swim through some of them. The channels were designed to enable rapid water access in case of fire — a constant threat in a district of wooden buildings. Follow them north from the Nomura House toward the Korinbo intersection and back through the narrower back lanes for a 20-minute circuit that most visitors miss entirely.</p>"
+    },
+    {
+      "id": "kaga-yuzen",
+      "name": "5 Kaga Yuzen Silk Dyeing Workshop",
+      "category": "From ¥1,500 · 30–60 min sessions",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Several workshops near Nagamachi offer hands-on Kaga Yuzen (traditional silk dyeing) experiences, from ¥1,500 for a 30-minute session. The tradition dates from the 1600s and is one of Kanazawa's designated UNESCO Intangible Cultural Heritages. The dyeing technique — characterised by delicate botanical motifs with deliberately faded outer edges — was developed specifically for the Maeda court. Most workshops offer simple handkerchief or fan dyeing in under an hour; no booking needed for walk-in sessions.</p>"
+    },
+    {
+      "id": "item-5",
+      "name": "Kaga Yuzen Workshop Cafe",
+      "category": "Light Lunch & Sweets",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Light lunch inside a working silk dyeing studio — set menus with seasonal side dishes, served in a quietly beautiful converted machiya. The most atmospheric lunch stop in the district.</p>"
+    },
+    {
+      "id": "item-6",
+      "name": "Miyoshiya",
+      "category": "Wagashi",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Traditional wagashi (Japanese confectionery) shop with a Nagamachi branch. The wagashi are made daily and change with the seasons — spring brings cherry blossom shapes, autumn produces persimmon and chestnut varieties. Take-away or eat at the small counter with matcha.</p>"
+    },
+    {
+      "id": "item-7",
+      "name": "Gyoza no Ohsho",
+      "category": "Chinese-style Gyoza",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Casual gyoza dumpling restaurant a few minutes walk in Katamachi. No reservation needed, quick service, and reliably good. A practical lunch or early dinner option when everything else has a queue.</p>"
+    },
+    {
+      "id": "item-8",
+      "name": "Miyabi no Yado Kanazawa",
+      "category": "Kaga Kaiseki",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Restaurant in a converted samurai house on the edge of the district. The multi-course Kaga cuisine menu is built around seasonal local ingredients. The setting — low tables, tatami, shoji screens onto a small garden — matches the neighbourhood's atmosphere perfectly. Advance reservation required.</p>"
+    },
+    {
+      "id": "item-9",
+      "name": "Katamachi",
+      "category": null,
+      "badge": null,
+      "image_url": "/images/katamachi.jpg",
+      "description": ""
+    },
+    {
+      "id": "item-10",
+      "name": "Higashiyama",
+      "category": null,
+      "badge": null,
+      "image_url": "/images/higashiyama.jpg",
+      "description": ""
+    },
+    {
+      "id": "item-11",
+      "name": "Nishi Chaya",
+      "category": null,
+      "badge": null,
+      "image_url": "/images/nishi-chaya.jpg",
+      "description": ""
+    }
+  ],
+  "facts": [
+    {
+      "label": "Best For",
+      "value": "Samurai history, architecture, quiet walks",
+      "icon": "🗡"
+    },
+    {
+      "label": "Getting There",
+      "value": "Loop Bus — Korinbo stop, or 15 min walk from Kenroku-en",
+      "icon": "🚌"
+    },
+    {
+      "label": "Time Needed",
+      "value": "1–2 hours",
+      "icon": "⏱"
+    },
+    {
+      "label": "Vibe",
+      "value": "Quiet, historic, slightly austere",
+      "icon": "🪨"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "",
+      "title": "",
+      "text": "Korinbo stop — 5-minute walk to the district entrance. ¥200 per ride or ¥600 day pass. Runs every 15–20 minutes from Kanazawa Station."
+    },
+    {
+      "icon": "",
+      "title": "",
+      "text": "15-minute walk southwest from Kenroku-en's Katamachi gate. The most natural sequence — garden, castle, samurai district — all on foot."
+    },
+    {
+      "icon": "",
+      "title": "",
+      "text": "10-minute walk north. Excellent pairing: contemporary art then feudal Japan, five minutes apart. Loop back via Katamachi for dinner."
+    }
+  ],
+  "faqs": []
+}

@@ -1,0 +1,150 @@
+{
+  "title": "Higashiyama",
+  "eyebrow": "🏮 Kanazawa Neighbourhood",
+  "standfirst": "Kanazawa's geisha district — 200-year-old teahouse streets, 70 hillside temples, and sake breweries operating since the Edo period.",
+  "hero_image": "/images/higashiyama.jpg",
+  "intro_html": "",
+  "attractions": [
+    {
+      "id": "chaya-streets",
+      "name": "1 Walk the Higashi Chaya Streets",
+      "category": "Free to walk",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The main street (Higashiyama 1-chome) is the most intact Edo-period streetscape in Kanazawa. The latticed facades (koshi) and earthen walls are best in early morning light, before the tour groups arrive. Several teahouses have been converted to cafes and craft shops selling gold leaf goods — but the architecture is the attraction. Allow 30 to 45 minutes to simply walk and look.</p>"
+    },
+    {
+      "id": "shima-teahouse",
+      "name": "2 Shima Teahouse Museum",
+      "category": "¥700 · Open daily 9am–5pm",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The most complete surviving ochaya interior in Japan. Built in 1820, it has been preserved exactly as it was in the Meiji period — tatami rooms, alcoves, lacquerware, shamisen instruments. The garden is tiny but perfect. It's the single best way to understand how an ozashiki geisha banquet would have worked: the rooms, the sound design, the sight lines from street to interior. Open daily 9am–5pm.</p>"
+    },
+    {
+      "id": "temple-trail",
+      "name": "3 Higashiyama Temple Trail",
+      "category": "Free trail · Allow 90 min",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The 2km hillside path connects over 70 temples and shrines. No entrance fees for the trail itself; some temple gardens charge ¥100–300. Allow 90 minutes at a gentle pace. The path begins just above the Higashi Chaya streets and climbs through moss-covered stone steps and cedar groves before emerging at Utatsuyama Park with wide views across the city rooftops and, on clear days, to the Sea of Japan. Largely tourist-free even in peak season.</p>"
+    },
+    {
+      "id": "sake-breweries",
+      "name": "4 Higashiyama Sake Breweries",
+      "category": "Free entry · Tastings from ¥300",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Several sake breweries cluster along the river side of the district. Fukumitsuya — the oldest sake brewery in Kanazawa, established 1625 — has a tasting shop open to visitors with free samples and an excellent selection to buy. Hakuichi, adjacent, combines gold leaf craft with a sake and sweets shop. The breweries are best visited in the afternoon, after the morning crowds have moved on from the chaya streets.</p>"
+    },
+    {
+      "id": "asanogawa-walk",
+      "name": "5 Asanogawa Riverside Walk",
+      "category": "Free · Spectacular April cherry blossom",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The small river between Higashiyama and the city centre is lined with cherry trees (spectacular in April) and traditional machiya townhouses. The Tentomachi shopping street runs parallel. The 15-minute walk from the chaya streets back toward the city centre along the riverbank is one of Kanazawa's most pleasant transitions between neighbourhoods — a gentle decompression after the temple hillside.</p>"
+    },
+    {
+      "id": "item-5",
+      "name": "Kappou Itaru",
+      "category": "Kaga Kappo",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Counter-style kappo cuisine using seasonal Kaga ingredients — local vegetables, river fish, and wild mountain produce. One of the district's most respected dinner spots. Reservations recommended for evenings.</p>"
+    },
+    {
+      "id": "item-6",
+      "name": "Higashi Chaya Café Shizuya",
+      "category": "Matcha & Wagashi",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Matcha and traditional wagashi sweets inside a restored teahouse on the main chaya street. The best place to pause between the sights and absorb the atmosphere. Seasonal wagashi change monthly.</p>"
+    },
+    {
+      "id": "item-7",
+      "name": "Sushi Yoshida",
+      "category": "Edomae Sushi",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Seven-seat counter near the Asanogawa bridge. The chef sources daily from Omicho Market — nodoguro, sweet shrimp, and seasonal shellfish. Walk-in at lunch, reservation required for dinner.</p>"
+    },
+    {
+      "id": "item-8",
+      "name": "Kinjohro",
+      "category": "Kaga Ryori",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Kanazawa's most celebrated Kaga ryori restaurant, a short walk from Higashiyama. The multi-course kaiseki menu draws on centuries of Maeda-era court cuisine. Reservation required — book several weeks in advance.</p>"
+    },
+    {
+      "id": "item-9",
+      "name": "Katamachi",
+      "category": null,
+      "badge": null,
+      "image_url": "/images/katamachi.jpg",
+      "description": ""
+    },
+    {
+      "id": "item-10",
+      "name": "Nagamachi",
+      "category": null,
+      "badge": null,
+      "image_url": "/images/nagamachi.jpg",
+      "description": ""
+    },
+    {
+      "id": "item-11",
+      "name": "Nishi Chaya",
+      "category": null,
+      "badge": null,
+      "image_url": "/images/nishi-chaya.jpg",
+      "description": ""
+    }
+  ],
+  "facts": [
+    {
+      "label": "Best For",
+      "value": "Geisha culture, temples, sake",
+      "icon": "🎭"
+    },
+    {
+      "label": "Getting There",
+      "value": "Loop Bus — Hashiba-cho stop (15 min)",
+      "icon": "🚌"
+    },
+    {
+      "label": "Time Needed",
+      "value": "2–3 hours",
+      "icon": "⏱"
+    },
+    {
+      "label": "Vibe",
+      "value": "Atmospheric, traditional, quietly spiritual",
+      "icon": "🌿"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "",
+      "title": "",
+      "text": "Hashiba-cho stop (Line R) — 15 minutes from Kanazawa Station. ¥200 single, or ¥600 day pass. Runs every 15–20 minutes."
+    },
+    {
+      "icon": "",
+      "title": "",
+      "text": "25-minute walk from Kanazawa Station via the Asanogawa riverside path — pleasant and flat. Well-signposted in English."
+    },
+    {
+      "icon": "",
+      "title": "",
+      "text": "20-minute walk east from Kenroku-en. Cross the Asanogawa bridge and the chaya streets begin immediately. No bus needed if combining with a castle visit."
+    },
+    {
+      "icon": "",
+      "title": "",
+      "text": "¥700–900 from Kanazawa Station. Approximately 7 minutes. Taxis readily available at the station's east exit rank."
+    }
+  ],
+  "faqs": []
+}

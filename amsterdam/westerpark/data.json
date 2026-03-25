@@ -1,0 +1,59 @@
+{
+  "title": "Westerpark",
+  "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
+  "standfirst": "A sprawling green park built on the site of a former gasworks, Westerpark is the intersection of industrial heritage, alternative culture, and wide-open green spaces.",
+  "hero_image": "/images/westerpark.png",
+  "intro_html": "<p class=\" mb-4\">Westerpark is more than just a park; it's a cultural campus. The Westergasfabriek — a collection of stunning red-brick industrial buildings — was once the city's municipal gasworks. Today, it hosts everything from artisanal bakeries and craft breweries to world-class techno clubs and high-end fashion shows.</p><p class=\" mb-4\">Whether you're looking for a quiet morning run, an afternoon of art, or a night out in a repurposed factory, Westerpark has a unique energy that you won't find anywhere else in Amsterdam.</p>",
+  "attractions": [],
+  "facts": [
+    {
+      "icon": "🌳",
+      "label": "Character",
+      "value": "Industrial, cultural, spacious"
+    },
+    {
+      "icon": "📍",
+      "label": "Location",
+      "value": "West of Centraal"
+    },
+    {
+      "icon": "🏃",
+      "label": "Best way",
+      "value": "Walking / Picnicking"
+    },
+    {
+      "icon": "🌟",
+      "label": "Best for",
+      "value": "Outdoor culture, families"
+    }
+  ],
+  "todos": [
+    {
+      "num": "01",
+      "title": "Westergasfabriek",
+      "description": "Explore the repurposed industrial buildings, now home to a cinema, cafes, and creative offices."
+    },
+    {
+      "num": "02",
+      "title": "Fabrique des Lumières",
+      "description": "An immersive digital art centre located inside a former gas cylinder. A truly unique visual experience."
+    },
+    {
+      "num": "03",
+      "title": "Brouwerij Troost",
+      "description": "A local brewery with an industrial-scale terrace perfect for a sunny afternoon and great craft beer."
+    }
+  ],
+  "foods": [],
+  "products": [],
+  "getting_there": [
+    {
+      "icon": "🚋",
+      "text": "Tram 5 to Van Hallstraat stop."
+    },
+    {
+      "icon": "🚌",
+      "text": "Bus 21 or 22 from Centraal Station."
+    }
+  ]
+}

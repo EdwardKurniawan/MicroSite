@@ -1,0 +1,94 @@
+{
+  "title": "Kanazawa's Gardens & Nature",
+  "eyebrow": "🌿 Kanazawa, Ishikawa Prefecture",
+  "standfirst": "Kenroku-en alone justifies the trip — one of Japan's three great gardens, 200 years in the making. Then there are the two others you'll want to visit on the same day.",
+  "hero_image": "/images/gardens.jpg",
+  "intro_html": "<p class=\"mb-4\">Kenroku-en was constructed in stages by the Maeda clan — the ruling lords of the Kaga domain — over a period of roughly two centuries, beginning in the early 1600s and reaching its completed form in the mid-1800s. The name itself is a clue to the garden's ambition: <strong>kenroku</strong> means \"combining six attributes,\" referring to the six qualities held in classical Chinese landscape theory to be impossible to achieve all at once in a single garden — spaciousness, seclusion, artifice, antiquity, watercourses, and panoramic views. Kenroku-en achieves all six. That is the garden's defining boast, and after walking it, you will find the boast is not empty.</p>",
+  "attractions": [
+    {
+      "id": "item-0",
+      "name": "Gyokusen-inmaru Garden",
+      "category": null,
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">A small jewel-garden built in the 17th century, tucked inside the Kanazawa Castle grounds. More intimate than Kenroku-en — white castle walls reflected in still water, stone bridges, a traditional tea house. Often overlooked by visitors who only walk the castle exterior.</p>"
+    },
+    {
+      "id": "item-1",
+      "name": "Nomura Garden",
+      "category": null,
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Inside the Nomura Samurai House in Nagamachi — tiny but exquisite. A miniature garden with a stream, stone lantern, koi, and a maple tree that frames the view perfectly. Best seen from the upper-floor tatami room. One of the most quietly beautiful spots in Kanazawa.</p>"
+    },
+    {
+      "id": "item-2",
+      "name": "Kenzan Kiln Garden",
+      "category": null,
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The historic garden of Kenzan — a celebrated Kanazawa ceramic artist whose distinctive style influenced Japanese pottery for centuries. The kiln site has been preserved as a small free garden. Less visited, more meditative, and a good excuse to learn about the city's pottery heritage.</p>"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Best Time",
+      "value": "April (cherry) & November (autumn)",
+      "icon": "🌸"
+    },
+    {
+      "label": "Entry",
+      "value": "¥320 (Kenroku-en)",
+      "icon": "💴"
+    },
+    {
+      "label": "Opening",
+      "value": "7am–6pm (Mar–Oct)",
+      "icon": "🕐"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚌",
+      "title": "",
+      "text": "The most convenient option. The Kanazawa Loop Bus runs two routes (left loop and right loop) from Kanazawa Station East Exit. The Kenroku-en/Kanazawa Castle stop is on both routes — approximately 15 minutes, ¥200 per ride. A 1-day pass (¥600) covers unlimited loop bus rides and is good value if you're visiting multiple sights."
+    },
+    {
+      "icon": "🚶",
+      "title": "",
+      "text": "Approximately 25–30 minutes along a straightforward route through the city centre. Flat terrain for most of the walk. Good option on a clear morning — you pass through the old merchant district."
+    },
+    {
+      "icon": "🚕",
+      "title": "",
+      "text": "Around ¥1,200–1,500 from the station. Available immediately outside the East Exit. Use for late arrivals or when carrying luggage."
+    },
+    {
+      "icon": "🅿️",
+      "title": "",
+      "text": "Paid parking is available near the north and south entrances. Not recommended on spring or autumn weekends — the roads around the garden are extremely congested. The Loop Bus is a far better choice on peak days."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the opening hours for Kenroku-en?",
+      "answer": "Kenroku-en is open <strong>7am–6pm from March through October</strong>, and <strong>8am–5pm from November through February</strong>. Night illuminations during cherry blossom and autumn foliage season extend the evening hours — check the official schedule for the current year. The garden sometimes opens before the ticketed hours; arriving at dawn during cherry season is highly recommended even if you have to wait briefly at the gate."
+    },
+    {
+      "question": "How much does Kenroku-en cost and is it worth it?",
+      "answer": "Adult admission is <strong>¥320</strong> — genuinely one of the best-value admission charges in Japan. A combination ticket with Kanazawa Castle's Hishi Yagura tower costs ¥640. Children under 18 enter free. Gyokusen-inmaru Garden (inside the castle grounds) costs an additional ¥100. Yes: absolutely worth it. It is one of the finest gardens in the world by any measure."
+    },
+    {
+      "question": "How long should I spend at Kenroku-en?",
+      "answer": "Allow <strong>1.5 to 2 hours</strong> to walk the full garden at a comfortable pace, including time at the Kotoji lantern, the upper plateau, the Seisonkaku Villa gate area, and the iris garden. An hour is enough for a quick visit but you will feel rushed. If you are visiting in cherry or autumn season and want to photograph properly, 2.5–3 hours is more realistic."
+    },
+    {
+      "question": "Can I visit Kenroku-en and the castle in the same day?",
+      "answer": "Yes — they are <strong>directly adjacent</strong>, connected by the Kenroku-en gate and a short path. A typical morning visits Kenroku-en first (7–9am to avoid crowds), then moves to the castle park, then Gyokusen-inmaru Garden, then walks the Nagamachi samurai quarter in the afternoon. All of this is walkable without any transport."
+    },
+    {
+      "question": "Is Kenroku-en crowded?",
+      "answer": "On cherry blossom and autumn foliage weekends, Kenroku-en can be <strong>very crowded</strong> — particularly between 9am and 3pm. The solution is simple: arrive when the gate opens (7am in summer season). The early-morning light is also the best for photography. Weekday visits at any time of year are significantly quieter."
+    }
+  ]
+}

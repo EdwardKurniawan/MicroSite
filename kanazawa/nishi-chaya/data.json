@@ -1,0 +1,32 @@
+{
+  "title": "Nishi Chaya",
+  "eyebrow": "🍵 Kanazawa Geisha District",
+  "standfirst": "The quiet geisha district — smaller than Higashi Chaya, less visited, and more intimate. The Ninja Temple is next door.",
+  "hero_image": "/images/nishi-chaya.jpg",
+  "intro_html": "",
+  "attractions": [],
+  "facts": [
+    {
+      "label": "Best for",
+      "value": "Authentic geisha culture, craft shopping, Ninja Temple combo",
+      "icon": "🏮"
+    },
+    {
+      "label": "Getting there",
+      "value": "Loop Bus (Hirokoji stop), 20min walk from station",
+      "icon": "🚌"
+    },
+    {
+      "label": "Time needed",
+      "value": "1–1.5 hours",
+      "icon": "⏱"
+    },
+    {
+      "label": "Vibe",
+      "value": "Quiet, authentic, less touristy than Higashi Chaya",
+      "icon": "✨"
+    }
+  ],
+  "getting_there": [],
+  "faqs": []
+}

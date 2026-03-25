@@ -1,0 +1,32 @@
+{
+  "title": "Katamachi",
+  "eyebrow": "🏮 Kanazawa Neighbourhood",
+  "standfirst": "Kanazawa's eating and drinking hub — from morning coffee to late-night izakayas, the city's most lived-in neighbourhood.",
+  "hero_image": "/images/katamachi.jpg",
+  "intro_html": "",
+  "attractions": [],
+  "facts": [
+    {
+      "label": "Best for",
+      "value": "Eating, drinking, nightlife, shopping",
+      "icon": "🍻"
+    },
+    {
+      "label": "Getting there",
+      "value": "Loop Bus (Korinbo stop), 20min walk from station",
+      "icon": "🚌"
+    },
+    {
+      "label": "Time needed",
+      "value": "Evening onwards",
+      "icon": "🕐"
+    },
+    {
+      "label": "Vibe",
+      "value": "Lively, local, unpretentious",
+      "icon": "✨"
+    }
+  ],
+  "getting_there": [],
+  "faqs": []
+}

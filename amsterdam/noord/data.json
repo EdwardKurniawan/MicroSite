@@ -1,0 +1,141 @@
+{
+  "title": "Amsterdam Noord",
+  "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
+  "standfirst": "Five minutes across the IJ from Centraal Station — Amsterdam's creative quarter in a former shipyard. Street art the size of buildings, rooftop observation decks, and a beach bar on the waterfront.",
+  "hero_image": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=1200&auto=format&fit=crop&q=80",
+  "intro_html": "<p class=\" mb-4\">Amsterdam Noord was, for most of its history, the city Amsterdam pretended didn't exist. The IJ waterway kept it separate from the historic centre — no bridges, no trams, just the free ferry that workers took to the shipyards every morning. The NDSM wharf (Nederlandsche Dok en Scheepsbouw Maatschappij) employed 10,000 people at its peak. When the last shipyard closed in 1984, it took most of the neighbourhood's economy with it.</p><p class=\" mb-4\"><strong>Then the artists arrived.</strong> In the 1990s, squatters took over the abandoned NDSM buildings. The city, unable to evict them, eventually formalised the arrangement. Studios, cultural venues, and creative businesses followed. Today the NDSM wharf is Amsterdam's most concentrated creative district — home to Greenpeace's international headquarters, MTV Netherlands, and some of the most significant street art in Europe.</p><p class=\" mb-4\">Noord is still in transition. The free ferry from Centraal Station takes five minutes and delivers you to a neighbourhood that feels genuinely different from the tourist-dense historic centre. The views back across the IJ — the water, the station, the medieval city behind it — are some of the best in Amsterdam. Come for a half-day. Stay for a full one.</p>",
+  "attractions": [],
+  "facts": [
+    {
+      "icon": "🏭",
+      "label": "Character",
+      "value": "Creative, industrial, up-and-coming"
+    },
+    {
+      "icon": "📍",
+      "label": "Location",
+      "value": "North of the IJ waterway"
+    },
+    {
+      "icon": "⛴",
+      "label": "Getting there",
+      "value": "Free GVB ferry from Centraal"
+    },
+    {
+      "icon": "⏱",
+      "label": "Time to allow",
+      "value": "Half day to full day"
+    },
+    {
+      "icon": "🌟",
+      "label": "Best for",
+      "value": "Art, views, alternative culture"
+    },
+    {
+      "icon": "📅",
+      "label": "Best day to visit",
+      "value": "Last Sunday (NDSM flea market)"
+    }
+  ],
+  "todos": [
+    {
+      "num": "01",
+      "title": "A'DAM Lookout — 360° views across the IJ",
+      "description": "The former Shell oil company headquarters has been converted into a cultural complex with a 360° observation deck on the 20th floor. The views across the IJ waterway and into the historic Centrum are the best elevated views available anywhere in Amsterdam. Add the Over the Edge swing (€5 extra) if you're not afraid of heights. 100 metres above the ground, swinging out over the building edge."
+    },
+    {
+      "num": "02",
+      "title": "STRAAT Museum — the world's largest street art museum",
+      "description": "An 8,800 square metre former shipyard building, covered floor-to-ceiling with commissioned murals by 150 international street artists. The scale makes it unlike anywhere else in Amsterdam — works that would be impressive outdoors are overwhelming inside. Allow 2 hours. The building alone is worth the ferry trip."
+    },
+    {
+      "num": "03",
+      "title": "Eye Filmmuseum",
+      "description": "The Eye Filmmuseum occupies a 2012 Delugan Meissl-designed building on the IJ waterfront — angular, white, and immediately recognisable from the Centraal Station ferry terminal. The building is free to enter and worth seeing as architecture alone. The permanent exhibition on film history is included with a film ticket; screenings run daily including rare silent films with live musical accompaniment."
+    },
+    {
+      "num": "04",
+      "title": "NDSM flea market (last Sunday of the month)",
+      "description": "The largest flea market in the Netherlands runs on the last Sunday of each month on the NDSM wharf — 300+ stalls selling vintage clothing, furniture, vinyl records, and general oddities. It runs from 9am to 5pm. The combination of the industrial setting, the scale, and the genuinely eclectic selection makes this one of the best market days in Amsterdam."
+    },
+    {
+      "num": "05",
+      "title": "Café de Ceuvel — sustainability on a contaminated plot",
+      "description": "De Ceuvel is a social enterprise built on a former industrial plot beside the NDSM wharf — contaminated land that couldn't be developed. A collective of architects converted 16 old houseboats into studios and a café, connected by raised wooden walkways. Solar-powered, composting toilets, and an in-house brewery. The terrace is one of the most atmospheric drinking spots in Amsterdam."
+    }
+  ],
+  "foods": [
+    {
+      "tag": "Waterfront beach bar",
+      "title": "Pllek",
+      "description": "A beach bar and restaurant built from shipping containers on the IJ waterfront, 10 minutes' walk from the NDSM ferry stop. Sand on the ground, the Amsterdam skyline across the water, and a menu that does both a good burger and a proper fish dish. In summer this is one of the most pleasant outdoor drinking spots in the city."
+    },
+    {
+      "tag": "Sustainable café",
+      "title": "Café de Ceuvel",
+      "description": "A solar-powered café and social enterprise on a contaminated industrial plot, built from converted houseboats connected by raised wooden walkways. The terrace is unlike anywhere else in Amsterdam. The homemade lemonade and the rotating local beer selection are both good. The composting toilet is part of the experience."
+    },
+    {
+      "tag": "Seafood restaurant",
+      "title": "Stork",
+      "description": "A large seafood restaurant in a former Fokker aircraft factory on the IJ waterfront — 15-metre ceilings, industrial fittings, and a menu built around North Sea fish. Expensive by Amsterdam standards (€35–50 for a main) but the setting is extraordinary and the quality matches. Book well ahead for evenings."
+    },
+    {
+      "tag": "NDSM food trucks",
+      "title": "NDSM Wharf food vendors",
+      "description": "On market days and during cultural events, the NDSM wharf fills with food trucks ranging from decent to excellent. The permanent café inside the STRAAT Museum building is a reliable option for lunch on non-market days — industrial setting, good coffee, simple food."
+    }
+  ],
+  "products": [
+    {
+      "image_url": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=600&auto=format&fit=crop&q=75",
+      "category": "Views & Experience",
+      "title": "A'DAM Lookout",
+      "description": "360° observation deck + the Over the Edge swing. Best views of Amsterdam, full stop. Book online — the last entry is 30 minutes before closing. Add the swing for €5 if you can face it.",
+      "cta": "Book the Lookout",
+      "link": "/experiences/"
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=600&auto=format&fit=crop&q=75",
+      "category": "Museum",
+      "title": "STRAAT Museum",
+      "description": "The world's largest street art museum — 150 artists, 8,800 square metres of murals in a former shipyard. Located at the NDSM wharf, 5 minutes by free ferry from Centraal.",
+      "cta": "Book STRAAT Tickets",
+      "link": "/museums/"
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=600&auto=format&fit=crop&q=75",
+      "category": "Experience",
+      "title": "THIS IS HOLLAND",
+      "description": "A 4D flying experience that takes you over the Netherlands at low altitude — tulip fields, windmills, Rotterdam's port, and the Amsterdam canal ring from the air. In the same building as the A'DAM Lookout.",
+      "cta": "Book the Flight",
+      "link": "/experiences/"
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=600&auto=format&fit=crop&q=75",
+      "category": "Museum",
+      "title": "Nxt Museum",
+      "description": "Amsterdam's museum of new media art — digital, generative, and interactive works in a converted transformer station. 3,500 square metres of industrial space turned over to works that respond to movement and live data.",
+      "cta": "Book Nxt Museum",
+      "link": "/experiences/"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "⛴",
+      "text": "Free GVB ferry from behind Amsterdam Centraal Station — the Buiksloterweg and IJplein ferries run 24/7. The NDSM ferry runs less frequently (check the schedule) but lands closest to the creative district."
+    },
+    {
+      "icon": "🚲",
+      "text": "Take your bike on the ferry (free) and cycle around Noord — the area is flat and well-connected by cycling paths. This is the best way to combine the NDSM wharf, Eye Filmmuseum, and A'DAM Lookout in one visit."
+    },
+    {
+      "icon": "🚌",
+      "text": "Several bus lines connect Noord to the rest of Amsterdam, but the ferry is almost always faster and more pleasant."
+    },
+    {
+      "icon": "⏱",
+      "text": "The ferry crossing takes 5 minutes. The ferries run continuously throughout the day — you'll rarely wait more than 10 minutes."
+    }
+  ]
+}

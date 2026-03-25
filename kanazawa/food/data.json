@@ -1,0 +1,159 @@
+{
+  "title": "Food & Eating in Kanazawa",
+  "eyebrow": "🍜 Kanazawa Food Guide",
+  "standfirst": "The Sea of Japan delivers its catch to Omicho Market every morning. Kanazawa built a food culture around that fact over 300 years. This is where to eat it.",
+  "hero_image": "/images/food.jpg",
+  "intro_html": "<p class=\"mb-4\">Kanazawa sits on the Sea of Japan coast at the mouth of two major fishing routes. The sea here is cold, deep, and rich — yellowtail, crab, sea urchin, abalone, nodoguro. The Maeda clan, who ruled the region for 280 years, were enthusiastic patrons of food culture: they kept specialist cooks, wrote cookbooks, and developed a local culinary tradition that drew on both the mountain interior and the sea. <strong>The result is Kaga ryori — one of Japan's four great regional cuisines, alongside Kyoto kaiseki, Osaka merchant cooking, and Edo townhouse food.</strong></p>",
+  "attractions": [
+    {
+      "id": "item-0",
+      "name": "Snow Crab (Kani)",
+      "category": "November – March only",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">The most prized produce from the Sea of Japan — zuwaigani (snow crab) arrives at Kanazawa's ports from November to March. Eaten boiled, as sashimi, or in hot pot. The legs are long, sweet, and pull cleanly from the shell. At Omicho Market, you'll see them alive in tanks.</p>"
+    },
+    {
+      "id": "item-1",
+      "name": "Nodoguro",
+      "category": "Year-round, best autumn",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Blackthroat seaperch — a deep-sea fish with extraordinary fat content, known locally as \"white tuna.\" Delicate, rich, and best prepared simply: grilled over charcoal with just salt. Nodoguro from the Sea of Japan is considered among the finest fish in the country. Order it as a single-fish course at any good restaurant.</p>"
+    },
+    {
+      "id": "item-2",
+      "name": "Kaga Ryori",
+      "category": "Year-round",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Traditional kaiseki using local mountain and sea ingredients — lily bulbs, mountain vegetables, bamboo shoots, sea urchin, abalone. More rustic and hearty than Kyoto-style kaiseki. Jibu-ni duck stew is the signature dish. Best experienced as a full multi-course lunch (more affordable than dinner) at an established restaurant.</p>"
+    },
+    {
+      "id": "item-3",
+      "name": "Gold Leaf Ice Cream",
+      "category": "Year-round",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Soft serve vanilla ice cream wrapped in a sheet of edible 24-karat gold leaf — a direct expression of Kanazawa's historic gold-leaf craft tradition. The gold is tasteless and adds nothing except spectacle, but the spectacle is worth having. Available from several vendors in Higashi Chaya and near Kenroku-en.</p>"
+    },
+    {
+      "id": "item-4",
+      "name": "Wagashi",
+      "category": "Seasonal varieties year-round",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Kanazawa is Japan's top city for traditional sweets outside Kyoto — used in tea ceremony and made with extraordinary artistry. Each shop produces seasonal shapes and flavours. Morihachi (founded 1625) and Tsuruki are the most respected names. Buy a small box as an edible souvenir; they keep for several days.</p>"
+    },
+    {
+      "id": "item-5",
+      "name": "Jibu-ni",
+      "category": "Year-round, best winter",
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Kanazawa's signature hot dish — duck or chicken simmered with fu (wheat gluten cakes) in a thick, glossy soy-based broth. Warming, savoury, and unlike anything you'll eat elsewhere. The name comes from the sound of the simmering liquid (jibu-jibu). Served in lacquerware, it is one of the most distinctively Kaga dishes on any menu.</p>"
+    },
+    {
+      "id": "item-6",
+      "name": "Higashiyama Sake Breweries",
+      "category": null,
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Several of Kanazawa's most respected sake brewers are based in the Higashiyama temple district, near the geisha quarter. Fukumitsuya (operating since 1625) offers brewery tours and tastings. The local style tends toward clean, dry junmai — a good match for the city's seafood. Buy a bottle at the source; the selection is different from what you find in shops.</p>"
+    },
+    {
+      "id": "item-7",
+      "name": "Craft Beer at Fumuroya",
+      "category": null,
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Kanazawa's most interesting craft beer destination — a converted kura (storehouse) that brews small batches using local ingredients. Rotating taps, a solid food menu featuring Kaga-style snacks, and a relaxed atmosphere. Located a short walk from the geisha districts. Opens from evening; popular with both locals and travellers.</p>"
+    },
+    {
+      "id": "item-8",
+      "name": "Standing Bars, Katamachi",
+      "category": null,
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Katamachi is Kanazawa's entertainment district — a dense grid of izakayas, standing bars, and hole-in-the-wall sake bars. The standing bars (tachinomi) are the most interesting: no seats, no pretension, just good sake and bar snacks eaten alongside salarymen and fishermen. Start anywhere after 8pm and follow your nose.</p>"
+    },
+    {
+      "id": "item-9",
+      "name": "Tea in Higashi Chaya",
+      "category": null,
+      "badge": null,
+      "image_url": null,
+      "description": "<p class=\"mb-4\">Several teahouses in Higashi Chaya district serve matcha with wagashi — the most authentic way to drink tea in a city that has been a tea culture centre since the 16th century. Shima teahouse (a registered National Important Cultural Property) serves tea in its historic rooms. Expect ¥800–1,200 for matcha with sweets.</p>"
+    }
+  ],
+  "facts": [
+    {
+      "label": "What to Eat",
+      "value": "Crab, nodoguro, jibu-ni, wagashi",
+      "icon": "🦀"
+    },
+    {
+      "label": "Best Market",
+      "value": "Omicho (170 stalls, 300 years old)",
+      "icon": "🏪"
+    },
+    {
+      "label": "Budget / Day",
+      "value": "¥3,000–6,000 eating well",
+      "icon": "💴"
+    },
+    {
+      "label": "Opening Hours",
+      "value": "9am – 5pm daily",
+      "icon": null
+    },
+    {
+      "label": "Best Time to Visit",
+      "value": "9–11am weekdays",
+      "icon": null
+    },
+    {
+      "label": "Kaisen-don Price",
+      "value": "¥1,000 – ¥1,800",
+      "icon": null
+    },
+    {
+      "label": "Closed Days",
+      "value": "Some stalls closed Wed/Sun",
+      "icon": null
+    },
+    {
+      "label": "Getting There",
+      "value": "Loop Bus: Musashi stop",
+      "icon": null
+    },
+    {
+      "label": "From Station",
+      "value": "12 min walk, 8 min bus",
+      "icon": null
+    }
+  ],
+  "getting_there": [],
+  "faqs": [
+    {
+      "question": "What is the best food to eat in Kanazawa?",
+      "answer": "Kanazawa's signature foods are <strong>snow crab (November to March only)</strong>, nodoguro (blackthroat seaperch), and jibu-ni (duck or chicken stew with fu wheat gluten in a soy broth). Kaga ryori kaiseki is the broader culinary tradition. For casual eating, a kaisen-don (seafood rice bowl) at Omicho Market is essential. Gold-leaf ice cream and wagashi traditional sweets are the iconic Kanazawa snacks."
+    },
+    {
+      "question": "When is snow crab season in Kanazawa?",
+      "answer": "Snow crab (zuwaigani) season runs <strong>November to March</strong>. The season opens ceremonially in early November at ports along the Sea of Japan coast. Outside these months, you will not find fresh snow crab. If your trip coincides with crab season, eating it at Omicho Market or in a restaurant is unmissable — it is the reason many Japanese plan their Kanazawa trips specifically for winter."
+    },
+    {
+      "question": "How much does eating at Omicho Market cost?",
+      "answer": "A <strong>kaisen-don (seafood rice bowl)</strong> at the upstairs market restaurants costs ¥1,000–1,800 depending on what seafood is featured. Snow crab bowls cost more (¥2,000–3,000 in season). Browsing the market itself is free. Individual sashimi pieces at some stalls run ¥200–500. It is possible to eat a very satisfying breakfast or lunch here for under ¥2,000."
+    },
+    {
+      "question": "What is jibu-ni and where can I try it?",
+      "answer": "Jibu-ni is Kanazawa's most distinctive local dish — <strong>duck or chicken simmered with fu (wheat gluten cakes) and seasonal vegetables</strong> in a thick, glossy soy-based broth thickened with starch. It is warming, savoury, and deeply Kaga in character. Available at almost any restaurant serving Kaga ryori; look for it on the menu in Higashi Chaya, Nagamachi, or near the castle. Kotobuki and Zeniya are well-regarded restaurants serving it."
+    },
+    {
+      "question": "Where can I buy wagashi in Kanazawa?",
+      "answer": "<strong>Morihachi</strong> (founded 1625, branches in Higashi Chaya and near Kenroku-en) and <strong>Tsuruki</strong> are the most respected wagashi makers in the city. Both produce seasonal sweets in beautiful wooden boxes. Many department store basement food halls also have excellent wagashi counters. Buy in the morning — the best pieces sell out by afternoon, especially on weekends."
+    }
+  ]
+}

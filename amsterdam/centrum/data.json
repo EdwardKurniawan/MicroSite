@@ -1,0 +1,59 @@
+{
+  "title": "Centrum & The Canal Ring",
+  "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
+  "standfirst": "The historic UNESCO-listed core of Amsterdam, where 17th-century wealth meets 21st-century tourism. Its concentric rings of water define the city's character.",
+  "hero_image": "/images/centrum.png",
+  "intro_html": "<p class=\" mb-4\">Amsterdam's city centre is a masterpiece of 17th-century urban planning. The 'Grachtengordel' (Canal Ring) was built as part of a massive expansion project during the Dutch Golden Age, creating four main concentric canals — Singel, Herengracht, Keizersgracht, and Prinsengracht — that still serve as the city's blueprint.</p><p class=\" mb-4\">While it is the most tourist-heavy part of Amsterdam, the Centrum remains extraordinary for its architecture alone. Every street corner offers a view of tilting gabled houses and stone bridges that have stood for four hundred years. This is where you'll find the Royal Palace, the Oude Kerk, and the busiest shopping streets in the Netherlands.</p>",
+  "attractions": [],
+  "facts": [
+    {
+      "icon": "🏘",
+      "label": "Character",
+      "value": "Historic, busy, iconic"
+    },
+    {
+      "icon": "📍",
+      "label": "Location",
+      "value": "The very center"
+    },
+    {
+      "icon": "🚶",
+      "label": "Best way",
+      "value": "Walking"
+    },
+    {
+      "icon": "🌟",
+      "label": "Best for",
+      "value": "Sightseeing, first-timers"
+    }
+  ],
+  "todos": [
+    {
+      "num": "01",
+      "title": "Dam Square",
+      "description": "The historic centre of Amsterdam, home to the Royal Palace and the National Monument. It's the city's main gathering point."
+    },
+    {
+      "num": "02",
+      "title": "Canal Cruise",
+      "description": "The best place to start any Amsterdam trip, offering the canonical view of the city from its famous waterways."
+    },
+    {
+      "num": "03",
+      "title": "Begijnhof",
+      "description": "A medieval courtyard that feels a world away from the busy Kalverstraat shopping street. A true hidden gem."
+    }
+  ],
+  "foods": [],
+  "products": [],
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "The entire area is walkable from Centraal Station."
+    },
+    {
+      "icon": "🚋",
+      "text": "Trams 2, 4, 12, 13, 14, 17 all serve the center."
+    }
+  ]
+}
