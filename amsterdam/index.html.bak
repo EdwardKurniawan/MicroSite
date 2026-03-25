@@ -32,6 +32,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/shared/global-nav.css">
+  <script src="/shared/global-nav.js" defer></script>
 
   <!-- ═══════════════════════════════════════════════
        JSON-LD SCHEMA STACK
@@ -450,43 +452,7 @@
     /* ════════════════════════════════
        HEADER / NAV
     ════════════════════════════════ */
-    .site-header {
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(255,255,255,.95);
-      backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--border);
-    }
-    /* Dutch flag accent stripe */
-    .site-header::before {
-      content: '';
-      display: block;
-      height: 4px;
-      background: linear-gradient(to right,
-        var(--flag-red)  0%, var(--flag-red)  33.33%,
-        #ffffff         33.33%, #ffffff         66.66%,
-        var(--flag-blue) 66.66%, var(--flag-blue) 100%
-      );
-    }
-    .nav-inner {
-      display: flex; align-items: center; justify-content: space-between;
-      height: 60px;
-    }
-    .nav-logo {
-      font-family: var(--font-display); font-size: 1.1rem; font-weight: 800;
-      color: var(--ink); letter-spacing: -.02em; white-space: nowrap;
-    }
-    .nav-logo span { color: var(--accent); }
-    .nav-links { display: flex; gap: 28px; list-style: none; }
-    .nav-links a { font-size: .875rem; font-weight: 500; color: var(--ink-muted); transition: color .2s; }
-    .nav-links a:hover { color: var(--accent); text-decoration: none; }
-    .nav-cta {
-      background: var(--accent); color: #fff; padding: 8px 18px;
-      border-radius: 40px; font-size: .875rem; font-weight: 600;
-      transition: background .2s, transform .15s;
-    }
-    .nav-cta:hover { background: var(--accent-dark); text-decoration: none; transform: translateY(-1px); }
-    .nav-hamburger { display: none; cursor: pointer; background: none; border: none; padding: 4px; }
-    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px 0; border-radius: 2px; transition: .3s; }
+    /* Global Nav Placeholder (Styles in /shared/global-nav.css) */
 
     /* ════════════════════════════════
        BREADCRUMB
@@ -1003,23 +969,7 @@
   <!-- ════════════════════════════════
        NAV
   ════════════════════════════════ -->
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav-inner">
-        <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
-        <ul class="nav-links">
-          <li><a href="/museums/">Museums</a></li>
-          <li><a href="/canal-cruises/">Canal Cruises</a></li>
-          <li><a href="/experiences/">Experiences</a></li>
-          <li><a href="/nature-day-trips/">Day Trips</a></li>
-        </ul>
-        <a href="#tickets" class="nav-cta">🎟 Buy Tickets</a>
-        <button class="nav-hamburger" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
-      </nav>
-    </div>
-  </header>
+  <!-- Global Nav Injected by /shared/global-nav.js -->
 
   <!-- ════════════════════════════════
        MAIN
@@ -1242,7 +1192,7 @@
 
             <a class="cat-card" href="/museums/">
               <img class="cat-card-img"
-                src="https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=700&auto=format&fit=crop&q=75"
+                src="https://images.unsplash.com/photo-1549405610-d8869ef4904a?w=700&auto=format&fit=crop&q=75"
                 alt="Museumplein Amsterdam with Rijksmuseum" loading="lazy" width="700" height="400" />
               <div class="cat-card-body">
                 <span class="cat-count">9 museums</span>
@@ -1254,7 +1204,7 @@
 
             <a class="cat-card" href="/history-heritage/">
               <img class="cat-card-img"
-                src="https://images.unsplash.com/photo-1555921015-5532091f6026?w=700&auto=format&fit=crop&q=75"
+                src="https://images.unsplash.com/photo-1540854486241-118cdd72b781?w=700&auto=format&fit=crop&q=75"
                 alt="Anne Frank House on Prinsengracht canal" loading="lazy" width="700" height="400" />
               <div class="cat-card-body">
                 <span class="cat-count">8 sites</span>
@@ -1278,7 +1228,7 @@
 
             <a class="cat-card" href="/nature-day-trips/">
               <img class="cat-card-img"
-                src="https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=700&auto=format&fit=crop&q=75"
+                src="https://images.unsplash.com/photo-1617653202545-930d9bc0c410?w=700&auto=format&fit=crop&q=75"
                 alt="Keukenhof tulip fields in bloom near Amsterdam" loading="lazy" width="700" height="400" />
               <div class="cat-card-body">
                 <span class="cat-count">9 options</span>
@@ -1302,7 +1252,7 @@
 
             <a class="cat-card" href="/tours/">
               <img class="cat-card-img"
-                src="https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=700&auto=format&fit=crop&q=75"
+                src="https://images.unsplash.com/photo-1545693006-2f0995ba1a88?w=700&auto=format&fit=crop&q=75"
                 alt="Jordaan neighbourhood Amsterdam street" loading="lazy" width="700" height="400" />
               <div class="cat-card-body">
                 <span class="cat-count">9 tours &amp; walks</span>
@@ -1418,13 +1368,13 @@
         <h2 class="section-heading" id="neighbourhoods">Explore Amsterdam's Neighbourhoods</h2>
         <div class="neighbourhood-row" role="list" aria-label="Amsterdam neighbourhoods">
           <a class="nb-card" href="/jordaan/" role="listitem">
-            <img src="https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=400&auto=format&fit=crop&q=70" alt="Jordaan neighbourhood" loading="lazy" width="200" height="160" />
+            <img src="https://images.unsplash.com/photo-1545693006-2f0995ba1a88?w=400&auto=format&fit=crop&q=70" alt="Jordaan neighbourhood" loading="lazy" width="200" height="160" />
             <div class="nb-overlay"></div>
             <div class="nb-name">Jordaan</div>
             <div class="nb-tagline">Brown cafés · 9 Straatjes · weekend markets</div>
           </a>
           <a class="nb-card" href="/de-pijp/" role="listitem">
-            <img src="https://images.unsplash.com/photo-1602526432604-029a709e131b?w=400&auto=format&fit=crop&q=70" alt="De Pijp neighbourhood" loading="lazy" width="200" height="160" />
+            <img src="https://images.unsplash.com/photo-1629837926863-71822818c30d?w=400&auto=format&fit=crop&q=70" alt="De Pijp neighbourhood" loading="lazy" width="200" height="160" />
             <div class="nb-overlay"></div>
             <div class="nb-name">De Pijp</div>
             <div class="nb-tagline">Albert Cuyp market · craft beer · best food in the city</div>
@@ -1442,7 +1392,7 @@
             <div class="nb-tagline">NDSM wharf · Eye Filmmuseum · free ferry from Centraal</div>
           </a>
           <a class="nb-card" href="/museumplein/" role="listitem">
-            <img src="https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=400&auto=format&fit=crop&q=70" alt="Museumplein Amsterdam" loading="lazy" width="200" height="160" />
+            <img src="https://images.unsplash.com/photo-1549405610-d8869ef4904a?w=400&auto=format&fit=crop&q=70" alt="Museumplein Amsterdam" loading="lazy" width="200" height="160" />
             <div class="nb-overlay"></div>
             <div class="nb-name">Museumplein</div>
             <div class="nb-tagline">Rijksmuseum · Van Gogh · Stedelijk — three museums, one lawn</div>

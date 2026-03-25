@@ -1,0 +1,362 @@
+{
+  "city_url": "/kanazawa/",
+  "city_name": "Kanazawa",
+  "meta_title": "17 Best Things To Do in Kanazawa (2026 Japan Guide)",
+  "meta_description": "Planning a trip to Kanazawa? Our 2026 local guide covers the 17 best things to do — Kenroku-en garden, Higashi Chaya geisha district, 21st Century Museum & hidden temples. Skip-the-line tips included.",
+  "canonical_url": "https://yourdomain.com/things-to-do/",
+  "og_title": "17 Best Things To Do in Kanazawa (2026 Japan Guide)",
+  "og_description": "The definitive Kanazawa travel guide — Kenroku-en, geisha districts, samurai quarters, fresh seafood markets and hidden ninja temples.",
+  "og_image": "https://yourdomain.com/images/kanazawa-hero.jpg",
+  "theme_accent": "#B5451B",
+  "theme_accent_dark": "#8f3515",
+  "theme_accent_light": "#fdf1ec",
+  "country": "Japan",
+  "author_name": "Yuki Tanaka",
+  "author_slug": "yuki-tanaka",
+  "updated_date": "March 2026",
+  "read_time": "10 min read",
+  "hero_image": "/images/hero.jpg",
+  "hero_alt": "Kanazawa Kenroku-en garden in autumn",
+  "hero_eyebrow": "🇯🇵 Ishikawa Prefecture, Japan",
+  "hero_h1": "17 Best Things To Do in Kanazawa",
+  "hero_tagline": "Japan's most underrated city — one of the country's three great gardens, two preserved geisha districts, a samurai quarter, a ninja temple, and the freshest seafood on the Sea of Japan coast. All within walking distance of each other.",
+  "quick_info": [
+    {
+      "icon": "🚅",
+      "label": "From Tokyo",
+      "value": "2h 30min (Shinkansen)"
+    },
+    {
+      "icon": "🏯",
+      "label": "Famous for",
+      "value": "Gardens, geisha, gold leaf"
+    },
+    {
+      "icon": "💴",
+      "label": "Currency",
+      "value": "Japanese Yen (¥)"
+    },
+    {
+      "icon": "🗣",
+      "label": "Language",
+      "value": "Japanese (minimal English)"
+    },
+    {
+      "icon": "🌸",
+      "label": "Best time",
+      "value": "April, October–November"
+    },
+    {
+      "icon": "🎌",
+      "label": "Nickname",
+      "value": "\"Little Kyoto\""
+    }
+  ],
+  "intro_html": "<p>Kanazawa spent 400 years being ruled by the Maeda clan — the most powerful feudal lords in Japan outside the Tokugawa shogunate itself. The Maeda were wealthy enough to patronise arts, build gardens, and maintain samurai culture on a grand scale. They were also wise enough never to pick a fight with Tokugawa, which meant Kanazawa was never attacked. It was also spared Allied bombing in World War Two because it had no military industry.</p>\n          <p>The result is a city that looks, in several neighbourhoods, almost exactly as it did in the Edo period. <strong>Three geisha districts still operating. A samurai quarter with original earthen walls. A castle rebuilt to original specifications. And Kenroku-en — a garden that took 200 years to complete and is still considered one of the finest in Japan.</strong></p>\n          <p>It takes about 90 minutes by Shinkansen from Tokyo. Most visitors don't come. That is their loss and your advantage.</p>",
+  "category_intro": "17 attractions, experiences, and hidden gems across 4 categories — each with opening hours, booking tips, and honest advice on what's worth your time.",
+  "categories": [
+    {
+      "url": "/gardens/",
+      "image": "/images/gardens.jpg",
+      "alt": "Kenroku-en garden Kanazawa",
+      "count": "3 gardens & parks",
+      "title": "Gardens & Nature",
+      "description": "Kenroku-en, Gyokusen-inmaru Garden inside the castle, and Nomura Garden in the samurai house — three centuries of Japanese landscape design within a 10-minute walk of each other.",
+      "cta": "Explore Gardens"
+    },
+    {
+      "url": "/culture/",
+      "image": "/images/culture.jpg",
+      "alt": "Higashi Chaya geisha district Kanazawa",
+      "count": "7 cultural sites",
+      "title": "Culture & History",
+      "description": "Two geisha districts, a samurai quarter, a ninja temple, Kanazawa Castle, and the 21st Century Museum — traditional Japan and contemporary art within the same city block.",
+      "cta": "Explore Culture"
+    },
+    {
+      "url": "/food/",
+      "image": "/images/food.jpg",
+      "alt": "Omicho Market fresh seafood Kanazawa",
+      "count": "4 food experiences",
+      "title": "Food & Markets",
+      "description": "Omicho Market's 170-stall seafood labyrinth, Kaga ryori kaiseki, gold-leaf ice cream, and the Higashiyama sake breweries — Kanazawa has one of Japan's most serious food cultures.",
+      "cta": "Explore Food"
+    },
+    {
+      "url": "/day-trips/",
+      "image": "/images/day-trips.jpg",
+      "alt": "Shirakawa-go UNESCO village Japan",
+      "count": "3 day trips",
+      "title": "Day Trips",
+      "description": "Shirakawa-go (UNESCO gassho-zukuri farmhouses), Noto Peninsula coastline, and Kaga Onsen hot spring resort — all within 90 minutes of Kanazawa by bus or train.",
+      "cta": "Plan a Day Trip"
+    }
+  ],
+  "itinerary_days": 3,
+  "itinerary_intro": "Three days covers everything essential without rushing. Structured to minimise transit — the city centre is compact enough to walk most of it.",
+  "itinerary_tip_bold": "One booking to make in advance:",
+  "itinerary_tip_html": "Myoryuji (Ninja Temple) requires a reservation — book by phone or online before you travel. Everything else in Kanazawa is walk-in, which is one of the things that makes it so refreshing compared to Kyoto.",
+  "itinerary": [
+    {
+      "day_num": "1",
+      "theme": "Gardens, Castle & Samurai Quarter",
+      "header_bg": "var(--accent)",
+      "header_color": "#fff",
+      "header_border": false,
+      "slots": [
+        {
+          "time": "Morning",
+          "content_html": "<strong>Kenroku-en Garden</strong> — Arrive at opening (7am March–October) to have it almost to yourself. The garden covers 11.4 hectares; allow at least 90 minutes. The Kotoji stone lantern reflected in the pond is the shot. Exit through the south gate directly into Kanazawa Castle Park."
+        },
+        {
+          "time": "Afternoon",
+          "content_html": "<strong>Kanazawa Castle Park</strong> → <strong>Nagamachi Samurai District</strong>. Walk through the castle grounds (free, 40 minutes), then descend to Nagamachi — 20-minute walk. The Nomura Samurai House (¥550) has the best interior garden in the district. The earthen walls and narrow lanes are best in the late afternoon light."
+        },
+        {
+          "time": "Evening",
+          "content_html": "<strong>Katamachi</strong> — Kanazawa's main eating and drinking district, 10-minute walk from Nagamachi. Dinner at a standing izakaya or sushi restaurant. Try the nodoguro (blackthroat seaperch) if it's on the menu — this is where it comes from."
+        }
+      ]
+    },
+    {
+      "day_num": "2",
+      "theme": "Geisha Districts, Market & Contemporary Art",
+      "header_bg": "var(--ink)",
+      "header_color": "#fff",
+      "header_border": false,
+      "slots": [
+        {
+          "time": "Morning",
+          "content_html": "<strong>Omicho Market</strong> — Go early (9am) when the fish is freshest. Eat breakfast at one of the market restaurants — a bowl of fresh seafood over rice costs ¥1,000–1,500. Then walk 15 minutes east to <strong>Higashi Chaya District</strong>. The teahouse streets are most atmospheric before the tour buses arrive. Duck inside one of the teahouse museums to understand how geisha culture works."
+        },
+        {
+          "time": "Afternoon",
+          "content_html": "<strong>Higashiyama Temple Walk</strong> — The hillside trail above Higashi Chaya links 70 temples and shrines in 2km. Quiet, largely tourist-free, and beautiful. Allow 90 minutes. Return to the city centre by mid-afternoon for the <strong>21st Century Museum of Contemporary Art</strong>. The free zone is genuinely interesting; the paid exhibitions (¥360–2,500) are world-class."
+        },
+        {
+          "time": "Evening",
+          "content_html": "<strong>Nishi Chaya District</strong> — The smaller, quieter geisha quarter on the west side of the city. Visit the free museum inside the restored teahouse, then browse the craft shops for gold leaf goods. Dinner in the surrounding Teramachi area."
+        }
+      ]
+    },
+    {
+      "day_num": "3",
+      "theme": "Ninja Temple, Zen Museum & Day Trip",
+      "header_bg": "var(--surface-2)",
+      "header_color": "inherit",
+      "header_border": false,
+      "slots": [
+        {
+          "time": "Morning",
+          "content_html": "<strong>Myoryuji — Ninja Temple</strong> — Book your 9am or 10am tour slot in advance (mandatory reservations). The 1-hour guided tour through 29 staircases, secret rooms, and escape tunnels is unlike anything else in Japan. Adjacent to Nishi Chaya — combine both in the morning."
+        },
+        {
+          "time": "Midday",
+          "content_html": "<strong>D.T. Suzuki Museum</strong> — A 15-minute walk. The water mirror garden is one of the most meditative spaces in Japan. Allow 45 minutes. Lunch at a soba restaurant in the Honda-machi area nearby."
+        },
+        {
+          "time": "Afternoon",
+          "content_html": "<strong>Option A: Shirakawa-go day trip</strong> — Bus from Kanazawa Station (1h15min, ¥1,850 one way). UNESCO-listed village of thatched gassho-zukuri farmhouses in a mountain valley. Return buses run until early evening.<br><strong>Option B: Kaga Onsen</strong> — Hot spring resort towns (Yamanaka, Yamashiro, Katayamazu) 40 minutes by train. Perfect final afternoon before departure."
+        }
+      ]
+    }
+  ],
+  "neighbourhoods": [
+    {
+      "url": "/higashiyama/",
+      "image": "/images/higashiyama.jpg",
+      "alt": "Higashiyama Higashi Chaya district",
+      "name": "Higashiyama",
+      "tagline": ""
+    },
+    {
+      "url": "/nagamachi/",
+      "image": "/images/nagamachi.jpg",
+      "alt": "Nagamachi samurai district",
+      "name": "Nagamachi",
+      "tagline": ""
+    },
+    {
+      "url": "/katamachi/",
+      "image": "/images/katamachi.jpg",
+      "alt": "Katamachi Kanazawa",
+      "name": "Katamachi",
+      "tagline": ""
+    },
+    {
+      "url": "/nishi-chaya/",
+      "image": "/images/nishi-chaya.jpg",
+      "alt": "Nishi Chaya Kanazawa",
+      "name": "Nishi Chaya",
+      "tagline": ""
+    }
+  ],
+  "weather_intro": "Kanazawa rewards every season differently — but the gap between peak and off-peak is smaller than in Kyoto, because the crowds are always smaller.",
+  "weather_note": "✦ = recommended season. ✦✦ = best of year. Jan–Feb yukitsuri (rope-supported trees in Kenroku-en) is a unique winter spectacle.",
+  "weather": [
+    {
+      "highlight_class": "",
+      "month": "Jan",
+      "high": "7°C",
+      "low": "1°C",
+      "rain_days": "20",
+      "verdict": "Heavy snow — Kenroku-en yukitsuri ✦",
+      "verdict_class": "wv-ok"
+    },
+    {
+      "highlight_class": "",
+      "month": "Feb",
+      "high": "8°C",
+      "low": "1°C",
+      "rain_days": "17",
+      "verdict": "Cold, snow possible",
+      "verdict_class": "wv-ok"
+    },
+    {
+      "highlight_class": "",
+      "month": "Mar",
+      "high": "12°C",
+      "low": "4°C",
+      "rain_days": "16",
+      "verdict": "Late plum blossom",
+      "verdict_class": "wv-ok"
+    },
+    {
+      "highlight_class": "weather-highlight",
+      "month": "Apr",
+      "high": "18°C",
+      "low": "9°C",
+      "rain_days": "13",
+      "verdict": "Cherry blossom in Kenroku-en ✦✦",
+      "verdict_class": "wv-best"
+    },
+    {
+      "highlight_class": "",
+      "month": "May",
+      "high": "23°C",
+      "low": "13°C",
+      "rain_days": "12",
+      "verdict": "Warm, pleasant",
+      "verdict_class": "wv-good"
+    },
+    {
+      "highlight_class": "",
+      "month": "Jun",
+      "high": "26°C",
+      "low": "18°C",
+      "rain_days": "15",
+      "verdict": "Rainy season begins",
+      "verdict_class": "wv-ok"
+    },
+    {
+      "highlight_class": "",
+      "month": "Jul",
+      "high": "30°C",
+      "low": "22°C",
+      "rain_days": "14",
+      "verdict": "Hot & humid",
+      "verdict_class": "wv-poor"
+    },
+    {
+      "highlight_class": "",
+      "month": "Aug",
+      "high": "32°C",
+      "low": "23°C",
+      "rain_days": "11",
+      "verdict": "Peak heat — avoid if possible",
+      "verdict_class": "wv-poor"
+    },
+    {
+      "highlight_class": "",
+      "month": "Sep",
+      "high": "27°C",
+      "low": "19°C",
+      "rain_days": "14",
+      "verdict": "Still warm, easing",
+      "verdict_class": "wv-ok"
+    },
+    {
+      "highlight_class": "weather-highlight",
+      "month": "Oct",
+      "high": "21°C",
+      "low": "13°C",
+      "rain_days": "14",
+      "verdict": "Autumn foliage — best month ✦✦",
+      "verdict_class": "wv-best"
+    },
+    {
+      "highlight_class": "weather-highlight",
+      "month": "Nov",
+      "high": "15°C",
+      "low": "7°C",
+      "rain_days": "17",
+      "verdict": "Peak autumn colour ✦",
+      "verdict_class": "wv-best"
+    },
+    {
+      "highlight_class": "",
+      "month": "Dec",
+      "high": "10°C",
+      "low": "3°C",
+      "rain_days": "21",
+      "verdict": "Snow starts — very quiet",
+      "verdict_class": "wv-ok"
+    }
+  ],
+  "tickets_intro": "Reserve your spot at Kanazawa's top attractions — including the Ninja Temple, which requires advance booking.",
+  "transport_tip_bold": "IC Card tip:",
+  "transport_tip_html": "Load an IC card (Suica or ICOCA) at any major station before arriving. Works on all Kanazawa buses and is far faster than buying individual tickets.",
+  "transport": [
+    {
+      "icon": "🚅",
+      "title": "Shinkansen from Tokyo",
+      "description": "Hokuriku Shinkansen — Kagayaki service is fastest at 2h30min. Around ¥14,000 one way. Covered by JR Pass."
+    },
+    {
+      "icon": "🚂",
+      "title": "Limited Express from Osaka/Kyoto",
+      "description": "Thunderbird limited express — 2h15min from Osaka, 2h45min from Kyoto. Around ¥7,500. Also JR Pass eligible."
+    },
+    {
+      "icon": "🚌",
+      "title": "Loop Bus (within Kanazawa)",
+      "description": "The Kanazawa Loop Bus connects all major sights for ¥200 per ride or ¥600/day unlimited. Runs every 15 minutes."
+    },
+    {
+      "icon": "🚶",
+      "title": "On Foot",
+      "description": "The city centre — Kenroku-en, castle, Nagamachi, 21st Century Museum — is walkable in 30 minutes end to end. Higashi Chaya is a 20-minute walk from the castle."
+    }
+  ],
+  "history_html": "<h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">The Maeda Clan — Japan's Second-Richest Lord</h3>\n          <p>The story of modern Kanazawa begins in 1583, when Maeda Toshiie was awarded the Kaga domain by Toyotomi Hideyoshi. The Kaga domain produced 1 million koku of rice annually — a measure of wealth second only to the Tokugawa shogunate itself. This made the Maeda the richest lords in Japan outside the ruling family, and Kanazawa their capital.</p>\n          <p>The Maeda maintained their position through a deliberate strategy: never threaten the Tokugawa. While other lords built armies, the Maeda built culture. They imported craftsmen from Kyoto — lacquerware specialists, silk dyers, gold leaf beaters, Noh theatre troupes, tea ceremony masters. Kanazawa became, in the words of one historian, <strong>Japan's greatest patronage city</strong>. The traditional crafts that define the city today — Kaga Yuzen silk dyeing, Kaga lacquerware, Kenzan pottery, gold leaf — all trace their origins to this period of deliberate cultural investment.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">Kenroku-en — 200 Years in the Making</h3>\n          <p>Construction of Kenroku-en began in the 1670s as an outer garden for the castle. Different Maeda lords added to it over two centuries — ponds, streams, stone lanterns, pavilions, and thousands of trees carefully positioned for seasonal effect. The name Kenroku-en means \"garden of six attributes\" — a reference to the six qualities considered essential in a perfect garden: spaciousness, seclusion, artifice, antiquity, watercourses, and panoramic views. The garden has all six simultaneously. According to classical Chinese theory, this should be impossible. The Maeda did it anyway.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">Why Kanazawa Survived</h3>\n          <p>Kanazawa was bombed once during World War Two, by accident, when a single American aircraft dropped a bomb in the wrong location. The city had no military industry, no strategic facilities, and no reason to destroy. The result is that Kanazawa's historic districts — the geisha quarters, the samurai neighbourhoods, the castle grounds — are as close to their Edo-period condition as anywhere in Japan. When Kyoto visitors complain that Kyoto has lost its soul to tourism, Kanazawa is the place they should go instead.</p>",
+  "faqs": [
+    {
+      "question": "What is Kanazawa best known for?",
+      "answer": "Kanazawa is best known for Kenroku-en (one of Japan's three great gardens), its preserved geisha districts (Higashi Chaya and Nishi Chaya), the samurai quarter of Nagamachi, the 21st Century Museum of Contemporary Art, and its exceptional seafood and Kaga cuisine. It's often called \"Little Kyoto\" for its traditional culture, but unlike Kyoto it was never bombed and retains an authenticity that many visitors find more affecting."
+    },
+    {
+      "question": "How many days do you need in Kanazawa?",
+      "answer": "Two full days covers the essential Kanazawa — Kenroku-en, the castle, Higashi Chaya, Nagamachi, Omicho Market, and the 21st Century Museum. Three days lets you slow down, walk the Higashiyama temple trail, visit Myoryuji (the ninja temple), and take a half-day trip to Noto Peninsula or Shirakawa-go. Four days is ideal if you want to go deep into Kaga Onsen and the surrounding countryside."
+    },
+    {
+      "question": "What is the best time to visit Kanazawa?",
+      "answer": "April (cherry blossom in Kenroku-en), and October–November (autumn foliage at the garden and temple walks) are the best times. Winter brings heavy snow that transforms Kenroku-en into a landscape of yukitsuri (rope-supported trees) — one of Japan's most iconic seasonal sights. Avoid August if you dislike heat and humidity."
+    },
+    {
+      "question": "Do I need to book Kanazawa attractions in advance?",
+      "answer": "The one attraction requiring advance booking is Myoryuji (the Ninja Temple) — reservations are mandatory and fill up quickly on weekends. The 21st Century Museum is busiest on weekends; arriving at opening time (10am) avoids queues. All other major sights including Kenroku-en, Higashi Chaya, and Kanazawa Castle are walk-in."
+    },
+    {
+      "question": "How do you get to Kanazawa?",
+      "answer": "The fastest route from Tokyo is the Hokuriku Shinkansen (bullet train) — 2.5 hours from Tokyo Station to Kanazawa Station, around ¥14,000 one way. From Osaka or Kyoto, the limited express Thunderbird takes 2–2.5 hours (¥7,500). Kanazawa is not on the main Tokaido Shinkansen line, so it requires a deliberate detour — which is precisely why it's remained more authentic than Kyoto."
+    },
+    {
+      "question": "What food is Kanazawa famous for?",
+      "answer": "Kanazawa's food culture is built around fresh seafood from the Sea of Japan — particularly snow crab (November–March), yellowtail (buri), and Nodoguro (blackthroat seaperch). Kaga cuisine (Kaga ryori) is the local kaiseki tradition, more rustic than Kyoto's. Other specialities: jibu-ni (duck stew with fu dumplings), cold soba, gold-leaf ice cream, and wagashi (traditional sweets). Omicho Market is the place to eat it all."
+    },
+    {
+      "question": "Is a Japan Rail Pass worth it for Kanazawa?",
+      "answer": "Yes, if you're combining Kanazawa with Tokyo and/or Osaka on a longer Japan trip. The Hokuriku Shinkansen from Tokyo alone costs around ¥28,000 return, and a 7-day JR Pass costs ¥50,000 — so it pays off quickly if you're also covering other Shinkansen legs."
+    }
+  ]
+}

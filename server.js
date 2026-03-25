@@ -3,9 +3,23 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { Pool } = require('pg');
+const Handlebars = require('handlebars');
 
 const PORT = process.env.PORT || 3001;
 const DIR = __dirname;
+
+// Pre-compile handlebars template
+let masterTemplate = null;
+try {
+  const footerPartial = fs.readFileSync(path.join(DIR, 'shared', 'components', 'footer.hbs'), 'utf8');
+  Handlebars.registerPartial('footer', footerPartial);
+  
+  const hbsSource = fs.readFileSync(path.join(DIR, 'templates', 'guide-master.hbs'), 'utf8');
+  masterTemplate = Handlebars.compile(hbsSource);
+  console.log('[System] Master Handlebars template compiling active.');
+} catch (e) {
+  console.error('[Warning] Failed to load Handlebars templates. Data-driven routing may fail:', e.message);
+}
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
@@ -46,9 +60,18 @@ function getCityFromRequest(req) {
   const host = (req.headers.host || '').replace(/:\d+$/, '');
   if (CITY_HOSTS[host]) return CITY_HOSTS[host];
 
-  // Local dev fallback — use ?city= query param, then CITY env var, then amsterdam
-  const params = new URLSearchParams(req.url.split('?')[1] || '');
-  const slug = params.get('city') || DEFAULT_CITY;
+  // Local dev fallback — use ?city= query param, then Referer query param, then CITY env var, then amsterdam
+  const url = new URL(req.url, `http://${req.headers.host}`);
+  let slug = url.searchParams.get('city');
+
+  if (!slug && req.headers.referer) {
+    try {
+      const refUrl = new URL(req.headers.referer);
+      slug = refUrl.searchParams.get('city');
+    } catch (e) {}
+  }
+
+  slug = slug || DEFAULT_CITY;
   const match = Object.values(CITY_HOSTS).find(c => c.slug === slug);
   return match || CITY_HOSTS['amsterdam-guide.com'];
 }
@@ -56,6 +79,7 @@ function getCityFromRequest(req) {
 http.createServer(async (req, res) => {
   const urlPath = req.url.split('?')[0];
   const city = getCityFromRequest(req);
+  console.log(`[${req.method}] ${req.url} -> City: ${city.slug}`);
 
   // ── API: GET /api/venues ──────────────────────────────
   if (urlPath === '/api/venues') {
@@ -93,13 +117,37 @@ http.createServer(async (req, res) => {
     return;
   }
 
-  // ── Static files — serve from city folder ─────────────
-  // If a specific city is active and has its own index.html, serve that.
-  // Root hub index.html only served when no city folder index exists.
+  // ── Static files / Data-driven rendering ─────────────
   let filePath;
   if (urlPath === '/' || urlPath === '') {
+    // 1. Scalable Template Route: Check if data.json exists for this city
+    const dataPath = path.join(DIR, city.slug, 'data.json');
+    if (fs.existsSync(dataPath)) {
+      try {
+        // Dev Mode: Re-read template on every request for instant visual feedback
+        const footerPartial = fs.readFileSync(path.join(DIR, 'shared', 'components', 'footer.hbs'), 'utf8');
+        Handlebars.registerPartial('footer', footerPartial);
+        const hbsSource = fs.readFileSync(path.join(DIR, 'templates', 'guide-master.hbs'), 'utf8');
+        const liveTemplate = Handlebars.compile(hbsSource);
+
+        const pageData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+        pageData.current_year = new Date().getFullYear(); // Dynamic helper
+        
+        const html = liveTemplate(pageData);
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        res.end(html);
+        return;
+      } catch (err) {
+        console.error(`[Template Render Error for ${city.slug}]:`, err);
+      }
+    }
+
+    // 2. Legacy Static Route
     const cityIndex = path.join(DIR, city.slug, 'index.html');
     filePath = fs.existsSync(cityIndex) ? cityIndex : path.join(DIR, 'index.html');
+  } else if (urlPath.startsWith('/shared/')) {
+    // Serve shared assets from the root shared folder
+    filePath = path.join(DIR, urlPath);
   } else if (urlPath.startsWith('/images/')) {
     // Serve images from the active city's images folder
     filePath = path.join(DIR, city.slug, urlPath);
@@ -109,10 +157,14 @@ http.createServer(async (req, res) => {
       filePath = path.join(filePath, 'index.html');
     }
   }
-
+  
   const ext = path.extname(filePath);
   fs.readFile(filePath, (err, data) => {
-    if (err) { res.writeHead(404); res.end('Not found'); return; }
+    if (err) { 
+      res.writeHead(404); 
+      res.end('Not found'); 
+      return; 
+    }
     res.writeHead(200, { 'Content-Type': mime[ext] || 'text/plain' });
     res.end(data);
   });

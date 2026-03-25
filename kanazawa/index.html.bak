@@ -25,6 +25,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/shared/global-nav.css">
+  <script src="/shared/global-nav.js" defer></script>
 
   <!-- ═══════════════════════════════════════════════
        JSON-LD SCHEMA STACK
@@ -241,18 +243,7 @@
     .content-wrap { max-width: var(--max-w);      margin: 0 auto; }
 
     /* ── HEADER ── */
-    .site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); }
-    .site-header::before { content: ''; display: block; height: 4px; background: var(--japan-red); }
-    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
-    .nav-logo { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--ink); letter-spacing: -.02em; white-space: nowrap; }
-    .nav-logo span { color: var(--accent); }
-    .nav-links { display: flex; gap: 28px; list-style: none; }
-    .nav-links a { font-size: .875rem; font-weight: 500; color: var(--ink-muted); transition: color .2s; }
-    .nav-links a:hover { color: var(--accent); text-decoration: none; }
-    .nav-cta { background: var(--accent); color: #fff; padding: 8px 18px; border-radius: 40px; font-size: .875rem; font-weight: 600; transition: background .2s; }
-    .nav-cta:hover { background: var(--accent-dark); text-decoration: none; }
-    .nav-hamburger { display: none; cursor: pointer; background: none; border: none; padding: 4px; }
-    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px 0; border-radius: 2px; }
+    /* Global Nav Placeholder (Styles in /shared/global-nav.css) */
 
     /* ── BREADCRUMB ── */
     .breadcrumb { padding: 14px 0 0; font-size: .8rem; color: var(--ink-muted); }
@@ -398,7 +389,6 @@
       .hero { min-height: 340px; border-radius: var(--radius-md); }
       .hero-content { padding: 24px 22px 32px; }
       .nav-links, .nav-cta { display: none; }
-      .nav-hamburger { display: block; }
       .footer-grid { grid-template-columns: 1fr; }
       .cta-form { flex-direction: column; }
     }
@@ -406,21 +396,7 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav-inner">
-        <a href="/" class="nav-logo">Kanazawa<span>Guide</span></a>
-        <ul class="nav-links">
-          <li><a href="/gardens/">Gardens</a></li>
-          <li><a href="/culture/">Culture</a></li>
-          <li><a href="/food/">Food</a></li>
-          <li><a href="/day-trips/">Day Trips</a></li>
-        </ul>
-        <a href="#tickets" class="nav-cta">🎟 Book Tickets</a>
-        <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
-      </nav>
-    </div>
-  </header>
+  <!-- Global Nav Injected by /shared/global-nav.js -->
 
   <main>
     <div class="container">

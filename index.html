@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/shared/global-nav.css">
+  <script src="/shared/global-nav.js" defer></script>
   <style>
     :root {
       --accent: #E8601C;
@@ -34,10 +36,7 @@
     .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
 
     /* NAV */
-    .site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); }
-    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
-    .nav-logo { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--ink); letter-spacing: -.02em; }
-    .nav-logo span { color: var(--accent); }
+    /* Global Nav Placeholder (Styles in /shared/global-nav.css) */
 
     /* HERO */
     .hero { text-align: center; padding: 80px 24px 64px; }
@@ -68,13 +67,7 @@
   </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav-inner">
-        <a href="/" class="nav-logo">Travel<span>Sides</span></a>
-      </nav>
-    </div>
-  </header>
+  <!-- Global Nav Injected by /shared/global-nav.js -->
 
   <main>
     <div class="hero">

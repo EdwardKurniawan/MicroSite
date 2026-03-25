@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}" />
+  <link rel="canonical" href="{{canonical_url}}" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article" />
+  <meta property="og:title"       content="{{og_title}}" />
+  <meta property="og:description" content="{{og_description}}" />
+  <meta property="og:image"       content="{{og_image}}" />
+  <meta property="og:url"         content="{{canonical_url}}" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="{{og_title}}" />
+  <meta name="twitter:description" content="{{og_description}}" />
+  <meta name="twitter:image"       content="{{og_image}}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="/shared/global-nav.css">
+  <script src="/shared/global-nav.js" defer></script>
+
+  <!-- ═══════════════════════════════════════════════
+       JSON-LD SCHEMA STACK
+  ════════════════════════════════════════════════ -->
+  {{#if schema_json_article}}
+  <script type="application/ld+json">
+  {{{schema_json_article}}}
+  </script>
+  {{/if}}
+
+  {{#if schema_json_itemlist}}
+  <script type="application/ld+json">
+  {{{schema_json_itemlist}}}
+  </script>
+  {{/if}}
+
+  {{#if schema_json_attractions}}
+  <script type="application/ld+json">
+  {{{schema_json_attractions}}}
+  </script>
+  {{/if}}
+
+  <style>
+    :root {
+      --accent:       {{theme_accent}};
+      --accent-dark:  {{theme_accent_dark}};
+      --accent-light: {{theme_accent_light}};
+      --ink:          #1a1a1a;
+      --ink-muted:    #555;
+      --surface:      #ffffff;
+      --surface-2:    #f8f7f5;
+      --border:       #e5e3df;
+      --radius-sm:    6px;
+      --radius-md:    12px;
+      --radius-lg:    20px;
+      --shadow-sm:    0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+      --shadow-md:    0 4px 16px rgba(0,0,0,.10), 0 2px 6px rgba(0,0,0,.07);
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+      --max-w:        760px;
+      --max-w-wide:   1160px;
+      --flag-red:     {{#if flag_red}}{{flag_red}}{{else}}#BC002D{{/if}}; /* Optional country flag colors */
+      --flag-blue:    {{#if flag_blue}}{{flag_blue}}{{else}}#000000{{/if}};
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body { font-family: var(--font-body); color: var(--ink); background: var(--surface); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container    { max-width: var(--max-w-wide); margin: 0 auto; padding: 0 24px; }
+    .content-wrap { max-width: var(--max-w);      margin: 0 auto; }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb { padding: 14px 0 0; font-size: .8rem; color: var(--ink-muted); }
+    .breadcrumb a { color: var(--ink-muted); }
+    .breadcrumb a:hover { color: var(--accent); text-decoration: none; }
+    .breadcrumb span { margin: 0 6px; }
+
+    /* ── HERO ── */
+    .hero { background: linear-gradient(135deg,#1a0a00 0%,#3d1a0a 60%,#1a0a00 100%); border-radius: var(--radius-lg); margin: 12px 0 0; min-height: 480px; position: relative; overflow: hidden; display: flex; align-items: flex-end; }
+    .hero-img { position: absolute; inset: 0; object-fit: cover; width: 100%; height: 100%; opacity: .5; }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top,rgba(0,0,0,.82) 0%,rgba(0,0,0,.2) 55%,transparent 100%); }
+    .hero-content { position: relative; z-index: 2; padding: 40px 48px 52px; max-width: 720px; }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: #fff; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 5px 14px; border-radius: 40px; margin-bottom: 16px; }
+    .hero h1 { font-family: var(--font-display); font-size: clamp(2rem,4.5vw,3.2rem); font-weight: 800; line-height: 1.12; color: #fff; margin-bottom: 16px; letter-spacing: -.025em; }
+    .hero-tagline { color: rgba(255,255,255,.88); font-size: 1rem; line-height: 1.55; margin-bottom: 22px; max-width: 560px; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 16px; color: rgba(255,255,255,.72); font-size: .83rem; }
+    .hero-meta a { color: rgba(255,255,255,.9); text-decoration: underline; text-underline-offset: 2px; }
+
+    /* ── QUICK INFO ── */
+    .qi-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 12px; margin: 32px 0; }
+    .qi-card { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 16px 18px; }
+    .qi-icon { font-size: 1.4rem; margin-bottom: 5px; }
+    .qi-label { font-size: .68rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 3px; }
+    .qi-value { font-weight: 600; font-size: .9rem; color: var(--ink); }
+
+    /* ── SECTION HEADINGS ── */
+    .section-heading { font-family: var(--font-display); font-size: 1.7rem; font-weight: 800; letter-spacing: -.02em; margin: 48px 0 18px; padding-top: 20px; }
+    .section-heading::after { content: ''; display: block; width: 44px; height: 3px; background: var(--accent); border-radius: 2px; margin-top: 8px; }
+
+    /* ── INTRO ── */
+    .intro p { font-size: 1.03rem; color: var(--ink-muted); margin-bottom: 18px; }
+    .intro strong { color: var(--ink); }
+
+    /* ── TOC ── */
+    .toc { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 22px 26px; margin: 32px 0; }
+    .toc-title { font-weight: 700; font-size: .85rem; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 12px; }
+    .toc-list { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 24px; }
+    .toc-list a { font-size: .88rem; color: var(--ink-muted); display: flex; align-items: center; gap: 7px; }
+    .toc-list a:hover { color: var(--accent); text-decoration: none; }
+    .toc-num { font-weight: 700; color: var(--accent); min-width: 20px; }
+
+    /* ── WEATHER TABLE ── */
+    .weather-table-wrap { overflow-x: auto; margin-bottom: 12px; }
+    .weather-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    .weather-table th { background: var(--surface-2); padding: 10px 12px; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); white-space: nowrap; }
+    .weather-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); }
+    .weather-table tr:last-child td { border-bottom: none; }
+    .weather-highlight { background: #fdf8f4; }
+    .wv { display: inline-block; font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
+    .wv-best  { background: #d1fae5; color: #065f46; }
+    .wv-good  { background: #dbeafe; color: #1e40af; }
+    .wv-ok    { background: #fef3c7; color: #92400e; }
+    .wv-poor  { background: #f3f4f6; color: #6b7280; }
+
+    /* ── CATEGORY GRID ── */
+    .category-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 22px; margin-bottom: 48px; }
+    .cat-card { border-radius: var(--radius-lg); overflow: hidden; text-decoration: none; color: inherit; background: var(--surface); border: 1px solid var(--border); display: flex; flex-direction: column; transition: box-shadow .2s,transform .2s; }
+    .cat-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); text-decoration: none; }
+    .cat-card-img { width: 100%; height: 190px; object-fit: cover; display: block; background: var(--surface-2); }
+    .cat-card-body { padding: 20px 22px 24px; display: flex; flex-direction: column; flex: 1; }
+    .cat-count { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; display: block; }
+    .cat-card-body h3 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--ink); margin-bottom: 8px; }
+    .cat-card-body p { font-size: .88rem; color: var(--ink-muted); line-height: 1.55; flex: 1; margin-bottom: 14px; }
+    .cat-btn { display: inline-flex; align-items: center; font-size: .8rem; font-weight: 700; color: var(--accent); }
+
+    /* ── ITINERARY ── */
+    .itinerary-day { border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; margin-bottom: 24px; }
+    .itinerary-day-header { padding: 14px 24px; display: flex; align-items: center; gap: 12px; }
+    .itinerary-day-header .day-num { font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; }
+    .itinerary-day-header .day-theme { font-size: .9rem; opacity: .9; }
+    .itinerary-day-body { padding: 22px 24px; display: grid; gap: 16px; }
+    .itinerary-slot { display: flex; gap: 16px; align-items: flex-start; }
+    .itinerary-time { min-width: 80px; font-weight: 700; font-size: .82rem; padding-top: 3px; }
+
+    /* ── TIP BOX ── */
+    .tip-box { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 14px 18px; margin: 20px 0; font-size: .9rem; }
+    .tip-box strong { color: var(--accent); }
+
+    /* ── VENUES (from DB) ── */
+    .vf-btn { background: var(--surface-2); border: 1px solid var(--border); border-radius: 40px; padding: 7px 16px; font-size: .8rem; font-weight: 600; cursor: pointer; color: var(--ink-muted); transition: all .15s; }
+    .vf-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .vf-btn.vf-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .venue-card { border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; background: var(--surface); display: flex; flex-direction: column; transition: box-shadow .2s,transform .2s; }
+    .venue-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .venue-card-img { width: 100%; height: 160px; object-fit: cover; display: block; background: var(--surface-2); }
+    .venue-card-body { padding: 16px 18px 20px; display: flex; flex-direction: column; flex: 1; }
+    .venue-cat { font-size: .68rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px; }
+    .venue-card-body h3 { font-family: var(--font-display); font-size: 1rem; font-weight: 800; color: var(--ink); margin: 0 0 6px; line-height: 1.3; }
+    .venue-card-body p { font-size: .84rem; color: var(--ink-muted); line-height: 1.55; flex: 1; margin: 0 0 12px; }
+    .venue-meta { display: flex; align-items: center; gap: 10px; font-size: .78rem; color: var(--ink-muted); margin-bottom: 12px; flex-wrap: wrap; }
+    .venue-rating { color: #f59e0b; font-weight: 700; }
+    .venue-cta { display: inline-flex; align-items: center; gap: 6px; background: var(--accent); color: #fff; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 9px 16px; border-radius: 6px; text-decoration: none; align-self: flex-start; transition: background .15s; margin-top: auto; }
+    .venue-cta:hover { background: var(--accent-dark); color: #fff; text-decoration: none; }
+
+    /* ── NEIGHBOURHOOD CARDS ── */
+    .nb-row { display: grid; grid-template-columns: repeat(auto-fill,minmax(180px,1fr)); gap: 16px; margin-bottom: 48px; }
+    .nb-card { border-radius: var(--radius-md); overflow: hidden; position: relative; display: block; text-decoration: none; min-height: 160px; transition: transform .2s,box-shadow .2s; }
+    .nb-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); text-decoration: none; }
+    .nb-card img { width: 100%; height: 160px; object-fit: cover; display: block; background: var(--surface-2); }
+    .nb-overlay { position: absolute; inset: 0; background: linear-gradient(to top,rgba(0,0,0,.72) 0%,transparent 60%); }
+    .nb-name { position: absolute; bottom: 10px; left: 12px; right: 12px; color: #fff; font-family: var(--font-display); font-size: 1rem; font-weight: 800; line-height: 1.2; }
+    .nb-tagline { position: absolute; bottom: 10px; left: 12px; right: 12px; color: rgba(255,255,255,.75); font-size: .72rem; margin-top: 2px; }
+
+    /* ── CTA BANNER ── */
+    .cta-banner { background: linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%); border-radius: var(--radius-lg); padding: 44px 36px; text-align: center; margin: 44px 0; position: relative; overflow: hidden; }
+    .cta-banner::before { content: ''; position: absolute; top: -60px; right: -60px; width: 240px; height: 240px; border-radius: 50%; background: rgba(255,255,255,.07); }
+    .cta-banner h3 { font-family: var(--font-display); font-size: 1.7rem; color: #fff; margin-bottom: 10px; font-weight: 800; }
+    .cta-banner p { color: rgba(255,255,255,.85); margin-bottom: 26px; }
+    .cta-form { display: flex; gap: 10px; max-width: 420px; margin: 0 auto; }
+    .cta-form input { flex: 1; padding: 12px 16px; border-radius: 40px; border: none; font-size: .9rem; outline: none; }
+    .cta-form button { background: var(--ink); color: #fff; border: none; padding: 12px 22px; border-radius: 40px; font-weight: 700; cursor: pointer; font-size: .9rem; white-space: nowrap; transition: opacity .2s; }
+    .cta-form button:hover { opacity: .88; }
+
+    /* ── FOOTER ── */
+    .site-footer { background: var(--ink); color: rgba(255,255,255,.6); padding: 44px 0 22px; margin-top: 72px; font-size: .85rem; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 36px; margin-bottom: 36px; }
+    .footer-brand .nav-logo { color: #fff; }
+    .footer-brand p { margin-top: 10px; color: rgba(255,255,255,.5); font-size: .82rem; line-height: 1.6; }
+    .footer-col h4 { color: #fff; font-weight: 600; margin-bottom: 12px; font-size: .875rem; }
+    .footer-col ul { list-style: none; }
+    .footer-col ul li { margin-bottom: 7px; }
+    .footer-col ul a { color: rgba(255,255,255,.55); transition: color .2s; }
+    .footer-col ul a:hover { color: #fff; text-decoration: none; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding-top: 18px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .scroll-top { position: fixed; bottom: 26px; right: 26px; z-index: 200; width: 42px; height: 42px; border-radius: 50%; background: var(--accent); color: #fff; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); opacity: 0; pointer-events: none; transition: opacity .3s; font-size: 1.1rem; }
+    .scroll-top.visible { opacity: 1; pointer-events: all; }
+
+    /* ── FAQ ── */
+    .faq-list { list-style: none; display: grid; gap: 2px; margin-bottom: 48px; }
+    details { border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); }
+    details + details { border-top: none; border-radius: 0; }
+    details:first-child { border-radius: var(--radius-sm) var(--radius-sm) 0 0; }
+    details:last-child { border-radius: 0 0 var(--radius-sm) var(--radius-sm); border-top: none; }
+    details[open] { background: var(--surface-2); }
+    summary { padding: 16px 20px; font-weight: 600; font-size: .95rem; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+    summary::after { content: '+'; font-size: 1.2rem; color: var(--accent); font-weight: 400; flex-shrink: 0; margin-left: 12px; }
+    details[open] summary::after { content: '−'; }
+    .faq-answer { padding: 0 20px 18px; font-size: .9rem; color: var(--ink-muted); line-height: 1.7; }
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:900px) { .footer-grid { grid-template-columns: 1fr 1fr; } .toc-list { grid-template-columns: 1fr; } }
+    @media(max-width:640px) {
+      .hero { min-height: 340px; border-radius: var(--radius-md); }
+      .hero-content { padding: 24px 22px 32px; }
+      .nav-links, .nav-cta { display: none; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .cta-form { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Global Nav Injected by /shared/global-nav.js -->
+
+  <main>
+    <div class="container">
+
+      <div class="breadcrumb">
+        <a href="/">Home</a><span>›</span><a href="{{city_url}}">{{city_name}}</a><span>›</span><span>Things To Do</span>
+      </div>
+
+      <!-- HERO -->
+      <section class="hero" aria-label="{{city_name}} hero">
+        <img class="hero-img"
+          src="{{hero_image}}"
+          alt="{{hero_alt}}" loading="eager" width="1400" height="700" fetchpriority="high" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-eyebrow">{{hero_eyebrow}}</div>
+          <h1>{{hero_h1}}</h1>
+          <p class="hero-tagline">{{hero_tagline}}</p>
+          <div class="hero-meta">
+            <span>📍 {{city_name}}, {{country}}</span>
+            <span>✍️ By <a href="/authors/{{author_slug}}/">{{author_name}}</a></span>
+            <span>🕐 Updated {{updated_date}}</span>
+            <span>⏱ {{read_time}}</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="content-wrap">
+
+        <!-- QUICK INFO -->
+        <div class="qi-grid" role="region" aria-label="{{city_name}} quick facts">
+          {{#each quick_info}}
+          <div class="qi-card"><div class="qi-icon">{{icon}}</div><div class="qi-label">{{label}}</div><div class="qi-value">{{value}}</div></div>
+          {{/each}}
+        </div>
+
+        <!-- INTRO -->
+        <section class="intro" id="intro">
+          {{{intro_html}}}
+        </section>
+
+        <!-- TOC -->
+        <nav class="toc" aria-label="Contents">
+          <div class="toc-title">📋 On This Page</div>
+          <ol class="toc-list">
+            <li><a href="#explore"><span class="toc-num">→</span> Explore by Category</a></li>
+            <li><a href="#itinerary"><span class="toc-num">📅</span> {{itinerary_days}}-Day Itinerary</a></li>
+            <li><a href="#neighbourhoods"><span class="toc-num">🏘</span> Neighbourhoods</a></li>
+            <li><a href="#best-time"><span class="toc-num">🌤</span> Best Time to Visit</a></li>
+            <li><a href="#tickets"><span class="toc-num">🎟</span> Book Tickets</a></li>
+            <li><a href="#getting-around"><span class="toc-num">🚌</span> Getting Around</a></li>
+            <li><a href="#history"><span class="toc-num">📖</span> History</a></li>
+            <li><a href="#faq"><span class="toc-num">FAQ</span> Quick Answers</a></li>
+          </ol>
+        </nav>
+
+        <!-- EXPLORE BY CATEGORY -->
+        <section id="explore" aria-labelledby="explore-heading">
+          <h2 class="section-heading" id="explore-heading">Everything {{city_name}} Has to Offer</h2>
+          <p style="color:var(--ink-muted);margin-bottom:32px;font-size:.97rem;">{{category_intro}}</p>
+          <div class="category-grid">
+            {{#each categories}}
+            <a class="cat-card" href="{{url}}">
+              <img class="cat-card-img" src="{{image}}" alt="{{alt}}" loading="lazy" width="700" height="380" />
+              <div class="cat-card-body">
+                <span class="cat-count">{{count}}</span>
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+                <span class="cat-btn">{{cta}} →</span>
+              </div>
+            </a>
+            {{/each}}
+          </div>
+        </section>
+
+        <!-- ITINERARY -->
+        <section id="itinerary" aria-labelledby="itinerary-heading">
+          <h2 class="section-heading" id="itinerary-heading">How to Spend {{itinerary_days}} Days in {{city_name}}</h2>
+          <p style="color:var(--ink-muted);margin-bottom:28px;">{{itinerary_intro}}</p>
+
+          {{#each itinerary}}
+          <div class="itinerary-day">
+            <div class="itinerary-day-header" style="background:{{header_bg}};color:{{header_color}};{{#if header_border}}border-bottom:1px solid var(--border);{{/if}}">
+              <span class="day-num">Day {{day_num}}</span>
+              <span class="day-theme" style="{{#if theme_color}}color:{{theme_color}};{{/if}}">{{theme}}</span>
+            </div>
+            <div class="itinerary-day-body">
+              {{#each slots}}
+              <div class="itinerary-slot">
+                <div class="itinerary-time" style="color:{{../time_color}};">{{time}}</div>
+                <div>{{{content_html}}}</div>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          {{/each}}
+
+          <div class="tip-box">
+            <strong>💡 {{itinerary_tip_bold}}</strong> {{{itinerary_tip_html}}}
+          </div>
+        </section>
+
+        <!-- NEIGHBOURHOODS -->
+        <h2 class="section-heading" id="neighbourhoods">Explore {{city_name}}'s Neighbourhoods</h2>
+        <div class="nb-row" role="list" aria-label="{{city_name}} neighbourhoods">
+          {{#each neighbourhoods}}
+          <a class="nb-card" href="{{url}}" role="listitem">
+            <img src="{{image}}" alt="{{alt}}" loading="lazy" width="400" height="160" />
+            <div class="nb-overlay"></div>
+            <div class="nb-name">{{name}}</div>
+            {{#if tagline}}<div class="nb-tagline">{{tagline}}</div>{{/if}}
+          </a>
+          {{/each}}
+        </div>
+
+        <!-- BEST TIME TO VISIT -->
+        <section id="best-time" aria-labelledby="best-time-heading">
+          <h2 class="section-heading" id="best-time-heading">Best Time to Visit {{city_name}}</h2>
+          <p style="color:var(--ink-muted);margin-bottom:20px;font-size:.95rem;">{{weather_intro}}</p>
+          <div class="weather-table-wrap">
+            <table class="weather-table">
+              <thead>
+                <tr><th>Month</th><th>High</th><th>Low</th><th>Rain Days</th><th>Verdict</th></tr>
+              </thead>
+              <tbody>
+                {{#each weather}}
+                <tr class="{{highlight_class}}">
+                  <td><strong>{{month}}</strong></td>
+                  <td>{{high}}</td>
+                  <td>{{low}}</td>
+                  <td>{{rain_days}}</td>
+                  <td><span class="wv {{verdict_class}}">{{verdict}}</span></td>
+                </tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+          <p style="font-size:.82rem;color:var(--ink-muted);margin-top:10px;">{{weather_note}}</p>
+        </section>
+
+        <!-- TICKETS / VENUES from DB -->
+        <section id="tickets" style="margin:56px 0;">
+          <h2 class="section-heading">Book {{city_name}} Tickets &amp; Experiences</h2>
+          <p style="color:var(--ink-muted);margin-bottom:28px;">{{tickets_intro}}</p>
+
+          <div id="venue-filters" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;">
+            <button class="vf-btn vf-active" data-cat="">All</button>
+          </div>
+
+          <div id="venues-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:24px;min-height:200px;">
+            <div style="grid-column:1/-1;text-align:center;padding:60px 0;color:var(--ink-muted);">Loading venues…</div>
+          </div>
+        </section>
+
+        <!-- GETTING AROUND -->
+        <section id="getting-around" aria-labelledby="transport-heading">
+          <h2 class="section-heading" id="transport-heading">Getting To &amp; Around {{city_name}}</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-bottom:32px;">
+            {{#each transport}}
+            <div style="background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-md);padding:22px;">
+              <div style="font-size:1.6rem;margin-bottom:10px;">{{icon}}</div>
+              <h3 style="font-size:1rem;font-weight:700;margin-bottom:6px;">{{title}}</h3>
+              <p style="font-size:.85rem;color:var(--ink-muted);margin:0;">{{description}}</p>
+            </div>
+            {{/each}}
+          </div>
+          <div class="tip-box">
+            <strong>💡 {{transport_tip_bold}}</strong> {{{transport_tip_html}}}
+          </div>
+        </section>
+
+        <!-- HISTORY -->
+        <section id="history" aria-labelledby="history-heading">
+          <h2 class="section-heading" id="history-heading">A Brief History of {{city_name}}</h2>
+          {{{history_html}}}
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" aria-labelledby="faq-heading">
+          <h2 class="section-heading" id="faq-heading">Quick Answers — {{city_name}} FAQ</h2>
+          <ul class="faq-list">
+            {{#each faqs}}
+            <li><details><summary>{{question}}</summary><div class="faq-answer">{{answer}}</div></details></li>
+            {{/each}}
+          </ul>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <div class="cta-banner" role="complementary" aria-label="Newsletter signup">
+          <h3>Know {{city_name}} Before You Arrive</h3>
+          <p>One email, once a week. What to book this month, seasonal highlights, and the things only locals know.</p>
+          <form class="cta-form" action="#" method="post" novalidate>
+            <input type="email" placeholder="Your email address" aria-label="Email address" required />
+            <button type="submit">Send Me the Tips</button>
+          </form>
+        </div>
+
+      </div><!-- /content-wrap -->
+    </div><!-- /container -->
+  </main>
+
+  {{> footer }}
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script>
+    // Scroll to top
+    const scrollBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => scrollBtn.classList.toggle('visible', window.scrollY > 400));
+    scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Venues from DB
+    (function () {
+      let allVenues = [];
+      let activeCategory = '';
+
+      function renderVenues(venues) {
+        const grid = document.getElementById('venues-grid');
+        if (!venues.length) {
+          grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:60px 0;color:var(--ink-muted);">No venues found.</div>';
+          return;
+        }
+        grid.innerHTML = venues.map(v => `
+          <div class="venue-card">
+            ${v.image_url
+              ? `<img class="venue-card-img" src="${v.image_url}" alt="${v.name}" loading="lazy" />`
+              : `<div class="venue-card-img" style="display:flex;align-items:center;justify-content:center;font-size:2.5rem;background:#f8f7f5;">🏰</div>`
+            }
+            <div class="venue-card-body">
+              <div class="venue-cat">${v.category || 'Attraction'}</div>
+              <h3>${v.name}</h3>
+              ${v.short_description ? `<p>${v.short_description}</p>` : ''}
+              <div class="venue-meta">
+                ${v.rating ? `<span class="venue-rating">★ ${v.rating}</span>` : ''}
+                ${v.reviews ? `<span>${Number(v.reviews).toLocaleString()} reviews</span>` : ''}
+                ${v.duration ? `<span>· ${v.duration}</span>` : ''}
+              </div>
+              ${v.opening_hours ? `<div style="font-size:.78rem;color:var(--ink-muted);margin-bottom:12px;">🕐 ${v.opening_hours}</div>` : ''}
+              <a class="venue-cta" href="/${v.slug}/">Book / Details →</a>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      function buildFilters(venues) {
+        const cats = [...new Set(venues.map(v => v.category).filter(Boolean))].sort();
+        const bar = document.getElementById('venue-filters');
+        cats.forEach(cat => {
+          const btn = document.createElement('button');
+          btn.className = 'vf-btn';
+          btn.dataset.cat = cat;
+          btn.textContent = cat;
+          bar.appendChild(btn);
+        });
+      }
+
+      function setActiveFilter(cat) {
+        activeCategory = cat;
+        document.querySelectorAll('.vf-btn').forEach(b => b.classList.toggle('vf-active', b.dataset.cat === cat));
+        renderVenues(cat ? allVenues.filter(v => v.category === cat) : allVenues);
+      }
+
+      document.getElementById('venue-filters').addEventListener('click', e => {
+        const btn = e.target.closest('.vf-btn');
+        if (btn) setActiveFilter(btn.dataset.cat);
+      });
+
+      fetch('/api/venues')
+        .then(r => r.json())
+        .then(data => { allVenues = data; buildFilters(data); renderVenues(data); })
+        .catch(() => {
+          document.getElementById('venues-grid').innerHTML =
+            '<div style="grid-column:1/-1;text-align:center;padding:60px 0;color:var(--ink-muted);">Could not load venues. Please try again.</div>';
+        });
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,10 +1,7 @@
-# Environment variables — never commit
-.env
-.env.*
-
-# Dependencies
 node_modules/
-
-# OS
+.env
+.bak
+dist/
+*.log
 .DS_Store
 Thumbs.db

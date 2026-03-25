@@ -1,0 +1,319 @@
+{
+  "city_url": "/amsterdam/",
+  "city_name": "Amsterdam",
+  "meta_title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
+  "meta_description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems. Skip-the-line tickets included.",
+  "canonical_url": "https://yourdomain.com/amsterdam/things-to-do/",
+  "og_title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
+  "og_description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems.",
+  "og_image": "https://yourdomain.com/images/amsterdam-hero.jpg",
+  "theme_accent": "#E8601C",
+  "theme_accent_dark": "#c44f14",
+  "theme_accent_light": "#fff3ee",
+  "country": "Netherlands",
+  "author_name": "Sarah Mitchell",
+  "author_slug": "sarah-mitchell",
+  "updated_date": "March 2026",
+  "read_time": "🕐",
+  "hero_image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&auto=format&fit=crop&q=80",
+  "hero_alt": "Amsterdam canal houses at golden hour",
+  "hero_eyebrow": "🇳🇱 Amsterdam Insider Guide",
+  "hero_h1": "Top 10 Things To Do in Amsterdam (2026 Guide)",
+  "hero_tagline": "The definitive local guide — 52 attractions across 6 categories, a 3-day itinerary, and skip-the-line tickets. Written by someone who actually lives here.",
+  "quick_info": [
+    {
+      "icon": "🌤",
+      "label": "Best Time to Visit",
+      "value": "April – May & Sept – Oct"
+    },
+    {
+      "icon": "📅",
+      "label": "Ideal Trip Length",
+      "value": "3 – 4 days"
+    },
+    {
+      "icon": "💶",
+      "label": "Daily Budget",
+      "value": "€70 – €150"
+    },
+    {
+      "icon": "🌍",
+      "label": "UNESCO Heritage",
+      "value": "Canal Ring (since 2010)"
+    },
+    {
+      "icon": "🚲",
+      "label": "Getting Around",
+      "value": "Bike, tram, or on foot"
+    },
+    {
+      "icon": "🚶",
+      "label": "Canal Ring Walk",
+      "value": "Stroll the UNESCO-listed Herengracht, Keizersgracht & Prinsengracht — free, all day, all year."
+    },
+    {
+      "icon": "🌿",
+      "label": "Vondelpark",
+      "value": "47 hectares of parkland, free open-air theatre (June–Aug), and the city's best people-watching."
+    },
+    {
+      "icon": "🔭",
+      "label": "NEMO Rooftop",
+      "value": "The rooftop terrace of NEMO Science Museum is free to access — one of the best city views."
+    },
+    {
+      "icon": "⛪",
+      "label": "Westerkerk",
+      "value": "Free to enter Amsterdam's tallest church, near the Anne Frank House. Rembrandt is buried here."
+    },
+    {
+      "icon": "🌸",
+      "label": "Bloemenmarkt",
+      "value": "The world's only floating flower market is free to browse. On Singel canal near Koningsplein."
+    },
+    {
+      "icon": "⛴",
+      "label": "Free Ferry to Noord",
+      "value": "The GVB ferries behind Centraal Station to Amsterdam Noord run 24/7 and are completely free."
+    }
+  ],
+  "intro_html": "<p>\n            Amsterdam is a small city that doesn't behave like one. <strong>Around 900,000 people live here — yet\n            20 million visitors arrive every year.</strong> The result is a city that somehow stays charming despite\n            itself: canal houses tilting at precarious angles, cyclists who treat red lights as a suggestion, and\n            world-class museums you can walk between in 15 minutes.\n          </p>\n          <p>\n            It's also the city of the Dutch Golden Age — a period when Amsterdam was <strong>the wealthiest place\n            on earth</strong>, trading spices from Indonesia and building the canal ring that still defines the\n            skyline today. That history is everywhere: in the Rijksmuseum's Rembrandts, in the narrow corridors\n            of the Anne Frank House, in the houseboat moored outside your hotel window.\n          </p>\n          <p>\n            I've lived here since 2020. What follows is the guide I wish I'd had when I arrived —\n            <strong>52 attractions worth your time across 6 categories, a day-by-day itinerary, and honest booking advice</strong>\n            you won't find on the official tourism sites. Including which queues actually move, and which don't.\n          </p>",
+  "category_intro": "52 attractions, tours, and experiences across 6 categories — each with full reviews, booking tips, and skip-the-line links.",
+  "categories": [
+    {
+      "url": "/museums/",
+      "image": "https://images.unsplash.com/photo-1549405610-d8869ef4904a?w=700&auto=format&fit=crop&q=75",
+      "alt": "Museumplein Amsterdam with Rijksmuseum",
+      "count": "9 museums",
+      "title": "Museums & Art",
+      "description": "Rijksmuseum, Van Gogh, Stedelijk, Moco, Rembrandthuis — three world-class museums you can walk between on one afternoon, on a single square kilometre of lawn.",
+      "cta": "Explore Museums"
+    },
+    {
+      "url": "/history-heritage/",
+      "image": "https://images.unsplash.com/photo-1540854486241-118cdd72b781?w=700&auto=format&fit=crop&q=75",
+      "alt": "Anne Frank House on Prinsengracht canal",
+      "count": "8 sites",
+      "title": "History & Heritage",
+      "description": "Anne Frank House, the Royal Palace, Begijnhof, and hidden 17th-century churches in plain sight. Amsterdam's history is darker and stranger than you expect.",
+      "cta": "Explore History"
+    },
+    {
+      "url": "/canal-cruises/",
+      "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=700&auto=format&fit=crop&q=75",
+      "alt": "Amsterdam canal cruise at golden hour",
+      "count": "8 cruise options",
+      "title": "Canal Cruises & Water",
+      "description": "Amsterdam has more canals than Venice. Open boat, classic glass-top, evening cruise, or the pancake boat — you need to be on the water at least once.",
+      "cta": "See All Cruises"
+    },
+    {
+      "url": "/nature-day-trips/",
+      "image": "https://images.unsplash.com/photo-1617653202545-930d9bc0c410?w=700&auto=format&fit=crop&q=75",
+      "alt": "Keukenhof tulip fields in bloom near Amsterdam",
+      "count": "9 options",
+      "title": "Nature, Flowers & Day Trips",
+      "description": "Keukenhof's 7 million tulips, Vondelpark, Artis Zoo, and half-day trips to Delft, Rotterdam, and a medieval castle 20 minutes from the city centre.",
+      "cta": "Plan a Day Out"
+    },
+    {
+      "url": "/experiences/",
+      "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=700&auto=format&fit=crop&q=75",
+      "alt": "Heineken Experience Amsterdam brewery",
+      "count": "9 experiences",
+      "title": "Experiences & Entertainment",
+      "description": "Swing 100m above the city, taste a century of Heineken, or step inside an immersive light show. The non-museum bucket list — for first-timers and repeat visitors alike.",
+      "cta": "See All Experiences"
+    },
+    {
+      "url": "/tours/",
+      "image": "https://images.unsplash.com/photo-1545693006-2f0995ba1a88?w=700&auto=format&fit=crop&q=75",
+      "alt": "Jordaan neighbourhood Amsterdam street",
+      "count": "9 tours & walks",
+      "title": "Neighbourhoods & Tours",
+      "description": "The Jordaan, De Pijp, Amsterdam Noord, and the canal ring Centrum — each neighbourhood is a different city. Guided walks, bike tours, and self-guided city games.",
+      "cta": "Browse Tours"
+    }
+  ],
+  "itinerary_days": 3,
+  "itinerary_intro": "Three days is the ideal first visit. Here's how to see the best of Amsterdam without rushing — structured around walking distance and opening times to minimise transit.",
+  "itinerary_tip_bold": "Booking order:",
+  "itinerary_tip_html": "Book Anne Frank House first (it sells out fastest), then Van Gogh Museum, then Keukenhof if visiting in spring. Everything else can be booked 24–48 hours ahead, though earlier is always better in July–August.",
+  "itinerary": [],
+  "neighbourhoods": [
+    {
+      "url": "/jordaan/",
+      "image": "https://images.unsplash.com/photo-1545693006-2f0995ba1a88?w=400&auto=format&fit=crop&q=70",
+      "alt": "Jordaan neighbourhood",
+      "name": "Jordaan",
+      "tagline": "Brown cafés · 9 Straatjes · weekend markets"
+    },
+    {
+      "url": "/de-pijp/",
+      "image": "https://images.unsplash.com/photo-1629837926863-71822818c30d?w=400&auto=format&fit=crop&q=70",
+      "alt": "De Pijp neighbourhood",
+      "name": "De Pijp",
+      "tagline": "Albert Cuyp market · craft beer · best food in the city"
+    },
+    {
+      "url": "/centrum/",
+      "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=400&auto=format&fit=crop&q=70",
+      "alt": "Amsterdam Centrum",
+      "name": "Centrum",
+      "tagline": "Canal ring · Dam Square · historic core"
+    },
+    {
+      "url": "/noord/",
+      "image": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=400&auto=format&fit=crop&q=70",
+      "alt": "Amsterdam Noord",
+      "name": "Noord",
+      "tagline": "NDSM wharf · Eye Filmmuseum · free ferry from Centraal"
+    },
+    {
+      "url": "/museumplein/",
+      "image": "https://images.unsplash.com/photo-1549405610-d8869ef4904a?w=400&auto=format&fit=crop&q=70",
+      "alt": "Museumplein Amsterdam",
+      "name": "Museumplein",
+      "tagline": "Rijksmuseum · Van Gogh · Stedelijk — three museums, one lawn"
+    }
+  ],
+  "weather_intro": "Amsterdam rewards visitors in every season — but the experience varies wildly. Here's what you're actually getting month by month.",
+  "weather_note": "✦ = recommended. Data: KNMI 30-year averages.",
+  "weather": [
+    {
+      "highlight_class": "",
+      "month": "Jan",
+      "high": "5°C",
+      "low": "1°C",
+      "rain_days": "16",
+      "verdict": "2",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "",
+      "month": "Feb",
+      "high": "6°C",
+      "low": "1°C",
+      "rain_days": "13",
+      "verdict": "3",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "",
+      "month": "Mar",
+      "high": "10°C",
+      "low": "3°C",
+      "rain_days": "14",
+      "verdict": "4",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "weather-highlight",
+      "month": "Apr",
+      "high": "14°C",
+      "low": "6°C",
+      "rain_days": "12",
+      "verdict": "5",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "weather-highlight",
+      "month": "May",
+      "high": "18°C",
+      "low": "9°C",
+      "rain_days": "12",
+      "verdict": "7",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "",
+      "month": "Jun",
+      "high": "21°C",
+      "low": "12°C",
+      "rain_days": "13",
+      "verdict": "7",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "",
+      "month": "Jul",
+      "high": "23°C",
+      "low": "14°C",
+      "rain_days": "13",
+      "verdict": "6",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "",
+      "month": "Aug",
+      "high": "22°C",
+      "low": "14°C",
+      "rain_days": "13",
+      "verdict": "6",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "weather-highlight",
+      "month": "Sep",
+      "high": "18°C",
+      "low": "11°C",
+      "rain_days": "13",
+      "verdict": "5",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "weather-highlight",
+      "month": "Oct",
+      "high": "13°C",
+      "low": "7°C",
+      "rain_days": "16",
+      "verdict": "3",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "",
+      "month": "Nov",
+      "high": "9°C",
+      "low": "4°C",
+      "rain_days": "17",
+      "verdict": "2",
+      "verdict_class": ""
+    },
+    {
+      "highlight_class": "",
+      "month": "Dec",
+      "high": "6°C",
+      "low": "2°C",
+      "rain_days": "18",
+      "verdict": "1",
+      "verdict_class": ""
+    }
+  ],
+  "tickets_intro": "\n            All tickets are skip-the-line with instant confirmation. Prices are competitive with official sites.\n          ",
+  "transport_tip_bold": "Airport tip:",
+  "transport_tip_html": "Amsterdam Schiphol Airport has a direct train to Centraal Station every 10 minutes (17 mins, ~€5.40). Don't get a taxi — the train is faster and a fraction of the price.",
+  "transport": [
+    {
+      "icon": "🚲",
+      "title": "Bike",
+      "description": "The authentic Amsterdam way. Rent from €10/day at shops near Centraal Station. Stick to bike lanes and walk the bike in pedestrian zones."
+    },
+    {
+      "icon": "🚋",
+      "title": "Tram",
+      "description": "The easiest public transport option. Lines 2, 11, 12, 19 cover most tourist areas. Use the OV-chipkaart or buy a day ticket (€9.50)."
+    },
+    {
+      "icon": "🚶",
+      "title": "On Foot",
+      "description": "The historic centre (Centrum) is very compact — most top attractions are within a 20-minute walk of each other. Wear comfortable shoes (cobblestones!)."
+    },
+    {
+      "icon": "⛵",
+      "title": "Canal Boat",
+      "description": "The hop-on hop-off canal bus stops near the Rijksmuseum, Anne Frank House, and Centraal Station. Great for a lazy museum day."
+    }
+  ],
+  "history_html": "<h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">1275 — A Dam on the Amstel</h3>\n          <p>Amsterdam's founding moment is unglamorous: a handful of fishermen built a dam across the Amstel river to control flooding. The settlement was called <em>Amstelredamme</em>. The Count of Holland granted it toll privileges in 1275 — the oldest written record of the city. Within a century it had a harbour, a market, and an ambition that the marshy ground beneath it couldn't contain.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">The Golden Age — 1585 to 1672</h3>\n          <p>Everything changed in 1585. The Spanish captured Antwerp — then Europe's richest trading port — and tens of thousands of Protestant merchants, skilled craftsmen, and Jewish traders fled north to Amsterdam. The city absorbed them all and turned their capital into the engine of something extraordinary.</p>\n          <p>In 1602, Amsterdam's merchants founded the <strong>VOC</strong> — the Dutch East India Company — the world's first publicly traded company. It had its own army, could wage war, negotiate treaties, and mint coins. Within decades, Dutch ships controlled the spice routes from the Moluccas to Manhattan. The wealth poured back into the city: the canal ring was dug between 1613 and 1665, 1,500 merchant houses were built along it, and painters like Rembrandt and Vermeer were kept busy recording the face of this new prosperity.</p>\n          <p>At its peak, Amsterdam was <strong>the wealthiest city on earth per capita</strong>. The Amsterdam Stock Exchange — the world's first — opened in 1602 on the Rokin. Tulip mania gripped the city in 1636–37, when a single Semper Augustus bulb sold for the price of a canal house. The canal ring was granted UNESCO World Heritage status in 2010, but it was conceived and built in a single extraordinary generation.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">Decline, Occupation, and Resilience</h3>\n          <p>The <em>Rampjaar</em> — Year of Disaster — arrived in 1672. France, England, and two German states attacked the Dutch Republic simultaneously. The Golden Age never fully recovered. By the 18th century, Amsterdam was living on inherited wealth. Napoleon occupied the city in 1795; his brother Louis Bonaparte briefly made it a capital of a puppet kingdom, sleeping in what is now the Royal Palace on Dam Square.</p>\n          <p>The Second World War left the deepest wound. The German occupation began in May 1940. Of the roughly 80,000 Jewish residents of Amsterdam, more than <strong>75% were deported and murdered</strong> — one of the highest rates of Jewish loss in Western Europe. Anne Frank hid in a canal house on the Prinsengracht for 761 days before being betrayed in August 1944. She died in Bergen-Belsen in February 1945, three months before liberation. The house is now the city's most visited site — and the most sobering.</p>\n\n          <h3 style=\"font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin:28px 0 10px;\">Amsterdam Today</h3>\n          <p>Post-war Amsterdam rebuilt itself in waves. The 1960s brought the <em>Provos</em> — anarchist activists who turned the city into a laboratory for progressive urban politics, handing out free white bicycles and demanding the city belong to its residents. The squatter movement of the 1970s and 80s secured social housing that still exists. The city legalised same-sex marriage in 2001 — the first country in the world to do so — and hosts WorldPride in 2026.</p>\n          <p>Today 900,000 people live here across 96 nationalities. Around 20 million visitors arrive each year, drawn by the same things that made this city remarkable in the 17th century: the canals, the art, and the specific Dutch genius for making something extraordinary out of very flat, very wet ground.</p>",
+  "faqs": []
+}

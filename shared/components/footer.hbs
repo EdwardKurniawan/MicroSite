@@ -1,0 +1,31 @@
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo">Wonder<span>Pass</span></a>
+          <p>An independent {{city_name}} travel guide written by locals. Honest reviews, booking tips, and genuine local knowledge — no filler.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore {{city_name}}</h4>
+          <ul>
+            {{#each footer_links.explore}}
+            <li><a href="{{url}}">{{label}}</a></li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="/authors/{{author_slug}}/">{{author_name}}</a></li>
+            <li><a href="#itinerary">{{itinerary_days}}-Day Itinerary</a></li>
+            <li><a href="#faq">{{city_name}} FAQ</a></li>
+            <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© {{current_year}} WonderPass {{city_name}} Guide · Independent travel guide</span>
+        <span>🔖 We may earn a commission on ticket bookings — at no extra cost to you.</span>
+      </div>
+    </div>
+  </footer>
