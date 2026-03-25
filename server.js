@@ -122,6 +122,67 @@ http.createServer(async (req, res) => {
     }
     return;
   }
+  // ── API: POST /api/search (WonderGenie style) ────────
+  if (urlPath === '/api/search' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => { body += chunk; });
+    req.on('end', async () => {
+      try {
+        const { prompt, city: cityParam } = JSON.parse(body);
+        const citySlug = cityParam || city.slug;
+        const dataPath = path.join(DIR, citySlug, 'data.json');
+        
+        if (!fs.existsSync(dataPath)) {
+          res.writeHead(404, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'City data not found' }));
+          return;
+        }
+
+        const cityData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+        const inventory = [
+          ...(cityData.categories || []).map(c => ({ name: c.title, slug: c.url.replace(/\//g, ''), type: 'category' })),
+          ...(cityData.neighbourhoods || []).map(n => ({ name: n.name, slug: n.slug, type: 'neighbourhood' }))
+        ];
+
+        const systemPrompt = `You are AmsterdamInsider's premium AI guide.
+Return ONLY a JSON object in this format:
+{
+  "summary": "Short, catchy summary of your suggestion",
+  "items": [{ "name": "matching-name", "slug": "matching-slug", "reason": "why this fits" }]
+}
+Available Inventory for ${citySlug}:
+${JSON.stringify(inventory, null, 2)}`;
+
+        const aiResponse = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+            "messages": [
+              { "role": "system", "content": systemPrompt },
+              { "role": "user", "content": prompt }
+            ]
+          })
+        });
+
+        const aiData = await aiResponse.json();
+        const content = aiData.choices[0].message.content;
+        const jsonMatch = content.match(/\{[\s\S]*\}/);
+        const cleaned = jsonMatch ? jsonMatch[0] : content;
+        
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(cleaned);
+      } catch (err) {
+        console.error('Search error:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'AI Error' }));
+      }
+    });
+    return;
+  }
 
   // ── Static files / Data-driven rendering ─────────────
   let filePath;
