@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nishi Chaya - AmsterdamInsider</title>
+  <meta name="description" content="The quiet geisha district — smaller than Higashi Chaya, less visited, and more intimate. The Ninja Temple is next door." />
+
+  <!-- Tailwind CDN for rapid styling port -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 400: '#2E5BFF', 500: '#5C84FF' },
+            gold: '#D4AF37',
+          },
+          fontFamily: {
+            display: ['Playfair Display', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            accent: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="/shared/index.css">
+  <link rel="stylesheet" href="/shared/global-nav.css">
+  <script src="/shared/global-nav.js" defer></script>
+
+</head>
+<body class="bg-[#02060D] text-[#EEF4FF] overflow-x-hidden min-h-screen">
+
+  <main class="pb-28 lg:pb-0">
+    <!-- HERO -->
+    <section class="hero-bg flex items-end justify-center pt-48 pb-20 relative min-h-[60vh]" style="background-image: url('/images/nishi-chaya.jpg')">
+      <div class="absolute inset-0 hero-overlay z-0"></div>
+      <div class="max-w-6xl mx-auto px-5 w-full relative z-10">
+        <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-6 block reveal d1">🍵 Kanazawa Geisha District</span>
+        <h1 class="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-6 reveal d2">Nishi Chaya</h1>
+          <p class="text-lg text-white/70 max-w-2xl reveal d3 leading-relaxed">The quiet geisha district — smaller than Higashi Chaya, less visited, and more intimate. The Ninja Temple is next door.</p>
+      </div>
+    </section>
+
+    <div class="max-w-7xl mx-auto px-5 py-20">
+      <div class="grid lg:grid-cols-12 gap-16">
+        
+        <!-- MAIN CONTENT (Left) -->
+        <div class="lg:col-span-9">
+          
+
+
+
+
+
+        </div>
+
+        <!-- SIDEBAR (Right) -->
+        <div class="lg:col-span-3 space-y-8">
+          
+          <div class="glass-card p-8 rounded-[2rem] border border-white/5 sticky top-24 reveal">
+            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Quick Facts</h3>
+            <div class="space-y-6">
+              <div class="flex gap-4">
+                <div class="text-2xl">🏮</div>
+                <div>
+                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Best for</div>
+                  <div class="font-medium text-white/90 text-sm">Authentic geisha culture, craft shopping, Ninja Temple combo</div>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div class="text-2xl">🚌</div>
+                <div>
+                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Getting there</div>
+                  <div class="font-medium text-white/90 text-sm">Loop Bus (Hirokoji stop), 20min walk from station</div>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div class="text-2xl">⏱</div>
+                <div>
+                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Time needed</div>
+                  <div class="font-medium text-white/90 text-sm">1–1.5 hours</div>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div class="text-2xl">✨</div>
+                <div>
+                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Vibe</div>
+                  <div class="font-medium text-white/90 text-sm">Quiet, authentic, less touristy than Higashi Chaya</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FINAL CTA -->
+    <section class="py-24 bg-[#02060D] text-center border-t border-white/5">
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-8">Ready to master<br /><span class="italic font-normal">the city?</span></h2>
+      <a href="/attractions/" class="inline-block bg-brand-500 hover:bg-brand-400 text-white text-[12px] font-black uppercase tracking-widest px-12 py-5 rounded-full transition-all shadow-xl shadow-brand-500/20 active:scale-95 border border-white/10">Explore All Attractions</a>
+    </section>
+
+  </main>
+  
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="/" class="nav-logo">Amsterdam<span>Insider</span></a>
+            <p>An independent Amsterdam travel guide written by locals. Honest reviews, booking tips, and genuine local knowledge — no filler.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Explore Amsterdam</h4>
+            <ul>
+              <li><a href="/museums/">Museums &amp; Culture</a></li>
+              <li><a href="/canals/">Canals &amp; Cruises</a></li>
+              <li><a href="/neighbourhoods/">Neighbourhoods</a></li>
+              <li><a href="/nightlife/">Food &amp; Nightlife</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Global Network</h4>
+            <ul>
+              <li><a href="https://kanazawa-insider.com" target="_blank">Kanazawa Insider</a></li>
+              <li><a href="https://london-insider.com" target="_blank">London Insider</a></li>
+              <li><a href="https://rome-insider.com" target="_blank">Rome Insider</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 AmsterdamInsider · Part of the Insider World Network</span>
+          <span>🔖 We may earn a commission on ticket bookings — at no extra cost to you.</span>
+        </div>
+      </div>
+    </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const els = document.querySelectorAll('.reveal');
+      const io = new IntersectionObserver(
+        entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }),
+        { threshold: 0.1 }
+      );
+      els.forEach(el => io.observe(el));
+    });
+  </script>
+</body>
+</html>

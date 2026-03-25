@@ -5,7 +5,7 @@ const Handlebars = require('handlebars');
 const DIR = path.join(__dirname, '..');
 const CITY = process.env.CITY || 'amsterdam';
 const CITY_DIR = path.join(DIR, CITY);
-const DIST = path.join(DIR, 'dist');
+const DIST = path.join(DIR, 'public');
 
 console.log(`Building city: ${CITY.toUpperCase()}`);
 
