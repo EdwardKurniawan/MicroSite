@@ -138,32 +138,64 @@ http.createServer(async (req, res) => {
           return;
         }
 
-        const cityData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-        
-        // Extract free gems from quick_info
+        const cityData = JSON.parse(fs.readFileSync(path.join(DIR, citySlug, 'data.json'), 'utf8'));
+
+        // Extract granular attractions from category subdirectories
+        const allAttractions = [];
+        if (cityData.categories) {
+            for (const cat of cityData.categories) {
+                const catSlug = cat.url.replace(/\//g, '');
+                const catDataPath = path.join(DIR, citySlug, catSlug, 'data.json');
+                if (fs.existsSync(catDataPath)) {
+                    try {
+                        const catData = JSON.parse(fs.readFileSync(catDataPath, 'utf8'));
+                        if (catData.attractions) {
+                            catData.attractions.forEach(attr => {
+                                allAttractions.push({
+                                    name: attr.name,
+                                    slug: attr.id,
+                                    type: 'ticket',
+                                    image: attr.image_url,
+                                    checkoutUrl: `/${citySlug}/${catSlug}/#${attr.id}`
+                                });
+                            });
+                        }
+                    } catch (e) {}
+                }
+            }
+        }
+
         const freeGems = (cityData.quick_info || [])
             .filter(info => info.value.toLowerCase().includes('free'))
             .map(info => ({ name: info.label, description: info.value, type: 'free' }));
 
         const inventory = [
-            ...(cityData.categories || []).map(c => ({ name: c.title, slug: c.url.replace(/\//g, ''), type: 'ticket' })),
-            ...(cityData.neighbourhoods || []).map(n => ({ name: n.name, slug: n.slug, type: 'neighbourhood' })),
+            ...allAttractions,
+            ...(cityData.neighbourhoods || []).map(n => ({ 
+                name: n.name, 
+                slug: n.slug, 
+                type: 'neighbourhood',
+                image: n.image
+            })),
             ...freeGems
         ];
 
         const systemPrompt = `You are AmsterdamInsider's premium AI guide.
-CRITICAL: You MUST return a JSON object with a "steps" array. Do NOT use an "items" array.
+CRITICAL: Return a JSON object with a "steps" array. 
+For each step, include "image" and "checkoutUrl" from inventory if applicable.
 Format:
 {
   "summary": "Catchy headline",
-  "themeColor": "Hex code (e.g. #E8601C)",
+  "themeColor": "Hex code",
   "steps": [
     { 
-      "time": "Morning/Afternoon/Evening",
+      "time": "Evening",
       "name": "Activity Name",
       "type": "FREE or TICKET or NEIGHBOURHOOD",
       "description": "Short narrative",
-      "slug": "matching-slug"
+      "slug": "matching-slug",
+      "image": "image url from inventory",
+      "checkoutUrl": "checkoutUrl from inventory"
     }
   ]
 }
@@ -190,9 +222,16 @@ ${JSON.stringify(inventory, null, 2)}`;
         const content = aiData.choices[0].message.content;
         const jsonMatch = content.match(/\{[\s\S]*\}/);
         const cleaned = jsonMatch ? jsonMatch[0] : content;
-        
+        const parsed = JSON.parse(cleaned);
+
+        // Insurance: Map 'items' to 'steps' if AI slips up
+        if (parsed.items && !parsed.steps) {
+            parsed.steps = parsed.items;
+            delete parsed.items;
+        }
+
         res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(cleaned);
+        res.end(JSON.stringify(parsed));
       } catch (err) {
         console.error('Search error:', err);
         res.writeHead(500, { 'Content-Type': 'application/json' });

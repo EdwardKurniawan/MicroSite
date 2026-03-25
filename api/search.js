@@ -11,40 +11,70 @@ export default async function handler(req, res) {
     const { prompt, city: cityParam } = req.body;
     const citySlug = cityParam || 'amsterdam';
     
-    // In Vercel, files in the root are available via process.cwd()
     const dataPath = path.join(process.cwd(), citySlug, 'data.json');
-    
     if (!fs.existsSync(dataPath)) {
       res.status(404).json({ error: 'City data not found' });
       return;
     }
-
     const cityData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-    
+
+    // Extract granular attractions from category subdirectories
+    const allAttractions = [];
+    if (cityData.categories) {
+      for (const cat of cityData.categories) {
+        const catSlug = cat.url.replace(/\//g, '');
+        const catDataPath = path.join(process.cwd(), citySlug, catSlug, 'data.json');
+        if (fs.existsSync(catDataPath)) {
+          try {
+            const catData = JSON.parse(fs.readFileSync(catDataPath, 'utf8'));
+            if (catData.attractions) {
+              catData.attractions.forEach(attr => {
+                allAttractions.push({
+                  name: attr.name,
+                  slug: attr.id,
+                  type: 'ticket',
+                  image: attr.image_url,
+                  checkoutUrl: `/${citySlug}/${catSlug}/#${attr.id}`
+                });
+              });
+            }
+          } catch (e) {}
+        }
+      }
+    }
+
     // Extract free gems from quick_info
     const freeGems = (cityData.quick_info || [])
       .filter(info => info.value.toLowerCase().includes('free'))
       .map(info => ({ name: info.label, description: info.value, type: 'free' }));
 
     const inventory = [
-      ...(cityData.categories || []).map(c => ({ name: c.title, slug: c.url.replace(/\//g, ''), type: 'ticket' })),
-      ...(cityData.neighbourhoods || []).map(n => ({ name: n.name, slug: n.slug, type: 'neighbourhood' })),
+      ...allAttractions,
+      ...(cityData.neighbourhoods || []).map(n => ({ 
+        name: n.name, 
+        slug: n.slug, 
+        type: 'neighbourhood',
+        image: n.image
+      })),
       ...freeGems
     ];
 
     const systemPrompt = `You are AmsterdamInsider's premium AI guide.
-CRITICAL: You MUST return a JSON object with a "steps" array. Do NOT use an "items" array.
+CRITICAL: Return a JSON object with a "steps" array. 
+For each step, include "image" and "checkoutUrl" from inventory if applicable.
 Format:
 {
   "summary": "Catchy headline",
-  "themeColor": "Hex code (e.g. #E8601C)",
+  "themeColor": "Hex code",
   "steps": [
     { 
       "time": "Morning/Afternoon/Evening",
       "name": "Activity Name",
       "type": "FREE or TICKET or NEIGHBOURHOOD",
       "description": "Short narrative",
-      "slug": "matching-slug"
+      "slug": "matching-slug",
+      "image": "image url from inventory",
+      "checkoutUrl": "checkoutUrl from inventory"
     }
   ]
 }
@@ -78,8 +108,15 @@ ${JSON.stringify(inventory, null, 2)}`;
     const content = aiData.choices[0].message.content;
     const jsonMatch = content.match(/\{[\s\S]*\}/);
     const cleaned = jsonMatch ? jsonMatch[0] : content;
+    const parsed = JSON.parse(cleaned);
+
+    // Insurance: Map 'items' to 'steps' if AI slips up
+    if (parsed.items && !parsed.steps) {
+      parsed.steps = parsed.items;
+      delete parsed.items;
+    }
     
-    res.status(200).json(JSON.parse(cleaned));
+    res.status(200).json(parsed);
   } catch (err) {
     console.error('Search error:', err);
     res.status(500).json({ error: 'Internal Server Error', details: err.message });

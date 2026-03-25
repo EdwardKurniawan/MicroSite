@@ -13,8 +13,8 @@
     <div id="ai-search-overlay" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 md:p-8">
       <div class="absolute inset-0 bg-[#02060D]/95 backdrop-blur-xl"></div>
       <div class="glass-card w-full max-w-2xl rounded-[2.5rem] border border-white/10 overflow-hidden relative z-10 animate-in fade-in zoom-in duration-500 shadow-[0_0_100px_rgba(232,96,28,0.1)]">
-        <div class="p-8 md:p-12">
-          <button id="ai-close" class="absolute top-6 right-6 text-white/40 hover:text-white transition-colors">
+        <div id="ai-printable-content" class="p-8 md:p-12 h-full overflow-y-auto pr-4 scrollbar-hide">
+          <button id="ai-close" class="absolute top-6 right-6 text-white/40 hover:text-white transition-colors no-print">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
           
@@ -25,18 +25,24 @@
           </div>
 
           <div id="ai-results" class="hidden">
-            <div class="flex items-center gap-3 mb-6">
-              <span class="w-8 h-px bg-white/20"></span>
-              <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase">CURATED ITINERARY</span>
-              <span class="w-8 h-px bg-white/20"></span>
+            <div class="flex items-center justify-between mb-8">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-px bg-white/20"></span>
+                <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase">CURATED ITINERARY</span>
+              </div>
+              <button id="ai-save-pdf" class="no-print bg-white/5 hover:bg-white/10 text-white/60 text-[8px] font-black uppercase tracking-widest px-4 py-2 rounded-full border border-white/10 transition-all flex items-center gap-2">
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                SAVE AS PDF
+              </button>
             </div>
+
             <h3 id="ai-summary" class="font-display text-2xl md:text-4xl font-bold text-white mb-10 leading-tight"></h3>
             
-            <div class="relative pl-8 border-l border-white/10 space-y-12 max-h-[45vh] overflow-y-auto pr-4 scrollbar-hide mb-8" id="ai-timeline">
+            <div class="relative pl-8 border-l border-white/10 space-y-12 mb-8" id="ai-timeline">
               <!-- Result steps injected here -->
             </div>
 
-            <div class="pt-8 border-t border-white/5 flex flex-col items-center gap-4">
+            <div class="pt-8 border-t border-white/5 flex flex-col items-center gap-4 no-print">
               <button id="ai-explore-more" class="glass-pill px-10 py-5 text-white text-[10px] font-black uppercase tracking-widest hover:bg-gold hover:text-black transition-all border border-white/20 hover:border-gold">
                 EXPLORE ALL COLLECTIONS
               </button>
@@ -46,9 +52,17 @@
         </div>
       </div>
     </div>
+    <style>
+      @media print { .no-print { display: none !important; } }
+    </style>
   `;
 
   document.body.insertAdjacentHTML('beforeend', overlayHTML);
+
+  // Load html2pdf from CDN
+  const pdfScript = document.createElement('script');
+  pdfScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';
+  document.head.appendChild(pdfScript);
 
   const overlay = document.getElementById('ai-search-overlay');
   const loading = document.getElementById('ai-loading');
@@ -56,6 +70,7 @@
   const summaryText = document.getElementById('ai-summary');
   const timelineContainer = document.getElementById('ai-timeline');
   const closeBtn = document.getElementById('ai-close');
+  const savePdfBtn = document.getElementById('ai-save-pdf');
   const exploreMoreBtn = document.getElementById('ai-explore-more');
   const overlayCard = overlay.querySelector('.glass-card');
 
@@ -100,9 +115,8 @@
   }
 
   function renderResults(data) {
-    // Dynamic theme tinting
     if (data.themeColor) {
-      overlayCard.style.boxShadow = `0 0 100px ${data.themeColor}22`;
+      overlayCard.style.boxShadow = `0 0 100px ${data.themeColor}33`;
       document.getElementById('ai-spinner').style.borderTopColor = data.themeColor;
     }
 
@@ -114,29 +128,36 @@
       div.className = 'relative animate-in slide-in-from-bottom-4 duration-700 fill-mode-both';
       div.style.animationDelay = `${index * 150}ms`;
 
-      // Dot helper
       const isTicket = step.type === 'TICKET';
       const dotColor = isTicket ? (data.themeColor || '#E8601C') : 'white';
       
       div.innerHTML = `
-        <div class="absolute -left-[41px] top-2 w-4 h-4 rounded-full bg-[#02060D] border-2 flex items-center justify-center transition-all duration-500" style="border-color: ${dotColor}">
+        <div class="absolute -left-[41px] top-2 w-4 h-4 rounded-full bg-[#02060D] border-2 flex items-center justify-center z-10" style="border-color: ${dotColor}">
           <div class="w-1 h-1 rounded-full ${isTicket ? 'animate-pulse' : ''}" style="background-color: ${dotColor}"></div>
         </div>
         
-        <div class="group">
-          <div class="flex items-center gap-3 mb-2">
-            <span class="text-white/40 font-accent text-[9px] uppercase tracking-widest">${step.time}</span>
-            ${isTicket ? '<span class="bg-gold/10 text-gold text-[8px] font-black px-2 py-0.5 rounded border border-gold/20 uppercase tracking-tighter">Skip the Queue</span>' : ''}
+        <div class="group flex flex-col md:flex-row gap-6">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="text-white/40 font-accent text-[9px] uppercase tracking-widest">${step.time}</span>
+              ${isTicket ? '<span class="bg-gold/10 text-gold text-[8px] font-black px-2 py-0.5 rounded border border-gold/20 uppercase tracking-tighter shadow-[0_0_10px_rgba(212,175,55,0.2)]">Book Direct</span>' : ''}
+            </div>
+            
+            <h4 class="text-white font-bold text-xl mb-2 group-hover:text-gold transition-colors">${step.name}</h4>
+            <p class="text-white/40 text-sm leading-relaxed mb-4 italic font-serif opacity-80">"${step.description}"</p>
+            
+            ${step.slug ? `
+              <a href="${step.checkoutUrl || '/' + step.slug + '/'}" class="inline-flex items-center gap-2 text-white/60 hover:text-gold text-[10px] font-black uppercase tracking-widest transition-all group-hover:translate-x-1 outline outline-1 outline-white/5 px-4 py-2 rounded-full hover:outline-gold/30">
+                ${isTicket ? 'Checkout Now' : 'View Details'} 
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            ` : ''}
           </div>
-          
-          <h4 class="text-white font-bold text-xl mb-2 group-hover:text-gold transition-colors">${step.name}</h4>
-          <p class="text-white/40 text-sm leading-relaxed mb-4 italic font-serif">"${step.description}"</p>
-          
-          ${step.slug ? `
-            <a href="/${step.slug}/" class="inline-flex items-center gap-2 text-white/60 hover:text-gold text-[10px] font-black uppercase tracking-widest transition-all group-hover:translate-x-1">
-              ${isTicket ? 'Book Experiences' : 'View Details'} 
-              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
+
+          ${step.image ? `
+            <div class="md:w-32 h-24 rounded-2xl overflow-hidden border border-white/10 shrink-0 shadow-lg">
+              <img src="${step.image}" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-700" loading="lazy" />
+            </div>
           ` : ''}
         </div>
       `;
@@ -146,6 +167,20 @@
     loading.classList.add('hidden');
     results.classList.remove('hidden');
   }
+
+  function savePDF() {
+    const element = document.getElementById('ai-printable-content');
+    const opt = {
+      margin: 10,
+      filename: 'wondergenie-itinerary.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, backgroundColor: '#02060D' },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save();
+  }
+
+  savePdfBtn.addEventListener('click', savePDF);
 
   exploreMoreBtn.addEventListener('click', () => {
     window.location.href = '/tours/';
