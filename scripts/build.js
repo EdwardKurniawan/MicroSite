@@ -111,4 +111,4 @@ if (fs.existsSync(cityImages)) {
   console.log(`✓ Copied ${CITY}/images to dist/images/`);
 }
 
-console.log(`\nBuild complete for ${CITY.toUpperCase()}! Static site is ready in "dist/".`);
+console.log(`\nBuild complete for ${CITY.toUpperCase()}! Static site is ready in "public/".`);
