@@ -54,6 +54,8 @@
     </div>
     <style>
       @media print { .no-print { display: none !important; } }
+      .ai-step-wrapper { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); transform-origin: top; }
+      .ai-step-wrapper.removing { opacity: 0; transform: scale(0.95) translateY(-20px); margin-bottom: -150px; pointer-events: none; }
     </style>
   `;
 
@@ -125,7 +127,7 @@
 
     (data.steps || []).forEach((step, index) => {
       const div = document.createElement('div');
-      div.className = 'relative animate-in slide-in-from-bottom-4 duration-700 fill-mode-both';
+      div.className = 'relative animate-in slide-in-from-bottom-4 duration-700 fill-mode-both ai-step-wrapper';
       div.style.animationDelay = `${index * 150}ms`;
 
       const isTicket = step.type === 'TICKET';
@@ -136,7 +138,12 @@
           <div class="w-1 h-1 rounded-full ${isTicket ? 'animate-pulse' : ''}" style="background-color: ${dotColor}"></div>
         </div>
         
-        <div class="group flex flex-col md:flex-row gap-6">
+        <div class="group flex flex-col md:flex-row gap-6 relative">
+          <!-- Remove Button -->
+          <button class="ai-remove-btn no-print absolute -top-1 -right-2 md:-right-6 opacity-0 group-hover:opacity-100 transition-all text-white/20 hover:text-red-400 p-2" title="Remove from plan">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+
           <div class="flex-1">
             <div class="flex items-center gap-3 mb-2">
               <span class="text-white/40 font-accent text-[9px] uppercase tracking-widest">${step.time}</span>
