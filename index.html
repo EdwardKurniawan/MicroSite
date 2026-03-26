@@ -48,12 +48,14 @@
 
   <style>
     .hero-bg {
-        background-image: url('https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop');
+        position: relative;
+        background: #02060D url('https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop') center/cover no-repeat;
         min-height: 80vh;
         display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 120px;
+        overflow: hidden;
     }
     .hero-content {
         max-width: 800px;
@@ -177,13 +179,10 @@
         .city-grid { grid-template-columns: 1fr; }
         .hero h1 { font-size: 3rem; }
     }
-  </style>
 
     /* FOOTER */
-    .site-footer { background: var(--ink); color: rgba(255,255,255,.55); padding: 36px 0 20px; font-size: .85rem; }
+    .site-footer { background: var(--background); border-top: 1px solid rgba(255,255,255,0.05); color: rgba(255,255,255,.55); padding: 36px 0 20px; font-size: .85rem; }
     .footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-
-    @media (max-width: 600px) { .city-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
