@@ -6,7 +6,7 @@
         <a href="/" class="wp-logo" id="main-logo">Travel<span>Sides</span></a>
         <ul class="wp-links">
           <li><a href="/" id="nav-home">Explore</a></li>
-          <li><a href="/neighbourhoods/" id="nav-nb">Neighbourhoods</a></li>
+          <li><a href="/#neighbourhoods" id="nav-nb">Neighbourhoods</a></li>
           <li><a href="/near-me/" id="nav-nearme">Near Me</a></li>
         </ul>
       </nav>
