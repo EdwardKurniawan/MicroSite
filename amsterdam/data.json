@@ -151,6 +151,183 @@
   "itinerary": [],
   "neighbourhoods": [
     {
+      "url": "/plantage/",
+      "image": "/images/plantage.png",
+      "alt": "De Plantage Amsterdam",
+      "name": "De Plantage",
+      "tagline": "Leafy gardens · Artis Zoo · 19th-century elegance",
+      "slug": "plantage",
+      "h1": "De Plantage",
+      "title": "De Plantage Amsterdam Guide 2026 — Gardens, History & Elegance",
+      "desc": "Amsterdam's greenest and most elegant district, home to the botanical gardens and the ancient zoo.",
+      "standfirst": "De Plantage is Amsterdam's 'green' district — a serene, leafy neighbourhood of wide boulevards and 19th-century architecture that feels worlds away from the busy centre.",
+      "facts": [
+        {
+          "icon": "🌿",
+          "label": "Character",
+          "value": "Green, historic, peaceful"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "East of the historic center"
+        },
+        {
+          "icon": "🚶",
+          "label": "Best way",
+          "value": "Strolling"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Families, nature lovers"
+        }
+      ],
+      "intro": "Built in the late 17th century as a 'pleasure garden' outside the city walls, De Plantage evolved into a chic residential quarter in the 1800s. It contains the Hortus Botanicus (one of the world's oldest botanical gardens) and Artis (the first zoo established in the Netherlands). It's where grand architecture meets natural tranquility.",
+      "todos": [
+        {
+          "title": "Artis Royal Zoo",
+          "body": "The oldest zoo in the Netherlands, featuring stunning 19th-century pavilions and an aquarium."
+        },
+        {
+          "title": "Hortus Botanicus",
+          "body": "Founded in 1638, this botanical garden contains over 6,000 plant species and a famous butterfly house."
+        },
+        {
+          "title": "National Holocaust Names Monument",
+          "body": "A powerful Daniel Libeskind-designed memorial on the Weesperstraat."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚋",
+          "text": "Tram 14 from Centraal Station to Mr. Visserplein."
+        },
+        {
+          "icon": "🚲",
+          "text": "10-minute cycle from the Waterlooplein."
+        }
+      ]
+    },
+    {
+      "url": "/oost/",
+      "image": "/images/oost.png",
+      "alt": "Amsterdam Oost neighbourhood",
+      "name": "Amsterdam Oost",
+      "tagline": "Modern design · Indische Buurt · Oosterpark",
+      "slug": "oost",
+      "h1": "Amsterdam Oost",
+      "title": "Amsterdam Oost Guide 2026 — The Authentic East",
+      "desc": "A vibrant hub of multicultural life, modern architecture, and sprawling city parks.",
+      "standfirst": "Amsterdam Oost is where the city's multicultural heart beats strongest. From the bustling Javastraat to the trendy waterfront of the Eastern Docklands.",
+      "facts": [
+        {
+          "icon": "🧱",
+          "label": "Character",
+          "value": "Dynamic, diverse, local"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "East Amsterdam"
+        },
+        {
+          "icon": "🚲",
+          "label": "Best way",
+          "value": "Cycling"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "Authentity, local food"
+        }
+      ],
+      "intro": "Amsterdam Oost has undergone a massive transformation in the last decade. The Indische Buurt, once a working-class immigrant enclave, is now one of the city's hippest zones, while the Oosterpark serves as the neighborhood's green living room. It's a place where 1930s brick architecture meets cutting-edge creative hubs.",
+      "todos": [
+        {
+          "title": "Explore Javastraat",
+          "body": "The heart of the 'Indische Buurt' — a street filled with Turkish bakeries, Dutch bars, and trendy concept stores."
+        },
+        {
+          "title": "Oosterpark",
+          "body": "A beautiful English-style landscape park and the first large park established by the municipality."
+        },
+        {
+          "title": "Tropenmuseum",
+          "body": "One of Europe’s leading ethnographic museums, housed in a magnificent historic building."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚋",
+          "text": "Tram 1, 3, or 19 to Oosterpark."
+        },
+        {
+          "icon": "🚆",
+          "text": "NS trains to Amsterdam Muiderpoort station."
+        }
+      ]
+    },
+    {
+      "url": "/wallen/",
+      "image": "/images/wallen.png",
+      "alt": "De Wallen Amsterdam Historic Core",
+      "name": "De Wallen",
+      "tagline": "Medieval origins · Oude Kerk · hidden heritage",
+      "slug": "wallen",
+      "h1": "De Wallen",
+      "title": "De Wallen Amsterdam Guide 2026 — The Medieval Core & Red Light District",
+      "desc": "The ancient heart of Amsterdam, where 800 years of history meet the city's most famous windows.",
+      "standfirst": "De Wallen is the oldest part of Amsterdam. Beyond its modern reputation, it is a labyrinth of 14th-century churches, tilting sailors' houses, and the very first canals.",
+      "facts": [
+        {
+          "icon": "⛪",
+          "label": "Character",
+          "value": "Ancient, sensory, narrow"
+        },
+        {
+          "icon": "📍",
+          "label": "Location",
+          "value": "The historic center core"
+        },
+        {
+          "icon": "🚶",
+          "label": "Best way",
+          "value": "Walking"
+        },
+        {
+          "icon": "🌟",
+          "label": "Best for",
+          "value": "History, evening strolls"
+        }
+      ],
+      "intro": "Named after the medieval earthen walls (muren) that once protected the settlement, De Wallen is the literal foundation of Amsterdam. It grew around the Oude Kerk (Old Church), which dates back to 1306. While famous today as the 'Red Light District,' the area is currently being reclaimed as a historic residential and creative quarter.",
+      "todos": [
+        {
+          "title": "Oude Kerk",
+          "body": "Amsterdam's oldest building, a stunning Gothic church that now hosts contemporary art."
+        },
+        {
+          "title": "Ons' Lieve Heer op Solder",
+          "body": "A perfectly preserved 17th-century 'hidden church' in the attic of a canal house."
+        },
+        {
+          "title": "Zeedijk",
+          "body": "One of Amsterdam's oldest streets, now the heart of Chinatown with incredible food."
+        }
+      ],
+      "transport": [
+        {
+          "icon": "🚶",
+          "text": "5-minute walk from Amsterdam Centraal Station."
+        },
+        {
+          "icon": "🚇",
+          "text": "Metro 51, 53, or 54 to Nieuwmarkt."
+        }
+      ]
+    },
+    {
       "url": "/jordaan/",
       "image": "/images/jordaan_home.png",
       "alt": "Jordaan neighbourhood",
@@ -557,183 +734,6 @@
         {
           "icon": "🚌",
           "text": "Bus 21 or 22 from Centraal Station."
-        }
-      ]
-    },
-    {
-      "url": "/plantage/",
-      "image": "/images/plantage.png",
-      "alt": "De Plantage Amsterdam",
-      "name": "De Plantage",
-      "tagline": "Leafy gardens · Artis Zoo · 19th-century elegance",
-      "slug": "plantage",
-      "h1": "De Plantage",
-      "title": "De Plantage Amsterdam Guide 2026 — Gardens, History & Elegance",
-      "desc": "Amsterdam's greenest and most elegant district, home to the botanical gardens and the ancient zoo.",
-      "standfirst": "De Plantage is Amsterdam's 'green' district — a serene, leafy neighbourhood of wide boulevards and 19th-century architecture that feels worlds away from the busy centre.",
-      "facts": [
-        {
-          "icon": "🌿",
-          "label": "Character",
-          "value": "Green, historic, peaceful"
-        },
-        {
-          "icon": "📍",
-          "label": "Location",
-          "value": "East of the historic center"
-        },
-        {
-          "icon": "🚶",
-          "label": "Best way",
-          "value": "Strolling"
-        },
-        {
-          "icon": "🌟",
-          "label": "Best for",
-          "value": "Families, nature lovers"
-        }
-      ],
-      "intro": "Built in the late 17th century as a 'pleasure garden' outside the city walls, De Plantage evolved into a chic residential quarter in the 1800s. It contains the Hortus Botanicus (one of the world's oldest botanical gardens) and Artis (the first zoo established in the Netherlands). It's where grand architecture meets natural tranquility.",
-      "todos": [
-        {
-          "title": "Artis Royal Zoo",
-          "body": "The oldest zoo in the Netherlands, featuring stunning 19th-century pavilions and an aquarium."
-        },
-        {
-          "title": "Hortus Botanicus",
-          "body": "Founded in 1638, this botanical garden contains over 6,000 plant species and a famous butterfly house."
-        },
-        {
-          "title": "National Holocaust Names Monument",
-          "body": "A powerful Daniel Libeskind-designed memorial on the Weesperstraat."
-        }
-      ],
-      "transport": [
-        {
-          "icon": "🚋",
-          "text": "Tram 14 from Centraal Station to Mr. Visserplein."
-        },
-        {
-          "icon": "🚲",
-          "text": "10-minute cycle from the Waterlooplein."
-        }
-      ]
-    },
-    {
-      "url": "/oost/",
-      "image": "/images/oost.png",
-      "alt": "Amsterdam Oost neighbourhood",
-      "name": "Amsterdam Oost",
-      "tagline": "Modern design · Indische Buurt · Oosterpark",
-      "slug": "oost",
-      "h1": "Amsterdam Oost",
-      "title": "Amsterdam Oost Guide 2026 — The Authentic East",
-      "desc": "A vibrant hub of multicultural life, modern architecture, and sprawling city parks.",
-      "standfirst": "Amsterdam Oost is where the city's multicultural heart beats strongest. From the bustling Javastraat to the trendy waterfront of the Eastern Docklands.",
-      "facts": [
-        {
-          "icon": "🧱",
-          "label": "Character",
-          "value": "Dynamic, diverse, local"
-        },
-        {
-          "icon": "📍",
-          "label": "Location",
-          "value": "East Amsterdam"
-        },
-        {
-          "icon": "🚲",
-          "label": "Best way",
-          "value": "Cycling"
-        },
-        {
-          "icon": "🌟",
-          "label": "Best for",
-          "value": "Authentity, local food"
-        }
-      ],
-      "intro": "Amsterdam Oost has undergone a massive transformation in the last decade. The Indische Buurt, once a working-class immigrant enclave, is now one of the city's hippest zones, while the Oosterpark serves as the neighborhood's green living room. It's a place where 1930s brick architecture meets cutting-edge creative hubs.",
-      "todos": [
-        {
-          "title": "Explore Javastraat",
-          "body": "The heart of the 'Indische Buurt' — a street filled with Turkish bakeries, Dutch bars, and trendy concept stores."
-        },
-        {
-          "title": "Oosterpark",
-          "body": "A beautiful English-style landscape park and the first large park established by the municipality."
-        },
-        {
-          "title": "Tropenmuseum",
-          "body": "One of Europe’s leading ethnographic museums, housed in a magnificent historic building."
-        }
-      ],
-      "transport": [
-        {
-          "icon": "🚋",
-          "text": "Tram 1, 3, or 19 to Oosterpark."
-        },
-        {
-          "icon": "🚆",
-          "text": "NS trains to Amsterdam Muiderpoort station."
-        }
-      ]
-    },
-    {
-      "url": "/wallen/",
-      "image": "/images/wallen.png",
-      "alt": "De Wallen Amsterdam Historic Core",
-      "name": "De Wallen",
-      "tagline": "Medieval origins · Oude Kerk · hidden heritage",
-      "slug": "wallen",
-      "h1": "De Wallen",
-      "title": "De Wallen Amsterdam Guide 2026 — The Medieval Core & Red Light District",
-      "desc": "The ancient heart of Amsterdam, where 800 years of history meet the city's most famous windows.",
-      "standfirst": "De Wallen is the oldest part of Amsterdam. Beyond its modern reputation, it is a labyrinth of 14th-century churches, tilting sailors' houses, and the very first canals.",
-      "facts": [
-        {
-          "icon": "⛪",
-          "label": "Character",
-          "value": "Ancient, sensory, narrow"
-        },
-        {
-          "icon": "📍",
-          "label": "Location",
-          "value": "The historic center core"
-        },
-        {
-          "icon": "🚶",
-          "label": "Best way",
-          "value": "Walking"
-        },
-        {
-          "icon": "🌟",
-          "label": "Best for",
-          "value": "History, evening strolls"
-        }
-      ],
-      "intro": "Named after the medieval earthen walls (muren) that once protected the settlement, De Wallen is the literal foundation of Amsterdam. It grew around the Oude Kerk (Old Church), which dates back to 1306. While famous today as the 'Red Light District,' the area is currently being reclaimed as a historic residential and creative quarter.",
-      "todos": [
-        {
-          "title": "Oude Kerk",
-          "body": "Amsterdam's oldest building, a stunning Gothic church that now hosts contemporary art."
-        },
-        {
-          "title": "Ons' Lieve Heer op Solder",
-          "body": "A perfectly preserved 17th-century 'hidden church' in the attic of a canal house."
-        },
-        {
-          "title": "Zeedijk",
-          "body": "One of Amsterdam's oldest streets, now the heart of Chinatown with incredible food."
-        }
-      ],
-      "transport": [
-        {
-          "icon": "🚶",
-          "text": "5-minute walk from Amsterdam Centraal Station."
-        },
-        {
-          "icon": "🚇",
-          "text": "Metro 51, 53, or 54 to Nieuwmarkt."
         }
       ]
     }
