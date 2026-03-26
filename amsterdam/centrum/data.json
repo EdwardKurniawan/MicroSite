@@ -62,7 +62,7 @@
   ],
   "products": [
     {
-      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?q=80&w=2070&auto=format&fit=crop",
+      "image_url": "https:/images.unsplash.com/photo-1534351590666-13e3e96b5017?q=80&w=2070&auto=format&fit=crop",
       "category": "Canal Cruise",
       "title": "Classic Canal Cruise",
       "description": "A 75-minute cruise through the UNESCO canal ring with live commentary from a local captain.",
@@ -81,3 +81,4 @@
     }
   ]
 }
+

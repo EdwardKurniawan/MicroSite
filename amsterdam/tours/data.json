@@ -2,7 +2,7 @@
   "title": "Amsterdam Tours & Neighbourhoods (2026)",
   "eyebrow": "🇳🇱 Amsterdam Tours & Walks",
   "standfirst": "",
-  "hero_image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=1200&auto=format&fit=crop&q=80",
+  "hero_image": "https:/images.unsplash.com/photo-1533900298318-6b8da08a523e?w=1200&auto=format&fit=crop&q=80",
   "intro_html": "<p class=\" mb-4\">Amsterdam's neighbourhoods are distinct enough that each feels like a different city. The Jordaan is where Golden Age meets boutique shopping; De Pijp is the food capital; Noord is the creative quarter that used to be a shipyard. <strong>The best way to understand Amsterdam is on foot or on a bike, in one neighbourhood at a time.</strong></p><p class=\" mb-4\">Below are the six best tour options — from guided Jordaan walks to self-guided cycling routes and food tours through De Pijp. The canal ring walk at the end is free and, on a good day, the best thing you can do in Amsterdam.</p>",
   "attractions": [
     {
@@ -78,7 +78,7 @@
       "name": "Amsterdam Self-Guided City Game",
       "category": "City Game",
       "badge": "Best for Groups",
-      "image_url": "https://images.unsplash.com/photo-1541433131766-00ea357997ce?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1541433131766-00ea357997ce?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.5 (4,900 reviews)",
       "metas": [
         "📍 Self-guided, start anywhere",
@@ -95,7 +95,7 @@
       "name": "Canal Ring Self-Guided Walk",
       "category": "Self-Guided Walk",
       "badge": "Free Option",
-      "image_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.8 (2,100 reviews)",
       "metas": [
         "📍 Start at Centraal Station",
@@ -112,7 +112,7 @@
       "name": "Jewish Quarter Walking Tour",
       "category": "Walking Tour",
       "badge": "History Walk",
-      "image_url": "https://images.unsplash.com/photo-1589408460144-672522776c5b?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1589408460144-672522776c5b?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.9 (4,800 reviews)",
       "metas": [
         "📍 Starts at Waterlooplein",
@@ -129,7 +129,7 @@
       "name": "Amsterdam Guided City Escape Game",
       "category": "City Game",
       "badge": "Best for Groups",
-      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.5 (3,900 reviews)",
       "metas": [
         "📍 Various locations across the city",
@@ -202,3 +202,4 @@
   "products": [],
   "getting_there": []
 }
+

@@ -2,7 +2,7 @@
   "title": "Amsterdam Neighbourhoods",
   "eyebrow": "District Guide",
   "standfirst": "Amsterdam is more than just its famous canal ring. From the creative industrial hub of Noord to the leafy 19th-century elegance of De Plantage, each of our 10 districts has its own soul, its own history, and its own secrets.",
-  "hero_image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?q=80&w=2070&auto=format&fit=crop",
+  "hero_image": "https:/images.unsplash.com/photo-1512470876302-972faa2aa9a4?q=80&w=2070&auto=format&fit=crop",
   "map_config": {
     "center": [52.3730, 4.8926],
     "zoom": 13,
@@ -93,4 +93,5 @@
 
   ]
 }
+
 

@@ -1,5 +1,6 @@
 {
   "outputDirectory": "public",
   "buildCommand": "node scripts/build.js",
-  "framework": null
+  "framework": null,
+  "trailingSlash": true
 }

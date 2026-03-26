@@ -95,7 +95,7 @@
       "name": "Restaurant C",
       "category": "Modern European",
       "badge": "Culinary Science",
-      "image_url": "https://images.unsplash.com/photo-1550966841-3ee7adac1661?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1550966841-3ee7adac1661?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.5 (950 reviews)",
       "metas": [
         "📍 Amsterdam Oost",
@@ -112,7 +112,7 @@
       "name": "Mediamatic ETEN",
       "category": "Vegan-Friendly / Artsy",
       "badge": "Waterfront Views",
-      "image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1559339352-11d035aa65de?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.3 (1,200 reviews)",
       "metas": [
         "📍 Dijksgracht (near Centraal)",
@@ -129,7 +129,7 @@
       "name": "Pianeta Terra",
       "category": "Italian / Slow Food",
       "badge": "Sustainable Excellence",
-      "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1551183053-bf91a1d81141?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.8 (850 reviews)",
       "metas": [
         "📍 Centrum / Canal Ring",
@@ -146,7 +146,7 @@
       "name": "Restaurant AmsEel",
       "category": "Modern Dutch",
       "badge": "Local Secret",
-      "image_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.7 (400 reviews)",
       "metas": [
         "📍 Oud-West",
@@ -163,7 +163,7 @@
       "name": "Vinkeles",
       "category": "Michelin Star / Historic",
       "badge": "Historic Grandeur",
-      "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https:/images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.8 (1,200 reviews)",
       "metas": [
         "📍 Keizersgracht / Centrum",
@@ -182,4 +182,5 @@
   "products": [],
   "getting_there": []
 }
+
 
