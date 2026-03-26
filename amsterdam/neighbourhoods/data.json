@@ -3,6 +3,22 @@
   "eyebrow": "District Guide",
   "standfirst": "Amsterdam is more than just its famous canal ring. From the creative industrial hub of Noord to the leafy 19th-century elegance of De Plantage, each of our 10 districts has its own soul, its own history, and its own secrets.",
   "hero_image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?q=80&w=2070&auto=format&fit=crop",
+  "map_config": {
+    "center": [52.3730, 4.8926],
+    "zoom": 13,
+    "markers": [
+      {"lat": 52.3667, "lng": 4.9083, "name": "De Plantage", "link": "/plantage/"},
+      {"lat": 52.3559, "lng": 4.9289, "name": "Amsterdam Oost", "link": "/oost/"},
+      {"lat": 52.3719, "lng": 4.8981, "name": "De Wallen", "link": "/wallen/"},
+      {"lat": 52.3738, "lng": 4.8833, "name": "Jordaan", "link": "/jordaan/"},
+      {"lat": 52.3544, "lng": 4.8944, "name": "De Pijp", "link": "/de-pijp/"},
+      {"lat": 52.3983, "lng": 4.9125, "name": "Amsterdam Noord", "link": "/noord/"},
+      {"lat": 52.3584, "lng": 4.8811, "name": "Museumplein", "link": "/museumplein/"},
+      {"lat": 52.3702, "lng": 4.8952, "name": "Centrum / Canal Ring", "link": "/centrum/"},
+      {"lat": 52.3653, "lng": 4.8706, "name": "Oud-West", "link": "/oud-west/"},
+      {"lat": 52.3860, "lng": 4.8730, "name": "Westerpark", "link": "/westerpark/"}
+    ]
+  },
   "products": [
     {
       "title": "De Plantage",

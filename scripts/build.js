@@ -2,6 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const Handlebars = require('handlebars');
 
+Handlebars.registerHelper('json', function(context) {
+  return JSON.stringify(context);
+});
+
 const DIR = path.join(__dirname, '..');
 const CITY = process.env.CITY || 'amsterdam';
 const CITY_DIR = path.join(DIR, CITY);

@@ -5,6 +5,10 @@ const path = require('path');
 const { Pool } = require('pg');
 const Handlebars = require('handlebars');
 
+Handlebars.registerHelper('json', function(context) {
+  return JSON.stringify(context);
+});
+
 const PORT = process.env.PORT || 3001;
 const DIR = __dirname;
 
