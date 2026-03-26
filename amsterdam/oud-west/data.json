@@ -2,7 +2,7 @@
   "title": "Oud-West",
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
   "standfirst": "One of Amsterdam's most lively and creative districts, Oud-West is where locals go for dinner and shopping when they want to avoid the tourist crowds of the centre.",
-  "hero_image": "/images/oud_west.png",
+  "hero_image": "/amsterdam/images/oud_west.png",
   "intro_html": "<p class=\" mb-4\">Oud-West sits just outside the canal ring and has transformed from a quiet residential area into one of the city's most desirable neighbourhoods. Its heartbeat is the Ten Katemarkt and the adjacent De Hallen, a repurposed tram depot that now houses the city's best food hall, a cinema, and independent design shops.</p><p class=\" mb-4\">The streets are lined with craft coffee shops, trendy boutiques, and some of the best international restaurants in the city. It's a neighbourhood that feels authentic, lived-in, and continuously evolving.</p>",
   "facts": [
     {
@@ -71,3 +71,4 @@
     }
   ]
 }
+

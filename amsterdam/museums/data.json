@@ -10,7 +10,7 @@
       "name": "Rijksmuseum",
       "category": "Museum & Art",
       "badge": "Must See",
-      "image_url": "/images/venues/rijksmuseum.jpg",
+      "image_url": "/amsterdam/images/venues/rijksmuseum.jpg",
       "rating_text": "★★★★★ 4.7 (94,000 reviews)",
       "metas": [
         "📍 Museumplein",
@@ -27,7 +27,7 @@
       "name": "Van Gogh Museum",
       "category": "Museum & Art",
       "badge": "Must See",
-      "image_url": "/images/venues/van-gogh-museum.jpg",
+      "image_url": "/amsterdam/images/venues/van-gogh-museum.jpg",
       "rating_text": "★★★★★ 4.8 (82,000 reviews)",
       "metas": [
         "📍 Museumplein",
@@ -61,7 +61,7 @@
       "name": "NEMO Science Museum",
       "category": "Museum & Science",
       "badge": "Great for Families",
-      "image_url": "/images/venues/nemo-science-museum.jpg",
+      "image_url": "/amsterdam/images/venues/nemo-science-museum.jpg",
       "rating_text": "★★★★☆ 4.4 (18,700 reviews)",
       "metas": [
         "📍 Oosterdok Kade 2",
@@ -78,7 +78,7 @@
       "name": "Moco Museum Amsterdam",
       "category": "Museum & Art",
       "badge": "Hidden Gem",
-      "image_url": "/images/venues/moco-museum.jpg",
+      "image_url": "/amsterdam/images/venues/moco-museum.jpg",
       "rating_text": "★★★★★ 4.6 (14,200 reviews)",
       "metas": [
         "📍 Honthorststraat 20",

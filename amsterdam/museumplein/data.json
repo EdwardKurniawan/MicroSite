@@ -2,7 +2,7 @@
   "title": "Museumplein",
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
   "standfirst": "Three world-class museums on one lawn — the Rijksmuseum, Van Gogh, and Stedelijk are all within a 5-minute walk of each other. Add Vondelpark and the best shopping street in Amsterdam and you have a full day.",
-  "hero_image": "/images/museumplein.png",
+  "hero_image": "/amsterdam/images/museumplein.png",
   "intro_html": "<p class=\" mb-4\">In 1877, the city of Amsterdam set aside a large open field south of the Leidseplein for culture. The Rijksmuseum (1885), the Concertgebouw (1888), and what would eventually become the Van Gogh Museum and Stedelijk Museum were all built on or around this space over the following decades. The result — three world-class institutions sharing a single square kilometre of lawn — is one of the great concentrations of cultural infrastructure anywhere in Europe.</p><p class=\" mb-4\"><strong>On a good day, you can walk from Rembrandt's Night Watch to Van Gogh's Sunflowers to a Mondrian in under fifteen minutes.</strong> Add the Moco Museum (Banksy and contemporary art), the Concertgebouw (free lunchtime concerts on Wednesdays), and the Vondelpark (five minutes from the museums), and you have a cultural district that rivals anything in London, Paris, or New York — at a fraction of the price.</p><p class=\" mb-4\">The neighbourhood around Museumplein — Oud-Zuid — is also one of Amsterdam's most pleasant residential areas: wide leafy streets, independent cafés on Van Baerlestraat, and the PC Hooftstraat shopping street (Amsterdam's equivalent of Bond Street) for those who want to spend more than museum entry prices.</p>",
   "facts": [
     {
@@ -94,3 +94,4 @@
     }
   ]
 }
+

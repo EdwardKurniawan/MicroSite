@@ -2,7 +2,7 @@
   "title": "Amsterdam's Top 10 Exceptional Restaurants (2026)",
   "eyebrow": "🍴 Amsterdam Food Guide",
   "standfirst": "Amsterdam's culinary scene has moved far beyond stroopwafels. Today, the city specializes in 'experience dining' — from floating sea platforms to high-tech greenhouses.",
-  "hero_image": "/images/de-kas.png",
+  "hero_image": "/amsterdam/images/de-kas.png",
   "intro_html": "<p class=\"mb-4\">If you want a standard meal, Amsterdam is full of them. But if you want a <strong>sensory experience</strong> that you'll remember a year from now, you need to know where to look. The city’s best restaurants aren't always on the main canals; they're in repurposed industrial towers, on private islands, and inside historic greenhouses.</p><p class=\"mb-4\">This curated list focuses on the 'Top 10 Exceptional Experiences' — places where the architecture, the atmosphere, and the ritual of dining are just as important as the food on the plate.</p>",
   "attractions": [
     {
@@ -10,7 +10,7 @@
       "name": "Restaurant De Kas",
       "category": "Farm-to-Table / Greenhouse",
       "badge": "Iconic Experience",
-      "image_url": "/images/de-kas.png",
+      "image_url": "/amsterdam/images/de-kas.png",
       "rating_text": "★★★★★ 4.6 (5,200 reviews)",
       "metas": [
         "📍 Amsterdam Oost",
@@ -27,7 +27,7 @@
       "name": "Vuurtoreneiland",
       "category": "Island Dining / Adventure",
       "badge": "The Ultimate Ritual",
-      "image_url": "/images/vuurtoreneiland.png",
+      "image_url": "/amsterdam/images/vuurtoreneiland.png",
       "rating_text": "★★★★★ 4.9 (1,800 reviews)",
       "metas": [
         "⛴ Departure from Veemkade",
@@ -44,7 +44,7 @@
       "name": "REM Eiland",
       "category": "Industrial / High-View",
       "badge": "High Altitude",
-      "image_url": "/images/rem-eiland.png",
+      "image_url": "/amsterdam/images/rem-eiland.png",
       "rating_text": "★★★★☆ 4.4 (2,100 reviews)",
       "metas": [
         "📍 Houthavens",
@@ -61,7 +61,7 @@
       "name": "Restaurant Moon",
       "category": "Fine Dining / Rotating",
       "badge": "360° Views",
-      "image_url": "/images/moon.png",
+      "image_url": "/amsterdam/images/moon.png",
       "rating_text": "★★★★★ 4.5 (1,500 reviews)",
       "metas": [
         "📍 Amsterdam Noord",
@@ -78,7 +78,7 @@
       "name": "Pesca - Theatre of Fish",
       "category": "Seafood / Interactive",
       "badge": "Dynamic Choice",
-      "image_url": "/images/pesca.png",
+      "image_url": "/amsterdam/images/pesca.png",
       "rating_text": "★★★★★ 4.7 (3,800 reviews)",
       "metas": [
         "📍 Jordaan / Rozengracht",
@@ -182,3 +182,4 @@
   "products": [],
   "getting_there": []
 }
+

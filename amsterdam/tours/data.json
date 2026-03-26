@@ -10,7 +10,7 @@
       "name": "Jordaan Walking Tour",
       "category": "Walking Tour",
       "badge": "Most Popular",
-      "image_url": "/images/jordaan_canal.png",
+      "image_url": "/amsterdam/images/jordaan_canal.png",
       "rating_text": "★★★★★ 4.9 (12,400 reviews)",
       "metas": [
         "📍 Starts near Westerkerk",
@@ -27,7 +27,7 @@
       "name": "Guided Bike Tour of Amsterdam",
       "category": "Bike Tour",
       "badge": "Classic Amsterdam",
-      "image_url": "/images/bike_tour.png",
+      "image_url": "/amsterdam/images/bike_tour.png",
       "rating_text": "★★★★★ 4.8 (18,600 reviews)",
       "metas": [
         "📍 Various starting points near Centraal",
@@ -44,7 +44,7 @@
       "name": "De Pijp Food & Market Tour",
       "category": "Food Tour",
       "badge": "Best for Foodies",
-      "image_url": "/images/food_tour.png",
+      "image_url": "/amsterdam/images/food_tour.png",
       "rating_text": "★★★★★ 4.8 (6,200 reviews)",
       "metas": [
         "📍 Albert Cuyp Market, De Pijp",
@@ -61,7 +61,7 @@
       "name": "Amsterdam Noord Tour",
       "category": "Neighbourhood Tour",
       "badge": "Off the Beaten Track",
-      "image_url": "/images/noord_tour.png",
+      "image_url": "/amsterdam/images/noord_tour.png",
       "rating_text": "★★★★☆ 4.7 (3,400 reviews)",
       "metas": [
         "📍 Free ferry from Centraal Station",
@@ -146,7 +146,7 @@
       "name": "De Plantage",
       "category": "Neighbourhood",
       "badge": "New District",
-      "image_url": "/images/plantage.png",
+      "image_url": "/amsterdam/images/plantage.png",
       "rating_text": "★★★★★ 4.8 (Local Favourite)",
       "metas": [
         "📍 East of Centrum",
@@ -164,7 +164,7 @@
       "name": "Amsterdam Oost",
       "category": "Neighbourhood",
       "badge": "Authentic Local",
-      "image_url": "/images/oost.png",
+      "image_url": "/amsterdam/images/oost.png",
       "rating_text": "★★★★★ 4.9 (Local Favourite)",
       "metas": [
         "📍 East Amsterdam",
@@ -182,7 +182,7 @@
       "name": "De Wallen",
       "category": "Neighbourhood",
       "badge": "Ancient Core",
-      "image_url": "/images/wallen.png",
+      "image_url": "/amsterdam/images/wallen.png",
       "rating_text": "★★★★☆ 4.7 (Historic District)",
       "metas": [
         "📍 Historic Centre",

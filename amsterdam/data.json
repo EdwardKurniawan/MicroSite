@@ -127,7 +127,7 @@
     },
     {
       "url": "/tours/",
-      "image": "/images/jordaan_home.png",
+      "image": "/amsterdam/images/jordaan_home.png",
       "alt": "Jordaan neighbourhood Amsterdam street",
       "count": "9 tours & walks",
       "title": "Neighbourhoods & Tours",
@@ -136,7 +136,7 @@
     },
     {
       "url": "/food/",
-      "image": "/images/de-kas.png",
+      "image": "/amsterdam/images/de-kas.png",
       "alt": "De Kas Greenhouse Restaurant Amsterdam",
       "count": "10 Exceptional Restaurants",
       "title": "Food & Fine Dining",
@@ -145,7 +145,7 @@
     },
     {
       "url": "/neighbourhoods/",
-      "image": "/images/jordaan_home.png",
+      "image": "/amsterdam/images/jordaan_home.png",
       "alt": "Amsterdam Neighbourhoods",
       "count": "10 Districts",
       "title": "All Neighbourhoods",

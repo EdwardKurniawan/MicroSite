@@ -2,7 +2,7 @@
   "title": "De Wallen: The Historic Medieval Core",
   "eyebrow": "⛪ De Wallen Guide",
   "standfirst": "Beyond the neon: discovering 800 years of history in Amsterdam's ancient labyrinth of canals and churches.",
-  "hero_image": "/images/wallen.png",
+  "hero_image": "/amsterdam/images/wallen.png",
   "intro_html": "<p class=\"mb-4\">De Wallen is the literal foundation of Amsterdam. Named after the earthen walls that once protected the medieval settlement, this is the oldest part of the city. While today it is internationally famous (or infamous) as the Red Light District, it remains a neighborhood of profound historical significance.</p><p class=\"mb-4\">Here, you'll find the Oude Kerk, the city's oldest building, standing in the middle of a bustling square. You'll find 'hidden' churches in canal-house attics and the remains of the medieval city gates. To visit De Wallen is to step back into the 14th century, where every narrow alley has a story that pre-dates the Dutch Golden Age.</p>",
   "facts": [
     {
@@ -71,3 +71,4 @@
     }
   ]
 }
+

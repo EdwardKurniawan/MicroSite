@@ -2,7 +2,7 @@
   "title": "Amsterdam Oost: The Authentic East",
   "eyebrow": "🧱 Amsterdam Oost Guide",
   "standfirst": "A dynamic tapestry of multicultural markets, modern architecture, and the city's most beautiful English-style park.",
-  "hero_image": "/images/oost.png",
+  "hero_image": "/amsterdam/images/oost.png",
   "intro_html": "<p class=\"mb-4\">Amsterdam Oost (East) is where the city feels most alive and unscripted. It’s a neighborhood of contrasts: the bustling, multicultural Javastraat exists just blocks away from the hip, modern waterfront of the Eastern Docklands.</p><p class=\"mb-4\">While the centre can feel like a museum, Oost feels like a home. It’s where you’ll find the best Surinamese food in the city, the most innovative creative hubs, and a community spirit that's hard to find in the more tourist-heavy districts. From the sprawling Oosterpark to the world-class Tropenmuseum, Oost is a destination in its own right.</p>",
   "facts": [
     {
@@ -71,3 +71,4 @@
     }
   ]
 }
+

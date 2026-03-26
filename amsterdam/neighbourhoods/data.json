@@ -7,89 +7,90 @@
     "center": [52.3730, 4.8926],
     "zoom": 13,
     "markers": [
-      {"lat": 52.3667, "lng": 4.9083, "name": "De Plantage", "link": "/plantage/", "image": "/images/plantage.png"},
-      {"lat": 52.3559, "lng": 4.9289, "name": "Amsterdam Oost", "link": "/oost/", "image": "/images/oost.png"},
-      {"lat": 52.3719, "lng": 4.8981, "name": "De Wallen", "link": "/wallen/", "image": "/images/wallen.png"},
-      {"lat": 52.3738, "lng": 4.8833, "name": "Jordaan", "link": "/jordaan/", "image": "/images/jordaan_home.png"},
-      {"lat": 52.3544, "lng": 4.8944, "name": "De Pijp", "link": "/de-pijp/", "image": "/images/de_pijp.png"},
-      {"lat": 52.3983, "lng": 4.9125, "name": "Amsterdam Noord", "link": "/noord/", "image": "/images/noord.png"},
-      {"lat": 52.3584, "lng": 4.8811, "name": "Museumplein", "link": "/museumplein/", "image": "/images/museumplein.png"},
-      {"lat": 52.3702, "lng": 4.8952, "name": "Centrum / Canal Ring", "link": "/centrum/", "image": "/images/centrum.png"},
-      {"lat": 52.3653, "lng": 4.8706, "name": "Oud-West", "link": "/oud-west/", "image": "/images/oud_west.png"},
-      {"lat": 52.3860, "lng": 4.8730, "name": "Westerpark", "link": "/westerpark/", "image": "/images/westerpark.png"}
+      {"lat": 52.3667, "lng": 4.9083, "name": "De Plantage", "link": "/plantage/", "image": "/amsterdam/images/plantage.png"},
+      {"lat": 52.3559, "lng": 4.9289, "name": "Amsterdam Oost", "link": "/oost/", "image": "/amsterdam/images/oost.png"},
+      {"lat": 52.3719, "lng": 4.8981, "name": "De Wallen", "link": "/wallen/", "image": "/amsterdam/images/wallen.png"},
+      {"lat": 52.3738, "lng": 4.8833, "name": "Jordaan", "link": "/jordaan/", "image": "/amsterdam/images/jordaan_home.png"},
+      {"lat": 52.3544, "lng": 4.8944, "name": "De Pijp", "link": "/de-pijp/", "image": "/amsterdam/images/de_pijp.png"},
+      {"lat": 52.3983, "lng": 4.9125, "name": "Amsterdam Noord", "link": "/noord/", "image": "/amsterdam/images/noord.png"},
+      {"lat": 52.3584, "lng": 4.8811, "name": "Museumplein", "link": "/museumplein/", "image": "/amsterdam/images/museumplein.png"},
+      {"lat": 52.3702, "lng": 4.8952, "name": "Centrum / Canal Ring", "link": "/centrum/", "image": "/amsterdam/images/centrum.png"},
+      {"lat": 52.3653, "lng": 4.8706, "name": "Oud-West", "link": "/oud-west/", "image": "/amsterdam/images/oud_west.png"},
+      {"lat": 52.3860, "lng": 4.8730, "name": "Westerpark", "link": "/westerpark/", "image": "/amsterdam/images/westerpark.png"}
     ]
   },
   "products": [
     {
       "title": "De Plantage",
       "description": "De Plantage is Amsterdam’s greenest district, originally laid out as a 'pleasure garden' outside the city walls in the 17th century. It remains a tranquil, elegant pocket of the city where grand 19th-century architecture meets the leafy canopies of the Hortus Botanicus and the world-famous Artis Royal Zoo.\n\nThis is where history is whispered through the trees, from the Resistance Museum to the poignant Jewish Historical Museum, offering a sophisticated retreat from the central hustle. Perfect for a slow afternoon wandering between botanical wonders and historic landmarks.",
-      "image": "/images/plantage.png",
+      "image": "/amsterdam/images/plantage.png",
       "link": "/plantage/",
       "cta": "Explore District"
     },
     {
       "title": "Amsterdam Oost",
       "description": "Stretching from the Oosterpark to the vibrant Indische Buurt, Amsterdam Oost is a kaleidscope of cultures and creative energy. It’s a place where traditional Dutch architecture blends seamlessly with the sleek modernism of the Eastern Docklands, creating a unique urban tapestry.\n\nHere, you’ll find some of the city’s most experimental dining, the sprawling grounds of the Tropenmuseum, and a local vibe that feels authentically lived-in. It’s the perfect district for those who want to discover the 'real' Amsterdam beyond the tourist core, where every street corner tells a different story.",
-      "image": "/images/oost.png",
+      "image": "/amsterdam/images/oost.png",
       "link": "/oost/",
       "cta": "Explore District"
     },
     {
       "title": "De Wallen",
       "description": "The medieval heart of Amsterdam, De Wallen is the city’s oldest and most misunderstood district. Beyond the neon lights of the Red Light District lies a network of narrow alleys and leaning brick houses that date back to the 13th century, forming the literal foundation of the city.\n\nIt is home to the Oude Kerk, Amsterdam’s oldest building, and a surprising collection of hidden artisan boutiques and historic 'brown cafes.' To walk through De Wallen is to step back into the seafaring foundation of the Dutch capital, discovering a world of grit, glamor, and deep history.",
-      "image": "/images/wallen.png",
+      "image": "/amsterdam/images/wallen.png",
       "link": "/wallen/",
       "cta": "Explore District"
     },
     {
       "title": "Jordaan",
       "description": "Perhaps the most celebrated neighborhood in the Netherlands, the Jordaan was once a working-class stronghold that has transformed into a boutique-filled paradise. Its narrow canals and floral-draped bridges define the quintessential Amsterdam aesthetic that travelers dream of.\n\nWander through the '9 Straatjes' for independent fashion, pause for a world-class apple pie at Winkel 43, or simply get lost in the labyrinth of quiet streets where secret courtyard gardens (hofjes) wait to be discovered. It is the soul of the city, captured in every reflection on the water.",
-      "image": "/images/jordaan_home.png",
+      "image": "/amsterdam/images/jordaan_home.png",
       "link": "/jordaan/",
       "cta": "Explore District"
     },
     {
       "title": "De Pijp",
       "description": "Known as the Latin Quarter of Amsterdam, De Pijp is a hive of activity and the undisputed culinary capital of the city. Centered around the legendary Albert Cuyp Market, the district is a sensory explosion of international flavors, craft coffee, and independent spirit.\n\nFrom the lush lawns of the Sarphatipark to the interactive halls of the Heineken Experience, De Pijp attracts a diverse crowd of students, artists, and young professionals. It's a place where you can find the city’s best brunch spots by morning and its most vibrant bars by night.",
-      "image": "/images/de_pijp.png",
+      "image": "/amsterdam/images/de_pijp.png",
       "link": "/de-pijp/",
       "cta": "Explore District"
     },
     {
       "title": "Amsterdam Noord",
       "description": "Just a free ferry ride away, Amsterdam Noord is where the city’s industrial past meets its experimental future. What was once a sprawling shipyard is now the NDSM Wharf—a vast, creative playground for street artists, tech startups, and crane-hotels.\n\nThe district offers some of the best waterfront views in the city, the avant-garde Eye Film Museum, and a rugged, open atmosphere that feels worlds apart from the historic center. It’s the frontier of Dutch cool, where innovation and heritage collide on the banks of the IJ.",
-      "image": "/images/noord.png",
+      "image": "/amsterdam/images/noord.png",
       "link": "/noord/",
       "cta": "Explore District"
     },
     {
       "title": "Museumplein",
       "description": "The cultural heartbeat of the city, Museumplein is a grand, open lawn surrounded by three of the world’s most prestigious art institutions: the Rijksmuseum, the Van Gogh Museum, and the Stedelijk Museum. It is a place of pilgrimage for art lovers from across the globe.\n\nWhether you’re listening to a world-class performance at the Concertgebouw or reflecting by the pond in the shadow of the museum’s gothic towers, this district represents Amsterdam at its most refined. It's an elegant expanse that serves as the city's living art gallery.",
-      "image": "/images/museumplein.png",
+      "image": "/amsterdam/images/museumplein.png",
       "link": "/museumplein/",
       "cta": "Explore District"
     },
     {
       "title": "Centrum / Canal Ring",
       "description": "Encompassing the UNESCO-protected 17th-century canal ring, the Centrum is the majestic architectural crown of Amsterdam. This is the city of old masters, where the concentric arcs of the Herengracht, Keizersgracht, and Prinsengracht tell the story of the Dutch Golden Age.\n\nDam Square, the Royal Palace, and the chic boutiques of the Haarlemmerstraat are all within easy reach, making it the essential starting point for any visitor. It's where the city's grandest history meets its modern, bustling life in a spectacular display of brick and water.",
-      "image": "/images/centrum.png",
+      "image": "/amsterdam/images/centrum.png",
       "link": "/centrum/",
       "cta": "Explore District"
     },
     {
       "title": "Oud-West",
       "description": "Oud-West strikes the perfect balance between trendy and traditional, making it a favorite among locals who value style without the crowds. The neighborhood's centerpiece is De Hallen—a beautifully repurposed tram depot that now houses a cinema, independent shops, and the famous Foodhallen.\n\nFrom the bustling Ten Katemarkt to the designer boutiques along the Overtoom, Oud-West is a district of constant discovery. It offers some of the city’s best craft beer and international brunch spots in a relaxed, residential setting that feels like a well-kept secret.",
-      "image": "/images/oud_west.png",
+      "image": "/amsterdam/images/oud_west.png",
       "link": "/oud-west/",
       "cta": "Explore District"
     },
     {
       "title": "Westerpark",
       "description": "Westerpark is a masterclass in urban regeneration, centered around a 19th-century gasworks that has been transformed into a sprawling cultural complex. The lush parkland is a haven for runners and picnickers, while the historic brick buildings of the Westergas host festivals and galleries.\n\nIt’s a district where nature meets industrial heritage, providing a spacious and creative alternative to the denser central neighborhoods. Here, you can enjoy some of the city's best outdoor events, artisanal bakeries, and panoramic sunset views over the green expanse.",
-      "image": "/images/westerpark.png",
+      "image": "/amsterdam/images/westerpark.png",
       "link": "/westerpark/",
       "cta": "Explore District"
     }
 
   ]
 }
+

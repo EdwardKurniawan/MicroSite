@@ -2,7 +2,7 @@
   "title": "Westerpark",
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
   "standfirst": "A sprawling green park built on the site of a former gasworks, Westerpark is the intersection of industrial heritage, alternative culture, and wide-open green spaces.",
-  "hero_image": "/images/westerpark.png",
+  "hero_image": "/amsterdam/images/westerpark.png",
   "intro_html": "<p class=\" mb-4\">Westerpark is more than just a park; it's a cultural campus. The Westergasfabriek — a collection of stunning red-brick industrial buildings — was once the city's municipal gasworks. Today, it hosts everything from artisanal bakeries and craft breweries to world-class techno clubs and high-end fashion shows.</p><p class=\" mb-4\">Whether you're looking for a quiet morning run, an afternoon of art, or a night out in a repurposed factory, Westerpark has a unique energy that you won't find anywhere else in Amsterdam.</p>",
   "facts": [
     {
@@ -71,3 +71,4 @@
     }
   ]
 }
+
