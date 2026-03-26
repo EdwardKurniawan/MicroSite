@@ -25,26 +25,27 @@
     {
       "num": "01",
       "title": "Oude Kerk",
-      "image": "https://images.unsplash.com/photo-1590059345054-05187fa5476a?q=80&w=2070&auto=format&fit=crop",
+      "image": "/amsterdam/images/wallen.png",
       "description": "Consecrated in 1306, the Oude Kerk ('Old Church') is Amsterdam's oldest building and parish church. It stands as a stunning example of North European Gothic architecture, with its massive timber-vaulted ceiling and stained-glass windows that have survived centuries of religious and political upheaval.\n\nToday, the church operates as a world-class center for contemporary art, hosting site-specific installations that play with the building's monumental space and light. It is a place of profound silence and beauty, located right in the middle of the city's busiest and most chaotic district."
     },
     {
       "num": "02",
       "title": "Ons' Lieve Heer op Solder",
-      "image": "https://images.unsplash.com/photo-1548678967-f1aff5c9db8d?q=80&w=2070&auto=format&fit=crop",
-      "description": "Known as 'Our Lord in the Attic,' this is one of the most remarkable museums in the city. It is a clandestine Catholic church built into the top floors of a 17th-century canal house during a time when public Catholic worship was forbidden in the Netherlands.\n\nThe lower floors remain a perfectly preserved merchant's house, but as you climb the narrow stairs, you emerge into a narrow, two-story chapel draped in gold and velvet. It is a testament to religious tolerance and the ingenuity of Golden Age Amsterdammers who found literal 'loopholes' in the law."
-    },
+      "image": "/amsterdam/images/museums.jpg",
+      "description": "Hidden behind the facade of a classic 17th-century canal house is one of the city's most surprising sites: a complete, perfectly preserved Catholic 'attic church.' Built during a time when Catholicism was banned from public life, this 'hidden church' occupies the top three floors of the house.\n\nThe climb up the narrow, winding stairs is a journey through domestic history, leading to a sprawling, pink-walled cathedral in the sky. It is a powerful monument to religious tolerance and Dutch ingenuity, offering an incredibly intimate glimpse into the secret spiritual life of the Golden Age city."
+    }
+,
     {
       "num": "03",
       "title": "Zeedijk & Chinatown",
-      "image": "https://images.unsplash.com/photo-1549117650-777648364867?q=80&w=2070&auto=format&fit=crop",
-      "description": "Once a rugged sailors' haunt outside the old city walls, the Zeedijk has transformed into a vibrant, multicultural artery. It is the heart of Amsterdam's Chinatown, teeming with authentic Dim Sum parlors, Asian grocery stores, and the magnificent He Hua Temple—the largest Buddhist temple in Europe built in traditional Chinese style.\n\nWalking the Zeedijk is a journey through time and geography. You'll see some of the city's oldest wooden-fronted houses at one end and the neon-lit, high-speed energy of a modern global city at the other. It is the best place in the city for an authentic Asian culinary experience."
+      "image": "/amsterdam/images/history.jpg",
+      "description": "The Zeedijk is one of Amsterdam's oldest streets, winding along the edge of the medieval city. Today, it is the heart of the city's Chinatown, dominated by the spectacular He Hua Temple—the largest traditional Chinese Buddhist temple in Europe.\n\nThe street is a culinary corridor of exceptional dim sum parlours, noodle bars, and traditional bakeries. Walking here feels like stepping into a different world, where the historic Dutch brickwork is decorated with Chinese lanterns and the air is thick with the scent of five-spice and incense. It's the best place in the center for an authentic, multicultural meal."
     },
     {
       "num": "04",
       "title": "The Condomerie",
-      "image": "https://images.unsplash.com/photo-1513224502586-d1e602410265?q=80&w=2000&auto=format&fit=crop",
-      "description": "Located on the Warmoesstraat, the Condomerie is the world's first specialist condom shop. While it might sound like a tourist trap, it is actually a highly professional and surprisingly educational institution that has played a key role in the city's liberal social history.\n\nThe colorful window displays are a work of art in themselves, featuring everything from hand-painted novelties to serious medical supplies. It embodies the 'live and let live' spirit of Amsterdam, offering a quirky yet important look at the city's approach to health and personal freedom."
+      "image": "/amsterdam/images/wallen-condomerie.jpg",
+      "description": "Located on the Warmoesstraat, the Condomerie was the world's first specialist condom shop, opened in 1987 as a social enterprise to promote sexual health. Over the decades, it has become a neighborhood icon, famous for its colorful, hand-painted window displays and its vast inventory of specialty products from around the world.\n\nIt is a quintessentially Amsterdam institution—open, educational, and slightly eccentric. Whether you're a curious tourist or a serious shopper, the staff are famously professional and helpful, turning what could be an awkward visit into a fascinating lesson in global health history and creative design."
     }
   ],
   "foods": [

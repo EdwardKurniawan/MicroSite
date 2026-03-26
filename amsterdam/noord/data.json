@@ -30,25 +30,25 @@
     {
       "num": "01",
       "title": "A'DAM Lookout",
-      "image": "https://images.unsplash.com/photo-1549226143-6901f40d16c5?q=80&w=2070&auto=format&fit=crop",
+      "image": "/amsterdam/images/venues/adam-lookout.jpg",
       "description": "Standing tall on the banks of the IJ, the A'DAM Lookout is a 360° observation deck that offers the most breathtaking elevated views of Amsterdam. From the 20th floor, you can see the entire historic center, the sprawling port, and the polders that stretch toward the horizon.\n\nFor the truly adventurous, the 'Over the Edge' swing allows you to dangle 100 meters above the ground, swinging back and forth over the building's edge. It is a high-octane way to see the city, but even without the swing, the rooftop bar and interactive exhibitions make this a premium North Amsterdam experience."
     },
     {
       "num": "02",
       "title": "STRAAT Museum",
-      "image": "https://images.unsplash.com/photo-1549410312-d2c8828232c?q=80&w=2070&auto=format&fit=crop",
+      "image": "/amsterdam/images/noord_tour.png",
       "description": "Housed in a massive, 8,000-square-meter former shipyard building on the NDSM wharf, STRAAT is the world's largest museum dedicated to street art and graffiti. The museum features over 150 commissioned murals by international artists, some of which are several stories high, creating an overwhelming gallery of urban creativity.\n\nThe industrial setting perfectly complements the raw, expressive energy of the art on display. Walking through the vast, cold hall filled with vibrant, larger-than-life paintings is a transformative experience that challenges the traditional concept of a 'museum' and celebrates the global reach of street culture."
     },
     {
       "num": "03",
       "title": "Eye Filmmuseum",
       "image": "/amsterdam/images/noord.png",
-      "description": "The Eye Filmmuseum is an architectural marvel—a sleek, white, angular building that resembles a futuristic ship anchored on the IJ waterfront. Inside, it serves as the Netherlands' national center for cinematography, featuring four cinemas, a massive film library, and a series of high-tech exhibitions on the history of film.\n\nThe building is free to enter, and its soaring glass-walled cafe offers some of the best waterfront views in the city. Whether you're here to see a rare cult classic or simply to admire the cutting-edge design, the Eye is the undisputed cultural crown of Amsterdam Noord."
+      "description": "The Eye Filmmuseum is an architectural marvel—a sleek, white, angular building that resembles a futuristic ship anchored on the IJ waterfront. Inside, it serves as the Netherlands' national center for cinematography, featuring four cinemas, a massive film library, and a series of high-tech exhibitions on the history of film.\n\nThe building is free to enter, and its soaring glass-walled cafe offers some of the best waterfront views in the city. Whether you're here to see a rare cult classic or simply admire the cutting-edge design, the Eye is the undisputed cultural crown of Amsterdam Noord."
     },
     {
       "num": "04",
       "title": "De Ceuvel",
-      "image": "https://images.unsplash.com/photo-1555431189-0fabf2667795?q=80&w=2070&auto=format&fit=crop",
+      "image": "/amsterdam/images/noord-de-ceuvel.jpg",
       "description": "De Ceuvel is a masterclass in sustainable urban regeneration. Built on a formerly contaminated industrial plot, this creative hub consists of old houseboats that have been hoisted onto land and connected by a winding wooden jetty. The entire site is a living laboratory for green technologies, featuring solar power and specialized plants that clean the soil.\n\nIts solar-powered cafe is one of the most atmospheric spots in Noord, offering a seasonal, plant-based menu and house-brewed ginger beer. Dangle your feet over the water from the wooden boardwalks and soak in the 'off-grid' vibe of this unique social enterprise."
     }
   ],

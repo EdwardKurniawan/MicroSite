@@ -30,19 +30,19 @@
     {
       "num": "01",
       "title": "Westergasfabriek",
-      "image": "https://images.unsplash.com/photo-1629813589139-4fc750e8a786?q=80&w=2070&auto=format&fit=crop",
+      "image": "/amsterdam/images/westerpark.png",
       "description": "The Westergasfabriek is a magnificent collection of 19th-century red-brick industrial buildings that once served as Amsterdam's municipal gasworks. Today, this 'cultural campus' has been meticulously restored and repurposed to house a vibrant array of creative businesses, cafes, and event spaces.\n\nWandering through the complex, you'll find everything from independent fashion houses and architecture studios to massive galleries hosting world-class exhibitions. It is an industrial cathedral that celebrates the intersection of heritage and innovation, offering some of the most striking architecture in the city outside of the historic center."
     },
     {
       "num": "02",
       "title": "Fabrique des Lumières",
-      "image": "https://images.unsplash.com/photo-1582234372722-50d4ccc21a71?q=80&w=2070&auto=format&fit=crop",
+      "image": "/amsterdam/images/experiences.jpg",
       "description": "Located inside a former gas storage cylinder, Fabrique des Lumières is an immersive digital art center that uses state-of-the-art projection technology to bring the works of artistic masters to life. The massive circular walls of the cylinder are covered floor-to-ceiling in high-definition images that react to an atmospheric soundtrack.\n\nIt is a truly unique visual experience that allows you to literally step 'inside' a painting by Van Gogh or Dalí. The sheer scale of the projections, combined with the rugged industrial setting, makes it one of the most Instagrammable and innovative art experiences in modern Amsterdam."
     },
     {
       "num": "03",
       "title": "Ketelhuis Cinema",
-      "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=2070&auto=format&fit=crop",
+      "image": "/amsterdam/images/westerpark-ketelhuis.jpg",
       "description": "Het Ketelhuis is an independent cinema dedicated to the promotion of Dutch and European film culture. Housed in a charming old factory building within the park, it features three screening rooms that prioritize quality storytelling over blockbuster trends.\n\nIt is a favorite among the city's film-loving community, known for its cozy, library-like foyer and its commitment to screening rare documentaries and independent shorts. It provides a sophisticated, low-key alternative to the city's larger multiplexes, offering a deep dive into the cinematic heart of the Netherlands."
     }
   ],
