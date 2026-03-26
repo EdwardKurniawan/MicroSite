@@ -238,9 +238,18 @@
       });
 
       config.markers.forEach(marker => {
+        const popupContent = `
+          <div class="w-48 overflow-hidden rounded-lg">
+            ${marker.image ? `<img src="${marker.image}" class="w-full h-24 object-cover mb-3 rounded-md" />` : ''}
+            <div class="px-1 pb-1">
+              <h4 class="font-bold text-white mb-1 uppercase tracking-tight text-sm">${marker.name}</h4>
+              <a href="${marker.link}" class="text-gold font-bold text-[10px] uppercase tracking-widest hover:underline">Explore Guide &rarr;</a>
+            </div>
+          </div>
+        `;
         L.marker([marker.lat, marker.lng], { icon: customIcon })
           .addTo(map)
-          .bindPopup(`<div class="p-2 pt-0"><h4 class="font-bold text-white mb-1 uppercase tracking-tight">${marker.name}</h4><a href="${marker.link}">Explore Guide &rarr;</a></div>`);
+          .bindPopup(popupContent, { maxWidth: 200 });
       });
     });
   </script>

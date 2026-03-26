@@ -7,16 +7,16 @@
     "center": [52.3730, 4.8926],
     "zoom": 13,
     "markers": [
-      {"lat": 52.3667, "lng": 4.9083, "name": "De Plantage", "link": "/plantage/"},
-      {"lat": 52.3559, "lng": 4.9289, "name": "Amsterdam Oost", "link": "/oost/"},
-      {"lat": 52.3719, "lng": 4.8981, "name": "De Wallen", "link": "/wallen/"},
-      {"lat": 52.3738, "lng": 4.8833, "name": "Jordaan", "link": "/jordaan/"},
-      {"lat": 52.3544, "lng": 4.8944, "name": "De Pijp", "link": "/de-pijp/"},
-      {"lat": 52.3983, "lng": 4.9125, "name": "Amsterdam Noord", "link": "/noord/"},
-      {"lat": 52.3584, "lng": 4.8811, "name": "Museumplein", "link": "/museumplein/"},
-      {"lat": 52.3702, "lng": 4.8952, "name": "Centrum / Canal Ring", "link": "/centrum/"},
-      {"lat": 52.3653, "lng": 4.8706, "name": "Oud-West", "link": "/oud-west/"},
-      {"lat": 52.3860, "lng": 4.8730, "name": "Westerpark", "link": "/westerpark/"}
+      {"lat": 52.3667, "lng": 4.9083, "name": "De Plantage", "link": "/plantage/", "image": "/images/plantage.png"},
+      {"lat": 52.3559, "lng": 4.9289, "name": "Amsterdam Oost", "link": "/oost/", "image": "/images/oost.png"},
+      {"lat": 52.3719, "lng": 4.8981, "name": "De Wallen", "link": "/wallen/", "image": "/images/wallen.png"},
+      {"lat": 52.3738, "lng": 4.8833, "name": "Jordaan", "link": "/jordaan/", "image": "/images/jordaan_home.png"},
+      {"lat": 52.3544, "lng": 4.8944, "name": "De Pijp", "link": "/de-pijp/", "image": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?w=400&auto=format&fit=crop"},
+      {"lat": 52.3983, "lng": 4.9125, "name": "Amsterdam Noord", "link": "/noord/", "image": "https://images.unsplash.com/photo-1759693232636-0e21e135f802?w=400&auto=format&fit=crop"},
+      {"lat": 52.3584, "lng": 4.8811, "name": "Museumplein", "link": "/museumplein/", "image": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?w=400&auto=format&fit=crop"},
+      {"lat": 52.3702, "lng": 4.8952, "name": "Centrum / Canal Ring", "link": "/centrum/", "image": "/images/centrum.png"},
+      {"lat": 52.3653, "lng": 4.8706, "name": "Oud-West", "link": "/oud-west/", "image": "/images/oud_west.png"},
+      {"lat": 52.3860, "lng": 4.8730, "name": "Westerpark", "link": "/westerpark/", "image": "/images/westerpark.png"}
     ]
   },
   "products": [
