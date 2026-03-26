@@ -66,6 +66,21 @@
   ],
   "foods": [
     {
+      "tag": "Exceptional Experience",
+      "title": "Vuurtoreneiland",
+      "description": "A rugged island dining ritual. Board a historic boat for a sunset cruise to a private island for fire-cooked courses. The ultimate Amsterdam dinner."
+    },
+    {
+      "tag": "Exceptional Experience",
+      "title": "Restaurant Moon",
+      "description": "A rotating fine-dining experience on the 19th floor of the A'DAM Tower. See the entire city skyline in a single 60-minute rotation."
+    },
+    {
+      "tag": "Exceptional Experience",
+      "title": "REM Eiland",
+      "description": "Dine high above the water on a converted 1960s sea platform. Industrial-chic architecture meets panoramic harbor views."
+    },
+    {
       "tag": "Waterfront beach bar",
       "title": "Pllek",
       "description": "A beach bar and restaurant built from shipping containers on the IJ waterfront, 10 minutes' walk from the NDSM ferry stop. Sand on the ground, the Amsterdam skyline across the water, and a menu that does both a good burger and a proper fish dish. In summer this is one of the most pleasant outdoor drinking spots in the city."

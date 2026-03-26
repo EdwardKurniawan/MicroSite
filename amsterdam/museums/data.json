@@ -10,7 +10,7 @@
       "name": "Rijksmuseum",
       "category": "Museum & Art",
       "badge": "Must See",
-      "image_url": "/images/rijksmuseum.png",
+      "image_url": "/images/venues/rijksmuseum.jpg",
       "rating_text": "★★★★★ 4.7 (94,000 reviews)",
       "metas": [
         "📍 Museumplein",
@@ -23,11 +23,11 @@
       "price": "From €22.50 — online booking only"
     },
     {
-      "id": "van-gogh",
+      "id": "van-gogh-museum",
       "name": "Van Gogh Museum",
       "category": "Museum & Art",
       "badge": "Must See",
-      "image_url": "/images/van_gogh.png",
+      "image_url": "/images/venues/van-gogh-museum.jpg",
       "rating_text": "★★★★★ 4.8 (82,000 reviews)",
       "metas": [
         "📍 Museumplein",
@@ -57,11 +57,11 @@
       "price": "From €22.50"
     },
     {
-      "id": "nemo",
+      "id": "nemo-science-museum",
       "name": "NEMO Science Museum",
       "category": "Museum & Science",
       "badge": "Great for Families",
-      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
+      "image_url": "/images/venues/nemo-science-museum.jpg",
       "rating_text": "★★★★☆ 4.4 (18,700 reviews)",
       "metas": [
         "📍 Oosterdok Kade 2",
@@ -74,11 +74,11 @@
       "price": "From €17.50"
     },
     {
-      "id": "moco",
+      "id": "moco-museum",
       "name": "Moco Museum Amsterdam",
       "category": "Museum & Art",
       "badge": "Hidden Gem",
-      "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=900&auto=format&fit=crop&q=75",
+      "image_url": "/images/venues/moco-museum.jpg",
       "rating_text": "★★★★★ 4.6 (14,200 reviews)",
       "metas": [
         "📍 Honthorststraat 20",

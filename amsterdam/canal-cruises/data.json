@@ -74,11 +74,11 @@
       "price": "From €22.50 adults / €14 children"
     },
     {
-      "id": "canal-heineken-combo",
+      "id": "heineken-experience",
       "name": "Canal Cruise + Heineken Experience",
       "category": "Canal & Water",
       "badge": "Great Value",
-      "image_url": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=900&auto=format&fit=crop&q=75",
+      "image_url": "/images/venues/heineken-experience.jpg",
       "rating_text": "★★★★☆ 4.5 (3,100 reviews)",
       "metas": [
         "📍 Various departure points",

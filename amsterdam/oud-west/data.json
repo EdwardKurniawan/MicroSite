@@ -44,7 +44,18 @@
       "description": "One of the best streets for independent lifestyle shops and boutique shopping in the city."
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "tag": "Exceptional Experience",
+      "title": "Restaurant AmsEel",
+      "description": "Refined modern Dutch cooking in a room full of locals. A true neighborhood hidden gem focusing on white asparagus, North Sea sole, and Texel lamb."
+    },
+    {
+      "tag": "Social Dining",
+      "title": "Foodhallen",
+      "description": "Over 20 international food stalls inside a repurposed tram depot. From dim sum to wood-fired pizza, it's the city's premier shared dining hub."
+    }
+  ],
   "products": [],
   "getting_there": [
     {

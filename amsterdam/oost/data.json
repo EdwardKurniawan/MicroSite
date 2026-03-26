@@ -1,0 +1,63 @@
+{
+  "title": "Amsterdam Oost: The Authentic East",
+  "eyebrow": "🧱 Amsterdam Oost Guide",
+  "standfirst": "A dynamic tapestry of multicultural markets, modern architecture, and the city's most beautiful English-style park.",
+  "hero_image": "/images/oost.png",
+  "intro_html": "<p class=\"mb-4\">Amsterdam Oost (East) is where the city feels most alive and unscripted. It’s a neighborhood of contrasts: the bustling, multicultural Javastraat exists just blocks away from the hip, modern waterfront of the Eastern Docklands.</p><p class=\"mb-4\">While the centre can feel like a museum, Oost feels like a home. It’s where you’ll find the best Surinamese food in the city, the most innovative creative hubs, and a community spirit that's hard to find in the more tourist-heavy districts. From the sprawling Oosterpark to the world-class Tropenmuseum, Oost is a destination in its own right.</p>",
+  "facts": [
+    {
+      "icon": "🌍",
+      "label": "Character",
+      "value": "Multicultural & Hip"
+    },
+    {
+      "icon": "📍",
+      "label": "Location",
+      "value": "East of Centrum"
+    },
+    {
+      "icon": "🚲",
+      "label": "Best For",
+      "value": "Foodies & Locals"
+    }
+  ],
+  "todos": [
+    {
+      "num": "01",
+      "title": "Oosterpark",
+      "description": "The first large park planned by the city, perfect for a picnic, a jog, or just people-watching under the monumental trees."
+    },
+    {
+      "num": "02",
+      "title": "Javastraat",
+      "description": "The heartbeat of the Indische Buurt. A mix of old-school Turkish bakeries, trendy concept stores, and artisanal coffee shops."
+    },
+    {
+      "num": "03",
+      "title": "Tropenmuseum",
+      "description": "One of the most beautiful museum buildings in the city, exploring world cultures and colonial history."
+    }
+  ],
+  "foods": [
+    {
+      "tag": "Greenhouse Dining",
+      "title": "Restaurant De Kas",
+      "description": "The gold standard of farm-to-table dining in Amsterdam. Eat inside a historic 1926 greenhouse surrounded by their own gardens."
+    },
+    {
+      "tag": "Temperature Concept",
+      "title": "Restaurant C",
+      "description": "A unique dining experience where the menu is structured by degrees Celsius, exploring how heat affects flavor and texture."
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚋",
+      "text": "Trams 1, 3, and 19 all serve the Oosterpark area."
+    },
+    {
+      "icon": "🚆",
+      "text": "Muiderpoort Station is the main rail hub for the district, connected to Centraal in 5 minutes."
+    }
+  ]
+}

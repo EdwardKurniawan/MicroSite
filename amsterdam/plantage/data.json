@@ -1,0 +1,63 @@
+{
+  "title": "De Plantage: Amsterdam's Garden District",
+  "eyebrow": "🌿 De Plantage Guide",
+  "standfirst": "A serene, 19th-century escape of wide boulevards, botanical wonders, and the city's royal zoo.",
+  "hero_image": "/images/plantage.png",
+  "intro_html": "<p class=\"mb-4\">De Plantage is where Amsterdam catches its breath. Built in the late 17th century as a 'pleasure garden' for the city's wealthy elite, it remains the greenest and most elegant district in the historic centre. Here, the narrow, tilting houses of the Jordaan give way to grand 19th-century architecture and monumental trees.</p><p class=\"mb-4\">It is home to some of the city's most important cultural institutions, including the Artis Royal Zoo and the Hortus Botanicus. Whether you're here for the history or the greenery, De Plantage offers a slower, more refined pace of life.</p>",
+  "facts": [
+    {
+      "icon": "🏛",
+      "label": "Character",
+      "value": "Elegant & Green"
+    },
+    {
+      "icon": "📍",
+      "label": "Location",
+      "value": "East Centrum"
+    },
+    {
+      "icon": "🎨",
+      "label": "Best For",
+      "value": "Families & Culture"
+    }
+  ],
+  "todos": [
+    {
+      "num": "01",
+      "title": "Artis Royal Zoo",
+      "description": "One of the oldest zoos in Europe, complete with 19th-century pavilions, a planetarium, and a stunning aquarium."
+    },
+    {
+      "num": "02",
+      "title": "Hortus Botanicus",
+      "description": "Founded in 1638, this is one of the world's oldest botanical gardens. Don't miss the butterfly house."
+    },
+    {
+      "num": "03",
+      "title": "Hollandsche Schouwburg",
+      "description": "A former theatre that now serves as a powerful memorial to the Jewish citizens deported during WWII."
+    }
+  ],
+  "foods": [
+    {
+      "tag": "Creative Dining",
+      "title": "Entrepot",
+      "description": "Located in a former warehouse, Entrepot focuses on seasonal Dutch ingredients cooked over open fire. It's chic, industrial, and consistently excellent."
+    },
+    {
+      "tag": "Historic Café",
+      "title": "Café de Plantage",
+      "description": "A beautiful, high-ceilinged cafe next to the Artis entrance. Perfect for a long lunch under the plane trees."
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚋",
+      "text": "Tram 14 from Centraal Station stops directly at Artis and Plantage Middenlaan."
+    },
+    {
+      "icon": "🚶",
+      "text": "A pleasant 15-minute walk from Waterlooplein or the NEMO Science Museum."
+    }
+  ]
+}

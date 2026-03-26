@@ -150,15 +150,30 @@ http.createServer(async (req, res) => {
                     try {
                         const catData = JSON.parse(fs.readFileSync(catDataPath, 'utf8'));
                         if (catData.attractions) {
-                            catData.attractions.forEach(attr => {
-                                allAttractions.push({
+                            for (const attr of catData.attractions) {
+                                // Default values from JSON
+                                let item = {
                                     name: attr.name,
                                     slug: attr.id,
                                     type: 'ticket',
                                     image: attr.image_url,
                                     checkoutUrl: `/${citySlug}/${catSlug}/#${attr.id}`
-                                });
-                            });
+                                };
+
+                                // Enrich with DB if it's a known slug
+                                try {
+                                    const venueRes = await pool.query('SELECT tiqets_product_id FROM venues WHERE slug = $1', [attr.id]);
+                                    if (venueRes.rows.length > 0 && venueRes.rows[0].tiqets_product_id) {
+                                        const pid = venueRes.rows[0].tiqets_product_id;
+                                        // use the new tracking endpoint for checkout
+                                        item.checkoutUrl = `/api/track-click?slug=${attr.id}&redirect=https://www.tiqets.com/en/product/${pid}/?partner=amsterdam_insider`;
+                                    }
+                                } catch (dbErr) {
+                                    console.error('DB enrichment error:', dbErr.message);
+                                }
+
+                                allAttractions.push(item);
+                            }
                         }
                     } catch (e) {}
                 }
@@ -235,7 +250,40 @@ ${JSON.stringify(inventory, null, 2)}`;
       } catch (err) {
         console.error('Search error:', err);
         res.writeHead(500, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: 'AI Error' }));
+        res.end(JSON.stringify({ error: err.message || 'AI Error' }));
+      }
+    });
+    return;
+  }
+
+  // ── Tracking & Newsletter Endpoints ──────────────────
+  
+  if (req.method === 'GET' && urlPath === '/api/track-click') {
+    const slug = query.slug;
+    const redirectUrl = query.redirect || '/';
+    try {
+      await pool.query('INSERT INTO affiliate_clicks (venue_slug, clicked_at) VALUES ($1, NOW())', [slug]);
+    } catch (err) {
+      console.error('Click tracking error:', err.message);
+    }
+    res.writeHead(302, { 'Location': redirectUrl });
+    res.end();
+    return;
+  }
+
+  if (req.method === 'POST' && urlPath === '/api/newsletter') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const { email, city_slug } = JSON.parse(body);
+        await pool.query('INSERT INTO newsletter_signups (email, city_slug, signed_up_at) VALUES ($1, $2, NOW())', [email, city_slug]);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: true }));
+      } catch (err) {
+        console.error('Newsletter error:', err.message);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Database error' }));
       }
     });
     return;
@@ -296,6 +344,31 @@ ${JSON.stringify(inventory, null, 2)}`;
       } catch (err) {
         console.error(`[Subpage Render Error for ${urlPath}]:`, err);
       }
+    }
+
+    // 4. Premium Venue Route: Check Supabase venues table
+    try {
+      const venueRes = await pool.query(`
+        SELECT v.*, c.name as city_name, c.slug as city_slug 
+        FROM venues v 
+        JOIN cities c ON v.city_id = c.id 
+        WHERE v.slug = $1 AND c.slug = $2
+      `, [cleanSubPath, city.slug]);
+
+      if (venueRes.rows.length > 0) {
+        const venueHbsSource = fs.readFileSync(path.join(DIR, 'templates', 'venue-master.hbs'), 'utf8');
+        const liveVenueTemplate = Handlebars.compile(venueHbsSource);
+        
+        const venueData = venueRes.rows[0];
+        venueData.current_year = new Date().getFullYear();
+        
+        const html = liveVenueTemplate(venueData);
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        res.end(html);
+        return;
+      }
+    } catch (dbErr) {
+      console.error(`[Venue Render Error for ${urlPath}]:`, dbErr.message);
     }
 
     filePath = path.join(DIR, city.slug, urlPath);

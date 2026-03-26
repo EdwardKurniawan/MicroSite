@@ -6,11 +6,11 @@
   "intro_html": "<p class=\" mb-4\">Not every great afternoon in Amsterdam involves a 17th-century painting. The experiences below are the non-museum bucket list — things to do that are genuinely worth your time but are not about art history or WWII.</p><p class=\" mb-4\"><strong>The Heineken Experience and A'DAM Lookout are the two most popular</strong>, and for good reason — both deliver exactly what they promise. The others are more niche but excellent for the right visitor. All are bookable online in advance.</p>",
   "attractions": [
     {
-      "id": "heineken",
+      "id": "heineken-experience",
       "name": "Heineken Experience",
       "category": "Experience",
       "badge": "Classic Experience",
-      "image_url": "https://images.unsplash.com/photo-1665325598546-bd36dafa62b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIZWluZWtlbiUyMEV4cGVyaWVuY2UlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "/images/venues/heineken-experience.jpg",
       "rating_text": "★★★★★ 4.6 (42,100 reviews)",
       "metas": [
         "📍 Stadhouderskade 78, De Pijp",
@@ -27,7 +27,7 @@
       "name": "A'DAM Lookout",
       "category": "Experience & Views",
       "badge": "Unmissable Views",
-      "image_url": "https://images.unsplash.com/photo-1566904547615-5be8cd937cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBJTI3REFNJTIwTG9va291dCUyMEFtc3RlcmRhbSUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHwwfHx8MTc3NDQ1NDE5Nnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "/images/venues/adam-lookout.jpg",
       "rating_text": "★★★★★ 4.7 (24,300 reviews)",
       "metas": [
         "📍 Overhoeksplein 5, Amsterdam Noord",

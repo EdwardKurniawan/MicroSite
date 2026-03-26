@@ -71,6 +71,11 @@
   ],
   "foods": [
     {
+      "tag": "Exceptional Experience",
+      "title": "Vinkeles",
+      "description": "Located in an 18th-century bakery inside The Dylan hotel. Two Michelin stars and a setting that feels like a Golden Age dreamscape."
+    },
+    {
       "tag": "Museum-side café",
       "title": "Café Cobra",
       "description": "On the Museumplein lawn, directly opposite the Van Gogh Museum, with a terrace that looks across to the Rijksmuseum. The name comes from the COBRA art movement (Copenhagen–Brussels–Amsterdam), and the interior reflects it. A reliable option for lunch between museums — the soup and sandwiches are good value."

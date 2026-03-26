@@ -1,0 +1,184 @@
+{
+  "title": "Amsterdam's Top 10 Exceptional Restaurants (2026)",
+  "eyebrow": "🍴 Amsterdam Food Guide",
+  "standfirst": "Amsterdam's culinary scene has moved far beyond stroopwafels. Today, the city specializes in 'experience dining' — from floating sea platforms to high-tech greenhouses.",
+  "hero_image": "/images/de-kas.png",
+  "intro_html": "<p class=\"mb-4\">If you want a standard meal, Amsterdam is full of them. But if you want a <strong>sensory experience</strong> that you'll remember a year from now, you need to know where to look. The city’s best restaurants aren't always on the main canals; they're in repurposed industrial towers, on private islands, and inside historic greenhouses.</p><p class=\"mb-4\">This curated list focuses on the 'Top 10 Exceptional Experiences' — places where the architecture, the atmosphere, and the ritual of dining are just as important as the food on the plate.</p>",
+  "attractions": [
+    {
+      "id": "de-kas",
+      "name": "Restaurant De Kas",
+      "category": "Farm-to-Table / Greenhouse",
+      "badge": "Iconic Experience",
+      "image_url": "/images/de-kas.png",
+      "rating_text": "★★★★★ 4.6 (5,200 reviews)",
+      "metas": [
+        "📍 Amsterdam Oost",
+        "🌱 Greenhouse-to-table",
+        "💶 Set Menu from €65"
+      ],
+      "hook": "In 2001, a former municipal greenhouse from 1926 was slated for demolition. Instead, it became one of the world's first greenhouse-to-table restaurants.",
+      "description": "<p class=\"mb-4\">Dining at De Kas is a literal breath of fresh air. Located in Park Frankendael, the restaurant grows its own herbs and vegetables in the adjacent greenhouses and on their farm in the Beemster. The menu is plant-forward, seasonal, and hyper-local.</p><p class=\"mb-4\">The main dining room is 8 metres high, entirely glass-walled, and flooded with natural light. Even on a rainy Amsterdam day, the atmosphere is magical. The kitchen follows a 'picked in the morning, on the plate in the evening' philosophy.</p>",
+      "tip": "💡 Local tip: Book the 'Kitchen Table' for a front-row seat to the action. Lunch is often easier to book than dinner and just as beautiful.",
+      "price": "Set Menu from €65"
+    },
+    {
+      "id": "vuurtoreneiland",
+      "name": "Vuurtoreneiland",
+      "category": "Island Dining / Adventure",
+      "badge": "The Ultimate Ritual",
+      "image_url": "/images/vuurtoreneiland.png",
+      "rating_text": "★★★★★ 4.9 (1,800 reviews)",
+      "metas": [
+        "⛴ Departure from Veemkade",
+        "🏝 Private Island",
+        "💶 All-in Experience ~€120"
+      ],
+      "hook": "You cannot walk or drive to this restaurant. To eat here, you must board a historic boat for a hour-long cruise to a rugged, uninhabited island in the IJ waterway.",
+      "description": "<p class=\"mb-4\">Vuurtoreneiland (Lighthouse Island) is more than a meal; it's a pilgrimage. The experience begins on a boat with appetizers and drinks, followed by a multi-course dinner served in a transparent glass house (in summer) or a cozy underground bunker (in winter).</p><p class=\"mb-4\">The food is cooked entirely over open fire, using ingredients sourced from the region. There is no choice of menu — you eat what the island provides. It is raw, romantic, and completely unique to Amsterdam.</p>",
+      "tip": "💡 Local tip: Tickets are released months in advance and sell out in minutes. Sign up for their newsletter to get the exact release time.",
+      "price": "Approx €120 (includes boat, dinner, and drinks)"
+    },
+    {
+      "id": "rem-eiland",
+      "name": "REM Eiland",
+      "category": "Industrial / High-View",
+      "badge": "High Altitude",
+      "image_url": "/images/rem-eiland.png",
+      "rating_text": "★★★★☆ 4.4 (2,100 reviews)",
+      "metas": [
+        "📍 Houthavens",
+        "🏗 Sea Platform",
+        "💶 Main courses €28–€38"
+      ],
+      "hook": "In the 1960s, this platform sat in the North Sea as a pirate TV station. Today, it towers 22 metres above the Amsterdam harbour, offering the city's most industrial-chic dining view.",
+      "description": "<p class=\"mb-4\">REM Eiland is a red-and-white steel skeleton that looks like it belongs in an oil field. Inside, it has been transformed into a sophisticated restaurant with three levels, including a bar on the former helicopter deck.</p><p class=\"mb-4\">The views across the IJ river and the modern architecture of the Houthavens are unparalleled. The food is modern European, but the real draw is the vertigo-inducing walk up the external stairs and the feeling of suspended history.</p>",
+      "tip": "💡 Local tip: Arrive 30 minutes before your reservation to have a drink on the rooftop deck — it’s one of the highest accessible points in West Amsterdam.",
+      "price": "Mains €28–€38"
+    },
+    {
+      "id": "restaurant-moon",
+      "name": "Restaurant Moon",
+      "category": "Fine Dining / Rotating",
+      "badge": "360° Views",
+      "image_url": "/images/moon.png",
+      "rating_text": "★★★★★ 4.5 (1,500 reviews)",
+      "metas": [
+        "📍 Amsterdam Noord",
+        "🌀 Rotating Tower",
+        "💶 3-course Lunch €55"
+      ],
+      "hook": "The restaurant completes one full rotation every hour. By the time you finish your dessert, you've seen the entire 360-degree skyline of Amsterdam from the 19th floor.",
+      "description": "<p class=\"mb-4\">Located in the A'DAM Tower, Moon offers a high-concept dining experience where the view is constantly shifting. Modern, creative Dutch cuisine is served with a focus on fresh, seasonal ingredients.</p><p class=\"mb-4\">It’s the perfect place for a celebration. You get to see the historic centre, the busy port, and the polders of the north without ever leaving your seat. The elevator ride alone — a light-show experience — sets the tone for the evening.</p>",
+      "tip": "💡 Local tip: Window tables are guaranteed, but try to book for sunset to see the city transform from day to night.",
+      "price": "3-course Lunch €55 / Dinner from €85"
+    },
+    {
+      "id": "pesca",
+      "name": "Pesca - Theatre of Fish",
+      "category": "Seafood / Interactive",
+      "badge": "Dynamic Choice",
+      "image_url": "/images/pesca.png",
+      "rating_text": "★★★★★ 4.7 (3,800 reviews)",
+      "metas": [
+        "📍 Jordaan / Rozengracht",
+        "🐟 Fish Market Concept",
+        "💶 Pay-by-weight"
+      ],
+      "hook": "There are no traditional menus at Pesca. To eat, you enter a simulated 'fish market' where you choose your catch of the day directly from the ice, just like a local fisherman's market.",
+      "description": "<p class=\"mb-4\">Pesca calls itself the 'Theatre of Fish' for a reason. You start at the market stall, pick your fish and sides, and then move to the bar to select your wine. The prices adjust throughout the day based on supply and demand.</p><p class=\"mb-4\">It’s lively, loud, and incredibly social. Once you're seated, the kitchen prepares your selection simply and perfectly. It’s the best way to eat high-quality seafood in Amsterdam without the stiff atmosphere of fine dining.</p>",
+      "tip": "💡 Local tip: Don't miss the 'daily specials' on the blackboard — they often have rare North Sea catches that aren't on the main ice display.",
+      "price": "Variable (pay by weight)"
+    },
+    {
+      "id": "restaurant-c",
+      "name": "Restaurant C",
+      "category": "Modern European",
+      "badge": "Culinary Science",
+      "image_url": "https://images.unsplash.com/photo-1550966841-3ee7adac1661?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.5 (950 reviews)",
+      "metas": [
+        "📍 Amsterdam Oost",
+        "🌡 Temperature Concept",
+        "💶 Tasting Menu from €75"
+      ],
+      "hook": "At Restaurant C, the menu is structured by degrees Celsius: from -20°C (raw/cold) to 200°C (grilled/charred). It’s a journey through the physics of flavour.",
+      "description": "<p class=\"mb-4\">Michiel van der Eerde’s flagship restaurant is built on the idea that temperature defines taste. Each dish is a masterclass in textures — from sous-vide precision to the smokiness of the binchotan grill.</p><p class=\"mb-4\">The open kitchen is the heart of the restaurant, and the industrial-chic interior in Amsterdam Oost makes it a favorite for the city's creative set.</p>",
+      "tip": "💡 Local tip: The 'Bar Tasting' is a faster and slightly more affordable way to experience the highlights of the temperature concept.",
+      "price": "Tasting Menu from €75"
+    },
+    {
+      "id": "mediamatic-eten",
+      "name": "Mediamatic ETEN",
+      "category": "Vegan-Friendly / Artsy",
+      "badge": "Waterfront Views",
+      "image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★☆ 4.3 (1,200 reviews)",
+      "metas": [
+        "📍 Dijksgracht (near Centraal)",
+        "🌿 Sustainable",
+        "💶 Main courses €22–€30"
+      ],
+      "hook": "During the 2020 lockdowns, Mediamatic became world-famous for their 'Serres Séparées'—tiny private greenhouses on the water's edge where you can dine in complete seclusion.",
+      "description": "<p class=\"mb-4\">Mediamatic is an art lab first and a restaurant second. Located on the Dijksgracht, it focuses on sustainability, fermentation, and plant-based innovation. They grow their own mushrooms and herbs using aquaponics.</p><p class=\"mb-4\">Dining here feels like being part of an experiment. The views over the water towards NEMO and the Scheepvaartmuseum are some of the most serene in the city centre.</p>",
+      "tip": "💡 Local tip: Check their schedule for 'Fermentation Workshops' before your meal — you can learn to make your own kimchi or sourdough.",
+      "price": "Mains €22–€30"
+    },
+    {
+      "id": "pianeta-terra",
+      "name": "Pianeta Terra",
+      "category": "Italian / Slow Food",
+      "badge": "Sustainable Excellence",
+      "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.8 (850 reviews)",
+      "metas": [
+        "📍 Centrum / Canal Ring",
+        "🇮🇹 Slow Food Movement",
+        "💶 Set Menu from €60"
+      ],
+      "hook": "Voted the most sustainable Italian restaurant in the world outside Italy. Here, the 'Slow Food' philosophy isn't a marketing slogan; it's a religion.",
+      "description": "<p class=\"mb-4\">Hidden in a quiet side street of the canal ring, Pianeta Terra serves Italian food as you’ve never had it. No pizza, no heavy cream sauces—just incredible ingredients sourced from organic Dutch farmers and small Italian producers.</p><p class=\"mb-4\">The atmosphere is intimate and academic; the staff can tell you the name of the cow that provided the cheese. It’s proof that the best experiences are often the most quiet ones.</p>",
+      "tip": "💡 Local tip: Their wine pairings are exceptional, focusing on rare, biodynamic Italian grapes that are hard to find elsewhere.",
+      "price": "Set Menu from €60"
+    },
+    {
+      "id": "amseel",
+      "name": "Restaurant AmsEel",
+      "category": "Modern Dutch",
+      "badge": "Local Secret",
+      "image_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.7 (400 reviews)",
+      "metas": [
+        "📍 Oud-West",
+        "🇳🇱 Modern Dutch",
+        "💶 Mains €25–€35"
+      ],
+      "hook": "AmsEel is the neighborhood restaurant every traveler dreams of finding. No tourist menus, just exceptional modern Dutch cooking in a room full of locals.",
+      "description": "<p class=\"mb-4\">Located in the increasingly trendy Oud-West, AmsEel focuses on refining classic Dutch ingredients—white asparagus, North Sea sole, Texel lamb—with modern techniques. The interior is 'gezellig' (cozy) but sophisticated.</p><p class=\"mb-4\">It’s the perfect place to understand what refined Dutch cooking looks like in 2026. Friendly, unpretentious, and consistently excellent.</p>",
+      "tip": "💡 Local tip: The bar seating is great for solo travelers or couples looking for a more casual vibe without a full reservation.",
+      "price": "Mains €25–€35"
+    },
+    {
+      "id": "vinkeles",
+      "name": "Vinkeles",
+      "category": "Michelin Star / Historic",
+      "badge": "Historic Grandeur",
+      "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&auto=format&fit=crop&q=75",
+      "rating_text": "★★★★★ 4.8 (1,200 reviews)",
+      "metas": [
+        "📍 Keizersgracht / Centrum",
+        "🏛 18th Century Bakery",
+        "💶 Tasting Menu from €150"
+      ],
+      "hook": "Located in a former 18th-century bakery, the original brick ovens are still visible in the dining room. It holds two Michelin stars and is arguably Amsterdam's most atmospheric fine dining room.",
+      "description": "<p class=\"mb-4\">Vinkeles, located inside The Dylan hotel, is the pinnacle of Amsterdam's fine dining scene. Executive Chef Jurgen van der Zalm creates 'Modern French' cuisine that is deeply respectful of the building's heritage.</p><p class=\"mb-4\">The service is formal but warm, and the setting on the Keizersgracht is quintessential Amsterdam luxury. It’s an expensive evening, but for a milestone celebration, it is unmatched.</p>",
+      "tip": "💡 Local tip: For a slightly more relaxed experience, try their 'Lunch in the Garden' if the weather permits—the hotel courtyard is a hidden sanctuary.",
+      "price": "Tasting Menu from €150"
+    }
+  ],
+  "facts": [],
+  "todos": [],
+  "foods": [],
+  "products": [],
+  "getting_there": []
+}

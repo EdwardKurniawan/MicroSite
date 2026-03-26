@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{name}} - {{city_name}} Premium Guide</title>
+  <meta name="description" content="{{short_description}}" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 400: '#2E5BFF', 500: '#5C84FF' },
+            gold: '#D4AF37',
+          },
+          fontFamily: {
+            display: ['Playfair Display', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            accent: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="/shared/index.css">
+  <link rel="stylesheet" href="/shared/global-nav.css">
+  <script src="/shared/global-nav.js" defer></script>
+
+</head>
+<body class="bg-[#02060D] text-[#EEF4FF] overflow-x-hidden min-h-screen">
+
+  <main class="pb-28 lg:pb-0">
+    <!-- HERO -->
+    <section class="hero-bg flex items-end justify-center pt-48 pb-20 relative min-h-[70vh]" style="background-image: url('{{image_url}}')">
+      <div class="absolute inset-0 hero-overlay z-0"></div>
+      <div class="max-w-6xl mx-auto px-5 w-full relative z-10">
+        <nav class="mb-8 flex gap-2 text-[10px] font-accent font-black tracking-widest uppercase text-white/40">
+            <a href="/" class="hover:text-gold transition-colors">Home</a>
+            <span>/</span>
+            <a href="/{{city_slug}}/" class="hover:text-gold transition-colors">{{city_name}}</a>
+            <span>/</span>
+            <span class="text-gold">{{name}}</span>
+        </nav>
+        <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-6 block reveal d1">{{category}}</span>
+        <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.1] mb-8 reveal d2">{{name}}</h1>
+        
+        <div class="flex flex-wrap gap-8 reveal d3">
+            <div class="flex items-center gap-3">
+                <span class="text-gold text-2xl">★★★★★</span>
+                <span class="text-white font-bold">{{rating}}</span>
+                <span class="text-white/40 text-sm">({{reviews}} reviews)</span>
+            </div>
+            {{#if duration}}
+            <div class="flex items-center gap-3 border-l border-white/10 pl-8">
+                <span class="text-white/40 text-sm uppercase tracking-widest font-black">Duration</span>
+                <span class="text-white font-bold">{{duration}}</span>
+            </div>
+            {{/if}}
+        </div>
+      </div>
+    </section>
+
+    <div class="max-w-7xl mx-auto px-5 py-20">
+      <div class="grid lg:grid-cols-12 gap-16">
+        
+        <!-- MAIN CONTENT (Left) -->
+        <div class="lg:col-span-8">
+          
+          <div class="prose prose-invert prose-lg text-white/60 mb-16 max-w-none">
+            <p class="text-xl text-white/90 leading-relaxed mb-12 font-medium italic border-l-4 border-gold pl-8">
+                {{short_description}}
+            </p>
+            {{{long_description}}}
+          </div>
+
+          {{#if tiqets_product_id}}
+          <div id="tickets" class="glass-card p-12 rounded-[3rem] border border-gold/20 relative overflow-hidden mb-16 reveal">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-gold/10 blur-[100px] -mr-32 -mt-32"></div>
+            <div class="relative z-10">
+                <span class="text-gold text-[10px] font-accent font-black tracking-widest uppercase mb-4 block">Official Entry</span>
+                <h2 class="font-display text-4xl font-bold text-white mb-6">Skip the line tickets</h2>
+                <p class="text-white/60 mb-8 max-w-xl">Book your tickets in advance to guarantee entry and bypass the ticket office queues. Includes instant mobile delivery and free cancellation up to 24h before.</p>
+                <a href="/api/track-click?slug={{slug}}&redirect=https://www.tiqets.com/en/product/{{tiqets_product_id}}/?partner=amsterdam_insider" 
+                   class="inline-block bg-gold hover:bg-yellow-400 text-black text-[12px] font-black uppercase tracking-widest px-12 py-5 rounded-full transition-all shadow-xl shadow-gold/20 active:scale-95">
+                   Check Availability
+                </a>
+            </div>
+          </div>
+          {{/if}}
+
+        </div>
+
+        <!-- SIDEBAR (Right) -->
+        <div class="lg:col-span-4 space-y-8">
+          
+          <div class="glass-card p-8 rounded-[2rem] border border-white/5 reveal">
+            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Essential Info</h3>
+            <div class="space-y-6">
+              {{#if opening_hours}}
+              <div class="flex gap-4">
+                <div class="text-2xl text-gold">🕐</div>
+                <div>
+                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Opening Hours</div>
+                  <div class="font-medium text-white/90 text-sm whitespace-pre-line">{{opening_hours}}</div>
+                </div>
+              </div>
+              {{/if}}
+
+              {{#if address}}
+              <div class="flex gap-4">
+                <div class="text-2xl text-gold">📍</div>
+                <div>
+                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Address</div>
+                  <div class="font-medium text-white/90 text-sm italic">{{address}}</div>
+                </div>
+              </div>
+              {{/if}}
+            </div>
+            
+            {{#if latitude}}
+            <div class="mt-8 rounded-2xl overflow-hidden aspect-video relative border border-white/10 grayscale hover:grayscale-0 transition-all duration-700">
+                <img src="https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/pin-s+ff0000({{longitude}},{{latitude}})/{{longitude}},{{latitude}},15/400x250@2x?access_token=your_token_here" 
+                     alt="Map location" class="w-full h-full object-cover" />
+                <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-transparent transition-colors">
+                    <a href="https://www.google.com/maps/search/?api=1&query={{latitude}},{{longitude}}" target="_blank" class="bg-white/10 backdrop-blur-md text-white text-[10px] font-black tracking-widest uppercase px-4 py-2 rounded-full border border-white/20 hover:bg-white hover:text-black transition-all">Open in Google Maps</a>
+                </div>
+            </div>
+            {{/if}}
+          </div>
+
+          <div class="glass-card p-8 rounded-[2rem] border border-white/5 reveal">
+            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Local Tip</h3>
+            <p class="text-white/60 text-sm italic leading-relaxed">
+                "Arrive early in the morning or during a light rain for the most atmospheric experience. The reflection of the castle walls in the still water is particularly beautiful at dawn."
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  
+  {{> footer }}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const els = document.querySelectorAll('.reveal');
+      const io = new IntersectionObserver(
+        entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }),
+        { threshold: 0.1 }
+      );
+      els.forEach(el => io.observe(el));
+    });
+  </script>
+</body>
+</html>

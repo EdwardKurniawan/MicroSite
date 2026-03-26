@@ -71,6 +71,11 @@
   ],
   "foods": [
     {
+      "tag": "Exceptional Experience",
+      "title": "Pesca - Theatre of Fish",
+      "description": "A fish market concept where you choose your catch from the ice. It’s interactive, social, and serves some of the best North Sea seafood in the city."
+    },
+    {
       "tag": "Best apple pie in Amsterdam",
       "title": "Winkel 43",
       "description": "The appeltaart at Winkel 43 (Noordermarkt 43) has been called the best apple pie in Amsterdam for 20 years running. It's served warm, with a thick wedge of whipped cream. Arrive before 11am on Saturdays to beat the Noordermarkt queue."

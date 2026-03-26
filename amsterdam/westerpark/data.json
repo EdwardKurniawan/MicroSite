@@ -44,7 +44,18 @@
       "description": "A local brewery with an industrial-scale terrace perfect for a sunny afternoon and great craft beer."
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "tag": "Industrial Dining",
+      "title": "Brouwerij Troost Westergas",
+      "description": "Craft beer brewed on-site in a stunning red-brick gasworks building. Great burgers, a massive terrace, and some of the best people-watching in the park."
+    },
+    {
+      "tag": "Artsy Café",
+      "title": "Pacific Amsterdam",
+      "description": "A rock-and-roll vibe with a huge sun-drenched terrace. Perfect for a late breakfast or a wild night of dancing."
+    }
+  ],
   "products": [],
   "getting_there": [
     {
