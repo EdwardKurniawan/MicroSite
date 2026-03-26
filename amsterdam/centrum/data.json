@@ -30,21 +30,25 @@
     {
       "num": "01",
       "title": "The Royal Palace (Paleis op de Dam)",
+      "image": "/amsterdam/images/palace.png",
       "description": "Standing proudly on Dam Square, the Royal Palace is one of the most significant monuments of the Dutch Golden Age. Originally built as the city hall in the 17th century, it was intended to be the '8th wonder of the world,' a testament to the city's global seafaring power and wealth.\n\nInside, the massive Citizen's Hall features marble maps embedded in the floor, showing the world as it was known when Amsterdam was at its peak. The palace is still used by the Dutch Royal House for state visits and gala dinners, but it is open to the public for tours that offer a rare look at royal living and monumental 17th-century architecture."
     },
     {
       "num": "02",
       "title": "Begijnhof",
+      "image": "/amsterdam/images/begijnhof.png",
       "description": "The Begijnhof is a medieval sanctuary tucked away behind a modest wooden door on the Spui. Once an 'almshouse' for professional religious women (Beguines), it is now a peaceful, residential courtyard that feels a world away from the surrounding high-street shopping of the Kalverstraat.\n\nIt features one of the two remaining wooden houses in Amsterdam, dating back to 1420. Walking through the quiet lawns, surrounded by private houses and a clandestine Catholic chapel, offers a rare glimpse into the medieval and early modern life of the city. It remains a place of residence, so visitors are asked to maintain a respectful silence."
     },
     {
       "num": "03",
       "title": "De Bijenkorf",
+      "image": "/amsterdam/images/bijenkorf.png",
       "description": "De Bijenkorf ('The Beehive') is Amsterdam's premier luxury department store, a grand institution that has defined upscale Dutch shopping for over 150 years. The flagship building on Dam Square is a masterpiece of early 20th-century design, featuring a soaring atrium and cutting-edge window displays.\n\nBeyond the world-class designer fashion and accessories, the store's top floor houses an incredible glass-roofed restaurant area that offers panoramic views of the city center. It is the perfect place for a sophisticated break during a day of sightseeing, offering everything from artisan patisserie to high-end international cuisine."
     },
     {
       "num": "04",
       "title": "Canal Cruise",
+      "image": "/amsterdam/images/canal-cruise.png",
       "description": "There is no better way to understand the architecture and history of Amsterdam than from the water. A standard one-hour cruise takes you through the UNESCO-protected canal ring, under historic stone bridges, and past the tilting merchant houses of the Golden Age.\n\nMany operators depart from directly in front of Centraal Station, but 'open-boat' tours led by local captains provide a more intimate and customizable experience. Whether you're here for the history or just the views, seeing the city from its primary waterways is an essential Amsterdam rite of passage that provides a perspective you simply can't get from the street."
     }
   ],

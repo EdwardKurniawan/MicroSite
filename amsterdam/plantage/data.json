@@ -25,21 +25,25 @@
     {
       "num": "01",
       "title": "Artis Royal Zoo",
+      "image": "/amsterdam/images/artis.png",
       "description": "One of the oldest zoos in Europe, Artis is a masterpiece of 19th-century urban planning. Beyond the diverse array of animals, the grounds itself are a botanical marvel, featuring monumental pavilions, a state-of-the-art planetarium, and a stunning 19th-century aquarium.\n\nIt is one of the few places in the city where you can truly escape the urban bustle and immerse yourself in nature. The zoo’s commitment to education and conservation, combined with its historic charm, makes it an essential visit for families and history enthusiasts alike."
     },
     {
       "num": "02",
       "title": "Hortus Botanicus",
+      "image": "/amsterdam/images/hortus.png",
       "description": "Founded in 1638 as a medicinal herb garden for doctors and pharmacists, the Hortus Botanicus is one of the world's oldest botanical gardens. Its collection of over 4,000 plant species is housed in a variety of stunning glass structures, including the iconic Three-Climate House.\n\nA walk through the Hortus is a sensory journey through centuries of botanical discovery. Don't miss the butterfly house, where hundreds of tropical specimens flutter amongst exotic blooms, or the tranquil semi-circle greenhouse which dates back to the 19th century."
     },
     {
       "num": "03",
       "title": "Verzetsmuseum (Resistance Museum)",
+      "image": "/amsterdam/images/verzetsmuseum.png",
       "description": "Located in a monumental brick building across from the Artis Zoo, the Resistance Museum offers a deeply personal and immersive look at the Netherlands during the German occupation in WWII. The exhibits are curated with extraordinary care, using personal stories to illustrate the impossible choices faced by ordinary citizens.\n\nIt is widely regarded as one of the best historical museums in the country. The Junior Resistance Museum is also an exceptional resource for younger visitors, explaining the complexities of war and resistance in a way that is accessible and profoundly moving."
     },
     {
       "num": "04",
       "title": "Hollandsche Schouwburg",
+      "image": "/amsterdam/images/hollandsche-schouwburg.png",
       "description": "Once a lively theatre, the Hollandsche Schouwburg became a site of tragedy during WWII as the main assembly point for the deportation of Amsterdam's Jewish citizens. Today, it stands as a powerful memorial and museum dedicated to the Shoah.\n\nThe remains of the theatre house an eternal flame and a courtyard of reflection, while the museum wing provides a hauntingly detailed account of the community that once thrived in the surrounding Jewish Quarter. It is a place of immense historical weight and silent beauty."
     }
   ],

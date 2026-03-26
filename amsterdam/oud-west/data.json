@@ -30,21 +30,25 @@
     {
       "num": "01",
       "title": "Foodhallen",
+      "image": "/amsterdam/images/foodhallen.png",
       "description": "Foodhallen is the crowning jewel of Oud-West, a vast and vibrant food hall located inside a beautifully repurposed 19th-century tram depot. It features over 20 different food stalls representing a global array of cuisines, from authentic Spanish tapas and Vietnamese Banh Mi to high-end Dutch 'bitterballen' and wood-fired pizzas.\n\nThe industrial-chic atmosphere is electric, especially on weekend evenings when the central bars are buzzing with locals. It is the perfect place for a social, shared dinner where everyone can choose their own culinary adventure. Beyond the food, the building also houses an independent cinema (Hallen Theater) and a curated collection of local design boutiques."
     },
     {
       "num": "02",
       "title": "Ten Katemarkt",
+      "image": "/amsterdam/images/ten-katemarkt.png",
       "description": "Located directly adjacent to De Hallen, the Ten Katemarkt is a sprawling, authentic neighborhood street market that has been serving Oud-West since 1910. It is much less tourist-focused than the Albert Cuyp, offering a genuine look at daily life in Amsterdam with its stalls of fresh produce, artisanal cheeses, and affordable household goods.\n\nWalking the market is a sensory delight, where the smell of grilled 'loempia' (Dutch spring rolls) and roasting nuts fills the air. It is the best place in the city to pick up high-quality local ingredients or a quick, fresh snack while soaking in the diverse, multicultural energy of the district."
     },
     {
       "num": "03",
       "title": "Jan-Pieter Heijestraat",
+      "image": "/amsterdam/images/jp-heijestraat.png",
       "description": "The Jan-Pieter Heijestraat is the primary shopping artery of Oud-West, a tree-lined street packed with independent lifestyle boutiques, concept stores, and artisanal coffee roasters. It avoids the high-street chains of the city center, focusing instead on curated design, sustainable fashion, and unique neighborhood finds.\n\nWhether you're looking for a handcrafted ceramic bowl, a rare vintage record, or just a perfectly pulled espresso, this street offers a sophisticated yet relaxed shopping experience. It captures the 'bobo' (bourgeois-bohemian) spirit of the modern Oud-West perfectly, where style and local community go hand-in-hand."
     },
     {
       "num": "04",
       "title": "Lot Sixty One",
+      "image": "/amsterdam/images/lot61.png",
       "description": "Housed in a former mechanics’ garage on the Kinkerstraat, Lot Sixty One is a holy site for Amsterdam's specialty coffee scene. The industrial interior features the brewery's massive roasting machine right in the middle of the room, filling the air with the intoxicating scent of freshly roasted beans sourced directly from farms in Africa and South America.\n\nThe focus here is purely on the craft of the bean—the baristas are world-class, and the simple, high-fidelity setup prioritizes flavor above all else. It is the perfect place to start your exploration of Oud-West, providing a high-octane taste of the neighborhood's creative and quality-driven local culture."
     }
   ],
