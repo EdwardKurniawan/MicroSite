@@ -36,16 +36,15 @@
     {
       "num": "02",
       "title": "Sarphatipark",
-      "image": "/amsterdam/images/pijp-sarphatipark.jpg",
+      "image": "https://images.unsplash.com/photo-1549410312-d2c8828232c?q=80&w=2070&auto=format&fit=crop",
       "description": "Named after the 19th-century physician and urban planner Samuel Sarphati, this English-style landscape park is an island of tranquility in the middle of the dense De Pijp. It features winding paths, a large pond with a fountain, and a monument dedicated to its namesake.\n\nIt is the neighborhood's communal backyard, where locals come to jog, picnic, or simply sit on a bench and read. During the summer months, the park is alive with activity, but even in the winter, its well-manicured gardens and historic surrounding architecture make it one of the most beautiful green spaces in Amsterdam."
     },
     {
       "num": "03",
       "title": "Gerard Douplein",
-      "image": "/amsterdam/images/pijp-gerard-douplein.jpg",
+      "image": "/amsterdam/images/venues/heineken-experience.jpg",
       "description": "The Gerard Douplein is the social epicenter of De Pijp, a vibrant square surrounded by some of the neighborhood’s most popular bars and cafes. By day, it's a bustling hub of shoppers and cyclists; by night, it transforms into a lively nightlife destination.\n\nWhether you're looking for a craft beer at a traditional brown cafe or a creative cocktail at a trendy bar, the square has something for everyone. Its central location and energetic atmosphere make it the perfect place to experience the 'gezelligheid' (coziness and social connection) that defines Dutch culture."
-    }
-,
+    },
     {
       "num": "04",
       "title": "Brouwerij Troost",
