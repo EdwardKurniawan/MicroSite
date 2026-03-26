@@ -1,100 +1,100 @@
 {
   "title": "Museumplein",
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
-  "standfirst": "Three world-class museums on one lawn — the Rijksmuseum, Van Gogh, and Stedelijk are all within a 5-minute walk of each other. Add Vondelpark and the best shopping street in Amsterdam and you have a full day.",
-  "hero_image": "/amsterdam/images/museumplein.png",
-  "intro_html": "<p class=\" mb-4\">In 1877, the city of Amsterdam set aside a large open field south of the Leidseplein for culture. The Rijksmuseum (1885), the Concertgebouw (1888), and what would eventually become the Van Gogh Museum and Stedelijk Museum were all built on or around this space over the following decades. The result — three world-class institutions sharing a single square kilometre of lawn — is one of the great concentrations of cultural infrastructure anywhere in Europe.</p><p class=\" mb-4\"><strong>On a good day, you can walk from Rembrandt's Night Watch to Van Gogh's Sunflowers to a Mondrian in under fifteen minutes.</strong> Add the Moco Museum (Banksy and contemporary art), the Concertgebouw (free lunchtime concerts on Wednesdays), and the Vondelpark (five minutes from the museums), and you have a cultural district that rivals anything in London, Paris, or New York — at a fraction of the price.</p><p class=\" mb-4\">The neighbourhood around Museumplein — Oud-Zuid — is also one of Amsterdam's most pleasant residential areas: wide leafy streets, independent cafés on Van Baerlestraat, and the PC Hooftstraat shopping street (Amsterdam's equivalent of Bond Street) for those who want to spend more than museum entry prices.</p>",
+  "standfirst": "Amsterdam's high-culture hub — home to the big three museums, the royal concert hall, and the city's highest concentration of diamonds and designer boutiques.",
+  "hero_image": "/amsterdam/images/museums.jpg",
+  "intro_html": "<p class=\" mb-4\">For most of its history, Museumplein was just a piece of marshy land outside the city walls. It wasn't until the late 19th century that Amsterdam decided to build its grand Rijksmuseum here. The location was chosen intentionally to bridge the medieval city with the new, wealthy southern districts. Today, it is the city's cultural front lawn — a vast, grass-carpeted square anchored by three of the world's most significant art institutions.</p><p class=\" mb-4\">In the winter, the square turns into a Christmas village with an ice rink and festive markets. In the summer, the lawns are covered with picnickers and sunbathers. <strong>Behind the massive museum facades lies the Spiegelkwartier (Mirror Quarter)</strong>, the historic heart of the Dutch antiques trade, where over 70 galleries specialize in everything from 17th-century porcelain to avant-garde contemporary art.</p><p class=\" mb-4\">Museumplein is where Amsterdam’s Golden Age meets its modern ambitions. It is sophisticated, expensive, and undeniably impressive. Spend the morning in the galleries, the afternoon in the boutiques, and the evening at the Royal Concertgebouw.</p>",
   "facts": [
     {
       "icon": "🎨",
       "label": "Character",
-      "value": "Cultural, residential, upscale"
+      "value": "Sophisticated, artistic, grand"
     },
     {
       "icon": "📍",
       "label": "Location",
-      "value": "South of Leidseplein"
+      "value": "South of the canal ring"
     },
     {
-      "icon": "🚶",
-      "label": "Best way to explore",
-      "value": "On foot between museums"
+      "icon": "🏛",
+      "label": "Main Draw",
+      "value": "World-class museums"
     },
     {
       "icon": "⏱",
       "label": "Time to allow",
-      "value": "1–2 full days"
+      "value": "Full day minimum"
     }
   ],
   "todos": [
     {
       "num": "01",
-      "title": "Rijksmuseum",
+      "title": "The Rijksmuseum",
       "image": "/amsterdam/images/rijksmuseum.png",
-      "description": "The Rijksmuseum is the heavy hitter of Dutch culture, a massive 19th-century cathedral of art that houses over 8,000 objects across 80 rooms. The undisputed centerpiece is the Gallery of Honour, which leads directly to Rembrandt's monumental 'Night Watch.'\n\nBeyond the Golden Age old masters, the museum also covers 800 years of Dutch history through ship models, fashion, and armory. Arriving precisely at 9am is essential to experience the grand Gallery of Honour before the heavy crowds arrive. Don't forget to explore the museum's free sculpture gardens, which offer a peaceful, leafy escape from the galleries."
+      "description": "The Rijksmuseum is the grand cathedral of Dutch art and history, a spectacular Neo-Gothic building that houses over 8,000 objects across 80 galleries. It is most famous for the Gallery of Honour, which culminates in Rembrandt’s massive and mesmerizing 'Night Watch'.\n\nWalking through the museum is a journey through 800 years of Dutch history, from the Middle Ages to the present day. Don't miss the 17th-century dollhouses, the gleaming collection of silver, or the spectacular Cuypers Library—the oldest and largest art history library in the Netherlands. It's a place where you can easily lose an entire day in silent contemplation of genius."
     },
     {
       "num": "02",
       "title": "Van Gogh Museum",
       "image": "/amsterdam/images/van_gogh.png",
-      "description": "Just a five-minute walk across the lawn, the Van Gogh Museum houses the largest collection of artwork by Vincent van Gogh in the world. The museum follows the artist's turbulent life chronologically, from his early Dutch period to his final, vibrant days in France.\n\nIt is an incredibly intimate and emotional journey through the mind of a genius. Because it is one of the most popular museums on earth, online booking is mandatory and usually sells out weeks in advance. The 'Van Gogh on Friday' evening sessions are a local favorite, often featuring live music and a more relaxed, cocktail-bar atmosphere."
+      "description": "The Van Gogh Museum houses the world's largest collection of artworks by Vincent van Gogh, including legendary paintings like 'Sunflowers', 'The Bedroom', and 'Almond Blossom'. The museum's chronological layout allows you to follow Vincent's development as an artist through his letters and drawings.\n\nIt is a deeply personal experience that offers a profound insight into the mind of a troubled but brilliant artist. Due to its popularity, the museum operates on a strict time-slot system, so pre-booking several weeks in advance is absolutely essential for anyone wanting to experience this immersive tribute to a Dutch master."
     },
     {
       "num": "03",
-      "title": "Concertgebouw",
+      "title": "Royal Concertgebouw",
       "image": "/amsterdam/images/museumplein-concertgebouw.jpg",
-      "description": "Widely regarded as having some of the finest acoustics in the world, the Concertgebouw is a temple of classical music that forms the southern boundary of the Museumplein. Its majestic, neo-Renaissance facade serves as a grand backdrop for the city’s most prestigious orchestral performances.\n\nFor those on a budget, the free 'Lunchtime Concerts' held every Wednesday are a must-see, offering a chance to hear world-class musicians rehearse in the Main Hall. Even if you're not an opera or orchestra buff, the building's interior is a masterpiece of late 19th-century luxury, with its sweeping red-carpeted staircases and golden chandeliers."
+      "description": "Widely regarded as one of the best concert halls in the world due to its unparalleled acoustics, the Royal Concertgebouw is the historic heart of Amsterdam’s classical music scene. Built in the late 19th century, its grand Main Hall has hosted almost every major musical figure in history.\n\nBeyond its evening performances, the Concertgebouw is famous for its 'Free Lunchtime Concerts' (typically held on Wednesdays), which offer a more accessible way to experience the hall's magnificent interior. Whether you're a lifelong classical devotee or a casual listener, the sheer grandeur of the space and the clarity of the sound make every performance feel like a once-in-a-lifetime event."
     },
     {
       "num": "04",
-      "title": "The Mirror Quarter (Spiegelkwartier)",
+      "title": "The Mirror Quarter",
       "image": "/amsterdam/images/museumplein-mirror-quarter.jpg",
-      "description": "Located just north of the Rijksmuseum, the Spiegelkwartier has been the heart of Amsterdam's art and antique trade for over 80 years. This quiet, charming neighborhood is packed with over 70 specialist shops selling everything from ancient Roman glass and Delftware to 17th-century furniture and modern sculpture.\n\nWandering through the narrow streets of the Mirror Quarter feels like exploring a living museum. Each shop window is a curated masterpiece, and the dealers are often world-renowned experts in their fields. It is the perfect place to discover a truly unique piece of Dutch history while enjoying the neighborhood’s authentic, refined atmosphere."
+      "description": "Just behind the Rijksmuseum lies the Spiegelkwartier (Mirror Quarter), the traditional center of the Dutch art and antiques trade for over 80 years. This network of narrow streets is home to more than 70 specialized galleries and antique shops, showcasing everything from 17th-century glass and Delftware to avant-garde modern jewelry.\n\neven if you're not a collector, the Mirror Quarter is a fascinating place for a slow walk-through. The window displays are museum-quality in themselves, offering a sophisticated and slightly eccentric contrast to the grand institutions of the main Museumplein. It is the perfect place to find a truly unique, artisanal piece of Amsterdam history."
     }
   ],
   "foods": [
     {
-      "tag": "Luxury Brasserie",
-      "title": "Conservatorium Brasserie",
-      "description": "Housed in the soaring, glass-enclosed atrium of the former Sweelinck Music Conservatory, the Conservatorium Brasserie is the height of Museumplein sophistication. The architecture is a stunning blend of 19th-century brickwork and futuristic glass and steel, creating an airy, light-filled space for dining.\n\nThe menu focuses on elevated European classics, from creative salads to sustainably sourced seafood and artisanal Dutch cheeses. It is the premier spot for a 'power lunch' or a refined afternoon tea, offering a quiet, high-end sanctuary right in the heart of the museum district."
+      "tag": "Garden Café",
+      "title": "Rijksmuseum Café",
+      "description": "Located in the soaring, glass-roofed atrium of the Rijksmuseum, this cafe offers a sophisticated and light-filled environment for a mid-museum break. The menu focuses on sustainable, locally sourced Dutch ingredients, offering everything from artisanal soups to premium Dutch pastries.\n\nIt is one of the most beautiful dining spaces in the city, providing a perfect vantage point to admire the museum's architecture while enjoying a high-end lunch. In the summer, you can also grab a coffee and sit in the Rijksmuseum’s private gardens, surrounded by sculptures and seasonal flowers."
     },
     {
-      "tag": "Neighborhood Icon",
-      "title": "Brasserie van Baerle",
-      "description": "A favorite of the Oud-Zuid elite since 1993, Brasserie van Baerle is a classic French-Dutch institution that prioritizes quality over trends. The interior is understated and elegant, but the real draw is the sun-drenched garden terrace, which is one of the most beautiful in the city.\n\nThe steak tartare and the sole meunière are legendary, prepared with a level of precision that has kept the restaurant full for three decades. It is the perfect place for a sophisticated evening dinner after a day of gallery-hopping, offering a level of service and culinary consistency that is rare to find."
+      "tag": "Elegant Seafood",
+      "title": "The Seafood Bar",
+      "description": "Located just off Museumplein on the Van Baerlestraat, The Seafood Bar is a bright, modern, and high-energy restaurant that has become a local favorite for its incredibly fresh produce. They specialize in massive seafood platters, fresh oysters, and perfectly grilled whole fish.\n\nThe atmosphere is elegant but unpretentious, with white tiles and a bustling open kitchen. It is the perfect spot for a sophisticated dinner after a long day of gallery-hopping, offering a clean and vibrant alternative to the heavier traditional Dutch 'brown cafe' fare."
     },
     {
-      "tag": "Museum-Side Cafe",
-      "title": "Café Cobra",
-      "description": "Located directly on the Museumplein lawn with a terrace that offers panoramic views of the Rijksmuseum and the Stedelijk, Café Cobra is the most convenient spot for a mid-museum break. The name is a nod to the COBRA art movement, and the interior is decorated with bold, colorful works that reflect that spirit.\n\nThe menu is straightforward and reliable, featuring classic Dutch 'broodje' (sandwiches), hearty soups, and excellent coffee. It is an unpretentious and lively spot where you can fuel up for your next museum visit while soaking in the energy of the city's cultural heart."
+      "tag": "Designer Coffee",
+      "title": "Coffee District",
+      "description": "The Coffee District is a sleek, minimalist espresso bar located near the Concertgebouw that caters to the neighborhood's sophisticated local crowd. They take their craft seriously, focusing on direct-trade beans and precision brewing techniques.\n\nThe space is small and often crowded, but it's the kind of place where you can witness the unhurried, upscale daily life of the Old South district. It’s a perfect pit-stop for a high-end caffeine injection and a piece of their excellent house-made banana bread before heading back to the museums."
     }
   ],
   "products": [
     {
-      "image_url": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?q=80&w=2070&auto=format&fit=crop",
-      "category": "Museum",
-      "title": "Rijksmuseum",
-      "description": "8,000 objects, the Night Watch — the greatest Dutch Golden Age collection in the world.",
-      "cta": "Book Timed Entry",
-      "link": "/museums/"
+      "image_url": "https://images.unsplash.com/photo-1627633211516-43e4983fb90f?w=600&auto=format&fit=crop&q=75",
+      "category": "Museum Pass",
+      "title": "Rijksmuseum Entry",
+      "description": "Skip the line and get guaranteed entry to see the Night Watch. Limited daily slots available.",
+      "cta": "Buy Tickets",
+      "link": "/culture-arts/"
     },
     {
-      "image_url": "https://images.unsplash.com/photo-1634228011564-0b1ad7b8dc2e?q=80&w=2070&auto=format&fit=crop",
-      "category": "Museum",
-      "title": "Van Gogh Museum",
-      "description": "200 paintings, the world's largest collection. Mandatory online booking.",
-      "cta": "Reserve Slot",
-      "link": "/museums/"
+      "image_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=2070&auto=format&fit=crop",
+      "category": "Experience",
+      "title": "Diamond Workshop",
+      "description": "The Museum Quarter has been a diamond hub for 400 years. Learn how 'The Amsterdam Cut' is achieved.",
+      "cta": "Book Tour",
+      "link": "/experiences/"
     }
   ],
   "getting_there": [
     {
       "icon": "🚋",
-      "text": "Tram 2 or 5 from Centraal Station to Hobbemastraat stop."
+      "text": "Trams 2, 5, or 12 to Museumplein stop."
     },
     {
-      "icon": "🚲",
-      "text": "A 15-minute cycle from Centraal via the Singel and Leidsegracht."
+      "icon": "🚶",
+      "text": "A 10-minute walk from the Flower Market and the southern end of the Canal Ring."
     }
   ]
 }
