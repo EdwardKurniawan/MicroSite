@@ -161,7 +161,7 @@
   "neighbourhoods": [
     {
       "url": "/plantage/",
-      "image": "/images/plantage.png",
+      "image": "/amsterdam/images/plantage.png",
       "alt": "De Plantage Amsterdam",
       "name": "De Plantage",
       "tagline": "Leafy gardens · Artis Zoo · 19th-century elegance",
@@ -220,7 +220,7 @@
     },
     {
       "url": "/oost/",
-      "image": "/images/oost.png",
+      "image": "/amsterdam/images/oost.png",
       "alt": "Amsterdam Oost neighbourhood",
       "name": "Amsterdam Oost",
       "tagline": "Modern design · Indische Buurt · Oosterpark",
@@ -279,7 +279,7 @@
     },
     {
       "url": "/wallen/",
-      "image": "/images/wallen.png",
+      "image": "/amsterdam/images/wallen.png",
       "alt": "De Wallen Amsterdam Historic Core",
       "name": "De Wallen",
       "tagline": "Medieval origins · Oude Kerk · hidden heritage",
@@ -338,7 +338,7 @@
     },
     {
       "url": "/jordaan/",
-      "image": "/images/jordaan_home.png",
+      "image": "/amsterdam/images/jordaan_home.png",
       "alt": "Jordaan neighbourhood",
       "name": "Jordaan",
       "tagline": "Brown cafés · 9 Straatjes · weekend markets",
@@ -397,7 +397,7 @@
     },
     {
       "url": "/de-pijp/",
-      "image": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxEZSUyMFBpanAlMjBBbXN0ZXJkYW0lMjBzdHJlZXQlMjB2aWV3JTIwZGlzdHJpY3R8ZW58MHwwfHx8MTc3NDQ1NDE4Mnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image": "/amsterdam/images/de_pijp.png",
       "alt": "De Pijp neighbourhood",
       "name": "De Pijp",
       "tagline": "Albert Cuyp market · craft beer · best food in the city",
@@ -508,11 +508,11 @@
           "text": "Take your bike on the ferry (free) and cycle around."
         }
       ],
-      "image": "https://images.unsplash.com/photo-1759693232636-0e21e135f802?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBOb29yZCUyMEFtc3RlcmRhbSUyMHN0cmVldCUyMHZpZXclMjBkaXN0cmljdHxlbnwwfDB8fHwxNzc0NDU0MTgzfDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80"
+      "image": "/amsterdam/images/noord.png"
     },
     {
       "url": "/museumplein/",
-      "image": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxNdXNldW1wbGVpbiUyMEFtc3RlcmRhbSUyMHN0cmVldCUyMHZpZXclMjBkaXN0cmljdHxlbnwwfDB8fHwxNzc0NDU0MTg1fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image": "/amsterdam/images/museumplein.png",
       "alt": "Museumplein Amsterdam",
       "name": "Museumplein",
       "tagline": "Rijksmuseum · Van Gogh · Stedelijk — three museums, one lawn",
@@ -571,7 +571,7 @@
     },
     {
       "url": "/centrum/",
-      "image": "/images/centrum.png",
+      "image": "/amsterdam/images/centrum.png",
       "alt": "Amsterdam Canal Ring UNESCO Heritage",
       "name": "Centrum / Canal Ring",
       "tagline": "UNESCO Heritage · The Heart of the City · Dam Square",
@@ -630,7 +630,7 @@
     },
     {
       "url": "/oud-west/",
-      "image": "/images/oud_west.png",
+      "image": "/amsterdam/images/oud_west.png",
       "alt": "De Hallen Amsterdam Oud-West",
       "name": "Oud-West",
       "tagline": "Foodhallen · craft coffee · trendy boutiques",
@@ -689,7 +689,7 @@
     },
     {
       "url": "/westerpark/",
-      "image": "/images/westerpark.png",
+      "image": "/amsterdam/images/westerpark.png",
       "alt": "Westergasfabriek Amsterdam Westerpark",
       "name": "Westerpark",
       "tagline": "Industrial culture · lush greenery · Westergasfabriek",
