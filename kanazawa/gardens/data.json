@@ -2,7 +2,7 @@
   "title": "Kanazawa's Gardens & Nature",
   "eyebrow": "🌿 Kanazawa, Ishikawa Prefecture",
   "standfirst": "Kenroku-en alone justifies the trip — one of Japan's three great gardens, 200 years in the making. Then there are the two others you'll want to visit on the same day.",
-  "hero_image": "/images/gardens.jpg",
+  "hero_image": "/kanazawa/images/gardens.jpg",
   "intro_html": "<p class=\"mb-4\">Kenroku-en was constructed in stages by the Maeda clan — the ruling lords of the Kaga domain — over a period of roughly two centuries, beginning in the early 1600s and reaching its completed form in the mid-1800s. The name itself is a clue to the garden's ambition: <strong>kenroku</strong> means \"combining six attributes,\" referring to the six qualities held in classical Chinese landscape theory to be impossible to achieve all at once in a single garden — spaciousness, seclusion, artifice, antiquity, watercourses, and panoramic views. Kenroku-en achieves all six. That is the garden's defining boast, and after walking it, you will find the boast is not empty.</p>",
   "attractions": [
     {
@@ -10,7 +10,7 @@
       "name": "Kenroku-en Garden",
       "category": "Garden",
       "badge": "Must See",
-      "image_url": "/images/venues/kenroku-en-garden.jpg",
+      "image_url": "/kanazawa/images/venues/kenroku-en-garden.jpg",
       "description": "<p class=\"mb-4\">One of Japan's three most beautiful landscape gardens. Developed over 200 years by the Maeda clan, it incorporates the six attributes of a perfect garden: spaciousness, seclusion, artifice, antiquity, water-courses, and panoramic views. Famous for the Kotojitoro lantern and its stunning seasonal beauty.</p>"
     },
     {

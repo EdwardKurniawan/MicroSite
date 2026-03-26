@@ -2,7 +2,7 @@
   "title": "Higashiyama",
   "eyebrow": "🏮 Kanazawa Neighbourhood",
   "standfirst": "Kanazawa's geisha district — 200-year-old teahouse streets, 70 hillside temples, and sake breweries operating since the Edo period.",
-  "hero_image": "/images/higashiyama.jpg",
+  "hero_image": "/kanazawa/images/higashiyama.jpg",
   "intro_html": "",
   "attractions": [
     {
@@ -82,7 +82,7 @@
       "name": "Katamachi",
       "category": null,
       "badge": null,
-      "image_url": "/images/katamachi.jpg",
+      "image_url": "/kanazawa/images/katamachi.jpg",
       "description": ""
     },
     {
@@ -90,7 +90,7 @@
       "name": "Nagamachi",
       "category": null,
       "badge": null,
-      "image_url": "/images/nagamachi.jpg",
+      "image_url": "/kanazawa/images/nagamachi.jpg",
       "description": ""
     },
     {
@@ -98,7 +98,7 @@
       "name": "Nishi Chaya",
       "category": null,
       "badge": null,
-      "image_url": "/images/nishi-chaya.jpg",
+      "image_url": "/kanazawa/images/nishi-chaya.jpg",
       "description": ""
     }
   ],

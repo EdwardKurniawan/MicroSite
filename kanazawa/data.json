@@ -15,7 +15,7 @@
   "author_slug": "yuki-tanaka",
   "updated_date": "March 2026",
   "read_time": "10 min read",
-  "hero_image": "/images/hero.jpg",
+  "hero_image": "/kanazawa/images/hero.jpg",
   "hero_alt": "Kanazawa Kenroku-en garden in autumn",
   "hero_eyebrow": "🇯🇵 Ishikawa Prefecture, Japan",
   "hero_h1": "17 Best Things To Do in Kanazawa",
@@ -57,7 +57,7 @@
   "categories": [
     {
       "url": "/gardens/",
-      "image": "/images/gardens.jpg",
+      "image": "/kanazawa/images/gardens.jpg",
       "alt": "Kenroku-en garden Kanazawa",
       "count": "3 gardens & parks",
       "title": "Gardens & Nature",
@@ -66,7 +66,7 @@
     },
     {
       "url": "/culture/",
-      "image": "/images/culture.jpg",
+      "image": "/kanazawa/images/culture.jpg",
       "alt": "Higashi Chaya geisha district Kanazawa",
       "count": "7 cultural sites",
       "title": "Culture & History",
@@ -75,7 +75,7 @@
     },
     {
       "url": "/food/",
-      "image": "/images/food.jpg",
+      "image": "/kanazawa/images/food.jpg",
       "alt": "Omicho Market fresh seafood Kanazawa",
       "count": "4 food experiences",
       "title": "Food & Markets",
@@ -84,7 +84,7 @@
     },
     {
       "url": "/day-trips/",
-      "image": "/images/day-trips.jpg",
+      "image": "/kanazawa/images/day-trips.jpg",
       "alt": "Shirakawa-go UNESCO village Japan",
       "count": "3 day trips",
       "title": "Day Trips",
@@ -164,28 +164,28 @@
   "neighbourhoods": [
     {
       "url": "/higashiyama/",
-      "image": "/images/higashiyama.jpg",
+      "image": "/kanazawa/images/higashiyama.jpg",
       "alt": "Higashiyama Higashi Chaya district",
       "name": "Higashiyama",
       "tagline": ""
     },
     {
       "url": "/nagamachi/",
-      "image": "/images/nagamachi.jpg",
+      "image": "/kanazawa/images/nagamachi.jpg",
       "alt": "Nagamachi samurai district",
       "name": "Nagamachi",
       "tagline": ""
     },
     {
       "url": "/katamachi/",
-      "image": "/images/katamachi.jpg",
+      "image": "/kanazawa/images/katamachi.jpg",
       "alt": "Katamachi Kanazawa",
       "name": "Katamachi",
       "tagline": ""
     },
     {
       "url": "/nishi-chaya/",
-      "image": "/images/nishi-chaya.jpg",
+      "image": "/kanazawa/images/nishi-chaya.jpg",
       "alt": "Nishi Chaya Kanazawa",
       "name": "Nishi Chaya",
       "tagline": ""

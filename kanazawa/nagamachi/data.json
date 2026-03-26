@@ -2,7 +2,7 @@
   "title": "Nagamachi",
   "eyebrow": "🏯 Kanazawa Neighbourhood",
   "standfirst": "The samurai quarter — earthen walls, stone lanes, and the finest surviving samurai garden in Japan. A 10-minute walk from the castle that defined it.",
-  "hero_image": "/images/nagamachi.jpg",
+  "hero_image": "/kanazawa/images/nagamachi.jpg",
   "intro_html": "",
   "attractions": [
     {
@@ -82,7 +82,7 @@
       "name": "Katamachi",
       "category": null,
       "badge": null,
-      "image_url": "/images/katamachi.jpg",
+      "image_url": "/kanazawa/images/katamachi.jpg",
       "description": ""
     },
     {
@@ -90,7 +90,7 @@
       "name": "Higashiyama",
       "category": null,
       "badge": null,
-      "image_url": "/images/higashiyama.jpg",
+      "image_url": "/kanazawa/images/higashiyama.jpg",
       "description": ""
     },
     {
@@ -98,7 +98,7 @@
       "name": "Nishi Chaya",
       "category": null,
       "badge": null,
-      "image_url": "/images/nishi-chaya.jpg",
+      "image_url": "/kanazawa/images/nishi-chaya.jpg",
       "description": ""
     }
   ],
