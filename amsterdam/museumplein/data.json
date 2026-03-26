@@ -30,21 +30,25 @@
     {
       "num": "01",
       "title": "Rijksmuseum",
+      "image": "/amsterdam/images/rijksmuseum.png",
       "description": "The Rijksmuseum is the heavy hitter of Dutch culture, a massive 19th-century cathedral of art that houses over 8,000 objects across 80 rooms. The undisputed centerpiece is the Gallery of Honour, which leads directly to Rembrandt's monumental 'Night Watch.'\n\nBeyond the Golden Age old masters, the museum also covers 800 years of Dutch history through ship models, fashion, and armory. Arriving precisely at 9am is essential to experience the grand Gallery of Honour before the heavy crowds arrive. Don't forget to explore the museum's free sculpture gardens, which offer a peaceful, leafy escape from the galleries."
     },
     {
       "num": "02",
       "title": "Van Gogh Museum",
+      "image": "/amsterdam/images/van_gogh.png",
       "description": "Just a five-minute walk across the lawn, the Van Gogh Museum houses the largest collection of artwork by Vincent van Gogh in the world. The museum follows the artist's turbulent life chronologically, from his early Dutch period to his final, vibrant days in France.\n\nIt is an incredibly intimate and emotional journey through the mind of a genius. Because it is one of the most popular museums on earth, online booking is mandatory and usually sells out weeks in advance. The 'Van Gogh on Friday' evening sessions are a local favorite, often featuring live music and a more relaxed, cocktail-bar atmosphere."
     },
     {
       "num": "03",
       "title": "Concertgebouw",
+      "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=2070&auto=format&fit=crop",
       "description": "Widely regarded as having some of the finest acoustics in the world, the Concertgebouw is a temple of classical music that forms the southern boundary of the Museumplein. Its majestic, neo-Renaissance facade serves as a grand backdrop for the city’s most prestigious orchestral performances.\n\nFor those on a budget, the free 'Lunchtime Concerts' held every Wednesday are a must-see, offering a chance to hear world-class musicians rehearse in the Main Hall. Even if you're not an opera or orchestra buff, the building's interior is a masterpiece of late 19th-century luxury, with its sweeping red-carpeted staircases and golden chandeliers."
     },
     {
       "num": "04",
       "title": "The Mirror Quarter (Spiegelkwartier)",
+      "image": "https://images.unsplash.com/photo-1512411135763-718b5b76f9d3?q=80&w=2070&auto=format&fit=crop",
       "description": "Located just north of the Rijksmuseum, the Spiegelkwartier has been the heart of Amsterdam's art and antique trade for over 80 years. This quiet, charming neighborhood is packed with over 70 specialist shops selling everything from ancient Roman glass and Delftware to 17th-century furniture and modern sculpture.\n\nWandering through the narrow streets of the Mirror Quarter feels like exploring a living museum. Each shop window is a curated masterpiece, and the dealers are often world-renowned experts in their fields. It is the perfect place to discover a truly unique piece of Dutch history while enjoying the neighborhood’s authentic, refined atmosphere."
     }
   ],

@@ -25,21 +25,25 @@
     {
       "num": "01",
       "title": "Oosterpark",
+      "image": "/amsterdam/images/oosterpark.png",
       "description": "Originally planned in the late 19th century, the Oosterpark is the city's largest English-style landscape garden. It is a vibrant communal space where the diverse cultures of Amsterdam East meet, featuring monumental trees, winding ponds, and a wealth of public art.\n\nWhether you’re here for a picnic, a morning jog, or to simply watch the local life unfold, the Oosterpark offers a peaceful yet energetic atmosphere. It is also home to the National Slavery Monument, a powerful site of reflection within the park's lush grounds."
     },
     {
       "num": "02",
       "title": "Javastraat",
+      "image": "/amsterdam/images/javastraat.png",
       "description": "Commonly known as the heartbeat of the Indische Buurt, the Javastraat is a microcosm of Amsterdam’s multicultural identity. It is a street of delightful contradictions: traditional Moroccan bakeries and Turkish butchers sit comfortably alongside trendy artisanal coffee shops and high-end concept stores.\n\nWalking down the Javastraat is a sensory experience, where the aroma of freshly baked bread mingles with the scent of organic roasted coffee. It is the perfect place to spend an afternoon discoverng independent boutiques or sampling international street food in an authentic, local setting."
     },
     {
       "num": "03",
       "title": "Tropenmuseum",
+      "image": "/amsterdam/images/tropenmuseum.png",
       "description": "Housed in one of the most stunning neo-Renaissance buildings in Amsterdam, the Tropenmuseum is an ethnographic museum that chronicles the stories of world cultures. The central hall, with its massive marble pillars and grand light court, is worth the admission price alone.\n\nThe exhibits are both beautiful and provocative, often exploring the deep and complex colonial history of the Netherlands. It is a museum that encourages global thinking, making it a must-visit for those interested in history, anthropology, and stunning 19th-century architecture."
     },
     {
       "num": "04",
       "title": "Museum Werf 't Kromhout",
+      "image": "/amsterdam/images/werf-kromhout.png",
       "description": "A hidden industrial gem tucked away in the Eastern Docklands, 't Kromhout is one of the last remaining shipyards from the 19th century. The museum is a working workshop where historic boat engines are still maintained and operated by passionate volunteers.\n\nIt offers a rare, rugged look at the maritime heritage that built Amsterdam into a global power. The sounds and smells of oil and iron create an incredibly atmospheric experience that feels a world away from the polished galleries of the Museumplein."
     }
   ],

@@ -30,21 +30,25 @@
     {
       "num": "01",
       "title": "Albert Cuyp Market",
+      "image": "/amsterdam/images/albert-cuyp.png",
       "description": "Running since 1905, the Albert Cuyp is the largest street market in the Netherlands and the undisputed heart of De Pijp. Over 260 stalls stretch for 1.5 kilometers, selling everything from fresh North Sea herring and piping-hot stroopwafels to exotic spices and affordable vintage clothing.\n\nIt is a sensory experience like no other in the city, where the shouts of market traders mingle with the aroma of freshly fried poffertjes. Saturday is the busiest and most atmospheric day, but visiting on a weekday morning allows you to see the market as the locals do—a place of genuine daily commerce and community."
     },
     {
       "num": "02",
       "title": "Sarphatipark",
+      "image": "https://images.unsplash.com/photo-1549410313-2d2c8828232c?q=80&w=2070&auto=format&fit=crop",
       "description": "Sarphatipark is a beautifully maintained Victorian-style oasis that serves as the 'living room' of De Pijp. Named after Samuel Sarphati, a 19th-century physician and city planner, the park features winding paths, tranquil ponds, and a lush variety of flora that feels worlds away from the surrounding urban grid.\n\nOn any sunny day, the park is filled with locals picnicking on the grass, playing football, or simply enjoying a coffee by the ornate Victorian bandstand. It is the perfect place to pause and sample your finds from the nearby Albert Cuyp market while soaking in the neighborhood's relaxed, residential energy."
     },
     {
       "num": "03",
       "title": "Gerard Douplein",
+      "image": "https://images.unsplash.com/photo-1555431189-0fabf2667795?q=80&w=2070&auto=format&fit=crop",
       "description": "Gerard Douplein is the social epicenter of De Pijp, a bustling square surrounded by some of the neighborhood's most iconic bars and cafes. Its large, sun-drenched terraces are a magnet for the city's creative crowd, making it the premier spot for people-watching and 'vrijmibo' (Friday afternoon drinks).\n\nAs the sun sets, the square transforms into a lively communal party, with locals spilling out of bars like Pilsvogel and Het Paardje. It captures the youthful, high-energy spirit of De Pijp perfectly, offering a taste of the city's modern social life in a setting of 19th-century brick architecture."
     },
     {
       "num": "04",
       "title": "Brouwerij Troost",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2070&auto=format&fit=crop",
       "description": "Located in a magnificently restored 1920s municipal swimming pool, Brouwerij Troost is a masterclass in industrial reuse. The vast, tiled hall now houses the brewery's gleaming copper vats and long communal tables, creating one of the most unique drinking environments in Amsterdam.\n\nThey brew an extensive range of artisanal beers on-site, from crisp lagers to experimental session IPAs. The kitchen also serves up some of the best burgers and 'bitterballen' in the district, making it a favorite for broad-shouldered dinners that transition effortlessly into late-night craft beer sessions."
     }
   ],
