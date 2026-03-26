@@ -1,0 +1,88 @@
+{
+  "title": "Amsterdam Neighbourhoods",
+  "eyebrow": "District Guide",
+  "standfirst": "Amsterdam is more than just its famous canal ring. From the creative industrial hub of Noord to the leafy 19th-century elegance of De Plantage, each of our 10 districts has its own soul, its own history, and its own secrets.",
+  "hero_image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?q=80&w=2070&auto=format&fit=crop",
+  "products": [
+    {
+      "title": "De Plantage",
+      "description": "Leafy gardens, Artis Zoo, and 19th-century elegance. Built as a 'pleasure garden' outside the city walls.",
+      "item_category": "DISTRICT",
+      "image_url": "/images/plantage.png",
+      "link": "/plantage/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "Amsterdam Oost",
+      "description": "Indische Buurt, Oosterpark, and modern design. A vibrant mix of historic architecture and cutting-edge creative hubs.",
+      "item_category": "DISTRICT",
+      "image_url": "/images/oost.png",
+      "link": "/oost/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "De Wallen",
+      "description": "The medieval heart of the city. Oude Kerk and hidden heritage inside Amsterdam's literal foundation.",
+      "item_category": "DISTRICT",
+      "image_url": "/images/wallen.png",
+      "link": "/wallen/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "Jordaan",
+      "description": "Charming canals, brown cafés, and the iconic 9 Straatjes. Amsterdam's most celebrated neighbourhood.",
+      "item_category": "DISTRICT",
+      "image_url": "/images/jordaan_home.png",
+      "link": "/jordaan/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "De Pijp",
+      "description": "The Latin Quarter. Famous for the Albert Cuyp Market and the city's most diverse food scene.",
+      "item_category": "DISTRICT",
+      "image_url": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?w=800&auto=format&fit=crop",
+      "link": "/de-pijp/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "Amsterdam Noord",
+      "description": "Industrial cool across the water. Home to NDSM wharf, street art, and the city's most experimental architecture.",
+      "item_category": "DISTRICT",
+      "image_url": "https://images.unsplash.com/photo-1759693232636-0e21e135f802?w=800&auto=format&fit=crop",
+      "link": "/noord/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "Museumplein",
+      "description": "The cultural heartbeat. Rijksmuseum, Van Gogh, and Stedelijk — three world-class museums on one lawn.",
+      "item_category": "DISTRICT",
+      "image_url": "https://images.unsplash.com/photo-1759693229930-e0c5e87216fb?w=800&auto=format&fit=crop",
+      "link": "/museumplein/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "Centrum / Canal Ring",
+      "description": "UNESCO Heritage. The golden age heart of Amsterdam with its iconic concentric canals.",
+      "item_category": "DISTRICT",
+      "image_url": "/images/centrum.png",
+      "link": "/centrum/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "Oud-West",
+      "description": "Foodhallen and local vibes. A trendy residential area known for its craft coffee and independent shops.",
+      "item_category": "DISTRICT",
+      "image_url": "/images/oud_west.png",
+      "link": "/oud-west/",
+      "cta": "Explore District"
+    },
+    {
+      "title": "Westerpark",
+      "description": "Culture meets nature. A massive park centered around a repurposed 19th-century gasworks.",
+      "item_category": "DISTRICT",
+      "image_url": "/images/westerpark.png",
+      "link": "/westerpark/",
+      "cta": "Explore District"
+    }
+  ]
+}

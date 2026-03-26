@@ -142,6 +142,15 @@
       "title": "Food & Fine Dining",
       "description": "From dining in a greenhouse at De Kas to a rotating tower at Moon. Amsterdam's food scene is about more than just pancakes — it's a high-concept experience.",
       "cta": "See Top 10 Restaurants"
+    },
+    {
+      "url": "/neighbourhoods/",
+      "image": "/images/jordaan_home.png",
+      "alt": "Amsterdam Neighbourhoods",
+      "count": "10 Districts",
+      "title": "All Neighbourhoods",
+      "description": "From the historic Canal Ring to the creative NDSM wharf in Noord. Explore all 10 unique districts that make Amsterdam the city it is.",
+      "cta": "Explore Districts"
     }
   ],
   "itinerary_days": 3,
