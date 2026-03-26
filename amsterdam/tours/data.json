@@ -142,21 +142,58 @@
       "price": "From €15 per person"
     },
     {
-      "id": "light-festival",
-      "name": "Amsterdam Light Festival Boat Tour",
-      "category": "Boat Tour",
-      "badge": "Seasonal Highlight",
-      "image_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
-      "rating_text": "★★★★★ 4.8 (8,100 reviews)",
+      "id": "de-plantage-neighbourhood",
+      "name": "De Plantage",
+      "category": "Neighbourhood",
+      "badge": "New District",
+      "image_url": "/images/plantage.png",
+      "rating_text": "★★★★★ 4.8 (Local Favourite)",
       "metas": [
-        "📍 Canal ring, city centre",
-        "🕐 November – January only",
-        "💶 From €22"
+        "📍 East of Centrum",
+        "🌿 Botanical Gardens",
+        "🐘 Artis Zoo"
       ],
-      "hook": "The Amsterdam Light Festival started in 2012 as a modest winter event. It now stretches over 6km of canal routes and is one of the largest light art festivals in the world — with 30+ large-scale commissioned works by international artists.",
-      "description": "<p class=\"mb-4\">The Amsterdam Light Festival runs from late November to mid-January — the darkest weeks of the Dutch year, when the canal ring is transformed by illuminated artworks suspended over the water and mounted on canal house facades.</p><p class=\"mb-4\">The boat tour option covers the full 6km route on a glass-roof canal boat, with audio commentary explaining each installation. The walking route covers a shorter section through the Jordaan and canal ring. Both are worthwhile; the boat gives the most complete picture.</p>",
-      "tip": "💡 Local tip: Book the boat tour early — the festival runs evenings only (5pm–11pm) and popular time slots sell out weeks ahead. The opening weekend in late November is particularly atmospheric.",
-      "price": "From €22 — boat or walking route"
+      "hook": "Amsterdam's 'green' district — a serene, leafy neighbourhood of wide boulevards and 19th-century architecture.",
+      "description": "<p class=\"mb-4\">Built in the late 17th century as a 'pleasure garden' outside the city walls, De Plantage evolved into a chic residential quarter in the 1800s. It contains the Hortus Botanicus and Artis Royal Zoo.</p>",
+      "tip": "💡 Local tip: Many of the restaurants in De Plantage have large terraces facing the Artis Zoo fence — you can often spot giraffes while having lunch.",
+      "price": "Explore for Free",
+      "url": "/plantage/"
+    },
+    {
+      "id": "amsterdam-oost-neighbourhood",
+      "name": "Amsterdam Oost",
+      "category": "Neighbourhood",
+      "badge": "Authentic Local",
+      "image_url": "/images/oost.png",
+      "rating_text": "★★★★★ 4.9 (Local Favourite)",
+      "metas": [
+        "📍 East Amsterdam",
+        "🌳 Oosterpark",
+        "🥙 Javastraat Food"
+      ],
+      "hook": "Amsterdam Oost is where the city's multicultural heart beats strongest. From dynamic markets to trendy waterfronts.",
+      "description": "<p class=\"mb-4\">Amsterdam Oost has undergone a massive transformation. The Indische Buurt is now one of the city's hippest zones, while the Oosterpark serves as the neighborhood's green living room.</p>",
+      "tip": "💡 Local tip: The Javastraat is arguably the best street in Amsterdam for food — from traditional Turkish bakeries to high-end wine bars.",
+      "price": "Explore for Free",
+      "url": "/oost/"
+    },
+    {
+      "id": "de-wallen-neighbourhood",
+      "name": "De Wallen",
+      "category": "Neighbourhood",
+      "badge": "Ancient Core",
+      "image_url": "/images/wallen.png",
+      "rating_text": "★★★★☆ 4.7 (Historic District)",
+      "metas": [
+        "📍 Historic Centre",
+        "⛪ Oude Kerk",
+        "🏮 Red Light District"
+      ],
+      "hook": "The ancient heart of Amsterdam, where 800 years of history meet the city's most famous windows.",
+      "description": "<p class=\"mb-4\">De Wallen is the oldest part of Amsterdam. Beyond its modern reputation, it is a labyrinth of 14th-century churches, tilting sailors' houses, and the very first canals.</p>",
+      "tip": "💡 Local tip: Visit the 'Ons' Lieve Heer op Solder' — a secret church in an attic that is one of the most well-preserved Golden Age interiors in the city.",
+      "price": "Explore for Free",
+      "url": "/wallen/"
     }
   ],
   "facts": [],
