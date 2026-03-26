@@ -4,7 +4,6 @@
   "standfirst": "A sprawling green park built on the site of a former gasworks, Westerpark is the intersection of industrial heritage, alternative culture, and wide-open green spaces.",
   "hero_image": "/images/westerpark.png",
   "intro_html": "<p class=\" mb-4\">Westerpark is more than just a park; it's a cultural campus. The Westergasfabriek — a collection of stunning red-brick industrial buildings — was once the city's municipal gasworks. Today, it hosts everything from artisanal bakeries and craft breweries to world-class techno clubs and high-end fashion shows.</p><p class=\" mb-4\">Whether you're looking for a quiet morning run, an afternoon of art, or a night out in a repurposed factory, Westerpark has a unique energy that you won't find anywhere else in Amsterdam.</p>",
-  "attractions": [],
   "facts": [
     {
       "icon": "🌳",
@@ -31,32 +30,36 @@
     {
       "num": "01",
       "title": "Westergasfabriek",
-      "description": "Explore the repurposed industrial buildings, now home to a cinema, cafes, and creative offices."
+      "description": "The Westergasfabriek is a magnificent collection of 19th-century red-brick industrial buildings that once served as Amsterdam's municipal gasworks. Today, this 'cultural campus' has been meticulously restored and repurposed to house a vibrant array of creative businesses, cafes, and event spaces.\n\nWandering through the complex, you'll find everything from independent fashion houses and architecture studios to massive galleries hosting world-class exhibitions. It is an industrial cathedral that celebrates the intersection of heritage and innovation, offering some of the most striking architecture in the city outside of the historic center."
     },
     {
       "num": "02",
       "title": "Fabrique des Lumières",
-      "description": "An immersive digital art centre located inside a former gas cylinder. A truly unique visual experience."
+      "description": "Located inside a former gas storage cylinder, Fabrique des Lumières is an immersive digital art center that uses state-of-the-art projection technology to bring the works of artistic masters to life. The massive circular walls of the cylinder are covered floor-to-ceiling in high-definition images that react to an atmospheric soundtrack.\n\nIt is a truly unique visual experience that allows you to literally step 'inside' a painting by Van Gogh or Dalí. The sheer scale of the projections, combined with the rugged industrial setting, makes it one of the most Instagrammable and innovative art experiences in modern Amsterdam."
     },
     {
       "num": "03",
-      "title": "Brouwerij Troost",
-      "description": "A local brewery with an industrial-scale terrace perfect for a sunny afternoon and great craft beer."
+      "title": "Ketelhuis Cinema",
+      "description": "Het Ketelhuis is an independent cinema dedicated to the promotion of Dutch and European film culture. Housed in a charming old factory building within the park, it features three screening rooms that prioritize quality storytelling over blockbuster trends.\n\nIt is a favorite among the city's film-loving community, known for its cozy, library-like foyer and its commitment to screening rare documentaries and independent shorts. It provides a sophisticated, low-key alternative to the city's larger multiplexes, offering a deep dive into the cinematic heart of the Netherlands."
     }
   ],
   "foods": [
     {
       "tag": "Industrial Dining",
       "title": "Brouwerij Troost Westergas",
-      "description": "Craft beer brewed on-site in a stunning red-brick gasworks building. Great burgers, a massive terrace, and some of the best people-watching in the park."
+      "description": "This is the second location of the famous local brewery, housed in a stunning red-brick factory building within the Westerpark. The industrial scale is impressive, with a massive outdoor terrace that is the city's premier spot for afternoon sun and artisan pilsner.\n\nThe kitchen serves up hearty, locally sourced burgers and Dutch snacks, designed to be enjoyed alongside their extensive range of on-site brewed beers. It captures the social, outdoor-loving spirit of the Westerpark perfectly, where industrial history meets the modern Amsterdam lifestyle in a spectacular setting."
     },
     {
       "tag": "Artsy Café",
       "title": "Pacific Amsterdam",
-      "description": "A rock-and-roll vibe with a huge sun-drenched terrace. Perfect for a late breakfast or a wild night of dancing."
+      "description": "Pacific is a legendary rock-and-roll vibe café and venue located on the western edge of the park complex. It features a massive, sun-drenched terrace that is perpetually packed with a diverse crowd of artists, students, and neighborhood locals.\n\nBy day, it's a great spot for a relaxed breakfast or a hearty lunch; by night, the tables are pushed aside to make way for a dance floor that often hosts live DJs and bands. It is the raw, alternative soul of the Westerpark, providing a high-energy contrast to the more polished institutions of the Museumplein."
+    },
+    {
+      "tag": "Mussels & Gin",
+      "title": "Mossel & Gin",
+      "description": "Located in a quiet pocket of the park, Mossel & Gin does exactly what the name suggests—and they do it perfectly. They specialize in fresh North Sea mussels served in a variety of creative ways, paired with an extensive list of perfectly crafted gin and tonics infused with local botanicals.\n\nThe massive garden terrace is surrounded by greenery, creating an atmosphere that feels more like a countryside retreat than a city-center restaurant. It is the ultimate spot for a slow, summer afternoon feast, offering a refined yet relaxed dining experience that is unique to the Westergate complex."
     }
   ],
-  "products": [],
   "getting_there": [
     {
       "icon": "🚋",
@@ -64,7 +67,7 @@
     },
     {
       "icon": "🚌",
-      "text": "Bus 21 or 22 from Centraal Station."
+      "text": "Bus 21 or 22 from Amsterdam Centraal Station."
     }
   ]
 }

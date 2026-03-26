@@ -25,29 +25,39 @@
     {
       "num": "01",
       "title": "Oosterpark",
-      "description": "The first large park planned by the city, perfect for a picnic, a jog, or just people-watching under the monumental trees."
+      "description": "Originally planned in the late 19th century, the Oosterpark is the city's largest English-style landscape garden. It is a vibrant communal space where the diverse cultures of Amsterdam East meet, featuring monumental trees, winding ponds, and a wealth of public art.\n\nWhether you’re here for a picnic, a morning jog, or to simply watch the local life unfold, the Oosterpark offers a peaceful yet energetic atmosphere. It is also home to the National Slavery Monument, a powerful site of reflection within the park's lush grounds."
     },
     {
       "num": "02",
       "title": "Javastraat",
-      "description": "The heartbeat of the Indische Buurt. A mix of old-school Turkish bakeries, trendy concept stores, and artisanal coffee shops."
+      "description": "Commonly known as the heartbeat of the Indische Buurt, the Javastraat is a microcosm of Amsterdam’s multicultural identity. It is a street of delightful contradictions: traditional Moroccan bakeries and Turkish butchers sit comfortably alongside trendy artisanal coffee shops and high-end concept stores.\n\nWalking down the Javastraat is a sensory experience, where the aroma of freshly baked bread mingles with the scent of organic roasted coffee. It is the perfect place to spend an afternoon discoverng independent boutiques or sampling international street food in an authentic, local setting."
     },
     {
       "num": "03",
       "title": "Tropenmuseum",
-      "description": "One of the most beautiful museum buildings in the city, exploring world cultures and colonial history."
+      "description": "Housed in one of the most stunning neo-Renaissance buildings in Amsterdam, the Tropenmuseum is an ethnographic museum that chronicles the stories of world cultures. The central hall, with its massive marble pillars and grand light court, is worth the admission price alone.\n\nThe exhibits are both beautiful and provocative, often exploring the deep and complex colonial history of the Netherlands. It is a museum that encourages global thinking, making it a must-visit for those interested in history, anthropology, and stunning 19th-century architecture."
+    },
+    {
+      "num": "04",
+      "title": "Museum Werf 't Kromhout",
+      "description": "A hidden industrial gem tucked away in the Eastern Docklands, 't Kromhout is one of the last remaining shipyards from the 19th century. The museum is a working workshop where historic boat engines are still maintained and operated by passionate volunteers.\n\nIt offers a rare, rugged look at the maritime heritage that built Amsterdam into a global power. The sounds and smells of oil and iron create an incredibly atmospheric experience that feels a world away from the polished galleries of the Museumplein."
     }
   ],
   "foods": [
     {
       "tag": "Greenhouse Dining",
       "title": "Restaurant De Kas",
-      "description": "The gold standard of farm-to-table dining in Amsterdam. Eat inside a historic 1926 greenhouse surrounded by their own gardens."
+      "description": "Consistently rated as one of the best dining experiences in the city, De Kas is housed in a magnificent 1926 greenhouse located in the Park Frankendael. The concept is pure farm-to-table: nearly everything on the menu is harvested directly from their own gardens or their farm just outside the city.\n\nThe menu is plant-forward and dictated by the morning's harvest, ensuring that every dish is at the peak of seasonal perfection. Dining under the soaring glass roof while surrounded by the greenery that provided your meal is a truly unforgettable Amsterdam experience."
     },
     {
-      "tag": "Temperature Concept",
-      "title": "Restaurant C",
-      "description": "A unique dining experience where the menu is structured by degrees Celsius, exploring how heat affects flavor and texture."
+      "tag": "Levantine Shared Plates",
+      "title": "Bar Bachrach",
+      "description": "A stylish, industrial-chic addition to the Oosterpark neighborhood, Bar Bachrach specializes in modern Levantine shared plates. The kitchen takes traditional Middle Eastern flavors and elevates them with contemporary techniques and seasonal Dutch produce.\n\nThe atmosphere is high-energy and intimate, with an open kitchen and a curated selection of natural wines and craft cocktails. It’s the kind of place where locals linger for hours over small plates of spiced labneh, charred octopus, and house-made za'atar flatbreads."
+    },
+    {
+      "tag": "Historic Industrial Brewery",
+      "title": "Brouwerij Poesiat & Kater",
+      "description": "Located in a monumental 19th-century brick water tower, Poesiat & Kater is a brewery with deep roots in Amsterdam’s industrial history. They specialize in historical recipes, including their famous 'Van Vollenhoven' Extra Stout which was first brewed in the 18th century.\n\nThe taproom is massive and atmospheric, with soaring ceilings and views of the brewing vats. In the summer, the large outdoor terrace overlooking the canal is the place to be, offering hearty Dutch pub food and some of the most uniquely historical beers in the city."
     }
   ],
   "getting_there": [

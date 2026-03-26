@@ -2,9 +2,8 @@
   "title": "De Pijp",
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
   "standfirst": "Amsterdam's food capital and most multicultural neighbourhood — where the Albert Cuyp Market has run every weekday since 1905 and the best dinner in the city costs €14.",
-  "hero_image": "https://images.unsplash.com/photo-1567372773800-7a92703a0d53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxEZSUyMFBpanAlMjBBbXN0ZXJkYW0lMjBhcmNoaXRlY3R1cmUlMjBoaWdoJTIwcXVhbGl0eXxlbnwwfDB8fHwxNzc0NDU0MTg2fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+  "hero_image": "/images/de_pijp.png",
   "intro_html": "<p class=\" mb-4\">De Pijp was built fast and cheap in the late 19th century to house Amsterdam's growing working class. The streets were laid out in a rigid grid — long, narrow blocks that gave the neighbourhood its name: \"the pipe.\" The apartments were small, the ceilings low, and the families large. <strong>The Albert Cuyp Market started in 1905 because the residents couldn't afford shop prices.</strong> It has run on the same street every weekday since.</p><p class=\" mb-4\">What makes De Pijp unusual is the specific sequence of communities that settled there. Surinamese and Antillean families arrived in the 1960s and 70s. Moroccan and Turkish communities followed. Then, in the 1990s, art students and young professionals discovered the cheap rents. Today, the neighbourhood runs on that layering — you can eat roti and bara on one block, Moroccan pastilla on the next, and end the night at a craft beer bar in a converted Victorian swimming pool.</p><p class=\" mb-4\">De Pijp resists being tidied up. The Albert Cuyp is still genuinely working, not a tourist market — Amsterdammers shop here. The gentrification is real, but incomplete. It's the neighbourhood most likely to surprise you.</p>",
-  "attractions": [],
   "facts": [
     {
       "icon": "🌍",
@@ -25,122 +24,73 @@
       "icon": "⏱",
       "label": "Time to allow",
       "value": "Half day minimum"
-    },
-    {
-      "icon": "🌟",
-      "label": "Best for",
-      "value": "Food lovers, nightlife, markets"
-    },
-    {
-      "icon": "📅",
-      "label": "Best day to visit",
-      "value": "Saturday (market at its liveliest)"
     }
   ],
   "todos": [
     {
       "num": "01",
-      "title": "Albert Cuyp Market (Monday–Saturday)",
-      "description": "The largest street market in the Netherlands — 260 stalls, 1.5km long, running every weekday from 9am to 5pm. Go for raw herring (haring), stroopwafels hot off the waffle iron, Dutch cheese, Indonesian snacks, and the sheer momentum of a market that's been operating continuously for over a century. Saturday is the best day; arrive before noon."
+      "title": "Albert Cuyp Market",
+      "description": "Running since 1905, the Albert Cuyp is the largest street market in the Netherlands and the undisputed heart of De Pijp. Over 260 stalls stretch for 1.5 kilometers, selling everything from fresh North Sea herring and piping-hot stroopwafels to exotic spices and affordable vintage clothing.\n\nIt is a sensory experience like no other in the city, where the shouts of market traders mingle with the aroma of freshly fried poffertjes. Saturday is the busiest and most atmospheric day, but visiting on a weekday morning allows you to see the market as the locals do—a place of genuine daily commerce and community."
     },
     {
       "num": "02",
-      "title": "Sarphatipark — the neighbourhood's living room",
-      "description": "A small, beautifully maintained Victorian park in the heart of De Pijp — surrounded on all sides by the neighbourhood's characteristic 19th-century housing. On warm evenings, half of De Pijp seems to be here: picnics, football, wine on the grass. The park's ornate Victorian bandstand (1886) is one of Amsterdam's most photographed small structures."
+      "title": "Sarphatipark",
+      "description": "Sarphatipark is a beautifully maintained Victorian-style oasis that serves as the 'living room' of De Pijp. Named after Samuel Sarphati, a 19th-century physician and city planner, the park features winding paths, tranquil ponds, and a lush variety of flora that feels worlds away from the surrounding urban grid.\n\nOn any sunny day, the park is filled with locals picnicking on the grass, playing football, or simply enjoying a coffee by the ornate Victorian bandstand. It is the perfect place to pause and sample your finds from the nearby Albert Cuyp market while soaking in the neighborhood's relaxed, residential energy."
     },
     {
       "num": "03",
-      "title": "Gerard Douplein — the social centre",
-      "description": "The square at the heart of De Pijp, surrounded by outdoor café terraces that fill up at the first sign of spring sun. This is where you sit with a beer and watch the neighbourhood happen around you. On Friday evenings, the square turns into an informal party that starts at 5pm and goes until the cafés close."
+      "title": "Gerard Douplein",
+      "description": "Gerard Douplein is the social epicenter of De Pijp, a bustling square surrounded by some of the neighborhood's most iconic bars and cafes. Its large, sun-drenched terraces are a magnet for the city's creative crowd, making it the premier spot for people-watching and 'vrijmibo' (Friday afternoon drinks).\n\nAs the sun sets, the square transforms into a lively communal party, with locals spilling out of bars like Pilsvogel and Het Paardje. It captures the youthful, high-energy spirit of De Pijp perfectly, offering a taste of the city's modern social life in a setting of 19th-century brick architecture."
     },
     {
       "num": "04",
-      "title": "Brouwerij Troost — craft beer in a swimming pool",
-      "description": "Troost opened its De Pijp brewery in a restored 1920s swimming pool on Cornelis Troostplein. The pool has been converted into a brewing hall, keeping the original tiles, arched windows, and changing cubicles. They brew 15 beers on-site, from session IPAs to imperial stouts. The bitterballen (Dutch bar snacks) are exceptional."
-    },
-    {
-      "num": "05",
-      "title": "Eerste van der Helststraat — independent shopping",
-      "description": "The main shopping street of De Pijp runs parallel to the Albert Cuyp and is lined with independent businesses that have survived where chains haven't: a locksmith who's been there 40 years, a spice shop selling 200 varieties, a tiny natural wine bar. Walk the full length."
+      "title": "Brouwerij Troost",
+      "description": "Located in a magnificently restored 1920s municipal swimming pool, Brouwerij Troost is a masterclass in industrial reuse. The vast, tiled hall now houses the brewery's gleaming copper vats and long communal tables, creating one of the most unique drinking environments in Amsterdam.\n\nThey brew an extensive range of artisanal beers on-site, from crisp lagers to experimental session IPAs. The kitchen also serves up some of the best burgers and 'bitterballen' in the district, making it a favorite for broad-shouldered dinners that transition effortlessly into late-night craft beer sessions."
     }
   ],
   "foods": [
     {
-      "tag": "Exceptional Experience",
-      "title": "Rijsel",
-      "description": "A former domestic science school turned into a cult-favorite rotisserie. It’s unpretentious, high-quality, and the 'poussin' is legendary. Book weeks in advance."
-    },
-    {
-      "tag": "Surinamese / must-try",
+      "tag": "Surinamese Legend",
       "title": "Roopram Roti",
-      "description": "A Surinamese roti shop on Albert Cuypstraat that has been serving the same menu — roti, bara, chicken curry, dhal — for decades. Everything costs under €15. The queue on Saturday mornings tells you everything you need to know. Cash only."
+      "description": "Roopram Roti is a culinary institution on the Albert Cuypstraat, serving what many believe to be the best Surinamese roti in the Netherlands. The interior is simple and no-frills, but the queue that often stretches out the door is a testament to the quality of their curry chicken, dhal, and house-made bara.\n\nIt is the quintessential De Pijp eating experience—fast, affordable, and incredibly flavorful. Whether you choose to eat in or join the many locals taking their roti to the nearby Sarphatipark, Roopram offers an authentic taste of the multicultural heritage that defines this district."
     },
     {
-      "tag": "Coffee & brunch",
-      "title": "CT Coffee & Coconuts",
-      "description": "A 1920s cinema on Ceintuurbaan converted into a three-floor café with a retractable roof. The avocado toast has been excellent for years. Arrive early on weekends — the queue starts at 10am and doesn't stop until 2pm."
+      "tag": "Egg-Focused Bistro",
+      "title": "Oeuf",
+      "description": "Oeuf is a trendy, minimalist bistro that has mastered the art of the 'all-day breakfast.' Located near the Sarphatipark, the restaurant focuses almost exclusively on egg dishes—from perfectly poached eggs Benedict to indulgent truffle omelettes—all sourced from local, sustainable farms.\n\nThe bright, airy interior and focus on high-quality ingredients make it a favorite among the neighborhood's brunch-loving crowd. It's the kind of place where you can linger over a mimosa and a perfectly plated scramble while enjoying the slow, weekend-vibe that De Pijp does so well."
     },
     {
-      "tag": "Natural wine bar",
-      "title": "Bar Botanique",
-      "description": "A narrow wine bar on the edge of De Pijp serving natural and biodynamic wines alongside small plates. The decor — bare plaster, hanging plants, low light — is the template that half of Amsterdam's wine bars have copied since. Book a table at weekends."
-    },
-    {
-      "tag": "Craft beer",
-      "title": "Brouwerij Troost De Pijp",
-      "description": "The swimming pool brewery on Cornelis Troostplein. Order the Troost Blonde or the Weizen, get a plate of bitterballen, and spend two hours watching the neighbourhood through the arched former pool windows. One of the best drinking experiences in Amsterdam."
+      "tag": "Miami Cocktails",
+      "title": "Calle Ocho",
+      "description": "Named after the heart of Miami’s Little Havana, Calle Ocho is a narrow, high-energy bar that brings a slice of Latin American flair to De Pijp. They specialize in expertly crafted rum and tequila cocktails, paired with an inventive menu of 'street food' like ceviche and tacos.\n\nThe vibe is dark, intimate, and perpetually lively, with a soundtrack that leans toward salsa and Latin hip-hop. It is a late-night favorite for those looking for something a bit more adventurous than the standard Dutch pub experience, offering a sophisticated yet unpretentious atmosphere."
     }
   ],
   "products": [
     {
-      "image_url": "https://images.unsplash.com/photo-1665325598546-bd36dafa62b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIZWluZWtlbiUyMEV4cGVyaWVuY2UlMjBBbXN0ZXJkYW0lMjB0b3VyJTIwcGhvdG98ZW58MHwwfHx8MTc3NDQ1NDE4N3ww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "https://images.unsplash.com/photo-1665325598546-bd36dafa62b9?q=80&w=2070&auto=format&fit=crop",
       "category": "Experience",
       "title": "Heineken Experience",
-      "description": "The original 19th-century Heineken brewery is in De Pijp — a 2-hour self-guided tour ending with two complimentary beers at the rooftop bar. Book the 4pm slot and head straight to Albert Cuyp Market afterwards.",
+      "description": "The original 19th-century Heineken brewery is in De Pijp — a self-guided tour ending with two complimentary beers at the rooftop bar.",
       "cta": "Book + 2 Beers",
       "link": "/experiences/"
     },
     {
-      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?w=600&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?q=80&w=2070&auto=format&fit=crop",
       "category": "Food Tour",
-      "title": "De Pijp Food & Market Tour",
-      "description": "The Albert Cuyp Market guided food tour covers 6 tastings — herring, stroopwafels, Dutch cheese, Indonesian snacks, and genever at a brown café. Includes stops most visitors walk straight past.",
-      "cta": "Book the Food Tour",
-      "link": "/tours/"
-    },
-    {
-      "image_url": "https://images.unsplash.com/photo-1635425877762-63598d845063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxFdmVuaW5nJTIwQ2FuYWwlMjBDcnVpc2UlMjBBbXN0ZXJkYW0lMjB0b3VyJTIwcGhvdG98ZW58MHwwfHx8MTc3NDQ1NDE5MHww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-      "category": "Canal Cruise",
-      "title": "Evening Canal Cruise",
-      "description": "The southern canal ring near De Pijp is quieter than the tourist-heavy Centraal area. An evening cruise from Leidseplein (10 minutes' walk) shows the canal houses at their most beautiful.",
-      "cta": "See Evening Cruises",
-      "link": "/canal-cruises/"
-    },
-    {
-      "image_url": "https://images.unsplash.com/photo-1554406973-3fc1d5615ee5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxHdWlkZWQlMjBCaWtlJTIwVG91ciUyMEFtc3RlcmRhbSUyMHRvdXIlMjBwaG90b3xlbnwwfDB8fHwxNzc0NDU0MTkyfDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-      "category": "Bike Tour",
-      "title": "Guided Bike Tour",
-      "description": "Most guided bike tours pass through De Pijp on their route south — a good way to see the neighbourhood's market streets and Sarphatipark from two wheels before heading to the Rijksmuseum.",
-      "cta": "Book a Bike Tour",
+      "title": "De Pijp Food Tour",
+      "description": "A guided walk covering 6 tastings — herring, stroopwafels, Dutch cheese, and more in the heart of the market.",
+      "cta": "Book Food Tour",
       "link": "/tours/"
     }
   ],
   "getting_there": [
     {
-      "icon": "🚋",
-      "text": "Tram 3 or 12 to Ferdinand Bolstraat stop — puts you at the top of Albert Cuypstraat in 10 minutes from the centre."
-    },
-    {
       "icon": "🚇",
-      "text": "Metro 52 (North-South line) to De Pijp station — opened 2018, takes 5 minutes from Centraal Station."
+      "text": "Metro 52 to De Pijp station — just 5 minutes from Centraal Station."
     },
     {
       "icon": "🚲",
-      "text": "De Pijp is a 10-minute cycle from the Rijksmuseum and 15 minutes from Amsterdam Centraal."
-    },
-    {
-      "icon": "🚶",
-      "text": "20-minute walk from the Rijksmuseum along Ferdinand Bolstraat, or 25 minutes from Dam Square."
+      "text": "A 10-minute cycle from the Rijksmuseum and Museumplein."
     }
   ]
 }

@@ -2,9 +2,8 @@
   "title": "Museumplein",
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
   "standfirst": "Three world-class museums on one lawn — the Rijksmuseum, Van Gogh, and Stedelijk are all within a 5-minute walk of each other. Add Vondelpark and the best shopping street in Amsterdam and you have a full day.",
-  "hero_image": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80",
+  "hero_image": "/images/museumplein.png",
   "intro_html": "<p class=\" mb-4\">In 1877, the city of Amsterdam set aside a large open field south of the Leidseplein for culture. The Rijksmuseum (1885), the Concertgebouw (1888), and what would eventually become the Van Gogh Museum and Stedelijk Museum were all built on or around this space over the following decades. The result — three world-class institutions sharing a single square kilometre of lawn — is one of the great concentrations of cultural infrastructure anywhere in Europe.</p><p class=\" mb-4\"><strong>On a good day, you can walk from Rembrandt's Night Watch to Van Gogh's Sunflowers to a Mondrian in under fifteen minutes.</strong> Add the Moco Museum (Banksy and contemporary art), the Concertgebouw (free lunchtime concerts on Wednesdays), and the Vondelpark (five minutes from the museums), and you have a cultural district that rivals anything in London, Paris, or New York — at a fraction of the price.</p><p class=\" mb-4\">The neighbourhood around Museumplein — Oud-Zuid — is also one of Amsterdam's most pleasant residential areas: wide leafy streets, independent cafés on Van Baerlestraat, and the PC Hooftstraat shopping street (Amsterdam's equivalent of Bond Street) for those who want to spend more than museum entry prices.</p>",
-  "attractions": [],
   "facts": [
     {
       "icon": "🎨",
@@ -24,128 +23,74 @@
     {
       "icon": "⏱",
       "label": "Time to allow",
-      "value": "1–2 full days (museums alone = 1 day)"
-    },
-    {
-      "icon": "🌟",
-      "label": "Best for",
-      "value": "Art lovers, families, shoppers"
-    },
-    {
-      "icon": "📅",
-      "label": "Best time",
-      "value": "Open at 9am — arrive early"
+      "value": "1–2 full days"
     }
   ],
   "todos": [
     {
       "num": "01",
-      "title": "Rijksmuseum — arrive at 9am",
-      "description": "The Rijksmuseum opens at 9am and closes at 5pm. The Night Watch is most manageable in the first hour — by 11am the Gallery of Honour is dense with tour groups. Book timed entry online. Allow 2.5 hours minimum. The museum garden (free) is worth 15 minutes of your time before or after."
+      "title": "Rijksmuseum",
+      "description": "The Rijksmuseum is the heavy hitter of Dutch culture, a massive 19th-century cathedral of art that houses over 8,000 objects across 80 rooms. The undisputed centerpiece is the Gallery of Honour, which leads directly to Rembrandt's monumental 'Night Watch.'\n\nBeyond the Golden Age old masters, the museum also covers 800 years of Dutch history through ship models, fashion, and armory. Arriving precisely at 9am is essential to experience the grand Gallery of Honour before the heavy crowds arrive. Don't forget to explore the museum's free sculpture gardens, which offer a peaceful, leafy escape from the galleries."
     },
     {
       "num": "02",
-      "title": "Van Gogh Museum — book well in advance",
-      "description": "5 minutes' walk from the Rijksmuseum, on the eastern edge of Museumplein. Online booking is mandatory — no walk-ups. The museum holds 200 paintings and 500 drawings, arranged chronologically. Friday evening sessions (6–9pm) are the quietest. Allow 1.5–2 hours."
+      "title": "Van Gogh Museum",
+      "description": "Just a five-minute walk across the lawn, the Van Gogh Museum houses the largest collection of artwork by Vincent van Gogh in the world. The museum follows the artist's turbulent life chronologically, from his early Dutch period to his final, vibrant days in France.\n\nIt is an incredibly intimate and emotional journey through the mind of a genius. Because it is one of the most popular museums on earth, online booking is mandatory and usually sells out weeks in advance. The 'Van Gogh on Friday' evening sessions are a local favorite, often featuring live music and a more relaxed, cocktail-bar atmosphere."
     },
     {
       "num": "03",
-      "title": "Sit on the Museumplein lawn",
-      "description": "The Museumplein lawn is free. In summer it's where Amsterdammers picnic, children play football, and tourists eat their rijsttafel takeaway with the Rijksmuseum as backdrop. In winter it hosts an outdoor skating rink. The large AMSTERDAM sign (the I AMsterdam letters have moved, but the IJ logo remains) is at the eastern end."
+      "title": "Concertgebouw",
+      "description": "Widely regarded as having some of the finest acoustics in the world, the Concertgebouw is a temple of classical music that forms the southern boundary of the Museumplein. Its majestic, neo-Renaissance facade serves as a grand backdrop for the city’s most prestigious orchestral performances.\n\nFor those on a budget, the free 'Lunchtime Concerts' held every Wednesday are a must-see, offering a chance to hear world-class musicians rehearse in the Main Hall. Even if you're not an opera or orchestra buff, the building's interior is a masterpiece of late 19th-century luxury, with its sweeping red-carpeted staircases and golden chandeliers."
     },
     {
       "num": "04",
-      "title": "Walk to Vondelpark (5 minutes)",
-      "description": "Vondelpark is a 5-minute walk west from the Rijksmuseum — 47 hectares of lawns, ponds, and cycling paths that serve as Amsterdam's back garden. From June to August, the open-air theatre runs free concerts and performances every weekend. No booking required."
-    },
-    {
-      "num": "05",
-      "title": "PC Hooftstraat — Amsterdam's luxury shopping street",
-      "description": "The PC Hooftstraat runs along the southern edge of Museumplein and contains Amsterdam's highest concentration of designer and luxury retail — Gucci, Hermès, Louis Vuitton, Chanel, and several Dutch designers. Even if you're not buying, the street is worth a walk for the architecture (all 19th-century townhouses) and the window displays."
-    },
-    {
-      "num": "06",
-      "title": "Stedelijk Museum — same square, completely different art",
-      "description": "The Stedelijk is directly adjacent to the Van Gogh Museum and covers modern and contemporary art from 1870 to the present — Mondrian, Kandinsky, Matisse, and Dutch Design. The controversial white \"bathtub\" annex (2012) is more interesting inside than the hostile exterior suggests. Rarely sells out."
+      "title": "The Mirror Quarter (Spiegelkwartier)",
+      "description": "Located just north of the Rijksmuseum, the Spiegelkwartier has been the heart of Amsterdam's art and antique trade for over 80 years. This quiet, charming neighborhood is packed with over 70 specialist shops selling everything from ancient Roman glass and Delftware to 17th-century furniture and modern sculpture.\n\nWandering through the narrow streets of the Mirror Quarter feels like exploring a living museum. Each shop window is a curated masterpiece, and the dealers are often world-renowned experts in their fields. It is the perfect place to discover a truly unique piece of Dutch history while enjoying the neighborhood’s authentic, refined atmosphere."
     }
   ],
   "foods": [
     {
-      "tag": "Exceptional Experience",
-      "title": "Vinkeles",
-      "description": "Located in an 18th-century bakery inside The Dylan hotel. Two Michelin stars and a setting that feels like a Golden Age dreamscape."
+      "tag": "Luxury Brasserie",
+      "title": "Conservatorium Brasserie",
+      "description": "Housed in the soaring, glass-enclosed atrium of the former Sweelinck Music Conservatory, the Conservatorium Brasserie is the height of Museumplein sophistication. The architecture is a stunning blend of 19th-century brickwork and futuristic glass and steel, creating an airy, light-filled space for dining.\n\nThe menu focuses on elevated European classics, from creative salads to sustainably sourced seafood and artisanal Dutch cheeses. It is the premier spot for a 'power lunch' or a refined afternoon tea, offering a quiet, high-end sanctuary right in the heart of the museum district."
     },
     {
-      "tag": "Museum-side café",
-      "title": "Café Cobra",
-      "description": "On the Museumplein lawn, directly opposite the Van Gogh Museum, with a terrace that looks across to the Rijksmuseum. The name comes from the COBRA art movement (Copenhagen–Brussels–Amsterdam), and the interior reflects it. A reliable option for lunch between museums — the soup and sandwiches are good value."
-    },
-    {
-      "tag": "Breakfast / brunch",
-      "title": "De Bakkerswinkel",
-      "description": "A bakery and café on Roelof Hartstraat, 5 minutes from the Rijksmuseum. Arguably the best breakfast in Amsterdam — excellent bread, proper coffee, and Dutch pastries baked on the premises. Arrive before 9am on weekends to get a table."
-    },
-    {
-      "tag": "Neighbourhood dinner",
+      "tag": "Neighborhood Icon",
       "title": "Brasserie van Baerle",
-      "description": "The best restaurant on Van Baerlestraat — a classic French-Dutch brasserie that has been feeding Oud-Zuid residents since 1993. The steak tartare and the sole meunière are the things to order. Book ahead for evenings."
+      "description": "A favorite of the Oud-Zuid elite since 1993, Brasserie van Baerle is a classic French-Dutch institution that prioritizes quality over trends. The interior is understated and elegant, but the real draw is the sun-drenched garden terrace, which is one of the most beautiful in the city.\n\nThe steak tartare and the sole meunière are legendary, prepared with a level of precision that has kept the restaurant full for three decades. It is the perfect place for a sophisticated evening dinner after a day of gallery-hopping, offering a level of service and culinary consistency that is rare to find."
     },
     {
-      "tag": "Quick lunch",
-      "title": "Scandinavian Embassy",
-      "description": "A Scandinavian-influenced café on Sarphatipark (15 minutes from Museumplein) that does exceptional open sandwiches (smørrebrød), good filter coffee, and the best cinnamon buns in Amsterdam. Small, often full — arrive early."
+      "tag": "Museum-Side Cafe",
+      "title": "Café Cobra",
+      "description": "Located directly on the Museumplein lawn with a terrace that offers panoramic views of the Rijksmuseum and the Stedelijk, Café Cobra is the most convenient spot for a mid-museum break. The name is a nod to the COBRA art movement, and the interior is decorated with bold, colorful works that reflect that spirit.\n\nThe menu is straightforward and reliable, featuring classic Dutch 'broodje' (sandwiches), hearty soups, and excellent coffee. It is an unpretentious and lively spot where you can fuel up for your next museum visit while soaking in the energy of the city's cultural heart."
     }
   ],
   "products": [
     {
-      "image_url": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=600&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?q=80&w=2070&auto=format&fit=crop",
       "category": "Museum",
       "title": "Rijksmuseum",
-      "description": "8,000 objects, 80 rooms, the Night Watch — the greatest Dutch Golden Age collection in the world. Timed entry, book online. Arrives at 9am for the quietest experience.",
+      "description": "8,000 objects, the Night Watch — the greatest Dutch Golden Age collection in the world.",
       "cta": "Book Timed Entry",
       "link": "/museums/"
     },
     {
-      "image_url": "https://images.unsplash.com/photo-1634228011564-0b1ad7b8dc2e?w=600&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1634228011564-0b1ad7b8dc2e?q=80&w=2070&auto=format&fit=crop",
       "category": "Museum",
       "title": "Van Gogh Museum",
-      "description": "200 paintings, 500 drawings, the world's largest Van Gogh collection. No walk-ups accepted — online booking only. Friday evenings are the quietest time slot.",
-      "cta": "Book Van Gogh Tickets",
-      "link": "/museums/"
-    },
-    {
-      "image_url": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=600&auto=format&fit=crop&q=75",
-      "category": "Museum",
-      "title": "Stedelijk Museum",
-      "description": "Mondrian to Matisse to Dutch Design — modern and contemporary art on the same square as the Rijksmuseum and Van Gogh. Rarely sells out; good for same-day booking.",
-      "cta": "Book Stedelijk Tickets",
-      "link": "/museums/"
-    },
-    {
-      "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&auto=format&fit=crop&q=75",
-      "category": "Museum",
-      "title": "Moco Museum",
-      "description": "Permanent Banksy collection plus rotating contemporary shows in a 1904 villa on Museumplein. The only dedicated Banksy museum in the world. Pairs perfectly with a Rijksmuseum morning.",
-      "cta": "Book Moco Tickets",
+      "description": "200 paintings, the world's largest collection. Mandatory online booking.",
+      "cta": "Reserve Slot",
       "link": "/museums/"
     }
   ],
   "getting_there": [
     {
       "icon": "🚋",
-      "text": "Tram 2 or 5 from Amsterdam Centraal to Hobbemastraat stop — 15 minutes. This puts you directly in front of the Rijksmuseum."
+      "text": "Tram 2 or 5 from Centraal Station to Hobbemastraat stop."
     },
     {
       "icon": "🚲",
-      "text": "Cycling from Centraal to Museumplein takes about 15 minutes via the Singel and Leidsegracht. The bike lanes on Stadhouderskade run directly to the museum quarter."
-    },
-    {
-      "icon": "🚶",
-      "text": "30-minute walk from Amsterdam Centraal through the Jordaan and Vondelpark — a pleasant route that lets you see two neighbourhoods on the way to the museums."
-    },
-    {
-      "icon": "💡",
-      "text": "The Museumkaart (€65, valid for one month) gives unlimited entry to 400+ Dutch museums including the Rijksmuseum, Van Gogh, and Stedelijk. Worth it if you plan to visit all three."
+      "text": "A 15-minute cycle from Centraal via the Singel and Leidsegracht."
     }
   ]
 }

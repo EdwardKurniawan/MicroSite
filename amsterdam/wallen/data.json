@@ -25,29 +25,39 @@
     {
       "num": "01",
       "title": "Oude Kerk",
-      "description": "Amsterdam's oldest building and parish church, consecrated in 1306. It now hosts world-class contemporary art installations."
+      "description": "Consecrated in 1306, the Oude Kerk ('Old Church') is Amsterdam's oldest building and parish church. It stands as a stunning example of North European Gothic architecture, with its massive timber-vaulted ceiling and stained-glass windows that have survived centuries of religious and political upheaval.\n\nToday, the church operates as a world-class center for contemporary art, hosting site-specific installations that play with the building's monumental space and light. It is a place of profound silence and beauty, located right in the middle of the city's busiest and most chaotic district."
     },
     {
       "num": "02",
       "title": "Ons' Lieve Heer op Solder",
-      "description": "Our Lord in the Attic: a clandestine Catholic church built into the top floors of a 17th-century canal house."
+      "description": "Known as 'Our Lord in the Attic,' this is one of the most remarkable museums in the city. It is a clandestine Catholic church built into the top floors of a 17th-century canal house during a time when public Catholic worship was forbidden in the Netherlands.\n\nThe lower floors remain a perfectly preserved merchant's house, but as you climb the narrow stairs, you emerge into a narrow, two-story chapel draped in gold and velvet. It is a testament to religious tolerance and the ingenuity of Golden Age Amsterdammers who found literal 'loopholes' in the law."
     },
     {
       "num": "03",
       "title": "Zeedijk & Chinatown",
-      "description": "Once a sailor's haunt, now a vibrant street filled with the city's best Asian cuisine and a beautiful Buddhist temple."
+      "description": "Once a rugged sailors' haunt outside the old city walls, the Zeedijk has transformed into a vibrant, multicultural artery. It is the heart of Amsterdam's Chinatown, teeming with authentic Dim Sum parlors, Asian grocery stores, and the magnificent He Hua Temple—the largest Buddhist temple in Europe built in traditional Chinese style.\n\nWalking the Zeedijk is a journey through time and geography. You'll see some of the city's oldest wooden-fronted houses at one end and the neon-lit, high-speed energy of a modern global city at the other. It is the best place in the city for an authentic Asian culinary experience."
+    },
+    {
+      "num": "04",
+      "title": "The Condomerie",
+      "description": "Located on the Warmoesstraat, the Condomerie is the world's first specialist condom shop. While it might sound like a tourist trap, it is actually a highly professional and surprisingly educational institution that has played a key role in the city's liberal social history.\n\nThe colorful window displays are a work of art in themselves, featuring everything from hand-painted novelties to serious medical supplies. It embodies the 'live and let live' spirit of Amsterdam, offering a quirky yet important look at the city's approach to health and personal freedom."
     }
   ],
   "foods": [
     {
-      "tag": "Fine Dining",
+      "tag": "Two Michelin Stars",
       "title": "Vinkeles",
-      "description": "Located in an 18th-century bakery inside The Dylan hotel. Two Michelin stars and unparalleled historic atmosphere."
+      "description": "Housed in a former 18th-century bakery within the historic Dylan hotel, Vinkeles is the pinnacle of fine dining in the medieval core. The restaurant holds two Michelin stars and is celebrated for Chef Jurgen van der Zalm’s ability to combine classic French techniques with innovative, modern flourishes.\n\nThe dining room retains many of its original industrial features, including the massive brick ovens that once baked bread for the city. It is an incredibly intimate and atmospheric setting, offering a level of service and culinary precision that makes it one of the most sought-after tables in Northern Europe."
     },
     {
-      "tag": "Seafood Theatre",
-      "title": "Pesca",
-      "description": "Choose your fish from the market stall and watch it being prepared. A lively, interactive seafood experience on the border of De Wallen and Jordaan."
+      "tag": "Medieval Candlelit Dining",
+      "title": "In de Waag",
+      "description": "In de Waag is located inside the Sint Anthoniespoort, a 15th-century city gate that once served as a weighing house for merchants. The interior is truly spectacular, lit by over 300 real candles that flicker against the ancient brick walls and massive oak beams.\n\nThe menu focuses on refined European classics served in a setting that feels like a scene from a Dutch Old Master painting. Whether you're here for a grand dinner or a quiet afternoon coffee, the sense of history is palpable in every corner of this monumental fortress."
+    },
+    {
+      "tag": "Historic Tasting Room",
+      "title": "Proeflokaal de Drie Fleschjes",
+      "description": "Dating back to 1650, 'The Three Small Bottles' is the oldest tasting room in Amsterdam. It sits in the shadow of the Nieuwe Kerk and has remained virtually unchanged for nearly four centuries, with its walls lined from floor to ceiling with oak barrels containing various Dutch jenevers and liqueurs.\n\nThere are no comfortable chairs here—this is a traditional 'standing' tasting room where you sip your drink at high teak tables. It is a place of quiet tradition where you can experience the authentic 'bruin café' culture at its most historical and unpretentious."
     }
   ],
   "getting_there": [

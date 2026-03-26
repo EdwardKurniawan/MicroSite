@@ -25,29 +25,39 @@
     {
       "num": "01",
       "title": "Artis Royal Zoo",
-      "description": "One of the oldest zoos in Europe, complete with 19th-century pavilions, a planetarium, and a stunning aquarium."
+      "description": "One of the oldest zoos in Europe, Artis is a masterpiece of 19th-century urban planning. Beyond the diverse array of animals, the grounds itself are a botanical marvel, featuring monumental pavilions, a state-of-the-art planetarium, and a stunning 19th-century aquarium.\n\nIt is one of the few places in the city where you can truly escape the urban bustle and immerse yourself in nature. The zoo’s commitment to education and conservation, combined with its historic charm, makes it an essential visit for families and history enthusiasts alike."
     },
     {
       "num": "02",
       "title": "Hortus Botanicus",
-      "description": "Founded in 1638, this is one of the world's oldest botanical gardens. Don't miss the butterfly house."
+      "description": "Founded in 1638 as a medicinal herb garden for doctors and pharmacists, the Hortus Botanicus is one of the world's oldest botanical gardens. Its collection of over 4,000 plant species is housed in a variety of stunning glass structures, including the iconic Three-Climate House.\n\nA walk through the Hortus is a sensory journey through centuries of botanical discovery. Don't miss the butterfly house, where hundreds of tropical specimens flutter amongst exotic blooms, or the tranquil semi-circle greenhouse which dates back to the 19th century."
     },
     {
       "num": "03",
+      "title": "Verzetsmuseum (Resistance Museum)",
+      "description": "Located in a monumental brick building across from the Artis Zoo, the Resistance Museum offers a deeply personal and immersive look at the Netherlands during the German occupation in WWII. The exhibits are curated with extraordinary care, using personal stories to illustrate the impossible choices faced by ordinary citizens.\n\nIt is widely regarded as one of the best historical museums in the country. The Junior Resistance Museum is also an exceptional resource for younger visitors, explaining the complexities of war and resistance in a way that is accessible and profoundly moving."
+    },
+    {
+      "num": "04",
       "title": "Hollandsche Schouwburg",
-      "description": "A former theatre that now serves as a powerful memorial to the Jewish citizens deported during WWII."
+      "description": "Once a lively theatre, the Hollandsche Schouwburg became a site of tragedy during WWII as the main assembly point for the deportation of Amsterdam's Jewish citizens. Today, it stands as a powerful memorial and museum dedicated to the Shoah.\n\nThe remains of the theatre house an eternal flame and a courtyard of reflection, while the museum wing provides a hauntingly detailed account of the community that once thrived in the surrounding Jewish Quarter. It is a place of immense historical weight and silent beauty."
     }
   ],
   "foods": [
     {
       "tag": "Creative Dining",
       "title": "Entrepot",
-      "description": "Located in a former warehouse, Entrepot focuses on seasonal Dutch ingredients cooked over open fire. It's chic, industrial, and consistently excellent."
+      "description": "Located in a beautifully restored former warehouse along the water, Entrepot is a frontrunner in Amsterdam’s modern culinary scene. The kitchen focuses on seasonal, locally sourced ingredients—often Dutch in origin—cooked over an open charcoal fire to create deeply flavored, creative dishes.\n\nThe atmosphere is effortlessly chic and industrial, with high ceilings and an open-plan layout that makes it perfect for a festive group dinner or an intimate date. The wine list is equally impressive, featuring a curated selection of European natural wines that pair perfectly with the smoky, charred flavors of the menu."
     },
     {
-      "tag": "Historic Café",
-      "title": "Café de Plantage",
-      "description": "A beautiful, high-ceilinged cafe next to the Artis entrance. Perfect for a long lunch under the plane trees."
+      "tag": "Hidden Garden Brunch",
+      "title": "Dignita Hoftuin",
+      "description": "Tucked away in a lush, secret garden behind the Hermitage Museum (now H'ART), Dignita Hoftuin is perhaps Amsterdam’s best-kept brunch secret. The cafe operates under a social enterprise model, training people who have faced barriers to employment, and the food is as wholesome as the mission.\n\nThe glass-walled pavilion allows you to dine 'outdoors' even in the winter, surrounded by blooming flowers and ancient trees. Their avocado toast and poached eggs are legendary, but the true star is the peaceful atmosphere, which feels miles away from the nearby bustling streets of the Centrum."
+    },
+    {
+      "tag": "Iconic Brewery",
+      "title": "Brouwerij 't IJ",
+      "description": "No visit to Amsterdam East is complete without a beer at Brouwerij 't IJ. Located in a former municipal bathhouse right next to the De Gooyer windmill—the tallest wooden windmill in the Netherlands—this is the city’s most famous independent brewery.\n\nIn the summer, the sprawling terrace is packed with locals enjoying artisan pilsners and IPAs in the shadow of the monumental windmill sails. It’s a quintessentially Amsterdam experience, pairing historic industrial heritage with some of the best craft beer in the country."
     }
   ],
   "getting_there": [

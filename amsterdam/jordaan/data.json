@@ -2,9 +2,8 @@
   "title": "The Jordaan",
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
   "standfirst": "Amsterdam's most beloved neighbourhood — narrow canals, 17th-century houses, hidden courtyards, and the kind of brown cafés where you lose track of an afternoon.",
-  "hero_image": "https://images.unsplash.com/photo-1692702518020-dd541f706b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxUaGUlMjBKb3JkYWFuJTIwQW1zdGVyZGFtJTIwYXJjaGl0ZWN0dXJlJTIwaGlnaCUyMHF1YWxpdHl8ZW58MHwwfHx8MTc3NDQ1NDIxOXww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-  "intro_html": "<p class=\" mb-4\">The Jordaan started as a mistake. When Amsterdam expanded its canal ring in the early 17th century, the city planners drew the new residential quarter to the west — narrow streets, dense housing, no grand waterways. It was built for workers: tanners, cloth-dyers, and craftsmen who couldn't afford the canal ring addresses being snapped up by Golden Age merchants. The name probably comes from the French <em>jardin</em> — garden — because the area was laid out on what had been market gardens.</p><p class=\" mb-4\">It stayed working-class for three centuries. The Jordaan had a reputation for poverty, overcrowding, and radical politics well into the 20th century. <strong>Then, slowly, the artists arrived. Then the galleries. Then the boutiques.</strong> Today the Jordaan has some of the highest residential property prices in the Netherlands, and the canal houses that once housed ten people to a room are selling for two million euros. The narrow streets are still there. The brown cafés are still there. The hofjes — hidden almshouse courtyards behind unmarked doors — are still there. The Jordaan absorbed its own gentrification without quite losing its character. That's a rare thing.</p><p class=\" mb-4\">This is the neighbourhood where Amsterdam feels most like itself: unhurried, slightly eccentric, genuinely beautiful. Give it at least a morning. Give it a full day if you can.</p>",
-  "attractions": [],
+  "hero_image": "https://images.unsplash.com/photo-1692702518020-dd541f706b2c?q=80&w=2070&auto=format&fit=crop",
+  "intro_html": "<p class=\" mb-4\">The Jordaan started as a mistake. When Amsterdam expanded its canal ring in the early 17th century, the city planners drew the new residential quarter to the west — narrow streets, dense housing, no grand waterways. It was built for workers: tanners, cloth-dyers, and craftsmen who couldn't afford the canal ring addresses being snapped up by Golden Age merchants.</p><p class=\" mb-4\">It stayed working-class for three centuries. The Jordaan had a reputation for poverty, overcrowding, and radical politics well into the 20th century. <strong>Then, slowly, the artists arrived. Then the galleries. Then the boutiques.</strong> Today the Jordaan has some of the highest residential property prices in the Netherlands, and the canal houses that once housed ten people to a room are selling for millions.</p><p class=\" mb-4\">This is the neighbourhood where Amsterdam feels most like itself: unhurried, slightly eccentric, genuinely beautiful. Give it at least a morning. Give it a full day if you can.</p>",
   "facts": [
     {
       "icon": "🏘",
@@ -25,75 +24,45 @@
       "icon": "⏱",
       "label": "Time to allow",
       "value": "Half day to full day"
-    },
-    {
-      "icon": "🌟",
-      "label": "Best for",
-      "value": "Couples, culture lovers, shoppers"
-    },
-    {
-      "icon": "📅",
-      "label": "Best day to visit",
-      "value": "Saturday (Noordermarkt)"
     }
   ],
   "todos": [
     {
       "num": "01",
       "title": "Wander de 9 Straatjes (the Nine Streets)",
-      "description": "The nine streets cross the Jordaan's three main canals (Keizersgracht, Herengracht, Prinsengracht) and contain the best concentration of independent boutiques in Amsterdam — vintage clothing, concept stores, specialist bookshops, and design studios. Start at Reestraat and work your way south. Allow 2 hours minimum."
+      "description": "The 'Nine Streets' form a picturesque grid crossing the Jordaan's three main canals: Keizersgracht, Herengracht, and Prinsengracht. This micro-neighborhood is the city's capital of independent retail, packed with vintage clothing boutiques, high-end concept stores, and artisanal design studios.\n\nIt is widely considered the most photogenic shopping district in Europe. Between hunting for rare books or designer furniture, you can stop at one of the many cozy corner cafes to watch the world cycle by. Start at the Reestraat and wind your way south for the full experience."
     },
     {
       "num": "02",
       "title": "Find the hidden hofjes",
-      "description": "The Jordaan contains at least 20 hidden courtyards (hofjes) — former almshouses tucked behind unmarked doors on ordinary-looking streets. The best are Karthuizershofje (Karthuizerstraat 87), Claes Claeszhofje (1e Egelantiersdwarsstraat 3), and Suykerhofje (Lindengracht 149). Push the door. Walk in quietly."
+      "description": "The Jordaan is famous for its 'hofjes'—charming inner courtyards surrounded by former almshouses. These hidden sanctuaries were built by wealthy benefactors to house elderly women and the poor, and today they remain some of the most peaceful residential spots in the city.\n\nFinding them is half the fun, as they are often tucked behind unremarkable-looking doors on ordinary streets. The Karthuizershofje (Karthuizerstraat 87) is the largest and most impressive, but pushing open a heavy oak door to find a blooming garden in the middle of a dense urban block is a magical Jordaan rite of passage."
     },
     {
       "num": "03",
       "title": "Saturday Noordermarkt",
-      "description": "Every Saturday morning, the Noordermarktplein fills with two markets running simultaneously: the Boerenmarkt (organic farmers' market, 9am–4pm) and the Noordermarkt antique & vintage market (9am–2pm). This is where Jordaan residents actually shop. Arrive at 9am for the best selection and the fewest crowds."
+      "description": "Every Saturday morning, the square in front of the Noorderkerk becomes the center of Jordaan life. Two distinct markets run simultaneously: a high-end organic farmers' market (Boerenmarkt) and a sprawling antique and vintage market. It is where locals come to buy their weekly sourdough, fresh oysters, and 19th-century furniture.\n\nArriving early is key, not just for the best finds, but to secure a seat at one of the surrounding cafes for a post-market coffee. The atmosphere is quintessentially Amsterdam—busy, social, and deeply rooted in the neighborhood's working-class heritage."
     },
     {
       "num": "04",
-      "title": "Sit in a brown café (bruin café)",
-      "description": "Amsterdam's brown cafés are the Dutch equivalent of a London pub — dark wood, candles in bottles, a regulars' bar that's been the same for decades. In the Jordaan, Café 't Smalle (Egelantiersgracht 12) and Café de Reiger (Nieuwe Leliestraat 34) are the most authentic. Order a jenever (Dutch gin) and a beer. Don't rush."
-    },
-    {
-      "num": "05",
-      "title": "Walk the Prinsengracht and Brouwersgracht",
-      "description": "The Prinsengracht is the outer ring of the main canal network and one of the most beautiful streets in the city — wide enough to feel airy, lined with elms, houseboats moored along both banks. Walk north from the Anne Frank House to the Brouwersgracht junction: this corner is consistently cited as the most beautiful canal intersection in Amsterdam."
-    },
-    {
-      "num": "06",
-      "title": "Explore the Westerkerk and Westermarkt",
-      "description": "The Westerkerk tower (1631) is the tallest church tower in Amsterdam and visible from most of the Jordaan. Rembrandt is buried somewhere inside — the exact location was lost in the 18th century. Every Monday morning, the Westermarkt hosts one of Amsterdam's longest-running outdoor markets. The Anne Frank House is directly beside it."
+      "title": "Electric Ladyland",
+      "description": "Housed in a tiny basement near the Anne Frank House, Electric Ladyland is the world's first museum of fluorescent art. It is a niche, eccentric, and absolutely mesmerizing experience where you are led by the owner through 'Fluorescent Landscapes' that glow in spectacular neon colors.\n\nIt is the kind of 'only in the Jordaan' spot that defies categorization. It's half art gallery, half scientific experiment, and entirely immersive. It offers a psychedelic, glowing contrast to the historic brown brick streets above."
     }
   ],
   "foods": [
     {
-      "tag": "Exceptional Experience",
-      "title": "Pesca - Theatre of Fish",
-      "description": "A fish market concept where you choose your catch from the ice. It’s interactive, social, and serves some of the best North Sea seafood in the city."
-    },
-    {
       "tag": "Best apple pie in Amsterdam",
       "title": "Winkel 43",
-      "description": "The appeltaart at Winkel 43 (Noordermarkt 43) has been called the best apple pie in Amsterdam for 20 years running. It's served warm, with a thick wedge of whipped cream. Arrive before 11am on Saturdays to beat the Noordermarkt queue."
+      "description": "The 'appeltaart' at Winkel 43 is a local legend. For decades, this corner cafe on the Noordermarkt has been serving thick, warm wedges of apple pie topped with a massive dollop of freshly whipped cream. The crust is thick and cake-like, and the filling is packed with cinnamon-spiced apples.\n\nOn market days, the queue often stretches around the corner, but it moves quickly and the reward is worth every minute. Secure a spot on the sun-drenched terrace if you can, and enjoy what many consider to be the definitive Dutch culinary experience."
     },
     {
-      "tag": "Brown café",
+      "tag": "Historic Brown Café",
       "title": "Café 't Smalle",
-      "description": "One of the oldest brown cafés in Amsterdam, operating from a converted 18th-century jenever distillery on the Egelantiersgracht. Wooden benches extend over the canal in summer. Go on a weekday afternoon when it's quiet enough to hear the waterway."
+      "description": "Operating out of a converted 18th-century jenever distillery on the Egelantiersgracht, 't Smalle is the quintessential Amsterdam 'brown cafe.' The interior is a symphony of dark wood, polished brass, and stained glass, illuminated by the soft glow of candles and vintage lamps.\n\nIn the summer, its tiny waterfront terrace is one of the most coveted spots in the city. It’s a place where time seems to slow down, perfect for a quiet afternoon jenever (Dutch gin) while watching the boats navigate the narrow, tree-lined canal just inches from your table."
     },
     {
-      "tag": "Local dinner",
-      "title": "De Reiger",
-      "description": "A genuine neighbourhood restaurant on Nieuwe Leliestraat — good Dutch-French cooking, chalk-written menu, no reservations taken. Arrive before 7pm or expect to wait. The kind of place that's been full every night for thirty years without ever appearing in a travel guide."
-    },
-    {
-      "tag": "Coffee",
-      "title": "Lot Sixty One",
-      "description": "Amsterdam's best specialty coffee roaster, operating out of a converted garage on Kinkerstraat (five minutes west of the Jordaan). The espresso is exceptional. The beans are sourced directly from farms in Ethiopia, Colombia, and Guatemala. No wifi, on purpose."
+      "tag": "Surinamese Vibe",
+      "title": "Waterkant",
+      "description": "Located on the southern edge of the Jordaan under a multi-story parking garage, Waterkant is a Surinamese-inspired bar that has become a cult favorite among young Amsterdammers. The massive waterfront terrace is the draw, offering bright colors, loud music, and a tropical energy that is rare in the city center.\n\nThe menu features Surinamese classics like roti and baka bana (fried plantain), along with a great selection of local beers. It is the perfect place for a high-energy sunset drink, where you can dangle your legs over the canal wall and soak up the city's modern, multicultural vibe."
     }
   ],
   "products": [
@@ -106,46 +75,22 @@
       "link": "/tours/"
     },
     {
-      "image_url": "https://images.unsplash.com/photo-1575325630915-f211f81ce4f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbm5lJTIwRnJhbmslMjBIb3VzZSUyMEFtc3RlcmRhbSUyMHRvdXIlMjBwaG90b3xlbnwwfDB8fHwxNzc0NDU0MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "https://images.unsplash.com/photo-1575325630915-f211f81ce4f8?w=600&auto=format&fit=crop&q=75",
       "category": "History",
       "title": "Anne Frank House",
-      "description": "The Jordaan's most significant site — and the most visited in Amsterdam. Pre-booking is essential. Time slots release on the 1st of each month and sell out in hours.",
+      "description": "The Jordaan's most significant site. Pre-booking is essential. Time slots release on the 1st of each month and sell out in hours.",
       "cta": "Reserve a Slot",
       "link": "/history-heritage/"
-    },
-    {
-      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=600&auto=format&fit=crop&q=75",
-      "category": "Canal Cruise",
-      "title": "Canal Cruise from Prinsengracht",
-      "description": "Several operators depart from near the Anne Frank House — putting you in the most scenic stretch of the canal ring from the first minute.",
-      "cta": "See Canal Cruises",
-      "link": "/canal-cruises/"
-    },
-    {
-      "image_url": "https://images.unsplash.com/photo-1554406973-3fc1d5615ee5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxHdWlkZWQlMjBCaWtlJTIwVG91ciUyMEFtc3RlcmRhbSUyMHRvdXIlMjBwaG90b3xlbnwwfDB8fHwxNzc0NDU0MTkyfDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-      "category": "Bike Tour",
-      "title": "Guided Bike Tour",
-      "description": "The Jordaan is the starting point for most of Amsterdam's guided bike tours — flat streets, quiet canals, and the perfect pace for seeing the city on two wheels.",
-      "cta": "Book a Bike Tour",
-      "link": "/tours/"
     }
   ],
   "getting_there": [
     {
       "icon": "🚋",
-      "text": "Tram 13, 17 or 19 to Westermarkt stop — puts you at the northern Jordaan entrance, directly beside the Westerkerk and Anne Frank House."
+      "text": "Tram 13, 17 or 19 to Westermarkt stop."
     },
     {
       "icon": "🚶",
-      "text": "20-minute walk from Amsterdam Centraal Station along the Singel canal, or 15 minutes from the Rijksmuseum area via Leidsegracht."
-    },
-    {
-      "icon": "🚲",
-      "text": "Most Amsterdam bike rental shops offer bikes from around €10/day. Cycling to the Jordaan from Centraal takes about 10 minutes."
-    },
-    {
-      "icon": "🅿️",
-      "text": "Don't drive. Parking in the Jordaan costs €7.50/hour and spaces are rare. Tram or bike in every time."
+      "text": "20-minute walk from Amsterdam Centraal Station along the Singel canal."
     }
   ]
 }

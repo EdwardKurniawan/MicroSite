@@ -4,7 +4,6 @@
   "standfirst": "One of Amsterdam's most lively and creative districts, Oud-West is where locals go for dinner and shopping when they want to avoid the tourist crowds of the centre.",
   "hero_image": "/images/oud_west.png",
   "intro_html": "<p class=\" mb-4\">Oud-West sits just outside the canal ring and has transformed from a quiet residential area into one of the city's most desirable neighbourhoods. Its heartbeat is the Ten Katemarkt and the adjacent De Hallen, a repurposed tram depot that now houses the city's best food hall, a cinema, and independent design shops.</p><p class=\" mb-4\">The streets are lined with craft coffee shops, trendy boutiques, and some of the best international restaurants in the city. It's a neighbourhood that feels authentic, lived-in, and continuously evolving.</p>",
-  "attractions": [],
   "facts": [
     {
       "icon": "🍴",
@@ -31,40 +30,44 @@
     {
       "num": "01",
       "title": "Foodhallen",
-      "description": "A converted tram depot featuring over 20 different food stalls and several bars. The perfect spot for a social dinner."
+      "description": "Foodhallen is the crowning jewel of Oud-West, a vast and vibrant food hall located inside a beautifully repurposed 19th-century tram depot. It features over 20 different food stalls representing a global array of cuisines, from authentic Spanish tapas and Vietnamese Banh Mi to high-end Dutch 'bitterballen' and wood-fired pizzas.\n\nThe industrial-chic atmosphere is electric, especially on weekend evenings when the central bars are buzzing with locals. It is the perfect place for a social, shared dinner where everyone can choose their own culinary adventure. Beyond the food, the building also houses an independent cinema (Hallen Theater) and a curated collection of local design boutiques."
     },
     {
       "num": "02",
       "title": "Ten Katemarkt",
-      "description": "A local, authentic street market that's much less touristy than the Albert Cuyp. Great for fresh produce and local snacks."
+      "description": "Located directly adjacent to De Hallen, the Ten Katemarkt is a sprawling, authentic neighborhood street market that has been serving Oud-West since 1910. It is much less tourist-focused than the Albert Cuyp, offering a genuine look at daily life in Amsterdam with its stalls of fresh produce, artisanal cheeses, and affordable household goods.\n\nWalking the market is a sensory delight, where the smell of grilled 'loempia' (Dutch spring rolls) and roasting nuts fills the air. It is the best place in the city to pick up high-quality local ingredients or a quick, fresh snack while soaking in the diverse, multicultural energy of the district."
     },
     {
       "num": "03",
       "title": "Jan-Pieter Heijestraat",
-      "description": "One of the best streets for independent lifestyle shops and boutique shopping in the city."
+      "description": "The Jan-Pieter Heijestraat is the primary shopping artery of Oud-West, a tree-lined street packed with independent lifestyle boutiques, concept stores, and artisanal coffee roasters. It avoids the high-street chains of the city center, focusing instead on curated design, sustainable fashion, and unique neighborhood finds.\n\nWhether you're looking for a handcrafted ceramic bowl, a rare vintage record, or just a perfectly pulled espresso, this street offers a sophisticated yet relaxed shopping experience. It captures the 'bobo' (bourgeois-bohemian) spirit of the modern Oud-West perfectly, where style and local community go hand-in-hand."
+    },
+    {
+      "num": "04",
+      "title": "Lot Sixty One",
+      "description": "Housed in a former mechanics’ garage on the Kinkerstraat, Lot Sixty One is a holy site for Amsterdam's specialty coffee scene. The industrial interior features the brewery's massive roasting machine right in the middle of the room, filling the air with the intoxicating scent of freshly roasted beans sourced directly from farms in Africa and South America.\n\nThe focus here is purely on the craft of the bean—the baristas are world-class, and the simple, high-fidelity setup prioritizes flavor above all else. It is the perfect place to start your exploration of Oud-West, providing a high-octane taste of the neighborhood's creative and quality-driven local culture."
     }
   ],
   "foods": [
     {
-      "tag": "Exceptional Experience",
+      "tag": "Neighborhood Fine Dining",
       "title": "Restaurant AmsEel",
-      "description": "Refined modern Dutch cooking in a room full of locals. A true neighborhood hidden gem focusing on white asparagus, North Sea sole, and Texel lamb."
+      "description": "AmsEel is a true neighborhood hidden gem, a refined yet unpretentious restaurant that focuses on modern European cuisine with a Dutch heart. The menu is dictate by the seasons, prioritizing local produce like White Asparagus from Limburg, North Sea Sole, and Texel Lamb, prepared with precision and flair.\n\nThe dining room is warm and intimate, with large windows overlooking the bustling Kinkerstraat. It is a favorite among local fooies who appreciate high-end cooking without the formal stuffiness of the city center's Michelin-starred institutions. The wine list is equally thoughtful, featuring a great selection of European biodynamic bottles."
     },
     {
-      "tag": "Social Dining",
-      "title": "Foodhallen",
-      "description": "Over 20 international food stalls inside a repurposed tram depot. From dim sum to wood-fired pizza, it's the city's premier shared dining hub."
+      "tag": "American Smokehouse",
+      "title": "Pendergast",
+      "description": "Pendergast brings the authentic flavors of a Kansas City smokehouse to the heart of Amsterdam West. Specializing in slow-cooked BBQ meats, the restaurant uses traditional smoking techniques and high-quality local Dutch cuts to create incredibly tender ribs, brisket, and pulled pork.\n\nThe atmosphere is cozy and welcoming, with a rustic interior that feels like a upscale neighborhood joint in the American South. The sides—from the cornbread to the mac and cheese—are just as impressive as the meats, making it a unique and satisfying culinary find in a sea of traditional European bistros."
     }
   ],
-  "products": [],
   "getting_there": [
     {
       "icon": "🚋",
-      "text": "Tram 7 or 17 to Ten Katestraat."
+      "text": "Tram 7 or 17 to Ten Katestraat stop puts you right at the heart of the district."
     },
     {
-      "icon": "🚲",
-      "text": "5-minute ride from the Jordaan."
+      "icon": "🚶",
+      "text": "A pleasant 10-minute walk from the western edge of the Jordaan."
     }
   ]
 }
