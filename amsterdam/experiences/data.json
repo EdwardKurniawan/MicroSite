@@ -2,7 +2,7 @@
   "title": "Amsterdam Experiences & Entertainment (2026)",
   "eyebrow": "🇳🇱 Amsterdam Experiences",
   "standfirst": "",
-  "hero_image": "https:/images.unsplash.com/photo-1611355656374-dae2ee0f09df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjAlMjgyMDI2JTI5JTIwQW1zdGVyZGFtJTIwYXJjaGl0ZWN0dXJlJTIwaGlnaCUyMHF1YWxpdHl8ZW58MHwwfHx8MTc3NDQ1NDE5M3ww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1611355656374-dae2ee0f09df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjAlMjgyMDI2JTI5JTIwQW1zdGVyZGFtJTIwYXJjaGl0ZWN0dXJlJTIwaGlnaCUyMHF1YWxpdHl8ZW58MHwwfHx8MTc3NDQ1NDE5M3ww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
   "intro_html": "<p class=\" mb-4\">Not every great afternoon in Amsterdam involves a 17th-century painting. The experiences below are the non-museum bucket list — things to do that are genuinely worth your time but are not about art history or WWII.</p><p class=\" mb-4\"><strong>The Heineken Experience and A'DAM Lookout are the two most popular</strong>, and for good reason — both deliver exactly what they promise. The others are more niche but excellent for the right visitor. All are bookable online in advance.</p>",
   "attractions": [
     {
@@ -44,7 +44,7 @@
       "name": "THIS IS HOLLAND",
       "category": "Experience",
       "badge": "Unique Experience",
-      "image_url": "https:/images.unsplash.com/photo-1762829251193-4865d8931fbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxUSElTJTIwSVMlMjBIT0xMQU5EJTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MTk3fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "https://images.unsplash.com/photo-1762829251193-4865d8931fbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxUSElTJTIwSVMlMjBIT0xMQU5EJTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MTk3fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "rating_text": "★★★★☆ 4.5 (8,700 reviews)",
       "metas": [
         "📍 Overhoeksplein 51, Amsterdam Noord",
@@ -61,7 +61,7 @@
       "name": "BODY WORLDS Amsterdam",
       "category": "Exhibition & Experience",
       "badge": "Thought-Provoking",
-      "image_url": "https:/images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.3 (7,200 reviews)",
       "metas": [
         "📍 Damrak 66",
@@ -78,7 +78,7 @@
       "name": "The Upside Down Amsterdam",
       "category": "Interactive Experience",
       "badge": "Instagram Favourite",
-      "image_url": "https:/images.unsplash.com/photo-1771759672178-f1e01a7eec71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxUaGUlMjBVcHNpZGUlMjBEb3duJTIwQW1zdGVyZGFtJTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "https://images.unsplash.com/photo-1771759672178-f1e01a7eec71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxUaGUlMjBVcHNpZGUlMjBEb3duJTIwQW1zdGVyZGFtJTIwQW1zdGVyZGFtJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfDB8fHwxNzc0NDU0MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "rating_text": "★★★★☆ 4.1 (5,600 reviews)",
       "metas": [
         "📍 Johan Huizingalaan 400",
@@ -95,7 +95,7 @@
       "name": "Fabrique des Lumières",
       "category": "Immersive Experience",
       "badge": "Immersive Art",
-      "image_url": "https:/images.unsplash.com/photo-1628785667147-99f428cf3df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxGYWJyaXF1ZSUyMGRlcyUyMEx1bWklQzMlQThyZXMlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "https://images.unsplash.com/photo-1628785667147-99f428cf3df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxGYWJyaXF1ZSUyMGRlcyUyMEx1bWklQzMlQThyZXMlMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "rating_text": "★★★★★ 4.6 (9,800 reviews)",
       "metas": [
         "📍 Oostenburgergracht 75",
@@ -112,7 +112,7 @@
       "name": "Ripley's Believe It or Not! Amsterdam",
       "category": "Experience",
       "badge": "Rainy Day Option",
-      "image_url": "https:/images.unsplash.com/photo-1598997851783-b6ea4e4c2fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxSaXBsZXklMjdzJTIwQmVsaWV2ZSUyMEl0JTIwb3IlMjBOb3QlMjElMjBBbXN0ZXJkYW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDN8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "https://images.unsplash.com/photo-1598997851783-b6ea4e4c2fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxSaXBsZXklMjdzJTIwQmVsaWV2ZSUyMEl0JTIwb3IlMjBOb3QlMjElMjBBbXN0ZXJkYW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDN8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "rating_text": "★★★★☆ 4.0 (5,300 reviews)",
       "metas": [
         "📍 Dam Square 1A",
@@ -129,7 +129,7 @@
       "name": "Boom Chicago Improv Comedy",
       "category": "Entertainment",
       "badge": "Best for Laughs",
-      "image_url": "https:/images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.8 (7,600 reviews)",
       "metas": [
         "📍 Rozengracht 117, Jordaan",
@@ -146,7 +146,7 @@
       "name": "Nxt Museum",
       "category": "Immersive Experience",
       "badge": "Cutting Edge",
-      "image_url": "https:/images.unsplash.com/photo-1762829161330-fe3d7c0a77d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOeHQlMjBNdXNldW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "image_url": "https://images.unsplash.com/photo-1762829161330-fe3d7c0a77d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOeHQlMjBNdXNldW0lMjBBbXN0ZXJkYW0lMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8MHx8fDE3NzQ0NTQyMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "rating_text": "★★★★★ 4.6 (4,200 reviews)",
       "metas": [
         "📍 Asterweg 22, Amsterdam Noord",
@@ -165,4 +165,3 @@
   "products": [],
   "getting_there": []
 }
-

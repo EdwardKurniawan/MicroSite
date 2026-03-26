@@ -15,7 +15,7 @@
   "author_slug": "sarah-mitchell",
   "updated_date": "2026-03-18",
   "read_time": "🕐",
-  "hero_image": "https:/images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
+  "hero_image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
   "hero_alt": "Amsterdam canal houses at golden hour",
   "hero_eyebrow": "🇳🇱 Amsterdam Insider Guide",
   "hero_h1": "10 Best Things To Do in Amsterdam",
@@ -81,8 +81,8 @@
   "category_intro": "52 attractions, tours, and experiences across 6 categories — each with full reviews, booking tips, and skip-the-line links.",
   "categories": [
     {
-      "url": "/museums/",
-      "image": "https:/images.unsplash.com/photo-1767412578743-7f4e9dd5f3b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxNdXNldW1zJTIwJTI2JTIwQXJ0JTIwQW1zdGVyZGFtJTIwY2l0eSUyMHZpZXd8ZW58MHwwfHx8MTc3NDQ1NDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "url": "/amsterdam/museums/",
+      "image": "https://images.unsplash.com/photo-1767412578743-7f4e9dd5f3b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxNdXNldW1zJTIwJTI2JTIwQXJ0JTIwQW1zdGVyZGFtJTIwY2l0eSUyMHZpZXd8ZW58MHwwfHx8MTc3NDQ1NDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Museumplein Amsterdam with Rijksmuseum",
       "count": "9 museums",
       "title": "Museums & Art",
@@ -90,8 +90,8 @@
       "cta": "Explore Museums"
     },
     {
-      "url": "/history-heritage/",
-      "image": "https:/images.unsplash.com/photo-1759088141496-10d6cb1edc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIaXN0b3J5JTIwJTI2JTIwSGVyaXRhZ2UlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc0fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "url": "/amsterdam/history-heritage/",
+      "image": "https://images.unsplash.com/photo-1759088141496-10d6cb1edc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIaXN0b3J5JTIwJTI2JTIwSGVyaXRhZ2UlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc0fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Anne Frank House on Prinsengracht canal",
       "count": "8 sites",
       "title": "History & Heritage",
@@ -99,8 +99,8 @@
       "cta": "Explore History"
     },
     {
-      "url": "/canal-cruises/",
-      "image": "https:/images.unsplash.com/photo-1694634287698-2d73fef678c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxDYW5hbCUyMENydWlzZXMlMjAlMjYlMjBXYXRlciUyMEFtc3RlcmRhbSUyMGNpdHklMjB2aWV3fGVufDB8MHx8fDE3NzQ0NTQxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "url": "/amsterdam/canal-cruises/",
+      "image": "https://images.unsplash.com/photo-1694634287698-2d73fef678c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxDYW5hbCUyMENydWlzZXMlMjAlMjYlMjBXYXRlciUyMEFtc3RlcmRhbSUyMGNpdHklMjB2aWV3fGVufDB8MHx8fDE3NzQ0NTQxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Amsterdam canal cruise at golden hour",
       "count": "8 cruise options",
       "title": "Canal Cruises & Water",
@@ -108,8 +108,8 @@
       "cta": "See All Cruises"
     },
     {
-      "url": "/nature-day-trips/",
-      "image": "https:/images.unsplash.com/photo-1658414507049-7618215b8d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOYXR1cmUlMkMlMjBGbG93ZXJzJTIwJTI2JTIwRGF5JTIwVHJpcHMlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "url": "/amsterdam/nature-day-trips/",
+      "image": "https://images.unsplash.com/photo-1658414507049-7618215b8d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOYXR1cmUlMkMlMjBGbG93ZXJzJTIwJTI2JTIwRGF5JTIwVHJpcHMlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Keukenhof tulip fields in bloom near Amsterdam",
       "count": "9 options",
       "title": "Nature, Flowers & Day Trips",
@@ -117,8 +117,8 @@
       "cta": "Plan a Day Out"
     },
     {
-      "url": "/experiences/",
-      "image": "https:/images.unsplash.com/photo-1650469332317-76d182406234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "url": "/amsterdam/experiences/",
+      "image": "https://images.unsplash.com/photo-1650469332317-76d182406234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Heineken Experience Amsterdam brewery",
       "count": "9 experiences",
       "title": "Experiences & Entertainment",
@@ -126,7 +126,7 @@
       "cta": "Explore Experiences"
     },
     {
-      "url": "/tours/",
+      "url": "/amsterdam/tours/",
       "image": "/amsterdam/images/jordaan_home.png",
       "alt": "Jordaan neighbourhood Amsterdam street",
       "count": "9 tours & walks",
@@ -135,7 +135,7 @@
       "cta": "Browse Tours"
     },
     {
-      "url": "/food/",
+      "url": "/amsterdam/food/",
       "image": "/amsterdam/images/de-kas.png",
       "alt": "De Kas Greenhouse Restaurant Amsterdam",
       "count": "10 Exceptional Restaurants",
@@ -144,7 +144,7 @@
       "cta": "See Top 10 Restaurants"
     },
     {
-      "url": "/neighbourhoods/",
+      "url": "/amsterdam/neighbourhoods/",
       "image": "/amsterdam/images/jordaan_home.png",
       "alt": "Amsterdam Neighbourhoods",
       "count": "10 Districts",
@@ -160,7 +160,7 @@
   "itinerary": [],
   "neighbourhoods": [
     {
-      "url": "/plantage/",
+      "url": "/amsterdam/plantage/",
       "image": "/amsterdam/images/plantage.png",
       "alt": "De Plantage Amsterdam",
       "name": "De Plantage",
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "url": "/oost/",
+      "url": "/amsterdam/oost/",
       "image": "/amsterdam/images/oost.png",
       "alt": "Amsterdam Oost neighbourhood",
       "name": "Amsterdam Oost",
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "url": "/wallen/",
+      "url": "/amsterdam/wallen/",
       "image": "/amsterdam/images/wallen.png",
       "alt": "De Wallen Amsterdam Historic Core",
       "name": "De Wallen",
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "url": "/jordaan/",
+      "url": "/amsterdam/jordaan/",
       "image": "/amsterdam/images/jordaan_home.png",
       "alt": "Jordaan neighbourhood",
       "name": "Jordaan",
@@ -396,7 +396,7 @@
       ]
     },
     {
-      "url": "/de-pijp/",
+      "url": "/amsterdam/de-pijp/",
       "image": "/amsterdam/images/de_pijp.png",
       "alt": "De Pijp neighbourhood",
       "name": "De Pijp",
@@ -511,7 +511,7 @@
       "image": "/amsterdam/images/noord.png"
     },
     {
-      "url": "/museumplein/",
+      "url": "/amsterdam/museumplein/",
       "image": "/amsterdam/images/museumplein.png",
       "alt": "Museumplein Amsterdam",
       "name": "Museumplein",
@@ -570,7 +570,7 @@
       ]
     },
     {
-      "url": "/centrum/",
+      "url": "/amsterdam/centrum/",
       "image": "/amsterdam/images/centrum.png",
       "alt": "Amsterdam Canal Ring UNESCO Heritage",
       "name": "Centrum / Canal Ring",
@@ -629,7 +629,7 @@
       ]
     },
     {
-      "url": "/oud-west/",
+      "url": "/amsterdam/oud-west/",
       "image": "/amsterdam/images/oud_west.png",
       "alt": "De Hallen Amsterdam Oud-West",
       "name": "Oud-West",
@@ -688,7 +688,7 @@
       ]
     },
     {
-      "url": "/westerpark/",
+      "url": "/amsterdam/westerpark/",
       "image": "/amsterdam/images/westerpark.png",
       "alt": "Westergasfabriek Amsterdam Westerpark",
       "name": "Westerpark",
@@ -906,4 +906,3 @@
   "standfirst": "Amsterdam packs world-class museums, stunning architecture, great food, and unique canal culture into a compact, walkable city. The canal ring alone justifies the trip.",
   "intro_text": "Amsterdam started as a 12th-century fishing village on the river Amstel. Today, it is one of the world's most iconic cities, defined by its 165 canals, 1,500 bridges, and a legacy of artistic and commercial supremacy from the Dutch Golden Age. Whether you're here for the masterpieces of Rembrandt and Van Gogh, the haunting history of the Anne Frank House, or simply to cycle along the UNESCO-listed waterways, Amsterdam is a city that rewards both the checklist-tourist and the aimless wanderer."
 }
-

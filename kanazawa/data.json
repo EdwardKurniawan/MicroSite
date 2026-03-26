@@ -56,7 +56,7 @@
   "category_intro": "17 attractions, experiences, and hidden gems across 4 categories — each with opening hours, booking tips, and honest advice on what's worth your time.",
   "categories": [
     {
-      "url": "/gardens/",
+      "url": "/kanazawa/gardens/",
       "image": "/kanazawa/images/gardens.jpg",
       "alt": "Kenroku-en garden Kanazawa",
       "count": "3 gardens & parks",
@@ -65,7 +65,7 @@
       "cta": "Explore Gardens"
     },
     {
-      "url": "/culture/",
+      "url": "/kanazawa/culture/",
       "image": "/kanazawa/images/culture.jpg",
       "alt": "Higashi Chaya geisha district Kanazawa",
       "count": "7 cultural sites",
@@ -74,7 +74,7 @@
       "cta": "Explore Culture"
     },
     {
-      "url": "/food/",
+      "url": "/kanazawa/food/",
       "image": "/kanazawa/images/food.jpg",
       "alt": "Omicho Market fresh seafood Kanazawa",
       "count": "4 food experiences",
@@ -83,7 +83,7 @@
       "cta": "Explore Food"
     },
     {
-      "url": "/day-trips/",
+      "url": "/kanazawa/day-trips/",
       "image": "/kanazawa/images/day-trips.jpg",
       "alt": "Shirakawa-go UNESCO village Japan",
       "count": "3 day trips",
@@ -163,28 +163,28 @@
   ],
   "neighbourhoods": [
     {
-      "url": "/higashiyama/",
+      "url": "/kanazawa/higashiyama/",
       "image": "/kanazawa/images/higashiyama.jpg",
       "alt": "Higashiyama Higashi Chaya district",
       "name": "Higashiyama",
       "tagline": ""
     },
     {
-      "url": "/nagamachi/",
+      "url": "/kanazawa/nagamachi/",
       "image": "/kanazawa/images/nagamachi.jpg",
       "alt": "Nagamachi samurai district",
       "name": "Nagamachi",
       "tagline": ""
     },
     {
-      "url": "/katamachi/",
+      "url": "/kanazawa/katamachi/",
       "image": "/kanazawa/images/katamachi.jpg",
       "alt": "Katamachi Kanazawa",
       "name": "Katamachi",
       "tagline": ""
     },
     {
-      "url": "/nishi-chaya/",
+      "url": "/kanazawa/nishi-chaya/",
       "image": "/kanazawa/images/nishi-chaya.jpg",
       "alt": "Nishi Chaya Kanazawa",
       "name": "Nishi Chaya",
@@ -360,4 +360,3 @@
     }
   ]
 }
-

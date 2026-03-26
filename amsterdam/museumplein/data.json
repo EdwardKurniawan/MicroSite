@@ -67,7 +67,7 @@
   ],
   "products": [
     {
-      "image_url": "https:/images.unsplash.com/photo-1569429593410-b498b3fb3387?q=80&w=2070&auto=format&fit=crop",
+      "image_url": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?q=80&w=2070&auto=format&fit=crop",
       "category": "Museum",
       "title": "Rijksmuseum",
       "description": "8,000 objects, the Night Watch — the greatest Dutch Golden Age collection in the world.",
@@ -75,7 +75,7 @@
       "link": "/museums/"
     },
     {
-      "image_url": "https:/images.unsplash.com/photo-1634228011564-0b1ad7b8dc2e?q=80&w=2070&auto=format&fit=crop",
+      "image_url": "https://images.unsplash.com/photo-1634228011564-0b1ad7b8dc2e?q=80&w=2070&auto=format&fit=crop",
       "category": "Museum",
       "title": "Van Gogh Museum",
       "description": "200 paintings, the world's largest collection. Mandatory online booking.",
@@ -94,5 +94,3 @@
     }
   ]
 }
-
-

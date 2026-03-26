@@ -2,7 +2,7 @@
   "title": "Nature, Flowers & Day Trips from Amsterdam (2026)",
   "eyebrow": "🇳🇱 Amsterdam Nature & Day Trips",
   "standfirst": "",
-  "hero_image": "https:/images.unsplash.com/photo-1461360370896-922624d12aa1?w=1200&auto=format&fit=crop&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1200&auto=format&fit=crop&q=80",
   "intro_html": "<p class=\" mb-4\">Amsterdam sits at the centre of one of the most compact and accessible regions in Europe. Within 35 minutes you can be walking through 7 million tulips at Keukenhof, exploring a medieval castle on the Vecht river, or standing in Rotterdam looking at architecture no other European city has the nerve to build.</p><p class=\" mb-4\"><strong>Day trips from Amsterdam are easy and usually do not require a car</strong> — trains run frequently to Rotterdam, Delft, and The Hague; a direct bus runs to Keukenhof; and even Kasteel Muiderslot is reachable by public transport.</p>",
   "attractions": [
     {
@@ -10,7 +10,7 @@
       "name": "Keukenhof Gardens",
       "category": "Nature & Flowers",
       "badge": "Must See (Spring)",
-      "image_url": "https:/images.unsplash.com/photo-1461360370896-922624d12aa1?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.8 (29,400 reviews)",
       "metas": [
         "📍 35km from Amsterdam (direct bus)",
@@ -27,7 +27,7 @@
       "name": "Vondelpark",
       "category": "Nature & Parks",
       "badge": "Local Favourite",
-      "image_url": "https:/images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.6 (28,100 reviews)",
       "metas": [
         "📍 5 min walk from Leidseplein",
@@ -61,7 +61,7 @@
       "name": "Kasteel Muiderslot",
       "category": "Day Trip",
       "badge": "Day Trip",
-      "image_url": "https:/images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.7 (6,400 reviews)",
       "metas": [
         "📍 20km from Amsterdam",
@@ -78,7 +78,7 @@
       "name": "Rotterdam Day Trip",
       "category": "Day Trip",
       "badge": "Full Day Trip",
-      "image_url": "https:/images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.6 (5,200 reviews)",
       "metas": [
         "📍 75 min by train from Amsterdam Centraal",
@@ -95,7 +95,7 @@
       "name": "Delft Day Trip",
       "category": "Day Trip",
       "badge": "Half Day Trip",
-      "image_url": "https:/images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.5 (4,800 reviews)",
       "metas": [
         "📍 50 min by train from Amsterdam Centraal",
@@ -112,7 +112,7 @@
       "name": "Zaanse Schans Windmills",
       "category": "Day Trip",
       "badge": "Day Trip",
-      "image_url": "https:/images.unsplash.com/photo-1461360370896-922624d12aa1?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.3 (18,400 reviews)",
       "metas": [
         "📍 20km from Amsterdam (direct train)",
@@ -129,7 +129,7 @@
       "name": "Haarlem Day Trip",
       "category": "Day Trip",
       "badge": "Half Day Trip",
-      "image_url": "https:/images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1598901855988-53e7f4b2edde?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.7 (4,100 reviews)",
       "metas": [
         "📍 20 min by train from Amsterdam Centraal",
@@ -146,7 +146,7 @@
       "name": "Giethoorn Day Trip",
       "category": "Day Trip",
       "badge": "Unique Day Trip",
-      "image_url": "https:/images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.5 (6,700 reviews)",
       "metas": [
         "📍 120km from Amsterdam (bus + boat)",
@@ -165,4 +165,3 @@
   "products": [],
   "getting_there": []
 }
-

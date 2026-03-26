@@ -67,7 +67,7 @@
   ],
   "products": [
     {
-      "image_url": "https:/images.unsplash.com/photo-1665325598546-bd36dafa62b9?q=80&w=2070&auto=format&fit=crop",
+      "image_url": "https://images.unsplash.com/photo-1665325598546-bd36dafa62b9?q=80&w=2070&auto=format&fit=crop",
       "category": "Experience",
       "title": "Heineken Experience",
       "description": "The original 19th-century Heineken brewery is in De Pijp — a self-guided tour ending with two complimentary beers at the rooftop bar.",
@@ -75,7 +75,7 @@
       "link": "/experiences/"
     },
     {
-      "image_url": "https:/images.unsplash.com/photo-1602526432604-029a709e131b?q=80&w=2070&auto=format&fit=crop",
+      "image_url": "https://images.unsplash.com/photo-1602526432604-029a709e131b?q=80&w=2070&auto=format&fit=crop",
       "category": "Food Tour",
       "title": "De Pijp Food Tour",
       "description": "A guided walk covering 6 tastings — herring, stroopwafels, Dutch cheese, and more in the heart of the market.",
@@ -94,4 +94,3 @@
     }
   ]
 }
-

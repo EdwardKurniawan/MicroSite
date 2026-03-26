@@ -2,7 +2,7 @@
   "title": "Amsterdam Museums & Art (2026 Guide)",
   "eyebrow": "🇳🇱 Amsterdam Museums Guide",
   "standfirst": "",
-  "hero_image": "https:/images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80",
   "intro_html": "<p class=\" mb-4\">Amsterdam has more museums per square kilometre than almost any city on earth — and the concentration of masterpieces on a single square (Museumplein) is genuinely extraordinary. <strong>The Rijksmuseum, Van Gogh Museum, and Stedelijk are all within a 5-minute walk of each other.</strong></p><p class=\" mb-4\">This guide covers the six best museums in the city, with honest advice on which to prioritise, when to book, and what to see once you're inside. The Rijksmuseum and Van Gogh both require advance booking — the others are generally available on shorter notice.</p>",
   "attractions": [
     {
@@ -44,7 +44,7 @@
       "name": "Stedelijk Museum",
       "category": "Museum & Art",
       "badge": "Worth Visiting",
-      "image_url": "https:/images.unsplash.com/photo-1594904351111-a072f80b1a71?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1594904351111-a072f80b1a71?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.5 (8,200 reviews)",
       "metas": [
         "📍 Museumplein",
@@ -95,7 +95,7 @@
       "name": "Museum Het Rembrandthuis",
       "category": "Museum & History",
       "badge": "Hidden Gem",
-      "image_url": "https:/images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.5 (7,400 reviews)",
       "metas": [
         "📍 Jodenbreestraat 4",
@@ -112,7 +112,7 @@
       "name": "Wereldmuseum Amsterdam",
       "category": "Museum & Culture",
       "badge": "World Cultures",
-      "image_url": "https:/images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★☆ 4.4 (6,800 reviews)",
       "metas": [
         "📍 Linnaeusstraat 2, Oosterpark",
@@ -129,7 +129,7 @@
       "name": "STRAAT Museum Amsterdam",
       "category": "Museum & Art",
       "badge": "Hidden Gem",
-      "image_url": "https:/images.unsplash.com/photo-1620332372374-f108c5b82e8e?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1620332372374-f108c5b82e8e?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.8 (11,200 reviews)",
       "metas": [
         "📍 NDSM-plein 1, Amsterdam Noord",
@@ -146,7 +146,7 @@
       "name": "Foam Photography Museum",
       "category": "Museum & Photography",
       "badge": "Hidden Gem",
-      "image_url": "https:/images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
+      "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=900&auto=format&fit=crop&q=75",
       "rating_text": "★★★★★ 4.7 (4,900 reviews)",
       "metas": [
         "📍 Keizersgracht 609",
@@ -165,4 +165,3 @@
   "products": [],
   "getting_there": []
 }
-
