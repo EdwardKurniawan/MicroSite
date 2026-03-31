@@ -1,14 +1,7 @@
 const fs = require('fs');
-const path = require('path');
 const { Pool } = require('pg');
-
-const CITY_ID_MAP = {
-  amsterdam: '59840d0d-d90c-4777-9034-f29cd948768d',
-  london: '20163dae-9d4b-4b2a-8363-7e38d1f1f6fa',
-  rome: 'b4c8ae6e-635d-4716-8cc4-1769854a998a',
-  berlin: '8fd41c31-de5b-4b7c-ba2b-3fff93c91ce2',
-  kanazawa: '2ebaaaf3-f7d8-45af-9302-bce38b1a847b'
-};
+const { getCityRecordBySlug } = require('../config/city-registry');
+const { getCityPath } = require('../lib/project-paths');
 
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -21,9 +14,10 @@ module.exports = async function handler(req, res) {
   try {
     const { prompt, city: cityParam } = req.body;
     const citySlug = cityParam || 'amsterdam';
-    const cityId = CITY_ID_MAP[citySlug];
+    const cityRecord = getCityRecordBySlug(citySlug);
+    const cityId = cityRecord && cityRecord.cityId;
     
-    const dataPath = path.join(process.cwd(), citySlug, 'data.json');
+    const dataPath = getCityPath(citySlug, 'data.json');
     if (!fs.existsSync(dataPath)) {
       res.status(404).json({ error: 'City data not found' });
       return;
@@ -41,7 +35,7 @@ module.exports = async function handler(req, res) {
     if (cityData.categories) {
       for (const cat of cityData.categories) {
         const catSlug = cat.url.replace(/\//g, '');
-        const catDataPath = path.join(process.cwd(), citySlug, catSlug, 'data.json');
+        const catDataPath = getCityPath(citySlug, catSlug, 'data.json');
         if (fs.existsSync(catDataPath)) {
           try {
             const catData = JSON.parse(fs.readFileSync(catDataPath, 'utf8'));

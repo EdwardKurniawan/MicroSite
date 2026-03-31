@@ -1,7 +1,8 @@
 const fs = require('fs');
-const path = require('path');
 const { Pool } = require('pg');
 require('dotenv').config();
+const { getCityRecordBySlug } = require('../config/city-registry');
+const { getCityPath } = require('../lib/project-paths');
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
@@ -9,14 +10,8 @@ const pool = new Pool({
 });
 
 const citySlug = process.argv[2] || 'amsterdam';
-const cityIdMap = {
-  'amsterdam': '59840d0d-d90c-4777-9034-f29cd948768d',
-  'kanazawa': '2ebaaaf3-f7d8-45af-9302-bce38b1a847b',
-  'london': '20163dae-9d4b-4b2a-8363-7e38d1f1f6fa',
-  'rome': 'b4c8ae6e-635d-4716-8cc4-1769854a998a'
-};
-
-const cityId = cityIdMap[citySlug];
+const cityRecord = getCityRecordBySlug(citySlug);
+const cityId = cityRecord && cityRecord.cityId;
 
 async function sync() {
   if (!cityId) {
@@ -33,8 +28,7 @@ async function sync() {
 
   console.log(`Found ${venues.length} venues in DB.`);
 
-  const cityDir = path.join(__dirname, '..', citySlug);
-  const mainDataPath = path.join(cityDir, 'data.json');
+  const mainDataPath = getCityPath(citySlug, 'data.json');
   
   if (!fs.existsSync(mainDataPath)) {
     console.error(`Main data.json for ${citySlug} not found.`);
@@ -47,7 +41,7 @@ async function sync() {
   if (mainData.categories) {
     for (const cat of mainData.categories) {
       const catSlug = cat.url.replace(/\//g, '');
-      const catDataPath = path.join(cityDir, catSlug, 'data.json');
+      const catDataPath = getCityPath(citySlug, catSlug, 'data.json');
 
       if (fs.existsSync(catDataPath)) {
         console.log(`Processing category: ${catSlug}`);

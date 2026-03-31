@@ -15,6 +15,7 @@ require('dotenv').config();
 const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
+const { getCityPath } = require('../lib/project-paths');
 
 const ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 if (!ACCESS_KEY) {
@@ -23,7 +24,7 @@ if (!ACCESS_KEY) {
   process.exit(1);
 }
 
-const OUT_DIR = path.join(__dirname, '..', 'kanazawa', 'images');
+const OUT_DIR = getCityPath('kanazawa', 'images');
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
 // Images needed — query → saved filename

@@ -4,26 +4,37 @@ const fs = require('fs');
 const path = require('path');
 const { Pool } = require('pg');
 const Handlebars = require('handlebars');
+const {
+  CITY_HOSTS,
+  getCityRecordBySlug,
+  getDefaultCityRecord
+} = require('./config/city-registry');
+const {
+  ROOT_DIR,
+  getCityPath,
+  getTemplatePath,
+  getSharedPath
+} = require('./lib/project-paths');
 
 Handlebars.registerHelper('json', function(context) {
   return JSON.stringify(context);
 });
 
 const PORT = process.env.PORT || 3001;
-const DIR = __dirname;
+const DIR = ROOT_DIR;
 
 // Pre-compile handlebars template
 let masterTemplate = null;
 let categoryTemplate = null;
 
 try {
-  const footerPartial = fs.readFileSync(path.join(DIR, 'shared', 'components', 'footer.hbs'), 'utf8');
+  const footerPartial = fs.readFileSync(getSharedPath('components', 'footer.hbs'), 'utf8');
   Handlebars.registerPartial('footer', footerPartial);
   
-  const hbsSource = fs.readFileSync(path.join(DIR, 'templates', 'guide-master.hbs'), 'utf8');
+  const hbsSource = fs.readFileSync(getTemplatePath('guide-master.hbs'), 'utf8');
   masterTemplate = Handlebars.compile(hbsSource);
 
-  const catHbsSource = fs.readFileSync(path.join(DIR, 'templates', 'category-master.hbs'), 'utf8');
+  const catHbsSource = fs.readFileSync(getTemplatePath('category-master.hbs'), 'utf8');
   categoryTemplate = Handlebars.compile(catHbsSource);
 
   console.log('[System] Master & Category Handlebars templates compiling active.');
@@ -46,21 +57,6 @@ const mime = {
   '.ico':  'image/x-icon',
   '.xml':  'application/xml',
   '.txt':  'text/plain',
-};
-
-// Map hostname → { citySlug, cityId }
-// Add a new entry here for each new city domain
-const CITY_HOSTS = {
-  'amsterdam-guide.com':     { slug: 'amsterdam', cityId: '59840d0d-d90c-4777-9034-f29cd948768d' },
-  'www.amsterdam-guide.com': { slug: 'amsterdam', cityId: '59840d0d-d90c-4777-9034-f29cd948768d' },
-  'london-guide.com':        { slug: 'london',    cityId: '20163dae-9d4b-4b2a-8363-7e38d1f1f6fa' },
-  'www.london-guide.com':    { slug: 'london',    cityId: '20163dae-9d4b-4b2a-8363-7e38d1f1f6fa' },
-  'rome-guide.com':          { slug: 'rome',      cityId: 'b4c8ae6e-635d-4716-8cc4-1769854a998a' },
-  'www.rome-guide.com':      { slug: 'rome',      cityId: 'b4c8ae6e-635d-4716-8cc4-1769854a998a' },
-  'berlin-guide.com':        { slug: 'berlin',    cityId: '8fd41c31-de5b-4b7c-ba2b-3fff93c91ce2' },
-  'www.berlin-guide.com':    { slug: 'berlin',    cityId: '8fd41c31-de5b-4b7c-ba2b-3fff93c91ce2' },
-  'kanazawa-guide.com':      { slug: 'kanazawa', cityId: '2ebaaaf3-f7d8-45af-9302-bce38b1a847b' },
-  'www.kanazawa-guide.com':  { slug: 'kanazawa', cityId: '2ebaaaf3-f7d8-45af-9302-bce38b1a847b' },
 };
 
 const DEFAULT_GLOBAL_NETWORK = [
@@ -109,8 +105,7 @@ function getCityFromRequest(req) {
   }
 
   slug = slug || DEFAULT_CITY;
-  const match = Object.values(CITY_HOSTS).find(c => c.slug === slug);
-  return match || CITY_HOSTS['amsterdam-guide.com'];
+  return getCityRecordBySlug(slug) || getDefaultCityRecord();
 }
 
 function withCityDefaults(pageData, citySlug, rootData = null) {
@@ -188,7 +183,7 @@ http.createServer(async (req, res) => {
       try {
         const { prompt, city: cityParam } = JSON.parse(body);
         const citySlug = cityParam || city.slug;
-        const dataPath = path.join(DIR, citySlug, 'data.json');
+        const dataPath = getCityPath(citySlug, 'data.json');
         
         if (!fs.existsSync(dataPath)) {
           res.writeHead(404, { 'Content-Type': 'application/json' });
@@ -196,14 +191,14 @@ http.createServer(async (req, res) => {
           return;
         }
 
-        const cityData = JSON.parse(fs.readFileSync(path.join(DIR, citySlug, 'data.json'), 'utf8'));
+        const cityData = JSON.parse(fs.readFileSync(getCityPath(citySlug, 'data.json'), 'utf8'));
 
         // Extract granular attractions from category subdirectories
         const allAttractions = [];
         if (cityData.categories) {
             for (const cat of cityData.categories) {
                 const catSlug = cat.url.replace(/\//g, '');
-                const catDataPath = path.join(DIR, citySlug, catSlug, 'data.json');
+                const catDataPath = getCityPath(citySlug, catSlug, 'data.json');
                 if (fs.existsSync(catDataPath)) {
                     try {
                         const catData = JSON.parse(fs.readFileSync(catDataPath, 'utf8'));
@@ -354,13 +349,13 @@ ${JSON.stringify(inventory, null, 2)}`;
   let filePath;
   if (urlPath === '/' || urlPath === '') {
     // 1. Scalable Template Route: Check if data.json exists for this city
-    const dataPath = path.join(DIR, city.slug, 'data.json');
+    const dataPath = getCityPath(city.slug, 'data.json');
     if (fs.existsSync(dataPath)) {
       try {
         // Dev Mode: Re-read template on every request for instant visual feedback
-        const footerPartial = fs.readFileSync(path.join(DIR, 'shared', 'components', 'footer.hbs'), 'utf8');
+        const footerPartial = fs.readFileSync(getSharedPath('components', 'footer.hbs'), 'utf8');
         Handlebars.registerPartial('footer', footerPartial);
-        const hbsSource = fs.readFileSync(path.join(DIR, 'templates', 'guide-master.hbs'), 'utf8');
+        const hbsSource = fs.readFileSync(getTemplatePath('guide-master.hbs'), 'utf8');
         const liveTemplate = Handlebars.compile(hbsSource);
 
         const pageData = withCityDefaults(
@@ -377,29 +372,27 @@ ${JSON.stringify(inventory, null, 2)}`;
     }
 
     // 2. Legacy Static Route
-    const cityIndex = path.join(DIR, city.slug, 'index.html');
+    const cityIndex = getCityPath(city.slug, 'index.html');
     filePath = fs.existsSync(cityIndex) ? cityIndex : path.join(DIR, 'index.html');
   } else if (urlPath.startsWith('/shared/')) {
-    // Serve shared assets from the root shared folder
-    filePath = path.join(DIR, urlPath);
+    filePath = getSharedPath(urlPath.replace(/^\/shared\//, ''));
   } else if (urlPath.startsWith('/images/')) {
-    // Serve images from the active city's images folder
-    filePath = path.join(DIR, city.slug, urlPath);
+    filePath = getCityPath(city.slug, urlPath.replace(/^\//, ''));
   } else {
     // 3. Dynamic Subpage Route: Check if folder/data.json exists
     const cleanSubPath = urlPath.replace(/^\/|\/$/g, '');
-    const subDataPath = path.join(DIR, city.slug, cleanSubPath, 'data.json');
+    const subDataPath = getCityPath(city.slug, cleanSubPath, 'data.json');
     
     if (cleanSubPath && fs.existsSync(subDataPath)) {
       try {
         // Dev Mode: Re-read templates
-        const catHbsSource = fs.readFileSync(path.join(DIR, 'templates', 'category-master.hbs'), 'utf8');
+        const catHbsSource = fs.readFileSync(getTemplatePath('category-master.hbs'), 'utf8');
         const liveCatTemplate = Handlebars.compile(catHbsSource);
         
         const pageData = JSON.parse(fs.readFileSync(subDataPath, 'utf8'));
         
         // Merge with root city config for global context (footer, etc.)
-        const rootDataPath = path.join(DIR, city.slug, 'data.json');
+        const rootDataPath = getCityPath(city.slug, 'data.json');
         if (fs.existsSync(rootDataPath)) {
           const rootData = JSON.parse(fs.readFileSync(rootDataPath, 'utf8'));
           Object.assign(pageData, withCityDefaults(pageData, city.slug, rootData));
@@ -440,7 +433,7 @@ ${JSON.stringify(inventory, null, 2)}`;
       `, [cleanSubPath, city.slug]);
 
       if (venueRes.rows.length > 0) {
-        const venueHbsSource = fs.readFileSync(path.join(DIR, 'templates', 'venue-master.hbs'), 'utf8');
+        const venueHbsSource = fs.readFileSync(getTemplatePath('venue-master.hbs'), 'utf8');
         const liveVenueTemplate = Handlebars.compile(venueHbsSource);
         
         const venueData = withCityDefaults(venueRes.rows[0], city.slug);
@@ -454,7 +447,7 @@ ${JSON.stringify(inventory, null, 2)}`;
       console.error(`[Venue Render Error for ${urlPath}]:`, dbErr.message);
     }
 
-    filePath = path.join(DIR, city.slug, urlPath);
+    filePath = getCityPath(city.slug, urlPath.replace(/^\//, ''));
     if (!path.extname(filePath)) {
       filePath = path.join(filePath, 'index.html');
     }

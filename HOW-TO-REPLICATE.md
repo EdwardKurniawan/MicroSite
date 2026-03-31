@@ -2,6 +2,40 @@
 
 ---
 
+## New Canonical Structure
+
+The repo now follows a shared-template model:
+
+- `template/` = one shared layout system for every city
+- `cities/<slug>/` = only that city's data, images, authors, and subpages
+
+That means a template change should happen in `template/`, not by editing each city folder individually.
+
+### Current pattern
+
+```text
+template/
+  guide-master.hbs
+  category-master.hbs
+  venue-master.hbs
+  shared/
+
+cities/
+  amsterdam/
+    data.json
+    images/
+    authors/
+    museums/data.json
+  kanazawa/
+    data.json
+    images/
+```
+
+### Rule of thumb
+
+- Update `template/` when you want to change all city sites.
+- Update `cities/<slug>/` when you want to change one city's content.
+
 ## Quick-Start (DB-Aware) Checklist
 
 ### Step 0 — Check the Database First

@@ -1,13 +1,20 @@
 const fs = require('fs');
 const path = require('path');
 const Handlebars = require('handlebars');
+const {
+  ROOT_DIR,
+  getCityDir,
+  getCityPath,
+  getTemplatePath,
+  getSharedPath,
+  listCitySlugs
+} = require('../lib/project-paths');
 
 Handlebars.registerHelper('json', function(context) {
   return JSON.stringify(context);
 });
 
-const DIR = path.join(__dirname, '..');
-const DIST = path.join(DIR, 'public');
+const DIST = path.join(ROOT_DIR, 'public');
 
 // 1. Create dist folder
 if (!fs.existsSync(DIST)) {
@@ -15,16 +22,16 @@ if (!fs.existsSync(DIST)) {
 }
 
 // 2. Load Helpers & Partials
-const footerPath = path.join(DIR, 'shared/components/footer.hbs');
+const footerPath = getSharedPath('components', 'footer.hbs');
 if (fs.existsSync(footerPath)) {
   const footerSource = fs.readFileSync(footerPath, 'utf8');
   Handlebars.registerPartial('footer', footerSource);
 }
 
 // 3. Load Templates
-const masterSource = fs.readFileSync(path.join(DIR, 'templates/guide-master.hbs'), 'utf8');
+const masterSource = fs.readFileSync(getTemplatePath('guide-master.hbs'), 'utf8');
 const template = Handlebars.compile(masterSource);
-const catTemplateSource = fs.readFileSync(path.join(DIR, 'templates/category-master.hbs'), 'utf8');
+const catTemplateSource = fs.readFileSync(getTemplatePath('category-master.hbs'), 'utf8');
 const categoryTemplate = Handlebars.compile(catTemplateSource);
 
 const DEFAULT_GLOBAL_NETWORK = [
@@ -34,14 +41,14 @@ const DEFAULT_GLOBAL_NETWORK = [
 ];
 
 // --- BUILD THE HUB ---
-const hubSource = path.join(DIR, 'index.html');
+const hubSource = path.join(ROOT_DIR, 'index.html');
 if (fs.existsSync(hubSource)) {
   fs.copyFileSync(hubSource, path.join(DIST, 'index.html'));
   console.log('✓ Copied root index.html to public/index.html (Hub Page)');
 }
 
 // --- BUILD CITIES ---
-const CITIES = ['amsterdam', 'kanazawa', 'london', 'rome', 'berlin'];
+const CITIES = listCitySlugs();
 
 function withCityDefaults(pageData, citySlug, rootData = null) {
   const nextPageData = { ...pageData };
@@ -60,8 +67,8 @@ function withCityDefaults(pageData, citySlug, rootData = null) {
 }
 
 CITIES.forEach(citySlug => {
-  const cityDir = path.join(DIR, citySlug);
-  const cityIdx = path.join(DIR, citySlug, 'data.json');
+  const cityDir = getCityDir(citySlug);
+  const cityIdx = getCityPath(citySlug, 'data.json');
   
   if (!fs.existsSync(cityIdx)) return;
 
@@ -88,7 +95,7 @@ CITIES.forEach(citySlug => {
     const p = path.join(cityDist, cleanPath);
     if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
     
-    const jsonPath = path.join(cityDir, cleanPath, 'data.json');
+    const jsonPath = getCityPath(citySlug, cleanPath, 'data.json');
     if (fs.existsSync(jsonPath)) {
       const localData = withCityDefaults(
         JSON.parse(fs.readFileSync(jsonPath, 'utf8')),
@@ -104,17 +111,24 @@ CITIES.forEach(citySlug => {
   if (data.neighbourhoods) data.neighbourhoods.forEach(n => generateSubpage(n.url));
 
   // 3. Copy city-specific images
-  const cityImages = path.join(cityDir, 'images');
+  const cityImages = getCityPath(citySlug, 'images');
   if (fs.existsSync(cityImages)) {
     const destImages = path.join(cityDist, 'images');
     copyDir(cityImages, destImages);
     console.log(`  ✓ Copied ${citySlug}/images/`);
   }
+
+  const authorDir = getCityPath(citySlug, 'authors');
+  if (fs.existsSync(authorDir)) {
+    const destAuthors = path.join(cityDist, 'authors');
+    copyDir(authorDir, destAuthors);
+    console.log(`  ✓ Copied ${citySlug}/authors/`);
+  }
 });
 
 // --- COPY SHARED ASSETS ---
-copyDir(path.join(DIR, 'shared'), path.join(DIST, 'shared'));
-console.log('\n✓ Copied shared/ assets to public/');
+copyDir(getSharedPath(), path.join(DIST, 'shared'));
+console.log('\n✓ Copied template/shared assets to public/');
 
 // --- UTILS ---
 function copyDir(src, dest) {

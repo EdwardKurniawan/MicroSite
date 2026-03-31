@@ -11,11 +11,12 @@ const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
 const { Pool } = require('pg');
+const { getCityPath } = require('../lib/project-paths');
 
 const ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 const pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: false } });
 
-const OUT_DIR = path.join(__dirname, '..', 'kanazawa', 'images', 'venues');
+const OUT_DIR = getCityPath('kanazawa', 'images', 'venues');
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
 // Each venue: slug (matches DB), Unsplash search query, emoji fallback

@@ -8,11 +8,12 @@ require('dotenv').config();
 const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
+const { getCityPath } = require('../lib/project-paths');
 
 const ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 if (!ACCESS_KEY) { console.error('UNSPLASH_ACCESS_KEY not set'); process.exit(1); }
 
-const OUT_DIR = path.join(__dirname, '..', 'amsterdam', 'images');
+const OUT_DIR = getCityPath('amsterdam', 'images');
 
 const IMAGES = [
   {
