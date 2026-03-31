@@ -36,6 +36,20 @@ cities/
 - Update `template/` when you want to change all city sites.
 - Update `cities/<slug>/` when you want to change one city's content.
 
+### Fast path for a new city
+
+```bash
+npm run bootstrap:city -- \
+  --name "Prague" \
+  --slug prague \
+  --country "Czech Republic" \
+  --author "Local Expert" \
+  --domain prague-guide.com \
+  --city-id 11111111-1111-1111-1111-111111111111
+```
+
+That will create the starter city folder, placeholder assets, author page, dev script, and domain registry entry in one pass.
+
 ## Quick-Start (DB-Aware) Checklist
 
 ### Step 0 — Check the Database First

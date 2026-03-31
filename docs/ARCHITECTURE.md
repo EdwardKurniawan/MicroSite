@@ -50,10 +50,31 @@ city-guide-template/
 
 ## How to add a new city
 
+Use the bootstrap command:
+
+```bash
+npm run bootstrap:city -- \
+  --name "Prague" \
+  --slug prague \
+  --country "Czech Republic" \
+  --author "Local Expert" \
+  --domain prague-guide.com \
+  --city-id 11111111-1111-1111-1111-111111111111
+```
+
+That command will:
+
 1. Create `cities/<slug>/data.json`.
-2. Add category and neighbourhood subfolders under `cities/<slug>/` as needed.
-3. Add `images/` and optional `authors/` inside that city folder.
-4. Add the city hostname mapping and city ID in `config/city-registry.js`.
-5. Run `npm run build`.
+2. Create starter category and neighbourhood `data.json` files.
+3. Create starter placeholder SVG assets in `cities/<slug>/images/`.
+4. Create a starter author page in `cities/<slug>/authors/<author-slug>/`.
+5. Register the domain and `city_id` in `config/cities.json` when both are provided.
+6. Add a matching `dev:<slug>` script to `package.json`.
+
+Then run:
+
+```bash
+npm run build
+```
 
 `scripts/build.js` discovers cities automatically by scanning `cities/` for folders that contain a `data.json`, so there is no hardcoded city list anymore.
