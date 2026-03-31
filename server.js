@@ -63,6 +63,33 @@ const CITY_HOSTS = {
   'www.kanazawa-guide.com':  { slug: 'kanazawa', cityId: '2ebaaaf3-f7d8-45af-9302-bce38b1a847b' },
 };
 
+const DEFAULT_GLOBAL_NETWORK = [
+  { name: 'Kanazawa Insider', url: 'https://kanazawa-insider.com' },
+  { name: 'London Insider', url: 'https://london-insider.com' },
+  { name: 'Rome Insider', url: 'https://rome-insider.com' }
+];
+
+const CATEGORY_ALIASES = {
+  'Museum & Art': ['Museum'],
+  'Museum & Science': ['Museum'],
+  'Museum & History': ['Museum'],
+  'Museum & Culture': ['Museum'],
+  'Museum & Photography': ['Museum'],
+  'Canal & Water': ['Tour'],
+  Experience: ['Attraction'],
+  'Experience & Views': ['Attraction'],
+  'Exhibition & Experience': ['Attraction'],
+  'Interactive Experience': ['Attraction'],
+  'Immersive Experience': ['Attraction'],
+  Entertainment: ['Attraction'],
+  'Walking Tour': ['Walking Tour'],
+  'Bike Tour': ['Tour'],
+  'Food Tour': ['Tour'],
+  'Neighbourhood Tour': ['Tour'],
+  'Self-Guided Walk': ['Tour', 'Walking Tour'],
+  'City Game': ['Tour']
+};
+
 // Local dev: CITY env var or ?city= query param overrides hostname
 const DEFAULT_CITY = process.env.CITY || 'amsterdam';
 
@@ -86,16 +113,37 @@ function getCityFromRequest(req) {
   return match || CITY_HOSTS['amsterdam-guide.com'];
 }
 
+function withCityDefaults(pageData, citySlug, rootData = null) {
+  const nextPageData = { ...pageData };
+  const source = rootData || pageData;
+
+  nextPageData.city_slug = citySlug;
+  nextPageData.city_name =
+    source.city_name || citySlug.charAt(0).toUpperCase() + citySlug.slice(1);
+  nextPageData.footer_categories =
+    source.footer_categories ||
+    (source.categories || []).slice(0, 4).map(c => ({ title: c.title, url: c.url }));
+  nextPageData.global_network = source.global_network || DEFAULT_GLOBAL_NETWORK;
+  nextPageData.current_year = new Date().getFullYear();
+
+  return nextPageData;
+}
+
+function expandCategoryFilter(category) {
+  if (!category) return [];
+  return CATEGORY_ALIASES[category] || [category];
+}
+
 http.createServer(async (req, res) => {
-  const urlPath = req.url.split('?')[0];
+  const requestUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
+  const urlPath = requestUrl.pathname;
   const city = getCityFromRequest(req);
   console.log(`[${req.method}] ${req.url} -> City: ${city.slug}`);
 
   // ── API: GET /api/venues ──────────────────────────────
   if (urlPath === '/api/venues') {
     try {
-      const params = new URLSearchParams(req.url.split('?')[1] || '');
-      const category = params.get('category');
+      const category = requestUrl.searchParams.get('category');
 
       let query = `
         SELECT id, name, slug, category, short_description,
@@ -107,8 +155,14 @@ http.createServer(async (req, res) => {
       const values = [city.cityId];
 
       if (category) {
-        query += ` AND category = $2`;
-        values.push(category);
+        const categoryValues = expandCategoryFilter(category);
+        if (categoryValues.length === 1) {
+          query += ` AND category = $2`;
+          values.push(categoryValues[0]);
+        } else {
+          query += ` AND category = ANY($2)`;
+          values.push(categoryValues);
+        }
       }
 
       query += ` ORDER BY rating DESC NULLS LAST`;
@@ -166,11 +220,14 @@ http.createServer(async (req, res) => {
 
                                 // Enrich with DB if it's a known slug
                                 try {
-                                    const venueRes = await pool.query('SELECT tiqets_product_id FROM venues WHERE slug = $1', [attr.id]);
+                                    const venueRes = await pool.query(
+                                      'SELECT tiqets_product_id FROM venues WHERE slug = $1 AND city_id = $2',
+                                      [attr.id, city.cityId]
+                                    );
                                     if (venueRes.rows.length > 0 && venueRes.rows[0].tiqets_product_id) {
                                         const pid = venueRes.rows[0].tiqets_product_id;
                                         // use the new tracking endpoint for checkout
-                                        item.checkoutUrl = `/api/track-click?slug=${attr.id}&redirect=https://www.tiqets.com/en/product/${pid}/?partner=amsterdam_insider`;
+                                        item.checkoutUrl = `/api/track-click?slug=${attr.id}&redirect=https://www.tiqets.com/en/product/${pid}/?partner=${citySlug}_insider`;
                                     }
                                 } catch (dbErr) {
                                     console.error('DB enrichment error:', dbErr.message);
@@ -263,8 +320,8 @@ ${JSON.stringify(inventory, null, 2)}`;
   // ── Tracking & Newsletter Endpoints ──────────────────
   
   if (req.method === 'GET' && urlPath === '/api/track-click') {
-    const slug = query.slug;
-    const redirectUrl = query.redirect || '/';
+    const slug = requestUrl.searchParams.get('slug');
+    const redirectUrl = requestUrl.searchParams.get('redirect') || '/';
     try {
       await pool.query('INSERT INTO affiliate_clicks (venue_slug, clicked_at) VALUES ($1, NOW())', [slug]);
     } catch (err) {
@@ -306,9 +363,10 @@ ${JSON.stringify(inventory, null, 2)}`;
         const hbsSource = fs.readFileSync(path.join(DIR, 'templates', 'guide-master.hbs'), 'utf8');
         const liveTemplate = Handlebars.compile(hbsSource);
 
-        const pageData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-        pageData.current_year = new Date().getFullYear(); // Dynamic helper
-        
+        const pageData = withCityDefaults(
+          JSON.parse(fs.readFileSync(dataPath, 'utf8')),
+          city.slug
+        );
         const html = liveTemplate(pageData);
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end(html);
@@ -339,7 +397,29 @@ ${JSON.stringify(inventory, null, 2)}`;
         const liveCatTemplate = Handlebars.compile(catHbsSource);
         
         const pageData = JSON.parse(fs.readFileSync(subDataPath, 'utf8'));
-        pageData.current_year = new Date().getFullYear();
+        
+        // Merge with root city config for global context (footer, etc.)
+        const rootDataPath = path.join(DIR, city.slug, 'data.json');
+        if (fs.existsSync(rootDataPath)) {
+          const rootData = JSON.parse(fs.readFileSync(rootDataPath, 'utf8'));
+          Object.assign(pageData, withCityDefaults(pageData, city.slug, rootData));
+        } else {
+          Object.assign(pageData, withCityDefaults(pageData, city.slug));
+        }
+
+        // Enrich attractions with DB data if they have IDs
+        if (pageData.attractions && pageData.attractions.length > 0) {
+          const venueRes = await pool.query('SELECT slug, tiqets_product_id FROM venues WHERE city_id = $1', [city.cityId]);
+          const venueMap = {};
+          venueRes.rows.forEach(v => { if (v.slug) venueMap[v.slug] = v.tiqets_product_id; });
+
+          pageData.attractions = pageData.attractions.map(attr => {
+            if (attr.id && venueMap[attr.id]) {
+              attr.tiqets_product_id = venueMap[attr.id];
+            }
+            return attr;
+          });
+        }
         
         const html = liveCatTemplate(pageData);
         res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -363,8 +443,7 @@ ${JSON.stringify(inventory, null, 2)}`;
         const venueHbsSource = fs.readFileSync(path.join(DIR, 'templates', 'venue-master.hbs'), 'utf8');
         const liveVenueTemplate = Handlebars.compile(venueHbsSource);
         
-        const venueData = venueRes.rows[0];
-        venueData.current_year = new Date().getFullYear();
+        const venueData = withCityDefaults(venueRes.rows[0], city.slug);
         
         const html = liveVenueTemplate(venueData);
         res.writeHead(200, { 'Content-Type': 'text/html' });

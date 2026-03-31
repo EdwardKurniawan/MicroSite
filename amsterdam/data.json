@@ -1,12 +1,23 @@
 {
   "city_url": "/amsterdam/",
   "city_name": "Amsterdam",
+  "footer_categories": [
+    { "title": "Museums & Art", "url": "/amsterdam/museums/" },
+    { "title": "History & Heritage", "url": "/amsterdam/history-heritage/" },
+    { "title": "Canal Cruises", "url": "/amsterdam/canal-cruises/" },
+    { "title": "Food & Drink", "url": "/amsterdam/food/" }
+  ],
+  "global_network": [
+    { "name": "Kanazawa Insider", "url": "https://kanazawa-insider.com" },
+    { "name": "London Insider", "url": "https://london-insider.com" },
+    { "name": "Rome Insider", "url": "https://rome-insider.com" }
+  ],
   "meta_title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
   "meta_description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems. Skip-the-line tickets included.",
-  "canonical_url": "https:/yourdomain.com/amsterdam/things-to-do/",
+  "canonical_url": "https://travelsides.com/amsterdam/",
   "og_title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
   "og_description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems.",
-  "og_image": "https:/yourdomain.com/images/amsterdam-hero.jpg",
+  "og_image": "https://travelsides.com/amsterdam/images/hero.jpg",
   "theme_accent": "#E8601C",
   "theme_accent_dark": "#c44f14",
   "theme_accent_light": "#fff3ee",

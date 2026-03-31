@@ -1,15 +1,27 @@
 const fs = require('fs');
 const path = require('path');
+const { Pool } = require('pg');
 
-export default async function handler(req, res) {
+const CITY_ID_MAP = {
+  amsterdam: '59840d0d-d90c-4777-9034-f29cd948768d',
+  london: '20163dae-9d4b-4b2a-8363-7e38d1f1f6fa',
+  rome: 'b4c8ae6e-635d-4716-8cc4-1769854a998a',
+  berlin: '8fd41c31-de5b-4b7c-ba2b-3fff93c91ce2',
+  kanazawa: '2ebaaaf3-f7d8-45af-9302-bce38b1a847b'
+};
+
+module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method Not Allowed' });
     return;
   }
 
+  let pool = null;
+
   try {
     const { prompt, city: cityParam } = req.body;
     const citySlug = cityParam || 'amsterdam';
+    const cityId = CITY_ID_MAP[citySlug];
     
     const dataPath = path.join(process.cwd(), citySlug, 'data.json');
     if (!fs.existsSync(dataPath)) {
@@ -17,6 +29,12 @@ export default async function handler(req, res) {
       return;
     }
     const cityData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    pool = process.env.DATABASE_URL
+      ? new Pool({
+          connectionString: process.env.DATABASE_URL,
+          ssl: { rejectUnauthorized: false }
+        })
+      : null;
 
     // Extract granular attractions from category subdirectories
     const allAttractions = [];
@@ -28,15 +46,31 @@ export default async function handler(req, res) {
           try {
             const catData = JSON.parse(fs.readFileSync(catDataPath, 'utf8'));
             if (catData.attractions) {
-              catData.attractions.forEach(attr => {
-                allAttractions.push({
+              for (const attr of catData.attractions) {
+                const item = {
                   name: attr.name,
                   slug: attr.id,
                   type: 'ticket',
                   image: attr.image_url,
                   checkoutUrl: `/${citySlug}/${catSlug}/#${attr.id}`
-                });
-              });
+                };
+
+                if (pool && cityId) {
+                  try {
+                    const venueRes = await pool.query(
+                      'SELECT tiqets_product_id FROM venues WHERE slug = $1 AND city_id = $2',
+                      [attr.id, cityId]
+                    );
+                    if (venueRes.rows.length > 0 && venueRes.rows[0].tiqets_product_id) {
+                      item.checkoutUrl = `/api/track-click?slug=${attr.id}&redirect=https://www.tiqets.com/en/product/${venueRes.rows[0].tiqets_product_id}/?partner=${citySlug}_insider`;
+                    }
+                  } catch (dbErr) {
+                    console.error('Vercel search DB enrichment error:', dbErr);
+                  }
+                }
+
+                allAttractions.push(item);
+              }
             }
           } catch (e) {}
         }
@@ -59,7 +93,7 @@ export default async function handler(req, res) {
       ...freeGems
     ];
 
-    const systemPrompt = `You are AmsterdamInsider's premium AI guide.
+    const systemPrompt = `You are ${cityData.city_name || citySlug}'s premium AI guide.
 CRITICAL: Return a JSON object with a "steps" array. 
 For each step, include "image" and "checkoutUrl" from inventory if applicable.
 Format:
@@ -120,5 +154,9 @@ ${JSON.stringify(inventory, null, 2)}`;
   } catch (err) {
     console.error('Search error:', err);
     res.status(500).json({ error: 'Internal Server Error', details: err.message });
+  } finally {
+    if (pool) {
+      await pool.end();
+    }
   }
-}
+};

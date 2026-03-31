@@ -43,6 +43,11 @@
 
   <script src="/shared/global-nav.js" defer></script>
 
+  <script>
+    window.CITY_NAME = "{{city_name}}";
+    window.CITY_SLUG = "{{city_slug}}";
+  </script>
+
 </head>
 <body class="bg-[#02060D] text-[#EEF4FF] overflow-x-hidden min-h-screen">
 
@@ -128,7 +133,14 @@
                   {{/if}}
                   <div class="mt-8 pt-6 border-t border-white/5 flex justify-between items-center">
                     <span class="text-white font-bold">{{price}}</span>
-                    <a href="#tickets" class="bg-gold hover:bg-yellow-400 text-black text-[10px] font-black uppercase tracking-widest px-6 py-3 rounded-full transition-all shadow-lg shrink-0">Book Now</a>
+                    {{#if tiqets_product_id}}
+                      <a href="/api/track-click?slug={{id}}&redirect=https://www.tiqets.com/en/product/{{tiqets_product_id}}/?partner={{../city_slug}}_insider" 
+                         class="bg-gold hover:bg-yellow-400 text-black text-[10px] font-black uppercase tracking-widest px-6 py-3 rounded-full transition-all shadow-lg shrink-0">
+                         Book Tickets
+                      </a>
+                    {{else}}
+                      <a href="#tickets" class="bg-gold hover:bg-yellow-400 text-black text-[10px] font-black uppercase tracking-widest px-6 py-3 rounded-full transition-all shadow-lg shrink-0">Book Now</a>
+                    {{/if}}
                   </div>
                 </div>
               </div>

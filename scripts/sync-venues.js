@@ -71,7 +71,7 @@ async function sync() {
               };
 
               if (match.tiqets_product_id) {
-                baseAttr.checkoutUrl = `/api/track-click?slug=${match.slug}&redirect=https://www.tiqets.com/en/product/${match.tiqets_product_id}/?partner=amsterdam_insider`;
+                baseAttr.checkoutUrl = `/api/track-click?slug=${match.slug}&redirect=https://www.tiqets.com/en/product/${match.tiqets_product_id}/?partner=${citySlug}_insider`;
               }
               
               return baseAttr;

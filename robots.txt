@@ -7,4 +7,4 @@ Disallow: /api/
 Disallow: /search?
 
 # Sitemap location
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://travelsides.com/sitemap.xml

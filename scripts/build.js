@@ -27,6 +27,12 @@ const template = Handlebars.compile(masterSource);
 const catTemplateSource = fs.readFileSync(path.join(DIR, 'templates/category-master.hbs'), 'utf8');
 const categoryTemplate = Handlebars.compile(catTemplateSource);
 
+const DEFAULT_GLOBAL_NETWORK = [
+  { name: 'Kanazawa Insider', url: 'https://kanazawa-insider.com' },
+  { name: 'London Insider', url: 'https://london-insider.com' },
+  { name: 'Rome Insider', url: 'https://rome-insider.com' }
+];
+
 // --- BUILD THE HUB ---
 const hubSource = path.join(DIR, 'index.html');
 if (fs.existsSync(hubSource)) {
@@ -36,6 +42,22 @@ if (fs.existsSync(hubSource)) {
 
 // --- BUILD CITIES ---
 const CITIES = ['amsterdam', 'kanazawa', 'london', 'rome', 'berlin'];
+
+function withCityDefaults(pageData, citySlug, rootData = null) {
+  const nextPageData = { ...pageData };
+  const source = rootData || pageData;
+
+  nextPageData.city_slug = citySlug;
+  nextPageData.city_name =
+    source.city_name || citySlug.charAt(0).toUpperCase() + citySlug.slice(1);
+  nextPageData.footer_categories =
+    source.footer_categories ||
+    (source.categories || []).slice(0, 4).map(c => ({ title: c.title, url: c.url }));
+  nextPageData.global_network = source.global_network || DEFAULT_GLOBAL_NETWORK;
+  nextPageData.current_year = new Date().getFullYear();
+
+  return nextPageData;
+}
 
 CITIES.forEach(citySlug => {
   const cityDir = path.join(DIR, citySlug);
@@ -47,8 +69,10 @@ CITIES.forEach(citySlug => {
   const cityDist = path.join(DIST, citySlug);
   if (!fs.existsSync(cityDist)) fs.mkdirSync(cityDist, { recursive: true });
 
-  const data = JSON.parse(fs.readFileSync(cityIdx, 'utf8'));
-  data.current_year = new Date().getFullYear();
+  const data = withCityDefaults(
+    JSON.parse(fs.readFileSync(cityIdx, 'utf8')),
+    citySlug
+  );
 
   // 1. Render City Home
   const html = template(data);
@@ -66,8 +90,11 @@ CITIES.forEach(citySlug => {
     
     const jsonPath = path.join(cityDir, cleanPath, 'data.json');
     if (fs.existsSync(jsonPath)) {
-      const localData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-      localData.current_year = data.current_year;
+      const localData = withCityDefaults(
+        JSON.parse(fs.readFileSync(jsonPath, 'utf8')),
+        citySlug,
+        data
+      );
       fs.writeFileSync(path.join(p, 'index.html'), categoryTemplate(localData));
       console.log(`    - Generated subpage: /${citySlug}/${cleanPath}/`);
     }
