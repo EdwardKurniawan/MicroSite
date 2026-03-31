@@ -1,5 +1,16 @@
 {
   "title": "Amsterdam Museums & Art (2026 Guide)",
+  "seo": {
+    "title": "Amsterdam Museums & Art (2026 Guide)",
+    "description": "The sharpest way to plan Amsterdam museum time: which museums deserve priority, what to book first, and how to build a Museumplein day that actually works.",
+    "canonical": "https://travelsides.com/amsterdam/museums/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Museums Guide",
+    "title": "Amsterdam Museums & Art",
+    "tagline": "The strongest museums in the city, with honest booking advice and a clear read on what deserves your time.",
+    "image": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80"
+  },
   "eyebrow": "🇳🇱 Amsterdam Museums Guide",
   "standfirst": "",
   "hero_image": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80",

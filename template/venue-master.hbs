@@ -3,164 +3,100 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{seo.title}}</title>
+  <meta name="description" content="{{seo.description}}" />
+  <link rel="canonical" href="{{seo.canonical}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{seo.og.title}}" />
+  <meta property="og:description" content="{{seo.og.description}}" />
+  <meta property="og:image" content="{{seo.og.image}}" />
+  <meta property="og:url" content="{{seo.canonical}}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{seo.twitter.title}}" />
+  <meta name="twitter:description" content="{{seo.twitter.description}}" />
+  <meta name="twitter:image" content="{{seo.twitter.image}}" />
+  <script type="application/ld+json">{{{json seo.schema}}}</script>
 
-  <title>{{name}} - {{city_name}} Premium Guide</title>
-  <meta name="description" content="{{short_description}}" />
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: { 400: '#2E5BFF', 500: '#5C84FF' },
-            gold: '#D4AF37',
-          },
-          fontFamily: {
-            display: ['Playfair Display', 'Georgia', 'serif'],
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            accent: ['Outfit', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-
-  <link rel="stylesheet" href="/shared/index.css">
-  <link rel="stylesheet" href="/shared/global-nav.css">
+  <link rel="stylesheet" href="/shared/index.css" />
+  <link rel="stylesheet" href="/shared/global-nav.css" />
   <script src="/shared/global-nav.js" defer></script>
 
+  <style>
+    :root {
+      --theme-accent: {{theme.accent}};
+      --theme-accent-dark: {{theme.accentDark}};
+      --theme-accent-light: {{theme.accentLight}};
+    }
+  </style>
   <script>
     window.CITY_NAME = "{{city_name}}";
     window.CITY_SLUG = "{{city_slug}}";
+    window.PAGE_CONTEXT = {{{json this}}};
   </script>
-
 </head>
-<body class="bg-[#02060D] text-[#EEF4FF] overflow-x-hidden min-h-screen">
+<body>
+  <main class="page-shell">
+    {{> venue-hero}}
 
-  <main class="pb-28 lg:pb-0">
-    <!-- HERO -->
-    <section class="hero-bg flex items-end justify-center pt-48 pb-20 relative min-h-[70vh]" style="background-image: url('{{image_url}}')">
-      <div class="absolute inset-0 hero-overlay z-0"></div>
-      <div class="max-w-6xl mx-auto px-5 w-full relative z-10">
-        <nav class="mb-8 flex gap-2 text-[10px] font-accent font-black tracking-widest uppercase text-white/40">
-            <a href="/" class="hover:text-gold transition-colors">Home</a>
-            <span>/</span>
-            <a href="/{{city_slug}}/" class="hover:text-gold transition-colors">{{city_name}}</a>
-            <span>/</span>
-            <span class="text-gold">{{name}}</span>
-        </nav>
-        <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-6 block reveal d1">{{category}}</span>
-        <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.1] mb-8 reveal d2">{{name}}</h1>
-        
-        <div class="flex flex-wrap gap-8 reveal d3">
-            <div class="flex items-center gap-3">
-                <span class="text-gold text-2xl">★★★★★</span>
-                <span class="text-white font-bold">{{rating}}</span>
-                <span class="text-white/40 text-sm">({{reviews}} reviews)</span>
-            </div>
-            {{#if duration}}
-            <div class="flex items-center gap-3 border-l border-white/10 pl-8">
-                <span class="text-white/40 text-sm uppercase tracking-widest font-black">Duration</span>
-                <span class="text-white font-bold">{{duration}}</span>
-            </div>
-            {{/if}}
+    <section class="section-shell">
+      <div class="shell editorial-layout">
+        <div class="editorial-stack">
+          <article class="editorial-panel">
+            <h2 class="section-title" style="font-size:clamp(1.8rem, 3vw, 2.8rem);">Why it matters</h2>
+            <p class="page-subtitle-compact" style="margin-top:0.8rem;">{{venue.lead}}</p>
+            <div class="copy-block" style="margin-top:1.2rem;">{{{venue.body_html}}}</div>
+          </article>
+
+          {{#if venue.booking_url}}
+            <article class="editorial-panel">
+              <span class="section-eyebrow">Booking</span>
+              <h2 class="sidebar-title">Reserve this stop before you lock the day</h2>
+              <p class="footer-copy">Use the tracked booking flow to compare pricing and avoid losing availability on popular dates.</p>
+              <div class="editorial-actions">
+                <a href="{{venue.booking_url}}" class="button-link">Check Availability</a>
+                <a href="{{navigation.home_url}}#collections" class="button-link button-link-secondary">Compare More Options</a>
+              </div>
+            </article>
+          {{/if}}
         </div>
+
+        <aside class="editorial-stack">
+          <article class="toolkit-card">
+            <h3>Visit Snapshot</h3>
+            <div class="transport-list">
+              {{#if venue.category}}<div class="transport-item"><strong>Category</strong>: {{venue.category}}</div>{{/if}}
+              {{#if venue.duration}}<div class="transport-item"><strong>Duration</strong>: {{venue.duration}}</div>{{/if}}
+              {{#if venue.opening_hours}}<div class="transport-item"><strong>Opening hours</strong>: {{venue.opening_hours}}</div>{{/if}}
+              {{#if venue.address}}<div class="transport-item"><strong>Address</strong>: {{venue.address}}</div>{{/if}}
+            </div>
+          </article>
+
+          <article class="toolkit-card">
+            <h3>Local Context</h3>
+            <p>{{author.bio}}</p>
+            {{#if venue.rating}}<div class="editorial-note"><strong>Rating</strong> {{venue.rating}} / 5 from {{venue.reviews}} reviews.</div>{{/if}}
+          </article>
+        </aside>
       </div>
     </section>
 
-    <div class="max-w-7xl mx-auto px-5 py-20">
-      <div class="grid lg:grid-cols-12 gap-16">
-        
-        <!-- MAIN CONTENT (Left) -->
-        <div class="lg:col-span-8">
-          
-          <div class="prose prose-invert prose-lg text-white/60 mb-16 max-w-none">
-            <p class="text-xl text-white/90 leading-relaxed mb-12 font-medium italic border-l-4 border-gold pl-8">
-                {{short_description}}
-            </p>
-            {{{long_description}}}
-          </div>
-
-          {{#if tiqets_product_id}}
-          <div id="tickets" class="glass-card p-12 rounded-[3rem] border border-gold/20 relative overflow-hidden mb-16 reveal">
-            <div class="absolute top-0 right-0 w-64 h-64 bg-gold/10 blur-[100px] -mr-32 -mt-32"></div>
-            <div class="relative z-10">
-                <span class="text-gold text-[10px] font-accent font-black tracking-widest uppercase mb-4 block">Official Entry</span>
-                <h2 class="font-display text-4xl font-bold text-white mb-6">Skip the line tickets</h2>
-                <p class="text-white/60 mb-8 max-w-xl">Book your tickets in advance to guarantee entry and bypass the ticket office queues. Includes instant mobile delivery and free cancellation up to 24h before.</p>
-                <a href="/api/track-click?slug={{slug}}&redirect=https://www.tiqets.com/en/product/{{tiqets_product_id}}/?partner={{city_slug}}_insider" 
-                   class="inline-block bg-gold hover:bg-yellow-400 text-black text-[12px] font-black uppercase tracking-widest px-12 py-5 rounded-full transition-all shadow-xl shadow-gold/20 active:scale-95">
-                   Check Availability
-                </a>
-            </div>
-          </div>
-          {{/if}}
-
-        </div>
-
-        <!-- SIDEBAR (Right) -->
-        <div class="lg:col-span-4 space-y-8">
-          
-          <div class="glass-card p-8 rounded-[2rem] border border-white/5 reveal">
-            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Essential Info</h3>
-            <div class="space-y-6">
-              {{#if opening_hours}}
-              <div class="flex gap-4">
-                <div class="text-2xl text-gold">🕐</div>
-                <div>
-                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Opening Hours</div>
-                  <div class="font-medium text-white/90 text-sm whitespace-pre-line">{{opening_hours}}</div>
-                </div>
-              </div>
-              {{/if}}
-
-              {{#if address}}
-              <div class="flex gap-4">
-                <div class="text-2xl text-gold">📍</div>
-                <div>
-                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">Address</div>
-                  <div class="font-medium text-white/90 text-sm italic">{{address}}</div>
-                </div>
-              </div>
-              {{/if}}
-            </div>
-            
-            {{#if latitude}}
-            <div class="mt-8 rounded-2xl overflow-hidden aspect-video relative border border-white/10 grayscale hover:grayscale-0 transition-all duration-700">
-                <img src="https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/pin-s+ff0000({{longitude}},{{latitude}})/{{longitude}},{{latitude}},15/400x250@2x?access_token=your_token_here" 
-                     alt="Map location" class="w-full h-full object-cover" />
-                <div class="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-transparent transition-colors">
-                    <a href="https://www.google.com/maps/search/?api=1&query={{latitude}},{{longitude}}" target="_blank" class="bg-white/10 backdrop-blur-md text-white text-[10px] font-black tracking-widest uppercase px-4 py-2 rounded-full border border-white/20 hover:bg-white hover:text-black transition-all">Open in Google Maps</a>
-                </div>
-            </div>
-            {{/if}}
-          </div>
-
-          <div class="glass-card p-8 rounded-[2rem] border border-white/5 reveal">
-            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Local Tip</h3>
-            <p class="text-white/60 text-sm italic leading-relaxed">
-                "Arrive early in the morning or during a light rain for the most atmospheric experience. The reflection of the castle walls in the still water is particularly beautiful at dawn."
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
+    {{> cta-band cta_band}}
   </main>
-  
-  {{> footer }}
+
+  {{> footer}}
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', function () {
       const els = document.querySelectorAll('.reveal');
-      const io = new IntersectionObserver(
-        entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }),
-        { threshold: 0.1 }
-      );
-      els.forEach(el => io.observe(el));
+      const io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      els.forEach(function (el) { io.observe(el); });
     });
   </script>
 </body>

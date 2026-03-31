@@ -1,0 +1,19 @@
+<section class="page-hero page-hero-venue" style="background-image:url('{{hero.image}}')">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content shell">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      {{#each seo.breadcrumbs}}
+        <a href="{{item}}" class="crumb-link">{{name}}</a>
+        {{#unless @last}}<span class="crumb-sep">/</span>{{/unless}}
+      {{/each}}
+    </nav>
+    <span class="page-kicker">{{hero.eyebrow}}</span>
+    <h1 class="page-title">{{hero.title}}</h1>
+    {{#if hero.tagline}}<p class="page-subtitle page-subtitle-compact">{{hero.tagline}}</p>{{/if}}
+    <div class="hero-meta">
+      {{#if venue.rating}}<span>{{venue.rating}} / 5</span>{{/if}}
+      {{#if venue.reviews}}<span>{{venue.reviews}} reviews</span>{{/if}}
+      {{#if venue.duration}}<span>{{venue.duration}}</span>{{/if}}
+    </div>
+  </div>
+</section>

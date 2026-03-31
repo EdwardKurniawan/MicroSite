@@ -1,0 +1,10 @@
+{{#if items.length}}
+  <div class="faq-list">
+    {{#each items}}
+      <details class="faq-item">
+        <summary>{{q}}</summary>
+        <div class="faq-answer">{{a}}</div>
+      </details>
+    {{/each}}
+  </div>
+{{/if}}

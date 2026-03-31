@@ -1,0 +1,25 @@
+<article class="editorial-card">
+  {{#if image_url}}
+    <div class="editorial-card-media">
+      <img src="{{image_url}}" alt="{{name}}" loading="lazy" />
+      {{#if badge}}<span class="editorial-badge">{{badge}}</span>{{/if}}
+    </div>
+  {{/if}}
+  <div class="editorial-card-body">
+    {{#if category}}<span class="editorial-kicker">{{category}}</span>{{/if}}
+    <h3>{{name}}</h3>
+    {{#if metas}}
+      <div class="meta-row">{{#each metas}}<span>{{this}}</span>{{/each}}</div>
+    {{/if}}
+    {{{description}}}
+    {{#if tip}}<div class="editorial-note">{{tip}}</div>{{/if}}
+    <div class="editorial-actions">
+      {{#if price}}<span class="price-chip">{{price}}</span>{{/if}}
+      {{#if booking_url}}
+        <a href="{{booking_url}}" class="button-link">Book Tickets</a>
+      {{else}}
+        <a href="#plan-your-trip" class="button-link button-link-secondary">Plan This Stop</a>
+      {{/if}}
+    </div>
+  </div>
+</article>

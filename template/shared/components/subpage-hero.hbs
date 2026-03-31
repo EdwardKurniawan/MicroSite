@@ -1,0 +1,14 @@
+<section class="page-hero page-hero-subpage" style="background-image:url('{{hero.image}}')">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content shell shell-narrow">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      {{#each seo.breadcrumbs}}
+        <a href="{{item}}" class="crumb-link">{{name}}</a>
+        {{#unless @last}}<span class="crumb-sep">/</span>{{/unless}}
+      {{/each}}
+    </nav>
+    <span class="page-kicker">{{hero.eyebrow}}</span>
+    <h1 class="page-title">{{hero.title}}</h1>
+    {{#if hero.tagline}}<p class="page-subtitle page-subtitle-compact">{{hero.tagline}}</p>{{/if}}
+  </div>
+</section>

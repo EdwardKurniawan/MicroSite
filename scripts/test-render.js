@@ -1,9 +1,10 @@
 const fs = require('fs');
 const Handlebars = require('handlebars');
-const { getCityPath, getTemplatePath, getSharedPath } = require('../lib/project-paths');
+const { getCityPath, getTemplatePath } = require('../lib/project-paths');
+const { registerHandlebarsDefaults } = require('../lib/handlebars');
+const { normalizeGuidePageData } = require('../lib/normalize-page-data');
 
-const footerPartial = fs.readFileSync(getSharedPath('components', 'footer.hbs'), 'utf8');
-Handlebars.registerPartial('footer', footerPartial);
+registerHandlebarsDefaults(Handlebars);
 
 const hbsSource = fs.readFileSync(getTemplatePath('guide-master.hbs'), 'utf8');
 const masterTemplate = Handlebars.compile(hbsSource);
@@ -12,7 +13,7 @@ const dataPath = getCityPath('amsterdam', 'data.json');
 const pageData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 try {
-  const html = masterTemplate(pageData);
+  const html = masterTemplate(normalizeGuidePageData(pageData, 'amsterdam'));
   console.log('Template render successful! Length:', html.length);
 } catch (e) {
   console.error('Render failed:', e);

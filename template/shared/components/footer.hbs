@@ -1,99 +1,86 @@
-  <footer class="site-footer bg-[#02060D] border-t border-white/5 py-20">
-    <div class="max-w-7xl mx-auto px-5">
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-        
-        <div class="footer-brand lg:col-span-1">
-          <a href="/" class="font-display font-bold text-2xl text-white block mb-6">{{city_name}}<span>Insider</span></a>
-          <p class="text-white/40 text-sm leading-relaxed mb-6">
-            An independent {{city_name}} travel guide written by locals. Honest reviews, booking tips, and genuine local knowledge — no filler.
-          </p>
-        </div>
-
-        <div class="footer-col lg:col-span-1">
-          <h4 class="text-white font-black text-[10px] uppercase tracking-widest mb-6">Explore</h4>
-          <ul class="space-y-4">
-            {{#each footer_categories}}
-              <li><a href="{{url}}" class="text-white/40 hover:text-gold transition-colors text-sm font-medium">{{title}}</a></li>
-            {{/each}}
-          </ul>
-        </div>
-
-        <div class="footer-col lg:col-span-1">
-          <h4 class="text-white font-black text-[10px] uppercase tracking-widest mb-6 italics">Insider World</h4>
-          <ul class="space-y-4">
-            {{#each global_network}}
-              <li><a href="{{url}}" target="_blank" class="text-white/40 hover:text-gold transition-colors text-sm font-medium">{{name}}</a></li>
-            {{/each}}
-          </ul>
-        </div>
-
-        <div class="footer-col lg:col-span-1">
-          <h4 class="text-white font-black text-[10px] uppercase tracking-widest mb-6 italics">Stay Inner-Circle</h4>
-          <p class="text-white/40 text-xs mb-6">Get rare local tips and seasonal guides delivered to your inbox.</p>
-          
-          <form id="newsletter-form" class="relative group">
-            <input type="email" id="newsletter-email" placeholder="Your email address" required
-                   class="w-full bg-white/5 border border-white/10 rounded-full px-5 py-3 text-sm text-white focus:outline-none focus:border-gold/50 transition-all placeholder:text-white/20" />
-            <button type="submit" class="absolute right-1 top-1 bottom-1 bg-gold hover:bg-yellow-400 text-[#050B14] text-[10px] font-black uppercase tracking-widest px-4 rounded-full transition-all">
-              Join
-            </button>
-          </form>
-          <div id="newsletter-status" class="mt-4 text-[10px] font-black uppercase tracking-widest hidden"></div>
-        </div>
-
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="{{navigation.home_url}}" class="footer-brand-mark">{{footer.brand_name}}<span> Insider</span></a>
+        <p class="footer-copy">{{footer.description}}</p>
       </div>
 
-      <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div class="text-[10px] text-white/40 font-black uppercase tracking-widest">
-          © {{current_year}} {{city_name}}Insider · Part of the <span class="text-white/60">Insider World Network</span>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <div class="footer-links">
+          {{#each footer.local_links}}
+            <a href="{{url}}">{{title}}</a>
+          {{/each}}
         </div>
-        <div class="flex items-center gap-3 text-[10px] text-white/40 font-black uppercase tracking-widest">
-          <span class="text-gold">🔖</span> We may earn a commission on ticket bookings — at no extra cost to you.
+      </div>
+
+      <div class="footer-col">
+        <h4>About</h4>
+        <div class="footer-links">
+          {{#each footer.about_links}}
+            <a href="{{url}}">{{title}}</a>
+          {{/each}}
         </div>
+        <h4 style="margin-top:1.3rem;">Network</h4>
+        <div class="footer-links">
+          {{#each footer.network_links}}
+            <a href="{{url}}" target="_blank" rel="noreferrer">{{name}}</a>
+          {{/each}}
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>{{footer.newsletter.title}}</h4>
+        <p class="footer-copy">{{footer.newsletter.description}}</p>
+        <form id="newsletter-form" class="newsletter-form">
+          <input
+            type="email"
+            id="newsletter-email"
+            class="newsletter-input"
+            placeholder="{{footer.newsletter.placeholder}}"
+            required
+          />
+          <button type="submit" class="button-link">{{footer.newsletter.button_label}}</button>
+          <div id="newsletter-status" class="footer-copy" hidden></div>
+        </form>
       </div>
     </div>
 
-    <script>
-      (function() {
-        const form = document.getElementById('newsletter-form');
-        const emailInput = document.getElementById('newsletter-email');
-        const statusEl = document.getElementById('newsletter-status');
-        const citySlug = '{{city_slug}}';
+    <div class="footer-bottom">
+      <span>© {{current_year}} {{footer.brand_name}}. City-first guidance, built for smarter booking.</span>
+      <span>{{footer.legal}}</span>
+    </div>
+  </div>
 
-        if (form) {
-          form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const email = emailInput.value;
-            
-            statusEl.textContent = 'Sending...';
-            statusEl.classList.remove('hidden', 'text-brand-400', 'text-red-400');
-            statusEl.classList.add('text-white/40');
+  <script>
+    (function () {
+      const form = document.getElementById('newsletter-form');
+      const emailInput = document.getElementById('newsletter-email');
+      const statusEl = document.getElementById('newsletter-status');
+      if (!form || !statusEl || !emailInput) return;
 
-            try {
-              const response = await fetch('/api/newsletter', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email, city_slug: citySlug })
-              });
-              
-              const result = await response.json();
-              
-              if (response.ok) {
-                form.classList.add('opacity-0', 'pointer-events-none');
-                statusEl.textContent = 'Welcome home! Check your inbox soon.';
-                statusEl.classList.remove('text-white/40');
-                statusEl.classList.add('text-brand-400');
-                emailInput.value = '';
-              } else {
-                throw new Error(result.error || 'Signup failed');
-              }
-            } catch (err) {
-              statusEl.textContent = err.message || 'Something went wrong. Try again?';
-              statusEl.classList.remove('text-white/40');
-              statusEl.classList.add('text-red-400');
-            }
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        statusEl.hidden = false;
+        statusEl.textContent = 'Sending...';
+
+        try {
+          const response = await fetch('/api/newsletter', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: emailInput.value, city_slug: '{{city_slug}}' })
           });
+          const result = await response.json();
+          if (!response.ok) {
+            throw new Error(result.error || 'Signup failed');
+          }
+          emailInput.value = '';
+          statusEl.textContent = 'You are in. Check your inbox soon.';
+        } catch (error) {
+          statusEl.textContent = error.message || 'Something went wrong. Please try again.';
         }
-      })();
-    </script>
-  </footer>
+      });
+    })();
+  </script>
+</footer>

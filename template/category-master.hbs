@@ -3,283 +3,166 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{seo.title}}</title>
+  <meta name="description" content="{{seo.description}}" />
+  <link rel="canonical" href="{{seo.canonical}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{seo.og.title}}" />
+  <meta property="og:description" content="{{seo.og.description}}" />
+  <meta property="og:image" content="{{seo.og.image}}" />
+  <meta property="og:url" content="{{seo.canonical}}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{seo.twitter.title}}" />
+  <meta name="twitter:description" content="{{seo.twitter.description}}" />
+  <meta name="twitter:image" content="{{seo.twitter.image}}" />
+  <script type="application/ld+json">{{{json seo.schema}}}</script>
 
-  <title>{{title}} - AmsterdamInsider</title>
-  <meta name="description" content="{{standfirst}}" />
-
-  <!-- Tailwind CDN for rapid styling port -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: { 400: '#2E5BFF', 500: '#5C84FF' },
-            gold: '#D4AF37',
-          },
-          fontFamily: {
-            display: ['Playfair Display', 'Georgia', 'serif'],
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            accent: ['Outfit', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-
-  <link rel="stylesheet" href="/shared/index.css">
-  <link rel="stylesheet" href="/shared/global-nav.css">
-  
-  {{#if map_config}}
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <style>
-    #map { height: 500px; border-radius: 2.5rem; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); z-index: 10; }
-    .leafet-container { background: #02060D !important; }
-    .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: #050B14 !important; color: #fff !important; border: 1px solid rgba(255,255,255,0.2) !important; border-radius: 1rem !important; }
-    .leaflet-popup-content a { color: #D4AF37 !important; font-weight: bold; text-transform: uppercase; font-size: 10px; letter-spacing: 0.1em; }
-  </style>
-  {{/if}}
-
+  <link rel="stylesheet" href="/shared/index.css" />
+  <link rel="stylesheet" href="/shared/global-nav.css" />
   <script src="/shared/global-nav.js" defer></script>
 
+  <style>
+    :root {
+      --theme-accent: {{theme.accent}};
+      --theme-accent-dark: {{theme.accentDark}};
+      --theme-accent-light: {{theme.accentLight}};
+    }
+  </style>
   <script>
     window.CITY_NAME = "{{city_name}}";
     window.CITY_SLUG = "{{city_slug}}";
+    window.PAGE_CONTEXT = {{{json this}}};
   </script>
-
 </head>
-<body class="bg-[#02060D] text-[#EEF4FF] overflow-x-hidden min-h-screen">
+<body>
+  <main class="page-shell">
+    {{> subpage-hero}}
 
-  <main class="pb-28 lg:pb-0">
-    <!-- HERO -->
-    <section class="hero-bg flex items-end justify-center pt-48 pb-20 relative min-h-[60vh]" style="background-image: url('{{hero_image}}')">
-      <div class="absolute inset-0 hero-overlay z-0"></div>
-      <div class="max-w-6xl mx-auto px-5 w-full relative z-10">
-        <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-6 block reveal d1">{{eyebrow}}</span>
-        <h1 class="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-6 reveal d2">{{title}}</h1>
-        {{#if standfirst}}
-          <p class="text-lg text-white/70 max-w-2xl reveal d3 leading-relaxed">{{standfirst}}</p>
-        {{/if}}
-      </div>
-    </section>
-
-    <div class="max-w-7xl mx-auto px-5 py-20">
-      <div class="grid lg:grid-cols-12 gap-16">
-        
-        <!-- MAIN CONTENT (Left) -->
-        <div class="lg:col-span-9 {{#unless facts}}{{#unless getting_there}}lg:col-start-2 lg:col-span-10 max-w-4xl mx-auto{{/unless}}{{/unless}}">
-          
-          {{#if intro_html}}
-          <div class="prose prose-invert prose-lg text-white/60 mb-16">
-            {{{intro_html}}}
+    <section class="section-shell">
+      <div class="shell editorial-layout">
+        <div class="editorial-stack">
+          <div>
+            {{> section-heading eyebrow="Overview" title=hero.title description=hero.tagline}}
+            <div class="copy-block">{{{intro.body_html}}}</div>
           </div>
-          {{/if}}
 
-          {{#if map_config}}
-          <div class="mb-20 reveal">
-            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">District Map</h2>
-            <div id="map"></div>
-          </div>
-          {{/if}}
-
-          {{#if todos}}
-          <div class="mb-16">
-            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Things to Do</h2>
-            <div class="space-y-6">
-              {{#each todos}}
-              <div class="glass-card flex flex-col md:flex-row gap-8 p-6 rounded-[2.5rem] border border-white/10 reveal overflow-hidden group transition-all hover:bg-white/5">
-                {{#if image}}
-                <div class="md:w-1/3 aspect-[4/3] md:aspect-auto overflow-hidden rounded-3xl shrink-0 shadow-2xl">
-                  <img src="{{image}}" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="{{title}}" />
-                </div>
-                {{/if}}
-                <div class="flex-1 py-2">
-                  <div class="flex items-center gap-6 mb-4">
-                    <span class="text-gold/40 font-display text-5xl font-black italic">{{num}}</span>
-                    <h3 class="font-display text-2xl md:text-3xl font-bold text-white leading-tight group-hover:text-gold transition-colors">{{title}}</h3>
-                  </div>
-                  <p class="text-white/60 text-base leading-relaxed font-light">{{description}}</p>
-                </div>
+          {{#if todos.length}}
+            <div>
+              {{> section-heading eyebrow="What To Do" title="Build the right version of this page" description="These are the stops and experiences that define this collection."}}
+              <div class="editorial-stack">
+                {{#each todos}}
+                  <article class="editorial-panel">
+                    <span class="editorial-kicker">{{num}}</span>
+                    <h3 class="sidebar-title" style="margin-top:0.5rem;">{{title}}</h3>
+                    <p>{{description}}</p>
+                  </article>
+                {{/each}}
               </div>
-              {{/each}}
             </div>
-          </div>
           {{/if}}
 
-          {{#if attractions}}
-          <div class="mb-16">
-            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Top Attractions</h2>
-            <div class="space-y-8">
-              {{#each attractions}}
-              <div class="glass-card rounded-[2rem] overflow-hidden border border-white/10 flex flex-col md:flex-row group reveal">
-                <div class="md:w-2/5 aspect-[4/3] md:aspect-auto overflow-hidden relative">
-                  <img src="{{image_url}}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                  {{#if badge}}
-                    <span class="absolute top-4 right-4 bg-gold text-black text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full z-10">{{badge}}</span>
-                  {{/if}}
-                </div>
-                <div class="p-6 md:p-8 flex-1 flex flex-col">
-                  <span class="text-gold text-[10px] font-accent font-black tracking-widest uppercase mb-2">{{category}}</span>
-                  <h3 class="font-display text-2xl font-bold text-white mb-3">{{name}}</h3>
-                  {{#if metas}}
-                  <div class="flex flex-wrap gap-4 text-xs text-white/50 mb-4 font-medium uppercase tracking-wider">
-                    {{#each metas}}<span>{{this}}</span>{{/each}}
-                  </div>
-                  {{/if}}
-                  {{{description}}}
-                  {{#if tip}}
-                    <div class="mt-4 p-4 border-l-2 border-gold bg-gold/10 text-white/80 text-sm italic">{{tip}}</div>
-                  {{/if}}
-                  <div class="mt-8 pt-6 border-t border-white/5 flex justify-between items-center">
-                    <span class="text-white font-bold">{{price}}</span>
-                    {{#if tiqets_product_id}}
-                      <a href="/api/track-click?slug={{id}}&redirect=https://www.tiqets.com/en/product/{{tiqets_product_id}}/?partner={{../city_slug}}_insider" 
-                         class="bg-gold hover:bg-yellow-400 text-black text-[10px] font-black uppercase tracking-widest px-6 py-3 rounded-full transition-all shadow-lg shrink-0">
-                         Book Tickets
-                      </a>
-                    {{else}}
-                      <a href="#tickets" class="bg-gold hover:bg-yellow-400 text-black text-[10px] font-black uppercase tracking-widest px-6 py-3 rounded-full transition-all shadow-lg shrink-0">Book Now</a>
+          {{#if attractions.length}}
+            <div id="top-attractions">
+              {{> section-heading eyebrow="Top Stops" title="Featured attractions and booking signals"}}
+              <div class="editorial-stack">
+                {{#each attractions}}
+                  {{> attraction-card}}
+                {{/each}}
+              </div>
+            </div>
+          {{/if}}
+
+          {{#if products.length}}
+            <div>
+              {{> section-heading eyebrow="Tickets & Tours" title="Useful bookings to compare"}}
+              <div class="story-grid">
+                {{#each products}}
+                  <a href="{{link}}" class="story-card">
+                    {{#if image_url}}
+                      <div class="story-visual"><img src="{{image_url}}" alt="{{title}}" loading="lazy" /></div>
                     {{/if}}
-                  </div>
-                </div>
+                    <div class="story-body">
+                      {{#if category}}<span class="editorial-kicker">{{category}}</span>{{/if}}
+                      <h3>{{title}}</h3>
+                      <p>{{description}}</p>
+                      <span class="story-link">{{cta}}</span>
+                    </div>
+                  </a>
+                {{/each}}
               </div>
-              {{/each}}
             </div>
-          </div>
           {{/if}}
 
-          {{#if products}}
-          <div class="mb-16">
-            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Tickets & Tours</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-              {{#each products}}
-              <a href="{{link}}" class="glass-card rounded-[2rem] overflow-hidden border border-white/10 flex flex-col group transition-all hover:-translate-y-1 hover:border-gold/30 reveal">
-                <img src="{{image_url}}" class="w-full h-48 object-cover" />
-                <div class="p-6 flex flex-col flex-1">
-                  <span class="text-gold text-[10px] uppercase tracking-widest font-black mb-2">{{category}}</span>
-                  <h3 class="font-display text-lg font-bold text-white mb-3">{{title}}</h3>
-                  <p class="text-white/60 text-sm mb-6 flex-1">{{description}}</p>
-                  <span class="inline-block bg-white/5 text-white hover:bg-gold hover:text-black py-2 px-4 rounded-full text-[10px] font-black uppercase tracking-widest text-center transition-colors">{{cta}}</span>
-                </div>
-              </a>
-              {{/each}}
-            </div>
-          </div>
-          {{/if}}
-
-          {{#if foods}}
-          <div class="mb-16">
-            <h2 class="font-display text-3xl font-bold text-white mb-8 border-b border-white/10 pb-4">Eat & Drink</h2>
-            <div class="space-y-4">
-              {{#each foods}}
-              <div class="p-6 glass-card border border-white/5 rounded-2xl reveal">
-                <span class="inline-block bg-white/10 text-white px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest mb-3">{{tag}}</span>
-                <h3 class="font-display text-lg font-bold text-white mb-2">{{title}}</h3>
-                <p class="text-white/60 text-sm">{{description}}</p>
+          {{#if foods.length}}
+            <div>
+              {{> section-heading eyebrow="Eat & Drink" title="Places that match the mood of the page"}}
+              <div class="food-list">
+                {{#each foods}}
+                  <article class="food-card">
+                    {{#if tag}}<span class="food-tag">{{tag}}</span>{{/if}}
+                    <h3 class="sidebar-title">{{title}}</h3>
+                    <p>{{description}}</p>
+                  </article>
+                {{/each}}
               </div>
-              {{/each}}
             </div>
-          </div>
           {{/if}}
-
         </div>
 
-        <!-- SIDEBAR (Right) -->
-        <div class="lg:col-span-3 space-y-8">
-          
-          {{#if facts}}
-          <div class="glass-card p-8 rounded-[2rem] border border-white/5 sticky top-24 reveal">
-            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Quick Facts</h3>
-            <div class="space-y-6">
-              {{#each facts}}
-              <div class="flex gap-4">
-                <div class="text-2xl">{{icon}}</div>
-                <div>
-                  <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">{{label}}</div>
-                  <div class="font-medium text-white/90 text-sm">{{value}}</div>
-                </div>
-              </div>
-              {{/each}}
-            </div>
-          </div>
+        <aside class="editorial-stack">
+          {{#if facts.length}}
+            <article class="toolkit-card">
+              <h3>Quick Facts</h3>
+              {{> fact-grid items=facts}}
+            </article>
           {{/if}}
 
-          {{#if getting_there}}
-          <div class="glass-card p-8 rounded-[2rem] border border-white/5 sticky top-24 reveal">
-            <h3 class="font-display text-2xl font-bold text-white mb-6 border-b border-white/10 pb-4">Getting There</h3>
-            <div class="space-y-6">
-              {{#each getting_there}}
-              <div class="flex gap-4 items-start">
-                <div class="text-xl mt-1">{{icon}}</div>
-                <div class="text-white/70 text-sm leading-relaxed">{{text}}</div>
+          {{#if getting_there.length}}
+            <article class="toolkit-card">
+              <h3>Getting There</h3>
+              <div class="transport-list">
+                {{#each getting_there}}
+                  <div class="transport-item">{{#if icon}}<strong>{{icon}}</strong> {{/if}}{{text}}</div>
+                {{/each}}
               </div>
-              {{/each}}
-            </div>
-          </div>
+            </article>
           {{/if}}
 
-        </div>
-
+          <article class="toolkit-card">
+            <h3>Written By</h3>
+            <p>{{author.bio}}</p>
+            <a href="{{author.url}}" class="story-link">Meet {{author.name}}</a>
+          </article>
+        </aside>
       </div>
-    </div>
-
-    <!-- FINAL CTA -->
-    <section class="py-24 bg-[#02060D] text-center border-t border-white/10">
-      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-8">Ready to master<br /><span class="italic font-normal">the city?</span></h2>
-      <a href="/attractions/" class="inline-block bg-brand-500 hover:bg-brand-400 text-white text-[12px] font-black uppercase tracking-widest px-12 py-5 rounded-full transition-all shadow-xl shadow-brand-500/20 active:scale-95 border border-white/10">Explore All Attractions</a>
     </section>
 
+    {{#if faqs.length}}
+      <section id="faqs" class="section-shell section-shell-muted">
+        <div class="shell shell-narrow">
+          {{> section-heading eyebrow="FAQs" title="What people ask before adding this to the itinerary"}}
+          {{> faq-list items=faqs}}
+        </div>
+      </section>
+    {{/if}}
+
+    {{> cta-band cta_band}}
   </main>
-  
-  {{> footer }}
 
-  {{#if map_config}}
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const config = {{{json map_config}}};
-      const map = L.map('map', { scrollWheelZoom: false }).setView(config.center, config.zoom);
-
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: 'abcd',
-        maxZoom: 20
-      }).addTo(map);
-
-      // Custom Icon
-      const customIcon = L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#D4AF37; width:12px; height:12px; border-radius:50%; border:2px solid #fff; box-shadow: 0 0 10px #D4AF37;'></div>",
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
-      });
-
-      config.markers.forEach(marker => {
-        const popupContent = `
-          <div class="w-48 overflow-hidden rounded-lg">
-            ${marker.image ? `<img src="${marker.image}" class="w-full h-24 object-cover mb-3 rounded-md" />` : ''}
-            <div class="px-1 pb-1">
-              <h4 class="font-bold text-white mb-1 uppercase tracking-tight text-sm">${marker.name}</h4>
-              <a href="${marker.link}" class="text-gold font-bold text-[10px] uppercase tracking-widest hover:underline">Explore Guide &rarr;</a>
-            </div>
-          </div>
-        `;
-        L.marker([marker.lat, marker.lng], { icon: customIcon })
-          .addTo(map)
-          .bindPopup(popupContent, { maxWidth: 200 });
-      });
-    });
-  </script>
-  {{/if}}
+  {{> footer}}
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', function () {
       const els = document.querySelectorAll('.reveal');
-      const io = new IntersectionObserver(
-        entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }),
-        { threshold: 0.1 }
-      );
-      els.forEach(el => io.observe(el));
+      const io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      els.forEach(function (el) { io.observe(el); });
     });
   </script>
 </body>

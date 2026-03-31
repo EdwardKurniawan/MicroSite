@@ -1,0 +1,11 @@
+{{#if items.length}}
+  <div class="fact-grid">
+    {{#each items}}
+      <div class="fact-card">
+        <div class="fact-icon">{{icon}}</div>
+        <div class="fact-label">{{label}}</div>
+        <div class="fact-value">{{value}}</div>
+      </div>
+    {{/each}}
+  </div>
+{{/if}}

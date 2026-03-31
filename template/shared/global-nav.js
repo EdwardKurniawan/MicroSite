@@ -1,59 +1,77 @@
-/* global-nav.js */
-(function() {
-  const cityName = window.CITY_NAME || 'Travel';
-  const citySlug = window.CITY_SLUG || '';
-  const rootPath = citySlug ? `/${citySlug}/` : '/';
+(function () {
+  function resolveContext() {
+    return window.PAGE_CONTEXT || {};
+  }
 
-  const WP_NAV_HTML = `
-    <div class="wp-nav-wrapper">
-      <nav class="wp-nav">
-        <a href="${rootPath}" class="wp-logo" id="main-logo">${cityName}<span>Insider</span></a>
-        <ul class="wp-links">
-          <li><a href="${rootPath}" id="nav-home">Explore</a></li>
-          <li><a href="${rootPath}#neighbourhoods" id="nav-nb">Neighbourhoods</a></li>
-          <li><a href="#hero-search-input" id="nav-ai" class="hidden md:block">AI Guide</a></li>
-        </ul>
-        <a href="${rootPath}tickets/" class="wp-cta">Book Tickets</a>
-      </nav>
-    </div>
-  `;
+  function getText(link) {
+    return link.label || link.title || '';
+  }
+
+  function getActiveKey(pathname) {
+    const clean = pathname.replace(/\/+$/, '') || '/';
+    if (/\/authors(\/|$)/.test(clean) || clean.split('/').filter(Boolean).length <= 1) {
+      return 'overview';
+    }
+    return 'collections';
+  }
+
+  function bindInPageScrolling(root) {
+    root.querySelectorAll('a[href*="#"]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        const href = link.getAttribute('href');
+        if (!href) return;
+        const url = new URL(href, window.location.origin);
+        if (url.pathname !== window.location.pathname) return;
+        if (!url.hash) return;
+        const target = document.querySelector(url.hash);
+        if (!target) return;
+        event.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
 
   function initNav() {
-    // Find existing header or body start
+    const page = resolveContext();
+    const navigation = page.navigation || {};
+    const rootPath = navigation.home_url || (window.CITY_SLUG ? `/${window.CITY_SLUG}/` : '/');
+    const localLinks = navigation.local_links || [];
+    const cta = navigation.cta || { label: 'Explore City Guide', url: rootPath };
+    const activeKey = getActiveKey(window.location.pathname);
+
+    const linkHtml = localLinks
+      .map((link) => {
+        const label = getText(link);
+        if (!label || !link.url) return '';
+        const active = link.key === activeKey ? 'active' : '';
+        return `<li><a href="${link.url}" data-nav-key="${link.key || ''}" class="${active}">${label}</a></li>`;
+      })
+      .join('');
+
+    const html = `
+      <div class="wp-nav-wrapper">
+        <nav class="wp-nav">
+          <div class="wp-nav-left">
+            <a href="${rootPath}" class="wp-logo">${window.CITY_NAME || 'Travel'}<span>Insider</span></a>
+            <ul class="wp-links">${linkHtml}</ul>
+          </div>
+          <div class="wp-nav-right">
+            <a href="${cta.url || rootPath}" class="wp-cta">${cta.label || 'Explore'}</a>
+          </div>
+        </nav>
+      </div>
+    `;
+
     const existingHeader = document.querySelector('header.site-header');
     if (existingHeader) {
-      existingHeader.innerHTML = WP_NAV_HTML;
+      existingHeader.innerHTML = html;
+      bindInPageScrolling(existingHeader);
     } else {
-      document.body.insertAdjacentHTML('afterbegin', WP_NAV_HTML);
-    }
-
-    // Highlight active link
-    const path = window.location.pathname;
-    
-    // Simple active state check
-    if (path === rootPath || (citySlug && path === `/${citySlug}`)) {
-      const homeLink = document.getElementById('nav-home');
-      if (homeLink) homeLink.classList.add('active');
-    } else if (path.includes('neighbourhoods')) {
-      const nbLink = document.getElementById('nav-nb');
-      if (nbLink) nbLink.classList.add('active');
-    }
-
-    // AI Guide scroll-to-search
-    const aiLink = document.getElementById('nav-ai');
-    if (aiLink) {
-      aiLink.addEventListener('click', (e) => {
-        const searchInput = document.getElementById('hero-search-input');
-        if (searchInput) {
-          e.preventDefault();
-          searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          setTimeout(() => searchInput.focus(), 800);
-        }
-      });
+      document.body.insertAdjacentHTML('afterbegin', html);
+      bindInPageScrolling(document.body);
     }
   }
 
-  // Run on load
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initNav);
   } else {

@@ -3,271 +3,154 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{seo.title}}</title>
+  <meta name="description" content="{{seo.description}}" />
+  <link rel="canonical" href="{{seo.canonical}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{seo.og.title}}" />
+  <meta property="og:description" content="{{seo.og.description}}" />
+  <meta property="og:image" content="{{seo.og.image}}" />
+  <meta property="og:url" content="{{seo.canonical}}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{seo.twitter.title}}" />
+  <meta name="twitter:description" content="{{seo.twitter.description}}" />
+  <meta name="twitter:image" content="{{seo.twitter.image}}" />
+  <script type="application/ld+json">{{{json seo.schema}}}</script>
 
-  <title>{{meta_title}}</title>
-  <meta name="description" content="{{meta_description}}" />
-  <link rel="canonical" href="{{canonical_url}}" />
-
-  <!-- Open Graph -->
-  <meta property="og:type"        content="article" />
-  <meta property="og:title"       content="{{og_title}}" />
-  <meta property="og:description" content="{{og_description}}" />
-  <meta property="og:image"       content="{{og_image}}" />
-  <meta property="og:url"         content="{{canonical_url}}" />
-
-  <!-- Tailwind CDN for rapid styling port -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: { 400: '#2E5BFF', 500: '#5C84FF' },
-            gold: '#D4AF37',
-          },
-          fontFamily: {
-            display: ['Playfair Display', 'Georgia', 'serif'],
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            accent: ['Outfit', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-
-  <link rel="stylesheet" href="/shared/index.css">
-  <link rel="stylesheet" href="/shared/global-nav.css">
+  <link rel="stylesheet" href="/shared/index.css" />
+  <link rel="stylesheet" href="/shared/global-nav.css" />
   <script src="/shared/global-nav.js" defer></script>
   <script src="/shared/ai-search.js" defer></script>
 
+  <style>
+    :root {
+      --theme-accent: {{theme.accent}};
+      --theme-accent-dark: {{theme.accentDark}};
+      --theme-accent-light: {{theme.accentLight}};
+    }
+  </style>
   <script>
     window.CITY_NAME = "{{city_name}}";
     window.CITY_SLUG = "{{city_slug}}";
+    window.PAGE_CONTEXT = {{{json this}}};
   </script>
-
 </head>
-<body class="bg-[#02060D] text-[#EEF4FF] overflow-x-hidden min-h-screen">
+<body>
+  <main class="page-shell">
+    {{> guide-hero}}
 
-  <main class="pb-28 lg:pb-0">
-    <!-- HERO -->
-    <section class="hero-bg min-h-screen flex items-center justify-center pt-32 pb-24 relative" style="background-image: url('{{hero_image}}')">
-      <div class="absolute inset-0 hero-overlay z-0"></div>
-      <div class="max-w-6xl mx-auto px-5 w-full relative z-10 text-center">
-        <span class="text-gold text-xs font-accent font-black tracking-[0.4em] uppercase mb-8 block reveal d1">{{hero_eyebrow}}</span>
-        <h1 class="font-display text-5xl md:text-7xl lg:text-[5.5rem] font-bold text-white leading-[1.1] mb-6 reveal d2">{{hero_h1}}</h1>
-        <p class="text-lg text-white/60 max-w-2xl mx-auto mb-10 reveal d3">{{hero_tagline}}</p>
-        
-        <div class="reveal d3 w-full animate-in fade-in duration-700 max-w-2xl mx-auto">
-           <!-- Faux Search / AI Prompt -->
-           <div class="relative glass-card border flex items-center border-white/10 bg-black/40 p-2 rounded-[2rem] hover:bg-black/60 transition-all shadow-2xl">
-             <div class="pl-4 pr-3 text-gold/80 animate-pulse flex items-center justify-center shrink-0">
-               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-             </div>
-             <input type="text" id="hero-search-input" placeholder="Where to explore in {{city_name}}?" class="flex-1 py-4 text-white bg-transparent outline-none placeholder:text-white/50 text-[14px] md:text-[15px] font-medium" />
-             <button id="hero-search-button" class="bg-gold hover:bg-yellow-400 text-[#050B14] text-[11px] font-black uppercase tracking-widest px-6 md:px-10 py-4 rounded-full transition-all shadow-lg shrink-0">Explore</button>
-           </div>
+    <section id="city-overview" class="section-shell">
+      <div class="shell insight-grid">
+        <div>
+          {{> section-heading eyebrow=intro.eyebrow title=intro.title description=seo.description}}
+          <div class="copy-block">{{{intro.body_html}}}</div>
+        </div>
+        <aside class="insight-aside">
+          <h3 class="sidebar-title">Essential Briefing</h3>
+          {{> fact-grid items=quick_info}}
+        </aside>
+      </div>
+    </section>
+
+    <section id="collections" class="section-shell section-shell-muted">
+      <div class="shell">
+        {{> section-heading eyebrow="Collections" title="Choose your angle on the city" description=category_intro}}
+        <div class="story-grid">
+          {{#each categories}}
+            {{> category-card}}
+          {{/each}}
         </div>
       </div>
     </section>
 
-    <!-- INTRO & QUICK INFO -->
-    <section class="py-24 bg-[#050B14] border-t border-white/5">
-      <div class="max-w-7xl mx-auto px-5">
-        <div class="grid lg:grid-cols-12 gap-16">
-          <div class="lg:col-span-7">
-            <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-4 block">CITY INSIGHTS</span>
-            <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-8">{{standfirst}}</h2>
-            <div class="prose prose-invert prose-lg text-white/60">
-              {{{intro_text}}}
-            </div>
-          </div>
-          <div class="lg:col-span-5">
-            <div class="glass-card p-8 rounded-[2.5rem] border border-white/5">
-              <h3 class="font-display text-2xl font-bold mb-6 text-white border-b border-white/10 pb-4">Essential Info</h3>
-              <div class="space-y-6">
-                {{#each quick_info}}
-                <div class="flex gap-4 items-start">
-                  <div class="text-2xl">{{icon}}</div>
-                  <div>
-                    <div class="text-[10px] text-white/40 font-black uppercase tracking-widest mb-1">{{label}}</div>
-                    <div class="font-medium text-white/90 text-sm leading-relaxed">{{value}}</div>
+    <section id="neighbourhoods" class="section-shell">
+      <div class="shell">
+        {{> section-heading eyebrow="Neighbourhoods" title="Decode the districts before you book" description="Use Amsterdam as the reference city: each district has its own pace, crowd profile, and best time to visit."}}
+        <div class="story-grid">
+          {{#each neighbourhoods}}
+            {{> district-card}}
+          {{/each}}
+        </div>
+      </div>
+    </section>
+
+    {{#if itinerary.days.length}}
+      <section id="plan-your-trip" class="section-shell section-shell-muted">
+        <div class="shell">
+          {{> section-heading eyebrow="Itinerary" title=itinerary.title description=itinerary.intro}}
+          <div class="itinerary-grid">
+            {{#each itinerary.days}}
+              <article class="itinerary-card">
+                <h3 class="itinerary-day">{{day}}</h3>
+                {{#each items}}
+                  <div class="itinerary-slot">
+                    <div class="slot-time">{{time}}</div>
+                    <div class="slot-copy">
+                      <strong>{{title}}</strong>
+                      <span>{{description}}</span>
+                    </div>
                   </div>
-                </div>
                 {{/each}}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- NEIGHBOURHOODS (CAROUSEL STYLE) -->
-    <section class="py-32 bg-[#02060D] overflow-hidden border-t border-white/5">
-      <div class="max-w-7xl mx-auto px-5">
-        <div class="flex items-end justify-between mb-12 reveal">
-          <div class="flex items-end justify-between w-full">
-            <div>
-              <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-4 block">DISTRICTS</span>
-              <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-2">Neighbourhoods</h2>
-              <p class="text-white/40 text-xs font-medium flex items-center gap-2">
-                <span class="animate-pulse">←</span> Swipe or scroll to explore all 10 districts <span class="animate-pulse">→</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="carousel-container reveal d2">
-          <button class="carousel-nav-btn prev" id="prev-btn" aria-label="Previous">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-            </svg>
-          </button>
-          
-          <div id="neighbourhood-carousel" class="flex gap-8 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-12 -mx-5 px-5 lg:mx-0 lg:px-0 scroll-smooth">
-            {{#each neighbourhoods}}
-            <div class="group relative rounded-[2.5rem] overflow-hidden aspect-[4/5] shadow-2xl shrink-0 w-[85%] md:w-[40%] lg:w-[32%] snap-start">
-              {{#if image}}
-                 <img src="{{image}}" alt="{{alt}}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
-              {{else}}
-                 <div class="absolute inset-0 w-full h-full bg-white/5 flex items-center justify-center text-4xl">🏘️</div>
-              {{/if}}
-              <div class="absolute inset-0 bg-gradient-to-t from-[#02060D] via-[#02060D]/30 to-transparent"></div>
-              <div class="absolute bottom-0 left-0 right-0 p-6">
-                <div class="lg:hidden">
-                  <h3 class="font-display font-black text-2xl text-white uppercase tracking-tight mb-1">{{name}}</h3>
-                  <p class="text-xs text-white/60 mb-4">{{tagline}}</p>
-                </div>
-                <div class="hidden lg:block glass-card p-6 rounded-3xl opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
-                  <h3 class="font-display font-black text-2xl text-white uppercase tracking-tight">{{name}}</h3>
-                  <p class="text-xs text-white/70 mb-4 line-clamp-2">{{tagline}}</p>
-                  {{#if intro}}
-                     <p class="text-[10px] text-white/40 mb-4 line-clamp-3">{{intro}}</p>
-                  {{/if}}
-                  <a href="{{url}}" class="block w-full py-4 text-center glass-pill text-white text-[10px] font-black uppercase tracking-widest hover:bg-white/10 transition-all border border-white/20">
-                    Explore District
-                  </a>
-                </div>
-              </div>
-            </div>
+              </article>
             {{/each}}
           </div>
-
-          <button class="carousel-nav-btn next" id="next-btn" aria-label="Next">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-            </svg>
-          </button>
-        </div>
-
-        <script>
-          const carousel = document.getElementById('neighbourhood-carousel');
-          const nextBtn = document.getElementById('next-btn');
-          const prevBtn = document.getElementById('prev-btn');
-
-          if (carousel && nextBtn && prevBtn) {
-            nextBtn.addEventListener('click', () => {
-              const scrollAmount = carousel.offsetWidth * 0.8;
-              carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-            });
-
-            prevBtn.addEventListener('click', () => {
-              const scrollAmount = carousel.offsetWidth * 0.8;
-              carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-            });
-
-            // Optional: Hide arrows if at start/end
-            carousel.addEventListener('scroll', () => {
-              const scrollLeft = carousel.scrollLeft;
-              const maxScrollLeft = carousel.scrollWidth - carousel.offsetWidth;
-              
-              prevBtn.style.opacity = scrollLeft <= 10 ? '0' : '1';
-              prevBtn.style.pointerEvents = scrollLeft <= 10 ? 'none' : 'auto';
-              
-              nextBtn.style.opacity = scrollLeft >= maxScrollLeft - 10 ? '0' : '1';
-              nextBtn.style.pointerEvents = scrollLeft >= maxScrollLeft - 10 ? 'none' : 'auto';
-            });
-            
-            // Initial state
-            prevBtn.style.opacity = '0';
-            prevBtn.style.pointerEvents = 'none';
-          }
-        </script>
-      </div>
-    </section>
-
-    <!-- CATEGORIES / ATTRACTIONS -->
-    <section class="py-32 bg-[#050B14] border-t border-white/5 px-5">
-      <div class="max-w-7xl mx-auto">
-        <div class="flex items-end justify-between mb-16">
-          <div>
-            <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-4 block">PLAN</span>
-            <h2 class="text-3xl md:text-4xl font-display font-bold text-white">Featured Collections</h2>
-          </div>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {{#each categories}}
-          <a href="{{url}}" class="group glass-card rounded-[2rem] overflow-hidden border border-white/5 flex flex-col shadow-2xl transition-all hover:border-gold/20 hover:-translate-y-1 reveal">
-            <div class="relative aspect-[16/9] overflow-hidden">
-              <img src="{{image}}" alt="{{alt}}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
-              <div class="absolute absolute top-4 right-4 bg-black/60 backdrop-blur-md text-white text-[10px] font-black tracking-widest px-3 py-1.5 rounded-full border border-white/10">
-                {{count}}
-              </div>
+          {{#if itinerary.tip_html}}
+            <div class="editorial-note" style="margin-top:1.5rem;">
+              <strong>{{itinerary.tip_label}}</strong> {{{itinerary.tip_html}}}
             </div>
-            <div class="p-8 flex flex-col flex-grow">
-              <h3 class="text-xl font-display font-bold text-white mb-3 group-hover:text-gold transition-colors">{{title}}</h3>
-              <p class="text-white/50 text-sm mb-6 leading-relaxed">{{description}}</p>
-              <div class="mt-auto pt-4 border-t border-white/5 flex justify-between items-center">
-                <span class="text-white text-xs font-bold uppercase tracking-widest">{{cta}}</span>
-                <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-gold transition-all">
-                  <svg class="w-4 h-4 text-white group-hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-                </div>
-              </div>
+          {{/if}}
+        </div>
+      </section>
+    {{/if}}
+
+    {{#if transport.items.length}}
+      <section id="getting-around" class="section-shell">
+        <div class="shell toolkit-grid">
+          <article class="toolkit-card">
+            <h3>Getting Around</h3>
+            <div class="transport-list">
+              {{#each transport.items}}
+                <div class="transport-item"><strong>{{label}}</strong>{{#if value}}: {{value}}{{else}}{{#if text}} {{text}}{{/if}}{{/if}}</div>
+              {{/each}}
             </div>
-          </a>
-          {{/each}}
+          </article>
+          <article class="toolkit-card">
+            <h3>Before You Go</h3>
+            <p>{{transport.intro}}</p>
+            {{#if transport.tip_html}}
+              <div class="editorial-note"><strong>{{transport.tip_label}}</strong> {{{transport.tip_html}}}</div>
+            {{/if}}
+          </article>
         </div>
-      </div>
-    </section>
+      </section>
+    {{/if}}
 
-    <!-- FAQ -->
-    <section class="py-32 bg-[#02060D] border-t border-white/5">
-      <div class="max-w-3xl mx-auto px-5 text-center">
-        <span class="text-gold text-[10px] font-accent font-black tracking-[0.4em] uppercase mb-4 block">ANSWERS</span>
-        <h2 class="text-4xl font-display font-bold text-white mb-12">Common Questions</h2>
-        <div class="space-y-4 text-left">
-          {{#each faqs}}
-          <details class="glass-card rounded-[2rem] border border-white/5 overflow-hidden group">
-            <summary class="w-full px-8 py-6 flex justify-between items-center text-white outline-none cursor-pointer list-none font-bold">
-              <span>{{q}}</span>
-              <span class="text-gold transition-transform duration-300 group-open:rotate-180">▼</span>
-            </summary>
-            <div class="px-8 pb-8 text-white/60 leading-relaxed">{{a}}</div>
-          </details>
-          {{/each}}
+    {{#if faqs.length}}
+      <section id="faqs" class="section-shell section-shell-muted">
+        <div class="shell shell-narrow">
+          {{> section-heading eyebrow="FAQs" title="Questions travelers ask before they arrive"}}
+          {{> faq-list items=faqs}}
         </div>
-      </div>
-    </section>
+      </section>
+    {{/if}}
 
-    <!-- FINAL CTA -->
-    <section class="py-32 bg-[#050B14] text-center border-t border-white/5">
-      <h2 class="font-display text-5xl md:text-7xl font-bold text-white mb-8">Ready to master<br /><span class="italic font-normal">the city?</span></h2>
-      <a href="/attractions/" class="inline-block bg-brand-500 hover:bg-brand-400 text-white text-[12px] font-black uppercase tracking-widest px-12 py-5 rounded-full transition-all shadow-xl shadow-brand-500/20 active:scale-95 border border-white/10">Explore All Attractions</a>
-    </section>
-
+    {{> cta-band cta_band}}
   </main>
-  
-  {{> footer }}
+
+  {{> footer}}
 
   <script>
-    // Reveal trigger
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', function () {
       const els = document.querySelectorAll('.reveal');
-      const io = new IntersectionObserver(
-        entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }),
-        { threshold: 0.1 }
-      );
-      els.forEach(el => io.observe(el));
+      const io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      els.forEach(function (el) { io.observe(el); });
     });
   </script>
 </body>

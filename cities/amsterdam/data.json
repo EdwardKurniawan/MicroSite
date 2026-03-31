@@ -1,6 +1,60 @@
 {
   "city_url": "/amsterdam/",
   "city_name": "Amsterdam",
+  "theme": {
+    "accent": "#E8601C",
+    "accentDark": "#c44f14",
+    "accentLight": "#fff3ee"
+  },
+  "seo": {
+    "title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
+    "description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems. Skip-the-line tickets included.",
+    "canonical": "https://travelsides.com/amsterdam/",
+    "og": {
+      "title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
+      "description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems.",
+      "image": "https://travelsides.com/amsterdam/images/hero.jpg"
+    },
+    "twitter": {
+      "title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
+      "description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems.",
+      "image": "https://travelsides.com/amsterdam/images/hero.jpg"
+    }
+  },
+  "author": {
+    "name": "Sarah Mitchell",
+    "slug": "sarah-mitchell",
+    "bio": "Sarah covers Amsterdam with a local-first lens: what is genuinely worth your time, what needs advance booking, and how to sequence the city without wasting transit."
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Insider Guide",
+    "title": "10 Best Things To Do in Amsterdam",
+    "tagline": "The definitive local guide — 52 attractions across 10 neighborhoods and 7 categories. Written by someone who actually lives here.",
+    "image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
+    "alt": "Amsterdam canal houses at golden hour"
+  },
+  "navigation": {
+    "local_links": [
+      { "label": "Overview", "url": "#city-overview", "key": "overview" },
+      { "label": "Collections", "url": "#collections", "key": "collections" },
+      { "label": "Neighbourhoods", "url": "#neighbourhoods", "key": "neighbourhoods" },
+      { "label": "Planner", "url": "#plan-your-trip", "key": "planner" }
+    ],
+    "cta": {
+      "label": "Explore Museums",
+      "url": "/amsterdam/museums/"
+    }
+  },
+  "footer": {
+    "brand_name": "Amsterdam",
+    "description": "An independent Amsterdam travel guide with practical booking advice, neighbourhood context, and a sharper editorial point of view than generic tourism roundups.",
+    "newsletter": {
+      "title": "Stay Inner-Circle",
+      "description": "Get seasonal Amsterdam notes, smarter booking windows, and neighbourhood tips without the fluff.",
+      "placeholder": "Your email address",
+      "button_label": "Join"
+    }
+  },
   "footer_categories": [
     { "title": "Museums & Art", "url": "/amsterdam/museums/" },
     { "title": "History & Heritage", "url": "/amsterdam/history-heritage/" },

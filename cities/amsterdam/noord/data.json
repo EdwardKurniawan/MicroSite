@@ -1,5 +1,16 @@
 {
   "title": "Amsterdam Noord",
+  "seo": {
+    "title": "Amsterdam Noord Guide 2026",
+    "description": "A local guide to Amsterdam Noord: ferries, creative wharves, standout venues, and how to turn the district into a half-day or full-day plan.",
+    "canonical": "https://travelsides.com/amsterdam/noord/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Neighbourhood",
+    "title": "Amsterdam Noord",
+    "tagline": "Five minutes across the IJ from Centraal Station — Amsterdam's creative quarter in a former shipyard.",
+    "image": "/amsterdam/images/noord.png"
+  },
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
   "standfirst": "Five minutes across the IJ from Centraal Station — Amsterdam's creative quarter in a former shipyard. Street art the size of buildings, rooftop observation decks, and a beach bar on the waterfront.",
   "hero_image": "/amsterdam/images/noord.png",
