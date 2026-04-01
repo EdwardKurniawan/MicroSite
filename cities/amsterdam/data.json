@@ -7,17 +7,17 @@
     "accentLight": "#fff3ee"
   },
   "seo": {
-    "title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
-    "description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems. Skip-the-line tickets included.",
+    "title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
+    "description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
     "canonical": "https://travelsides.com/amsterdam/",
     "og": {
-      "title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
-      "description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems.",
+      "title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
+      "description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
       "image": "https://travelsides.com/amsterdam/images/hero.jpg"
     },
     "twitter": {
-      "title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
-      "description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems.",
+      "title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
+      "description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
       "image": "https://travelsides.com/amsterdam/images/hero.jpg"
     }
   },
@@ -27,9 +27,9 @@
     "bio": "Sarah covers Amsterdam with a local-first lens: what is genuinely worth your time, what needs advance booking, and how to sequence the city without wasting transit."
   },
   "hero": {
-    "eyebrow": "Amsterdam Insider Guide",
-    "title": "10 Best Things To Do in Amsterdam",
-    "tagline": "The definitive local guide — 52 attractions across 10 neighborhoods and 7 categories. Written by someone who actually lives here.",
+    "eyebrow": "Amsterdam City Guide",
+    "title": "Amsterdam, Planned Properly",
+    "tagline": "Start with the canal ring, book the few attractions that truly sell out, and use the neighbourhoods to decide how the city should feel.",
     "image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
     "alt": "Amsterdam canal houses at golden hour"
   },
@@ -66,11 +66,11 @@
     { "name": "London Insider", "url": "https://london-insider.com" },
     { "name": "Rome Insider", "url": "https://rome-insider.com" }
   ],
-  "meta_title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
-  "meta_description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems. Skip-the-line tickets included.",
+  "meta_title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
+  "meta_description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
   "canonical_url": "https://travelsides.com/amsterdam/",
-  "og_title": "Top 10 Things To Do in Amsterdam (2026 City Guide)",
-  "og_description": "What to do in Amsterdam? Our 2026 local guide covers the top 10 things to do — Anne Frank House, Rijksmuseum, canal cruises & hidden gems.",
+  "og_title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
+  "og_description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
   "og_image": "https://travelsides.com/amsterdam/images/hero.jpg",
   "theme_accent": "#E8601C",
   "theme_accent_dark": "#c44f14",
@@ -82,9 +82,9 @@
   "read_time": "🕐",
   "hero_image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
   "hero_alt": "Amsterdam canal houses at golden hour",
-  "hero_eyebrow": "🇳🇱 Amsterdam Insider Guide",
-  "hero_h1": "10 Best Things To Do in Amsterdam",
-  "hero_tagline": "The definitive local guide — 52 attractions across 10 neighborhoods and 7 categories. Written by someone who actually lives here.",
+  "hero_eyebrow": "Amsterdam City Guide",
+  "hero_h1": "Amsterdam, Planned Properly",
+  "hero_tagline": "Start with the canal ring, book the few attractions that truly sell out, and use the neighbourhoods to decide how the city should feel.",
   "quick_info": [
     {
       "icon": "🌤",
@@ -102,9 +102,9 @@
       "value": "€70 – €150"
     },
     {
-      "icon": "🌍",
-      "label": "UNESCO Heritage",
-      "value": "Canal Ring (since 2010)"
+      "icon": "🎟",
+      "label": "Book First",
+      "value": "Anne Frank House first, Van Gogh second, Keukenhof only in spring."
     },
     {
       "icon": "🚲",
@@ -112,38 +112,43 @@
       "value": "Bike, tram, or on foot"
     },
     {
-      "icon": "🚶",
-      "label": "Canal Ring Walk",
-      "value": "Stroll the UNESCO-listed Herengracht, Keizersgracht & Prinsengracht — free, all day, all year."
-    },
-    {
-      "icon": "🌿",
-      "label": "Vondelpark",
-      "value": "47 hectares of parkland, free open-air theatre (June–Aug), and the city's best people-watching."
-    },
-    {
-      "icon": "🔭",
-      "label": "NEMO Rooftop",
-      "value": "The rooftop terrace of NEMO Science Museum is free to access — one of the best city views."
-    },
-    {
-      "icon": "⛪",
-      "label": "Westerkerk",
-      "value": "Free to enter Amsterdam's tallest church, near the Anne Frank House. Rembrandt is buried here."
-    },
-    {
-      "icon": "🌸",
-      "label": "Bloemenmarkt",
-      "value": "The world's only floating flower market is free to browse. On Singel canal near Koningsplein."
-    },
-    {
       "icon": "⛴",
-      "label": "Free Ferry to Noord",
-      "value": "The GVB ferries behind Centraal Station to Amsterdam Noord run 24/7 and are completely free."
+      "label": "Free Win",
+      "value": "Use the free ferry to Noord at sunset or walk the canal ring before dinner."
     }
   ],
-  "intro_html": "<p>\n            Amsterdam is a small city that doesn't behave like one. <strong>Around 900,000 people live here — yet\n            20 million visitors arrive every year.</strong> The result is a city that somehow stays charming despite\n            itself: canal houses tilting at precarious angles, cyclists who treat red lights as a suggestion, and\n            world-class museums you can walk between in 15 minutes.\n          </p>\n          <p>\n            It's also the city of the Dutch Golden Age — a period when Amsterdam was <strong>the wealthiest place\n            on earth</strong>, trading spices from Indonesia and building the canal ring that still defines the\n            skyline today. That history is everywhere: in the Rijksmuseum's Rembrandts, in the narrow corridors\n            of the Anne Frank House, in the houseboat moored outside your hotel window.\n          </p>\n          <p>\n            I've lived here since 2020. What follows is the guide I wish I'd had when I arrived —\n            <strong>52 attractions worth your time across 6 categories, a day-by-day itinerary, and honest booking advice</strong>\n            you won't find on the official tourism sites. Including which queues actually move, and which don't.\n          </p>",
-  "category_intro": "52 attractions, tours, and experiences across 6 categories — each with full reviews, booking tips, and skip-the-line links.",
+  "planning_highlights": [
+    {
+      "kicker": "Book First",
+      "title": "Lock the unforgiving tickets before you do anything else",
+      "description": "Anne Frank House is the only attraction that can completely shape your dates. Van Gogh Museum is next. Everything else is easier to work around.",
+      "link_label": "See the history picks",
+      "url": "/amsterdam/history-heritage/"
+    },
+    {
+      "kicker": "Choose A Base",
+      "title": "Pick a neighbourhood based on evenings, not landmarks",
+      "description": "The canal ring is elegant and central, De Pijp is best for food and late dinners, and Noord makes sense only if you like a quieter, creative edge.",
+      "link_label": "Compare districts",
+      "url": "/amsterdam/neighbourhoods/"
+    },
+    {
+      "kicker": "Use The Water",
+      "title": "One canal cruise is enough if you choose the right slot",
+      "description": "Daylight cruises are best for orientation, while an evening open-boat cruise is better if you want atmosphere. Do not book both unless you love boats.",
+      "link_label": "Compare cruise styles",
+      "url": "/amsterdam/canal-cruises/"
+    },
+    {
+      "kicker": "Leave Room",
+      "title": "The city works best when one block of the day stays unbooked",
+      "description": "Amsterdam rewards wandering more than over-scheduling. Save a loose afternoon for the Jordaan, the nine streets, or a ferry ride to Noord when the weather turns good.",
+      "link_label": "Browse neighbourhood routes",
+      "url": "/amsterdam/tours/"
+    }
+  ],
+  "intro_html": "<p>Amsterdam rewards restraint. The city is compact enough to walk, but dense enough that a bad booking order can still waste half a day. <strong>The trick is not seeing everything. It is seeing the right mix of canals, museums, neighbourhoods, and one or two booked experiences without pinballing across town.</strong></p><p>Its great advantage is concentration. Golden Age canal houses, heavyweight museums, excellent restaurants, and genuinely distinct neighbourhoods all sit within a city that still behaves best at walking pace. Once you understand where to base yourself and which attractions actually require advance planning, Amsterdam becomes unusually easy to do well.</p><p>This guide is built for that version of the trip: strong first-timer choices, honest booking advice, and enough neighbourhood context to make the city feel edited rather than overwhelming.</p>",
+  "category_intro": "Start with the lens that will shape your trip most: museums, canal time, neighbourhood wandering, food, or a day outside the centre. Each collection is built to help you choose, not just browse.",
   "categories": [
     {
       "url": "/amsterdam/museums/",
@@ -155,40 +160,22 @@
       "cta": "Explore Museums"
     },
     {
-      "url": "/amsterdam/history-heritage/",
-      "image": "https://images.unsplash.com/photo-1759088141496-10d6cb1edc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIaXN0b3J5JTIwJTI2JTIwSGVyaXRhZ2UlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc0fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-      "alt": "Anne Frank House on Prinsengracht canal",
-      "count": "8 sites",
-      "title": "History & Heritage",
-      "description": "Anne Frank House, the Royal Palace, Begijnhof, and hidden 17th-century churches in plain sight. Amsterdam's history is darker and stranger than you expect.",
-      "cta": "Explore History"
-    },
-    {
       "url": "/amsterdam/canal-cruises/",
       "image": "https://images.unsplash.com/photo-1694634287698-2d73fef678c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxDYW5hbCUyMENydWlzZXMlMjAlMjYlMjBXYXRlciUyMEFtc3RlcmRhbSUyMGNpdHklMjB2aWV3fGVufDB8MHx8fDE3NzQ0NTQxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
       "alt": "Amsterdam canal cruise at golden hour",
       "count": "8 cruise options",
       "title": "Canal Cruises & Water",
-      "description": "Amsterdam has more canals than Venice. Open boat, classic glass-top, evening cruise, or the pancake boat — you need to be on the water at least once.",
+      "description": "Open boat, glass-roof, evening cruise, or simple ferry detour — the water changes how Amsterdam feels, and one well-chosen cruise is usually enough.",
       "cta": "See All Cruises"
     },
     {
-      "url": "/amsterdam/nature-day-trips/",
-      "image": "https://images.unsplash.com/photo-1658414507049-7618215b8d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOYXR1cmUlMkMlMjBGbG93ZXJzJTIwJTI2JTIwRGF5JTIwVHJpcHMlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-      "alt": "Keukenhof tulip fields in bloom near Amsterdam",
-      "count": "9 options",
-      "title": "Nature, Flowers & Day Trips",
-      "description": "Keukenhof's 7 million tulips, Vondelpark, Artis Zoo, and half-day trips to Delft, Rotterdam, and a medieval castle 20 minutes from the city centre.",
-      "cta": "Plan a Day Out"
-    },
-    {
-      "url": "/amsterdam/experiences/",
-      "image": "https://images.unsplash.com/photo-1650469332317-76d182406234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-      "alt": "Heineken Experience Amsterdam brewery",
-      "count": "9 experiences",
-      "title": "Experiences & Entertainment",
-      "description": "Swing 100m above the city, taste a century of Heineken, or step inside an immersive light show. The non-museum bucket list — for first-timers and repeat visitors alike.",
-      "cta": "Explore Experiences"
+      "url": "/amsterdam/history-heritage/",
+      "image": "https://images.unsplash.com/photo-1759088141496-10d6cb1edc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIaXN0b3J5JTIwJTI2JTIwSGVyaXRhZ2UlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc0fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "alt": "Anne Frank House on Prinsengracht canal",
+      "count": "8 sites",
+      "title": "History & Heritage",
+      "description": "Anne Frank House, the Royal Palace, Begijnhof, and hidden churches in plain sight. This is the collection that explains what Amsterdam built and what it survived.",
+      "cta": "Explore History"
     },
     {
       "url": "/amsterdam/tours/",
@@ -196,7 +183,7 @@
       "alt": "Jordaan neighbourhood Amsterdam street",
       "count": "9 tours & walks",
       "title": "Neighbourhoods & Tours",
-      "description": "The Jordaan, De Pijp, Amsterdam Noord, and the canal ring Centrum — each neighbourhood is a different city. Guided walks, bike tours, and self-guided city games.",
+      "description": "Jordaan, De Pijp, Noord, and the canal ring all reward different moods. Use this section when you want the city to feel local instead of checklist-driven.",
       "cta": "Browse Tours"
     },
     {
@@ -205,8 +192,26 @@
       "alt": "De Kas Greenhouse Restaurant Amsterdam",
       "count": "10 Exceptional Restaurants",
       "title": "Food & Fine Dining",
-      "description": "From dining in a greenhouse at De Kas to a rotating tower at Moon. Amsterdam's food scene is about more than just pancakes — it's a high-concept experience.",
+      "description": "From greenhouse dining at De Kas to wine bars in Oost and modern Dutch tasting menus, this is where Amsterdam gets more interesting after the museums close.",
       "cta": "See Top 10 Restaurants"
+    },
+    {
+      "url": "/amsterdam/experiences/",
+      "image": "https://images.unsplash.com/photo-1650469332317-76d182406234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "alt": "Heineken Experience Amsterdam brewery",
+      "count": "9 experiences",
+      "title": "Experiences & Entertainment",
+      "description": "Observation decks, immersive shows, Heineken, and high-energy crowd-pleasers. This is the non-museum bucket list for first-timers and mixed groups.",
+      "cta": "Explore Experiences"
+    },
+    {
+      "url": "/amsterdam/nature-day-trips/",
+      "image": "https://images.unsplash.com/photo-1658414507049-7618215b8d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxOYXR1cmUlMkMlMjBGbG93ZXJzJTIwJTI2JTIwRGF5JTIwVHJpcHMlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "alt": "Keukenhof tulip fields in bloom near Amsterdam",
+      "count": "9 options",
+      "title": "Nature, Flowers & Day Trips",
+      "description": "Keukenhof in spring, Vondelpark, Artis Zoo, and easy escapes when you want more sky, quieter streets, or a break from the canal core.",
+      "cta": "Plan a Day Out"
     },
     {
       "url": "/amsterdam/neighbourhoods/",
@@ -214,7 +219,7 @@
       "alt": "Amsterdam Neighbourhoods",
       "count": "10 Districts",
       "title": "All Neighbourhoods",
-      "description": "From the historic Canal Ring to the creative NDSM wharf in Noord. Explore all 10 unique districts that make Amsterdam the city it is.",
+      "description": "Use the district-by-district guide when you are choosing where to stay, where to eat, or which part of Amsterdam should get your unstructured time.",
       "cta": "Explore Districts"
     }
   ],
@@ -222,7 +227,83 @@
   "itinerary_intro": "Three days is the ideal first visit. Here's how to see the best of Amsterdam without rushing — structured around walking distance and opening times to minimise transit.",
   "itinerary_tip_bold": "Booking order:",
   "itinerary_tip_html": "Book Anne Frank House first (it sells out fastest), then Van Gogh Museum, then Keukenhof if visiting in spring. Everything else can be booked 24–48 hours ahead, though earlier is always better in July–August.",
-  "itinerary": [],
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "items": [
+        {
+          "time": "09:00",
+          "title": "Anne Frank House or Jordaan start",
+          "description": "If you have Anne Frank tickets, anchor the day around them. Otherwise begin in the Jordaan and walk into the canal ring before crowds build."
+        },
+        {
+          "time": "12:30",
+          "title": "Canal-side lunch and the nine streets",
+          "description": "Keep midday flexible. This is the best window for a slow lunch, boutique browsing, and letting the canal ring do the work."
+        },
+        {
+          "time": "15:00",
+          "title": "Canal cruise for orientation",
+          "description": "A daylight cruise works best on day one because it shows how the city fits together before you start zig-zagging on foot."
+        },
+        {
+          "time": "19:00",
+          "title": "Dinner in Jordaan or De Pijp",
+          "description": "Stay compact on the first night. Pick atmosphere over distance and save cross-city dinners for later."
+        }
+      ]
+    },
+    {
+      "day": "Day 2",
+      "items": [
+        {
+          "time": "09:30",
+          "title": "Museumplein block",
+          "description": "Do one major museum properly. Rijksmuseum plus a short stop elsewhere beats trying to rush Rijksmuseum, Van Gogh, and Moco in the same morning."
+        },
+        {
+          "time": "13:00",
+          "title": "Lunch in De Pijp",
+          "description": "Walk or tram south to De Pijp for market snacks, a real lunch, and a less polished version of the city."
+        },
+        {
+          "time": "16:00",
+          "title": "Choose your second act",
+          "description": "Pick one: Heineken Experience, Vondelpark, or a return to the canals for shopping and café time. This should match your pace, not a checklist."
+        },
+        {
+          "time": "20:00",
+          "title": "Evening canal cruise or tasting-menu dinner",
+          "description": "If you skipped a cruise on day one, this is the ideal slot. Otherwise use the night for a stronger restaurant booking."
+        }
+      ]
+    },
+    {
+      "day": "Day 3",
+      "items": [
+        {
+          "time": "09:30",
+          "title": "Pick your final-day lane",
+          "description": "Go to Noord for creative space and skyline views, Plantage for calmer culture, or a half-day trip if you want flowers, windmills, or more countryside."
+        },
+        {
+          "time": "13:00",
+          "title": "Long lunch or market stop",
+          "description": "Leave the middle of the day open enough to follow the weather. Amsterdam improves when the schedule softens."
+        },
+        {
+          "time": "15:30",
+          "title": "Last museum or neighbourhood wander",
+          "description": "Use this slot for whatever was still nagging at you: Rembrandthuis, a ferry to Noord, or one more slow canal walk."
+        },
+        {
+          "time": "19:30",
+          "title": "Finish somewhere with a view",
+          "description": "A waterside bar, rooftop, or simple canal-side dinner gives the trip a better ending than one more rushed attraction."
+        }
+      ]
+    }
+  ],
   "neighbourhoods": [
     {
       "url": "/amsterdam/plantage/",

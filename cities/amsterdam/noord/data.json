@@ -8,11 +8,11 @@
   "hero": {
     "eyebrow": "Amsterdam Neighbourhood",
     "title": "Amsterdam Noord",
-    "tagline": "Five minutes across the IJ from Centraal Station — Amsterdam's creative quarter in a former shipyard.",
+    "tagline": "The easiest day-trip-feeling district in the city, with ferries, creative wharves, big views, and room to breathe.",
     "image": "/amsterdam/images/noord.png"
   },
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
-  "standfirst": "Five minutes across the IJ from Centraal Station — Amsterdam's creative quarter in a former shipyard. Street art the size of buildings, rooftop observation decks, and a beach bar on the waterfront.",
+  "standfirst": "The easiest day-trip-feeling district in the city, with ferries, creative wharves, big views, and room to breathe.",
   "hero_image": "/amsterdam/images/noord.png",
   "intro_html": "<p class=\" mb-4\">Amsterdam Noord was, for most of its history, the city Amsterdam pretended didn't exist. The IJ waterway kept it separate from the historic centre — no bridges, no trams, just the free ferry that workers took to the shipyards every morning. The NDSM wharf (Nederlandsche Dok en Scheepsbouw Maatschappij) employed 10,000 people at its peak. When the last shipyard closed in 1984, it took most of the neighbourhood's economy with it.</p><p class=\" mb-4\"><strong>Then the artists arrived.</strong> In the 1990s, squatters took over the abandoned NDSM buildings. The city, unable to evict them, eventually formalised the arrangement. Studios, cultural venues, and creative businesses followed. Today the NDSM wharf is Amsterdam's most concentrated creative district — home to Greenpeace's international headquarters, MTV Netherlands, and some of the most significant street art in Europe.</p><p class=\" mb-4\">Noord is still in transition. The free ferry from Centraal Station takes five minutes and delivers you to a neighbourhood that feels genuinely different from the tourist-dense historic centre. The views back across the IJ — the water, the station, the medieval city behind it — are some of the best in Amsterdam. Come for a half-day. Stay for a full one.</p>",
   "facts": [
@@ -27,9 +27,9 @@
       "value": "North of the IJ waterway"
     },
     {
-      "icon": "⛴",
-      "label": "Getting there",
-      "value": "Free GVB ferry from Centraal"
+      "icon": "🌉",
+      "label": "Best for",
+      "value": "Creative venues & skyline views"
     },
     {
       "icon": "⏱",

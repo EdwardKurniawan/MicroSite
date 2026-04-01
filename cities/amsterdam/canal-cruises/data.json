@@ -1,9 +1,26 @@
 {
   "title": "Amsterdam Canal Cruises — Every Option Compared (2026)",
+  "seo": {
+    "title": "Amsterdam Canal Cruises — Every Option Compared (2026)",
+    "description": "Every major Amsterdam canal cruise compared honestly: classic boats, open boats, evening cruises, pancake boats, private hire, and which one is actually right for your trip.",
+    "canonical": "https://travelsides.com/amsterdam/canal-cruises/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Canal Cruises",
+    "title": "Amsterdam Canal Cruises",
+    "tagline": "Choose one good canal experience, not three average ones: classic, open boat, evening, family-friendly, or private hire.",
+    "image": "https://images.unsplash.com/photo-1759088141454-d65a38329db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBDYW5hbCUyMENydWlzZXMlMjAlRTIlODAlOTQlMjBFdmVyeSUyME9wdGlvbiUyMENvbXBhcmVkJTIwJTI4MjAyNiUyOSUyMEFtc3RlcmRhbSUyMGFyY2hpdGVjdHVyZSUyMGhpZ2glMjBxdWFsaXR5fGVufDB8MHx8fDE3NzQ0NTQxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "Explore Collections",
+      "url": "/amsterdam/#collections"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Canal Cruises",
   "standfirst": "",
   "hero_image": "https://images.unsplash.com/photo-1759088141454-d65a38329db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBDYW5hbCUyMENydWlzZXMlMjAlRTIlODAlOTQlMjBFdmVyeSUyME9wdGlvbiUyMENvbXBhcmVkJTIwJTI4MjAyNiUyOSUyMEFtc3RlcmRhbSUyMGFyY2hpdGVjdHVyZSUyMGhpZ2glMjBxdWFsaXR5fGVufDB8MHx8fDE3NzQ0NTQxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-  "intro_html": "<p class=\" mb-4\">The canals are Amsterdam's defining feature — 165 of them, totalling 100km, dug by hand between 1613 and 1665. <strong>You should be on the water at least once.</strong> The question is which type of cruise makes sense for your trip.</p><p class=\" mb-4\">Below are every major canal cruise option in Amsterdam, compared honestly. Short answer: the classic 1-hour glass-roof cruise is fine for everyone; the open boat is better in summer; the evening cruise is most atmospheric; private boat hire is most memorable for groups.</p>",
+  "intro_html": "<p class=\" mb-4\">You do not need multiple canal cruises to “do Amsterdam properly.” <strong>You need one cruise that matches the kind of trip you want: orientation, atmosphere, family ease, or a more local-feeling private boat.</strong></p><p class=\" mb-4\">The canals are the city’s defining architecture — 165 waterways, 1,500 bridges, and a street plan that makes the most sense once you have seen it from water level. The choices below are less about whether to cruise and more about which format is actually right for your day.</p>",
   "attractions": [
     {
       "id": "classic-canal-cruise",
@@ -142,9 +159,56 @@
       "price": "From €6"
     }
   ],
-  "facts": [],
-  "todos": [],
+  "facts": [
+    {
+      "icon": "🕐",
+      "label": "Best first cruise",
+      "value": "Classic 1-hour daytime cruise"
+    },
+    {
+      "icon": "🌤",
+      "label": "Best weather play",
+      "value": "Open boat only on warm, dry days"
+    },
+    {
+      "icon": "🌙",
+      "label": "Best atmosphere",
+      "value": "Evening cruise after 7pm"
+    },
+    {
+      "icon": "👥",
+      "label": "Best for groups",
+      "value": "Private electric boat hire"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Decide what the cruise is for",
+      "body": "Use a daytime classic cruise for orientation, an evening cruise for mood, and a private boat only if the social part matters as much as the sightseeing."
+    },
+    {
+      "title": "Avoid overbooking the water",
+      "body": "Most travelers only need one canal experience. Spend the second slot on a neighbourhood, museum, or dinner instead."
+    },
+    {
+      "title": "Choose departure points deliberately",
+      "body": "Leidseplein and Anne Frank House departures usually drop you into prettier canals faster than the crowded Centraal Station launches."
+    }
+  ],
   "foods": [],
   "products": [],
-  "getting_there": []
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Most worthwhile departure points are walkable from the canal ring, Jordaan, or Leidseplein. Walking often beats taking a tram for short central hops."
+    },
+    {
+      "icon": "🚋",
+      "text": "If you are starting near Museumplein or De Pijp, tram toward Leidseplein or the Anne Frank House area is usually the smoothest connection."
+    },
+    {
+      "icon": "💡",
+      "text": "For evening cruises, arrive early enough to avoid rushing the departure. Canal piers can be more chaotic than the cruise itself."
+    }
+  ]
 }

@@ -1,7 +1,24 @@
 {
   "title": "Westerpark",
+  "seo": {
+    "title": "Westerpark",
+    "description": "A guide to Westerpark: industrial cultural venues, green open space, nightlife, and the west-side district where Victorian brickwork meets creative energy.",
+    "canonical": "https://travelsides.com/amsterdam/westerpark/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Neighbourhood",
+    "title": "Westerpark",
+    "tagline": "The west-side district for industrial heritage, park time, creative venues, and one of Amsterdam's best day-to-night shifts.",
+    "image": "/amsterdam/images/westerpark.png"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Districts",
+      "url": "/amsterdam/neighbourhoods/"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
-  "standfirst": "A massive Victorian gasworks converted into a cultural park — where industrial brick architecture meets wildflower meadows, indie cinemas, and techno clubs.",
+  "standfirst": "The west-side district for industrial heritage, park time, creative venues, and one of Amsterdam's best day-to-night shifts.",
   "hero_image": "/amsterdam/images/westerpark.png",
   "intro_html": "<p class=\" mb-4\">Westerpark is a story of two halves. On one side is a traditional, 19th-century residential neighborhood—red-brick houses, quiet canal-side walks, and local cafes. On the other is the Westergasfabriek, a former city gasworks built in the 1880s that was once the energy heart of Amsterdam. When the factory closed in 1967, it left behind a toxic landscape of contaminated soil and empty coal sheds.</p><p class=\" mb-4\">The city's response was visionary. Instead of demolishing the historic industrial buildings, they were meticulously restored and surrounded by a vast, wild-green park. <strong>The coal storage units became a techno club, the purification plant became a luxury cinema, and the gas-holding tanks became the Fabrique des Lumières</strong>—a massive digital art exhibition space.</p><p class=\" mb-4\">Westerpark is where Amsterdammers come to breathe. It’s less polished than the Vondelpark, more industrial, and significantly more creative. It feels like a neighborhood that actually belongs to the people who live here—a place of morning coffee, weekend markets, and late-night dancing among the Victorian brickwork.</p>",
   "facts": [

@@ -1,9 +1,26 @@
 {
   "title": "Amsterdam Experiences & Entertainment (2026)",
+  "seo": {
+    "title": "Amsterdam Experiences & Entertainment (2026)",
+    "description": "The non-museum Amsterdam shortlist: skyline swings, immersive attractions, brewery experiences, and entertainment that is actually worth the time.",
+    "canonical": "https://travelsides.com/amsterdam/experiences/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Experiences",
+    "title": "Amsterdam Experiences & Entertainment",
+    "tagline": "The non-museum shortlist that is actually worth your time, whether you want skyline views, a rainy-day save, or a high-energy evening plan.",
+    "image": "https://images.unsplash.com/photo-1611355656374-dae2ee0f09df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjAlMjgyMDI2JTI5JTIwQW1zdGVyZGFtJTIwYXJjaGl0ZWN0dXJlJTIwaGlnaCUyMHF1YWxpdHl8ZW58MHwwfHx8MTc3NDQ1NDE5M3ww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See Collections",
+      "url": "/amsterdam/#collections"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Experiences",
   "standfirst": "",
   "hero_image": "https://images.unsplash.com/photo-1611355656374-dae2ee0f09df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxBbXN0ZXJkYW0lMjBFeHBlcmllbmNlcyUyMCUyNiUyMEVudGVydGFpbm1lbnQlMjAlMjgyMDI2JTI5JTIwQW1zdGVyZGFtJTIwYXJjaGl0ZWN0dXJlJTIwaGlnaCUyMHF1YWxpdHl8ZW58MHwwfHx8MTc3NDQ1NDE5M3ww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
-  "intro_html": "<p class=\" mb-4\">Not every great afternoon in Amsterdam involves a 17th-century painting. The experiences below are the non-museum bucket list — things to do that are genuinely worth your time but are not about art history or WWII.</p><p class=\" mb-4\"><strong>The Heineken Experience and A'DAM Lookout are the two most popular</strong>, and for good reason — both deliver exactly what they promise. The others are more niche but excellent for the right visitor. All are bookable online in advance.</p>",
+  "intro_html": "<p class=\" mb-4\">Not every strong Amsterdam plan needs another museum. Some days want a skyline, a ferry ride, a comedy night, or something immersive enough to reset the rhythm of the trip. <strong>This page is for those slots.</strong></p><p class=\" mb-4\">The best experiences here are the ones that clearly earn their place: A'DAM Lookout for views, Heineken for an easy De Pijp afternoon, Boom Chicago for an evening, and the Noord pairings when you want a whole district built around one ticket.</p>",
   "attractions": [
     {
       "id": "heineken-experience",
@@ -159,9 +176,56 @@
       "price": "From €17.50"
     }
   ],
-  "facts": [],
-  "todos": [],
+  "facts": [
+    {
+      "icon": "🌧",
+      "label": "Best rainy-day page",
+      "value": "This is the fallback collection"
+    },
+    {
+      "icon": "🌇",
+      "label": "Best view",
+      "value": "A'DAM Lookout"
+    },
+    {
+      "icon": "🍺",
+      "label": "Best easy pairing",
+      "value": "Heineken + De Pijp"
+    },
+    {
+      "icon": "🎭",
+      "label": "Best evening option",
+      "value": "Boom Chicago"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Use this page to solve a specific gap in the itinerary",
+      "body": "These experiences work best when you know what you need: a weather backup, a group-friendly activity, a skyline moment, or a post-museum evening."
+    },
+    {
+      "title": "Build around neighbourhood clusters",
+      "body": "Pair A'DAM Lookout with THIS IS HOLLAND or Nxt Museum in Noord, and Heineken with a De Pijp dinner rather than treating each ticket as a one-off trip."
+    },
+    {
+      "title": "Keep your standards high",
+      "body": "Skip novelty just because it is available. Amsterdam has enough good options that every paid experience should clearly earn the time."
+    }
+  ],
   "foods": [],
   "products": [],
-  "getting_there": []
+  "getting_there": [
+    {
+      "icon": "⛴",
+      "text": "Noord experiences all begin with the free ferry behind Centraal, which makes them easy to stack into one half-day."
+    },
+    {
+      "icon": "🚋",
+      "text": "Heineken, Fabrique des Lumières, and central indoor attractions are all easy by tram if the weather turns quickly."
+    },
+    {
+      "icon": "🌙",
+      "text": "For evening entertainment, aim to arrive early enough for a drink nearby instead of rushing straight into the show."
+    }
+  ]
 }

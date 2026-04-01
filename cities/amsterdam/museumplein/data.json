@@ -1,7 +1,24 @@
 {
   "title": "Museumplein",
+  "seo": {
+    "title": "Museumplein",
+    "description": "A guide to Museumplein: the Rijksmuseum, Van Gogh, Stedelijk, luxury retail, and the polished cultural core of Amsterdam.",
+    "canonical": "https://travelsides.com/amsterdam/museumplein/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Neighbourhood",
+    "title": "Museumplein",
+    "tagline": "The district to choose for major museums, concert nights, and Amsterdam at its most polished and cultural.",
+    "image": "/amsterdam/images/museums.jpg"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Districts",
+      "url": "/amsterdam/neighbourhoods/"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
-  "standfirst": "Amsterdam's high-culture hub — home to the big three museums, the royal concert hall, and the city's highest concentration of diamonds and designer boutiques.",
+  "standfirst": "The district to choose for major museums, concert nights, and Amsterdam at its most polished and cultural.",
   "hero_image": "/amsterdam/images/museums.jpg",
   "intro_html": "<p class=\" mb-4\">For most of its history, Museumplein was just a piece of marshy land outside the city walls. It wasn't until the late 19th century that Amsterdam decided to build its grand Rijksmuseum here. The location was chosen intentionally to bridge the medieval city with the new, wealthy southern districts. Today, it is the city's cultural front lawn — a vast, grass-carpeted square anchored by three of the world's most significant art institutions.</p><p class=\" mb-4\">In the winter, the square turns into a Christmas village with an ice rink and festive markets. In the summer, the lawns are covered with picnickers and sunbathers. <strong>Behind the massive museum facades lies the Spiegelkwartier (Mirror Quarter)</strong>, the historic heart of the Dutch antiques trade, where over 70 galleries specialize in everything from 17th-century porcelain to avant-garde contemporary art.</p><p class=\" mb-4\">Museumplein is where Amsterdam’s Golden Age meets its modern ambitions. It is sophisticated, expensive, and undeniably impressive. Spend the morning in the galleries, the afternoon in the boutiques, and the evening at the Royal Concertgebouw.</p>",
   "facts": [
@@ -17,8 +34,8 @@
     },
     {
       "icon": "🏛",
-      "label": "Main Draw",
-      "value": "World-class museums"
+      "label": "Best for",
+      "value": "Museums & classical music"
     },
     {
       "icon": "⏱",

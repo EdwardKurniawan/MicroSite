@@ -8,6 +8,7 @@
   <div class="editorial-card-body">
     {{#if category}}<span class="editorial-kicker">{{category}}</span>{{/if}}
     <h3>{{name}}</h3>
+    {{#if hook}}<p class="editorial-hook">{{hook}}</p>{{/if}}
     {{#if metas}}
       <div class="meta-row">{{#each metas}}<span>{{this}}</span>{{/each}}</div>
     {{/if}}
@@ -17,6 +18,8 @@
       {{#if price}}<span class="price-chip">{{price}}</span>{{/if}}
       {{#if booking_url}}
         <a href="{{booking_url}}" class="button-link">Book Tickets</a>
+      {{else if url}}
+        <a href="{{url}}" class="button-link button-link-secondary">{{#if cta}}{{cta}}{{else}}Open Guide{{/if}}</a>
       {{else}}
         <a href="#plan-your-trip" class="button-link button-link-secondary">Plan This Stop</a>
       {{/if}}

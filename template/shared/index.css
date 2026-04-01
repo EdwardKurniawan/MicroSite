@@ -363,11 +363,18 @@ a {
   gap: 1.3rem;
 }
 
+.playbook-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.3rem;
+}
+
 .story-card,
 .editorial-card,
 .itinerary-card,
 .toolkit-card,
-.faq-item {
+.faq-item,
+.playbook-card {
   overflow: hidden;
   border-radius: 1.6rem;
 }
@@ -417,12 +424,36 @@ a {
 .story-body h3,
 .editorial-card-body h3,
 .toolkit-card h3,
+.playbook-card h3,
 .sidebar-title,
 .cta-title {
   margin: 0 0 0.8rem;
   font-family: var(--font-display);
   font-size: clamp(1.3rem, 2vw, 2rem);
   line-height: 1.15;
+}
+
+.playbook-card {
+  padding: 1.4rem;
+  border: 1px solid var(--border-soft);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.14), transparent 45%);
+  box-shadow: var(--shadow-panel);
+}
+
+.playbook-card p {
+  margin: 0;
+  color: var(--copy-muted);
+  line-height: 1.7;
+}
+
+.editorial-hook {
+  margin: 0 0 0.9rem;
+  color: var(--foreground);
+  font-size: 1rem;
+  line-height: 1.65;
+  font-weight: 600;
 }
 
 .story-link {

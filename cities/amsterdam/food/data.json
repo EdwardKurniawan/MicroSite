@@ -1,9 +1,26 @@
 {
   "title": "Amsterdam's Top 10 Exceptional Restaurants (2026)",
+  "seo": {
+    "title": "Amsterdam's Top 10 Exceptional Restaurants (2026)",
+    "description": "The Amsterdam food guide for experience dining: greenhouse restaurants, island dinners, rotating towers, and the standout tables worth building an evening around.",
+    "canonical": "https://travelsides.com/amsterdam/food/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Food Guide",
+    "title": "Amsterdam's Top 10 Exceptional Restaurants",
+    "tagline": "The restaurants worth building an evening around, where setting, ritual, and pacing matter as much as what hits the table.",
+    "image": "/amsterdam/images/de-kas.png"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See City Highlights",
+      "url": "/amsterdam/"
+    }
+  },
   "eyebrow": "🍴 Amsterdam Food Guide",
   "standfirst": "Amsterdam's culinary scene has moved far beyond stroopwafels. Today, the city specializes in 'experience dining' — from floating sea platforms to high-tech greenhouses.",
   "hero_image": "/amsterdam/images/de-kas.png",
-  "intro_html": "<p class=\"mb-4\">If you want a standard meal, Amsterdam is full of them. But if you want a <strong>sensory experience</strong> that you'll remember a year from now, you need to know where to look. The city’s best restaurants aren't always on the main canals; they're in repurposed industrial towers, on private islands, and inside historic greenhouses.</p><p class=\"mb-4\">This curated list focuses on the 'Top 10 Exceptional Experiences' — places where the architecture, the atmosphere, and the ritual of dining are just as important as the food on the plate.</p>",
+  "intro_html": "<p class=\"mb-4\">Amsterdam is easy to eat in and harder to eat memorably in. <strong>The most worthwhile tables are not necessarily the most formal ones; they are the places where the room, the route there, and the mood of the evening all work together.</strong></p><p class=\"mb-4\">This list is for travelers who want dinner to feel like part of the trip rather than a gap between attractions. Use it when you are deciding where to spend your best evening, not where to grab the nearest reservation.</p>",
   "attractions": [
     {
       "id": "de-kas",
@@ -176,9 +193,56 @@
       "price": "Tasting Menu from €150"
     }
   ],
-  "facts": [],
-  "todos": [],
+  "facts": [
+    {
+      "icon": "🌙",
+      "label": "Best use",
+      "value": "One strong dinner reservation"
+    },
+    {
+      "icon": "📍",
+      "label": "Best dinner areas",
+      "value": "Oost, Noord, Jordaan, Oud-West"
+    },
+    {
+      "icon": "🎟",
+      "label": "Book ahead",
+      "value": "De Kas, Vuurtoreneiland, Vinkeles"
+    },
+    {
+      "icon": "🍷",
+      "label": "Best pace",
+      "value": "Treat dinner as the evening plan"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Choose the feeling before you choose the cuisine",
+      "body": "A greenhouse lunch, island ritual, harbor platform, or canal-ring tasting room all create different nights. Start with the mood you want."
+    },
+    {
+      "title": "Reserve the one dinner that matters most",
+      "body": "You do not need every meal to be ambitious. One thoughtful booking and simpler lunches is usually the right balance in Amsterdam."
+    },
+    {
+      "title": "Use neighbourhood logic, not just restaurant rankings",
+      "body": "Pair De Pijp restaurants with the Heineken area, Noord dinners with a sunset ferry, and Jordaan or canal-ring tables with an evening walk."
+    }
+  ],
   "foods": [],
   "products": [],
-  "getting_there": []
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Canal ring, Jordaan, and Oud-West dinners are often easiest on foot, especially if you want the walk home to feel part of the evening."
+    },
+    {
+      "icon": "⛴",
+      "text": "For Noord reservations, build in the ferry crossing from Centraal and give yourself a little buffer before the table time."
+    },
+    {
+      "icon": "🚋",
+      "text": "Oost and De Pijp are straightforward by tram; they work well when you want a serious dinner outside the most tourist-dense streets."
+    }
+  ]
 }

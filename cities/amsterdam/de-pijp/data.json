@@ -1,7 +1,24 @@
 {
   "title": "De Pijp",
+  "seo": {
+    "title": "De Pijp",
+    "description": "A guide to De Pijp, Amsterdam’s food capital: Albert Cuyp Market, layered immigrant food culture, great bars, and the district that still resists polish.",
+    "canonical": "https://travelsides.com/amsterdam/de-pijp/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Neighbourhood",
+    "title": "De Pijp",
+    "tagline": "The district to choose for market lunches, late dinners, and Amsterdam's most layered immigrant food culture.",
+    "image": "/amsterdam/images/de_pijp.png"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Districts",
+      "url": "/amsterdam/neighbourhoods/"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
-  "standfirst": "Amsterdam's food capital and most multicultural neighbourhood — where the Albert Cuyp Market has run every weekday since 1905 and the best dinner in the city costs €14.",
+  "standfirst": "The district to choose for market lunches, late dinners, and Amsterdam's most layered immigrant food culture.",
   "hero_image": "/amsterdam/images/de_pijp.png",
   "intro_html": "<p class=\" mb-4\">De Pijp was built fast and cheap in the late 19th century to house Amsterdam's growing working class. The streets were laid out in a rigid grid — long, narrow blocks that gave the neighbourhood its name: \"the pipe.\" The apartments were small, the ceilings low, and the families large. <strong>The Albert Cuyp Market started in 1905 because the residents couldn't afford shop prices.</strong> It has run on the same street every weekday since.</p><p class=\" mb-4\">What makes De Pijp unusual is the specific sequence of communities that settled there. Surinamese and Antillean families arrived in the 1960s and 70s. Moroccan and Turkish communities followed. Then, in the 1990s, art students and young professionals discovered the cheap rents. Today, the neighbourhood runs on that layering — you can eat roti and bara on one block, Moroccan pastilla on the next, and end the night at a craft beer bar in a converted Victorian swimming pool.</p><p class=\" mb-4\">De Pijp resists being tidied up. The Albert Cuyp is still genuinely working, not a tourist market — Amsterdammers shop here. The gentrification is real, but incomplete. It's the neighbourhood most likely to surprise you.</p>",
   "facts": [

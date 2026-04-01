@@ -1,7 +1,24 @@
 {
   "title": "The Jordaan",
+  "seo": {
+    "title": "The Jordaan",
+    "description": "A local guide to the Jordaan: hidden courtyards, canal streets, brown cafés, market mornings, and the version of Amsterdam most people hope to find.",
+    "canonical": "https://travelsides.com/amsterdam/jordaan/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Neighbourhood",
+    "title": "The Jordaan",
+    "tagline": "The district to choose for canal walks, hidden courtyards, market mornings, and Amsterdam at its most effortlessly beautiful.",
+    "image": "https://images.unsplash.com/photo-1692702518020-dd541f706b2c?q=80&w=2070&auto=format&fit=crop"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Districts",
+      "url": "/amsterdam/neighbourhoods/"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Neighbourhood",
-  "standfirst": "Amsterdam's most beloved neighbourhood — narrow canals, 17th-century houses, hidden courtyards, and the kind of brown cafés where you lose track of an afternoon.",
+  "standfirst": "The district to choose for canal walks, hidden courtyards, market mornings, and Amsterdam at its most effortlessly beautiful.",
   "hero_image": "https://images.unsplash.com/photo-1692702518020-dd541f706b2c?q=80&w=2070&auto=format&fit=crop",
   "intro_html": "<p class=\" mb-4\">The Jordaan started as a mistake. When Amsterdam expanded its canal ring in the early 17th century, the city planners drew the new residential quarter to the west — narrow streets, dense housing, no grand waterways. It was built for workers: tanners, cloth-dyers, and craftsmen who couldn't afford the canal ring addresses being snapped up by Golden Age merchants.</p><p class=\" mb-4\">It stayed working-class for three centuries. The Jordaan had a reputation for poverty, overcrowding, and radical politics well into the 20th century. <strong>Then, slowly, the artists arrived. Then the galleries. Then the boutiques.</strong> Today the Jordaan has some of the highest residential property prices in the Netherlands, and the canal houses that once housed ten people to a room are selling for millions.</p><p class=\" mb-4\">This is the neighbourhood where Amsterdam feels most like itself: unhurried, slightly eccentric, genuinely beautiful. Give it at least a morning. Give it a full day if you can.</p>",
   "facts": [

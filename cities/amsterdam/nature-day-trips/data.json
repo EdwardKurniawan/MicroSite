@@ -1,9 +1,26 @@
 {
   "title": "Nature, Flowers & Day Trips from Amsterdam (2026)",
+  "seo": {
+    "title": "Nature, Flowers & Day Trips from Amsterdam (2026)",
+    "description": "The best green escapes from Amsterdam: Keukenhof, castles, easy rail day trips, and the places worth leaving the canal ring for.",
+    "canonical": "https://travelsides.com/amsterdam/nature-day-trips/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Nature & Day Trips",
+    "title": "Nature, Flowers & Day Trips from Amsterdam",
+    "tagline": "The escapes worth leaving the canal ring for, from spring tulips and city parks to castles, windmills, and full rail days out.",
+    "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1200&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "Back to Amsterdam",
+      "url": "/amsterdam/"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Nature & Day Trips",
   "standfirst": "",
   "hero_image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1200&auto=format&fit=crop&q=80",
-  "intro_html": "<p class=\" mb-4\">Amsterdam sits at the centre of one of the most compact and accessible regions in Europe. Within 35 minutes you can be walking through 7 million tulips at Keukenhof, exploring a medieval castle on the Vecht river, or standing in Rotterdam looking at architecture no other European city has the nerve to build.</p><p class=\" mb-4\"><strong>Day trips from Amsterdam are easy and usually do not require a car</strong> — trains run frequently to Rotterdam, Delft, and The Hague; a direct bus runs to Keukenhof; and even Kasteel Muiderslot is reachable by public transport.</p>",
+  "intro_html": "<p class=\" mb-4\">Amsterdam is unusually easy to leave for a few hours. <strong>That is a strength, not a distraction.</strong> If your trip needs more sky, fewer crowds, or a break from museum density, the best move is often a park, a flower day, or a rail trip rather than another city-centre booking.</p><p class=\" mb-4\">This page is split between true day trips and softer escapes. Keukenhof, Rotterdam, Delft, Haarlem, and Giethoorn are all different commitments; Vondelpark and Artis are the low-effort reset buttons when you want nature without leaving Amsterdam proper.</p>",
   "attractions": [
     {
       "id": "keukenhof",
@@ -159,9 +176,56 @@
       "price": "From €35 — guided tour includes boat trip"
     }
   ],
-  "facts": [],
-  "todos": [],
+  "facts": [
+    {
+      "icon": "🚆",
+      "label": "Best no-car trip",
+      "value": "Rotterdam or Haarlem"
+    },
+    {
+      "icon": "🌷",
+      "label": "Best seasonal pick",
+      "value": "Keukenhof in April"
+    },
+    {
+      "icon": "⏱",
+      "label": "Best half-day reset",
+      "value": "Vondelpark or Muiderslot"
+    },
+    {
+      "icon": "🗺",
+      "label": "Best full-day contrast",
+      "value": "Rotterdam"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Decide whether you want a reset or a real excursion",
+      "body": "Vondelpark and Artis are easy breathing-space additions. Rotterdam, Delft, Giethoorn, and Keukenhof reshape the whole day and should be treated that way."
+    },
+    {
+      "title": "Use rail when possible",
+      "body": "The best Amsterdam day trips work because trains are frequent and easy. Prioritize places that reward simple logistics over complicated coach days."
+    },
+    {
+      "title": "Let the season decide one of your choices",
+      "body": "In spring, Keukenhof and flower routes are obvious. Outside spring, architecture, parks, and historic towns tend to pay off more reliably."
+    }
+  ],
   "foods": [],
   "products": [],
-  "getting_there": []
+  "getting_there": [
+    {
+      "icon": "🚆",
+      "text": "Amsterdam Centraal handles most of the easy rail trips on this page; for Muiderslot, Amstel Station is the more useful jumping-off point."
+    },
+    {
+      "icon": "🚌",
+      "text": "Keukenhof is easiest with the direct bus + entry combo rather than piecing together local transport on the day."
+    },
+    {
+      "icon": "💡",
+      "text": "For longer day trips, leave earlier than feels necessary. Dutch transport is easy, but these places are best before the midday crowds arrive."
+    }
+  ]
 }

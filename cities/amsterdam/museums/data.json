@@ -8,13 +8,13 @@
   "hero": {
     "eyebrow": "Amsterdam Museums Guide",
     "title": "Amsterdam Museums & Art",
-    "tagline": "The strongest museums in the city, with honest booking advice and a clear read on what deserves your time.",
+    "tagline": "Which museums deserve priority, what to book first, and how to build a Museumplein day without burning out by 2pm.",
     "image": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80"
   },
   "eyebrow": "🇳🇱 Amsterdam Museums Guide",
   "standfirst": "",
   "hero_image": "https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&auto=format&fit=crop&q=80",
-  "intro_html": "<p class=\" mb-4\">Amsterdam has more museums per square kilometre than almost any city on earth — and the concentration of masterpieces on a single square (Museumplein) is genuinely extraordinary. <strong>The Rijksmuseum, Van Gogh Museum, and Stedelijk are all within a 5-minute walk of each other.</strong></p><p class=\" mb-4\">This guide covers the six best museums in the city, with honest advice on which to prioritise, when to book, and what to see once you're inside. The Rijksmuseum and Van Gogh both require advance booking — the others are generally available on shorter notice.</p>",
+  "intro_html": "<p class=\" mb-4\">Amsterdam can easily trick first-time visitors into planning a museum marathon they will not enjoy. <strong>The right move is usually one major museum, one smaller one, and enough time left over for the square, the café, and the walk between them.</strong></p><p class=\" mb-4\">The density around Museumplein is extraordinary: the Rijksmuseum, Van Gogh Museum, and Stedelijk all sit within five minutes of each other. That convenience is helpful, but it also tempts people into overbooking. This guide is built to help you choose your priority, not just collect tickets.</p>",
   "attractions": [
     {
       "id": "rijksmuseum",
@@ -170,9 +170,56 @@
       "price": "From €14"
     }
   ],
-  "facts": [],
-  "todos": [],
+  "facts": [
+    {
+      "icon": "🎟",
+      "label": "Book first",
+      "value": "Van Gogh Museum, then Rijksmuseum"
+    },
+    {
+      "icon": "⏱",
+      "label": "Best pace",
+      "value": "1 major museum + 1 smaller stop"
+    },
+    {
+      "icon": "📍",
+      "label": "Best base",
+      "value": "Museumplein for a half-day block"
+    },
+    {
+      "icon": "🌙",
+      "label": "Smart slot",
+      "value": "Friday evenings for Van Gogh or Stedelijk"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Choose your anchor museum first",
+      "body": "If art is the point of the day, make either the Rijksmuseum or Van Gogh the anchor and let everything else orbit around it."
+    },
+    {
+      "title": "Use Museumplein as a single walking block",
+      "body": "Do not waste energy zig-zagging across the city between museums. Museumplein exists to make one concentrated cultural half-day easy."
+    },
+    {
+      "title": "Add one smaller wildcard museum",
+      "body": "Rembrandthuis, Foam, Moco, or STRAAT all work better as a second museum than trying to cram in another heavyweight collection."
+    }
+  ],
   "foods": [],
   "products": [],
-  "getting_there": []
+  "getting_there": [
+    {
+      "icon": "🚋",
+      "text": "Trams 2, 3, 5, and 12 all stop near Museumplein, which is the easiest base for a museum-heavy day."
+    },
+    {
+      "icon": "🚶",
+      "text": "From Leidseplein, Museumplein is a 10-minute walk; from the canal ring it is usually easier to walk than wait for transport."
+    },
+    {
+      "icon": "💡",
+      "text": "If you are also visiting De Pijp, pair it with Museumplein on foot and avoid crossing the city twice."
+    }
+  ]
 }

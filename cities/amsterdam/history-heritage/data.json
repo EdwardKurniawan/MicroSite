@@ -1,9 +1,26 @@
 {
   "title": "History & Heritage in Amsterdam (2026)",
+  "seo": {
+    "title": "History & Heritage in Amsterdam (2026)",
+    "description": "A sharper guide to Amsterdam history: Anne Frank House, the Royal Palace, hidden churches, Jewish heritage sites, and the places that explain what the city has survived.",
+    "canonical": "https://travelsides.com/amsterdam/history-heritage/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam History Guide",
+    "title": "History & Heritage in Amsterdam",
+    "tagline": "The places that explain Amsterdam's wealth, violence, resilience, and civic ambition without reducing the city to Anne Frank House alone.",
+    "image": "https://images.unsplash.com/photo-1555921015-5532091f6026?w=1200&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See the City Guide",
+      "url": "/amsterdam/"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam History Guide",
   "standfirst": "",
   "hero_image": "https://images.unsplash.com/photo-1555921015-5532091f6026?w=1200&auto=format&fit=crop&q=80",
-  "intro_html": "<p class=\" mb-4\">Amsterdam's history is darker and stranger than most visitors expect. This is the city of the Dutch Golden Age, the world's first stock market, and the most devastating Jewish loss in Western Europe during the Second World War. <strong>All of that history is visible, walkable, and largely bookable in minutes online.</strong></p><p class=\" mb-4\">The Anne Frank House is the obvious starting point — but it should be the beginning of a deeper exploration, not the whole story. The sites below, taken together, tell a more complete picture of what Amsterdam has been and what it’s had to survive.</p>",
+  "intro_html": "<p class=\" mb-4\">Amsterdam’s history is not tidy. It is a city of immense Golden Age wealth, religious compromise, colonial power, wartime devastation, and a public image that often smooths those contradictions away. <strong>The best history stops here are the ones that put those layers back in view.</strong></p><p class=\" mb-4\">Anne Frank House is still essential, but it should not be the whole history plan. The stronger route is to use it as one entry point into a broader story: civic power on Dam Square, hidden Catholic worship in canal houses, Jewish life and loss in the Jodenbuurt, and the institutions that explain how the city remembers itself.</p>",
   "attractions": [
     {
       "id": "anne-frank",
@@ -142,9 +159,56 @@
       "price": "From €12.50 (exhibitions vary)"
     }
   ],
-  "facts": [],
-  "todos": [],
+  "facts": [
+    {
+      "icon": "🎟",
+      "label": "Book first",
+      "value": "Anne Frank House"
+    },
+    {
+      "icon": "📍",
+      "label": "Best area to pair",
+      "value": "Jewish Quarter + Plantage"
+    },
+    {
+      "icon": "⏱",
+      "label": "Best pace",
+      "value": "2 key sites in one day"
+    },
+    {
+      "icon": "🧠",
+      "label": "Best mindset",
+      "value": "Choose depth over quantity"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Anchor the day around Anne Frank House if you have tickets",
+      "body": "It is the hardest booking in the city and the most emotionally concentrated visit. Everything else should fit around its time slot."
+    },
+    {
+      "title": "Pair emotional sites with contextual ones",
+      "body": "Anne Frank House lands harder when matched with the Resistance Museum or the Portuguese Synagogue rather than another random museum stop."
+    },
+    {
+      "title": "Leave room to walk between stories",
+      "body": "This collection works best on foot. The city’s history is visible in the streets between the ticketed sites, not only inside them."
+    }
+  ],
   "foods": [],
   "products": [],
-  "getting_there": []
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Much of this collection is walkable if you break it into two clusters: Jordaan/Canal Ring and Jewish Quarter/Plantage."
+    },
+    {
+      "icon": "🚋",
+      "text": "Use trams mainly to bridge between Dam Square, Plantage, and the eastern side of the centre if energy is fading."
+    },
+    {
+      "icon": "💡",
+      "text": "Morning slots are usually better for the Anne Frank House and Begijnhof; save churches and museums with looser timing for later in the day."
+    }
+  ]
 }

@@ -1,9 +1,26 @@
 {
   "title": "Amsterdam Tours & Neighbourhoods (2026)",
+  "seo": {
+    "title": "Amsterdam Tours & Neighbourhoods (2026)",
+    "description": "The best Amsterdam walks, bike tours, neighbourhood routes, food tours, and self-guided options for understanding the city one district at a time.",
+    "canonical": "https://travelsides.com/amsterdam/tours/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Tours & Walks",
+    "title": "Amsterdam Tours & Neighbourhoods",
+    "tagline": "The fastest way to understand Amsterdam is to move through one district at a time, on foot or by bike, instead of treating the centre as one blur.",
+    "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=1200&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "Browse Neighbourhoods",
+      "url": "/amsterdam/#neighbourhoods"
+    }
+  },
   "eyebrow": "🇳🇱 Amsterdam Tours & Walks",
   "standfirst": "",
   "hero_image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=1200&auto=format&fit=crop&q=80",
-  "intro_html": "<p class=\" mb-4\">Amsterdam's neighbourhoods are distinct enough that each feels like a different city. The Jordaan is where Golden Age meets boutique shopping; De Pijp is the food capital; Noord is the creative quarter that used to be a shipyard. <strong>The best way to understand Amsterdam is on foot or on a bike, in one neighbourhood at a time.</strong></p><p class=\" mb-4\">Below are the six best tour options — from guided Jordaan walks to self-guided cycling routes and food tours through De Pijp. The canal ring walk at the end is free and, on a good day, the best thing you can do in Amsterdam.</p>",
+  "intro_html": "<p class=\" mb-4\">Amsterdam is small, but it does not feel small when you move through it properly. The Jordaan, De Pijp, Noord, and the old centre all carry different rhythms, different crowd energy, and different reasons to give them your time. <strong>Tours are most useful here when they help you understand a district, not when they try to cover the entire city in one lap.</strong></p><p class=\" mb-4\">Use this page to choose your movement style: a guided walk for context, a bike tour for range, a food tour for neighbourhood texture, or a self-guided route when the weather and your energy are on your side.</p>",
   "attractions": [
     {
       "id": "jordaan-tour",
@@ -196,9 +213,56 @@
       "url": "/wallen/"
     }
   ],
-  "facts": [],
-  "todos": [],
+  "facts": [
+    {
+      "icon": "🚶",
+      "label": "Best first tour",
+      "value": "Jordaan walking tour"
+    },
+    {
+      "icon": "🚲",
+      "label": "Best city overview",
+      "value": "Guided bike tour"
+    },
+    {
+      "icon": "🆓",
+      "label": "Best free option",
+      "value": "Canal ring self-guided walk"
+    },
+    {
+      "icon": "🍽",
+      "label": "Best for atmosphere",
+      "value": "De Pijp food tour"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Use tours to decode one part of the city",
+      "body": "The strongest tours here are neighborhood-specific. They work best when they sharpen your sense of place, not when they race across too many landmarks."
+    },
+    {
+      "title": "Pick walking if you want detail, biking if you want range",
+      "body": "Walking tours are better for story and texture. Bike tours are better when you want to cover more ground without spending all day on transit."
+    },
+    {
+      "title": "Keep one unstructured block after the tour",
+      "body": "The value of a good tour is what it unlocks afterward: a return to a café, a second wander, or dinner in the district that actually clicked."
+    }
+  ],
   "foods": [],
   "products": [],
-  "getting_there": []
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Jordaan, canal ring, and Jewish Quarter tours are easiest to reach on foot from most central stays."
+    },
+    {
+      "icon": "🚲",
+      "text": "Bike tours usually start near Centraal or the canal ring; arrive a little early if you want a calm rules briefing before heading out."
+    },
+    {
+      "icon": "⛴",
+      "text": "For Noord tours, the free ferry behind Centraal is part of the experience. Treat the crossing as the start of the district shift."
+    }
+  ]
 }

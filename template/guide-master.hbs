@@ -52,6 +52,26 @@
       </div>
     </section>
 
+    {{#if planning_highlights.length}}
+      <section class="section-shell section-shell-muted">
+        <div class="shell">
+          {{> section-heading eyebrow="How To Use This Guide" title="Decisions that change the trip most" description="The fastest way to make Amsterdam feel easier is to book the right things early, choose the right base, and leave room for the city between the big-ticket stops."}}
+          <div class="playbook-grid">
+            {{#each planning_highlights}}
+              <article class="playbook-card">
+                <span class="editorial-kicker">{{kicker}}</span>
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+                {{#if url}}
+                  <a href="{{url}}" class="story-link">{{link_label}}</a>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+    {{/if}}
+
     <section id="collections" class="section-shell section-shell-muted">
       <div class="shell">
         {{> section-heading eyebrow="Collections" title="Choose your angle on the city" description=category_intro}}
@@ -65,7 +85,7 @@
 
     <section id="neighbourhoods" class="section-shell">
       <div class="shell">
-        {{> section-heading eyebrow="Neighbourhoods" title="Decode the districts before you book" description="Use Amsterdam as the reference city: each district has its own pace, crowd profile, and best time to visit."}}
+        {{> section-heading eyebrow="Neighbourhoods" title="Decode the districts before you book" description="Each district has its own pace, crowd profile, and best moment in the day. Use the neighbourhood pages to decide where {{city_name}} feels most like your trip."}}
         <div class="story-grid">
           {{#each neighbourhoods}}
             {{> district-card}}

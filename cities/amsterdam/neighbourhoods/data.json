@@ -1,8 +1,26 @@
 {
   "title": "Amsterdam Neighbourhoods",
+  "seo": {
+    "title": "Amsterdam Neighbourhoods",
+    "description": "A district-by-district guide to Amsterdam, from Noord and De Pijp to De Plantage, the Canal Ring, and the neighbourhoods that actually shape the city.",
+    "canonical": "https://travelsides.com/amsterdam/neighbourhoods/"
+  },
+  "hero": {
+    "eyebrow": "District Guide",
+    "title": "Amsterdam Neighbourhoods",
+    "tagline": "Ten districts, ten different versions of the city, and the clearest way to decide where you should stay, eat, and spend your unstructured time.",
+    "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?q=80&w=2070&auto=format&fit=crop"
+  },
+  "navigation": {
+    "cta": {
+      "label": "Explore the City Guide",
+      "url": "/amsterdam/"
+    }
+  },
   "eyebrow": "District Guide",
   "standfirst": "Amsterdam is more than just its famous canal ring. From the creative industrial hub of Noord to the leafy 19th-century elegance of De Plantage, each of our 10 districts has its own soul, its own history, and its own secrets.",
   "hero_image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?q=80&w=2070&auto=format&fit=crop",
+  "intro_html": "<p class=\"mb-4\">Amsterdam becomes easier the moment you stop thinking of it as one small centre and start reading it as a set of districts. <strong>Where you stay, where you drift after dinner, and where you spend your unscheduled hours matters almost as much as which attractions you book.</strong></p><p class=\"mb-4\">Use this page to match the city to your trip style: Jordaan for postcard Amsterdam, De Pijp for food and late energy, Noord for space and creative edge, Plantage for calm, and Centrum when you want the classic canal core at your door.</p>",
   "map_config": {
     "center": [
       52.373,
@@ -152,6 +170,56 @@
       "image": "/amsterdam/images/westerpark.png",
       "link": "/westerpark/",
       "cta": "Explore District"
+    }
+  ],
+  "facts": [
+    {
+      "icon": "🛏",
+      "label": "Best first-time base",
+      "value": "Jordaan or Canal Ring"
+    },
+    {
+      "icon": "🍽",
+      "label": "Best for food",
+      "value": "De Pijp or Oost"
+    },
+    {
+      "icon": "🌿",
+      "label": "Best for calm",
+      "value": "Plantage or Westerpark"
+    },
+    {
+      "icon": "⛴",
+      "label": "Best for edge",
+      "value": "Noord"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Choose your base by evenings, not museums",
+      "body": "Museums are easy to reach from most central districts. The bigger difference is what the city feels like when you return at 7pm."
+    },
+    {
+      "title": "Use one district as your anchor and one as your contrast",
+      "body": "Amsterdam opens up when you pair, say, Canal Ring with Noord, or Jordaan with Oost, rather than staying in one mood all trip."
+    },
+    {
+      "title": "Save one loose block for the district that clicks most",
+      "body": "A neighbourhood page is not just for orientation. It helps you find the part of Amsterdam worth returning to without a booking."
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Jordaan, Canal Ring, Museumplein, and De Pijp are easy to connect on foot if you enjoy walking between neighborhoods."
+    },
+    {
+      "icon": "🚋",
+      "text": "Trams make Oost, Oud-West, and Plantage simple to fold into the day without committing to a long detour."
+    },
+    {
+      "icon": "⛴",
+      "text": "Noord is the exception that feels farther than it is. The free ferry is quick, but it still changes the rhythm of the day in a good way."
     }
   ]
 }
