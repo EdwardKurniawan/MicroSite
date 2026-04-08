@@ -8,11 +8,11 @@
   <div class="editorial-card-body">
     {{#if category}}<span class="editorial-kicker">{{category}}</span>{{/if}}
     <h3>{{name}}</h3>
-    {{#if hook}}<p class="editorial-hook">{{hook}}</p>{{/if}}
+    {{#if hook}}<p class="editorial-hook">{{excerpt hook 120}}</p>{{/if}}
     {{#if metas}}
       <div class="meta-row">{{#each metas}}<span>{{this}}</span>{{/each}}</div>
     {{/if}}
-    {{{description}}}
+    <p>{{excerpt description 175}}</p>
     {{#if tip}}<div class="editorial-note">{{tip}}</div>{{/if}}
     <div class="editorial-actions">
       {{#if price}}<span class="price-chip">{{price}}</span>{{/if}}

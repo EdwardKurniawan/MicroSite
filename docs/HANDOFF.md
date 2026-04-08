@@ -101,6 +101,12 @@ Validated during smoke tests:
 
 ## Important implementation notes
 
+### 0. Git workflow preference
+
+After completing a coherent work pass, commit and push to `origin main` unless the user explicitly asks to hold changes locally.
+
+This keeps GitHub and deployment previews current for review.
+
 ### 1. Build now clears `public/`
 
 `scripts/build.js` deletes and recreates `public/` before building.

@@ -16,7 +16,7 @@
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-accent: 'Outfit', sans-serif;
   --shadow-hero: 0 40px 100px rgba(0, 0, 0, 0.4);
-  --shadow-panel: 0 18px 50px rgba(0, 0, 0, 0.18);
+  --shadow-panel: 0 12px 34px rgba(0, 0, 0, 0.15);
 }
 
 * {
@@ -85,13 +85,13 @@ a {
 }
 
 .page-shell {
-  padding-bottom: 5rem;
+  padding-bottom: 3.5rem;
 }
 
 .page-hero {
   position: relative;
-  min-height: 76vh;
-  padding: 8rem 0 4rem;
+  min-height: 64vh;
+  padding: 7rem 0 3rem;
   background-color: var(--surface);
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ a {
 }
 
 .page-hero-guide {
-  min-height: 100vh;
+  min-height: 82vh;
 }
 
 .page-hero-overlay {
@@ -147,18 +147,18 @@ a {
   margin: 0;
   max-width: 14ch;
   font-family: var(--font-display);
-  font-size: clamp(3rem, 7vw, 6rem);
-  line-height: 0.98;
+  font-size: clamp(2.8rem, 6.2vw, 5.35rem);
+  line-height: 1;
   letter-spacing: -0.04em;
 }
 
 .page-subtitle,
 .page-subtitle-compact {
   margin: 0;
-  max-width: 44rem;
+  max-width: 39rem;
   color: var(--copy-muted);
-  font-size: clamp(1.05rem, 2vw, 1.32rem);
-  line-height: 1.7;
+  font-size: clamp(1rem, 1.65vw, 1.18rem);
+  line-height: 1.55;
 }
 
 .page-subtitle-compact {
@@ -167,9 +167,9 @@ a {
 
 .planner-shell {
   width: min(720px, 100%);
-  margin-top: 1rem;
-  padding: 1.1rem;
-  border-radius: 1.75rem;
+  margin-top: 0.45rem;
+  padding: 0.85rem;
+  border-radius: 1.35rem;
   border: 1px solid rgba(255, 255, 255, 0.14);
   background: linear-gradient(180deg, rgba(10, 20, 32, 0.88), rgba(10, 20, 32, 0.64));
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
@@ -254,7 +254,7 @@ a {
 }
 
 .section-shell {
-  padding: 5.25rem 0;
+  padding: 3.8rem 0;
 }
 
 .section-shell-muted {
@@ -262,7 +262,7 @@ a {
 }
 
 .section-heading-shell {
-  margin-bottom: 2rem;
+  margin-bottom: 1.35rem;
 }
 
 .section-heading-row {
@@ -275,7 +275,7 @@ a {
 .section-title {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 3.6rem);
+  font-size: clamp(1.75rem, 3.3vw, 3rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
 }
@@ -292,7 +292,44 @@ a {
 .editorial-note,
 .toolkit-card p {
   color: var(--copy-muted);
-  line-height: 1.75;
+  line-height: 1.6;
+}
+
+.section-description,
+.copy-block-lede {
+  max-width: 58rem;
+}
+
+.copy-block-lede p {
+  margin-bottom: 0;
+  font-size: clamp(1rem, 1.35vw, 1.12rem);
+}
+
+.story-body p,
+.playbook-card p,
+.editorial-panel p,
+.editorial-card-body > p,
+.food-card p,
+.toolkit-card p,
+.itinerary-slot span,
+.editorial-note {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.story-body p,
+.playbook-card p,
+.editorial-panel p,
+.editorial-card-body > p,
+.food-card p {
+  -webkit-line-clamp: 3;
+}
+
+.toolkit-card p,
+.itinerary-slot span,
+.editorial-note {
+  -webkit-line-clamp: 2;
 }
 
 .copy-block p:first-child {
@@ -306,7 +343,7 @@ a {
 .insight-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.8fr);
-  gap: 2rem;
+  gap: 1.4rem;
 }
 
 .insight-aside,
@@ -329,19 +366,19 @@ a {
 .insight-aside,
 .editorial-panel,
 .toolkit-card {
-  border-radius: 1.5rem;
-  padding: 1.5rem;
+  border-radius: 1.25rem;
+  padding: 1.15rem;
 }
 
 .fact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
 }
 
 .fact-card {
-  border-radius: 1.3rem;
-  padding: 1.25rem;
+  border-radius: 1rem;
+  padding: 0.9rem;
 }
 
 .fact-icon {
@@ -360,13 +397,13 @@ a {
 .toolkit-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.3rem;
+  gap: 1rem;
 }
 
 .playbook-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.3rem;
+  gap: 1rem;
 }
 
 .story-card,
@@ -376,7 +413,7 @@ a {
 .faq-item,
 .playbook-card {
   overflow: hidden;
-  border-radius: 1.6rem;
+  border-radius: 1.25rem;
 }
 
 .story-card {
@@ -418,7 +455,7 @@ a {
 
 .story-body,
 .editorial-card-body {
-  padding: 1.4rem;
+  padding: 1.1rem;
 }
 
 .story-body h3,
@@ -429,12 +466,12 @@ a {
 .cta-title {
   margin: 0 0 0.8rem;
   font-family: var(--font-display);
-  font-size: clamp(1.3rem, 2vw, 2rem);
+  font-size: clamp(1.16rem, 1.65vw, 1.65rem);
   line-height: 1.15;
 }
 
 .playbook-card {
-  padding: 1.4rem;
+  padding: 1.1rem;
   border: 1px solid var(--border-soft);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02)),
@@ -445,7 +482,7 @@ a {
 .playbook-card p {
   margin: 0;
   color: var(--copy-muted);
-  line-height: 1.7;
+  line-height: 1.55;
 }
 
 .editorial-hook {
@@ -460,7 +497,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   font-family: var(--font-accent);
   font-size: 0.75rem;
   font-weight: 800;
@@ -476,11 +513,11 @@ a {
 .itinerary-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.3rem;
+  gap: 1rem;
 }
 
 .itinerary-card {
-  padding: 1.4rem;
+  padding: 1.1rem;
 }
 
 .itinerary-day {
@@ -496,8 +533,8 @@ a {
 .itinerary-slot {
   display: grid;
   grid-template-columns: 90px 1fr;
-  gap: 1rem;
-  padding: 0.85rem 0;
+  gap: 0.85rem;
+  padding: 0.7rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -523,12 +560,12 @@ a {
 .editorial-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.5fr) minmax(300px, 0.72fr);
-  gap: 2rem;
+  gap: 1.35rem;
 }
 
 .editorial-stack {
   display: grid;
-  gap: 1.5rem;
+  gap: 1.15rem;
 }
 
 .editorial-card {
@@ -542,10 +579,11 @@ a {
 }
 
 .editorial-note {
-  margin-top: 1rem;
-  padding: 0.95rem 1rem;
+  margin-top: 0.8rem;
+  padding: 0.75rem 0.85rem;
   border-left: 2px solid var(--theme-accent);
   background: rgba(255, 255, 255, 0.035);
+  font-size: 0.92rem;
 }
 
 .editorial-actions {
@@ -561,17 +599,26 @@ a {
   background: rgba(255, 255, 255, 0.09);
 }
 
+.byline-card {
+  padding: 1rem;
+}
+
+.byline-card h3 {
+  margin-top: 0.45rem;
+  margin-bottom: 0;
+}
+
 .food-list,
 .transport-list {
   display: grid;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .food-card,
 .transport-item {
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1.2rem;
-  padding: 1rem;
+  border-radius: 1rem;
+  padding: 0.9rem;
   background: rgba(255, 255, 255, 0.025);
 }
 
