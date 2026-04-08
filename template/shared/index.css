@@ -401,31 +401,39 @@ a {
 }
 
 .neighbourhood-map-shell {
+  position: relative;
   margin: 0 0 1.25rem;
   border: 1px solid var(--border-soft);
-  border-radius: 1.6rem;
-  padding: 1rem;
-  background:
-    radial-gradient(circle at 30% 28%, rgba(246, 234, 223, 0.15), transparent 18%),
-    radial-gradient(circle at 74% 70%, rgba(232, 96, 28, 0.16), transparent 22%),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
+  border-radius: 1.75rem;
+  padding: 0;
+  overflow: hidden;
+  background: #071019;
   box-shadow: var(--shadow-panel);
 }
 
 .neighbourhood-map {
   position: relative;
-  min-height: clamp(380px, 52vw, 620px);
+  min-height: clamp(520px, 58vw, 720px);
   overflow: hidden;
-  border-radius: 1.15rem;
   background: #0b1520;
 }
 
 .neighbourhood-map .leaflet-tile {
-  filter: saturate(0.72) brightness(0.72) contrast(1.12);
+  filter: saturate(0.6) brightness(0.54) contrast(1.28) hue-rotate(178deg);
+}
+
+.neighbourhood-map .leaflet-pane {
+  z-index: 1;
 }
 
 .neighbourhood-map .leaflet-control-container {
   font-family: var(--font-accent);
+}
+
+.neighbourhood-map .leaflet-top {
+  top: 4.8rem;
+  right: 1rem;
+  left: auto;
 }
 
 .neighbourhood-map .leaflet-control-zoom a {
@@ -474,6 +482,112 @@ a {
   letter-spacing: 0.18em;
 }
 
+.map-mode-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 4;
+  display: inline-flex;
+  gap: 0.35rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  padding: 0.35rem;
+  background: rgba(7, 16, 25, 0.82);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(16px);
+}
+
+.map-mode-pill {
+  border-radius: 999px;
+  padding: 0.62rem 0.9rem;
+  color: var(--copy-soft);
+  font-family: var(--font-accent);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.map-mode-pill.active {
+  background: var(--foreground);
+  color: #071019;
+}
+
+.map-side-panel {
+  position: absolute;
+  z-index: 3;
+  left: 1rem;
+  top: 1rem;
+  width: min(370px, calc(100% - 2rem));
+  max-height: calc(100% - 2rem);
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 1.35rem;
+  padding: 1.15rem;
+  background: rgba(244, 249, 252, 0.93);
+  color: #071019;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(20px);
+}
+
+.map-side-panel .editorial-kicker {
+  color: rgba(7, 16, 25, 0.5);
+}
+
+.map-side-panel h3 {
+  margin: 0.45rem 0 0.65rem;
+  color: #071019;
+  font-family: var(--font-display);
+  font-size: clamp(1.55rem, 2.4vw, 2.25rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.map-side-panel p {
+  margin: 0 0 1rem;
+  color: rgba(7, 16, 25, 0.62);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.map-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.map-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid rgba(7, 16, 25, 0.1);
+  border-radius: 999px;
+  padding: 0.58rem 0.72rem;
+  background: #fff;
+  color: #071019;
+  font-family: var(--font-accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  box-shadow: 0 10px 24px rgba(7, 16, 25, 0.08);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.map-chip:hover {
+  transform: translateY(-1px);
+  border-color: rgba(7, 16, 25, 0.22);
+  box-shadow: 0 14px 30px rgba(7, 16, 25, 0.12);
+}
+
+.map-chip-dot {
+  width: 0.58rem;
+  height: 0.58rem;
+  border-radius: 999px;
+  background: var(--pin-color, var(--theme-accent));
+  box-shadow: 0 0 0 4px var(--pin-glow, rgba(232, 96, 28, 0.16));
+}
+
 .real-map-pin {
   position: relative;
   display: inline-flex;
@@ -482,8 +596,8 @@ a {
 }
 
 .real-map-pin-dot {
-  width: 1rem;
-  height: 1rem;
+  width: 1.05rem;
+  height: 1.05rem;
   border: 2px solid rgba(7, 16, 25, 0.92);
   border-radius: 999px;
   background: var(--pin-color, var(--theme-accent-light));
@@ -500,9 +614,10 @@ a {
   white-space: nowrap;
   border-radius: 999px;
   padding: 0.34rem 0.55rem;
-  background: rgba(7, 16, 25, 0.84);
+  background: rgba(244, 249, 252, 0.94);
   color: var(--foreground);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #071019;
+  border: 1px solid rgba(7, 16, 25, 0.12);
   font-family: var(--font-accent);
   font-size: 0.66rem;
   font-weight: 800;
@@ -510,37 +625,47 @@ a {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
 
-.real-map-pin.tone-1 {
+.real-map-pin.tone-1,
+.map-chip.tone-1 {
   --pin-color: var(--theme-accent-light);
   --pin-glow: rgba(246, 234, 223, 0.45);
 }
 
-.real-map-pin.tone-2 {
+.real-map-pin.tone-2,
+.map-chip.tone-2 {
   --pin-color: var(--theme-accent);
   --pin-glow: rgba(232, 96, 28, 0.42);
 }
 
-.real-map-pin.tone-3 {
+.real-map-pin.tone-3,
+.map-chip.tone-3 {
   --pin-color: #91cfff;
   --pin-glow: rgba(145, 207, 255, 0.42);
 }
 
-.real-map-pin.tone-4 {
+.real-map-pin.tone-4,
+.map-chip.tone-4 {
   --pin-color: #c4f0b3;
   --pin-glow: rgba(196, 240, 179, 0.36);
 }
 
 .map-caption {
+  position: absolute;
+  z-index: 4;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.8rem 0.2rem 0;
-  color: var(--copy-soft);
+  padding: 0;
+  color: rgba(243, 246, 251, 0.74);
   font-family: var(--font-accent);
   font-size: 0.7rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.18em;
+  pointer-events: none;
 }
 
 .playbook-grid {
@@ -993,7 +1118,7 @@ a {
   }
 
   .neighbourhood-map {
-    min-height: 460px;
+    min-height: 520px;
   }
 
   .real-map-pin-label {
@@ -1006,5 +1131,31 @@ a {
   .map-caption {
     flex-direction: column;
     gap: 0.35rem;
+  }
+
+  .map-mode-toggle {
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+
+  .map-mode-pill {
+    padding: 0.52rem 0.68rem;
+    font-size: 0.62rem;
+  }
+
+  .map-side-panel {
+    left: 0.75rem;
+    top: 4.15rem;
+    width: calc(100% - 1.5rem);
+    max-height: 230px;
+    padding: 0.95rem;
+  }
+
+  .map-side-panel h3 {
+    font-size: 1.55rem;
+  }
+
+  .map-side-panel p {
+    font-size: 0.86rem;
   }
 }

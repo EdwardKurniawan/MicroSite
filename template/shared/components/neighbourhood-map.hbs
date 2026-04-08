@@ -1,4 +1,9 @@
 <div class="neighbourhood-map-shell" aria-label="{{city_name}} neighbourhood map">
+  <div class="map-mode-toggle" aria-label="Map display mode">
+    <span class="map-mode-pill">List View</span>
+    <span class="map-mode-pill active">Map View</span>
+  </div>
+
   <div
     class="neighbourhood-map real-neighbourhood-map"
     data-city-name="{{city_name}}"
@@ -6,6 +11,20 @@
   >
     <div class="map-fallback">Loading real map...</div>
   </div>
+
+  <aside class="map-side-panel" aria-label="{{city_name}} neighbourhood picker">
+    <span class="editorial-kicker">Near The Center</span>
+    <h3>Choose the district that fits your day</h3>
+    <p>Use the map when deciding where to stay, where to eat, or which side of {{city_name}} should get your open afternoon.</p>
+    <div class="map-chip-list">
+      {{#each neighbourhood_map}}
+        <a href="{{url}}" class="map-chip {{tone}}">
+          <span class="map-chip-dot"></span>
+          {{label}}
+        </a>
+      {{/each}}
+    </div>
+  </aside>
 
   <div class="map-marker-data" hidden>
     {{#each neighbourhood_map}}
@@ -21,6 +40,6 @@
 
   <div class="map-caption">
     <span>Real map data</span>
-    <span>Tap a district to open its guide</span>
+    <span>Tap a pin or chip to open its guide</span>
   </div>
 </div>
