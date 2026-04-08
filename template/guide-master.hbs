@@ -86,6 +86,9 @@
     <section id="neighbourhoods" class="section-shell">
       <div class="shell">
         {{> section-heading eyebrow="Neighbourhoods" title="Pick your base and pace"}}
+        {{#if neighbourhood_map.length}}
+          {{> neighbourhood-map}}
+        {{/if}}
         <div class="story-grid">
           {{#each neighbourhoods}}
             {{> district-card}}

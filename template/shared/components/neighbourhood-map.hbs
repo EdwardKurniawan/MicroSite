@@ -1,0 +1,32 @@
+<div class="neighbourhood-map-shell" aria-label="{{city_name}} neighbourhood map">
+  <div class="neighbourhood-map">
+    <svg class="neighbourhood-map-art" viewBox="0 0 100 100" role="presentation" aria-hidden="true">
+      <path class="map-water map-water-river" d="M8 25 C24 18 42 19 58 24 C74 30 88 25 96 18" />
+      <path class="map-water map-water-river map-water-secondary" d="M4 80 C24 70 40 73 56 80 C73 88 88 82 98 72" />
+      <path class="map-canal" d="M26 32 C36 22 55 22 68 34 C79 45 78 62 67 74 C55 88 34 85 24 72 C14 59 15 43 26 32 Z" />
+      <path class="map-canal" d="M34 38 C42 31 56 31 64 40 C72 49 70 62 62 70 C53 78 39 77 31 68 C24 59 25 46 34 38 Z" />
+      <path class="map-canal" d="M42 44 C48 40 57 41 61 47 C66 54 64 63 58 68 C51 73 42 71 37 65 C32 58 35 49 42 44 Z" />
+      <path class="map-street" d="M20 44 L78 41" />
+      <path class="map-street" d="M25 61 L78 58" />
+      <path class="map-street" d="M48 27 L52 82" />
+    </svg>
+
+    <div class="map-core-label">Canal Ring</div>
+
+    {{#each neighbourhood_map}}
+      <a
+        href="{{url}}"
+        class="map-pin {{tone}}"
+        style="--x: {{x}}%; --y: {{y}}%;"
+        aria-label="Open {{name}} neighbourhood guide"
+      >
+        <span class="map-pin-dot"></span>
+        <span class="map-pin-label">{{label}}</span>
+      </a>
+    {{/each}}
+  </div>
+  <div class="map-caption">
+    <span>Approximate layout</span>
+    <span>Tap a district to open its guide</span>
+  </div>
+</div>

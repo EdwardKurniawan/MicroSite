@@ -400,6 +400,181 @@ a {
   gap: 1rem;
 }
 
+.neighbourhood-map-shell {
+  margin: 0 0 1.25rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 1.6rem;
+  padding: 1rem;
+  background:
+    radial-gradient(circle at 30% 28%, rgba(246, 234, 223, 0.15), transparent 18%),
+    radial-gradient(circle at 74% 70%, rgba(232, 96, 28, 0.16), transparent 22%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
+  box-shadow: var(--shadow-panel);
+}
+
+.neighbourhood-map {
+  position: relative;
+  min-height: clamp(380px, 52vw, 620px);
+  overflow: hidden;
+  border-radius: 1.15rem;
+  background:
+    linear-gradient(135deg, rgba(7, 16, 25, 0.72), rgba(13, 24, 35, 0.94)),
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.09), transparent 44%);
+  isolation: isolate;
+}
+
+.neighbourhood-map::before {
+  content: '';
+  position: absolute;
+  inset: 8%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 48% 52% 42% 58%;
+  transform: rotate(-8deg);
+}
+
+.neighbourhood-map::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: radial-gradient(circle at center, black 0%, transparent 76%);
+  opacity: 0.45;
+  z-index: -1;
+}
+
+.neighbourhood-map-art {
+  position: absolute;
+  inset: 5%;
+  width: 90%;
+  height: 90%;
+  opacity: 0.92;
+}
+
+.map-water,
+.map-canal,
+.map-street {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.map-water {
+  stroke: rgba(145, 207, 255, 0.42);
+  stroke-width: 4.5;
+  filter: drop-shadow(0 0 18px rgba(145, 207, 255, 0.22));
+}
+
+.map-water-secondary {
+  opacity: 0.45;
+  stroke-width: 2.2;
+}
+
+.map-canal {
+  stroke: rgba(246, 234, 223, 0.3);
+  stroke-width: 1.4;
+}
+
+.map-street {
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 0.8;
+  stroke-dasharray: 1.5 3;
+}
+
+.map-core-label {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  padding: 0.55rem 0.85rem;
+  background: rgba(7, 16, 25, 0.72);
+  color: var(--copy-soft);
+  font-family: var(--font-accent);
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  pointer-events: none;
+}
+
+.map-pin {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem 0.45rem 0.45rem;
+  background: rgba(7, 16, 25, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: var(--foreground);
+  text-decoration: none;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(12px);
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.map-pin:hover {
+  transform: translate(-50%, -54%);
+  border-color: rgba(246, 234, 223, 0.45);
+  background: rgba(13, 24, 35, 0.95);
+}
+
+.map-pin-dot {
+  width: 0.68rem;
+  height: 0.68rem;
+  border-radius: 999px;
+  background: var(--pin-color, var(--theme-accent-light));
+  box-shadow: 0 0 0 5px rgba(246, 234, 223, 0.12), 0 0 18px var(--pin-glow, rgba(246, 234, 223, 0.45));
+}
+
+.map-pin-label {
+  white-space: nowrap;
+  font-family: var(--font-accent);
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.map-pin.tone-1 {
+  --pin-color: var(--theme-accent-light);
+  --pin-glow: rgba(246, 234, 223, 0.45);
+}
+
+.map-pin.tone-2 {
+  --pin-color: var(--theme-accent);
+  --pin-glow: rgba(232, 96, 28, 0.42);
+}
+
+.map-pin.tone-3 {
+  --pin-color: #91cfff;
+  --pin-glow: rgba(145, 207, 255, 0.42);
+}
+
+.map-pin.tone-4 {
+  --pin-color: #c4f0b3;
+  --pin-glow: rgba(196, 240, 179, 0.36);
+}
+
+.map-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0.2rem 0;
+  color: var(--copy-soft);
+  font-family: var(--font-accent);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
 .playbook-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -843,5 +1018,34 @@ a {
 
   .itinerary-slot {
     grid-template-columns: 1fr;
+  }
+
+  .neighbourhood-map-shell {
+    padding: 0.75rem;
+  }
+
+  .neighbourhood-map {
+    min-height: 460px;
+  }
+
+  .map-pin {
+    padding: 0.42rem;
+  }
+
+  .map-pin-label {
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 0.28rem);
+    transform: translateX(-50%);
+    padding: 0.28rem 0.42rem;
+    border-radius: 999px;
+    background: rgba(7, 16, 25, 0.82);
+    font-size: 0.62rem;
+    letter-spacing: 0.04em;
+  }
+
+  .map-caption {
+    flex-direction: column;
+    gap: 0.35rem;
   }
 }
