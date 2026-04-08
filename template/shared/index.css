@@ -417,147 +417,115 @@ a {
   min-height: clamp(380px, 52vw, 620px);
   overflow: hidden;
   border-radius: 1.15rem;
-  background:
-    linear-gradient(135deg, rgba(7, 16, 25, 0.72), rgba(13, 24, 35, 0.94)),
-    radial-gradient(circle at center, rgba(255, 255, 255, 0.09), transparent 44%);
-  isolation: isolate;
+  background: #0b1520;
 }
 
-.neighbourhood-map::before {
-  content: '';
-  position: absolute;
-  inset: 8%;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 48% 52% 42% 58%;
-  transform: rotate(-8deg);
+.neighbourhood-map .leaflet-tile {
+  filter: saturate(0.72) brightness(0.72) contrast(1.12);
 }
 
-.neighbourhood-map::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-  background-size: 42px 42px;
-  mask-image: radial-gradient(circle at center, black 0%, transparent 76%);
-  opacity: 0.45;
-  z-index: -1;
-}
-
-.neighbourhood-map-art {
-  position: absolute;
-  inset: 5%;
-  width: 90%;
-  height: 90%;
-  opacity: 0.92;
-}
-
-.map-water,
-.map-canal,
-.map-street {
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.map-water {
-  stroke: rgba(145, 207, 255, 0.42);
-  stroke-width: 4.5;
-  filter: drop-shadow(0 0 18px rgba(145, 207, 255, 0.22));
-}
-
-.map-water-secondary {
-  opacity: 0.45;
-  stroke-width: 2.2;
-}
-
-.map-canal {
-  stroke: rgba(246, 234, 223, 0.3);
-  stroke-width: 1.4;
-}
-
-.map-street {
-  stroke: rgba(255, 255, 255, 0.12);
-  stroke-width: 0.8;
-  stroke-dasharray: 1.5 3;
-}
-
-.map-core-label {
-  position: absolute;
-  left: 50%;
-  top: 54%;
-  transform: translate(-50%, -50%);
-  border-radius: 999px;
-  padding: 0.55rem 0.85rem;
-  background: rgba(7, 16, 25, 0.72);
-  color: var(--copy-soft);
+.neighbourhood-map .leaflet-control-container {
   font-family: var(--font-accent);
-  font-size: 0.68rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  pointer-events: none;
 }
 
-.map-pin {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  z-index: 2;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  transform: translate(-50%, -50%);
-  border-radius: 999px;
-  padding: 0.45rem 0.75rem 0.45rem 0.45rem;
-  background: rgba(7, 16, 25, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+.neighbourhood-map .leaflet-control-zoom a {
+  background: rgba(7, 16, 25, 0.86);
+  border-color: rgba(255, 255, 255, 0.12);
   color: var(--foreground);
-  text-decoration: none;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.26);
-  backdrop-filter: blur(12px);
-  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
 }
 
-.map-pin:hover {
-  transform: translate(-50%, -54%);
-  border-color: rgba(246, 234, 223, 0.45);
-  background: rgba(13, 24, 35, 0.95);
+.neighbourhood-map .leaflet-control-attribution {
+  background: rgba(7, 16, 25, 0.78);
+  color: rgba(243, 246, 251, 0.62);
+  font-size: 0.65rem;
 }
 
-.map-pin-dot {
-  width: 0.68rem;
-  height: 0.68rem;
-  border-radius: 999px;
-  background: var(--pin-color, var(--theme-accent-light));
-  box-shadow: 0 0 0 5px rgba(246, 234, 223, 0.12), 0 0 18px var(--pin-glow, rgba(246, 234, 223, 0.45));
+.neighbourhood-map .leaflet-control-attribution a {
+  color: var(--theme-accent-light);
 }
 
-.map-pin-label {
-  white-space: nowrap;
+.neighbourhood-map .leaflet-popup-content-wrapper,
+.neighbourhood-map .leaflet-popup-tip {
+  background: rgba(7, 16, 25, 0.94);
+  color: var(--foreground);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+}
+
+.neighbourhood-map .leaflet-popup-content {
+  margin: 0.8rem 1rem;
   font-family: var(--font-accent);
-  font-size: 0.73rem;
+  font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.map-pin.tone-1 {
+.map-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--copy-soft);
+  font-family: var(--font-accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.real-map-pin {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.real-map-pin-dot {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid rgba(7, 16, 25, 0.92);
+  border-radius: 999px;
+  background: var(--pin-color, var(--theme-accent-light));
+  box-shadow:
+    0 0 0 6px rgba(246, 234, 223, 0.14),
+    0 0 22px var(--pin-glow, rgba(246, 234, 223, 0.48));
+}
+
+.real-map-pin-label {
+  position: absolute;
+  left: 50%;
+  top: 1.3rem;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 0.34rem 0.55rem;
+  background: rgba(7, 16, 25, 0.84);
+  color: var(--foreground);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  font-family: var(--font-accent);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.real-map-pin.tone-1 {
   --pin-color: var(--theme-accent-light);
   --pin-glow: rgba(246, 234, 223, 0.45);
 }
 
-.map-pin.tone-2 {
+.real-map-pin.tone-2 {
   --pin-color: var(--theme-accent);
   --pin-glow: rgba(232, 96, 28, 0.42);
 }
 
-.map-pin.tone-3 {
+.real-map-pin.tone-3 {
   --pin-color: #91cfff;
   --pin-glow: rgba(145, 207, 255, 0.42);
 }
 
-.map-pin.tone-4 {
+.real-map-pin.tone-4 {
   --pin-color: #c4f0b3;
   --pin-glow: rgba(196, 240, 179, 0.36);
 }
@@ -1028,20 +996,11 @@ a {
     min-height: 460px;
   }
 
-  .map-pin {
-    padding: 0.42rem;
-  }
-
-  .map-pin-label {
-    position: absolute;
-    left: 50%;
-    top: calc(100% + 0.28rem);
-    transform: translateX(-50%);
-    padding: 0.28rem 0.42rem;
-    border-radius: 999px;
-    background: rgba(7, 16, 25, 0.82);
-    font-size: 0.62rem;
-    letter-spacing: 0.04em;
+  .real-map-pin-label {
+    top: 1.15rem;
+    padding: 0.26rem 0.38rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.03em;
   }
 
   .map-caption {
