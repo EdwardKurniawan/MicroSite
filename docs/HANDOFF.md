@@ -1,191 +1,60 @@
 # Handoff
 
-Last updated: 2026-03-31
-Current head: `f44d8e8` (`feat: overhaul shared city template system`)
+Last updated: 2026-04-09
+Current head: `4024836` (`feat: add event candidate review workflow`)
 
-## What changed
+## Current state
 
-The repo now has a normalized shared template system instead of city pages reading legacy JSON fields directly.
+TravelSides is now a reusable multi-city guide system with:
 
-Key additions:
+- shared templates in `template/`
+- city content in `cities/`
+- grouped/normalized render data through `lib/normalize-page-data.js`
+- static build output in `public/`
+- local runtime rendering in `server.js`
+- bootstrap and validation tooling for scaling to many cities
 
-- `lib/normalize-page-data.js`
-  - Normalizes guide, subpage, and venue data into grouped render inputs:
-    - `seo`
-    - `theme`
-    - `hero`
-    - `navigation`
-    - `footer`
-    - `author`
-- `lib/handlebars.js`
-  - Registers shared partials from `template/shared/components/`
-- New reusable partials:
-  - `guide-hero.hbs`
-  - `subpage-hero.hbs`
-  - `venue-hero.hbs`
-  - `section-heading.hbs`
-  - `fact-grid.hbs`
-  - `category-card.hbs`
-  - `district-card.hbs`
-  - `attraction-card.hbs`
-  - `faq-list.hbs`
-  - `cta-band.hbs`
+Amsterdam is the flagship reference city.
+Kanazawa is now the second city brought onto the same top-level page-family model.
 
-Shared templates rewritten:
+## What was finished this session
 
-- `template/guide-master.hbs`
-- `template/category-master.hbs`
-- `template/venue-master.hbs`
-- `template/shared/index.css`
-- `template/shared/global-nav.css`
-- `template/shared/global-nav.js`
-- `template/shared/components/footer.hbs`
+### 1. Amsterdam and Kanazawa were aligned as top-of-funnel city systems
 
-Runtime/build rewired:
+Both cities now have the same main page family:
 
-- `server.js`
-- `scripts/build.js`
-- `scripts/test-render.js`
+- homepage
+- `best-things-to-do`
+- `where-to-stay`
+- `best-restaurants`
+- `events`
+- `events/this-month`
+- `events/this-weekend`
 
-Amsterdam sample migration started:
+Kanazawa was upgraded to this structure during this session.
 
-- `cities/amsterdam/data.json`
-- `cities/amsterdam/museums/data.json`
-- `cities/amsterdam/noord/data.json`
+### 2. Shared design and information architecture were tightened
 
-Author-page placeholder cleanup:
+- homepage search/planner was removed
+- homepage flow was simplified around:
+  - hero
+  - best things to do
+  - what’s happening
+  - collections
+  - neighbourhoods
+  - FAQs
+- homepage map was upgraded to a real Leaflet/OpenStreetMap-based experience
+- text density was reduced across cards and major page sections
 
-- `cities/amsterdam/authors/sarah-mitchell/index.html`
-- `cities/kanazawa/authors/yuki-tanaka/index.html`
+### 3. Amsterdam was polished as the flagship city
 
-## Architecture now
+Completed:
 
-The source of truth for layout is `template/`.
-
-- City JSON can still use legacy flat fields.
-- Templates no longer need to read those legacy fields directly.
-- The normalizer adapts old JSON into the new grouped structure at render time.
-
-That means we can keep improving the shared template without needing to immediately rewrite every city and every subpage by hand.
-
-## What was verified
-
-Passed locally:
-
-- `node --check server.js`
-- `node --check scripts/build.js`
-- `node --check scripts/test-render.js`
-- `node --check lib/handlebars.js`
-- `node --check lib/normalize-page-data.js`
-- `node scripts/test-render.js`
-- `npm run build`
-
-Smoke-tested successfully:
-
-- `http://localhost:3001/?city=amsterdam`
-- `http://localhost:3001/museums/?city=amsterdam`
-- `http://localhost:3001/noord/?city=amsterdam`
-- `http://localhost:3001/rijksmuseum/?city=amsterdam`
-- `http://localhost:3001/?city=kanazawa`
-
-Validated during smoke tests:
-
-- guide page metadata and schema
-- category page metadata and schema
-- neighbourhood page metadata and schema
-- venue page metadata and schema
-- city-aware nav/footer rendering
-- Amsterdam grouped sample data still works
-- Kanazawa still renders through compatibility normalization
-- FAQ normalization works for both `q/a` and `question/answer`
-
-## Important implementation notes
-
-### 0. Git workflow preference
-
-After completing a coherent work pass, commit and push to `origin main` unless the user explicitly asks to hold changes locally.
-
-This keeps GitHub and deployment previews current for review.
-
-### 1. Build now clears `public/`
-
-`scripts/build.js` deletes and recreates `public/` before building.
-
-This matters because older builds had stale legacy pages sitting in `public/`, which made verification noisy and could have caused bad deploy output.
-
-### 2. Subpage canonical URLs
-
-Some subpages did not have an explicit `url` in their JSON.
-
-The build/runtime now inject:
-
-- `/${citySlug}/${subpageSlug}/`
-
-before normalization, so canonical URLs and breadcrumbs stay correct without needing to rewrite every file first.
-
-### 3. Navigation behavior
-
-Shared nav is now page-aware and local-first.
-
-- Guide pages use local anchors like `#city-overview` and `#collections`
-- Subpages/venue pages use the same nav model, but route back to the city guide where needed
-- CTA resolves per city instead of assuming a hardcoded ticket route
-
-### 4. Footer behavior
-
-Footer now renders from normalized data:
-
-- local links
-- about/editor links
-- network links
-- newsletter copy
-- legal copy
-
-### 5. Venue rendering
-
-Venue pages now use the shared visual language and normalized schema, and keep tracked booking URLs when a `tiqets_product_id` exists.
-
-### 6. Events workflow
-
-Amsterdam now has a richer event schema on the events page family:
-
-- `event_type`
-- `start_date`
-- `end_date`
-- `recurrence`
-- `status`
-- `district`
-- `booking_priority`
-
-There is also a lightweight freshness check:
-
-```bash
-npm run check:events
-```
-
-That script warns when event pages are missing:
-
-- `page_context.last_updated`
-- `page_context.next_refresh`
-- `page_context.timeframe`
-- structured event fields like `event_type`, `status`, `district`, and either `start_date` or `recurrence`
-
-Use that before every events refresh pass.
-
-### 7. Content validation and bootstrap
-
-There is now a structural content validator:
-
-```bash
-npm run check:content
-```
-
-Use it before scaling or bootstrapping a new city. It checks:
-
-- root SEO and hero fields
-- required root arrays like categories and neighbourhoods
-- guide-level internal links that should resolve to real local pages
-- whether a city has the recommended pillar family:
+- homepage editorial polish
+- collection-page polish
+- neighbourhood-page polish
+- broad-intent SEO phrasing on:
+  - homepage
   - `best-things-to-do`
   - `where-to-stay`
   - `best-restaurants`
@@ -193,72 +62,208 @@ Use it before scaling or bootstrapping a new city. It checks:
   - `events/this-month`
   - `events/this-weekend`
 
-Important current caveat:
+### 4. Kanazawa was brought up to reference-city standard
 
-- Kanazawa still throws warnings because it has not yet been upgraded to the Amsterdam-style pillar structure
-- those warnings are expected for now and should be treated as migration backlog, not as validator breakage
+Completed:
 
-`scripts/bootstrap-city.js` now scaffolds the newer city shape by default:
+- grouped root data
+- new pillar pages
+- new events family
+- grouped `seo` coverage for category and district pages
+- editorial polish for homepage, pillar pages, and event framing
 
-- grouped root fields (`seo`, `hero`, `navigation`, `guide_pages`, `footer`, `author`)
-- broad-intent pillar pages
-- events page family
-- category pages
-- neighbourhood pages
+### 5. Venue/detail pages were upgraded significantly
 
-## What is intentionally incomplete
+Shared venue pages now include:
 
-This is a strong foundation, but not the final city-system end state yet.
+- stronger hero context
+- visit snapshot
+- local angle
+- planning guidance
+- booking framing
+- supporting guide links
+- “Build The Next Move” blocks for flagship attractions
 
-Still not fully migrated:
+This was implemented in:
 
-- most Amsterdam subpages still rely on legacy flat content fields and are adapted at runtime
-- Kanazawa has not been manually migrated to grouped `seo/theme/hero/footer/navigation/author`
-- author pages are still standalone HTML rather than shared-template pages
-- bootstrap output still needs to be aligned more closely to the grouped schema over time
+- `lib/normalize-page-data.js`
+- `template/venue-master.hbs`
+- `template/shared/components/venue-hero.hbs`
+- `template/shared/index.css`
+
+### 6. Booking architecture was cleaned up
+
+Booking logic is now centralized in:
+
+- `lib/booking-links.js`
+
+This reduced hardcoded provider assumptions and makes a future TicketPass swap much easier.
+
+### 7. City bootstrap and validation improved
+
+Added and updated:
+
+- `scripts/bootstrap-city.js`
+- `scripts/validate-content.js`
+- `npm run check:content`
+
+Bootstrap now scaffolds the real pillar-page family by default.
+
+### 8. Event freshness and source scaling groundwork is now in place
+
+Freshness layer:
+
+- `scripts/check-event-freshness.js`
+- `npm run check:events`
+
+Source/provider groundwork:
+
+- `lib/event-providers/index.js`
+- `lib/event-providers/ticketmaster.js`
+- `scripts/fetch-events.js`
+- `data/event-candidates/`
+- `lib/event-candidate-storage.js`
+- `scripts/review-event-candidates.js`
+- `docs/EVENT-SOURCES.md`
+
+## Event source conclusions
+
+### Best first provider
+
+Use Ticketmaster first.
+
+Official docs:
+- [Ticketmaster Discovery API](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/)
+
+### Best next scaling option
+
+If coverage becomes the bottleneck, add PredictHQ.
+
+Official docs:
+- [PredictHQ Events API](https://docs.predicthq.com/api/events)
+
+### Important limitation
+
+Do not design the system around Eventbrite as the main public discovery source.
+
+Eventbrite shut down public event search API access in 2019.
+
+Official announcement:
+- [Eventbrite API announcement](https://groups.google.com/g/eventbrite-api/c/FT2MsDswdrA)
+
+## Event workflow now
+
+List providers:
+
+```bash
+npm run events:fetch -- --list-providers
+```
+
+Fetch candidate events:
+
+```bash
+npm run events:fetch -- \
+  --provider ticketmaster \
+  --city amsterdam \
+  --start 2026-04-01T00:00:00Z \
+  --end 2026-04-30T23:59:59Z \
+  --write
+```
+
+Review the latest candidate file:
+
+```bash
+npm run events:review -- --city amsterdam --provider ticketmaster
+```
+
+Candidate payloads are stored under:
+
+```text
+data/event-candidates/<city>/<provider>/
+```
+
+Current blocker:
+
+- `TICKETMASTER_API_KEY` is not set in this environment yet
+- the ingestion flow is coded and verified structurally, but not yet tested against a live provider response on this machine
+
+## What was verified this session
+
+Repeatedly verified during the session:
+
+- `npm run build`
+- `npm run check:content`
+- `npm run check:events`
+- `node --check` on edited JS files
+- local route smoke checks for:
+  - Amsterdam home + pillars
+  - Kanazawa home + pillars
+  - Amsterdam venue pages
+  - Kanazawa venue pages
+  - event month/weekend pages
+
+Also verified:
+
+- `npm run events:fetch -- --list-providers`
+- `npm run events:review -- --city amsterdam --provider ticketmaster --limit 2`
+
+That review command was tested with a temporary mock candidate payload and the mock file was removed before commit.
+
+## Important repo preferences
+
+### Git workflow
+
+After a coherent work pass, commit and push to `origin main` unless explicitly told not to.
+
+### Active architecture rules
+
+- shared template logic belongs in `template/`
+- city-specific editorial data belongs in `cities/<slug>/`
+- do not reintroduce city-specific logic into shared templates unless unavoidable
+- prefer improving the normalized render layer instead of adding ad hoc template conditionals
 
 ## Best next steps
 
-Recommended order:
+If resuming next session, start here:
 
-1. Migrate more Amsterdam subpages into grouped data shape
-2. Bring Kanazawa up to the new pillar-page standard so `npm run check:content` becomes mostly clean
-3. Upgrade the event freshness workflow city-by-city
-4. Decide whether author pages should become shared-template pages
-5. Add one more round of content primitives if needed:
-   - map block
-   - quote/testimonial block
-   - “best for” chips
-   - comparison/table block
-6. Do a deployment-quality visual QA pass on:
-   - Amsterdam home
-   - Amsterdam museums
-   - Amsterdam Noord
-   - Rijksmuseum venue page
-   - Kanazawa home
+1. add `TICKETMASTER_API_KEY`
+2. run one real provider fetch with `events:fetch --write`
+3. run `events:review`
+4. promote the strongest live results into:
+   - `cities/<city>/events/data.json`
+   - `cities/<city>/events/this-month/data.json`
+   - `cities/<city>/events/this-weekend/data.json`
+
+After that, the strongest product step is:
+
+5. build a real “promote candidate to editorial event card” workflow so the curated JSON can be updated faster
 
 ## Fast restart commands
 
 ```bash
 npm run build
+npm run check:content
+npm run check:events
+npm run events:fetch -- --list-providers
 node server.js
-node scripts/test-render.js
 ```
 
-Useful local URLs:
+## Good review URLs
 
-- `http://localhost:3001/?city=amsterdam`
-- `http://localhost:3001/museums/?city=amsterdam`
-- `http://localhost:3001/noord/?city=amsterdam`
-- `http://localhost:3001/rijksmuseum/?city=amsterdam`
-- `http://localhost:3001/?city=kanazawa`
+```text
+http://localhost:3001/?city=amsterdam
+http://localhost:3001/best-things-to-do/?city=amsterdam
+http://localhost:3001/where-to-stay/?city=amsterdam
+http://localhost:3001/best-restaurants/?city=amsterdam
+http://localhost:3001/events/?city=amsterdam
+http://localhost:3001/events/this-month/?city=amsterdam
+http://localhost:3001/events/this-weekend/?city=amsterdam
 
-## If we resume next session
-
-The fastest pickup is:
-
-1. Read this file
-2. Read `docs/ARCHITECTURE.md`
-3. Inspect `lib/normalize-page-data.js`
-4. Open the three master templates in `template/`
-5. Continue with Amsterdam-first grouped data migration or bootstrap-schema upgrades
+http://localhost:3001/?city=kanazawa
+http://localhost:3001/best-things-to-do/?city=kanazawa
+http://localhost:3001/where-to-stay/?city=kanazawa
+http://localhost:3001/best-restaurants/?city=kanazawa
+http://localhost:3001/events/?city=kanazawa
+http://localhost:3001/events/this-month/?city=kanazawa
+http://localhost:3001/events/this-weekend/?city=kanazawa
+```

@@ -2,4 +2,4 @@
 
 | File | Type | Description |
 |------|------|-------------|
-| `project_travelsides.md` | project | TravelSides city guide — goals, Supabase schema, city UUIDs, API endpoints, completed work, remaining tasks |
+| `project_travelsides.md` | project | TravelSides city guide — current architecture, cities, tooling, event-source strategy, and next resume point |
