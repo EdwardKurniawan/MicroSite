@@ -10,6 +10,7 @@
     "check:content": "node scripts/validate-content.js",
     "check:events": "node scripts/check-event-freshness.js",
     "events:fetch": "node scripts/fetch-events.js",
+    "events:review": "node scripts/review-event-candidates.js",
     "dev:amsterdam": "cross-env PORT=3001 CITY=amsterdam node server.js",
     "dev:kanazawa": "cross-env PORT=3002 CITY=kanazawa node server.js",
     "dev:london": "cross-env PORT=3003 CITY=london node server.js",

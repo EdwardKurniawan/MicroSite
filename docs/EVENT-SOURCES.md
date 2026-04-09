@@ -5,6 +5,8 @@ This repo now has a provider-ready event ingestion entry point:
 ```bash
 npm run events:fetch -- --list-providers
 npm run events:fetch -- --provider ticketmaster --city amsterdam --start 2026-04-01T00:00:00Z --end 2026-04-30T23:59:59Z --keyword exhibition
+npm run events:fetch -- --provider ticketmaster --city amsterdam --start 2026-04-01T00:00:00Z --end 2026-04-30T23:59:59Z --write
+npm run events:review -- --city amsterdam --provider ticketmaster
 ```
 
 ## Current recommendation
@@ -58,6 +60,9 @@ Eventbrite should not be the primary public-city discovery source for this syste
 
 - Keep city event pages in JSON for editorial control
 - Use `events:fetch` to pull candidate events from Ticketmaster
+- Use `--write` to store raw candidate payloads under:
+  - `data/event-candidates/<city>/<provider>/...json`
+- Use `events:review` to turn the latest raw fetch into a shortlist for editorial promotion
 - Curate the strongest event candidates into:
   - `events/`
   - `events/this-month/`
@@ -103,3 +108,29 @@ Future:
 PREDICTHQ_API_KEY=...
 EVENTBRITE_PRIVATE_TOKEN=...
 ```
+
+## Workflow
+
+1. Fetch provider results into the candidate store:
+
+```bash
+npm run events:fetch -- \
+  --provider ticketmaster \
+  --city amsterdam \
+  --start 2026-04-01T00:00:00Z \
+  --end 2026-04-30T23:59:59Z \
+  --classification music \
+  --write
+```
+
+2. Review the latest candidate file for that city/provider:
+
+```bash
+npm run events:review -- --city amsterdam --provider ticketmaster
+```
+
+3. Promote the strongest candidates into the editorial city pages:
+
+- `cities/<city>/events/data.json`
+- `cities/<city>/events/this-month/data.json`
+- `cities/<city>/events/this-weekend/data.json`

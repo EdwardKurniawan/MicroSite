@@ -5,6 +5,7 @@ const path = require('path');
 require('dotenv').config();
 
 const { getEventProvider, listEventProviders } = require('../lib/event-providers');
+const { writeCandidatePayload } = require('../lib/event-candidate-storage');
 
 const ROOT = path.resolve(__dirname, '..');
 
@@ -60,6 +61,19 @@ async function main() {
     const outputPath = path.resolve(ROOT, args.output);
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
     fs.writeFileSync(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
+    process.stdout.write(`Wrote ${outputPath}\n`);
+    return;
+  }
+
+  if (args.write) {
+    const outputPath = writeCandidatePayload(payload, {
+      citySlug,
+      providerName,
+      startDateTime: args.start || '',
+      endDateTime: args.end || '',
+      keyword: args.keyword || '',
+      classificationName: args.classification || ''
+    });
     process.stdout.write(`Wrote ${outputPath}\n`);
     return;
   }
