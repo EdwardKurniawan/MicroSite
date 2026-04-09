@@ -49,7 +49,7 @@
           {{#if todos.length}}
             <div class="{{#if (eq page_context.label 'Pillar guide')}}pillar-checklist-block{{/if}}">
               {{#if (eq page_context.label 'Pillar guide')}}
-                {{> section-heading eyebrow="How To Use This List" title="Make these calls first"}}
+                {{> section-heading eyebrow="How To Use This List" title="Make these search-intent calls first"}}
               {{else}}
                 {{> section-heading eyebrow="What To Do" title="Start with these stops"}}
               {{/if}}
@@ -68,7 +68,7 @@
           {{#if attractions.length}}
             <div id="top-attractions" class="{{#if (eq page_context.label 'Pillar guide')}}pillar-ranked-block{{/if}}">
               {{#if (eq page_context.label 'Pillar guide')}}
-                {{> section-heading eyebrow="The Ranked Shortlist" title="The experiences worth building the trip around"}}
+                {{> section-heading eyebrow="The Ranked Shortlist" title="The best things to do worth building the trip around"}}
               {{else}}
                 {{> section-heading eyebrow="Top Stops" title="Featured attractions"}}
               {{/if}}

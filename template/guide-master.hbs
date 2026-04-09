@@ -54,7 +54,7 @@
     <section id="city-overview" class="section-shell guide-overview-section">
       <div class="shell insight-grid">
         <div>
-          {{> section-heading eyebrow=intro.eyebrow title=intro.title description="Use this page to get the shape of the trip right, then open the deeper guides only where they matter."}}
+          {{> section-heading eyebrow=intro.eyebrow title=intro.title description="Use this page to answer the big search-intent questions fast: what to do, what to see first, what is happening, and what deserves advance planning."}}
           <div class="copy-block copy-block-lede">{{{firstParagraph intro.body_html}}}</div>
           {{#if guide_pages.length}}
             <div class="homepage-link-cluster">
@@ -74,7 +74,7 @@
     {{#if top_things.length}}
       <section id="top-things" class="section-shell guide-top-things-section">
         <div class="shell">
-          {{> section-heading eyebrow="Best Things To Do" title="Start with the experiences worth real space in the trip" description="This is the short list for broad intent: what to do, what to see first, and what should shape the first version of the itinerary."}}
+          {{> section-heading eyebrow="Best Things To Do" title="Start with the best things to do in the city" description="This is the short list for broad intent: what to do, what to see first, and which experiences should shape the first version of the itinerary."}}
           {{#if guide_pages.length}}
             <div class="section-utility-links">
               {{#each guide_pages}}
@@ -96,7 +96,7 @@
     {{#if events.length}}
       <section id="events" class="section-shell section-shell-muted guide-events-section">
         <div class="shell">
-          {{> section-heading eyebrow="What's Happening" title="Check the live calendar before you lock the trip" description="Seasonal swings and citywide moments can change what deserves priority more than people expect."}}
+          {{> section-heading eyebrow="What's Happening" title="Check what is happening before you lock the trip" description="Seasonal swings, festivals, and current city moments can change what deserves priority more than people expect."}}
           <div class="section-utility-links">
             <a href="/{{city_slug}}/events/" class="story-link">Open the events hub</a>
             <a href="/{{city_slug}}/events/this-month/" class="story-link">See this month</a>
@@ -113,7 +113,7 @@
 
     <section id="collections" class="section-shell section-shell-muted guide-collections-section">
       <div class="shell">
-        {{> section-heading eyebrow="Collections" title="Open the guide that matches the version of the city you want"}}
+        {{> section-heading eyebrow="Plan The Trip" title="Open the guide that matches how you want to do the city"}}
         <div class="section-utility-links">
           {{#each guide_pages}}
             {{#if (eq title "Where To Stay")}}
@@ -134,7 +134,7 @@
 
     <section id="neighbourhoods" class="section-shell guide-neighbourhoods-section">
       <div class="shell">
-        {{> section-heading eyebrow="Neighbourhoods" title="Pick the district that fits your pace"}}
+        {{> section-heading eyebrow="Neighbourhoods" title="Pick the area that fits your pace and stay style"}}
         <div class="section-utility-links">
           {{#each guide_pages}}
             {{#if (eq title "Where To Stay")}}
@@ -156,7 +156,7 @@
     {{#if faqs.length}}
       <section id="faqs" class="section-shell section-shell-muted">
         <div class="shell shell-narrow">
-          {{> section-heading eyebrow="FAQs" title="Questions travelers ask before they arrive"}}
+          {{> section-heading eyebrow="FAQs" title="Questions people ask before they book the trip"}}
           {{> faq-list items=faqs}}
         </div>
       </section>

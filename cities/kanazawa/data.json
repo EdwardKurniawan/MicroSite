@@ -7,17 +7,17 @@
     "accentLight": "#fdf1ec"
   },
   "seo": {
-    "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, and Plan First",
-    "description": "A practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments actually change the trip.",
+    "title": "What To Do in Kanazawa (2026): Best Things To Do, What To See, and When To Go",
+    "description": "A practical Kanazawa city guide for the best things to do, what to see first, where to stay, what to eat, and which seasonal moments actually change the trip.",
     "canonical": "https://travelsides.com/kanazawa/",
     "og": {
-      "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, and Plan First",
-      "description": "A practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments actually change the trip.",
+      "title": "What To Do in Kanazawa (2026): Best Things To Do, What To See, and When To Go",
+      "description": "A practical Kanazawa city guide for the best things to do, what to see first, where to stay, what to eat, and which seasonal moments actually change the trip.",
       "image": "https://travelsides.com/kanazawa/images/hero.jpg"
     },
     "twitter": {
-      "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, and Plan First",
-      "description": "A practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments actually change the trip.",
+      "title": "What To Do in Kanazawa (2026): Best Things To Do, What To See, and When To Go",
+      "description": "A practical Kanazawa city guide for the best things to do, what to see first, where to stay, what to eat, and which seasonal moments actually change the trip.",
       "image": "https://travelsides.com/kanazawa/images/hero.jpg"
     }
   },
@@ -28,8 +28,8 @@
   },
   "hero": {
     "eyebrow": "Kanazawa City Guide",
-    "title": "What to do in Kanazawa, and what deserves the time",
-    "tagline": "Start with the garden, the old quarters, the seafood, and the seasonal windows that make this small city feel far deeper than a checklist.",
+    "title": "What to do in Kanazawa, what to see first, and when to slow down",
+    "tagline": "Start with the garden, the old quarters, the seafood, and the seasonal windows that make this small city feel far deeper than a checklist of attractions.",
     "image": "/kanazawa/images/hero.jpg",
     "alt": "Kanazawa Kenroku-en garden in autumn"
   },
@@ -94,11 +94,11 @@
     { "name": "London Insider", "url": "https://london-insider.com" },
     { "name": "Rome Insider", "url": "https://rome-insider.com" }
   ],
-  "meta_title": "17 Best Things To Do in Kanazawa (2026 Japan Guide)",
-  "meta_description": "Planning a trip to Kanazawa? Our 2026 local guide covers the 17 best things to do — Kenroku-en garden, Higashi Chaya geisha district, 21st Century Museum & hidden temples. Skip-the-line tips included.",
+  "meta_title": "What To Do in Kanazawa (2026): Best Things To Do, What To See, and When To Go",
+  "meta_description": "A practical Kanazawa city guide for the best things to do, what to see first, where to stay, what to eat, and which seasonal moments actually change the trip.",
   "canonical_url": "https://travelsides.com/kanazawa/",
-  "og_title": "17 Best Things To Do in Kanazawa (2026 Japan Guide)",
-  "og_description": "The definitive Kanazawa travel guide — Kenroku-en, geisha districts, samurai quarters, fresh seafood markets and hidden ninja temples.",
+  "og_title": "What To Do in Kanazawa (2026): Best Things To Do, What To See, and When To Go",
+  "og_description": "A practical Kanazawa city guide for the best things to do, what to see first, where to stay, what to eat, and which seasonal moments actually change the trip.",
   "og_image": "https://travelsides.com/kanazawa/images/hero.jpg",
   "theme_accent": "#B5451B",
   "theme_accent_dark": "#8f3515",
@@ -111,8 +111,8 @@
   "hero_image": "/kanazawa/images/hero.jpg",
   "hero_alt": "Kanazawa Kenroku-en garden in autumn",
   "hero_eyebrow": "🇯🇵 Ishikawa Prefecture, Japan",
-  "hero_h1": "17 Best Things To Do in Kanazawa",
-  "hero_tagline": "Japan's most underrated city — one of the country's three great gardens, two preserved geisha districts, a samurai quarter, a ninja temple, and the freshest seafood on the Sea of Japan coast. All within walking distance of each other.",
+  "hero_h1": "What to do in Kanazawa, what to see first, and when to slow down",
+  "hero_tagline": "Start with the garden, the old quarters, the seafood, and the seasonal windows that make this small city feel far deeper than a checklist of attractions.",
   "quick_info": [
     {
       "icon": "🚅",

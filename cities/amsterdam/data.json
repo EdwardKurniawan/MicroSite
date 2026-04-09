@@ -7,17 +7,17 @@
     "accentLight": "#fff3ee"
   },
   "seo": {
-    "title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
-    "description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
+    "title": "What To Do in Amsterdam (2026): Best Things To Do, What To See, and What’s Happening",
+    "description": "A practical Amsterdam city guide for the best things to do, what to see first, what is happening now, where to eat, and what to book before you land.",
     "canonical": "https://travelsides.com/amsterdam/",
     "og": {
-      "title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
-      "description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
+      "title": "What To Do in Amsterdam (2026): Best Things To Do, What To See, and What’s Happening",
+      "description": "A practical Amsterdam city guide for the best things to do, what to see first, what is happening now, where to eat, and what to book before you land.",
       "image": "https://travelsides.com/amsterdam/images/hero.jpg"
     },
     "twitter": {
-      "title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
-      "description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
+      "title": "What To Do in Amsterdam (2026): Best Things To Do, What To See, and What’s Happening",
+      "description": "A practical Amsterdam city guide for the best things to do, what to see first, what is happening now, where to eat, and what to book before you land.",
       "image": "https://travelsides.com/amsterdam/images/hero.jpg"
     }
   },
@@ -28,8 +28,8 @@
   },
   "hero": {
     "eyebrow": "Amsterdam City Guide",
-    "title": "What to do in Amsterdam, without wasting the trip",
-    "tagline": "Start with the city’s strongest museums, canal time, food spots, neighbourhoods, and seasonal moments so you know what to see, what’s happening, and what to book first.",
+    "title": "What to do in Amsterdam, what to see first, and what to book early",
+    "tagline": "Start with the city’s strongest museums, canal time, food spots, neighbourhoods, and seasonal moments so you know the best things to do in Amsterdam before the trip gets overfilled.",
     "image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
     "alt": "Amsterdam canal houses at golden hour"
   },
@@ -94,11 +94,11 @@
     { "name": "London Insider", "url": "https://london-insider.com" },
     { "name": "Rome Insider", "url": "https://rome-insider.com" }
   ],
-  "meta_title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
-  "meta_description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
+  "meta_title": "What To Do in Amsterdam (2026): Best Things To Do, What To See, and What’s Happening",
+  "meta_description": "A practical Amsterdam city guide for the best things to do, what to see first, what is happening now, where to eat, and what to book before you land.",
   "canonical_url": "https://travelsides.com/amsterdam/",
-  "og_title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
-  "og_description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
+  "og_title": "What To Do in Amsterdam (2026): Best Things To Do, What To See, and What’s Happening",
+  "og_description": "A practical Amsterdam city guide for the best things to do, what to see first, what is happening now, where to eat, and what to book before you land.",
   "og_image": "https://travelsides.com/amsterdam/images/hero.jpg",
   "theme_accent": "#E8601C",
   "theme_accent_dark": "#c44f14",
@@ -111,8 +111,8 @@
   "hero_image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
   "hero_alt": "Amsterdam canal houses at golden hour",
   "hero_eyebrow": "Amsterdam City Guide",
-  "hero_h1": "What to do in Amsterdam, without wasting the trip",
-  "hero_tagline": "Start with the city’s strongest museums, canal time, food spots, neighbourhoods, and seasonal moments so you know what to see, what’s happening, and what to book first.",
+  "hero_h1": "What to do in Amsterdam, what to see first, and what to book early",
+  "hero_tagline": "Start with the city’s strongest museums, canal time, food spots, neighbourhoods, and seasonal moments so you know the best things to do in Amsterdam before the trip gets overfilled.",
   "quick_info": [
     {
       "icon": "🌤",
