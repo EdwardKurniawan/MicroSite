@@ -22,7 +22,7 @@
     "timeframe": "April 2026",
     "last_updated": "April 9, 2026",
     "freshness": "Updated now",
-    "note": "For April 2026, the strongest live planning signals are Keukenhof's spring season, which runs through May 10, and the build into King's Night and King's Day on April 26-27. Those are the dates most likely to change the shape and pressure of a first trip.",
+    "note": "For April 2026, the strongest live planning signals are Keukenhof's spring season through May 10, the build into King's Night and King's Day on April 26-27, and a live-ticketed concert run around Melkweg and Ziggo Dome on April 9-10. Those are the dates most likely to change the shape and pressure of a first trip.",
     "next_refresh": "Week of April 27, 2026"
   },
   "intro_html": "<p>This page is built for travelers asking a very specific question: <strong>what is happening in Amsterdam this month that should actually affect my plans?</strong> Instead of dumping a long calendar, it focuses on the strongest citywide patterns: seasonal weather shifts, museum demand, after-dark atmosphere, and the day trips or evening bookings that matter most right now.</p>",
@@ -58,6 +58,36 @@
       "link_label": "Back to the events guide"
     },
     {
+      "kicker": "Live Ticketed Pick",
+      "timing": "April 10, 2026",
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-10",
+      "event_type": "live-ticketed",
+      "status": "On sale now",
+      "district": "Leidseplein",
+      "booking_priority": "Strong Friday-night anchor",
+      "title": "Amsterdam Calling 2026 at Melkweg",
+      "description": "Melkweg is one of the clearest live-music venues to watch for Amsterdam short breaks, and Amsterdam Calling 2026 gives April a real ticketed nightlife anchor on Friday, April 10.",
+      "venue": "Melkweg",
+      "url": "https://ticketmaster.evyy.net/c/7152807/2038751/23888?u=https%3A%2F%2Fwww.ticketmaster.nl%2Fevent%2Famsterdam-calling-2026-tickets%2F1984640994%3Flanguage%3Den-us&utm_medium=affiliate",
+      "link_label": "Check live availability"
+    },
+    {
+      "kicker": "Arena Night",
+      "timing": "April 10, 2026",
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-10",
+      "event_type": "live-ticketed",
+      "status": "On sale now",
+      "district": "Amsterdam-Zuidoost",
+      "booking_priority": "Plan transport and dinner around the show",
+      "title": "5 Seconds of Summer at Ziggo Dome",
+      "description": "A large arena show on Friday, April 10 is exactly the kind of city event that changes dinner timing, late-night transport, and where the strongest evening energy sits.",
+      "venue": "Ziggo Dome",
+      "url": "https://ticketmaster.evyy.net/c/7152807/2038751/23888?u=https%3A%2F%2Fwww.ticketmaster.nl%2Fevent%2F5-seconds-of-summer-everyones-a-star-tour-tickets%2F1023158589%3Flanguage%3Den-us&utm_medium=affiliate",
+      "link_label": "Check live availability"
+    },
+    {
       "kicker": "Booking Pressure",
       "timing": "Late April pressure",
       "start_date": "2026-04-20",
@@ -69,23 +99,8 @@
       "title": "Late April gets more crowded as King's Day approaches",
       "description": "The run-up to King's Night and King's Day on April 26-27, 2026, can change hotel mood, nightlife demand, and how attractive central sightseeing really feels. Travelers who want a calmer Amsterdam should plan around those dates rather than drifting into them.",
       "venue": "Museumplein + canal ring",
-      "url": "/amsterdam/museums/",
-      "link_label": "See the booking priorities"
-    },
-    {
-      "kicker": "Neighbourhood Mood",
-      "timing": "April mood",
-      "start_date": "2026-04-01",
-      "end_date": "2026-04-30",
-      "event_type": "editorial",
-      "status": "Weather dependent",
-      "district": "Noord + Westerpark + De Pijp",
-      "booking_priority": "Keep one flexible afternoon",
-      "title": "The neighbourhoods most likely to reward your free time",
-      "description": "April rewards a mixed itinerary: one museum-heavy block, one spring-sensitive outing, and one district-led afternoon once you know what the weather is doing. Noord, Westerpark, and De Pijp become more attractive the better the light gets.",
-      "venue": "Neighbourhood-wide",
-      "url": "/amsterdam/neighbourhoods/",
-      "link_label": "Compare districts"
+      "url": "/amsterdam/events/this-weekend/",
+      "link_label": "See the weekend pattern"
     }
   ],
   "getting_there": [

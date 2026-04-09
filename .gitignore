@@ -6,3 +6,6 @@ public/
 *.log
 .DS_Store
 Thumbs.db
+data/event-candidates/**
+!data/event-candidates/
+!data/event-candidates/.gitkeep
