@@ -119,6 +119,7 @@ a {
   justify-content: flex-end;
   min-height: 100%;
   gap: 1.25rem;
+  padding-bottom: 1rem;
 }
 
 .page-kicker,
@@ -149,6 +150,7 @@ a {
   font-size: clamp(2.8rem, 6.2vw, 5.35rem);
   line-height: 1;
   letter-spacing: -0.04em;
+  text-wrap: balance;
 }
 
 .page-subtitle,
@@ -164,10 +166,16 @@ a {
   max-width: 38rem;
 }
 
+.page-hero-guide .page-subtitle {
+  max-width: 46rem;
+  font-size: clamp(1.02rem, 1.7vw, 1.24rem);
+}
+
 .hero-actions-shell {
   display: grid;
   gap: 0.9rem;
   margin-top: 0.55rem;
+  max-width: 48rem;
 }
 
 .hero-actions {
@@ -259,6 +267,18 @@ a {
   box-shadow: 0 0 0 5px rgba(232, 96, 28, 0.12);
 }
 
+.guide-overview-section {
+  position: relative;
+}
+
+.guide-overview-section::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+}
+
 .hero-meta,
 .meta-row {
   display: flex;
@@ -271,15 +291,17 @@ a {
 }
 
 .section-shell {
-  padding: 3.8rem 0;
+  padding: 4.5rem 0;
 }
 
 .section-shell-muted {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.08), transparent 34%);
 }
 
 .section-heading-shell {
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.5rem;
 }
 
 .section-utility-links {
@@ -301,6 +323,7 @@ a {
   font-size: clamp(1.75rem, 3.3vw, 3rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
+  text-wrap: balance;
 }
 
 .section-description,
@@ -366,7 +389,7 @@ a {
 .insight-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.8fr);
-  gap: 1.4rem;
+  gap: 1.6rem;
 }
 
 .insight-aside,
@@ -390,7 +413,13 @@ a {
 .editorial-panel,
 .toolkit-card {
   border-radius: 1.25rem;
-  padding: 1.15rem;
+  padding: 1.2rem;
+}
+
+.insight-aside {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.025)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.15), transparent 48%);
 }
 
 .fact-grid {
@@ -420,7 +449,7 @@ a {
 .toolkit-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  gap: 1.15rem;
 }
 
 .neighbourhood-map-shell {
@@ -700,7 +729,7 @@ a {
 .events-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+  gap: 1.15rem;
 }
 
 .story-card,
@@ -716,10 +745,32 @@ a {
 
 .story-card {
   text-decoration: none;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.028)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.12), transparent 44%);
+  transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.story-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .story-card-feature .story-body h3 {
   max-width: 18ch;
+}
+
+.guide-top-things-section .story-card-feature .story-visual {
+  aspect-ratio: 16 / 10.6;
+}
+
+.guide-top-things-section .story-card-feature .story-body {
+  padding: 1.25rem;
+}
+
+.guide-top-things-section .story-card-feature .story-body p {
+  -webkit-line-clamp: 2;
 }
 
 .story-visual {
@@ -804,6 +855,13 @@ a {
     linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.02)),
     radial-gradient(circle at top left, rgba(197, 107, 43, 0.14), transparent 42%);
   box-shadow: var(--shadow-panel);
+  transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.18);
 }
 
 .event-card-meta {
@@ -851,6 +909,22 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--theme-accent-light);
+}
+
+.guide-events-section .events-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.guide-collections-section .story-card-collection .story-body {
+  padding: 1rem 1.05rem 1.15rem;
+}
+
+.guide-neighbourhoods-section .story-grid {
+  margin-top: 1.1rem;
+}
+
+.guide-neighbourhoods-section .neighbourhood-map-shell {
+  margin-bottom: 1.6rem;
 }
 
 .story-link::after {
@@ -1176,6 +1250,10 @@ a {
     padding: 7rem 0 3rem;
   }
 
+  .section-shell {
+    padding: 3.8rem 0;
+  }
+
   .hero-actions,
   .footer-bottom,
   .cta-actions {
@@ -1235,5 +1313,10 @@ a {
 
   .map-side-panel p {
     font-size: 0.86rem;
+  }
+
+  .section-utility-links {
+    justify-content: flex-start;
+    margin-top: -0.15rem;
   }
 }

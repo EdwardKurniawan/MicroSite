@@ -51,7 +51,7 @@
   <main class="page-shell">
     {{> guide-hero}}
 
-    <section id="city-overview" class="section-shell">
+    <section id="city-overview" class="section-shell guide-overview-section">
       <div class="shell insight-grid">
         <div>
           {{> section-heading eyebrow=intro.eyebrow title=intro.title description="Use this page to get the shape of the trip right, then open the deeper guides only where they matter."}}
@@ -65,7 +65,7 @@
     </section>
 
     {{#if top_things.length}}
-      <section id="top-things" class="section-shell">
+      <section id="top-things" class="section-shell guide-top-things-section">
         <div class="shell">
           {{> section-heading eyebrow="Best Things To Do" title="Start with the experiences worth real space in the trip" description="This is the short list for broad intent: what to do, what to see first, and what should shape the first version of the itinerary."}}
           {{#if guide_pages.length}}
@@ -87,7 +87,7 @@
     {{/if}}
 
     {{#if events.length}}
-      <section id="events" class="section-shell section-shell-muted">
+      <section id="events" class="section-shell section-shell-muted guide-events-section">
         <div class="shell">
           {{> section-heading eyebrow="What's Happening" title="Check the live calendar before you lock the trip" description="Seasonal swings and citywide moments can change what deserves priority more than people expect."}}
           <div class="events-grid">
@@ -99,7 +99,7 @@
       </section>
     {{/if}}
 
-    <section id="collections" class="section-shell section-shell-muted">
+    <section id="collections" class="section-shell section-shell-muted guide-collections-section">
       <div class="shell">
         {{> section-heading eyebrow="Collections" title="Open the guide that matches the version of Amsterdam you want"}}
         <div class="story-grid">
@@ -110,7 +110,7 @@
       </div>
     </section>
 
-    <section id="neighbourhoods" class="section-shell">
+    <section id="neighbourhoods" class="section-shell guide-neighbourhoods-section">
       <div class="shell">
         {{> section-heading eyebrow="Neighbourhoods" title="Pick the district that fits your pace"}}
         {{#if neighbourhood_map.length}}
