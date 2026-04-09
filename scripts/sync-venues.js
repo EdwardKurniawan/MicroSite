@@ -3,6 +3,7 @@ const { Pool } = require('pg');
 require('dotenv').config();
 const { getCityRecordBySlug } = require('../config/city-registry');
 const { getCityPath } = require('../lib/project-paths');
+const { buildTrackedBookingUrl } = require('../lib/booking-links');
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
@@ -65,7 +66,12 @@ async function sync() {
               };
 
               if (match.tiqets_product_id) {
-                baseAttr.checkoutUrl = `/api/track-click?slug=${match.slug}&redirect=https://www.tiqets.com/en/product/${match.tiqets_product_id}/?partner=${citySlug}_insider`;
+                baseAttr.checkoutUrl = buildTrackedBookingUrl({
+                  slug: match.slug,
+                  citySlug,
+                  tiqetsProductId: match.tiqets_product_id,
+                  source: 'sync-script'
+                });
               }
               
               return baseAttr;

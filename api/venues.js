@@ -1,4 +1,5 @@
 const { Pool } = require('pg');
+const { buildTrackedBookingUrl } = require('../lib/booking-links');
 const {
   CITY_HOSTS,
   getCityRecordBySlug,
@@ -78,7 +79,17 @@ module.exports = async function handler(req, res) {
     query += ' ORDER BY rating DESC NULLS LAST';
 
     const result = await pool.query(query, values);
-    res.status(200).json(result.rows);
+    const venues = result.rows.map((venue) => ({
+      ...venue,
+      booking_url: buildTrackedBookingUrl({
+        slug: venue.slug,
+        citySlug: city.slug,
+        tiqetsProductId: venue.tiqets_product_id,
+        source: 'venues-api'
+      })
+    }));
+
+    res.status(200).json(venues);
   } catch (error) {
     console.error('Vercel /api/venues error:', error);
     res.status(500).json({ error: 'Database error' });

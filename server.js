@@ -16,6 +16,7 @@ const {
   getSharedPath
 } = require('./lib/project-paths');
 const { registerHandlebarsDefaults } = require('./lib/handlebars');
+const { buildTrackedBookingUrl } = require('./lib/booking-links');
 const {
   normalizeGuidePageData,
   normalizeSubpageData,
@@ -200,7 +201,12 @@ http
                   );
                   if (venueRes.rows.length > 0 && venueRes.rows[0].tiqets_product_id) {
                     const pid = venueRes.rows[0].tiqets_product_id;
-                    item.checkoutUrl = `/api/track-click?slug=${attr.id}&redirect=https://www.tiqets.com/en/product/${pid}/?partner=${citySlug}_insider`;
+                    item.checkoutUrl = buildTrackedBookingUrl({
+                      slug: attr.id,
+                      citySlug,
+                      tiqetsProductId: pid,
+                      source: 'ai-search'
+                    });
                   }
                 } catch (dbErr) {
                   console.error('DB enrichment error:', dbErr.message);
@@ -289,13 +295,17 @@ ${JSON.stringify(inventory, null, 2)}`;
 
     if (req.method === 'GET' && urlPath === '/api/track-click') {
       const slug = requestUrl.searchParams.get('slug');
+      const provider = requestUrl.searchParams.get('provider') || 'external';
+      const source = requestUrl.searchParams.get('source') || 'city-guide';
       const redirectUrl = requestUrl.searchParams.get('redirect') || '/';
+      const safeRedirectUrl = isSafeRedirectUrl(redirectUrl) ? redirectUrl : '/';
       try {
         await pool.query('INSERT INTO affiliate_clicks (venue_slug, clicked_at) VALUES ($1, NOW())', [slug]);
+        console.log(`Tracked click: slug=${slug || 'unknown'} provider=${provider} source=${source}`);
       } catch (err) {
         console.error('Click tracking error:', err.message);
       }
-      res.writeHead(302, { Location: redirectUrl });
+      res.writeHead(302, { Location: safeRedirectUrl });
       res.end();
       return;
     }
@@ -375,7 +385,12 @@ ${JSON.stringify(inventory, null, 2)}`;
               const nextAttr = { ...attr };
               if (nextAttr.id && venueMap[nextAttr.id]) {
                 nextAttr.tiqets_product_id = venueMap[nextAttr.id];
-                nextAttr.booking_url = `/api/track-click?slug=${nextAttr.id}&redirect=https://www.tiqets.com/en/product/${venueMap[nextAttr.id]}/?partner=${city.slug}_insider`;
+                nextAttr.booking_url = buildTrackedBookingUrl({
+                  slug: nextAttr.id,
+                  citySlug: city.slug,
+                  tiqetsProductId: venueMap[nextAttr.id],
+                  source: 'subpage-card'
+                });
               }
               return nextAttr;
             });
@@ -437,3 +452,20 @@ ${JSON.stringify(inventory, null, 2)}`;
     console.log(`  Local dev: http://localhost:${PORT}/?city=amsterdam`);
     console.log(`  Local dev: http://localhost:${PORT}/?city=kanazawa`);
   });
+
+function isSafeRedirectUrl(value) {
+  if (typeof value !== 'string' || !value) {
+    return false;
+  }
+
+  if (value.startsWith('/')) {
+    return true;
+  }
+
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' || url.protocol === 'http:';
+  } catch (_error) {
+    return false;
+  }
+}

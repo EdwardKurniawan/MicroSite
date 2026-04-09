@@ -17,7 +17,7 @@
     <div class="editorial-actions">
       {{#if price}}<span class="price-chip">{{price}}</span>{{/if}}
       {{#if booking_url}}
-        <a href="{{booking_url}}" class="button-link">Book Tickets</a>
+        <a href="{{booking_url}}" class="button-link">{{#if booking_label}}{{booking_label}}{{else}}Check Availability{{/if}}</a>
       {{else if url}}
         <a href="{{url}}" class="button-link button-link-secondary">{{#if cta}}{{cta}}{{else}}Open Guide{{/if}}</a>
       {{else}}

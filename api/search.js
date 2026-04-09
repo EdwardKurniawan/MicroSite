@@ -2,6 +2,7 @@ const fs = require('fs');
 const { Pool } = require('pg');
 const { getCityRecordBySlug } = require('../config/city-registry');
 const { getCityPath } = require('../lib/project-paths');
+const { buildTrackedBookingUrl } = require('../lib/booking-links');
 
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -56,7 +57,12 @@ module.exports = async function handler(req, res) {
                       [attr.id, cityId]
                     );
                     if (venueRes.rows.length > 0 && venueRes.rows[0].tiqets_product_id) {
-                      item.checkoutUrl = `/api/track-click?slug=${attr.id}&redirect=https://www.tiqets.com/en/product/${venueRes.rows[0].tiqets_product_id}/?partner=${citySlug}_insider`;
+                      item.checkoutUrl = buildTrackedBookingUrl({
+                        slug: attr.id,
+                        citySlug,
+                        tiqetsProductId: venueRes.rows[0].tiqets_product_id,
+                        source: 'ai-search'
+                      });
                     }
                   } catch (dbErr) {
                     console.error('Vercel search DB enrichment error:', dbErr);

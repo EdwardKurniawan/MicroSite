@@ -53,7 +53,7 @@
               <h2 class="sidebar-title">Reserve this stop before you lock the day</h2>
               <p class="footer-copy">Use the tracked booking flow to compare pricing and avoid losing availability on popular dates.</p>
               <div class="editorial-actions">
-                <a href="{{venue.booking_url}}" class="button-link">Check Availability</a>
+                <a href="{{venue.booking_url}}" class="button-link">{{#if venue.booking_label}}{{venue.booking_label}}{{else}}Check Availability{{/if}}</a>
                 <a href="{{navigation.home_url}}#collections" class="button-link button-link-secondary">Compare More Options</a>
               </div>
             </article>
