@@ -54,7 +54,7 @@
     <section id="city-overview" class="section-shell">
       <div class="shell insight-grid">
         <div>
-          {{> section-heading eyebrow=intro.eyebrow title=intro.title description=hero.tagline}}
+          {{> section-heading eyebrow=intro.eyebrow title=intro.title description="Use this page to get the shape of the trip right, then open the deeper guides only where they matter."}}
           <div class="copy-block copy-block-lede">{{{firstParagraph intro.body_html}}}</div>
         </div>
         <aside class="insight-aside">
@@ -64,30 +64,10 @@
       </div>
     </section>
 
-    {{#if planning_highlights.length}}
-      <section class="section-shell section-shell-muted">
-        <div class="shell">
-          {{> section-heading eyebrow="Start Here" title="Book smart before you get lost in options"}}
-          <div class="playbook-grid">
-            {{#each planning_highlights}}
-              <article class="playbook-card">
-                <span class="editorial-kicker">{{kicker}}</span>
-                <h3>{{title}}</h3>
-                <p>{{excerpt description 150}}</p>
-                {{#if url}}
-                  <a href="{{url}}" class="story-link">{{link_label}}</a>
-                {{/if}}
-              </article>
-            {{/each}}
-          </div>
-        </div>
-      </section>
-    {{/if}}
-
     {{#if top_things.length}}
       <section id="top-things" class="section-shell">
         <div class="shell">
-          {{> section-heading eyebrow="Best Things To Do" title="Start with the experiences worth real space in the trip" description="These are the pages that answer the broad questions first: what to do in Amsterdam, what to see first, and what deserves advance booking."}}
+          {{> section-heading eyebrow="Best Things To Do" title="Start with the experiences worth real space in the trip" description="This is the short list for broad intent: what to do, what to see first, and what should shape the first version of the itinerary."}}
           {{#if guide_pages.length}}
             <div class="section-utility-links">
               {{#each guide_pages}}
@@ -109,7 +89,7 @@
     {{#if events.length}}
       <section id="events" class="section-shell section-shell-muted">
         <div class="shell">
-          {{> section-heading eyebrow="What's Happening" title="Time the trip around Amsterdam's strongest live moments" description="This is the first events layer: seasonal fixtures, cultural weeks, and crowd-moving moments that can change when to visit and what to book first."}}
+          {{> section-heading eyebrow="What's Happening" title="Check the live calendar before you lock the trip" description="Seasonal swings and citywide moments can change what deserves priority more than people expect."}}
           <div class="events-grid">
             {{#each events}}
               {{> event-card}}
@@ -121,7 +101,7 @@
 
     <section id="collections" class="section-shell section-shell-muted">
       <div class="shell">
-        {{> section-heading eyebrow="Collections" title="Choose the angle that matches the trip"}}
+        {{> section-heading eyebrow="Collections" title="Open the guide that matches the version of Amsterdam you want"}}
         <div class="story-grid">
           {{#each categories}}
             {{> category-card}}
@@ -132,7 +112,7 @@
 
     <section id="neighbourhoods" class="section-shell">
       <div class="shell">
-        {{> section-heading eyebrow="Neighbourhoods" title="Pick your base and pace"}}
+        {{> section-heading eyebrow="Neighbourhoods" title="Pick the district that fits your pace"}}
         {{#if neighbourhood_map.length}}
           {{> neighbourhood-map}}
         {{/if}}
@@ -143,57 +123,6 @@
         </div>
       </div>
     </section>
-
-    {{#if itinerary.days.length}}
-      <section id="itinerary" class="section-shell section-shell-muted">
-        <div class="shell">
-          {{> section-heading eyebrow="Sample Itinerary" title=itinerary.title description="Use this as a strong first-timer route, then swap in the collections and neighbourhoods that matter most to your version of Amsterdam."}}
-          <div class="itinerary-grid">
-            {{#each itinerary.days}}
-              <article class="itinerary-card">
-                <h3 class="itinerary-day">{{day}}</h3>
-                {{#each items}}
-                  <div class="itinerary-slot">
-                    <div class="slot-time">{{time}}</div>
-                    <div class="slot-copy">
-                      <strong>{{title}}</strong>
-                      <span>{{excerpt description 110}}</span>
-                    </div>
-                  </div>
-                {{/each}}
-              </article>
-            {{/each}}
-          </div>
-          {{#if itinerary.tip_html}}
-            <div class="editorial-note" style="margin-top:1.5rem;">
-              <strong>{{itinerary.tip_label}}</strong> {{{itinerary.tip_html}}}
-            </div>
-          {{/if}}
-        </div>
-      </section>
-    {{/if}}
-
-    {{#if transport.items.length}}
-      <section id="getting-around" class="section-shell">
-        <div class="shell toolkit-grid">
-          <article class="toolkit-card">
-            <h3>Getting Around</h3>
-            <div class="transport-list">
-              {{#each transport.items}}
-                <div class="transport-item"><strong>{{label}}</strong>{{#if value}}: {{value}}{{else}}{{#if text}} {{text}}{{/if}}{{/if}}</div>
-              {{/each}}
-            </div>
-          </article>
-          <article class="toolkit-card">
-            <h3>Before You Go</h3>
-            <p>{{excerpt transport.intro 170}}</p>
-            {{#if transport.tip_html}}
-              <div class="editorial-note"><strong>{{transport.tip_label}}</strong> {{{transport.tip_html}}}</div>
-            {{/if}}
-          </article>
-        </div>
-      </section>
-    {{/if}}
 
     {{#if faqs.length}}
       <section id="faqs" class="section-shell section-shell-muted">

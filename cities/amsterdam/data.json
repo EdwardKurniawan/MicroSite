@@ -123,16 +123,6 @@
       "icon": "🎟",
       "label": "Book First",
       "value": "Anne Frank House first, Van Gogh second, Keukenhof only in spring."
-    },
-    {
-      "icon": "🚲",
-      "label": "Getting Around",
-      "value": "Bike, tram, or on foot"
-    },
-    {
-      "icon": "⛴",
-      "label": "Free Win",
-      "value": "Use the free ferry to Noord at sunset or walk the canal ring before dinner."
     }
   ],
   "planning_highlights": [
@@ -185,15 +175,6 @@
       "cta": "Compare cruise styles"
     },
     {
-      "kicker": "Food-Led Evening",
-      "title": "Let dinner decide one whole part of the city",
-      "description": "Amsterdam gets better after the museum hours. Use De Pijp, Oost, and the Jordaan to shape a night around restaurants, wine bars, and walkable atmosphere instead of random reservations.",
-      "url": "/amsterdam/food/",
-      "image": "/amsterdam/images/de-kas.png",
-      "alt": "Restaurant dining in Amsterdam",
-      "cta": "See where to eat well"
-    },
-    {
       "kicker": "Stay Strategy",
       "title": "Choose a neighbourhood that matches your pace",
       "description": "The canal ring, Jordaan, Noord, and De Pijp all produce different versions of Amsterdam. Picking the right base can matter more than adding another attraction.",
@@ -230,15 +211,6 @@
       "venue": "Museumplein + canal ring",
       "url": "/amsterdam/museums/",
       "link_label": "See the cultural anchors"
-    },
-    {
-      "kicker": "Night City",
-      "timing": "Best Thursday to Sunday",
-      "title": "Evening cruises, food bookings, and nightlife-led plans",
-      "description": "For a lot of travelers, what is happening in Amsterdam really means where the city comes alive after dark. Cruises, restaurants, and entertainment all compete for the same evening slots.",
-      "venue": "Canals, De Pijp, Noord",
-      "url": "/amsterdam/experiences/",
-      "link_label": "See the after-dark side"
     }
   ],
   "intro_html": "<p>Amsterdam rewards editing. The city is compact enough to walk, but dense enough that a bad booking order can still waste half a day. <strong>The trick is not seeing everything. It is seeing the right mix of museums, canal time, food, neighbourhoods, and current events without zig-zagging across town.</strong></p><p>Its advantage is concentration. Golden Age canal houses, heavyweight museums, strong restaurant districts, and genuinely different neighbourhood moods all sit inside a city that still behaves best at walking pace. Once you understand which attractions require advance planning and what is happening during your dates, Amsterdam becomes much easier to do well.</p><p>This guide is built for that version of the trip: search-intent answers up top, honest booking advice, and enough local context to make the city feel edited rather than overwhelming.</p>",
