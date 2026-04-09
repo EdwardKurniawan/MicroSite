@@ -24,6 +24,8 @@ Eventbrite should not be the primary public-city discovery source for this syste
 - Best first implementation for scalable event discovery
 - Official Discovery API supports event search by location, date, and filters
 - Works well for concerts, performances, sports, and many ticketed city events
+- Official docs:
+  - https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/
 - Current script support in this repo:
   - provider: `ticketmaster`
   - env var: `TICKETMASTER_API_KEY`
@@ -33,6 +35,8 @@ Eventbrite should not be the primary public-city discovery source for this syste
 - Strongest scaling option if we need broader, normalized event coverage
 - Official API supports search by location and date range with good filtering
 - Better long-term choice than building many one-off provider adapters
+- Official docs:
+  - https://docs.predicthq.com/api/events
 - Not implemented in code yet
 
 ### Eventbrite
@@ -45,6 +49,8 @@ Eventbrite should not be the primary public-city discovery source for this syste
   - events by organization
   - owned/private event workflows
 - Public multi-city discovery requires distribution-partner access
+- Official announcement:
+  - https://groups.google.com/g/eventbrite-api/c/FT2MsDswdrA
 
 ## Recommended architecture
 
