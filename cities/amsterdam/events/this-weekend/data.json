@@ -27,9 +27,21 @@
   },
   "intro_html": "<p>Weekend Amsterdam is its own version of the city. <strong>The same attractions remain, but the real change is in energy:</strong> fuller terraces, stronger nightlife, busier cruises, and neighbourhoods that suddenly make much more sense once the workweek disappears.</p><p>This guide is for short-break travelers asking the direct weekend question: what is happening in Amsterdam this weekend, where does the city feel best from Friday night through Sunday, and which bookings are worth making before they land.</p>",
   "facts": [
-    { "icon": "🌙", "label": "Weekend priority", "value": "Evening plans matter more" },
-    { "icon": "🍽", "label": "Book early", "value": "Popular dinners and cruises" },
-    { "icon": "📍", "label": "Best areas", "value": "Canal ring, Jordaan, De Pijp, Noord" }
+    {
+      "icon": "🌙",
+      "label": "Weekend priority",
+      "value": "Evening plans matter more"
+    },
+    {
+      "icon": "🍽",
+      "label": "Book early",
+      "value": "Popular dinners and cruises"
+    },
+    {
+      "icon": "📍",
+      "label": "Best areas",
+      "value": "Canal ring, Jordaan, De Pijp, Noord"
+    }
   ],
   "todos": [
     {
@@ -43,19 +55,21 @@
   ],
   "events": [
     {
-      "kicker": "Friday Night Pick",
-      "timing": "April 10, 2026",
+      "kicker": "Weekend Ticketed Pick",
+      "timing": "April 10, 2026 · 19:00",
       "start_date": "2026-04-10",
       "end_date": "2026-04-10",
       "event_type": "live-ticketed",
       "status": "On sale now",
       "district": "Leidseplein",
-      "booking_priority": "Book the Friday anchor now",
-      "title": "Amsterdam Calling 2026 at Melkweg",
-      "description": "If you want Friday night to have a clear shape, this is the strongest live-ticketed club-style pick surfaced in the current Amsterdam pull.",
+      "booking_priority": "Anchor one nightlife-led evening around it",
+      "title": "Amsterdam Calling 2026",
+      "description": "Amsterdam Calling 2026 gives Melkweg in Leidseplein a real live-ticketed pull on April 10, 2026 · 19:00. It is the kind of show that can justify shaping dinner, nightlife, and late transport around one proper night out.",
       "venue": "Melkweg",
       "url": "https://ticketmaster.evyy.net/c/7152807/2038751/23888?u=https%3A%2F%2Fwww.ticketmaster.nl%2Fevent%2Famsterdam-calling-2026-tickets%2F1984640994%3Flanguage%3Den-us&utm_medium=affiliate",
-      "link_label": "Check live availability"
+      "link_label": "Check live availability",
+      "provider": "ticketmaster",
+      "provider_event_id": "Z698xZbpZ16vJ7_ZJf"
     },
     {
       "kicker": "Arena Option",
@@ -104,7 +118,13 @@
     }
   ],
   "getting_there": [
-    { "icon": "🚋", "text": "On busy weekends, central areas are often faster on foot than by tram for short hops." },
-    { "icon": "⛴", "text": "Noord is excellent on weekends if you treat the ferry as part of the experience, not a chore." }
+    {
+      "icon": "🚋",
+      "text": "On busy weekends, central areas are often faster on foot than by tram for short hops."
+    },
+    {
+      "icon": "⛴",
+      "text": "Noord is excellent on weekends if you treat the ferry as part of the experience, not a chore."
+    }
   ]
 }

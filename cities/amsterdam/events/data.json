@@ -39,10 +39,26 @@
   ],
   "intro_html": "<p>For a lot of visitors, <strong>what's happening in Amsterdam is the question that matters more than a static list of attractions.</strong> Tulip season changes spring itineraries, exhibition-heavy weekends change museum demand, and summer festival energy changes which neighbourhoods feel worth staying in.</p><p>This page is the direct planning answer to that query: what is happening in Amsterdam, what to do differently because of it, and which recurring periods or citywide moments most often change what to book once you arrive.</p>",
   "facts": [
-    { "icon": "📅", "label": "Best use", "value": "Choose the right dates, then plan the attractions" },
-    { "icon": "🌷", "label": "Big seasonal swing", "value": "Spring tulips and flower trips" },
-    { "icon": "☀️", "label": "Lively period", "value": "June through August" },
-    { "icon": "🌙", "label": "Night energy", "value": "Thursday to Sunday evenings" }
+    {
+      "icon": "📅",
+      "label": "Best use",
+      "value": "Choose the right dates, then plan the attractions"
+    },
+    {
+      "icon": "🌷",
+      "label": "Big seasonal swing",
+      "value": "Spring tulips and flower trips"
+    },
+    {
+      "icon": "☀️",
+      "label": "Lively period",
+      "value": "June through August"
+    },
+    {
+      "icon": "🌙",
+      "label": "Night energy",
+      "value": "Thursday to Sunday evenings"
+    }
   ],
   "todos": [
     {
@@ -59,6 +75,23 @@
     }
   ],
   "events": [
+    {
+      "kicker": "Current Ticketed Pick",
+      "timing": "April 12, 2026 · 16:00",
+      "start_date": "2026-04-12",
+      "end_date": "2026-04-12",
+      "event_type": "live-ticketed",
+      "status": "On sale now",
+      "district": "Amsterdam",
+      "booking_priority": "Use this as a culture-led anchor, not a filler",
+      "title": "Banksy Museum Amsterdam Spring",
+      "description": "Banksy Museum Amsterdam Spring is a strong culture-led pick for April 12, 2026 · 16:00, especially if you want one timed event to shape the rest of the day around Banksy Museum Amsterdam in Amsterdam.",
+      "venue": "Banksy Museum Amsterdam",
+      "url": "https://ticketmaster.evyy.net/c/7152807/2038751/23888?u=https%3A%2F%2Fwww.universe.com%2Fevents%2Fbanksy-museum-amsterdam-spring-tickets-GS1XPN%3Fref%3Dticketmaster&utm_medium=affiliate",
+      "link_label": "Check live availability",
+      "provider": "ticketmaster",
+      "provider_event_id": "LvZ18QeWI9CL-WOZvRjiu"
+    },
     {
       "kicker": "Spring Window",
       "timing": "March 19 to May 10, 2026",
@@ -120,9 +153,18 @@
     }
   ],
   "getting_there": [
-    { "icon": "🚋", "text": "If your trip revolves around exhibitions and evening culture, stay central enough to keep tram rides short after dinner." },
-    { "icon": "⛴", "text": "Noord only makes sense as a base if the ferry feels like part of the fun, not a daily inconvenience." },
-    { "icon": "💡", "text": "When the city is busiest, it is often smarter to walk between canal ring, Jordaan, and Museumplein than wait on trams." }
+    {
+      "icon": "🚋",
+      "text": "If your trip revolves around exhibitions and evening culture, stay central enough to keep tram rides short after dinner."
+    },
+    {
+      "icon": "⛴",
+      "text": "Noord only makes sense as a base if the ferry feels like part of the fun, not a daily inconvenience."
+    },
+    {
+      "icon": "💡",
+      "text": "When the city is busiest, it is often smarter to walk between canal ring, Jordaan, and Museumplein than wait on trams."
+    }
   ],
   "products": [
     {

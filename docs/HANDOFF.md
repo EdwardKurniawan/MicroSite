@@ -188,6 +188,10 @@ Current state:
 - a real Ticketmaster Amsterdam fetch was completed successfully
 - the review pipeline now filters obvious junk like parking permits, VIP packages, sold-out dupes, and offsale entries
 - Amsterdam's event pages now include real live-ticketed signals from Ticketmaster
+- focused April 2026 Ticketmaster pulls for Kanazawa returned zero results across:
+  - generic city pull
+  - `classification=Music`
+  - `classification=Arts & Theatre`
 
 ## What was verified this session
 
@@ -239,7 +243,9 @@ If resuming next session, start here:
    - `cities/<city>/events/data.json`
    - `cities/<city>/events/this-month/data.json`
    - `cities/<city>/events/this-weekend/data.json`
-4. repeat the same live-event workflow for Kanazawa
+4. for Kanazawa, either:
+   - try keyword-led pulls around local festivals / exhibitions, or
+   - move to the next provider because Ticketmaster coverage looks too thin there
 After that, the strongest product step is:
 
 5. make promotion smarter with scoring / tagging instead of one-event-at-a-time selection

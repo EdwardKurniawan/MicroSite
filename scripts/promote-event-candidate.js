@@ -146,14 +146,16 @@ function buildEditorialEventCard(event, options) {
 
 function mergeEvents(existingEvents, nextEvent) {
   const nextProviderId = String(nextEvent.provider_event_id || '').trim();
-  const nextTitle = normalizeTitle(nextEvent.title);
+  const nextTitle = canonicalizeEventTitle(nextEvent.title);
+  const nextVenue = normalizeTitle(nextEvent.venue);
 
   const filtered = existingEvents.filter((item) => {
     const itemProviderId = String(item.provider_event_id || '').trim();
-    const itemTitle = normalizeTitle(item.title);
+    const itemTitle = canonicalizeEventTitle(item.title);
+    const itemVenue = normalizeTitle(item.venue);
 
     if (nextProviderId && itemProviderId && itemProviderId === nextProviderId) return false;
-    if (nextTitle && itemTitle === nextTitle) return false;
+    if (nextTitle && itemTitle && titlesRepresentSameEvent(nextTitle, itemTitle, nextVenue, itemVenue)) return false;
     return true;
   });
 
@@ -241,6 +243,28 @@ function humanizeStatus(status) {
   if (value === 'onsale') return 'On sale now';
   if (!value) return 'Current signal';
   return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function canonicalizeEventTitle(title) {
+  return normalizeTitle(
+    String(title || '')
+      .replace(/\s+\|\s+.*$/g, '')
+      .replace(/\s+at\s+.+$/gi, '')
+      .replace(/\s*-\s+.*$/g, '')
+  );
+}
+
+function titlesRepresentSameEvent(leftTitle, rightTitle, leftVenue, rightVenue) {
+  if (!leftTitle || !rightTitle) return false;
+  if (leftTitle === rightTitle) {
+    if (!leftVenue || !rightVenue) return true;
+    return leftVenue === rightVenue;
+  }
+
+  const contains = leftTitle.includes(rightTitle) || rightTitle.includes(leftTitle);
+  if (!contains) return false;
+  if (!leftVenue || !rightVenue) return true;
+  return leftVenue === rightVenue;
 }
 
 function formatDisplayDate(date) {

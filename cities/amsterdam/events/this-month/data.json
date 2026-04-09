@@ -27,9 +27,21 @@
   },
   "intro_html": "<p>This page is built for travelers asking a very specific question: <strong>what is happening in Amsterdam this month that should actually affect my plans?</strong> Instead of dumping a long calendar, it focuses on the strongest citywide patterns: seasonal weather shifts, museum demand, after-dark atmosphere, and the day trips or evening bookings that matter most right now.</p>",
   "facts": [
-    { "icon": "📌", "label": "Use this for", "value": "Date-specific planning before booking" },
-    { "icon": "🎟", "label": "Watch first", "value": "Museum slots, cruises, dinner reservations" },
-    { "icon": "🧭", "label": "Best companion", "value": "Amsterdam Museums and Neighbourhoods guides" }
+    {
+      "icon": "📌",
+      "label": "Use this for",
+      "value": "Date-specific planning before booking"
+    },
+    {
+      "icon": "🎟",
+      "label": "Watch first",
+      "value": "Museum slots, cruises, dinner reservations"
+    },
+    {
+      "icon": "🧭",
+      "label": "Best companion",
+      "value": "Amsterdam Museums and Neighbourhoods guides"
+    }
   ],
   "todos": [
     {
@@ -42,6 +54,23 @@
     }
   ],
   "events": [
+    {
+      "kicker": "Live Ticketed Pick",
+      "timing": "April 10, 2026 · 19:00",
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-10",
+      "event_type": "live-ticketed",
+      "status": "On sale now",
+      "district": "Amsterdam-Zuidoost",
+      "booking_priority": "Plan dinner and late transport around the show",
+      "title": "5 Seconds of Summer - Everyone's A Star Tour",
+      "description": "5 Seconds of Summer - Everyone's A Star Tour gives Ziggo Dome in Amsterdam-Zuidoost a real live-ticketed pull on April 10, 2026 · 19:00. It is the kind of show that can justify shaping dinner, nightlife, and late transport around one proper night out.",
+      "venue": "Ziggo Dome",
+      "url": "https://ticketmaster.evyy.net/c/7152807/2038751/23888?u=https%3A%2F%2Fwww.ticketmaster.nl%2Fevent%2F5-seconds-of-summer-everyones-a-star-tour-tickets%2F1023158589%3Flanguage%3Den-us&utm_medium=affiliate",
+      "link_label": "Check live availability",
+      "provider": "ticketmaster",
+      "provider_event_id": "Z698xZbpZ16vZNAbpa"
+    },
     {
       "kicker": "Seasonal",
       "timing": "April 2026",
@@ -73,21 +102,6 @@
       "link_label": "Check live availability"
     },
     {
-      "kicker": "Arena Night",
-      "timing": "April 10, 2026",
-      "start_date": "2026-04-10",
-      "end_date": "2026-04-10",
-      "event_type": "live-ticketed",
-      "status": "On sale now",
-      "district": "Amsterdam-Zuidoost",
-      "booking_priority": "Plan transport and dinner around the show",
-      "title": "5 Seconds of Summer at Ziggo Dome",
-      "description": "A large arena show on Friday, April 10 is exactly the kind of city event that changes dinner timing, late-night transport, and where the strongest evening energy sits.",
-      "venue": "Ziggo Dome",
-      "url": "https://ticketmaster.evyy.net/c/7152807/2038751/23888?u=https%3A%2F%2Fwww.ticketmaster.nl%2Fevent%2F5-seconds-of-summer-everyones-a-star-tour-tickets%2F1023158589%3Flanguage%3Den-us&utm_medium=affiliate",
-      "link_label": "Check live availability"
-    },
-    {
       "kicker": "Booking Pressure",
       "timing": "Late April pressure",
       "start_date": "2026-04-20",
@@ -104,7 +118,13 @@
     }
   ],
   "getting_there": [
-    { "icon": "🚶", "text": "Monthly city energy usually matters more inside the centre than transport options, so walkability should stay the main decision-maker." },
-    { "icon": "💡", "text": "If the month is weather-sensitive, leave one flexible afternoon open instead of overcommitting the whole itinerary." }
+    {
+      "icon": "🚶",
+      "text": "Monthly city energy usually matters more inside the centre than transport options, so walkability should stay the main decision-maker."
+    },
+    {
+      "icon": "💡",
+      "text": "If the month is weather-sensitive, leave one flexible afternoon open instead of overcommitting the whole itinerary."
+    }
   ]
 }
