@@ -56,6 +56,13 @@
         <div>
           {{> section-heading eyebrow=intro.eyebrow title=intro.title description="Use this page to get the shape of the trip right, then open the deeper guides only where they matter."}}
           <div class="copy-block copy-block-lede">{{{firstParagraph intro.body_html}}}</div>
+          {{#if guide_pages.length}}
+            <div class="homepage-link-cluster">
+              {{#each guide_pages}}
+                <a href="{{url}}" class="homepage-link-chip">{{title}}</a>
+              {{/each}}
+            </div>
+          {{/if}}
         </div>
         <aside class="insight-aside">
           <h3 class="sidebar-title">Essential Briefing</h3>
@@ -90,6 +97,11 @@
       <section id="events" class="section-shell section-shell-muted guide-events-section">
         <div class="shell">
           {{> section-heading eyebrow="What's Happening" title="Check the live calendar before you lock the trip" description="Seasonal swings and citywide moments can change what deserves priority more than people expect."}}
+          <div class="section-utility-links">
+            <a href="/{{city_slug}}/events/" class="story-link">Open the events hub</a>
+            <a href="/{{city_slug}}/events/this-month/" class="story-link">See this month</a>
+            <a href="/{{city_slug}}/events/this-weekend/" class="story-link">See this weekend</a>
+          </div>
           <div class="events-grid">
             {{#each events}}
               {{> event-card}}
@@ -102,6 +114,16 @@
     <section id="collections" class="section-shell section-shell-muted guide-collections-section">
       <div class="shell">
         {{> section-heading eyebrow="Collections" title="Open the guide that matches the version of Amsterdam you want"}}
+        <div class="section-utility-links">
+          {{#each guide_pages}}
+            {{#if (eq title "Where To Stay")}}
+              <a href="{{url}}" class="story-link">Where to stay</a>
+            {{/if}}
+            {{#if (eq title "Best Restaurants")}}
+              <a href="{{url}}" class="story-link">Best restaurants</a>
+            {{/if}}
+          {{/each}}
+        </div>
         <div class="story-grid">
           {{#each categories}}
             {{> category-card}}
@@ -113,6 +135,13 @@
     <section id="neighbourhoods" class="section-shell guide-neighbourhoods-section">
       <div class="shell">
         {{> section-heading eyebrow="Neighbourhoods" title="Pick the district that fits your pace"}}
+        <div class="section-utility-links">
+          {{#each guide_pages}}
+            {{#if (eq title "Where To Stay")}}
+              <a href="{{url}}" class="story-link">Open the stay guide</a>
+            {{/if}}
+          {{/each}}
+        </div>
         {{#if neighbourhood_map.length}}
           {{> neighbourhood-map}}
         {{/if}}
