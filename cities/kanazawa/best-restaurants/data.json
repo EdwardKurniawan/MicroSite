@@ -8,7 +8,7 @@
   "hero": {
     "eyebrow": "Kanazawa Restaurant Guide",
     "title": "Best Restaurants in Kanazawa",
-    "tagline": "The dinner-first shortlist: the seafood, Kaga-cuisine, market, and tea stops that make the city worth planning a meal around, not just grabbing the nearest reservation.",
+    "tagline": "The dinner-first shortlist: the seafood, Kaga-cuisine, market, and tea stops that make the city worth planning a meal around.",
     "image": "/kanazawa/images/food.jpg"
   },
   "navigation": {
@@ -25,7 +25,7 @@
     "note": "This page answers the broad dining question first: which Kanazawa meals deserve real planning, which areas are strongest at lunch or dinner, and when seasonality changes what to order.",
     "next_refresh": "After the next Kanazawa food pass"
   },
-  "intro_html": "<p><strong>The best meals in Kanazawa are not just expensive dinners.</strong> The city is strongest when you let one or two food decisions reveal the region properly: a serious market breakfast, a Kaga-cuisine lunch, a nodoguro or crab dinner in season, or an evening in Katamachi that feels lived-in rather than polished for tourists.</p><p>This page is the shortlist for travelers who want one meal to help explain the city, not just fill a gap between gardens and districts.</p>",
+  "intro_html": "<p><strong>The best meals in Kanazawa are not just expensive dinners.</strong> The city is strongest when one or two food decisions reveal the region properly: a serious market breakfast, a Kaga-cuisine lunch, a nodoguro or crab dinner in season, or an evening in Katamachi that feels lived-in rather than polished for tourists.</p><p>This is the shortlist for travelers who want one meal to help explain the city, not just fill a gap between gardens and districts.</p>",
   "facts": [
     {
       "icon": "🌙",
@@ -74,7 +74,7 @@
         "Great in every season"
       ],
       "hook": "If Kanazawa's relationship to the Sea of Japan is going to land quickly, this is the fastest way.",
-      "description": "Omicho is the clearest first food move because it shows the city’s seafood culture without ceremony. It works as breakfast, an early lunch, or a market-led beginning to the day before the old quarters and garden blocks take over.",
+      "description": "Omicho is the clearest first food move because it shows the city’s seafood culture without ceremony. It works as breakfast, an early lunch, or a market-led beginning to the day.",
       "tip": "Go earlier than the busiest lunch window if you want the market to feel vivid instead of crowded.",
       "url": "/kanazawa/food/",
       "cta": "Open the food guide"
@@ -90,7 +90,7 @@
         "Good after the garden area"
       ],
       "hook": "Kanazawa becomes more specific once you stop treating it as generic sushi territory and let Kaga cuisine in.",
-      "description": "Kaga cuisine is the most revealing answer if you want food to explain local history, not just ingredient quality. A slower lunch or early dinner near the garden and cultural core is often the best way to use it.",
+      "description": "Kaga cuisine is the most revealing answer if you want food to explain local history, not just ingredient quality. A slower lunch or early dinner near the garden core is often the best way to use it.",
       "tip": "Lunch is often easier and more proportional than a full dinner if the trip is short.",
       "url": "/kanazawa/food/",
       "cta": "See the regional food guide"
@@ -106,7 +106,7 @@
         "Good for short trips"
       ],
       "hook": "This is the strongest area if dinner should turn into an evening rather than a destination meal only.",
-      "description": "Katamachi is where Kanazawa feels most like a working city at night. It is the easiest choice for izakaya, seafood counters, bars, and a night that can stay relaxed instead of overplanned.",
+      "description": "Katamachi is where Kanazawa feels most like a working city at night. It is the easiest choice for izakaya, seafood counters, bars, and a night that stays relaxed instead of overplanned.",
       "tip": "Best if you want one dinner to roll naturally into drinks or another stop rather than end at the bill.",
       "url": "/kanazawa/katamachi/",
       "cta": "See the Katamachi guide"

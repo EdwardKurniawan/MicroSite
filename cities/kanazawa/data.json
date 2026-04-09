@@ -7,17 +7,17 @@
     "accentLight": "#fdf1ec"
   },
   "seo": {
-    "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, Stay, and Time Right",
-    "description": "The practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments should shape the trip.",
+    "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, and Plan First",
+    "description": "A practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments actually change the trip.",
     "canonical": "https://travelsides.com/kanazawa/",
     "og": {
-      "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, Stay, and Time Right",
-      "description": "The practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments should shape the trip.",
+      "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, and Plan First",
+      "description": "A practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments actually change the trip.",
       "image": "https://travelsides.com/kanazawa/images/hero.jpg"
     },
     "twitter": {
-      "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, Stay, and Time Right",
-      "description": "The practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments should shape the trip.",
+      "title": "What To Do in Kanazawa (2026): Best Things To See, Eat, and Plan First",
+      "description": "A practical Kanazawa city guide for what to do, what to see, where to stay, what to eat, and which seasonal moments actually change the trip.",
       "image": "https://travelsides.com/kanazawa/images/hero.jpg"
     }
   },
@@ -28,8 +28,8 @@
   },
   "hero": {
     "eyebrow": "Kanazawa City Guide",
-    "title": "What to do in Kanazawa, without flattening it into a checklist",
-    "tagline": "Start with the garden, the old quarters, the seafood, and the seasons that make this small Japanese city feel far deeper than a short attraction list suggests.",
+    "title": "What to do in Kanazawa, and what deserves the time",
+    "tagline": "Start with the garden, the old quarters, the seafood, and the seasonal windows that make this small city feel far deeper than a checklist.",
     "image": "/kanazawa/images/hero.jpg",
     "alt": "Kanazawa Kenroku-en garden in autumn"
   },
@@ -55,22 +55,22 @@
     {
       "title": "Best Things To Do",
       "url": "/kanazawa/best-things-to-do/",
-      "description": "A ranked Kanazawa shortlist for first-time priorities, seasonal timing, and what deserves real space in the trip."
+      "description": "A ranked shortlist for first-time priorities, seasonal timing, and what deserves real space in the trip."
     },
     {
       "title": "Where To Stay",
       "url": "/kanazawa/where-to-stay/",
-      "description": "A district-led Kanazawa stay guide for choosing the right base before you compare hotel names."
+      "description": "A district-led stay guide for choosing the right base before you compare hotel names."
     },
     {
       "title": "Best Restaurants",
       "url": "/kanazawa/best-restaurants/",
-      "description": "A dinner-first Kanazawa guide to seafood, Kaga cuisine, and the neighborhoods that work best at night."
+      "description": "A dinner-first guide to seafood, Kaga cuisine, and the neighborhoods that work best at night."
     },
     {
       "title": "Kanazawa Events",
       "url": "/kanazawa/events/",
-      "description": "The seasonal windows, festivals, and city moods that should change how you plan Kanazawa."
+      "description": "The seasonal windows, festivals, and city moods that should change how you plan the trip."
     }
   ],
   "footer": {
@@ -149,7 +149,7 @@
     {
       "kicker": "First-Time Essential",
       "title": "Give Kenroku-en and the castle one full morning",
-      "description": "This is the clearest first move in Kanazawa: one of Japan's three great gardens, the castle grounds beside it, and the best way to feel how compact and elegant the city really is.",
+      "description": "This is the clearest first move in the city: one of Japan's three great gardens, the castle grounds beside it, and the easiest way to understand Kanazawa's scale.",
       "url": "/kanazawa/gardens/",
       "image": "/kanazawa/images/gardens.jpg",
       "alt": "Kenroku-en garden in Kanazawa",
@@ -158,7 +158,7 @@
     {
       "kicker": "Historic Core",
       "title": "Use the geisha and samurai districts to understand the city",
-      "description": "Kanazawa gets stronger once you treat Higashiyama and Nagamachi as more than photo stops. They are the reason the city feels preserved rather than reconstructed.",
+      "description": "Kanazawa gets stronger once you treat Higashiyama and Nagamachi as more than photo stops. Together they explain why the city feels preserved rather than reconstructed.",
       "url": "/kanazawa/best-things-to-do/",
       "image": "/kanazawa/images/culture.jpg",
       "alt": "Historic Kanazawa district",
@@ -167,7 +167,7 @@
     {
       "kicker": "Stay Strategy",
       "title": "Choose your base by evenings and walking rhythm",
-      "description": "Katamachi, Nagamachi, and Higashiyama all produce different versions of Kanazawa. Picking the right base matters more than people expect in a compact city.",
+      "description": "Katamachi, Nagamachi, and Higashiyama all produce different versions of Kanazawa. In a compact city, the right base matters more than people expect.",
       "url": "/kanazawa/where-to-stay/",
       "image": "/kanazawa/images/katamachi.jpg",
       "alt": "Kanazawa evening district",
@@ -179,7 +179,7 @@
       "kicker": "Spring",
       "timing": "March to April",
       "title": "Garden season and cherry-blossom timing change the best version of Kanazawa",
-      "description": "Kenroku-en, the castle grounds, and the old quarters all feel different in spring, especially when cherry blossom timing lines up with clear mornings and longer walks.",
+      "description": "Kenroku-en, the castle grounds, and the old quarters all improve in spring, especially when blossom timing lines up with clear mornings and longer walks.",
       "venue": "Kenroku-en + castle area",
       "url": "/kanazawa/events/this-month/",
       "link_label": "See the current spring angle"
@@ -197,13 +197,13 @@
       "kicker": "Winter",
       "timing": "November to February",
       "title": "Crab season and yukitsuri make winter one of the city's most distinctive windows",
-      "description": "Cold months bring the most atmospheric version of Kanazawa for some travelers: snow-supported trees in Kenroku-en, stronger seafood, and a quieter, more meditative pace.",
+      "description": "Cold months bring Kanazawa's most atmospheric version for some travelers: snow-supported trees in Kenroku-en, stronger seafood, and a quieter pace.",
       "venue": "Gardens + Omicho Market",
       "url": "/kanazawa/events/",
       "link_label": "See the seasonal guide"
     }
   ],
-  "intro_html": "<p>Kanazawa spent 400 years being ruled by the Maeda clan — the most powerful feudal lords in Japan outside the Tokugawa shogunate itself. The Maeda were wealthy enough to patronise arts, build gardens, and maintain samurai culture on a grand scale. They were also wise enough never to pick a fight with Tokugawa, which meant Kanazawa was never attacked. It was also spared Allied bombing in World War Two because it had no military industry.</p>\n          <p>The result is a city that looks, in several neighbourhoods, almost exactly as it did in the Edo period. <strong>Three geisha districts still operating. A samurai quarter with original earthen walls. A castle rebuilt to original specifications. And Kenroku-en — a garden that took 200 years to complete and is still considered one of the finest in Japan.</strong></p>\n          <p>It takes about 90 minutes by Shinkansen from Tokyo. Most visitors don't come. That is their loss and your advantage.</p>",
+  "intro_html": "<p>Kanazawa works because so much of its historic core survived intact. The Maeda clan had the money to build gardens, patronize arts, and sustain samurai culture at scale, and the city escaped the destruction that flattened many other Japanese centers.</p>\n          <p><strong>The result is a city where the old fabric still matters:</strong> active geisha quarters, a samurai district with original earthen walls, a castle rebuilt with unusual seriousness, and Kenroku-en, still one of Japan's finest gardens.</p>\n          <p>It is only a short Shinkansen ride from Tokyo, but it rewards slower pacing far more than bigger-name city checking.</p>",
   "category_intro": "17 attractions, experiences, and hidden gems across 4 categories — each with opening hours, booking tips, and honest advice on what's worth your time.",
   "categories": [
     {
@@ -212,7 +212,7 @@
       "alt": "Kenroku-en garden Kanazawa",
       "count": "3 gardens & parks",
       "title": "Gardens & Nature",
-      "description": "Kenroku-en, Gyokusen-inmaru Garden inside the castle, and Nomura Garden in the samurai house — three centuries of Japanese landscape design within a 10-minute walk of each other.",
+      "description": "Kenroku-en, the castle-side garden, and smaller garden stops that show how much of Kanazawa's beauty is built around restraint and pacing.",
       "cta": "Explore Gardens"
     },
     {
@@ -221,7 +221,7 @@
       "alt": "Higashi Chaya geisha district Kanazawa",
       "count": "7 cultural sites",
       "title": "Culture & History",
-      "description": "Two geisha districts, a samurai quarter, a ninja temple, Kanazawa Castle, and the 21st Century Museum — traditional Japan and contemporary art within the same city block.",
+      "description": "Geisha districts, samurai streets, the Ninja Temple, and the museum layer that keeps Kanazawa from feeling preserved in amber.",
       "cta": "Explore Culture"
     },
     {
@@ -230,7 +230,7 @@
       "alt": "Omicho Market fresh seafood Kanazawa",
       "count": "4 food experiences",
       "title": "Food & Markets",
-      "description": "Omicho Market's 170-stall seafood labyrinth, Kaga ryori kaiseki, gold-leaf ice cream, and the Higashiyama sake breweries — Kanazawa has one of Japan's most serious food cultures.",
+      "description": "Omicho Market, Kaga cuisine, seafood, sweets, and the food stops that make the city worth planning a meal around.",
       "cta": "Explore Food"
     },
     {
@@ -239,7 +239,7 @@
       "alt": "Shirakawa-go UNESCO village Japan",
       "count": "3 day trips",
       "title": "Day Trips",
-      "description": "Shirakawa-go (UNESCO gassho-zukuri farmhouses), Noto Peninsula coastline, and Kaga Onsen hot spring resort — all within 90 minutes of Kanazawa by bus or train.",
+      "description": "Shirakawa-go, the Noto Peninsula, and onsen detours that work best once you have already given Kanazawa proper time.",
       "cta": "Plan a Day Trip"
     }
   ],

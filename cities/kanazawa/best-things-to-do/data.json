@@ -8,7 +8,7 @@
   "hero": {
     "eyebrow": "Kanazawa Top 10 Guide",
     "title": "Best Things To Do in Kanazawa",
-    "tagline": "The short list for a first trip: what to see first, which historic districts actually matter, and how to use two or three days without turning Kanazawa into a rushed checklist.",
+    "tagline": "The short list for a first trip: what to see first, which historic districts actually matter, and how to use two or three days without rushing a compact city.",
     "image": "/kanazawa/images/hero.jpg"
   },
   "navigation": {
@@ -25,7 +25,7 @@
     "note": "This page is the broad-intent shortlist for Kanazawa. It is meant to answer the first questions fast: what to do, what to see, what deserves real time, and how to balance the city with one slower seasonal or food-led decision.",
     "next_refresh": "After the next Kanazawa pillar review"
   },
-  "intro_html": "<p><strong>The best things to do in Kanazawa are not just the famous things.</strong> A strong first trip usually needs one major garden-and-castle block, one historic quarter that you let breathe, one market or meal that feels specific to the region, and one slower cultural stop that keeps the city from becoming all scenery and no texture.</p><p>This page is the edited version of Kanazawa: the handful of picks most likely to shape a good first visit, with enough sequencing advice to stop you from spending a small city in the wrong order.</p>",
+  "intro_html": "<p><strong>The best things to do in Kanazawa are not just the famous things.</strong> A strong first trip usually needs one major garden-and-castle block, one historic quarter that you let breathe, one regional meal, and one quieter cultural stop that keeps the city from becoming all scenery and no texture.</p><p>This is the edited version of Kanazawa: the handful of picks most likely to shape a good first visit, with enough sequencing advice to stop you from spending a small city in the wrong order.</p>",
   "facts": [
     {
       "icon": "📅",
@@ -74,7 +74,7 @@
         "Strongest in the morning"
       ],
       "hook": "If you only give one part of Kanazawa real time, give it to the garden-and-castle block.",
-      "description": "Kenroku-en is one of Japan's great gardens, but the real value for a first trip is how well it works with the castle grounds beside it. Together they give Kanazawa its scale, history, and most confident visual identity in one sweep.",
+      "description": "Kenroku-en is one of Japan's great gardens, but the real value for a first trip is how well it works with the castle grounds beside it. Together they give Kanazawa its scale and visual identity in one sweep.",
       "tip": "Arrive early and let the walk run naturally from garden to castle before the rest of the city fills in.",
       "url": "/kanazawa/gardens/",
       "cta": "Open the garden guide"
@@ -90,7 +90,7 @@
         "Pair with tea or sake"
       ],
       "hook": "This is the district that makes Kanazawa feel preserved rather than reconstructed.",
-      "description": "Higashi Chaya is the best-known old quarter, but it works best when you combine the teahouse streets with the quieter temple trail rising behind them. That pairing turns the area from a photogenic street into a proper half-day with depth.",
+      "description": "Higashi Chaya works best when you combine the teahouse streets with the quieter temple trail behind them. That pairing turns the area from a photogenic street into a proper half-day with depth.",
       "tip": "Go early if you want the quarter before the busiest foot traffic arrives.",
       "url": "/kanazawa/higashiyama/",
       "cta": "See the Higashiyama guide"
@@ -106,7 +106,7 @@
         "Short but worthwhile"
       ],
       "hook": "The samurai quarter is the best reminder that Kanazawa's preservation is social as well as architectural.",
-      "description": "Nagamachi works because it feels intentionally restrained. Earthen walls, stone lanes, and the Nomura residence show the city from a different angle than the geisha quarters, and the contrast makes Kanazawa feel more complete.",
+      "description": "Nagamachi works because it feels intentionally restrained. Earthen walls, stone lanes, and the Nomura residence show the city from a different angle than the geisha quarters.",
       "tip": "Use this after the castle side of the city rather than treating it as a separate day.",
       "url": "/kanazawa/nagamachi/",
       "cta": "See the Nagamachi guide"
@@ -122,7 +122,7 @@
         "Season changes what matters"
       ],
       "hook": "Kanazawa is not fully understood until you let the Sea of Japan onto the itinerary.",
-      "description": "Omicho Market is the obvious entry point, but the bigger lesson is that Kanazawa's food culture is serious enough to shape a trip. Seafood breakfasts, Kaga cuisine lunches, and winter crab or nodoguro nights are all part of the city answer.",
+      "description": "Omicho Market is the obvious entry point, but the bigger lesson is that Kanazawa's food culture is serious enough to shape the trip. Seafood breakfasts, Kaga cuisine lunches, and winter crab or nodoguro nights all belong in the city answer.",
       "tip": "Use the market early, then save one second meal for a slower, more deliberate dinner.",
       "url": "/kanazawa/food/",
       "cta": "Open the food guide"
@@ -138,7 +138,7 @@
         "Depends on your pace"
       ],
       "hook": "Kanazawa gets better when one stop is chosen for texture, not scale.",
-      "description": "For some travelers that is the 21st Century Museum; for others it is Myoryuji, a tea stop in Higashiyama, or the D.T. Suzuki Museum. The point is not to add another headline, but to give the city one quieter or stranger note.",
+      "description": "For some travelers that is the 21st Century Museum; for others it is Myoryuji, a tea stop in Higashiyama, or the D.T. Suzuki Museum. The point is to give the city one quieter or stranger note.",
       "tip": "Use this pick to shape day two once the essential historic layer is already in place.",
       "url": "/kanazawa/culture/",
       "cta": "Open the culture guide"

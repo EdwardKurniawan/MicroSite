@@ -37,7 +37,7 @@
       "description": "A short-break view of the city mood from Friday to Sunday."
     }
   ],
-  "intro_html": "<p><strong>What's happening in Kanazawa is usually less about giant event calendars and more about seasonal windows.</strong> Garden timing, district atmosphere, food seasonality, and a few annual cultural weekends can all change how the city should be done, especially if you only have two or three days.</p><p>This page is not trying to list everything. It is a planning guide to the moments that most often change what to do first, where to stay, and what deserves a booking or a slower pace.</p>",
+  "intro_html": "<p><strong>What's happening in Kanazawa is usually less about giant event calendars and more about seasonal windows.</strong> Garden timing, district atmosphere, food seasonality, and a few annual cultural weekends can all change how the city should be done, especially if you only have two or three days.</p><p>This page is not trying to list everything. It is the planning guide to the moments that most often change what to do first, where to stay, and what deserves a slower pace.</p>",
   "facts": [
     { "icon": "📅", "label": "Best use", "value": "Pick the right season, then shape the trip" },
     { "icon": "🌸", "label": "Spring edge", "value": "Kenroku-en and old-quarter mornings" },
@@ -69,7 +69,7 @@
       "district": "Kenroku-en + castle area + Higashiyama",
       "booking_priority": "Prioritize the garden block first",
       "title": "Spring garden season and old-quarter walking",
-      "description": "Spring is the clearest seasonal shift in Kanazawa for first-time visitors. Garden mornings, riverside walks, and the preserved districts all feel more generous in this window, which can change how much time the city deserves on foot.",
+      "description": "Spring is the clearest seasonal shift in Kanazawa for first-time visitors. Garden mornings, riverside walks, and the preserved districts all feel more generous in this window.",
       "venue": "Kenroku-en + old quarters",
       "url": "/kanazawa/events/this-month/",
       "link_label": "See the current spring angle"
@@ -83,7 +83,7 @@
       "district": "Castle area + central streets",
       "booking_priority": "Watch central stays and weekends",
       "title": "Hyakumangoku season and local ceremonial weekends",
-      "description": "Kanazawa is not built around giant festival volume, but a few annual ceremonial weekends give the city more public energy, especially around the castle and the central streets. Those dates are worth knowing before you lock a short trip.",
+      "description": "Kanazawa is not built around giant festival volume, but a few annual ceremonial weekends give the city more public energy, especially around the castle and central streets.",
       "venue": "City center",
       "url": "/kanazawa/events/",
       "link_label": "Use the events guide"
@@ -97,7 +97,7 @@
       "district": "Kenroku-en + temple slopes + old quarters",
       "booking_priority": "Book peak foliage nights early",
       "title": "Autumn color and cooler walking weather",
-      "description": "Autumn turns Kanazawa into one of Japan's strongest small-city walking trips: the garden, temple paths, and historic districts all benefit from cooler light and more deliberate pacing.",
+      "description": "Autumn turns Kanazawa into one of Japan's strongest small-city walking trips: the garden, temple paths, and historic districts all benefit from cooler light and slower pacing.",
       "venue": "Across the historic core",
       "url": "/kanazawa/events/",
       "link_label": "See the seasonal guide"
@@ -111,7 +111,7 @@
       "district": "Kenroku-en + Omicho Market + Katamachi",
       "booking_priority": "Reserve crab and winter dinners",
       "title": "Crab season, snow support ropes, and the quietest city mood",
-      "description": "Winter gives Kanazawa one of its most distinctive identities: seafood season, snow-readied trees in Kenroku-en, and a city that feels more inward, atmospheric, and meal-led.",
+      "description": "Winter gives Kanazawa one of its most distinctive identities: seafood season, snow-readied trees in Kenroku-en, and a city that feels more inward and meal-led.",
       "venue": "Gardens + market + dining districts",
       "url": "/kanazawa/events/",
       "link_label": "See winter planning angles"
