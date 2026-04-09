@@ -71,6 +71,17 @@ function compileTemplate(templateName) {
   return Handlebars.compile(source);
 }
 
+function getRelativeSubpagePath(urlPath, citySlug) {
+  const cleanPath = String(urlPath || '').replace(/^\/|\/$/g, '');
+  const cityPrefix = `${citySlug}/`;
+
+  if (!cleanPath || cleanPath === citySlug) {
+    return '';
+  }
+
+  return cleanPath.startsWith(cityPrefix) ? cleanPath.slice(cityPrefix.length) : cleanPath;
+}
+
 function getCityFromRequest(req) {
   const host = (req.headers.host || '').replace(/:\d+$/, '');
   if (CITY_HOSTS[host]) return CITY_HOSTS[host];
@@ -336,7 +347,7 @@ ${JSON.stringify(inventory, null, 2)}`;
     } else if (urlPath.startsWith('/images/')) {
       filePath = getCityPath(city.slug, urlPath.replace(/^\//, ''));
     } else {
-      const cleanSubPath = urlPath.replace(/^\/|\/$/g, '');
+      const cleanSubPath = getRelativeSubpagePath(urlPath, city.slug);
       const subDataPath = getCityPath(city.slug, cleanSubPath, 'data.json');
 
       if (cleanSubPath && fs.existsSync(subDataPath)) {

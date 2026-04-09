@@ -72,6 +72,17 @@
             </div>
           {{/if}}
 
+          {{#if events.length}}
+            <div id="event-picks">
+              {{> section-heading eyebrow="What's On" title="Events and seasonal moments worth planning around"}}
+              <div class="events-grid">
+                {{#each events}}
+                  {{> event-card}}
+                {{/each}}
+              </div>
+            </div>
+          {{/if}}
+
           {{#if products.length}}
             <div>
               {{> section-heading eyebrow="Tickets & Tours" title="Useful bookings"}}

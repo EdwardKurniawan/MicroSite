@@ -1,0 +1,120 @@
+{
+  "title": "Amsterdam Events (2026 Guide)",
+  "seo": {
+    "title": "What's Happening in Amsterdam (2026): Events, Festivals, Exhibitions, and Weekends",
+    "description": "A practical guide to what's happening in Amsterdam: seasonal events, major exhibitions, weekend atmosphere, and the city moments that should change how you plan the trip.",
+    "canonical": "https://travelsides.com/amsterdam/events/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Events Guide",
+    "title": "What's Happening in Amsterdam",
+    "tagline": "The seasonal moments, cultural spikes, and after-dark windows that should change when you visit, where you stay, and what you book first.",
+    "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=1200&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "This Month in Amsterdam",
+      "url": "/amsterdam/events/this-month/"
+    }
+  },
+  "guide_pages": [
+    {
+      "title": "Amsterdam This Month",
+      "url": "/amsterdam/events/this-month/",
+      "description": "A monthly planning lens for what is happening right now."
+    },
+    {
+      "title": "Amsterdam This Weekend",
+      "url": "/amsterdam/events/this-weekend/",
+      "description": "A short-break guide to the city's weekend atmosphere."
+    }
+  ],
+  "intro_html": "<p>For a lot of visitors, <strong>what's happening in Amsterdam is the question that matters more than a static list of attractions.</strong> Tulip season changes spring itineraries, exhibition-heavy weekends change museum demand, and summer festival energy changes which neighbourhoods feel worth staying in.</p><p>This page is not trying to be a giant event calendar. It is a planning guide: the recurring periods, seasonal surges, and citywide moments that most often change what to do, what to book, and how the city feels once you arrive.</p>",
+  "facts": [
+    { "icon": "📅", "label": "Best use", "value": "Choose the right dates, then plan the attractions" },
+    { "icon": "🌷", "label": "Big seasonal swing", "value": "Spring tulips and flower trips" },
+    { "icon": "☀️", "label": "Lively period", "value": "June through August" },
+    { "icon": "🌙", "label": "Night energy", "value": "Thursday to Sunday evenings" }
+  ],
+  "todos": [
+    {
+      "title": "Check if your dates overlap with a major seasonal draw",
+      "body": "Tulip season, exhibition-heavy weekends, and summer cultural programming can all change which parts of Amsterdam deserve priority."
+    },
+    {
+      "title": "Use events to choose your neighbourhood, not just your schedule",
+      "body": "A canal-ring base feels different from Noord or De Pijp when the city is busiest in the evenings. Stay location should follow the kind of atmosphere you want after 6pm."
+    },
+    {
+      "title": "Book the handful of affected tickets earlier than usual",
+      "body": "When the city is in a strong seasonal window, museum slots, evening cruises, and restaurant reservations all tighten faster."
+    }
+  ],
+  "events": [
+    {
+      "kicker": "Spring Window",
+      "timing": "March to May",
+      "title": "Tulip season and flower-country day trips",
+      "description": "Spring is the most date-sensitive version of Amsterdam. Keukenhof, flower routes, and day-trip demand around the city make this the season where one good planning decision can shape the whole trip.",
+      "venue": "Amsterdam + Keukenhof corridor",
+      "url": "/amsterdam/events/this-month/",
+      "link_label": "See the current spring angle"
+    },
+    {
+      "kicker": "Culture Spike",
+      "timing": "Year-round",
+      "title": "Museum exhibitions and heritage-house weekends",
+      "description": "Some of the city's best cultural weekends are driven by temporary exhibitions, special museum programs, and peak-demand heritage houses rather than by a single festival headline.",
+      "venue": "Museumplein + canal ring",
+      "url": "/amsterdam/museums/",
+      "link_label": "Use the museum guide"
+    },
+    {
+      "kicker": "Peak Atmosphere",
+      "timing": "June to August",
+      "title": "Summer terraces, park culture, and outdoor city energy",
+      "description": "Summer is when Amsterdam feels fullest and most extroverted. Parks, canals, and neighbourhood restaurants matter more, and evenings start deciding the shape of the day.",
+      "venue": "Across the city",
+      "url": "/amsterdam/events/this-weekend/",
+      "link_label": "See the weekend pattern"
+    },
+    {
+      "kicker": "After Dark",
+      "timing": "Thursday to Sunday",
+      "title": "Cruises, restaurants, and nightlife-led plans",
+      "description": "For many travelers, what's happening in Amsterdam really means what the city feels like after dark. Evening cruises, food districts, and entertainment all compete for the same slots.",
+      "venue": "Canal ring, De Pijp, Noord",
+      "url": "/amsterdam/experiences/",
+      "link_label": "See after-dark picks"
+    }
+  ],
+  "getting_there": [
+    { "icon": "🚋", "text": "If your trip revolves around exhibitions and evening culture, stay central enough to keep tram rides short after dinner." },
+    { "icon": "⛴", "text": "Noord only makes sense as a base if the ferry feels like part of the fun, not a daily inconvenience." },
+    { "icon": "💡", "text": "When the city is busiest, it is often smarter to walk between canal ring, Jordaan, and Museumplein than wait on trams." }
+  ],
+  "products": [
+    {
+      "title": "This Month in Amsterdam",
+      "description": "A date-aware view of the next major windows, cultural spikes, and practical booking pressures.",
+      "link": "/amsterdam/events/this-month/",
+      "cta": "Open monthly guide"
+    },
+    {
+      "title": "This Weekend in Amsterdam",
+      "description": "Use this when you care most about atmosphere, evening energy, and what kind of weekend the city is having.",
+      "link": "/amsterdam/events/this-weekend/",
+      "cta": "Open weekend guide"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best time to visit Amsterdam for events?",
+      "a": "It depends on the kind of event energy you want. Spring is strongest for tulips and seasonal day trips, while summer is strongest for outdoor atmosphere, long evenings, and neighbourhood-led plans."
+    },
+    {
+      "q": "Do events in Amsterdam affect ticket booking?",
+      "a": "Yes. Strong cultural weekends and seasonal peaks can tighten museum slots, evening cruises, and restaurant reservations faster than people expect."
+    }
+  ]
+}

@@ -27,6 +27,19 @@ fs.mkdirSync(DIST, { recursive: true });
 const guideTemplate = Handlebars.compile(fs.readFileSync(getTemplatePath('guide-master.hbs'), 'utf8'));
 const categoryTemplate = Handlebars.compile(fs.readFileSync(getTemplatePath('category-master.hbs'), 'utf8'));
 
+function getRelativeSubpagePath(urlPath, citySlug) {
+  if (!urlPath) return '';
+
+  const cleanPath = urlPath.replace(/^\/|\/$/g, '');
+  const cityPrefix = `${citySlug}/`;
+
+  if (cleanPath === citySlug) {
+    return '';
+  }
+
+  return cleanPath.startsWith(cityPrefix) ? cleanPath.slice(cityPrefix.length) : cleanPath;
+}
+
 const hubSource = path.join(ROOT_DIR, 'index.html');
 if (fs.existsSync(hubSource)) {
   fs.copyFileSync(hubSource, path.join(DIST, 'index.html'));
@@ -51,13 +64,16 @@ CITIES.forEach((citySlug) => {
   fs.writeFileSync(path.join(cityDist, 'index.html'), guideTemplate(rootData));
   console.log(`  ✓ Rendered ${citySlug}/index.html`);
 
+  const generatedPaths = new Set();
+
   const generateSubpage = (urlPath) => {
     if (!urlPath) return;
-    const cleanPath = urlPath.replace(/^\/|\/$/g, '').split('/').pop();
-    if (!cleanPath || cleanPath === citySlug) return;
+    const cleanPath = getRelativeSubpagePath(urlPath, citySlug);
+    if (!cleanPath || cleanPath === citySlug || generatedPaths.has(cleanPath)) return;
 
     const jsonPath = getCityPath(citySlug, cleanPath, 'data.json');
     if (!fs.existsSync(jsonPath)) return;
+    generatedPaths.add(cleanPath);
 
     const pageDist = path.join(cityDist, cleanPath);
     if (!fs.existsSync(pageDist)) fs.mkdirSync(pageDist, { recursive: true });
@@ -69,10 +85,13 @@ CITIES.forEach((citySlug) => {
     const subpageData = normalizeSubpageData(rawSubData, citySlug, rawRootData);
     fs.writeFileSync(path.join(pageDist, 'index.html'), categoryTemplate(subpageData));
     console.log(`    - Generated subpage: /${citySlug}/${cleanPath}/`);
+
+    (rawSubData.guide_pages || []).forEach((item) => generateSubpage(item.url));
   };
 
   (rawRootData.categories || []).forEach((item) => generateSubpage(item.url));
   (rawRootData.neighbourhoods || []).forEach((item) => generateSubpage(item.url));
+  (rawRootData.guide_pages || []).forEach((item) => generateSubpage(item.url));
 
   const cityImages = getCityPath(citySlug, 'images');
   if (fs.existsSync(cityImages)) {

@@ -1,0 +1,69 @@
+{
+  "title": "Amsterdam This Weekend",
+  "seo": {
+    "title": "What's Happening in Amsterdam This Weekend (2026 Guide)",
+    "description": "A practical Amsterdam weekend guide: where the atmosphere is strongest, what to do after dark, and how to structure a short city break around the best parts of the weekend.",
+    "canonical": "https://travelsides.com/amsterdam/events/this-weekend/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam This Weekend",
+    "title": "What's Happening in Amsterdam This Weekend",
+    "tagline": "Use the weekend lens when atmosphere matters more than quantity: where the city feels most alive, what to book for the evening, and which areas justify your free time.",
+    "image": "https://images.unsplash.com/photo-1472653816316-3ad6f10a6592?w=1200&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Amsterdam Events",
+      "url": "/amsterdam/events/"
+    }
+  },
+  "intro_html": "<p>Weekend Amsterdam is its own version of the city. <strong>The same attractions remain, but the real change is in energy:</strong> fuller terraces, stronger nightlife, busier cruises, and neighbourhoods that suddenly make much more sense once the workweek disappears.</p><p>This guide is for short-break travelers who want to know where the city feels best from Friday night through Sunday and which bookings are worth making before they land.</p>",
+  "facts": [
+    { "icon": "🌙", "label": "Weekend priority", "value": "Evening plans matter more" },
+    { "icon": "🍽", "label": "Book early", "value": "Popular dinners and cruises" },
+    { "icon": "📍", "label": "Best areas", "value": "Canal ring, Jordaan, De Pijp, Noord" }
+  ],
+  "todos": [
+    {
+      "title": "Anchor one evening properly",
+      "body": "Weekend Amsterdam is best when one night has a clear shape: canal cruise, strong dinner reservation, or entertainment-led plan."
+    },
+    {
+      "title": "Keep one daytime block loose",
+      "body": "The weekend payoff often comes from wandering the right district once the weather and mood reveal themselves."
+    }
+  ],
+  "events": [
+    {
+      "kicker": "Friday Night",
+      "timing": "Best first move",
+      "title": "Start with an evening that shows you the city in motion",
+      "description": "A Friday canal cruise or a dinner-led neighbourhood evening is the fastest way to make Amsterdam feel alive instead of just scenic.",
+      "venue": "Canal ring + De Pijp",
+      "url": "/amsterdam/canal-cruises/",
+      "link_label": "Compare cruise timings"
+    },
+    {
+      "kicker": "Saturday",
+      "timing": "Peak energy",
+      "title": "Use Saturday for the city’s fullest version of itself",
+      "description": "Saturday is the day to combine one major cultural anchor with the district that suits your pace once the city gets busy.",
+      "venue": "Museumplein + neighbourhoods",
+      "url": "/amsterdam/museums/",
+      "link_label": "Set the daytime anchor"
+    },
+    {
+      "kicker": "Sunday",
+      "timing": "Best slowdown",
+      "title": "Let Sunday lean quieter and more local",
+      "description": "Sunday rewards canal-ring walking, Jordaan cafés, Noord ferries, and any district where the city feels more lived-in than scheduled.",
+      "venue": "Jordaan, Noord, Westerpark",
+      "url": "/amsterdam/neighbourhoods/",
+      "link_label": "Pick a district"
+    }
+  ],
+  "getting_there": [
+    { "icon": "🚋", "text": "On busy weekends, central areas are often faster on foot than by tram for short hops." },
+    { "icon": "⛴", "text": "Noord is excellent on weekends if you treat the ferry as part of the experience, not a chore." }
+  ]
+}

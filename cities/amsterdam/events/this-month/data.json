@@ -1,0 +1,69 @@
+{
+  "title": "Amsterdam Events This Month",
+  "seo": {
+    "title": "Amsterdam Events This Month (2026): What To See, Book, and Plan Around",
+    "description": "A practical monthly Amsterdam events guide: what is happening now, what deserves attention this month, and which city moments should change how you plan the trip.",
+    "canonical": "https://travelsides.com/amsterdam/events/this-month/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam This Month",
+    "title": "Amsterdam Events This Month",
+    "tagline": "The month-level view: what the city is leaning toward right now, what to book earlier, and which neighbourhoods get more interesting during this stretch.",
+    "image": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60d?w=1200&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Amsterdam Events",
+      "url": "/amsterdam/events/"
+    }
+  },
+  "intro_html": "<p>This page is built for travelers asking a very specific question: <strong>what is happening in Amsterdam this month that should actually affect my plans?</strong> Instead of dumping a long calendar, it focuses on the strongest citywide patterns: seasonal weather shifts, museum demand, after-dark atmosphere, and the kind of day trips or evening bookings that matter most right now.</p>",
+  "facts": [
+    { "icon": "📌", "label": "Use this for", "value": "Date-specific planning before booking" },
+    { "icon": "🎟", "label": "Watch first", "value": "Museum slots, cruises, dinner reservations" },
+    { "icon": "🧭", "label": "Best companion", "value": "Amsterdam Museums and Neighbourhoods guides" }
+  ],
+  "todos": [
+    {
+      "title": "Use the month to decide your daytime anchor",
+      "body": "Some months are museum-led, some are terrace-led, and some are all about spring day trips. Choose the best daytime anchor first."
+    },
+    {
+      "title": "Then shape the evenings around atmosphere",
+      "body": "The city can feel quiet and elegant or packed and high-energy depending on the month, weather, and where you end up after dark."
+    }
+  ],
+  "events": [
+    {
+      "kicker": "Seasonal",
+      "timing": "Current month pattern",
+      "title": "The strongest seasonal window right now",
+      "description": "Use the current month to decide whether Amsterdam should be museum-heavy, neighbourhood-heavy, or spring-trip heavy. The right emphasis changes faster than first-time visitors expect.",
+      "venue": "Across the city",
+      "url": "/amsterdam/events/",
+      "link_label": "Back to the events guide"
+    },
+    {
+      "kicker": "Booking Pressure",
+      "timing": "Current month pressure",
+      "title": "The bookings most likely to tighten first",
+      "description": "Depending on the month, the pressure points may be museum tickets, evening cruises, or dinner reservations in De Pijp and the Jordaan. This is where monthly planning earns its keep.",
+      "venue": "Museumplein + canal ring",
+      "url": "/amsterdam/museums/",
+      "link_label": "See the booking priorities"
+    },
+    {
+      "kicker": "Neighbourhood Mood",
+      "timing": "Where to lean this month",
+      "title": "The neighbourhoods most likely to reward your free time",
+      "description": "Some months favour canal-ring wandering and museum density; others make Noord, Westerpark, or De Pijp much more rewarding because the city lives outside longer.",
+      "venue": "Neighbourhood-wide",
+      "url": "/amsterdam/neighbourhoods/",
+      "link_label": "Compare districts"
+    }
+  ],
+  "getting_there": [
+    { "icon": "🚶", "text": "Monthly city energy usually matters more inside the centre than transport options, so walkability should stay the main decision-maker." },
+    { "icon": "💡", "text": "If the month is weather-sensitive, leave one flexible afternoon open instead of overcommitting the whole itinerary." }
+  ]
+}

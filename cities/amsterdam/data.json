@@ -46,9 +46,16 @@
       "url": "/amsterdam/museums/"
     }
   },
+  "guide_pages": [
+    {
+      "title": "Amsterdam Events",
+      "url": "/amsterdam/events/",
+      "description": "What's happening, what's seasonal, and what changes the smartest dates to visit."
+    }
+  ],
   "footer": {
     "brand_name": "Amsterdam",
-    "description": "An independent Amsterdam travel guide with practical booking advice, neighbourhood context, and a sharper editorial point of view than generic tourism roundups.",
+    "description": "An independent Amsterdam travel guide for what to do, what to see, what's happening, and which bookings deserve your money first.",
     "newsletter": {
       "title": "Stay Inner-Circle",
       "description": "Get seasonal Amsterdam notes, smarter booking windows, and neighbourhood tips without the fluff.",
@@ -141,11 +148,11 @@
       "url": "/amsterdam/canal-cruises/"
     },
     {
-      "kicker": "Leave Room",
-      "title": "The city works best when one block of the day stays unbooked",
-      "description": "Amsterdam rewards wandering more than over-scheduling. Save a loose afternoon for the Jordaan, the nine streets, or a ferry ride to Noord when the weather turns good.",
-      "link_label": "Browse neighbourhood routes",
-      "url": "/amsterdam/tours/"
+      "kicker": "Time It Right",
+      "title": "Use the city's live calendar to shape the trip, not just the checklist",
+      "description": "Spring flowers, exhibition-heavy weekends, and long-light summer evenings can all change what deserves priority. Check the events layer before you lock the final route.",
+      "link_label": "See what's happening",
+      "url": "/amsterdam/events/"
     }
   ],
   "top_things": [
@@ -224,8 +231,8 @@
       "link_label": "See the after-dark side"
     }
   ],
-  "intro_html": "<p>Amsterdam rewards restraint. The city is compact enough to walk, but dense enough that a bad booking order can still waste half a day. <strong>The trick is not seeing everything. It is seeing the right mix of canals, museums, neighbourhoods, and one or two booked experiences without pinballing across town.</strong></p><p>Its great advantage is concentration. Golden Age canal houses, heavyweight museums, excellent restaurants, and genuinely distinct neighbourhoods all sit within a city that still behaves best at walking pace. Once you understand where to base yourself and which attractions actually require advance planning, Amsterdam becomes unusually easy to do well.</p><p>This guide is built for that version of the trip: strong first-timer choices, honest booking advice, and enough neighbourhood context to make the city feel edited rather than overwhelming.</p>",
-  "category_intro": "Start with the lens that will shape your trip most: museums, canal time, neighbourhood wandering, food, or a day outside the centre. Each collection is built to help you choose, not just browse.",
+  "intro_html": "<p>Amsterdam rewards editing. The city is compact enough to walk, but dense enough that a bad booking order can still waste half a day. <strong>The trick is not seeing everything. It is seeing the right mix of museums, canal time, food, neighbourhoods, and current events without zig-zagging across town.</strong></p><p>Its advantage is concentration. Golden Age canal houses, heavyweight museums, strong restaurant districts, and genuinely different neighbourhood moods all sit inside a city that still behaves best at walking pace. Once you understand which attractions require advance planning and what is happening during your dates, Amsterdam becomes much easier to do well.</p><p>This guide is built for that version of the trip: search-intent answers up top, honest booking advice, and enough local context to make the city feel edited rather than overwhelming.</p>",
+  "category_intro": "Start with the lens that will shape your dates most: the best things to do, what's happening while you're here, museums, canal time, neighbourhood wandering, food, or a day outside the centre.",
   "categories": [
     {
       "url": "/amsterdam/museums/",
