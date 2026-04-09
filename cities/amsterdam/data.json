@@ -36,17 +36,27 @@
   "navigation": {
     "local_links": [
       { "label": "Overview", "url": "#city-overview", "key": "overview" },
-      { "label": "Best Things To Do", "url": "#top-things", "key": "top-things" },
+      { "label": "Best Things To Do", "url": "/amsterdam/best-things-to-do/", "key": "top-things" },
       { "label": "What's On", "url": "#events", "key": "events" },
       { "label": "Collections", "url": "#collections", "key": "collections" },
       { "label": "Neighbourhoods", "url": "#neighbourhoods", "key": "neighbourhoods" }
     ],
     "cta": {
-      "label": "Explore Museums",
-      "url": "/amsterdam/museums/"
+      "label": "Best Things To Do",
+      "url": "/amsterdam/best-things-to-do/"
     }
   },
+  "hero_actions": [
+    { "label": "Best Things To Do", "url": "/amsterdam/best-things-to-do/", "style": "primary" },
+    { "label": "What's Happening", "url": "/amsterdam/events/", "style": "secondary" },
+    { "label": "Explore Museums", "url": "/amsterdam/museums/", "style": "secondary" }
+  ],
   "guide_pages": [
+    {
+      "title": "Best Things To Do",
+      "url": "/amsterdam/best-things-to-do/",
+      "description": "A ranked Amsterdam list for first-timer priorities, booking logic, and what deserves real time."
+    },
     {
       "title": "Amsterdam Events",
       "url": "/amsterdam/events/",

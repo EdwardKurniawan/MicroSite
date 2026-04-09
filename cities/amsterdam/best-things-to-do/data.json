@@ -1,0 +1,211 @@
+{
+  "title": "Best Things To Do in Amsterdam (2026 Guide)",
+  "seo": {
+    "title": "Best Things To Do in Amsterdam (2026): 10 Smart First-Timer Picks",
+    "description": "A practical ranked guide to the best things to do in Amsterdam: what to see first, what to book early, and which experiences are worth your time on a first visit.",
+    "canonical": "https://travelsides.com/amsterdam/best-things-to-do/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Top 10 Guide",
+    "title": "Best Things To Do in Amsterdam",
+    "tagline": "The short list for a first trip: what to see first, what deserves advance booking, and which Amsterdam experiences actually earn space in the itinerary.",
+    "image": "https://images.unsplash.com/photo-1549399542-7e82138f89d4?w=1400&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See What's Happening",
+      "url": "/amsterdam/events/"
+    }
+  },
+  "page_context": {
+    "label": "Pillar guide",
+    "timeframe": "Best things to do in 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Editorial shortlist",
+    "note": "This page is the broad-intent shortlist for Amsterdam. It is meant to answer the big first questions fast: what to do, what to see, what to book first, and which choices matter most if your time is limited.",
+    "next_refresh": "After the next major homepage/content review"
+  },
+  "intro_html": "<p><strong>The best things to do in Amsterdam are not just the most famous things.</strong> A good first trip balances one heavyweight museum block, one water-based perspective, one neighbourhood-led stretch, and one evening that actually feels like the city after dark.</p><p>This page is the edited version of Amsterdam: the ten picks most likely to shape a strong first visit, with booking logic built in so you know which decisions matter earliest.</p>",
+  "facts": [
+    {
+      "icon": "📅",
+      "label": "Ideal trip",
+      "value": "3 to 4 days"
+    },
+    {
+      "icon": "🎟",
+      "label": "Book first",
+      "value": "Anne Frank House, Van Gogh Museum"
+    },
+    {
+      "icon": "⛴",
+      "label": "Best perspective",
+      "value": "One canal cruise only"
+    },
+    {
+      "icon": "📍",
+      "label": "Best balancing move",
+      "value": "Pair culture with one strong district"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Anchor the trip around one non-negotiable booking",
+      "body": "Most first-time Amsterdam itineraries get easier once you know whether Anne Frank House or Van Gogh Museum is the booking that matters most for your dates."
+    },
+    {
+      "title": "Do not spend every block indoors",
+      "body": "Amsterdam works best when the museums, canals, and neighbourhoods all get some space. The city loses its charm if it turns into back-to-back ticket slots."
+    },
+    {
+      "title": "Let one evening define the mood of the trip",
+      "body": "An evening cruise, a strong dinner district, or a nightlife-led area often becomes the part of the trip people remember most."
+    }
+  ],
+  "attractions": [
+    {
+      "name": "Rijksmuseum and Museumplein",
+      "category": "Top Pick #1",
+      "badge": "First-timer essential",
+      "image_url": "/amsterdam/images/venues/rijksmuseum.jpg",
+      "metas": [
+        "Best for art and Dutch history",
+        "Allow half a day",
+        "Pair with Van Gogh or a slow square lunch"
+      ],
+      "hook": "If you only give one museum zone real time, make it Museumplein.",
+      "description": "The Rijksmuseum is the strongest single cultural anchor in Amsterdam, and Museumplein gives it the right supporting cast: Van Gogh Museum, the Stedelijk, open space, and enough café life to stop the day from becoming a forced march.",
+      "tip": "Best used as a full morning or early-afternoon block, not a rushed add-on.",
+      "url": "/amsterdam/museums/",
+      "cta": "Open the museum guide"
+    },
+    {
+      "name": "Anne Frank House and the Jordaan",
+      "category": "Top Pick #2",
+      "badge": "Book early",
+      "image_url": "https://images.unsplash.com/photo-1759088141496-10d6cb1edc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxIaXN0b3J5JTIwJTI2JTIwSGVyaXRhZ2UlMjBBbXN0ZXJkYW0lMjBjaXR5JTIwdmlld3xlbnwwfDB8fHwxNzc0NDU0MTc0fDA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "metas": [
+        "Best for first-time history context",
+        "Shapes your dates if tickets are limited",
+        "Pair with canal ring walking"
+      ],
+      "hook": "This is the one ticket that can genuinely reshape the trip.",
+      "description": "Anne Frank House is emotionally and historically central to Amsterdam, but the key travel point is practical too: it is often the hardest booking to secure. Once that slot is set, you can let the Jordaan and canal ring fill the rest of the day naturally.",
+      "tip": "Treat the ticket as the anchor, then keep the surrounding day light and walkable.",
+      "url": "/amsterdam/history-heritage/",
+      "cta": "See the heritage guide"
+    },
+    {
+      "name": "One canal cruise at the right time",
+      "category": "Top Pick #3",
+      "badge": "Worth it",
+      "image_url": "https://images.unsplash.com/photo-1694634287698-2d73fef678c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxDYW5hbCUyMENydWlzZXMlMjAlMjYlMjBXYXRlciUyMEFtc3RlcmRhbSUyMGNpdHklMjB2aWV3fGVufDB8MHx8fDE3NzQ0NTQxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "metas": [
+        "Best for orientation",
+        "Pick daytime or evening",
+        "Do not double-book unless you love boats"
+      ],
+      "hook": "The canal cruise is not filler if you choose the right slot.",
+      "description": "A cruise works best when it gives you a perspective you would not otherwise get. Daylight is strongest for layout and orientation; evening is strongest for atmosphere. The mistake is doing two mediocre ones instead of one deliberate one.",
+      "tip": "Use it early in the trip if you want the city to make sense faster.",
+      "url": "/amsterdam/canal-cruises/",
+      "cta": "Compare cruise styles"
+    },
+    {
+      "name": "A neighbourhood-led afternoon",
+      "category": "Top Pick #4",
+      "badge": "Most underrated move",
+      "image_url": "/amsterdam/images/jordaan_home.png",
+      "metas": [
+        "Best for atmosphere",
+        "Choose Jordaan, De Pijp, or Noord",
+        "Leave one block unscheduled"
+      ],
+      "hook": "The city feels better when one part of the day is guided by district mood, not attraction count.",
+      "description": "Amsterdam is one of the few cities where wandering the right neighbourhood can be as rewarding as a ticketed stop. Jordaan gives you the classic canal-ring softness, De Pijp gives you food and late dinners, and Noord adds a sharper creative edge.",
+      "tip": "This is often the difference between a good trip and a generic one.",
+      "url": "/amsterdam/neighbourhoods/",
+      "cta": "Compare neighbourhoods"
+    },
+    {
+      "name": "An evening built around food and atmosphere",
+      "category": "Top Pick #5",
+      "badge": "Do not leave it random",
+      "image_url": "/amsterdam/images/de-kas.png",
+      "metas": [
+        "Best for couples and repeatable nights",
+        "De Pijp, Oost, and Jordaan work best",
+        "Book the strong tables early"
+      ],
+      "hook": "Amsterdam often reveals itself more clearly after the museum hours than during them.",
+      "description": "The city gets more memorable once you let an evening have a personality. That usually means choosing a district with good walking energy and enough restaurants or bars to keep the night from ending at the first reservation.",
+      "tip": "If the daytime was dense, make the evening softer rather than grander.",
+      "url": "/amsterdam/food/",
+      "cta": "See where to eat"
+    },
+    {
+      "name": "A seasonal or current-events decision",
+      "category": "Top Pick #6",
+      "badge": "Date-sensitive",
+      "image_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=1200&auto=format&fit=crop&q=80",
+      "metas": [
+        "Best for spring and peak weekends",
+        "Matters most before arrival",
+        "Changes what to prioritize"
+      ],
+      "hook": "Some Amsterdam trips should be shaped by what is happening, not just by what is famous.",
+      "description": "Tulip season, major cultural weekends, and citywide moments like King's Day can all change how Amsterdam should be done. The broad-intent traveler needs that answer early, not buried later in the trip.",
+      "tip": "Check the events page before you lock your final route.",
+      "url": "/amsterdam/events/",
+      "cta": "See what's happening"
+    }
+  ],
+  "products": [
+    {
+      "title": "Amsterdam Events Guide",
+      "description": "Use this if your dates might change the smartest version of the trip.",
+      "link": "/amsterdam/events/",
+      "cta": "Open events guide"
+    },
+    {
+      "title": "Amsterdam Museums Guide",
+      "description": "Use this if the cultural side of the city is the main reason you are coming.",
+      "link": "/amsterdam/museums/",
+      "cta": "Open museum guide"
+    },
+    {
+      "title": "Amsterdam Neighbourhoods Guide",
+      "description": "Use this if where you stay and how the city feels matter more than another ticket.",
+      "link": "/amsterdam/neighbourhoods/",
+      "cta": "Open neighbourhood guide"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "The best first-time Amsterdam itinerary is usually walk-first, with trams filling only the longer hops."
+    },
+    {
+      "icon": "🚋",
+      "text": "Museumplein, the canal ring, Jordaan, and De Pijp are easy to combine if you avoid backtracking."
+    },
+    {
+      "icon": "💡",
+      "text": "If your schedule starts getting too dense, cut one indoor attraction before you cut the city-wandering time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the best things to do in Amsterdam for a first visit?",
+      "a": "The strongest first trip usually includes one major museum block, Anne Frank House or another heritage anchor, one well-timed canal cruise, one neighbourhood-led afternoon, and one evening shaped by food or atmosphere."
+    },
+    {
+      "q": "How many days do you need for the best things to do in Amsterdam?",
+      "a": "Three to four days is the sweet spot. That gives you enough time for the city’s major cultural anchors, one water-based perspective, and at least one slower neighbourhood stretch."
+    },
+    {
+      "q": "What should I book in advance in Amsterdam?",
+      "a": "Anne Frank House is the main date-shaping ticket. Van Gogh Museum is usually next. Certain dinners, evening cruises, and seasonal day trips become more important depending on when you visit."
+    }
+  ]
+}

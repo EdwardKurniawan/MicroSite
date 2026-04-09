@@ -282,6 +282,12 @@ a {
   margin-bottom: 1.35rem;
 }
 
+.section-utility-links {
+  display: flex;
+  justify-content: flex-end;
+  margin: -0.35rem 0 0.95rem;
+}
+
 .section-heading-row {
   display: flex;
   justify-content: space-between;

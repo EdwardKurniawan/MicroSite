@@ -88,6 +88,15 @@
       <section id="top-things" class="section-shell">
         <div class="shell">
           {{> section-heading eyebrow="Best Things To Do" title="Start with the experiences worth real space in the trip" description="These are the pages that answer the broad questions first: what to do in Amsterdam, what to see first, and what deserves advance booking."}}
+          {{#if guide_pages.length}}
+            <div class="section-utility-links">
+              {{#each guide_pages}}
+                {{#if (eq title "Best Things To Do")}}
+                  <a href="{{url}}" class="story-link">Open the full ranked guide</a>
+                {{/if}}
+              {{/each}}
+            </div>
+          {{/if}}
           <div class="story-grid">
             {{#each top_things}}
               {{> top-thing-card}}
