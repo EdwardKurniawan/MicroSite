@@ -7,6 +7,7 @@ npm run events:fetch -- --list-providers
 npm run events:fetch -- --provider ticketmaster --city amsterdam --start 2026-04-01T00:00:00Z --end 2026-04-30T23:59:59Z --keyword exhibition
 npm run events:fetch -- --provider ticketmaster --city amsterdam --start 2026-04-01T00:00:00Z --end 2026-04-30T23:59:59Z --write
 npm run events:review -- --city amsterdam --provider ticketmaster
+npm run events:promote -- --city amsterdam --provider ticketmaster --target this-weekend --index 1 --dry-run
 ```
 
 ## Current recommendation
@@ -63,6 +64,7 @@ Eventbrite should not be the primary public-city discovery source for this syste
 - Use `--write` to store raw candidate payloads under:
   - `data/event-candidates/<city>/<provider>/...json`
 - Use `events:review` to turn the latest raw fetch into a shortlist for editorial promotion
+- Use `events:promote` to convert one reviewed candidate into an editorial event card and write it directly into a city page
 - Curate the strongest event candidates into:
   - `events/`
   - `events/this-month/`
@@ -130,6 +132,28 @@ npm run events:review -- --city amsterdam --provider ticketmaster
 ```
 
 3. Promote the strongest candidates into the editorial city pages:
+
+```bash
+npm run events:promote -- \
+  --city amsterdam \
+  --provider ticketmaster \
+  --target this-month \
+  --index 1
+```
+
+You can target:
+
+- `events`
+- `this-month`
+- `this-weekend`
+
+You can select the reviewed candidate by:
+
+- `--index`
+- `--match`
+- `--provider-event-id`
+
+4. Final editorial pages remain:
 
 - `cities/<city>/events/data.json`
 - `cities/<city>/events/this-month/data.json`

@@ -1,7 +1,7 @@
 # Handoff
 
 Last updated: 2026-04-09
-Current head: `4024836` (`feat: add event candidate review workflow`)
+Current milestone before next pass: `fc8d6fb` (`feat: integrate live amsterdam event signals`)
 
 ## Current state
 
@@ -182,10 +182,12 @@ Candidate payloads are stored under:
 data/event-candidates/<city>/<provider>/
 ```
 
-Current blocker:
+Current state:
 
-- `TICKETMASTER_API_KEY` is not set in this environment yet
-- the ingestion flow is coded and verified structurally, but not yet tested against a live provider response on this machine
+- `TICKETMASTER_API_KEY` has now been tested locally
+- a real Ticketmaster Amsterdam fetch was completed successfully
+- the review pipeline now filters obvious junk like parking permits, VIP packages, sold-out dupes, and offsale entries
+- Amsterdam's event pages now include real live-ticketed signals from Ticketmaster
 
 ## What was verified this session
 
@@ -205,9 +207,10 @@ Repeatedly verified during the session:
 Also verified:
 
 - `npm run events:fetch -- --list-providers`
-- `npm run events:review -- --city amsterdam --provider ticketmaster --limit 2`
+- `npm run events:fetch -- --provider ticketmaster --city amsterdam --start 2026-04-01T00:00:00Z --end 2026-04-30T23:59:59Z --write`
+- `npm run events:review -- --city amsterdam --provider ticketmaster --limit 12`
 
-That review command was tested with a temporary mock candidate payload and the mock file was removed before commit.
+Fetched candidate payloads remain local-only because `data/event-candidates/**` is ignored except for `.gitkeep`.
 
 ## Important repo preferences
 
@@ -226,17 +229,20 @@ After a coherent work pass, commit and push to `origin main` unless explicitly t
 
 If resuming next session, start here:
 
-1. add `TICKETMASTER_API_KEY`
-2. run one real provider fetch with `events:fetch --write`
-3. run `events:review`
-4. promote the strongest live results into:
+1. use the new promotion helper to move candidates into city JSON faster:
+   - `npm run events:promote -- --city amsterdam --provider ticketmaster --target this-month --index 1 --dry-run`
+2. run multiple focused Amsterdam pulls instead of one generic fetch:
+   - music
+   - arts/exhibitions
+   - family/city events if useful
+3. promote the strongest new live results into:
    - `cities/<city>/events/data.json`
    - `cities/<city>/events/this-month/data.json`
    - `cities/<city>/events/this-weekend/data.json`
-
+4. repeat the same live-event workflow for Kanazawa
 After that, the strongest product step is:
 
-5. build a real “promote candidate to editorial event card” workflow so the curated JSON can be updated faster
+5. make promotion smarter with scoring / tagging instead of one-event-at-a-time selection
 
 ## Fast restart commands
 
@@ -245,6 +251,7 @@ npm run build
 npm run check:content
 npm run check:events
 npm run events:fetch -- --list-providers
+npm run events:promote -- --city amsterdam --provider ticketmaster --target this-month --index 1 --dry-run
 node server.js
 ```
 
