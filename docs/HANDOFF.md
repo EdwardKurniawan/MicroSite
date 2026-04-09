@@ -172,6 +172,40 @@ That script warns when event pages are missing:
 
 Use that before every events refresh pass.
 
+### 7. Content validation and bootstrap
+
+There is now a structural content validator:
+
+```bash
+npm run check:content
+```
+
+Use it before scaling or bootstrapping a new city. It checks:
+
+- root SEO and hero fields
+- required root arrays like categories and neighbourhoods
+- guide-level internal links that should resolve to real local pages
+- whether a city has the recommended pillar family:
+  - `best-things-to-do`
+  - `where-to-stay`
+  - `best-restaurants`
+  - `events`
+  - `events/this-month`
+  - `events/this-weekend`
+
+Important current caveat:
+
+- Kanazawa still throws warnings because it has not yet been upgraded to the Amsterdam-style pillar structure
+- those warnings are expected for now and should be treated as migration backlog, not as validator breakage
+
+`scripts/bootstrap-city.js` now scaffolds the newer city shape by default:
+
+- grouped root fields (`seo`, `hero`, `navigation`, `guide_pages`, `footer`, `author`)
+- broad-intent pillar pages
+- events page family
+- category pages
+- neighbourhood pages
+
 ## What is intentionally incomplete
 
 This is a strong foundation, but not the final city-system end state yet.
@@ -188,8 +222,8 @@ Still not fully migrated:
 Recommended order:
 
 1. Migrate more Amsterdam subpages into grouped data shape
-2. Upgrade the event freshness workflow city-by-city
-3. Update `scripts/bootstrap-city.js` to emit the grouped schema by default
+2. Bring Kanazawa up to the new pillar-page standard so `npm run check:content` becomes mostly clean
+3. Upgrade the event freshness workflow city-by-city
 4. Decide whether author pages should become shared-template pages
 5. Add one more round of content primitives if needed:
    - map block

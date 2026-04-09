@@ -65,19 +65,49 @@ npm run bootstrap:city -- \
 That command will:
 
 1. Create `cities/<slug>/data.json`.
-2. Create starter category and neighbourhood `data.json` files.
-3. Create starter placeholder SVG assets in `cities/<slug>/images/`.
-4. Create a starter author page in `cities/<slug>/authors/<author-slug>/`.
-5. Register the domain and `city_id` in `config/cities.json` when both are provided.
-6. Add a matching `dev:<slug>` script to `package.json`.
+2. Create starter pillar pages:
+   - `best-things-to-do`
+   - `where-to-stay`
+   - `best-restaurants`
+   - `events`
+   - `events/this-month`
+   - `events/this-weekend`
+3. Create starter category and neighbourhood `data.json` files.
+4. Create starter placeholder SVG assets in `cities/<slug>/images/`.
+5. Create a starter author page in `cities/<slug>/authors/<author-slug>/`.
+6. Register the domain and `city_id` in `config/cities.json` when both are provided.
+7. Add a matching `dev:<slug>` script to `package.json`.
 
 Then run:
 
 ```bash
+npm run check:content
 npm run build
 ```
 
 `scripts/build.js` discovers cities automatically by scanning `cities/` for folders that contain a `data.json`, so there is no hardcoded city list anymore.
+
+## Content validation
+
+There is now a lightweight structural validator for city content:
+
+```bash
+npm run check:content
+```
+
+What it checks:
+
+- root guide essentials like `city_name`, SEO fields, hero fields, categories, and neighbourhoods
+- basic page metadata presence across city `data.json` files
+- internal root-guide links that should point to real local pages
+- whether a city has the recommended pillar-family structure
+
+Current expectation:
+
+- Amsterdam should pass cleanly
+- Kanazawa currently produces warnings because it has not yet been brought up to the new pillar-page standard
+
+That is intentional for now. The validator is meant to make scale safer without blocking work on legacy cities that still need migration.
 
 ## Event freshness workflow
 
