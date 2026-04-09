@@ -38,8 +38,8 @@
   <main class="page-shell">
     {{> subpage-hero}}
 
-    <section class="section-shell">
-      <div class="shell editorial-layout">
+    <section class="section-shell {{#if (eq page_context.label 'Pillar guide')}}section-shell-pillar{{/if}}">
+      <div class="shell editorial-layout {{#if (eq page_context.label 'Pillar guide')}}editorial-layout-pillar{{/if}}">
         <div class="editorial-stack">
           <div>
             {{> section-heading eyebrow="Overview" title=hero.title description=hero.tagline}}
@@ -47,11 +47,15 @@
           </div>
 
           {{#if todos.length}}
-            <div>
-              {{> section-heading eyebrow="What To Do" title="Start with these stops"}}
-              <div class="editorial-stack">
+            <div class="{{#if (eq page_context.label 'Pillar guide')}}pillar-checklist-block{{/if}}">
+              {{#if (eq page_context.label 'Pillar guide')}}
+                {{> section-heading eyebrow="How To Use This List" title="Make these calls first"}}
+              {{else}}
+                {{> section-heading eyebrow="What To Do" title="Start with these stops"}}
+              {{/if}}
+              <div class="editorial-stack {{#if (eq page_context.label 'Pillar guide')}}pillar-checklist{{/if}}">
                 {{#each todos}}
-                  <article class="editorial-panel">
+                  <article class="editorial-panel {{#if (eq @root.page_context.label 'Pillar guide')}}pillar-checklist-card{{/if}}">
                     <span class="editorial-kicker">{{num}}</span>
                     <h3 class="sidebar-title" style="margin-top:0.5rem;">{{title}}</h3>
                     <p>{{excerpt description 190}}</p>
@@ -62,9 +66,13 @@
           {{/if}}
 
           {{#if attractions.length}}
-            <div id="top-attractions">
-              {{> section-heading eyebrow="Top Stops" title="Featured attractions"}}
-              <div class="editorial-stack">
+            <div id="top-attractions" class="{{#if (eq page_context.label 'Pillar guide')}}pillar-ranked-block{{/if}}">
+              {{#if (eq page_context.label 'Pillar guide')}}
+                {{> section-heading eyebrow="The Ranked Shortlist" title="The experiences worth building the trip around"}}
+              {{else}}
+                {{> section-heading eyebrow="Top Stops" title="Featured attractions"}}
+              {{/if}}
+              <div class="editorial-stack {{#if (eq page_context.label 'Pillar guide')}}pillar-ranked-list{{/if}}">
                 {{#each attractions}}
                   {{> attraction-card}}
                 {{/each}}
@@ -84,11 +92,15 @@
           {{/if}}
 
           {{#if products.length}}
-            <div>
-              {{> section-heading eyebrow="Tickets & Tours" title="Useful bookings"}}
-              <div class="story-grid">
+            <div class="{{#if (eq page_context.label 'Pillar guide')}}pillar-support-block{{/if}}">
+              {{#if (eq page_context.label 'Pillar guide')}}
+                {{> section-heading eyebrow="Go Deeper" title="Open the supporting guides"}}
+              {{else}}
+                {{> section-heading eyebrow="Tickets & Tours" title="Useful bookings"}}
+              {{/if}}
+              <div class="story-grid {{#if (eq page_context.label 'Pillar guide')}}pillar-support-grid{{/if}}">
                 {{#each products}}
-                  <a href="{{link}}" class="story-card">
+                  <a href="{{link}}" class="story-card {{#if (eq @root.page_context.label 'Pillar guide')}}story-card-support{{/if}}">
                     {{#if image_url}}
                       <div class="story-visual"><img src="{{image_url}}" alt="{{title}}" loading="lazy" /></div>
                     {{/if}}
@@ -120,7 +132,7 @@
           {{/if}}
         </div>
 
-        <aside class="editorial-stack">
+        <aside class="editorial-stack {{#if (eq page_context.label 'Pillar guide')}}pillar-sidebar{{/if}}">
           {{#if page_context.note}}
             <article class="toolkit-card freshness-card">
               <span class="editorial-kicker">{{#if page_context.freshness}}{{page_context.freshness}}{{else}}Freshness{{/if}}</span>

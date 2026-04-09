@@ -984,6 +984,15 @@ a {
   gap: 1.35rem;
 }
 
+.section-shell-pillar {
+  padding-top: 1.25rem;
+}
+
+.editorial-layout-pillar {
+  gap: 1.6rem;
+  align-items: start;
+}
+
 .editorial-stack {
   display: grid;
   gap: 1.15rem;
@@ -1041,6 +1050,136 @@ a {
   border-radius: 1rem;
   padding: 0.9rem;
   background: rgba(255, 255, 255, 0.025);
+}
+
+.pillar-checklist-block,
+.pillar-ranked-block,
+.pillar-support-block {
+  position: relative;
+}
+
+.pillar-checklist-block::before,
+.pillar-ranked-block::before,
+.pillar-support-block::before {
+  content: '';
+  display: block;
+  width: min(180px, 28vw);
+  height: 1px;
+  margin-bottom: 1.2rem;
+  background: linear-gradient(90deg, var(--theme-accent), rgba(255, 255, 255, 0));
+  opacity: 0.75;
+}
+
+.pillar-checklist {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.pillar-checklist-card {
+  padding: 1.1rem 1.05rem;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 1.15rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.025)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.12), transparent 48%);
+  box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
+}
+
+.pillar-checklist-card p {
+  margin-bottom: 0;
+}
+
+.pillar-ranked-list {
+  gap: 1.3rem;
+}
+
+.pillar-ranked-list .editorial-card {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.042), rgba(255, 255, 255, 0.02)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.14), transparent 46%);
+  box-shadow: 0 26px 46px rgba(0, 0, 0, 0.18);
+}
+
+.pillar-ranked-list .editorial-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.035);
+  pointer-events: none;
+}
+
+.pillar-ranked-list .editorial-card-media {
+  min-height: 280px;
+}
+
+.pillar-ranked-list .editorial-card-body {
+  padding: 1.35rem 1.3rem 1.3rem;
+}
+
+.pillar-ranked-list .editorial-kicker {
+  color: var(--theme-accent-light);
+}
+
+.pillar-ranked-list .editorial-card-body h3 {
+  max-width: 18ch;
+  font-size: clamp(1.35rem, 2vw, 2.05rem);
+}
+
+.pillar-ranked-list .editorial-hook {
+  font-size: 1.06rem;
+  line-height: 1.6;
+}
+
+.pillar-ranked-list .meta-row {
+  margin-top: 0.85rem;
+}
+
+.pillar-ranked-list .editorial-note {
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pillar-ranked-list .editorial-actions {
+  margin-top: 1.1rem;
+}
+
+.pillar-support-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.story-card-support {
+  min-height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.042), rgba(255, 255, 255, 0.02)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.09), transparent 48%);
+}
+
+.story-card-support .story-body {
+  padding: 1.15rem;
+}
+
+.story-card-support .story-body h3 {
+  max-width: 14ch;
+}
+
+.story-card-support .story-link {
+  margin-top: 0.95rem;
+}
+
+.pillar-sidebar {
+  gap: 1rem;
+  position: sticky;
+  top: 6.5rem;
+}
+
+.pillar-sidebar .toolkit-card,
+.pillar-sidebar .byline-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02)),
+    radial-gradient(circle at top left, rgba(197, 107, 43, 0.1), transparent 46%);
 }
 
 .food-tag {
@@ -1231,6 +1370,11 @@ a {
   .editorial-card,
   .footer-grid {
     grid-template-columns: 1fr;
+  }
+
+  .pillar-sidebar {
+    position: static;
+    top: auto;
   }
 
   .page-title {
