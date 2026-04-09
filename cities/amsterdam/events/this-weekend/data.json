@@ -17,6 +17,14 @@
       "url": "/amsterdam/events/"
     }
   },
+  "page_context": {
+    "label": "Weekend planning guide",
+    "timeframe": "Weekend of April 10 to 12, 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Weekend read",
+    "note": "This weekend sits inside Amsterdam's spring window, which means the strongest planning tension is between city-centre culture, canal time, and spring day-trip temptation. It is not yet King's Day weekend, so the city should feel lively without the end-of-month takeover effect.",
+    "next_refresh": "Before the weekend of April 17 to 19, 2026"
+  },
   "intro_html": "<p>Weekend Amsterdam is its own version of the city. <strong>The same attractions remain, but the real change is in energy:</strong> fuller terraces, stronger nightlife, busier cruises, and neighbourhoods that suddenly make much more sense once the workweek disappears.</p><p>This guide is for short-break travelers who want to know where the city feels best from Friday night through Sunday and which bookings are worth making before they land.</p>",
   "facts": [
     { "icon": "🌙", "label": "Weekend priority", "value": "Evening plans matter more" },
@@ -45,9 +53,9 @@
     },
     {
       "kicker": "Saturday",
-      "timing": "Peak energy",
-      "title": "Use Saturday for the city’s fullest version of itself",
-      "description": "Saturday is the day to combine one major cultural anchor with the district that suits your pace once the city gets busy.",
+      "timing": "April 11, 2026",
+      "title": "Use Saturday for the strongest culture-plus-neighbourhood mix",
+      "description": "This Saturday sits in the middle of April's spring energy, so it works best as one major museum or heritage anchor followed by a district that benefits from staying outside longer.",
       "venue": "Museumplein + neighbourhoods",
       "url": "/amsterdam/museums/",
       "link_label": "Set the daytime anchor"

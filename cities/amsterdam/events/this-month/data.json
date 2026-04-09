@@ -17,6 +17,14 @@
       "url": "/amsterdam/events/"
     }
   },
+  "page_context": {
+    "label": "Month planning guide",
+    "timeframe": "April 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Updated now",
+    "note": "For April 2026, the strongest live planning signals are Keukenhof's spring season, which runs through May 10, and the build into King's Night and King's Day on April 26-27. Those are the dates most likely to change the shape and pressure of a first trip.",
+    "next_refresh": "Week of April 27, 2026"
+  },
   "intro_html": "<p>This page is built for travelers asking a very specific question: <strong>what is happening in Amsterdam this month that should actually affect my plans?</strong> Instead of dumping a long calendar, it focuses on the strongest citywide patterns: seasonal weather shifts, museum demand, after-dark atmosphere, and the kind of day trips or evening bookings that matter most right now.</p>",
   "facts": [
     { "icon": "📌", "label": "Use this for", "value": "Date-specific planning before booking" },
@@ -36,27 +44,27 @@
   "events": [
     {
       "kicker": "Seasonal",
-      "timing": "Current month pattern",
-      "title": "The strongest seasonal window right now",
-      "description": "Use the current month to decide whether Amsterdam should be museum-heavy, neighbourhood-heavy, or spring-trip heavy. The right emphasis changes faster than first-time visitors expect.",
+      "timing": "April 2026",
+      "title": "Spring flower season is the clearest April swing factor",
+      "description": "Keukenhof is open from March 19 to May 10, 2026, so April is the month when spring day trips most clearly affect Amsterdam planning. If flowers matter, decide that first before you overbuild the city-centre itinerary.",
       "venue": "Across the city",
       "url": "/amsterdam/events/",
       "link_label": "Back to the events guide"
     },
     {
       "kicker": "Booking Pressure",
-      "timing": "Current month pressure",
-      "title": "The bookings most likely to tighten first",
-      "description": "Depending on the month, the pressure points may be museum tickets, evening cruises, or dinner reservations in De Pijp and the Jordaan. This is where monthly planning earns its keep.",
+      "timing": "Late April pressure",
+      "title": "Late April gets more crowded as King's Day approaches",
+      "description": "The run-up to King's Night and King's Day on April 26-27, 2026, can change hotel mood, nightlife demand, and how attractive central sightseeing really feels. Travelers who want a calmer Amsterdam should plan around those dates rather than drifting into them.",
       "venue": "Museumplein + canal ring",
       "url": "/amsterdam/museums/",
       "link_label": "See the booking priorities"
     },
     {
       "kicker": "Neighbourhood Mood",
-      "timing": "Where to lean this month",
+      "timing": "April mood",
       "title": "The neighbourhoods most likely to reward your free time",
-      "description": "Some months favour canal-ring wandering and museum density; others make Noord, Westerpark, or De Pijp much more rewarding because the city lives outside longer.",
+      "description": "April rewards a mixed itinerary: one museum-heavy block, one spring-sensitive outing, and one district-led afternoon once you know what the weather is doing. Noord, Westerpark, and De Pijp become more attractive the better the light gets.",
       "venue": "Neighbourhood-wide",
       "url": "/amsterdam/neighbourhoods/",
       "link_label": "Compare districts"

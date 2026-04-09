@@ -766,6 +766,14 @@ a {
   line-height: 1.15;
 }
 
+.freshness-card h3 {
+  margin-top: 0.55rem;
+}
+
+.freshness-card p {
+  -webkit-line-clamp: unset;
+}
+
 .playbook-card {
   padding: 1.1rem;
   border: 1px solid var(--border-soft);

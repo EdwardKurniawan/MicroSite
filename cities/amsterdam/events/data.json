@@ -17,6 +17,14 @@
       "url": "/amsterdam/events/this-month/"
     }
   },
+  "page_context": {
+    "label": "Events planning guide",
+    "timeframe": "Updated for April 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Current signal",
+    "note": "Amsterdam's strongest April 2026 planning signals are spring flower season and the run-up to King's Night and King's Day on April 26-27, 2026. Those two windows can change where to stay, what to book, and how busy central districts feel.",
+    "next_refresh": "After King's Day, for the late-April to May handoff"
+  },
   "guide_pages": [
     {
       "title": "Amsterdam This Month",
@@ -53,9 +61,9 @@
   "events": [
     {
       "kicker": "Spring Window",
-      "timing": "March to May",
+      "timing": "March 19 to May 10, 2026",
       "title": "Tulip season and flower-country day trips",
-      "description": "Spring is the most date-sensitive version of Amsterdam. Keukenhof, flower routes, and day-trip demand around the city make this the season where one good planning decision can shape the whole trip.",
+      "description": "Spring is the most date-sensitive version of Amsterdam. Keukenhof is open from March 19 to May 10, 2026, which makes April the clearest window for flower-focused day trips and a busier booking pattern around those dates.",
       "venue": "Amsterdam + Keukenhof corridor",
       "url": "/amsterdam/events/this-month/",
       "link_label": "See the current spring angle"
@@ -71,9 +79,9 @@
     },
     {
       "kicker": "Peak Atmosphere",
-      "timing": "June to August",
-      "title": "Summer terraces, park culture, and outdoor city energy",
-      "description": "Summer is when Amsterdam feels fullest and most extroverted. Parks, canals, and neighbourhood restaurants matter more, and evenings start deciding the shape of the day.",
+      "timing": "April 26 to 27, 2026",
+      "title": "King's Night and King's Day shift the whole city",
+      "description": "King's Night on April 26 and King's Day on April 27, 2026, are city-shaping dates rather than ordinary events. Central Amsterdam gets louder, busier, and more orange, and the smartest move is planning around that instead of pretending it is a normal sightseeing window.",
       "venue": "Across the city",
       "url": "/amsterdam/events/this-weekend/",
       "link_label": "See the weekend pattern"

@@ -10,5 +10,12 @@
     <span class="page-kicker">{{hero.eyebrow}}</span>
     <h1 class="page-title">{{hero.title}}</h1>
     {{#if hero.tagline}}<p class="page-subtitle page-subtitle-compact">{{hero.tagline}}</p>{{/if}}
+    {{#if page_context.last_updated}}
+      <div class="hero-meta">
+        {{#if page_context.label}}<span>{{page_context.label}}</span>{{/if}}
+        {{#if page_context.timeframe}}<span>{{page_context.timeframe}}</span>{{/if}}
+        <span>Updated {{page_context.last_updated}}</span>
+      </div>
+    {{/if}}
   </div>
 </section>

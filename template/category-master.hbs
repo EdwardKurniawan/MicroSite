@@ -121,6 +121,17 @@
         </div>
 
         <aside class="editorial-stack">
+          {{#if page_context.note}}
+            <article class="toolkit-card freshness-card">
+              <span class="editorial-kicker">{{#if page_context.freshness}}{{page_context.freshness}}{{else}}Freshness{{/if}}</span>
+              {{#if page_context.timeframe}}<h3>{{page_context.timeframe}}</h3>{{/if}}
+              <p>{{page_context.note}}</p>
+              {{#if page_context.next_refresh}}
+                <div class="editorial-note"><strong>Next refresh:</strong> {{page_context.next_refresh}}</div>
+              {{/if}}
+            </article>
+          {{/if}}
+
           {{#if facts.length}}
             <article class="toolkit-card">
               <h3>Quick Facts</h3>
