@@ -145,6 +145,33 @@ Footer now renders from normalized data:
 
 Venue pages now use the shared visual language and normalized schema, and keep tracked booking URLs when a `tiqets_product_id` exists.
 
+### 6. Events workflow
+
+Amsterdam now has a richer event schema on the events page family:
+
+- `event_type`
+- `start_date`
+- `end_date`
+- `recurrence`
+- `status`
+- `district`
+- `booking_priority`
+
+There is also a lightweight freshness check:
+
+```bash
+npm run check:events
+```
+
+That script warns when event pages are missing:
+
+- `page_context.last_updated`
+- `page_context.next_refresh`
+- `page_context.timeframe`
+- structured event fields like `event_type`, `status`, `district`, and either `start_date` or `recurrence`
+
+Use that before every events refresh pass.
+
 ## What is intentionally incomplete
 
 This is a strong foundation, but not the final city-system end state yet.
@@ -161,14 +188,15 @@ Still not fully migrated:
 Recommended order:
 
 1. Migrate more Amsterdam subpages into grouped data shape
-2. Update `scripts/bootstrap-city.js` to emit the grouped schema by default
-3. Decide whether author pages should become shared-template pages
-4. Add one more round of content primitives if needed:
+2. Upgrade the event freshness workflow city-by-city
+3. Update `scripts/bootstrap-city.js` to emit the grouped schema by default
+4. Decide whether author pages should become shared-template pages
+5. Add one more round of content primitives if needed:
    - map block
    - quote/testimonial block
    - “best for” chips
    - comparison/table block
-5. Do a deployment-quality visual QA pass on:
+6. Do a deployment-quality visual QA pass on:
    - Amsterdam home
    - Amsterdam museums
    - Amsterdam Noord

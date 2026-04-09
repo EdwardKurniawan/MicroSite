@@ -78,3 +78,33 @@ npm run build
 ```
 
 `scripts/build.js` discovers cities automatically by scanning `cities/` for folders that contain a `data.json`, so there is no hardcoded city list anymore.
+
+## Event freshness workflow
+
+Events pages now support a richer event schema so the site can answer freshness-sensitive search intent without relying on loose prose alone.
+
+Recommended event fields:
+
+- `event_type`
+- `timing`
+- `start_date`
+- `end_date`
+- `recurrence`
+- `status`
+- `district`
+- `booking_priority`
+
+Recommended page-context fields for every events page:
+
+- `page_context.timeframe`
+- `page_context.last_updated`
+- `page_context.next_refresh`
+
+Current workflow:
+
+1. Update the relevant event pages in `cities/<slug>/events/`.
+2. Run `npm run check:events`.
+3. Run `npm run build`.
+4. Review the city homepage, `/events/`, `/events/this-month/`, and `/events/this-weekend/`.
+
+This is intentionally lightweight for now: JSON-first, fast to edit, and compatible with the static build. It gives us a repeatable freshness process before we decide whether a CMS or event-feed workflow is necessary.

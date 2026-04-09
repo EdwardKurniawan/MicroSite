@@ -3,7 +3,29 @@
     {{#if kicker}}<span class="editorial-kicker">{{kicker}}</span>{{/if}}
     {{#if venue}}<span class="event-card-venue">{{venue}}</span>{{/if}}
   </div>
+  {{#if timing}}
+    <div class="event-card-timing">{{timing}}</div>
+  {{/if}}
   <h3>{{title}}</h3>
+  {{#if district}}
+    <div class="event-card-details">
+      <span>{{district}}</span>
+      {{#if booking_priority}}<span>{{booking_priority}}</span>{{/if}}
+      {{#if status}}<span>{{status}}</span>{{/if}}
+      {{#if recurrence}}<span>{{recurrence}}</span>{{/if}}
+    </div>
+  {{else if booking_priority}}
+    <div class="event-card-details">
+      <span>{{booking_priority}}</span>
+      {{#if status}}<span>{{status}}</span>{{/if}}
+      {{#if recurrence}}<span>{{recurrence}}</span>{{/if}}
+    </div>
+  {{else if status}}
+    <div class="event-card-details">
+      <span>{{status}}</span>
+      {{#if recurrence}}<span>{{recurrence}}</span>{{/if}}
+    </div>
+  {{/if}}
   <p>{{excerpt description 132}}</p>
   {{#if url}}
     <a href="{{url}}" class="story-link">{{link_label}}</a>

@@ -911,6 +911,43 @@ a {
   line-height: 1.1;
 }
 
+.event-card-timing {
+  color: var(--theme-accent-light);
+  font-family: var(--font-accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+.event-card-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.65rem;
+  color: var(--copy-soft);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+}
+
+.event-card-details span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.event-card-details span::before {
+  content: '';
+  width: 0.28rem;
+  height: 0.28rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.event-card-details span:first-child::before {
+  display: none;
+}
+
 .event-card p {
   margin: 0;
   color: var(--copy-muted);
