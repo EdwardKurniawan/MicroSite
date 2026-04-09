@@ -1,0 +1,11 @@
+<article class="event-card">
+  <div class="event-card-meta">
+    {{#if kicker}}<span class="editorial-kicker">{{kicker}}</span>{{/if}}
+    {{#if venue}}<span class="event-card-venue">{{venue}}</span>{{/if}}
+  </div>
+  <h3>{{title}}</h3>
+  <p>{{excerpt description 132}}</p>
+  {{#if url}}
+    <a href="{{url}}" class="story-link">{{link_label}}</a>
+  {{/if}}
+</article>

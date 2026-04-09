@@ -4,12 +4,20 @@
     <span class="page-kicker">{{hero.eyebrow}}</span>
     <h1 class="page-title">{{hero.title}}</h1>
     {{#if hero.tagline}}<p class="page-subtitle">{{hero.tagline}}</p>{{/if}}
-    <div class="planner-shell" id="plan-your-trip">
-      <label class="planner-label" for="hero-search-input">Trip Planner</label>
-      <div class="planner-row">
-        <input type="text" id="hero-search-input" placeholder="Try: first visit, 3 days, art + canals" class="planner-input" />
-        <button id="hero-search-button" class="planner-button">Build Route</button>
+    {{#if hero_actions.length}}
+      <div class="hero-actions-shell">
+        <div class="hero-actions">
+          {{#each hero_actions}}
+            <a href="{{url}}" class="button-link {{#unless (eq style 'primary')}}button-link-secondary{{/unless}}">{{label}}</a>
+          {{/each}}
+        </div>
+        <div class="hero-proof">
+          <span>What to do</span>
+          <span>What to see</span>
+          <span>What&apos;s happening</span>
+          <span>What to book first</span>
+        </div>
       </div>
-    </div>
+    {{/if}}
   </div>
 </section>

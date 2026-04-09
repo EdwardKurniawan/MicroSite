@@ -1,0 +1,11 @@
+<a href="{{url}}" class="story-card story-card-feature">
+  <div class="story-visual">
+    {{#if image}}<img src="{{image}}" alt="{{alt}}" loading="lazy" />{{/if}}
+    {{#if kicker}}<span class="story-badge">{{kicker}}</span>{{/if}}
+  </div>
+  <div class="story-body">
+    <h3>{{title}}</h3>
+    <p>{{excerpt description 116}}</p>
+    <span class="story-link">{{cta}}</span>
+  </div>
+</a>

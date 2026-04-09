@@ -33,7 +33,6 @@
     defer
   ></script>
   <script src="/shared/neighbourhood-map.js" defer></script>
-  <script src="/shared/ai-search.js" defer></script>
 
   <style>
     :root {
@@ -68,7 +67,7 @@
     {{#if planning_highlights.length}}
       <section class="section-shell section-shell-muted">
         <div class="shell">
-          {{> section-heading eyebrow="Start Here" title="Make the trip easier fast"}}
+          {{> section-heading eyebrow="Start Here" title="Book smart before you get lost in options"}}
           <div class="playbook-grid">
             {{#each planning_highlights}}
               <article class="playbook-card">
@@ -85,9 +84,35 @@
       </section>
     {{/if}}
 
+    {{#if top_things.length}}
+      <section id="top-things" class="section-shell">
+        <div class="shell">
+          {{> section-heading eyebrow="Best Things To Do" title="Start with the experiences worth real space in the trip" description="These are the pages that answer the broad questions first: what to do in Amsterdam, what to see first, and what deserves advance booking."}}
+          <div class="story-grid">
+            {{#each top_things}}
+              {{> top-thing-card}}
+            {{/each}}
+          </div>
+        </div>
+      </section>
+    {{/if}}
+
+    {{#if events.length}}
+      <section id="events" class="section-shell section-shell-muted">
+        <div class="shell">
+          {{> section-heading eyebrow="What&apos;s Happening" title="Time the trip around Amsterdam&apos;s strongest live moments" description="This is the first events layer: seasonal fixtures, cultural weeks, and crowd-moving moments that can change when to visit and what to book first."}}
+          <div class="events-grid">
+            {{#each events}}
+              {{> event-card}}
+            {{/each}}
+          </div>
+        </div>
+      </section>
+    {{/if}}
+
     <section id="collections" class="section-shell section-shell-muted">
       <div class="shell">
-        {{> section-heading eyebrow="Collections" title="Choose your angle"}}
+        {{> section-heading eyebrow="Collections" title="Choose the angle that matches the trip"}}
         <div class="story-grid">
           {{#each categories}}
             {{> category-card}}
@@ -111,9 +136,9 @@
     </section>
 
     {{#if itinerary.days.length}}
-      <section id="plan-your-trip" class="section-shell section-shell-muted">
+      <section id="itinerary" class="section-shell section-shell-muted">
         <div class="shell">
-          {{> section-heading eyebrow="Itinerary" title=itinerary.title}}
+          {{> section-heading eyebrow="Sample Itinerary" title=itinerary.title description="Use this as a strong first-timer route, then swap in the collections and neighbourhoods that matter most to your version of Amsterdam."}}
           <div class="itinerary-grid">
             {{#each itinerary.days}}
               <article class="itinerary-card">

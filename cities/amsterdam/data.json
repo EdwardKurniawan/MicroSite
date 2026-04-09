@@ -7,17 +7,17 @@
     "accentLight": "#fff3ee"
   },
   "seo": {
-    "title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
-    "description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
+    "title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
+    "description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
     "canonical": "https://travelsides.com/amsterdam/",
     "og": {
-      "title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
-      "description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
+      "title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
+      "description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
       "image": "https://travelsides.com/amsterdam/images/hero.jpg"
     },
     "twitter": {
-      "title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
-      "description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
+      "title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
+      "description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
       "image": "https://travelsides.com/amsterdam/images/hero.jpg"
     }
   },
@@ -28,17 +28,18 @@
   },
   "hero": {
     "eyebrow": "Amsterdam City Guide",
-    "title": "Amsterdam, Planned Properly",
-    "tagline": "Start with the canal ring, book the few attractions that truly sell out, and use the neighbourhoods to decide how the city should feel.",
+    "title": "What to do in Amsterdam, without wasting the trip",
+    "tagline": "Start with the city’s strongest museums, canal time, food spots, neighbourhoods, and seasonal moments so you know what to see, what’s happening, and what to book first.",
     "image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
     "alt": "Amsterdam canal houses at golden hour"
   },
   "navigation": {
     "local_links": [
       { "label": "Overview", "url": "#city-overview", "key": "overview" },
+      { "label": "Best Things To Do", "url": "#top-things", "key": "top-things" },
+      { "label": "What's On", "url": "#events", "key": "events" },
       { "label": "Collections", "url": "#collections", "key": "collections" },
-      { "label": "Neighbourhoods", "url": "#neighbourhoods", "key": "neighbourhoods" },
-      { "label": "Planner", "url": "#plan-your-trip", "key": "planner" }
+      { "label": "Neighbourhoods", "url": "#neighbourhoods", "key": "neighbourhoods" }
     ],
     "cta": {
       "label": "Explore Museums",
@@ -66,11 +67,11 @@
     { "name": "London Insider", "url": "https://london-insider.com" },
     { "name": "Rome Insider", "url": "https://rome-insider.com" }
   ],
-  "meta_title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
-  "meta_description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
+  "meta_title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
+  "meta_description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
   "canonical_url": "https://travelsides.com/amsterdam/",
-  "og_title": "Amsterdam City Guide (2026): What To Do, Where To Stay, How To Plan It",
-  "og_description": "A practical Amsterdam city guide with the right museums, canal cruises, neighbourhoods, restaurants, and booking advice for a smarter first trip.",
+  "og_title": "What To Do in Amsterdam (2026): Best Things To See, Eat, Book, and Time Right",
+  "og_description": "The practical Amsterdam city guide for what to do, what to see, what is happening, where to eat, and what to book before you land.",
   "og_image": "https://travelsides.com/amsterdam/images/hero.jpg",
   "theme_accent": "#E8601C",
   "theme_accent_dark": "#c44f14",
@@ -83,8 +84,8 @@
   "hero_image": "https://images.unsplash.com/photo-1706059924488-29e13a25b07b?q=80&w=3000&auto=format&fit=crop",
   "hero_alt": "Amsterdam canal houses at golden hour",
   "hero_eyebrow": "Amsterdam City Guide",
-  "hero_h1": "Amsterdam, Planned Properly",
-  "hero_tagline": "Start with the canal ring, book the few attractions that truly sell out, and use the neighbourhoods to decide how the city should feel.",
+  "hero_h1": "What to do in Amsterdam, without wasting the trip",
+  "hero_tagline": "Start with the city’s strongest museums, canal time, food spots, neighbourhoods, and seasonal moments so you know what to see, what’s happening, and what to book first.",
   "quick_info": [
     {
       "icon": "🌤",
@@ -145,6 +146,82 @@
       "description": "Amsterdam rewards wandering more than over-scheduling. Save a loose afternoon for the Jordaan, the nine streets, or a ferry ride to Noord when the weather turns good.",
       "link_label": "Browse neighbourhood routes",
       "url": "/amsterdam/tours/"
+    }
+  ],
+  "top_things": [
+    {
+      "kicker": "First-Time Essential",
+      "title": "Do one major museum morning properly",
+      "description": "Museumplein is still the strongest concentrated cultural play in the city. The Rijksmuseum and Van Gogh Museum are the headline decisions; once those are set, the rest of the trip gets easier.",
+      "url": "/amsterdam/museums/",
+      "image": "https://images.unsplash.com/photo-1767412578743-7f4e9dd5f3b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxNdXNldW1zJTIwJTI2JTIwQXJ0JTIwQW1zdGVyZGFtJTIwY2l0eSUyMHZpZXd8ZW58MHwwfHx8MTc3NDQ1NDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "alt": "Rijksmuseum and Museumplein in Amsterdam",
+      "cta": "See the museum shortlist"
+    },
+    {
+      "kicker": "Worth Booking",
+      "title": "Use one canal cruise to understand the city",
+      "description": "A well-timed cruise is less about ticking off a boat ride and more about understanding the canal ring fast. Pick daylight for orientation or evening for atmosphere, but rarely both.",
+      "url": "/amsterdam/canal-cruises/",
+      "image": "https://images.unsplash.com/photo-1694634287698-2d73fef678c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk0MjV8MHwxfHNlYXJjaHwxfHxDYW5hbCUyMENydWlzZXMlMjAlMjYlMjBXYXRlciUyMEFtc3RlcmRhbSUyMGNpdHklMjB2aWV3fGVufDB8MHx8fDE3NzQ0NTQxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&auto=format&fit=crop&q=80",
+      "alt": "Amsterdam canal cruise",
+      "cta": "Compare cruise styles"
+    },
+    {
+      "kicker": "Food-Led Evening",
+      "title": "Let dinner decide one whole part of the city",
+      "description": "Amsterdam gets better after the museum hours. Use De Pijp, Oost, and the Jordaan to shape a night around restaurants, wine bars, and walkable atmosphere instead of random reservations.",
+      "url": "/amsterdam/food/",
+      "image": "/amsterdam/images/de-kas.png",
+      "alt": "Restaurant dining in Amsterdam",
+      "cta": "See where to eat well"
+    },
+    {
+      "kicker": "Stay Strategy",
+      "title": "Choose a neighbourhood that matches your pace",
+      "description": "The canal ring, Jordaan, Noord, and De Pijp all produce different versions of Amsterdam. Picking the right base can matter more than adding another attraction.",
+      "url": "/amsterdam/neighbourhoods/",
+      "image": "/amsterdam/images/jordaan_home.png",
+      "alt": "Amsterdam neighbourhood streetscape",
+      "cta": "Compare districts"
+    }
+  ],
+  "events": [
+    {
+      "kicker": "Spring",
+      "timing": "March to May",
+      "title": "Tulip season and spring day-trip planning",
+      "description": "If you are visiting in spring, the city calendar changes quickly around Keukenhof, flower routes, and shoulder-season demand. This is the first seasonal decision to make before flights and weekends fill in.",
+      "venue": "Amsterdam + day trips",
+      "url": "/amsterdam/nature-day-trips/",
+      "link_label": "See the spring options"
+    },
+    {
+      "kicker": "Peak Summer",
+      "timing": "June to August",
+      "title": "Festival weeks, park energy, and long-light evenings",
+      "description": "Summer is when Amsterdam feels most eventful: open-air culture, park gatherings, and neighbourhood programming that changes the mood of where to stay and when to book dinner.",
+      "venue": "Across the city",
+      "url": "/amsterdam/neighbourhoods/",
+      "link_label": "See where the city feels liveliest"
+    },
+    {
+      "kicker": "Culture Season",
+      "timing": "Year-round",
+      "title": "Exhibitions, heritage hits, and museum-heavy weekends",
+      "description": "The city’s strongest cultural draw is not just the permanent collection list. Temporary exhibitions, heritage houses, and sell-out museum slots often decide the smartest days to visit.",
+      "venue": "Museumplein + canal ring",
+      "url": "/amsterdam/museums/",
+      "link_label": "See the cultural anchors"
+    },
+    {
+      "kicker": "Night City",
+      "timing": "Best Thursday to Sunday",
+      "title": "Evening cruises, food bookings, and nightlife-led plans",
+      "description": "For a lot of travelers, what is happening in Amsterdam really means where the city comes alive after dark. Cruises, restaurants, and entertainment all compete for the same evening slots.",
+      "venue": "Canals, De Pijp, Noord",
+      "url": "/amsterdam/experiences/",
+      "link_label": "See the after-dark side"
     }
   ],
   "intro_html": "<p>Amsterdam rewards restraint. The city is compact enough to walk, but dense enough that a bad booking order can still waste half a day. <strong>The trick is not seeing everything. It is seeing the right mix of canals, museums, neighbourhoods, and one or two booked experiences without pinballing across town.</strong></p><p>Its great advantage is concentration. Golden Age canal houses, heavyweight museums, excellent restaurants, and genuinely distinct neighbourhoods all sit within a city that still behaves best at walking pace. Once you understand where to base yourself and which attractions actually require advance planning, Amsterdam becomes unusually easy to do well.</p><p>This guide is built for that version of the trip: strong first-timer choices, honest booking advice, and enough neighbourhood context to make the city feel edited rather than overwhelming.</p>",
