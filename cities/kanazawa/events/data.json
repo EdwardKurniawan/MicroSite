@@ -1,14 +1,14 @@
 {
   "title": "Kanazawa Events (2026 Guide)",
   "seo": {
-    "title": "What's Happening in Kanazawa (2026): Seasons, Festivals, and City Mood",
+    "title": "What's Happening in Kanazawa (2026): Seasons, Festivals, and What To Do Now",
     "description": "A practical guide to what's happening in Kanazawa: seasonal windows, citywide moments, and the periods that should change how you plan the trip.",
     "canonical": "https://travelsides.com/kanazawa/events/"
   },
   "hero": {
     "eyebrow": "Kanazawa Events Guide",
     "title": "What's Happening in Kanazawa",
-    "tagline": "The seasonal windows, local festivals, and city moods that should change when you visit, how you pace the old quarters, and which meals or districts deserve priority.",
+    "tagline": "The seasonal windows, local festivals, and city moods that should change when you visit Kanazawa, how you pace the old quarters, and which meals or districts deserve priority.",
     "image": "/kanazawa/images/hero.jpg"
   },
   "navigation": {
@@ -37,7 +37,7 @@
       "description": "A short-break view of the city mood from Friday to Sunday."
     }
   ],
-  "intro_html": "<p><strong>What's happening in Kanazawa is usually less about giant event calendars and more about seasonal windows.</strong> Garden timing, district atmosphere, food seasonality, and a few annual cultural weekends can all change how the city should be done, especially if you only have two or three days.</p><p>This page is not trying to list everything. It is the planning guide to the moments that most often change what to do first, where to stay, and what deserves a slower pace.</p>",
+  "intro_html": "<p><strong>What's happening in Kanazawa is usually less about giant event calendars and more about seasonal windows.</strong> Garden timing, district atmosphere, food seasonality, and a few annual cultural weekends can all change how the city should be done, especially if you only have two or three days.</p><p>This page is the direct planning answer to that query: what is happening in Kanazawa, what to do differently because of it, and which seasonal moments most often change where to stay, what to book, and how slowly the city deserves to be used.</p>",
   "facts": [
     { "icon": "📅", "label": "Best use", "value": "Pick the right season, then shape the trip" },
     { "icon": "🌸", "label": "Spring edge", "value": "Kenroku-en and old-quarter mornings" },

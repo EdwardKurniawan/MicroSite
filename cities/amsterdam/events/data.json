@@ -1,14 +1,14 @@
 {
   "title": "Amsterdam Events (2026 Guide)",
   "seo": {
-    "title": "What's Happening in Amsterdam (2026): Events, Festivals, Exhibitions, and Weekends",
+    "title": "What's Happening in Amsterdam (2026): Events, Festivals, and What To Do This Month",
     "description": "A practical guide to what's happening in Amsterdam: seasonal events, major exhibitions, weekend atmosphere, and the city moments that should change how you plan the trip.",
     "canonical": "https://travelsides.com/amsterdam/events/"
   },
   "hero": {
     "eyebrow": "Amsterdam Events Guide",
     "title": "What's Happening in Amsterdam",
-    "tagline": "The seasonal moments, cultural spikes, and after-dark windows that should change when you visit, where you stay, and what you book first.",
+    "tagline": "The seasonal moments, cultural spikes, and after-dark windows that should change when you visit Amsterdam, where you stay, and what you book first.",
     "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=1200&auto=format&fit=crop&q=80"
   },
   "navigation": {
@@ -37,7 +37,7 @@
       "description": "A short-break guide to the city's weekend atmosphere."
     }
   ],
-  "intro_html": "<p>For a lot of visitors, <strong>what's happening in Amsterdam is the question that matters more than a static list of attractions.</strong> Tulip season changes spring itineraries, exhibition-heavy weekends change museum demand, and summer festival energy changes which neighbourhoods feel worth staying in.</p><p>This page is not trying to be a giant event calendar. It is a planning guide: the recurring periods, seasonal surges, and citywide moments that most often change what to do, what to book, and how the city feels once you arrive.</p>",
+  "intro_html": "<p>For a lot of visitors, <strong>what's happening in Amsterdam is the question that matters more than a static list of attractions.</strong> Tulip season changes spring itineraries, exhibition-heavy weekends change museum demand, and summer festival energy changes which neighbourhoods feel worth staying in.</p><p>This page is the direct planning answer to that query: what is happening in Amsterdam, what to do differently because of it, and which recurring periods or citywide moments most often change what to book once you arrive.</p>",
   "facts": [
     { "icon": "📅", "label": "Best use", "value": "Choose the right dates, then plan the attractions" },
     { "icon": "🌷", "label": "Big seasonal swing", "value": "Spring tulips and flower trips" },
