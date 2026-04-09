@@ -88,6 +88,23 @@
               </div>
             </article>
           {{/if}}
+
+          {{#if venue.context.related_moves.length}}
+            <article class="editorial-panel">
+              {{> section-heading eyebrow="Build The Next Move" title="Use the right nearby guide next"}}
+              <div class="story-grid venue-support-grid">
+                {{#each venue.context.related_moves}}
+                  <a href="{{url}}" class="story-card story-card-support">
+                    <div class="story-body">
+                      <h3>{{title}}</h3>
+                      <p>{{description}}</p>
+                      <span class="story-link">Open guide</span>
+                    </div>
+                  </a>
+                {{/each}}
+              </div>
+            </article>
+          {{/if}}
         </div>
 
         <aside class="editorial-stack">
