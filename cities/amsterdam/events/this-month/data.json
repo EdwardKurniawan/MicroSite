@@ -1,14 +1,14 @@
 {
   "title": "Amsterdam Events This Month",
   "seo": {
-    "title": "Amsterdam Events This Month (2026): What To See, Book, and Plan Around",
+    "title": "What's Happening in Amsterdam This Month (April 2026): What To See and Book",
     "description": "A practical monthly Amsterdam events guide: what is happening now, what deserves attention this month, and which city moments should change how you plan the trip.",
     "canonical": "https://travelsides.com/amsterdam/events/this-month/"
   },
   "hero": {
     "eyebrow": "Amsterdam This Month",
     "title": "Amsterdam Events This Month",
-    "tagline": "The month-level view: what the city is leaning toward right now, what to book earlier, and which neighbourhoods get more interesting during this stretch.",
+    "tagline": "The month-level view: what is happening in Amsterdam this month, what to book earlier, and which neighbourhoods get more interesting during this stretch.",
     "image": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60d?w=1200&auto=format&fit=crop&q=80"
   },
   "navigation": {
@@ -25,7 +25,7 @@
     "note": "For April 2026, the strongest live planning signals are Keukenhof's spring season, which runs through May 10, and the build into King's Night and King's Day on April 26-27. Those are the dates most likely to change the shape and pressure of a first trip.",
     "next_refresh": "Week of April 27, 2026"
   },
-  "intro_html": "<p>This page is built for travelers asking a very specific question: <strong>what is happening in Amsterdam this month that should actually affect my plans?</strong> Instead of dumping a long calendar, it focuses on the strongest citywide patterns: seasonal weather shifts, museum demand, after-dark atmosphere, and the kind of day trips or evening bookings that matter most right now.</p>",
+  "intro_html": "<p>This page is built for travelers asking a very specific question: <strong>what is happening in Amsterdam this month that should actually affect my plans?</strong> Instead of dumping a long calendar, it focuses on the strongest citywide patterns: seasonal weather shifts, museum demand, after-dark atmosphere, and the day trips or evening bookings that matter most right now.</p>",
   "facts": [
     { "icon": "📌", "label": "Use this for", "value": "Date-specific planning before booking" },
     { "icon": "🎟", "label": "Watch first", "value": "Museum slots, cruises, dinner reservations" },

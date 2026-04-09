@@ -1,14 +1,14 @@
 {
   "title": "Kanazawa Events This Month",
   "seo": {
-    "title": "Kanazawa Events This Month (April 2026): What To See, Pace, and Plan Around",
+    "title": "What's Happening in Kanazawa This Month (April 2026): What To See and Plan Around",
     "description": "A practical monthly Kanazawa events guide: what is happening this month, what deserves attention right now, and which seasonal angles should shape the trip.",
     "canonical": "https://travelsides.com/kanazawa/events/this-month/"
   },
   "hero": {
     "eyebrow": "Kanazawa This Month",
     "title": "Kanazawa Events This Month",
-    "tagline": "The month-level view: what the city is leaning toward right now, how spring changes the best route, and which parts of Kanazawa deserve more time this month.",
+    "tagline": "The month-level view: what is happening in Kanazawa this month, how spring changes the best route, and which parts of the city deserve more time right now.",
     "image": "/kanazawa/images/hero.jpg"
   },
   "navigation": {
@@ -25,7 +25,7 @@
     "note": "For April 2026, the strongest live planning signal in Kanazawa is the spring garden-and-district window. Clear mornings, blossom timing, and more walkable afternoons make the city feel bigger and more generous than it does in harsher weather.",
     "next_refresh": "Week of April 27, 2026"
   },
-  "intro_html": "<p><strong>This month in Kanazawa is mainly about spring making the city easier to walk and more rewarding to pace slowly.</strong> The big decision is less about chasing a long events calendar and more about knowing how much time Kenroku-en, the old quarters, and one softer afternoon deserve right now.</p>",
+  "intro_html": "<p><strong>This month in Kanazawa is mainly about spring making the city easier to walk and more rewarding to pace slowly.</strong> The big decision is less about chasing a long events calendar and more about knowing what is happening in Kanazawa this month that should change how much time Kenroku-en, the old quarters, and one softer afternoon deserve right now.</p>",
   "facts": [
     { "icon": "📌", "label": "Use this for", "value": "Month-level route planning" },
     { "icon": "🌸", "label": "Current edge", "value": "Spring garden and district timing" },
