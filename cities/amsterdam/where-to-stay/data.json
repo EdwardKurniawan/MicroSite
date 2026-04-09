@@ -1,0 +1,195 @@
+{
+  "title": "Where To Stay in Amsterdam (2026 Guide)",
+  "seo": {
+    "title": "Where To Stay in Amsterdam (2026): Best Areas for First-Time Visitors",
+    "description": "A practical guide to where to stay in Amsterdam: the best areas for first-time visitors, food-led trips, quieter nights, and easy access to the city’s strongest sights.",
+    "canonical": "https://travelsides.com/amsterdam/where-to-stay/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Stay Guide",
+    "title": "Where To Stay in Amsterdam",
+    "tagline": "The district guide for choosing the right base: where first-timers should stay, which areas are best for food or calm nights, and when a beautiful postcode is not the smartest call.",
+    "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=1400&auto=format&fit=crop&q=80"
+  },
+  "navigation": {
+    "cta": {
+      "label": "Compare Neighbourhoods",
+      "url": "/amsterdam/neighbourhoods/"
+    }
+  },
+  "page_context": {
+    "label": "Pillar guide",
+    "timeframe": "Where to stay in 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Stay strategy",
+    "note": "This page is the stay-intent shortlist for Amsterdam. It answers the practical question first: which district fits your trip rhythm, evenings, and walking pattern best before you start comparing hotel names.",
+    "next_refresh": "After the next district and hotel-positioning review"
+  },
+  "intro_html": "<p><strong>Where you stay in Amsterdam changes the whole trip more than most first-time visitors expect.</strong> Museums are easy to reach from several central districts, but the version of the city you come back to at 7pm is completely different in the Jordaan, De Pijp, Noord, or the canal ring.</p><p>The smartest base is usually the one that matches your evenings and your tolerance for crowds. This guide narrows Amsterdam into the districts that make the most sense depending on whether you want postcard canals, food-led nights, calm mornings, or a slightly more creative edge.</p>",
+  "facts": [
+    {
+      "icon": "🛏",
+      "label": "Best first-time base",
+      "value": "Jordaan or Canal Ring"
+    },
+    {
+      "icon": "🍽",
+      "label": "Best for food",
+      "value": "De Pijp or Oost"
+    },
+    {
+      "icon": "🌿",
+      "label": "Best for calm",
+      "value": "Plantage or Westerpark"
+    },
+    {
+      "icon": "⛴",
+      "label": "Best for edge",
+      "value": "Noord"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Choose your base by evenings, not museum distance",
+      "body": "Most major sights are easy to reach. The bigger difference is whether your area feels elegant, lively, quiet, or inconvenient once the daytime checklist is over."
+    },
+    {
+      "title": "Do not overpay for the busiest part of Centrum by default",
+      "body": "Being ultra-central sounds efficient, but it can leave you in a louder and less charming part of the city than you actually want for three nights."
+    },
+    {
+      "title": "Pick one anchor district and one contrast district",
+      "body": "A strong first trip usually means staying in one base but deliberately spending time in a second district with a different energy, like Jordaan plus Noord or De Pijp plus Plantage."
+    }
+  ],
+  "attractions": [
+    {
+      "name": "Jordaan",
+      "category": "Best Area #1",
+      "badge": "Best first-time stay",
+      "image_url": "/amsterdam/images/jordaan_home.png",
+      "metas": [
+        "Best for postcard Amsterdam",
+        "Walkable evenings",
+        "Strong canal-ring access"
+      ],
+      "hook": "If you want the version of Amsterdam people imagine before they arrive, start here.",
+      "description": "The Jordaan is the easiest all-round answer for first-time visitors who want beautiful canals, café life, easy walking, and a district that still feels like the city rather than a hotel zone. It is rarely the cheapest option, but it is often the most emotionally correct one.",
+      "tip": "Best if beauty, walkability, and relaxed evenings matter more than shaving every euro off the room rate.",
+      "url": "/amsterdam/jordaan/",
+      "cta": "See the Jordaan guide"
+    },
+    {
+      "name": "Canal Ring / Centrum",
+      "category": "Best Area #2",
+      "badge": "Most central",
+      "image_url": "/amsterdam/images/centrum.png",
+      "metas": [
+        "Best for classic Amsterdam access",
+        "Strong for short stays",
+        "Varies block by block"
+      ],
+      "hook": "Stay here if being able to reach almost everything on foot matters more than neighborhood softness.",
+      "description": "The canal ring keeps the city at your door and works well for first-timers on a short schedule, but the key is choosing the right pocket. Some blocks feel grand and romantic; others slide into tourist-heavy convenience. Treat this area as precise, not generic.",
+      "tip": "Look for the elegant canal edges, not the busiest nightlife spine near the station and Dam Square.",
+      "url": "/amsterdam/centrum/",
+      "cta": "See the canal-ring guide"
+    },
+    {
+      "name": "De Pijp",
+      "category": "Best Area #3",
+      "badge": "Best for food",
+      "image_url": "/amsterdam/images/de_pijp.png",
+      "metas": [
+        "Best for restaurants and bars",
+        "Younger energy",
+        "Easy access to Museumplein"
+      ],
+      "hook": "This is the best stay choice if dinners, markets, and late energy matter more than canal perfection.",
+      "description": "De Pijp is one of the strongest bases for travelers who want Amsterdam to feel lively after dark without being trapped in the busiest tourist core. It works especially well if you care about food, café culture, and staying near Museumplein without sleeping inside it.",
+      "tip": "Great for couples or groups who want the city to feel alive after 6pm.",
+      "url": "/amsterdam/de-pijp/",
+      "cta": "See the De Pijp guide"
+    },
+    {
+      "name": "Plantage",
+      "category": "Best Area #4",
+      "badge": "Best for calm",
+      "image_url": "/amsterdam/images/plantage.png",
+      "metas": [
+        "Best for quiet mornings",
+        "Leafier and slower",
+        "Strong for museums and longer stays"
+      ],
+      "hook": "Plantage makes sense when you want a gentler version of the city without losing cultural depth.",
+      "description": "De Plantage is a smart choice for travelers who prefer a calm, elegant base over a constantly activated one. It is greener, quieter, and less obviously theatrical than the canal ring, but still close to excellent museums and easy tram movement.",
+      "tip": "A particularly good fit for slower trips, families, or travelers who do not need nightlife outside the door.",
+      "url": "/amsterdam/plantage/",
+      "cta": "See the Plantage guide"
+    },
+    {
+      "name": "Noord",
+      "category": "Best Area #5",
+      "badge": "Most different mood",
+      "image_url": "/amsterdam/images/noord.png",
+      "metas": [
+        "Best for creative edge",
+        "Requires ferry rhythm",
+        "Stronger for repeat visitors"
+      ],
+      "hook": "Noord is the right call only if you actively want the city to feel less classic and more contemporary.",
+      "description": "Amsterdam Noord can be a great base for travelers who like space, design, waterfront views, and a more local-feeling edge. It is not the most frictionless first-time choice, though, because the ferry changes the rhythm of how you move through the city.",
+      "tip": "Choose it because you want Noord specifically, not just because the hotel price looked better.",
+      "url": "/amsterdam/noord/",
+      "cta": "See the Noord guide"
+    }
+  ],
+  "products": [
+    {
+      "title": "Amsterdam Neighbourhoods Guide",
+      "description": "Use this if you want the full district-by-district comparison before choosing a base.",
+      "link": "/amsterdam/neighbourhoods/",
+      "cta": "Open neighbourhood guide"
+    },
+    {
+      "title": "Best Things To Do in Amsterdam",
+      "description": "Use this if you want the stay choice to line up with the attractions and bookings that matter most.",
+      "link": "/amsterdam/best-things-to-do/",
+      "cta": "Open ranked guide"
+    },
+    {
+      "title": "Amsterdam Food Guide",
+      "description": "Use this if restaurant density and late-evening energy are major parts of your stay decision.",
+      "link": "/amsterdam/food/",
+      "cta": "See where to eat"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Jordaan, Canal Ring, Museumplein, and De Pijp are easy to combine on foot if you enjoy walking between neighborhoods."
+    },
+    {
+      "icon": "🚋",
+      "text": "Plantage, Oost, and Oud-West become very easy to use once you accept a tram-first rhythm instead of forcing everything into the center."
+    },
+    {
+      "icon": "⛴",
+      "text": "Noord works well if you like the ferry rhythm, but it is not the most frictionless first-time base if every day starts early."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Where should first-time visitors stay in Amsterdam?",
+      "a": "The Jordaan and the canal ring are the easiest first-time answers because they balance beauty, walkability, and access to the city’s strongest sights. The better choice between them depends on whether you want softer neighborhood charm or maximum centrality."
+    },
+    {
+      "q": "Is De Pijp a good area to stay in Amsterdam?",
+      "a": "Yes. De Pijp is one of the best areas to stay if food, bars, and a more energetic evening scene matter to you. It is less postcard-perfect than the Jordaan, but often stronger for people who want the city to feel lively after dark."
+    },
+    {
+      "q": "Should I stay in Amsterdam Noord?",
+      "a": "Only if you like the contemporary, waterfront side of the city and do not mind relying on the ferry. It can be a great stay, but it is usually a more deliberate choice than the easiest first-time base."
+    }
+  ]
+}

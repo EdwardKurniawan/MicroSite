@@ -37,9 +37,9 @@
     "local_links": [
       { "label": "Overview", "url": "#city-overview", "key": "overview" },
       { "label": "Best Things To Do", "url": "/amsterdam/best-things-to-do/", "key": "top-things" },
+      { "label": "Where To Stay", "url": "/amsterdam/where-to-stay/", "key": "where-to-stay" },
       { "label": "What's On", "url": "#events", "key": "events" },
-      { "label": "Collections", "url": "#collections", "key": "collections" },
-      { "label": "Neighbourhoods", "url": "#neighbourhoods", "key": "neighbourhoods" }
+      { "label": "Collections", "url": "#collections", "key": "collections" }
     ],
     "cta": {
       "label": "Best Things To Do",
@@ -49,13 +49,23 @@
   "hero_actions": [
     { "label": "Best Things To Do", "url": "/amsterdam/best-things-to-do/", "style": "primary" },
     { "label": "What's Happening", "url": "/amsterdam/events/", "style": "secondary" },
-    { "label": "Explore Museums", "url": "/amsterdam/museums/", "style": "secondary" }
+    { "label": "Where To Stay", "url": "/amsterdam/where-to-stay/", "style": "secondary" }
   ],
   "guide_pages": [
     {
       "title": "Best Things To Do",
       "url": "/amsterdam/best-things-to-do/",
       "description": "A ranked Amsterdam list for first-timer priorities, booking logic, and what deserves real time."
+    },
+    {
+      "title": "Where To Stay",
+      "url": "/amsterdam/where-to-stay/",
+      "description": "A district-led Amsterdam stay guide for choosing the right base before you compare hotel names."
+    },
+    {
+      "title": "Best Restaurants",
+      "url": "/amsterdam/best-restaurants/",
+      "description": "A dinner-first Amsterdam shortlist for the tables and neighborhoods worth building an evening around."
     },
     {
       "title": "Amsterdam Events",
@@ -178,10 +188,10 @@
       "kicker": "Stay Strategy",
       "title": "Choose a neighbourhood that matches your pace",
       "description": "The canal ring, Jordaan, Noord, and De Pijp all produce different versions of Amsterdam. Picking the right base can matter more than adding another attraction.",
-      "url": "/amsterdam/neighbourhoods/",
+      "url": "/amsterdam/where-to-stay/",
       "image": "/amsterdam/images/jordaan_home.png",
       "alt": "Amsterdam neighbourhood streetscape",
-      "cta": "Compare districts"
+      "cta": "Open the stay guide"
     }
   ],
   "events": [

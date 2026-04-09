@@ -1,0 +1,195 @@
+{
+  "title": "Best Restaurants in Amsterdam (2026 Guide)",
+  "seo": {
+    "title": "Best Restaurants in Amsterdam (2026): The Tables Worth Building a Night Around",
+    "description": "A practical guide to the best restaurants in Amsterdam: the standout tables, the best areas for dinner, and which meals are actually worth planning ahead for.",
+    "canonical": "https://travelsides.com/amsterdam/best-restaurants/"
+  },
+  "hero": {
+    "eyebrow": "Amsterdam Restaurant Guide",
+    "title": "Best Restaurants in Amsterdam",
+    "tagline": "The dinner shortlist for a city break: the Amsterdam tables worth planning ahead for, the neighborhoods that work best at night, and where the meal should become part of the trip.",
+    "image": "/amsterdam/images/de-kas.png"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See the food guide",
+      "url": "/amsterdam/food/"
+    }
+  },
+  "page_context": {
+    "label": "Pillar guide",
+    "timeframe": "Best restaurants in 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Dinner shortlist",
+    "note": "This page answers the broad restaurant question first: which Amsterdam tables deserve real planning, which dinner neighborhoods are strongest, and where booking ahead matters most.",
+    "next_refresh": "After the next restaurant and dining-area review"
+  },
+  "intro_html": "<p><strong>The best restaurants in Amsterdam are not just the ones with the biggest names.</strong> The tables that matter most are the ones that give the evening shape: a greenhouse lunch that feels like a destination, a canal-side dinner that turns into a walk, or a restaurant district that still feels good after the reservation ends.</p><p>This page is the short list for visitors who want one or two meals to become part of the trip. Use it to decide which dinner deserves planning, which neighborhood fits the night, and which bookings are strong enough to shape the itinerary.</p>",
+  "facts": [
+    {
+      "icon": "🌙",
+      "label": "Best use",
+      "value": "One or two serious dinner reservations"
+    },
+    {
+      "icon": "📍",
+      "label": "Best dinner areas",
+      "value": "Jordaan, De Pijp, Oost, Noord"
+    },
+    {
+      "icon": "🎟",
+      "label": "Book ahead",
+      "value": "De Kas, Vuurtoreneiland, Vinkeles"
+    },
+    {
+      "icon": "🍷",
+      "label": "Best pace",
+      "value": "Let dinner shape the evening"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Choose the evening first, then the restaurant",
+      "body": "A harbour platform, greenhouse lunch, canal-ring tasting room, or Noord skyline dinner all create different versions of Amsterdam after dark."
+    },
+    {
+      "title": "Book the one table that matters most",
+      "body": "Most trips do not need every dinner to be ambitious. One memorable reservation plus easier lunches is usually a smarter balance."
+    },
+    {
+      "title": "Let the neighborhood finish the night",
+      "body": "The strongest Amsterdam dinners are often the ones that spill into a walk, a bar, or a district with enough energy to keep the evening going."
+    }
+  ],
+  "attractions": [
+    {
+      "name": "Restaurant De Kas",
+      "category": "Best Table #1",
+      "badge": "Most iconic dinner",
+      "image_url": "/amsterdam/images/de-kas.png",
+      "metas": [
+        "Best for destination dining",
+        "Amsterdam Oost",
+        "Set menu from €65"
+      ],
+      "hook": "If one Amsterdam meal should feel unmistakably tied to the city, this is the strongest answer.",
+      "description": "De Kas turns a meal into a setting: a historic greenhouse, produce-led cooking, and a part of Oost that feels slightly removed from the tourist core. It is the easiest answer when you want one reservation that genuinely earns a place in the trip.",
+      "tip": "Lunch is often easier to book than dinner and still gives you the full greenhouse effect.",
+      "url": "/amsterdam/food/",
+      "cta": "See the full food guide"
+    },
+    {
+      "name": "Vuurtoreneiland",
+      "category": "Best Table #2",
+      "badge": "The full ritual",
+      "image_url": "/amsterdam/images/vuurtoreneiland.png",
+      "metas": [
+        "Best for a special night",
+        "Boat transfer included",
+        "Books out early"
+      ],
+      "hook": "This is not just dinner. It is the kind of booking that can become the memory of the trip.",
+      "description": "Vuurtoreneiland is the strongest answer when you want Amsterdam dining to feel like an event in itself. The boat ride, island setting, and fixed progression make it less like a restaurant reservation and more like a planned evening ritual.",
+      "tip": "Build the night around it and book as soon as your dates are firm.",
+      "url": "/amsterdam/food/",
+      "cta": "See the experience-dining guide"
+    },
+    {
+      "name": "Jordaan and the Canal Ring",
+      "category": "Best Area #3",
+      "badge": "Best for classic evenings",
+      "image_url": "/amsterdam/images/jordaan_home.png",
+      "metas": [
+        "Best for a walk-after-dinner city feel",
+        "Works for couples and first-timers",
+        "Strong brown-café follow-up"
+      ],
+      "hook": "Choose this if the meal should end in an Amsterdam walk rather than a taxi back from somewhere isolated.",
+      "description": "Jordaan and the canal ring do not always have the most theatrical reservations, but they often deliver the best overall evening. Dinner folds naturally into canal walks, quiet drinks, and the version of Amsterdam most first-time visitors hope to feel.",
+      "tip": "This is the safest answer if you want atmosphere around the table, not only on it.",
+      "url": "/amsterdam/jordaan/",
+      "cta": "See the Jordaan guide"
+    },
+    {
+      "name": "De Pijp",
+      "category": "Best Area #4",
+      "badge": "Best for lively nights",
+      "image_url": "/amsterdam/images/de_pijp.png",
+      "metas": [
+        "Best for bars and dinner density",
+        "Younger energy",
+        "Easy to keep the night moving"
+      ],
+      "hook": "Stay or dine here when you want the city to feel alive after the reservation ends.",
+      "description": "De Pijp works best when food is part of a larger night rather than a stand-alone performance. It has the density, energy, and restaurant-bar rhythm to make dinner feel like the first act instead of the whole show.",
+      "tip": "A good fit for groups, late dinners, or travelers who want less ceremony and more momentum.",
+      "url": "/amsterdam/de-pijp/",
+      "cta": "See the De Pijp guide"
+    },
+    {
+      "name": "Noord",
+      "category": "Best Area #5",
+      "badge": "Best for skyline views",
+      "image_url": "/amsterdam/images/noord.png",
+      "metas": [
+        "Best for modern dining mood",
+        "Ferry adds a sense of occasion",
+        "Stronger for deliberate plans"
+      ],
+      "hook": "Noord works when you want dinner to feel like a destination, not just the nearest good address.",
+      "description": "From high-view dining to creative warehouse-edge spots, Noord gives Amsterdam’s restaurant scene a more contemporary personality. It works best when you deliberately want that shift in mood and do not mind the ferry as part of the route.",
+      "tip": "Great for sunset and skyline dinners, less ideal if you want maximum spontaneity after eating.",
+      "url": "/amsterdam/noord/",
+      "cta": "See the Noord guide"
+    }
+  ],
+  "products": [
+    {
+      "title": "Amsterdam Food Guide",
+      "description": "Use this if you want the deeper restaurant shortlist and more experience-dining picks.",
+      "link": "/amsterdam/food/",
+      "cta": "Open food guide"
+    },
+    {
+      "title": "Where To Stay in Amsterdam",
+      "description": "Use this if restaurant density and neighborhood mood should influence where you base yourself.",
+      "link": "/amsterdam/where-to-stay/",
+      "cta": "Open stay guide"
+    },
+    {
+      "title": "Amsterdam Neighbourhoods Guide",
+      "description": "Use this if you want the district-level mood check before you decide which dinner area suits you best.",
+      "link": "/amsterdam/neighbourhoods/",
+      "cta": "Compare districts"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Jordaan, Canal Ring, and Oud-West dinners are best when the walk there or the walk back is part of the evening."
+    },
+    {
+      "icon": "🚋",
+      "text": "Oost and De Pijp are easy by tram and work well when you want a serious dinner outside the most tourist-dense streets."
+    },
+    {
+      "icon": "⛴",
+      "text": "For Noord reservations, treat the ferry as part of the ritual and build in a little buffer before the table time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the best restaurants in Amsterdam for visitors?",
+      "a": "The strongest visitor picks are usually the restaurants that make the evening feel specific to Amsterdam, such as De Kas, Vuurtoreneiland, or a canal-ring dinner that folds into a proper neighborhood walk afterward."
+    },
+    {
+      "q": "Which area is best for restaurants in Amsterdam?",
+      "a": "De Pijp is strongest for restaurant density and energy, Jordaan and the canal ring are best for classic atmospheric evenings, and Oost is one of the best areas for destination-style dining."
+    },
+    {
+      "q": "Do I need to book restaurants in Amsterdam in advance?",
+      "a": "For the most notable tables, yes. De Kas, Vuurtoreneiland, and Amsterdam’s more celebrated tasting rooms are much easier if you book once your dates are fixed."
+    }
+  ]
+}
