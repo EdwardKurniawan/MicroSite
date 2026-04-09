@@ -1,0 +1,95 @@
+{
+  "title": "Kanazawa Events This Month",
+  "seo": {
+    "title": "Kanazawa Events This Month (April 2026): What To See, Pace, and Plan Around",
+    "description": "A practical monthly Kanazawa events guide: what is happening this month, what deserves attention right now, and which seasonal angles should shape the trip.",
+    "canonical": "https://travelsides.com/kanazawa/events/this-month/"
+  },
+  "hero": {
+    "eyebrow": "Kanazawa This Month",
+    "title": "Kanazawa Events This Month",
+    "tagline": "The month-level view: what the city is leaning toward right now, how spring changes the best route, and which parts of Kanazawa deserve more time this month.",
+    "image": "/kanazawa/images/hero.jpg"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Kanazawa Events",
+      "url": "/kanazawa/events/"
+    }
+  },
+  "page_context": {
+    "label": "Month planning guide",
+    "timeframe": "April 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Updated now",
+    "note": "For April 2026, the strongest live planning signal in Kanazawa is the spring garden-and-district window. Clear mornings, blossom timing, and more walkable afternoons make the city feel bigger and more generous than it does in harsher weather.",
+    "next_refresh": "Week of April 27, 2026"
+  },
+  "intro_html": "<p><strong>This month in Kanazawa is mainly about spring making the city easier to walk and more rewarding to pace slowly.</strong> The big decision is less about chasing a long events calendar and more about knowing how much time Kenroku-en, the old quarters, and one softer afternoon deserve right now.</p>",
+  "facts": [
+    { "icon": "📌", "label": "Use this for", "value": "Month-level route planning" },
+    { "icon": "🌸", "label": "Current edge", "value": "Spring garden and district timing" },
+    { "icon": "🚶", "label": "Best mode", "value": "Walk-first days with light bus backup" }
+  ],
+  "todos": [
+    {
+      "title": "Use the month to decide how garden-heavy the trip should be",
+      "body": "April often justifies more time in Kenroku-en and around the castle than a winter or midsummer visit would."
+    },
+    {
+      "title": "Let the old quarters absorb the better weather",
+      "body": "This is a month when Higashiyama and the temple slopes often reward free time more than another indoor stop."
+    }
+  ],
+  "events": [
+    {
+      "kicker": "Seasonal",
+      "timing": "April 2026",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30",
+      "event_type": "seasonal",
+      "status": "Live this month",
+      "district": "Kenroku-en + castle area",
+      "booking_priority": "Prioritize the first morning here",
+      "title": "Spring garden season is the clearest April swing factor",
+      "description": "April is when Kanazawa's major garden-and-castle block feels most obviously worth a long morning, especially if the weather is clear and you want the city at its most generous on foot.",
+      "venue": "Kenroku-en + castle",
+      "url": "/kanazawa/events/",
+      "link_label": "Back to the events guide"
+    },
+    {
+      "kicker": "District Mood",
+      "timing": "April afternoons",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30",
+      "event_type": "editorial",
+      "status": "Weather dependent",
+      "district": "Higashiyama + Nagamachi",
+      "booking_priority": "Keep one flexible district block",
+      "title": "Historic-quarter walking gets more rewarding this month",
+      "description": "Higashiyama, Nagamachi, and the smaller transition streets between them all work better when the air is milder and the city invites longer walks instead of quick dashes between sights.",
+      "venue": "Old quarters",
+      "url": "/kanazawa/where-to-stay/",
+      "link_label": "Use the stay guide"
+    },
+    {
+      "kicker": "Food Angle",
+      "timing": "Spring shoulder season",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30",
+      "event_type": "editorial",
+      "status": "Live this month",
+      "district": "Omicho + Katamachi",
+      "booking_priority": "Use one lunch and one dinner well",
+      "title": "This is a good month to split the food plan across lunch and dinner",
+      "description": "Kanazawa in April often works best when Omicho owns one daytime meal and Katamachi or a slower regional dinner shapes one evening, instead of trying to do everything through the market alone.",
+      "venue": "Market + dining district",
+      "url": "/kanazawa/best-restaurants/",
+      "link_label": "Open the restaurant guide"
+    }
+  ],
+  "getting_there": [
+    { "icon": "💡", "text": "If the weather is good, do not overuse buses this month. Kanazawa's core is one of the easiest Japanese cities to overcomplicate." },
+    { "icon": "🚶", "text": "April is one of the months when the city most rewards linking the garden, old quarters, and food stops on foot." }
+  ]
+}

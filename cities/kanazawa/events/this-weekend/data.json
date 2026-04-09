@@ -1,0 +1,95 @@
+{
+  "title": "Kanazawa This Weekend",
+  "seo": {
+    "title": "What's Happening in Kanazawa This Weekend (April 10 to 12, 2026 Guide)",
+    "description": "A practical Kanazawa weekend guide: where the atmosphere is strongest, how to use spring weather well, and which neighborhoods justify your free time this weekend.",
+    "canonical": "https://travelsides.com/kanazawa/events/this-weekend/"
+  },
+  "hero": {
+    "eyebrow": "Kanazawa This Weekend",
+    "title": "What's Happening in Kanazawa This Weekend",
+    "tagline": "Use the weekend lens when atmosphere matters more than volume: where the city feels strongest from Friday through Sunday and how to let Kanazawa stay elegant instead of rushed.",
+    "image": "/kanazawa/images/hero.jpg"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See All Kanazawa Events",
+      "url": "/kanazawa/events/"
+    }
+  },
+  "page_context": {
+    "label": "Weekend planning guide",
+    "timeframe": "Weekend of April 10 to 12, 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Weekend read",
+    "note": "This weekend sits inside Kanazawa's spring walking window, which means the strongest planning tension is between giving the garden and old quarters enough time and keeping the schedule loose enough for tea, food, and district wandering.",
+    "next_refresh": "Before the weekend of April 17 to 19, 2026"
+  },
+  "intro_html": "<p><strong>Weekend Kanazawa is at its best when you let one evening and one long walking block define the trip.</strong> The city does not need a frantic pace; it needs good sequencing and enough room for the historic core to breathe.</p>",
+  "facts": [
+    { "icon": "🌙", "label": "Weekend priority", "value": "One evening with shape" },
+    { "icon": "🏯", "label": "Best daytime block", "value": "Garden + one old quarter" },
+    { "icon": "🍣", "label": "Best evening area", "value": "Katamachi" }
+  ],
+  "todos": [
+    {
+      "title": "Anchor one evening properly",
+      "body": "A market-led dinner, Katamachi night, or slower tea-and-district evening is enough. Kanazawa does not need three nightlife moves."
+    },
+    {
+      "title": "Keep one afternoon open for whichever district clicks most",
+      "body": "The city's real payoff often comes from lingering longer than planned in Higashiyama or Nagamachi once the day has settled."
+    }
+  ],
+  "events": [
+    {
+      "kicker": "Friday Night",
+      "timing": "Best first move",
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-10",
+      "event_type": "weekend-pattern",
+      "status": "This Friday",
+      "district": "Katamachi",
+      "booking_priority": "Set the dinner neighborhood now",
+      "title": "Start with a dinner-led Katamachi evening",
+      "description": "Friday is best used to make Kanazawa feel inhabited rather than historic-only. Katamachi gives the city a looser, more local night than the preserved quarters do.",
+      "venue": "Katamachi",
+      "url": "/kanazawa/katamachi/",
+      "link_label": "See the district"
+    },
+    {
+      "kicker": "Saturday",
+      "timing": "April 11, 2026",
+      "start_date": "2026-04-11",
+      "end_date": "2026-04-11",
+      "event_type": "weekend-pattern",
+      "status": "This Saturday",
+      "district": "Kenroku-en + Higashiyama",
+      "booking_priority": "Do the garden block early",
+      "title": "Use Saturday for the classic Kanazawa pairing",
+      "description": "Saturday is strongest as one serious morning in Kenroku-en and the castle area, followed by a slower old-quarter stretch once the city feels more legible.",
+      "venue": "Garden + old quarter",
+      "url": "/kanazawa/gardens/",
+      "link_label": "Set the daytime anchor"
+    },
+    {
+      "kicker": "Sunday",
+      "timing": "Best slowdown",
+      "start_date": "2026-04-12",
+      "end_date": "2026-04-12",
+      "event_type": "weekend-pattern",
+      "status": "This Sunday",
+      "district": "Nagamachi + tea stops + museum option",
+      "booking_priority": "Leave the route loose",
+      "title": "Let Sunday lean quieter and more selective",
+      "description": "Sunday suits a more edited Kanazawa: one district with room for tea, one cultural stop if it still feels right, and enough slack that the city can stay graceful rather than scheduled.",
+      "venue": "Historic core",
+      "url": "/kanazawa/nagamachi/",
+      "link_label": "Pick the quieter angle"
+    }
+  ],
+  "getting_there": [
+    { "icon": "🚶", "text": "On spring weekends, the center is usually best handled on foot once you have reached the historic core." },
+    { "icon": "🚌", "text": "Use the Loop Bus as a reset between the station and the core, not as the main way to spend the whole weekend." }
+  ]
+}

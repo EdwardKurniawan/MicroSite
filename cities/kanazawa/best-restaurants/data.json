@@ -1,0 +1,175 @@
+{
+  "title": "Best Restaurants in Kanazawa (2026 Guide)",
+  "seo": {
+    "title": "Best Restaurants in Kanazawa (2026): Seafood, Kaga Cuisine, and the Meals Worth Planning",
+    "description": "A practical guide to the best restaurants and food experiences in Kanazawa: where to eat seafood, where Kaga cuisine actually matters, and which meals deserve planning ahead.",
+    "canonical": "https://travelsides.com/kanazawa/best-restaurants/"
+  },
+  "hero": {
+    "eyebrow": "Kanazawa Restaurant Guide",
+    "title": "Best Restaurants in Kanazawa",
+    "tagline": "The dinner-first shortlist: the seafood, Kaga-cuisine, market, and tea stops that make the city worth planning a meal around, not just grabbing the nearest reservation.",
+    "image": "/kanazawa/images/food.jpg"
+  },
+  "navigation": {
+    "cta": {
+      "label": "See the food guide",
+      "url": "/kanazawa/food/"
+    }
+  },
+  "page_context": {
+    "label": "Pillar guide",
+    "timeframe": "Best restaurants in 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Dinner shortlist",
+    "note": "This page answers the broad dining question first: which Kanazawa meals deserve real planning, which areas are strongest at lunch or dinner, and when seasonality changes what to order.",
+    "next_refresh": "After the next Kanazawa food pass"
+  },
+  "intro_html": "<p><strong>The best meals in Kanazawa are not just expensive dinners.</strong> The city is strongest when you let one or two food decisions reveal the region properly: a serious market breakfast, a Kaga-cuisine lunch, a nodoguro or crab dinner in season, or an evening in Katamachi that feels lived-in rather than polished for tourists.</p><p>This page is the shortlist for travelers who want one meal to help explain the city, not just fill a gap between gardens and districts.</p>",
+  "facts": [
+    {
+      "icon": "🌙",
+      "label": "Best use",
+      "value": "One strong seafood meal, one lighter local stop"
+    },
+    {
+      "icon": "📍",
+      "label": "Best dinner area",
+      "value": "Katamachi"
+    },
+    {
+      "icon": "🦀",
+      "label": "Season that changes everything",
+      "value": "Winter crab season"
+    },
+    {
+      "icon": "🍵",
+      "label": "Best slow stop",
+      "value": "Tea and wagashi in Higashiyama"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Decide whether the key meal is lunch or dinner",
+      "body": "Kanazawa works well when Omicho or Kaga cuisine owns one daytime slot and seafood or izakaya culture owns one evening."
+    },
+    {
+      "title": "Let the season influence the order",
+      "body": "Winter crab, nodoguro, and cooler-weather dishes shift the smartest meal choices in ways that are worth planning around."
+    },
+    {
+      "title": "Use the neighborhood to finish the meal properly",
+      "body": "The strongest Kanazawa food plans end in a district walk, tea stop, or low-key bar rather than a fast move back to the hotel."
+    }
+  ],
+  "attractions": [
+    {
+      "name": "Omicho Market breakfast or seafood lunch",
+      "category": "Best Meal #1",
+      "badge": "Do this early",
+      "image_url": "/kanazawa/images/food.jpg",
+      "metas": [
+        "Best for first taste of the city",
+        "Morning is strongest",
+        "Great in every season"
+      ],
+      "hook": "If Kanazawa's relationship to the Sea of Japan is going to land quickly, this is the fastest way.",
+      "description": "Omicho is the clearest first food move because it shows the city’s seafood culture without ceremony. It works as breakfast, an early lunch, or a market-led beginning to the day before the old quarters and garden blocks take over.",
+      "tip": "Go earlier than the busiest lunch window if you want the market to feel vivid instead of crowded.",
+      "url": "/kanazawa/food/",
+      "cta": "Open the food guide"
+    },
+    {
+      "name": "One proper Kaga-cuisine meal",
+      "category": "Best Meal #2",
+      "badge": "Most local depth",
+      "image_url": "/kanazawa/images/culture.jpg",
+      "metas": [
+        "Best for regional identity",
+        "Lunch can be the smarter move",
+        "Good after the garden area"
+      ],
+      "hook": "Kanazawa becomes more specific once you stop treating it as generic sushi territory and let Kaga cuisine in.",
+      "description": "Kaga cuisine is the most revealing answer if you want food to explain local history, not just ingredient quality. A slower lunch or early dinner near the garden and cultural core is often the best way to use it.",
+      "tip": "Lunch is often easier and more proportional than a full dinner if the trip is short.",
+      "url": "/kanazawa/food/",
+      "cta": "See the regional food guide"
+    },
+    {
+      "name": "Katamachi izakaya and bar night",
+      "category": "Best Area #3",
+      "badge": "Best for evenings",
+      "image_url": "/kanazawa/images/katamachi.jpg",
+      "metas": [
+        "Best for dinner density",
+        "Most lived-in after dark",
+        "Good for short trips"
+      ],
+      "hook": "This is the strongest area if dinner should turn into an evening rather than a destination meal only.",
+      "description": "Katamachi is where Kanazawa feels most like a working city at night. It is the easiest choice for izakaya, seafood counters, bars, and a night that can stay relaxed instead of overplanned.",
+      "tip": "Best if you want one dinner to roll naturally into drinks or another stop rather than end at the bill.",
+      "url": "/kanazawa/katamachi/",
+      "cta": "See the Katamachi guide"
+    },
+    {
+      "name": "Tea, wagashi, and a softer afternoon in Higashiyama",
+      "category": "Best Move #4",
+      "badge": "Most understated pick",
+      "image_url": "/kanazawa/images/higashiyama.jpg",
+      "metas": [
+        "Best for slower pacing",
+        "Afternoon works best",
+        "Strong with spring or autumn walks"
+      ],
+      "hook": "Not every memorable meal in Kanazawa should be a seafood event.",
+      "description": "Tea and wagashi in Higashiyama give the city a quieter culinary note and often fit better than another heavy meal. It is one of the best ways to let Kanazawa feel refined without pushing too hard.",
+      "tip": "Use this on the same day as the geisha quarter or temple trail, not as a separate food mission.",
+      "url": "/kanazawa/higashiyama/",
+      "cta": "See the Higashiyama guide"
+    }
+  ],
+  "products": [
+    {
+      "title": "Kanazawa Food Guide",
+      "description": "Use this for the deeper category-level breakdown of seafood, Kaga cuisine, markets, and local specialties.",
+      "link": "/kanazawa/food/",
+      "cta": "Open food guide"
+    },
+    {
+      "title": "Where To Stay in Kanazawa",
+      "description": "Use this if dinner neighborhoods should influence where you base yourself.",
+      "link": "/kanazawa/where-to-stay/",
+      "cta": "Open stay guide"
+    },
+    {
+      "title": "Kanazawa Events Guide",
+      "description": "Use this if seasonal windows like crab season or garden peaks should shape the food plan.",
+      "link": "/kanazawa/events/",
+      "cta": "Open events guide"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Omicho, Higashiyama, and Katamachi are close enough that food plans work best when they follow the route of the day rather than fighting it."
+    },
+    {
+      "icon": "🚌",
+      "text": "If you use the Loop Bus for a dinner plan, make sure the evening ride back is still worth it versus simply walking to a more central area."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the best restaurants in Kanazawa for visitors?",
+      "a": "The strongest visitor picks are usually a seafood meal around Omicho or Katamachi, one proper Kaga-cuisine experience, and a tea or wagashi stop that reflects the city's quieter side."
+    },
+    {
+      "q": "What food is Kanazawa best known for?",
+      "a": "Kanazawa is best known for seafood from the Sea of Japan, especially crab in winter and nodoguro, along with Kaga cuisine, wagashi sweets, and tea culture."
+    },
+    {
+      "q": "Which area is best for dinner in Kanazawa?",
+      "a": "Katamachi is the strongest answer for dinner density and evening energy, while Omicho is stronger earlier in the day and Higashiyama suits slower tea and sweets stops."
+    }
+  ]
+}

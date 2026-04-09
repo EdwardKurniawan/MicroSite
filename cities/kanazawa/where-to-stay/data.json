@@ -1,0 +1,179 @@
+{
+  "title": "Where To Stay in Kanazawa (2026 Guide)",
+  "seo": {
+    "title": "Where To Stay in Kanazawa (2026): Best Areas for First-Time Visitors",
+    "description": "A practical guide to where to stay in Kanazawa: the best areas for first-time visitors, food-led evenings, old-quarter atmosphere, and easy walking days.",
+    "canonical": "https://travelsides.com/kanazawa/where-to-stay/"
+  },
+  "hero": {
+    "eyebrow": "Kanazawa Stay Guide",
+    "title": "Where To Stay in Kanazawa",
+    "tagline": "The district guide for choosing the right base: where first-time visitors should stay, which areas suit food and evening walks best, and how to pick the version of the city you want to come back to at night.",
+    "image": "/kanazawa/images/katamachi.jpg"
+  },
+  "navigation": {
+    "cta": {
+      "label": "Compare Neighbourhoods",
+      "url": "/kanazawa/higashiyama/"
+    }
+  },
+  "page_context": {
+    "label": "Pillar guide",
+    "timeframe": "Where to stay in 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Stay strategy",
+    "note": "This page is the stay-intent shortlist for Kanazawa. It answers the practical base question first: which district fits your walking rhythm, dinners, and preferred version of the city before you start comparing hotel names.",
+    "next_refresh": "After the next Kanazawa district review"
+  },
+  "intro_html": "<p><strong>Where you stay in Kanazawa matters because the city changes mood block by block.</strong> A base near Katamachi gives you easy dinners and nightlife, Higashiyama gives you atmospheric mornings, Nagamachi gives you quiet historic walking, and Nishi Chaya suits travelers who want a more understated traditional edge.</p><p>The right choice is usually less about transit and more about how you want the city to feel after 5pm. This guide narrows that choice before you get lost in hotel lists.</p>",
+  "facts": [
+    {
+      "icon": "🛏",
+      "label": "Best first-time base",
+      "value": "Nagamachi or Katamachi"
+    },
+    {
+      "icon": "🍽",
+      "label": "Best for food",
+      "value": "Katamachi"
+    },
+    {
+      "icon": "🏮",
+      "label": "Best for atmosphere",
+      "value": "Higashiyama"
+    },
+    {
+      "icon": "🌙",
+      "label": "Best for calm",
+      "value": "Nishi Chaya"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Choose your base by evenings, not by map logic alone",
+      "body": "Kanazawa is compact enough that several districts are workable. The bigger difference is whether you want dining energy, quiet old streets, or a more ceremonial historic mood at the end of the day."
+    },
+    {
+      "title": "If you only have two nights, prioritize the district that makes walking easiest",
+      "body": "Short trips benefit most from being able to drift between sights, tea stops, and dinner without thinking too hard about buses."
+    },
+    {
+      "title": "Use one second district as a contrast, even if you stay elsewhere",
+      "body": "A Nagamachi stay plus a Higashiyama morning, or a Katamachi stay plus a Nishi Chaya evening, usually gives Kanazawa more range."
+    }
+  ],
+  "attractions": [
+    {
+      "name": "Nagamachi",
+      "category": "Best Area #1",
+      "badge": "Best first-time stay",
+      "image_url": "/kanazawa/images/nagamachi.jpg",
+      "metas": [
+        "Best for walking balance",
+        "Quiet evenings",
+        "Strong historic setting"
+      ],
+      "hook": "Nagamachi is the easiest all-round answer if you want Kanazawa to feel historic without becoming too precious.",
+      "description": "The samurai quarter sits in a useful middle ground: close enough to major sights, calm enough at night, and elegant without leaning too hard on tourist foot traffic. It is often the best first-time base if you want a composed version of the city.",
+      "tip": "Best for travelers who want to walk a lot and come back to somewhere quiet rather than nightlife-led.",
+      "url": "/kanazawa/nagamachi/",
+      "cta": "See the Nagamachi guide"
+    },
+    {
+      "name": "Katamachi",
+      "category": "Best Area #2",
+      "badge": "Best for food and evenings",
+      "image_url": "/kanazawa/images/katamachi.jpg",
+      "metas": [
+        "Best for dinner density",
+        "Most lively after dark",
+        "Good practical hub"
+      ],
+      "hook": "Choose Katamachi if the trip should feel easy once the sights close and dinner starts.",
+      "description": "Katamachi is the most convenient answer when you want a central base with dining and drinking energy built in. It is less atmospheric than the older quarters, but often stronger for travelers who want the city to keep moving at night.",
+      "tip": "A strong pick for short trips, food-first travelers, and anyone who values evening options over romance.",
+      "url": "/kanazawa/katamachi/",
+      "cta": "See the Katamachi guide"
+    },
+    {
+      "name": "Higashiyama",
+      "category": "Best Area #3",
+      "badge": "Best for historic atmosphere",
+      "image_url": "/kanazawa/images/higashiyama.jpg",
+      "metas": [
+        "Best for old-quarter mornings",
+        "Most atmospheric district",
+        "Softer evening pace"
+      ],
+      "hook": "Stay here if the emotional side of the city matters more than being in the most practical grid.",
+      "description": "Higashiyama gives you the version of Kanazawa people often travel for: preserved teahouse streets, temple slopes, and early mornings that feel older than the rest of the city. It is not the most all-purpose base, but it is the most evocative.",
+      "tip": "Best if you value atmosphere and early starts more than late-night convenience.",
+      "url": "/kanazawa/higashiyama/",
+      "cta": "See the Higashiyama guide"
+    },
+    {
+      "name": "Nishi Chaya",
+      "category": "Best Area #4",
+      "badge": "Best for quiet traditional nights",
+      "image_url": "/kanazawa/images/nishi-chaya.jpg",
+      "metas": [
+        "Best for low-key stays",
+        "Quietest old-quarter option",
+        "Good with Ninja Temple plans"
+      ],
+      "hook": "This is the right choice if you want Kanazawa's historic side without the busier energy of Higashiyama.",
+      "description": "Nishi Chaya is smaller, quieter, and less photographed, which is exactly its advantage. It suits travelers who want a traditional-feeling stay but do not need the city to perform for them every block of the day.",
+      "tip": "A good fit for slower travelers and anyone who prefers restraint over constant atmosphere.",
+      "url": "/kanazawa/nishi-chaya/",
+      "cta": "See the Nishi Chaya guide"
+    }
+  ],
+  "products": [
+    {
+      "title": "Kanazawa Best Things To Do",
+      "description": "Use this if your base should line up with the sights and sequence that matter most on a first trip.",
+      "link": "/kanazawa/best-things-to-do/",
+      "cta": "Open the ranked guide"
+    },
+    {
+      "title": "Kanazawa Events Guide",
+      "description": "Use this if the season or festival mood might change the smartest place to stay.",
+      "link": "/kanazawa/events/",
+      "cta": "Open events guide"
+    },
+    {
+      "title": "Best Restaurants in Kanazawa",
+      "description": "Use this if your evenings and dinner plans should influence where you base yourself.",
+      "link": "/kanazawa/best-restaurants/",
+      "cta": "Open restaurant guide"
+    }
+  ],
+  "getting_there": [
+    {
+      "icon": "🚶",
+      "text": "Kanazawa rewards walk-first stays. If you are planning around buses every hour, you are probably staying farther out than you need to."
+    },
+    {
+      "icon": "🚌",
+      "text": "Katamachi and Nagamachi are the easiest bases if you want the Loop Bus as backup rather than as the main plan."
+    },
+    {
+      "icon": "💡",
+      "text": "If you only have two nights, prioritize the base that makes dinner and a morning start feel effortless."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Where should first-time visitors stay in Kanazawa?",
+      "a": "Nagamachi and Katamachi are the strongest first-time answers because they balance walking convenience, access to food, and a sensible relationship to the main sights. Higashiyama is better if atmosphere matters more than practicality."
+    },
+    {
+      "q": "Is Higashiyama a good area to stay in Kanazawa?",
+      "a": "Yes, especially if you care most about old-quarter atmosphere and early-morning walks. It is not the most practical all-round base, but it is the most evocative."
+    },
+    {
+      "q": "What is the best area for food and nightlife in Kanazawa?",
+      "a": "Katamachi is the strongest answer for dinner density, izakayas, bars, and a more lived-in evening scene."
+    }
+  ]
+}

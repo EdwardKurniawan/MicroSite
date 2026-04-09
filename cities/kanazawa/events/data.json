@@ -1,0 +1,148 @@
+{
+  "title": "Kanazawa Events (2026 Guide)",
+  "seo": {
+    "title": "What's Happening in Kanazawa (2026): Seasons, Festivals, and City Mood",
+    "description": "A practical guide to what's happening in Kanazawa: seasonal windows, citywide moments, and the periods that should change how you plan the trip.",
+    "canonical": "https://travelsides.com/kanazawa/events/"
+  },
+  "hero": {
+    "eyebrow": "Kanazawa Events Guide",
+    "title": "What's Happening in Kanazawa",
+    "tagline": "The seasonal windows, local festivals, and city moods that should change when you visit, how you pace the old quarters, and which meals or districts deserve priority.",
+    "image": "/kanazawa/images/hero.jpg"
+  },
+  "navigation": {
+    "cta": {
+      "label": "This Month in Kanazawa",
+      "url": "/kanazawa/events/this-month/"
+    }
+  },
+  "page_context": {
+    "label": "Events planning guide",
+    "timeframe": "Updated for April 2026",
+    "last_updated": "April 9, 2026",
+    "freshness": "Current signal",
+    "note": "Kanazawa's strongest live April 2026 planning signal is the spring garden window around Kenroku-en and the old quarters, where clear weather and blossom timing still shape the best version of the city more than any single ticket.",
+    "next_refresh": "After the spring garden window fully turns to early-summer festival season"
+  },
+  "guide_pages": [
+    {
+      "title": "Kanazawa This Month",
+      "url": "/kanazawa/events/this-month/",
+      "description": "A month-level planning lens for what matters right now."
+    },
+    {
+      "title": "Kanazawa This Weekend",
+      "url": "/kanazawa/events/this-weekend/",
+      "description": "A short-break view of the city mood from Friday to Sunday."
+    }
+  ],
+  "intro_html": "<p><strong>What's happening in Kanazawa is usually less about giant event calendars and more about seasonal windows.</strong> Garden timing, district atmosphere, food seasonality, and a few annual cultural weekends can all change how the city should be done, especially if you only have two or three days.</p><p>This page is not trying to list everything. It is a planning guide to the moments that most often change what to do first, where to stay, and what deserves a booking or a slower pace.</p>",
+  "facts": [
+    { "icon": "📅", "label": "Best use", "value": "Pick the right season, then shape the trip" },
+    { "icon": "🌸", "label": "Spring edge", "value": "Kenroku-en and old-quarter mornings" },
+    { "icon": "🦀", "label": "Winter edge", "value": "Crab season and yukitsuri" },
+    { "icon": "🏮", "label": "Festival mood", "value": "A few key local weekends matter more than daily listings" }
+  ],
+  "todos": [
+    {
+      "title": "Check whether the season changes the city's best first move",
+      "body": "In spring and autumn especially, Kanazawa shifts toward gardens and walking districts. In winter, food and atmosphere become much more important."
+    },
+    {
+      "title": "Use the events layer to choose pace, not just dates",
+      "body": "Kanazawa rarely needs overplanning, but it does reward knowing whether the city wants to be walked slowly, eaten through, or paired with one seasonal day trip."
+    },
+    {
+      "title": "Book only the few things that really tighten",
+      "body": "Ninja Temple reservations, seasonal restaurants, and peak garden mornings matter more than a huge ticket list."
+    }
+  ],
+  "events": [
+    {
+      "kicker": "Spring Window",
+      "timing": "March to April",
+      "start_date": "2026-03-20",
+      "end_date": "2026-04-20",
+      "event_type": "seasonal",
+      "status": "Active now",
+      "district": "Kenroku-en + castle area + Higashiyama",
+      "booking_priority": "Prioritize the garden block first",
+      "title": "Spring garden season and old-quarter walking",
+      "description": "Spring is the clearest seasonal shift in Kanazawa for first-time visitors. Garden mornings, riverside walks, and the preserved districts all feel more generous in this window, which can change how much time the city deserves on foot.",
+      "venue": "Kenroku-en + old quarters",
+      "url": "/kanazawa/events/this-month/",
+      "link_label": "See the current spring angle"
+    },
+    {
+      "kicker": "Festival Season",
+      "timing": "Late spring to early summer",
+      "recurrence": "Annual",
+      "event_type": "festival",
+      "status": "Annual city moment",
+      "district": "Castle area + central streets",
+      "booking_priority": "Watch central stays and weekends",
+      "title": "Hyakumangoku season and local ceremonial weekends",
+      "description": "Kanazawa is not built around giant festival volume, but a few annual ceremonial weekends give the city more public energy, especially around the castle and the central streets. Those dates are worth knowing before you lock a short trip.",
+      "venue": "City center",
+      "url": "/kanazawa/events/",
+      "link_label": "Use the events guide"
+    },
+    {
+      "kicker": "Autumn Window",
+      "timing": "October to November",
+      "recurrence": "Annual",
+      "event_type": "seasonal",
+      "status": "Recurring",
+      "district": "Kenroku-en + temple slopes + old quarters",
+      "booking_priority": "Book peak foliage nights early",
+      "title": "Autumn color and cooler walking weather",
+      "description": "Autumn turns Kanazawa into one of Japan's strongest small-city walking trips: the garden, temple paths, and historic districts all benefit from cooler light and more deliberate pacing.",
+      "venue": "Across the historic core",
+      "url": "/kanazawa/events/",
+      "link_label": "See the seasonal guide"
+    },
+    {
+      "kicker": "Winter Window",
+      "timing": "November to February",
+      "recurrence": "Annual",
+      "event_type": "seasonal",
+      "status": "Recurring",
+      "district": "Kenroku-en + Omicho Market + Katamachi",
+      "booking_priority": "Reserve crab and winter dinners",
+      "title": "Crab season, snow support ropes, and the quietest city mood",
+      "description": "Winter gives Kanazawa one of its most distinctive identities: seafood season, snow-readied trees in Kenroku-en, and a city that feels more inward, atmospheric, and meal-led.",
+      "venue": "Gardens + market + dining districts",
+      "url": "/kanazawa/events/",
+      "link_label": "See winter planning angles"
+    }
+  ],
+  "getting_there": [
+    { "icon": "🚶", "text": "Kanazawa's event logic is usually walk-first. The old quarters and core sights are strongest when you let the season shape the route naturally." },
+    { "icon": "🚌", "text": "The Loop Bus matters most when the weather is poor or when you are connecting the station with the historic core at the start or end of the day." }
+  ],
+  "products": [
+    {
+      "title": "This Month in Kanazawa",
+      "description": "A date-aware look at the next seasonal window and the strongest current city mood.",
+      "link": "/kanazawa/events/this-month/",
+      "cta": "Open monthly guide"
+    },
+    {
+      "title": "This Weekend in Kanazawa",
+      "description": "Use this when you care most about how the city should feel from Friday through Sunday.",
+      "link": "/kanazawa/events/this-weekend/",
+      "cta": "Open weekend guide"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best time to visit Kanazawa for events and atmosphere?",
+      "a": "Spring and autumn are usually the strongest broad answers because the city's garden, district walks, and preserved quarters all benefit from the light and weather. Winter is strongest if food and quiet atmosphere matter more."
+    },
+    {
+      "q": "Do seasonal windows affect Kanazawa planning?",
+      "a": "Yes. Kanazawa is compact, but the season changes what deserves top billing: gardens in spring and autumn, food in winter, and certain annual festival weekends around late spring and early summer."
+    }
+  ]
+}
