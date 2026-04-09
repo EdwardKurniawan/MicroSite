@@ -14,6 +14,14 @@
       {{#if venue.rating}}<span>{{venue.rating}} / 5</span>{{/if}}
       {{#if venue.reviews}}<span>{{venue.reviews}} reviews</span>{{/if}}
       {{#if venue.duration}}<span>{{venue.duration}}</span>{{/if}}
+      {{#if venue.category}}<span>{{venue.category}}</span>{{/if}}
     </div>
+    {{#if venue.context.snapshot.length}}
+      <div class="hero-proof venue-hero-proof">
+        {{#each venue.context.snapshot}}
+          <span>{{label}}: {{value}}</span>
+        {{/each}}
+      </div>
+    {{/if}}
   </div>
 </section>

@@ -267,6 +267,11 @@ a {
   box-shadow: 0 0 0 5px rgba(232, 96, 28, 0.12);
 }
 
+.venue-hero-proof {
+  margin-top: 0.15rem;
+  max-width: 58rem;
+}
+
 .guide-overview-section {
   position: relative;
 }
@@ -1094,6 +1099,21 @@ a {
   margin-top: 1.3rem;
 }
 
+.venue-planning-stack {
+  gap: 1rem;
+}
+
+.venue-planning-card {
+  padding: 1.1rem 1.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.15rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.venue-planning-card p {
+  margin: 0.55rem 0 0;
+}
+
 .price-chip {
   position: static;
   background: rgba(255, 255, 255, 0.09);
@@ -1216,6 +1236,10 @@ a {
 }
 
 .pillar-support-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.venue-support-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 

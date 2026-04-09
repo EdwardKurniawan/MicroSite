@@ -42,19 +42,49 @@
       <div class="shell editorial-layout">
         <div class="editorial-stack">
           <article class="editorial-panel">
-            <h2 class="section-title" style="font-size:clamp(1.8rem, 3vw, 2.8rem);">Why it matters</h2>
-            <p class="page-subtitle-compact" style="margin-top:0.8rem;">{{venue.lead}}</p>
+            {{> section-heading eyebrow="Why It Matters" title=hero.title description=venue.lead}}
             <div class="copy-block" style="margin-top:1.2rem;">{{{venue.body_html}}}</div>
           </article>
+
+          {{#if venue.context.planning_tips.length}}
+            <article class="editorial-panel">
+              {{> section-heading eyebrow="How To Use It" title="Make these planning calls first"}}
+              <div class="editorial-stack venue-planning-stack">
+                {{#each venue.context.planning_tips}}
+                  <div class="venue-planning-card">
+                    <h3 class="sidebar-title">{{title}}</h3>
+                    <p>{{body}}</p>
+                  </div>
+                {{/each}}
+              </div>
+            </article>
+          {{/if}}
 
           {{#if venue.booking_url}}
             <article class="editorial-panel">
               <span class="section-eyebrow">Booking</span>
               <h2 class="sidebar-title">Reserve this stop before you lock the day</h2>
-              <p class="footer-copy">Use the tracked booking flow to compare pricing and avoid losing availability on popular dates.</p>
+              <p class="footer-copy">{{venue.context.booking_note}}</p>
               <div class="editorial-actions">
                 <a href="{{venue.booking_url}}" class="button-link">{{#if venue.booking_label}}{{venue.booking_label}}{{else}}Check Availability{{/if}}</a>
                 <a href="{{navigation.home_url}}#collections" class="button-link button-link-secondary">Compare More Options</a>
+              </div>
+            </article>
+          {{/if}}
+
+          {{#if venue.context.supporting_guides.length}}
+            <article class="editorial-panel">
+              {{> section-heading eyebrow="Keep Planning" title="Open the guides around this stop"}}
+              <div class="story-grid venue-support-grid">
+                {{#each venue.context.supporting_guides}}
+                  <a href="{{url}}" class="story-card story-card-support">
+                    <div class="story-body">
+                      <h3>{{title}}</h3>
+                      <p>{{description}}</p>
+                      <span class="story-link">Open guide</span>
+                    </div>
+                  </a>
+                {{/each}}
               </div>
             </article>
           {{/if}}
@@ -63,18 +93,35 @@
         <aside class="editorial-stack">
           <article class="toolkit-card">
             <h3>Visit Snapshot</h3>
-            <div class="transport-list">
-              {{#if venue.category}}<div class="transport-item"><strong>Category</strong>: {{venue.category}}</div>{{/if}}
-              {{#if venue.duration}}<div class="transport-item"><strong>Duration</strong>: {{venue.duration}}</div>{{/if}}
-              {{#if venue.opening_hours}}<div class="transport-item"><strong>Opening hours</strong>: {{venue.opening_hours}}</div>{{/if}}
-              {{#if venue.address}}<div class="transport-item"><strong>Address</strong>: {{venue.address}}</div>{{/if}}
-            </div>
+            {{#if venue.context.snapshot.length}}
+              <div class="transport-list">
+                {{#each venue.context.snapshot}}
+                  <div class="transport-item"><strong>{{label}}</strong>: {{value}}</div>
+                {{/each}}
+                {{#if venue.opening_hours}}<div class="transport-item"><strong>Opening hours</strong>: {{venue.opening_hours}}</div>{{/if}}
+                {{#if venue.address}}<div class="transport-item"><strong>Address</strong>: {{venue.address}}</div>{{/if}}
+              </div>
+            {{else}}
+              <div class="transport-list">
+                {{#if venue.category}}<div class="transport-item"><strong>Category</strong>: {{venue.category}}</div>{{/if}}
+                {{#if venue.duration}}<div class="transport-item"><strong>Duration</strong>: {{venue.duration}}</div>{{/if}}
+                {{#if venue.opening_hours}}<div class="transport-item"><strong>Opening hours</strong>: {{venue.opening_hours}}</div>{{/if}}
+                {{#if venue.address}}<div class="transport-item"><strong>Address</strong>: {{venue.address}}</div>{{/if}}
+              </div>
+            {{/if}}
           </article>
 
           <article class="toolkit-card">
-            <h3>Local Context</h3>
-            <p>{{author.bio}}</p>
+            <h3>Local Angle</h3>
+            <p>{{venue.context.local_angle}}</p>
             {{#if venue.rating}}<div class="editorial-note"><strong>Rating</strong> {{venue.rating}} / 5 from {{venue.reviews}} reviews.</div>{{/if}}
+          </article>
+
+          <article class="toolkit-card byline-card">
+            <span class="editorial-kicker">Editor</span>
+            <h3>{{author.name}}</h3>
+            <p>{{author.bio}}</p>
+            <a href="{{author.url}}" class="story-link">Meet the editor</a>
           </article>
         </aside>
       </div>
