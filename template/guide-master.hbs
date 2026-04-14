@@ -71,10 +71,10 @@
       </div>
     </section>
 
-    {{#if top_things.length}}
+    {{#if featured_attractions.length}}
       <section id="top-things" class="section-shell guide-top-things-section">
         <div class="shell">
-          {{> section-heading eyebrow="Best Things To Do" title="Start with the best things to do in the city" description="This is the short list for broad intent: what to do, what to see first, and which experiences should shape the first version of the itinerary."}}
+          {{> section-heading eyebrow="Featured Attractions" title="Start with the attractions worth building the trip around" description="This is the short list for broad intent: what to do first, what to see early, and which attractions should shape the first version of the itinerary."}}
           {{#if guide_pages.length}}
             <div class="section-utility-links">
               {{#each guide_pages}}
@@ -85,7 +85,7 @@
             </div>
           {{/if}}
           <div class="story-grid">
-            {{#each top_things}}
+            {{#each featured_attractions}}
               {{> top-thing-card}}
             {{/each}}
           </div>
