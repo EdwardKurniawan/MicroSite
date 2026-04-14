@@ -194,6 +194,62 @@
       "cta": "Open the stay guide"
     }
   ],
+  "featured_attractions": [
+    {
+      "kicker": "Museum Essential",
+      "title": "Rijksmuseum",
+      "description": "Amsterdam's signature museum and still the strongest single cultural anchor for a first trip. Use it to structure a full Museumplein morning, not as a quick stop.",
+      "url": "/rijksmuseum/?city=amsterdam",
+      "image": "/amsterdam/images/venues/rijksmuseum.jpg",
+      "alt": "Rijksmuseum Amsterdam exterior",
+      "cta": "Open attraction guide"
+    },
+    {
+      "kicker": "Book Early",
+      "title": "Anne Frank House",
+      "description": "The most time-sensitive attraction in Amsterdam. If you want it, book first and let the rest of the itinerary wrap around that slot.",
+      "url": "/anne-frank/?city=amsterdam",
+      "image": "/amsterdam/images/history.jpg",
+      "alt": "Anne Frank House canal view",
+      "cta": "See visit advice"
+    },
+    {
+      "kicker": "Art Icon",
+      "title": "Van Gogh Museum",
+      "description": "The cleanest second museum choice after the Rijksmuseum. It is best used as part of a Museumplein day rather than a separate cross-city detour.",
+      "url": "/van-gogh-museum/?city=amsterdam",
+      "image": "/amsterdam/images/venues/van-gogh-museum.jpg",
+      "alt": "Van Gogh Museum Amsterdam",
+      "cta": "Open attraction guide"
+    },
+    {
+      "kicker": "City Experience",
+      "title": "Heineken Experience",
+      "description": "A polished, tourist-friendly stop in De Pijp that works best when paired with a late lunch, a canal cruise, or an after-dark plan nearby.",
+      "url": "/heineken-experience/?city=amsterdam",
+      "image": "/amsterdam/images/venues/heineken-experience.jpg",
+      "alt": "Heineken Experience Amsterdam",
+      "cta": "See visit advice"
+    },
+    {
+      "kicker": "Skyline Pick",
+      "title": "A'DAM Lookout",
+      "description": "One of the easiest ways to give the trip a different perspective. Best used with a Noord block, not as a standalone hop across the river.",
+      "url": "/adam-lookout/?city=amsterdam",
+      "image": "/amsterdam/images/venues/adam-lookout.jpg",
+      "alt": "A'DAM Lookout Amsterdam",
+      "cta": "Open attraction guide"
+    },
+    {
+      "kicker": "Water Essential",
+      "title": "Classic Canal Cruise",
+      "description": "Still one of the smartest first-day moves in the city. A single well-timed cruise explains the canal ring faster than hours of wandering without context.",
+      "url": "/amsterdam/canal-cruises/",
+      "image": "/amsterdam/images/venues/canal-cruise-amsterdam.jpg",
+      "alt": "Amsterdam canal cruise boat",
+      "cta": "Compare cruise options"
+    }
+  ],
   "events": [
     {
       "kicker": "Spring",
